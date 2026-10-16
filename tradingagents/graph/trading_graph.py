@@ -9,6 +9,7 @@ from typing import Any
 
 import tradingagents
 from tradingagents.agents.context import build_instrument_context, resolve_instrument_identity
+from tradingagents.agents.output_quality import CompletionGuard
 from tradingagents.agents.rating import run_rating
 from tradingagents.dataflows.config import run_config, run_config_context, set_config
 from tradingagents.dataflows.date_window import get_current_date, is_historical
@@ -68,7 +69,9 @@ class TradingAgentsGraph:
         """
         self.debug = debug
         self.config = config or DEFAULT_CONFIG
-        self.callbacks = callbacks or []
+        self.callbacks = list(callbacks or [])
+        if self.config.get("strict_output_quality", False):
+            self.callbacks.append(CompletionGuard())
 
         set_config(self.config)
 

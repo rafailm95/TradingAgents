@@ -1,0 +1,2 @@
+# Preserve the frozen CSV byte hash, including the source CRLF line endings.
+btc_coinbase.csv -text whitespace=cr-at-eol

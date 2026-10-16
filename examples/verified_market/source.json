@@ -1,0 +1,7 @@
+{
+  "url": "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=86400&start=2026-02-01T00:00:00Z&end=2026-10-16T00:00:00Z",
+  "source": "Coinbase Exchange BTC-USD daily candles",
+  "cutoff": "2026-10-15",
+  "synthetic": false,
+  "rows": 257
+}

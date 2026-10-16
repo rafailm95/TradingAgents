@@ -24,6 +24,9 @@ from typing import Any, TypeVar
 
 from pydantic import BaseModel
 
+from tradingagents.agents.output_quality import OutputQualityError
+from tradingagents.dataflows.config import get_config
+
 logger = logging.getLogger(__name__)
 
 T = TypeVar("T", bound=BaseModel)
@@ -48,6 +51,8 @@ def bind_structured(llm: Any, schema: type[T], agent_name: str) -> Any | None:
     try:
         return llm.with_structured_output(schema)
     except (NotImplementedError, AttributeError) as exc:
+        if get_config().get("strict_output_quality", False):
+            raise OutputQualityError(f"{agent_name}: structured output unavailable") from exc
         logger.warning(
             "%s: provider does not support with_structured_output (%s); "
             "falling back to free-text generation",
@@ -64,6 +69,8 @@ def invoke_structured(structured_llm: Any | None, prompt: Any, agent_name: str) 
     shape), so a caller can forward the same value to its free-text fallback.
     """
     if structured_llm is None:
+        if get_config().get("strict_output_quality", False):
+            raise OutputQualityError(f"{agent_name}: structured output unavailable")
         return None
     try:
         result = structured_llm.invoke(prompt)
@@ -73,7 +80,11 @@ def invoke_structured(structured_llm: Any | None, prompt: Any, agent_name: str) 
             # as a structured miss and fall back, with a clear reason.
             raise ValueError("structured output returned no parsed result")
         return result
+    except OutputQualityError:
+        raise
     except Exception as exc:
+        if get_config().get("strict_output_quality", False):
+            raise OutputQualityError(f"{agent_name}: structured output failed") from exc
         logger.warning(
             "%s: structured-output invocation failed (%s); retrying once as free text",
             agent_name, exc,
