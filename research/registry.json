@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T17:14:55.525086+00:00",
+  "updated_utc": "2026-10-16T17:47:22.964359+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 21,
@@ -111,15 +111,21 @@
       "runtime_sha256": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
     }
   ],
-  "queue": [],
-  "active_experiment": null,
+  "queue": [
+    {
+      "id": "013",
+      "status": "AWAITING_HISTORICAL_INPUT_AND_REPLAY_ADAPTER",
+      "next": "Audit returned bybit_history_013.zip and complete/freeze causal replay adapter before computing all18asset-candidate results; preserve all failures."
+    }
+  ],
+  "active_experiment": "013",
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "570+1226+2020+3174=6990 simulation executions, with overlapping references/windows/WFA. Only42 unique strategy-sizing variants; correlated reused history, not6990 independent hypotheses. Older studies001/002/006 remain in their reports.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "No queued batch. Follow standing policy: preregister one new causal family before evaluating. Also consult research/realism_backlog.json; optional user venue/capital inputs do not block offline research.",
-  "execution_realism": "research/realism_backlog.json; live depth capture failed due runtime tunnel403 on2026-10-16. No live depth measurements, no paper-rule changes.",
+  "next_action": "Complete013using docs/BYBIT_HISTORY_013.json and docs/BYBIT_PERPETUAL_REPLAY_013.json. Build/audit replay adapter on synthetic inputs while awaiting historical capture; no strategy profit claim before real input audit. Do not rerun old data looking for a lucky winner.",
+  "execution_realism": "36validated real Bybit books and600fundingevents from a178.39second local capture; history collector ready. Broader execution coverage, historical price/mark/funding and actual account settings still needed. Old Coinbase cohorts unchanged.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",
@@ -132,6 +138,25 @@
       "recomputed_cost_scenarios": 144,
       "new_strategy_variants": 0,
       "new_strategy_simulations": 0
+    }
+  ],
+  "infrastructure_runs": [
+    {
+      "id": "013",
+      "status": "COLLECTOR_VALIDATED_AWAITING_HISTORY_AND_REPLAY_ADAPTER",
+      "report": "docs/BYBIT_HISTORY_013_STATUS.md",
+      "results": "research/experiments/013",
+      "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+      "new_strategy_variants": 0,
+      "reused_variants_planned": 6,
+      "assets": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "LTCUSDT"
+      ],
+      "new_strategy_simulations": 0,
+      "tests_passed": 86,
+      "conclusion": "Hourly history collector, deterministic audit, resumption and cash-flow kernel tested. Historical data and full replay adapter still required."
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "schema": "bybit_perpetual_replay_013_design_v1",
+  "status": "PREREGISTERED_DESIGN_REPLAY_ENGINE_AND_REAL_INPUTS_PENDING",
+  "purpose": "Transfer the strongest distinct previously explored families to actual Bybit history without selecting only a lucky winner. This file is a design contract, not a claim that replay has run.",
+  "venue": "Bybit Global USDT linear perpetuals",
+  "symbols": ["BTCUSDT", "ETHUSDT", "LTCUSDT"],
+  "capital_per_independent_simulation_usdt": 10000,
+  "position_policy": "Long or flat, one position per independent asset/candidate; no pyramiding, no borrowing, entry notional capped at50%of equity. Research accounting assumes1x fully cash-backed exposure. Actual user margin mode/leverage is unknown. Independent asset results must not be summed as a single10000USDT portfolio.",
+  "candidate_ids": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "candidate_selection_origin": "Six distinct families from the012post-hoc strength shortlist. Signal and sizing rules are reused unchanged from frozen sources. This family choice has already seen correlated Coinbase spot history; it is exploratory and not independent validation.",
+  "signal_code": ["tradingagents/strategy_lab.py", "tradingagents/strategy_families.py"],
+  "data_contract": "docs/BYBIT_HISTORY_013.json",
+  "warmup": ["2021-01-01", "2021-12-31"],
+  "training": ["2022-01-01", "2023-12-31"],
+  "evaluation": ["2024-01-01", "2026-10-15"],
+  "independent_window_initialization": "Each training/evaluation run starts flat at10000USDT, with past data used only for indicator warmup. No inherited positions or funding from a previous window.",
+  "signal_timing": "Aggregate exactly24complete UTC hourly traded-price candles per day. A signal formed on closed dayD is eligible at01:00UTC onD+1+lag_days. Execution reference is that hour's traded-price open with adverse slippage; no same-bar signal/fill. The one-hour buffer avoids the assumed00/08/16UTC funding boundaries.",
+  "lag_days": [0, 1, 2],
+  "holding_period": "Reuse each frozen family's max_hold measured in elapsed UTC days from its actual entry. Evaluate exits before entries; do not close and reopen in the same decision hour. A missing size-volatility feature blocks entry rather than assuming a value.",
+  "costs": [
+    {"name": "venue_assumption", "fee_bps_each_side": 5.5, "slippage_bps_each_side": 2},
+    {"name": "stress_assumption", "fee_bps_each_side": 10, "slippage_bps_each_side": 10}
+  ],
+  "cost_basis": "Current published standard taker fee is only a scenario, not a verified personal/historical fee tier. Slippage is an explicit fixed assumption, not measured historical execution. Existing Coinbase cohorts keep their original costs. The3minute real depth capture is diagnostic and does not justify historical fill capacity.",
+  "operating_expense_usdt_per_365_25_days": 120,
+  "funding": "Process every real settled event exactly once while the pre-event position is held. Cashflow=-signed_base_quantity*mark_price*settled_rate. Base valuation uses the hourly mark-price open at the funding boundary as a sampling proxy. No use of today's funding or constant notional for historical strategy PnL; no zero-fill of missing events.",
+  "funding_valuation_sensitivity": "Separately report an adverse5basis-point mark-valuation perturbation at each settlement: increase mark when paying and decrease mark when receiving. This is a sensitivity assumption, not a bound on the true settlement mark error.",
+  "quantity_constraints": "Round entry base quantity downward to collected qtyStep and check minOrderQty,minNotionalValue,maxMktOrderQty. These are current-filter proxies because historical rule snapshots are unavailable; reject invalid sizes, do not silently resize or split. Adverse simulated fill prices are rounded to current tickSize in the adverse direction and labeled current-rule proxies.",
+  "mark_and_margin_guard": "Mark equity each hour, also evaluate adverse hourly mark extremes while the position is held, reserve estimated exit fees, and stop the run as MARGIN_MODEL_UNSUPPORTED if remaining equity cannot fully cover marked notional plus exit fees or becomes nonpositive. Do not continue through a possible liquidation. This conservative guard is not an implementation of Bybit cross/isolated margin, historical risk tiers, insurance, ADL, or exact liquidation rules. No live-trading readiness claim is permitted.",
+  "terminal_close": "At the final fully closed hour in each window, flatten at that traded-price close with adverse slippage, tick rounding and taker fee. Label this scheduled research terminal close, not exchange liquidation. Funding precedes any exit at the same timestamp; new entries are not allowed at a funding timestamp.",
+  "train_selection": "Rank only candidates with positive training net PnL under both costs, sampled mark drawdown<=35%, at least10completed signal exits and no integrity/margin failure. Score=stress annualized net return/max(stress sampled drawdown,1%). Tie break candidate ID. If none qualify, select cash. Freeze the choice before computing evaluation outcomes.",
+  "evaluation_gate": "Positive net PnL after fees,funding,operating expense and terminal close in all six cost-by-lag scenarios and the adverse funding-valuation sensitivity; sampled mark drawdown<=35%; at least20completed signal exits; complete data; no integrity/margin failures.35%is a research screen, not user-approved risk tolerance. Passing is exploratory historical evidence, never proof of future profit.",
+  "benchmarks": "Cash and a separately disclosed50%-notional buy-and-hold perpetual using the same funding,cost,terminal-close and margin rules. Operational expense is120USDT/year for managed strategy/hold, zero for idle cash; report this distinction.",
+  "reporting": "For every candidate and failure report exact evaluation dates, net return%, net USDT PnL, fee/funding/operating breakdown, number of exits, hourly sampled drawdown%, actual peak-to-troughUSDT amount at that maximum%, and adverse intrahour mark excursion separately. Do not present an uncertain OHLC path as a known realized drawdown. No annualized future-income promise.",
+  "comparison_control": "All6variants on all3assets are retained, with base/stress,delay and funding-valuation outcomes. No parameter retuning or deletion of failed candidates. No new families in this transfer batch. Do not stop at the first green result.",
+  "before_execution": "Implement and audit the complete causal replay adapter, record source hashes in an additive engine freeze, preserve this design and collection freeze, audit the returned real archive, and pin its external hash BEFORE calculating or viewing any strategy PnL. The implemented cash-flow kernel alone is not a replay engine.",
+  "untouched_forward_evidence": "None in this batch. Existing seven-candidate Coinbase prospective cohorts and their pins remain unchanged. A Bybit forward cohort requires a separate versioned contract.",
+  "real_orders": 0,
+  "sources": [
+    "https://www.bybit.com/en/help-center/article/Profit-Loss-calculations-USDT-Contract",
+    "https://www.bybit.com/en/help-center/article/Funding-fee-calculation",
+    "https://www.bybit.com/en/help-center/article/Futures-Contracts-Fees-Explained",
+    "https://bybit-exchange.github.io/docs/v5/market/kline",
+    "https://bybit-exchange.github.io/docs/v5/market/mark-kline"
+  ]
+}

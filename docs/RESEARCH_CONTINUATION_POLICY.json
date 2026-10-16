@@ -17,6 +17,12 @@
     "historical_scope": "Existing Coinbase USD spot data stays spot; no relabeling as Bybit results. New perpetual strategy replay must use matching real Bybit price/mark/funding histories with gap/coverage checks and a separate preregistered contract. Funding and liquidation cannot be silently omitted.",
     "discovery": "Use docs/OPPORTUNITY_DISCOVERY_012.json to show promising families as well as failed gates. All42 variants and126asset-candidate rankings retained. Do not tune thresholds to force profit.",
     "reporting": "All PnL in percent and quote-currency amount. Actual drawdown amount from peak-to-trough equity, never simply initial capital times maxDD. Separate USD history and USDT future assumptions.",
-    "current_access": "User local capture2026-10-16T17:01..17:04UTC validated:36books,600fundingevents,78rawhashes,144costrecalculations. See research/measurements/bybit-20261016/. Assistant runtime remains blocked/not retested; snapshot span178.39seconds. Full perpetual/mark history absent, no strategy profitability measured."
+    "current_access": "User local capture2026-10-16T17:01..17:04UTC validated:36books,600fundingevents,78rawhashes,144costrecalculations. See research/measurements/bybit-20261016/. Assistant runtime remains blocked/not retested; snapshot span178.39seconds. Full perpetual/mark history absent, no strategy profitability measured.",
+    "next_batch_013": {
+      "collection_protocol": "docs/BYBIT_HISTORY_013.json",
+      "replay_design": "docs/BYBIT_PERPETUAL_REPLAY_013.json",
+      "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+      "status": "Collector and cash-flow kernel validated86tests; real history and full replay adapter pending. Existing001..012results and prospective pins preserved."
+    }
   }
 }

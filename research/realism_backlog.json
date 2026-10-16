@@ -1,12 +1,15 @@
 {
-  "reviewed_utc": "2026-10-16T17:14:55.524809+00:00",
-  "status": "LOCAL_CAPTURE_VALIDATED_FULL_PERPETUAL_REPLAY_PENDING",
+  "reviewed_utc": "2026-10-16T17:47:22.964359+00:00",
+  "status": "HISTORY_COLLECTOR_VALIDATED_AWAITING_LOCAL_CAPTURE_REPLAY_ADAPTER_PENDING",
   "implemented_now": [
     "Completed-week causal signal family with two sizing variants",
     "Standalone Level2 depth sweep diagnostic",
     "Base-increment rounding and minimum-market-funds checks",
     "Refusal of crossed/insufficient/auction/halted books",
-    "Synthetic independent cash-conservation and volume-level oracle"
+    "Synthetic independent cash-conservation and volume-level oracle",
+    "Resumable hash-verified public hourly trade/mark/funding collector with fixed request windows",
+    "Bounded offline ZIP audit and complete-day aggregation with no gap filling",
+    "Decimal USDT-linear cash-flow kernel with independent long/short funding and cash drawdown oracles"
   ],
   "observed_blockers": [
     {
@@ -69,10 +72,10 @@
     "capture_minutes": 2.9731666666666663
   },
   "next_required_work": [
-    "Obtain matching historical Bybit perpetual trade-price and mark-price candles plus funding covering the exact evaluation period.",
-    "Audit historical gaps and freeze a separate causal perpetual replay contract with funding and quantity constraints.",
-    "Test strongest distinct families with chronological selection, baseline/stress costs and preservation of all failures.",
-    "Collect broader depth/latency samples; do not extrapolate3minutes into reliable capacity or future quotes."
+    "Obtain and audit bybit_history_013.zip using the external archive hash and frozen013sources.",
+    "Implement and separately freeze the complete hourly causal replay adapter specified in docs/BYBIT_PERPETUAL_REPLAY_013.json before any strategy PnL calculation.",
+    "Evaluate all six preregistered variants across BTCUSDT/ETHUSDT/LTCUSDT with fees,funding,operating expense,stress/delay and margin guards; retain failures.",
+    "Broaden real depth observations beyond the existing3minute sample. Account fees and actual margin/leverage remain optional unverified inputs."
   ],
   "access_history": [
     {

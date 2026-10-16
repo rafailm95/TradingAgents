@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-16T17:46:26.723249+00:00",
+  "id": "013",
+  "classification": "Collection implementation and preregistered venue-transfer design; no actual historical Bybit strategy results",
+  "source_hashes": {
+    "docs/BYBIT_HISTORY_013.json": "76dff172969a269360e42af0cf9f976ae33f759b4eb2fcdd8791b4c5a77ee217",
+    "docs/BYBIT_PERPETUAL_REPLAY_013.json": "d9db498353d3f73b3de1341dcb266ab87391faaa5d279f7863bd4687d7ddad94",
+    "scripts/collect_bybit_history.py": "c1cf27572904d535b58912924ad071fa87e04fea7dca85c8f8575f409b4fa2b1",
+    "scripts/audit_bybit_history.py": "12d5dcf91f9f9c00f6aa6a3612cc86505557abde3a941fed1f4fd04287c9c8b5",
+    "tradingagents/bybit_history.py": "c7962ac62bad8df43a133b0379fee832f236058654adab0ff16cfcfc4dd06ad3",
+    "tradingagents/bybit_cashflow.py": "4ac92a609c4e44db76f065c0568826578eae801db71404dee7bd738a82461d34",
+    "tradingagents/bybit_depth.py": "f3b4f2e90a71f38651ae5b8386c17e6bbe369914c4f069e0b38bb78f886a0f41",
+    "tradingagents/strategy_lab.py": "7e259022c0a2c30906d6c2380695e584564237716e6cfb92586c9241ef81452c",
+    "tradingagents/strategy_families.py": "ee4d79dd1153b0d2271a4648c7ac17cf25b6127a8755069edc85bfaccbde325c",
+    "tests/test_bybit_history.py": "d0eebb36f4c846932b63b4f8446b0639e00f2f4649330b2bb9f3cc68ca47a612",
+    "tests/test_bybit_cashflow.py": "b9e72e4478e5df6552e7ea681163e7ed29c12a877899911199284e1f22bd7ca7",
+    "START_HISTORY.cmd": "0be636936f9f20f90e2ac1a1d1a39324f2371a504f39084f54a361e610f07a71",
+    "docs/BYBIT_HISTORY_COLLECTOR_EL.txt": "f4e0691904cc70254fffcea3fde0dbc676657334a463920a40bfc85586eca9f4"
+  },
+  "tests_passed": 86,
+  "real_strategy_simulations": 0,
+  "engine_status": "Decimal cash-flow kernel implemented and tested. Full causal hourly replay adapter pending; add a separate engine freeze before strategy calculations.",
+  "input_status": "Historical trade/mark series not yet received. Existing36books/600fundingevents remain valid snapshot evidence.",
+  "preserved_freezes": {
+    "011": {
+      "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d",
+      "source_files_verified": 26,
+      "all_unchanged": true
+    },
+    "012": {
+      "freeze_sha256": "348e44e5cef56ceaa9becb8822fe58b4ada12403d015c9ebd816c040c8aca213",
+      "source_files_verified": 10,
+      "all_unchanged": true
+    },
+    "docs/PAPER_AUTOMATION_RUNTIME.json": {
+      "sha256": "22c65210592af6a789cdc21014b045a515fe591d9f85f59a6213df8478b533c7",
+      "unchanged": true
+    },
+    "docs/EXPANDED_AUTOMATION_RUNTIME.json": {
+      "sha256": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8",
+      "unchanged": true
+    }
+  }
+}
