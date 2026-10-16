@@ -1,0 +1,26 @@
+{
+  "verified_utc": "2026-10-16T22:07:42.249327+00:00",
+  "freeze_sha256": "59291edfbb05990fd32ebd0be369ac22be1c4c75842a2d6e0a85fd5b5797c807",
+  "freeze_commit": "4c788ab5861dc7bc10fcf5d42f74f80155298ef9",
+  "selection_commit": "6e6ee508e1cf244fa80d239ef47cab8b9805b31e",
+  "sources_unchanged_after_outcomes": true,
+  "result_hashes_verified": 89,
+  "historical_runs": 89,
+  "integrity_replays": 2,
+  "raw_archive_hashes_reverified": 148,
+  "complete_runs": 89,
+  "audit_events": 7706153,
+  "max_error_usdt": "0",
+  "report": {
+    "name": "Futures_Binance_017_EL.html",
+    "sha256": "b5556521abdb6733b8bb1b207870f506f22b3ae6df0e628994bec5042bdeab4e",
+    "bytes": 30035
+  },
+  "evidence": {
+    "name": "Futures_Binance_017_Evidence.zip",
+    "sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+    "bytes": 197998387,
+    "crc": "PASS"
+  },
+  "real_orders": 0
+}

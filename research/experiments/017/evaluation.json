@@ -1,0 +1,3463 @@
+{
+  "schema": "binance017_evaluation_manifest_v1",
+  "input_sha256": "cccf3ff868465439ede973dd505c95d906c9e6eb9a9c31263c040fd053ccd00e",
+  "venue": "Binance USD-M perpetual",
+  "engine_freeze_sha256": "59291edfbb05990fd32ebd0be369ac22be1c4c75842a2d6e0a85fd5b5797c807",
+  "selection_sha256": "5a60dfc9c11d3cb286adea86a62533be2231dbcf314598f9560791b763012895",
+  "frozen_train_selection": {
+    "ETHUSDT": {
+      "selected": "cash",
+      "eligible": [],
+      "basis": "Training only, both costs at lag0, nominal funding valuation; frozen before evaluation."
+    }
+  },
+  "evaluation_bounds": [
+    1704067200000,
+    1767225600000
+  ],
+  "results": {
+    "ETHUSDT": {
+      "sma200_band__vol15_cap50": [
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "686b4b213f4e66fdf0b666a47b1946823579b66f34ea1c6e703d1f36b7fe43a6",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9742.166771654117219058687446",
+            "final_equity_after_exit_fee_usdt": "9742.166771654117219058687446",
+            "net_profit_usdt": "-257.833228345882780941312554",
+            "net_return_pct": "-2.5783322834588278094131255400",
+            "realized_price_pnl_usdt": "480.53622114068016",
+            "fees_usdt": "17.2556957388152630040",
+            "funding_usdt": "-480.949482700519751859312554",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -1.2967030114881404,
+            "max_drawdown_pct": "19.795936890625169328465360694465615705887344628525788532843718531662471574892878359684020202714891043805582649953580506975639981",
+            "cash_at_max_pct_drawdown_usdt": "2354.992320352351657483557073",
+            "max_cash_drawdown_usdt": "2354.992320352351657483557073",
+            "peak_at_max_pct_usdt": "11896.341826931230316587391780",
+            "trough_at_max_pct_usdt": "9541.349506578878659103834707"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "3353e5fc84b6c8cc79e8a40c8da6d31f1e13cc2da1e6f5741ee2b2ea0cbe1e7b",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9741.9305075716972169160566187120",
+            "final_equity_after_exit_fee_usdt": "9741.9305075716972169160566187120",
+            "net_profit_usdt": "-258.0694924283027830839433812880",
+            "net_return_pct": "-2.5806949242830278308394338128800",
+            "realized_price_pnl_usdt": "480.54129338580230",
+            "fees_usdt": "17.2554169921575808850",
+            "funding_usdt": "-481.1910977747195761209433812880",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -1.2978990613530152,
+            "max_drawdown_pct": "19.797160208721537216846428944142919393490438499669927021191320464061755686589795658895749626129787804464942536588886197042040104",
+            "cash_at_max_pct_drawdown_usdt": "2355.1238443475683421447169422605",
+            "max_cash_drawdown_usdt": "2355.1238443475683421447169422605",
+            "peak_at_max_pct_usdt": "11896.2710788693351715373282758900",
+            "trough_at_max_pct_usdt": "9541.1472345217668293926113336295"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "799bb56595fb5c65f9e574fd67f7a1dc6650384dacae92c5921ab8d73a5d2291",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9870.572878828073359028615697",
+            "final_equity_after_exit_fee_usdt": "9870.572878828073359028615697",
+            "net_profit_usdt": "-129.427121171926640971384303",
+            "net_return_pct": "-1.2942712117192664097138430300",
+            "realized_price_pnl_usdt": "602.58198805771094",
+            "fees_usdt": "17.3425488407965959110",
+            "funding_usdt": "-474.502289341613058982384303",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -0.6488005543855074,
+            "max_drawdown_pct": "20.735812002942018679156744181873826592070813695085360788110073151864339615069046978668535031211757070997475564821786897249420032",
+            "cash_at_max_pct_drawdown_usdt": "2466.325273812452858930789233",
+            "max_cash_drawdown_usdt": "2466.325273812452858930789233",
+            "peak_at_max_pct_usdt": "11894.037588026589223441660730",
+            "trough_at_max_pct_usdt": "9427.712314214136364510871497"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "98c7a95ecad6921a7683ec2d18118cef92cacbe0451b2f824d62c1ff77156782",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9870.3364513298894687372751008005",
+            "final_equity_after_exit_fee_usdt": "9870.3364513298894687372751008005",
+            "net_profit_usdt": "-129.6635486701105312627248991995",
+            "net_return_pct": "-1.29663548670110531262724899199500",
+            "realized_price_pnl_usdt": "602.58492778263258",
+            "fees_usdt": "17.3422713002498177790",
+            "funding_usdt": "-474.7419341052653674057248991995",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -0.6499896155415492,
+            "max_drawdown_pct": "20.736996548481638070953800596767537471791757530912307387940487115245865660034941347131645154148831959758844528738326304180380594",
+            "cash_at_max_pct_drawdown_usdt": "2466.4515106912502233644690327665",
+            "max_cash_drawdown_usdt": "2466.4515106912502233644690327665",
+            "peak_at_max_pct_usdt": "11893.9669248864474012042588603650",
+            "trough_at_max_pct_usdt": "9427.5154141951971778397898275985"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "9f75fa4ef6770b1f4070f9fc63e0b6b011af96c0d7d99be25d7f1af75f9272eb",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9100.233974422736354360014844",
+            "final_equity_after_exit_fee_usdt": "9100.233974422736354360014844",
+            "net_profit_usdt": "-899.766025577263645639985156",
+            "net_return_pct": "-8.9976602557726364563998515600",
+            "realized_price_pnl_usdt": "-180.79241312557408",
+            "fees_usdt": "16.1636044646007548540",
+            "funding_usdt": "-462.645736939860884707985156",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -4.601777421703547,
+            "max_drawdown_pct": "25.806153651566943496824849968917258042682023756129925692064727591967272497044669331179914128831239132146952037793848327282120843",
+            "cash_at_max_pct_drawdown_usdt": "3069.664965784651539801192182",
+            "max_cash_drawdown_usdt": "3069.664965784651539801192182",
+            "peak_at_max_pct_usdt": "11895.089083135263030457394438",
+            "trough_at_max_pct_usdt": "8825.424117350611490656202256"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "ab9ef2efb9d26cd57d65316ee410b7404fc78c303c77449591dfe735d3072f60",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9100.0137178063780830474382380665",
+            "final_equity_after_exit_fee_usdt": "9100.0137178063780830474382380665",
+            "net_profit_usdt": "-899.9862821936219169525617619335",
+            "net_return_pct": "-8.99986282193621916952561761933500",
+            "realized_price_pnl_usdt": "-180.77893903194694",
+            "fees_usdt": "16.1633447472793581890",
+            "funding_usdt": "-462.8797273671676926855617619335",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -4.6029311197710285,
+            "max_drawdown_pct": "25.807268038681106249935385683665569231232009491548663579836199089235570386880187211420124855411633155302752475264275562791013874",
+            "cash_at_max_pct_drawdown_usdt": "3069.7792768976931940130051261950",
+            "max_cash_drawdown_usdt": "3069.7792768976931940130051261950",
+            "peak_at_max_pct_usdt": "11895.0183812427123069174443152190",
+            "trough_at_max_pct_usdt": "8825.2391043450191129044391890240"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "f0523450286f501e2b6c8c16739ff84aacabecbbc6fbab6f223682f69c38d88c",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9703.677534284390491103159002",
+            "final_equity_after_exit_fee_usdt": "9703.677534284390491103159002",
+            "net_profit_usdt": "-296.322465715609508896840998",
+            "net_return_pct": "-2.9632246571560950889684099800",
+            "realized_price_pnl_usdt": "455.4431646427867",
+            "fees_usdt": "31.2961464397154777",
+            "funding_usdt": "-480.305212871452805118840998",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -1.4917405178693974,
+            "max_drawdown_pct": "19.963921471962347489024862798795845194286635436092002403087560679787735658471673950549975237718691121760278383867059051017034313",
+            "cash_at_max_pct_drawdown_usdt": "2373.577579426623026832991507",
+            "max_cash_drawdown_usdt": "2373.577579426623026832991507",
+            "peak_at_max_pct_usdt": "11889.335383131583478826238478",
+            "trough_at_max_pct_usdt": "9515.757803704960451993246971"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "c04f2adf0728deb3905b81a51af83943df7a7276abb8ee2dc1be631eba2e542f",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9703.4422224742045615110111356940",
+            "final_equity_after_exit_fee_usdt": "9703.4422224742045615110111356940",
+            "net_profit_usdt": "-296.5577775257954384889888643060",
+            "net_return_pct": "-2.9655777752579543848898886430600",
+            "realized_price_pnl_usdt": "455.4486344108749",
+            "fees_usdt": "31.2956411624627819",
+            "funding_usdt": "-480.5464997269796305109888643060",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -1.4929341087633992,
+            "max_drawdown_pct": "19.965142217918662840505021933035881682531984155165807241145622273187267062031719854080916905323733424086896910620404385962534992",
+            "cash_at_max_pct_drawdown_usdt": "2373.7086043450114778829849506275",
+            "max_cash_drawdown_usdt": "2373.7086043450114778829849506275",
+            "peak_at_max_pct_usdt": "11889.2646916114337696924741972390",
+            "trough_at_max_pct_usdt": "9515.5560872664222918094892466115"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "201a2947b81db6849ec83ffaa6a25a067b24c56269e590ccf237b246f74a7436",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9831.410685343957071628819099",
+            "final_equity_after_exit_fee_usdt": "9831.410685343957071628819099",
+            "net_profit_usdt": "-168.589314656042928371180901",
+            "net_return_pct": "-1.6858931465604292837118090100",
+            "realized_price_pnl_usdt": "576.9017499681680",
+            "fees_usdt": "31.4533262781473980",
+            "funding_usdt": "-473.873467298835604293180901",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -0.8459530698233584,
+            "max_drawdown_pct": "20.824580176378148440777250192025835612783268405627554339448432674732884960352443703277088281045281628405674157566065495711868932",
+            "cash_at_max_pct_drawdown_usdt": "2475.426080440688162979902354",
+            "max_cash_drawdown_usdt": "2475.426080440688162979902354",
+            "peak_at_max_pct_usdt": "11887.039544012642323770241254",
+            "trough_at_max_pct_usdt": "9411.613463571954160790338900"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "5aec0a9c5acec9277e6627ad0ca3286d4fdc28cc41561062f32cca9e61e4e0ef",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9831.1752010629058560117079461945",
+            "final_equity_after_exit_fee_usdt": "9831.1752010629058560117079461945",
+            "net_profit_usdt": "-168.8247989370941439882920538055",
+            "net_return_pct": "-1.68824798937094143988292053805500",
+            "realized_price_pnl_usdt": "576.9050850074503",
+            "fees_usdt": "31.4528232077331263",
+            "funding_usdt": "-474.1127896895833916102920538055",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -0.8471397453311396,
+            "max_drawdown_pct": "20.825763337663141647675928316548575626016993090922367775934649852329811656905978911355269197487679926009295934370311373043566634",
+            "cash_at_max_pct_drawdown_usdt": "2475.5520189133671637921232798910",
+            "max_cash_drawdown_usdt": "2475.5520189133671637921232798910",
+            "peak_at_max_pct_usdt": "11886.9689373467584513647841746270",
+            "trough_at_max_pct_usdt": "9411.4169184333912875726608947360"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "b8812c2c8e6bb3dbfa6cbdd4110d1836689582dd15dce0064dfea0c22e8434dc",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9065.174408159358278103133106",
+            "final_equity_after_exit_fee_usdt": "9065.174408159358278103133106",
+            "net_profit_usdt": "-934.825591840641721896866894",
+            "net_return_pct": "-9.3482559184064172189686689400",
+            "realized_price_pnl_usdt": "-203.2875810662633",
+            "fees_usdt": "29.3179434353749007",
+            "funding_usdt": "-462.055796291775595118866894",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -4.785594684260882,
+            "max_drawdown_pct": "25.882527954373269547351914827097034242172221638950947033006781898096011639709223447323483462777102451663557144577682019485222648",
+            "cash_at_max_pct_drawdown_usdt": "3076.937497122809038627135654",
+            "max_cash_drawdown_usdt": "3076.937497122809038627135654",
+            "peak_at_max_pct_usdt": "11888.087216777876368962456662",
+            "trough_at_max_pct_usdt": "8811.149719655067330335321008"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "2d06ad588040406f3a4d5a551fa21e050d545d42a088cb419d18404c46847113",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "9064.9550110849634617433775355385",
+            "final_equity_after_exit_fee_usdt": "9064.9550110849634617433775355385",
+            "net_profit_usdt": "-935.0449889150365382566224644615",
+            "net_return_pct": "-9.35044988915036538256622464461500",
+            "realized_price_pnl_usdt": "-203.2737611067145",
+            "fees_usdt": "29.3174726802768829",
+            "funding_usdt": "-462.2894840808172292786224644615",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -4.7867461017041535,
+            "max_drawdown_pct": "25.883641162024318019088783022729080446821456021175293703415444430881129476845796544865791318952661241721281878139149931336381422",
+            "cash_at_max_pct_drawdown_usdt": "3077.0515506205697796264812842020",
+            "max_cash_drawdown_usdt": "3077.0515506205697796264812842020",
+            "peak_at_max_pct_usdt": "11888.0165713899833637609172903310",
+            "trough_at_max_pct_usdt": "8810.9650207694135841344360061290"
+          }
+        }
+      ],
+      "regression_trend__fixed50": [
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "eac7c69558fa629ab627f75d7cc6cd9db0aff45acce9914f146cf25fa3de827c",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10506.095575218402945519230079",
+            "final_equity_after_exit_fee_usdt": "10506.095575218402945519230079",
+            "net_profit_usdt": "506.095575218402945519230079",
+            "net_return_pct": "5.0609557521840294551923007900",
+            "realized_price_pnl_usdt": "1475.56041602362348",
+            "fees_usdt": "40.1774888689835558920",
+            "funding_usdt": "-689.123080889009052510769921",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.4975160629759947,
+            "max_drawdown_pct": "33.950439848943365186375598249265361439457478851599880002696878505237328762804296577967475835766401670068959279379288019445201687",
+            "cash_at_max_pct_drawdown_usdt": "4605.833313993819091569190374",
+            "max_cash_drawdown_usdt": "4605.833313993819091569190374",
+            "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+            "trough_at_max_pct_usdt": "8960.510257655565005241366416"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "85f2c3156e70e4706b86523f0f6c0c5dbf7a18856e66c4e13424f6518c529fe4",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10505.7454621918038677202164082770",
+            "final_equity_after_exit_fee_usdt": "10505.7454621918038677202164082770",
+            "net_profit_usdt": "505.7454621918038677202164082770",
+            "net_return_pct": "5.0574546219180386772021640827700",
+            "realized_price_pnl_usdt": "1475.55305120784332",
+            "fees_usdt": "40.1766800458214785880",
+            "funding_usdt": "-689.4666379229900476137835917230",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.495809364771444,
+            "max_drawdown_pct": "33.951741648272291567295961380088971622446946219598383708971806399455251681767650090339391788944085169950103549375075637123149819",
+            "cash_at_max_pct_drawdown_usdt": "4605.9650040144002455883644743250",
+            "max_cash_drawdown_usdt": "4605.9650040144002455883644743250",
+            "peak_at_max_pct_usdt": "13566.2112763772895338604259683950",
+            "trough_at_max_pct_usdt": "8960.2462723628892882720614940700"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "fa52b53096c78124ddec57272c5cc165285531dd292347a78a43a260cfa7a737",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11513.184710536124427237017540",
+            "final_equity_after_exit_fee_usdt": "11513.184710536124427237017540",
+            "net_profit_usdt": "1513.184710536124427237017540",
+            "net_return_pct": "15.131847105361244272370175400",
+            "realized_price_pnl_usdt": "2505.68734087195790",
+            "fees_usdt": "42.5704634664036472910",
+            "funding_usdt": "-709.767895822201899393982460",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.294338720716303,
+            "max_drawdown_pct": "28.995520360260181116188230115514277008298291225080757471805527626961327801613840533113477456637094258528784856164495809161945843",
+            "cash_at_max_pct_drawdown_usdt": "3933.631912460445417735954676",
+            "max_cash_drawdown_usdt": "3933.631912460445417735954676",
+            "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+            "trough_at_max_pct_usdt": "9632.711659188938679074602114"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "baaaf688d1683b9fc757b372d66fe7023d54dd8b5b19fb47cab66655b3610644",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11512.8081659589138013246986810785",
+            "final_equity_after_exit_fee_usdt": "11512.8081659589138013246986810785",
+            "net_profit_usdt": "1512.8081659589138013246986810785",
+            "net_return_pct": "15.12808165958913801324698681078500",
+            "realized_price_pnl_usdt": "2505.66401826570838",
+            "fees_usdt": "42.5696179244391357610",
+            "funding_usdt": "-710.1219633351275168363013189215",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.292585348446455,
+            "max_drawdown_pct": "28.996876996937606254975235831949443025545038075362597096423383081266281779049645321203779153818601982013139479424933580358105415",
+            "cash_at_max_pct_drawdown_usdt": "3933.7775969558018965027587330875",
+            "max_cash_drawdown_usdt": "3933.7775969558018965027587330875",
+            "peak_at_max_pct_usdt": "13566.2112763772895338604259683950",
+            "trough_at_max_pct_usdt": "9632.4336794214876373576672353075"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "ed93052962145b1599c7726cb59da09fe6c402800b8c946cf849121d4292c195",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11628.677536707931011031646100",
+            "final_equity_after_exit_fee_usdt": "11628.677536707931011031646100",
+            "net_profit_usdt": "1628.677536707931011031646100",
+            "net_return_pct": "16.28677536707931011031646100",
+            "realized_price_pnl_usdt": "2619.57995324870392",
+            "fees_usdt": "42.4405291870366011040",
+            "funding_usdt": "-708.297616306508381786353900",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.830781475266417,
+            "max_drawdown_pct": "28.319473264929106474285523646789896845623505840397709290172811799091012963442328851798573238783550200197455611274070268885478566",
+            "cash_at_max_pct_drawdown_usdt": "3841.917040801675789564945882",
+            "max_cash_drawdown_usdt": "3841.917040801675789564945882",
+            "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+            "trough_at_max_pct_usdt": "9724.426530847708307245610908"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "65e431f24448c56ce089000fc424b2787fc6814a4d36b737a51376d6c0979eb7",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11628.2974995513789977663917269265",
+            "final_equity_after_exit_fee_usdt": "11628.2974995513789977663917269265",
+            "net_profit_usdt": "1628.2974995513789977663917269265",
+            "net_return_pct": "16.28297499551378997766391726926500",
+            "realized_price_pnl_usdt": "2619.55264045658892",
+            "fees_usdt": "42.4396810166911851720",
+            "funding_usdt": "-708.6511888412908109836082730735",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.829020655586858,
+            "max_drawdown_pct": "28.320831295982003278266863844734323143048385746771045601792279541708583275084362391124436725195959180000493308347390598778934528",
+            "cash_at_max_pct_drawdown_usdt": "3842.0638088392989960489370751445",
+            "max_cash_drawdown_usdt": "3842.0638088392989960489370751445",
+            "peak_at_max_pct_usdt": "13566.2112763772895338604259683950",
+            "trough_at_max_pct_usdt": "9724.1474675379905378114888932505"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "1c39a5d3debadc71ee1bf38911b5b8a172fa3233b2e08e21fcb71bb4f98de34c",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10411.804365273384523395141068",
+            "final_equity_after_exit_fee_usdt": "10411.804365273384523395141068",
+            "net_profit_usdt": "411.804365273384523395141068",
+            "net_return_pct": "4.1180436527338452339514106800",
+            "realized_price_pnl_usdt": "1411.9205670343759",
+            "fees_usdt": "72.7153230123494159",
+            "funding_usdt": "-687.236607701414034626858932",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.0368412664373987,
+            "max_drawdown_pct": "34.361748379772867390871135105717554349861476857083364000562782188355195734426780367991703808419101340287802977299792036666931169",
+            "cash_at_max_pct_drawdown_usdt": "4657.130869674727691971536220",
+            "max_cash_drawdown_usdt": "4657.130869674727691971536220",
+            "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+            "trough_at_max_pct_usdt": "8896.111003245102832260493170"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "426dafed7148511086fc4e359652e9d9a352fbfc0889e7dba9399aa048733409",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10411.4571683000244155320360055485",
+            "final_equity_after_exit_fee_usdt": "10411.4571683000244155320360055485",
+            "net_profit_usdt": "411.4571683000244155320360055485",
+            "net_return_pct": "4.11457168300024415532036005548500",
+            "realized_price_pnl_usdt": "1411.9145154819763",
+            "fees_usdt": "72.7138597904637977",
+            "funding_usdt": "-687.5792163442601606899639944515",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.0351411314382966,
+            "max_drawdown_pct": "34.363043127979703082417774356284551084437412513861412604358141515228909877781384969642900660830719783852205426304086914596088993",
+            "cash_at_max_pct_drawdown_usdt": "4657.2609256816204798211495578435",
+            "max_cash_drawdown_usdt": "4657.2609256816204798211495578435",
+            "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+            "trough_at_max_pct_usdt": "8895.8487576965103469493608468515"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "16cb97140b34410e9237c8710ed194c954ce8268e1339c5e758c62b523c9d4df",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11409.203449500813242313434775",
+            "final_equity_after_exit_fee_usdt": "11409.203449500813242313434775",
+            "net_profit_usdt": "1409.203449500813242313434775",
+            "net_return_pct": "14.0920344950081324231343477500",
+            "realized_price_pnl_usdt": "2434.1562900298072",
+            "fees_usdt": "77.0388564767350958",
+            "funding_usdt": "-707.749713005030935808565225",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 6.809057085970394,
+            "max_drawdown_pct": "29.441523445014561142105328348810699229495828265581638714737949676003261664557657288756979059823905635246956789668552632083500056",
+            "cash_at_max_pct_drawdown_usdt": "3990.280883575222516655034061",
+            "max_cash_drawdown_usdt": "3990.280883575222516655034061",
+            "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+            "trough_at_max_pct_usdt": "9562.960989344608007576995329"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "3ac25f850c3561eb32d6d565a618045de7bac7ac61dd989f8e64e534ad64ab8c",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11408.8300544948136300688748846855",
+            "final_equity_after_exit_fee_usdt": "11408.8300544948136300688748846855",
+            "net_profit_usdt": "1408.8300544948136300688748846855",
+            "net_return_pct": "14.08830054494813630068874884685500",
+            "realized_price_pnl_usdt": "2434.1344156774599",
+            "fees_usdt": "77.0373268255864227",
+            "funding_usdt": "-708.1027633098319211531251153145",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 6.8073104690415995,
+            "max_drawdown_pct": "29.442872696963971769494536721177457709296252987402150183179296993230717857497892702619809119655372493691129582228850663035975239",
+            "cash_at_max_pct_drawdown_usdt": "3990.4248305569198828667692374595",
+            "max_cash_drawdown_usdt": "3990.4248305569198828667692374595",
+            "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+            "trough_at_max_pct_usdt": "9562.6848528212109439037411672355"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "b23efd9f378852add7d3dae9a5982256d19d941a2e6aec189ad8338410c326c8",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11523.551248200296686176715983",
+            "final_equity_after_exit_fee_usdt": "11523.551248200296686176715983",
+            "net_profit_usdt": "1523.551248200296686176715983",
+            "net_return_pct": "15.2355124820029668617671598300",
+            "realized_price_pnl_usdt": "2546.8059094788728",
+            "fees_usdt": "76.8018041161899946",
+            "funding_usdt": "-706.288586115158193145284017",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.342599031974204,
+            "max_drawdown_pct": "28.770153694327605324534555517800849073369333338086634459357426142502321045222257653954020456958416172601117005364003256834664581",
+            "cash_at_max_pct_drawdown_usdt": "3899.288517403000549248613050",
+            "max_cash_drawdown_usdt": "3899.288517403000549248613050",
+            "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+            "trough_at_max_pct_usdt": "9653.953355516829974983416340"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "34924f521006f0c51ae4b1f7bfd52fe120e8de07e95af3d1e12bc25ae19ebc57",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11523.1743865744886787973150628635",
+            "final_equity_after_exit_fee_usdt": "11523.1743865744886787973150628635",
+            "net_profit_usdt": "1523.1743865744886787973150628635",
+            "net_return_pct": "15.23174386574488678797315062863500",
+            "realized_price_pnl_usdt": "2546.7800720153907",
+            "fees_usdt": "76.8002698227438789",
+            "funding_usdt": "-706.6411445709302162246849371365",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.340844973419413,
+            "max_drawdown_pct": "28.771504358153546881260433759788854697108638669890574056649063058750367693435724960722072403982634475296717315645458018612963334",
+            "cash_at_max_pct_drawdown_usdt": "3899.4335432184692896758518001830",
+            "max_cash_drawdown_usdt": "3899.4335432184692896758518001830",
+            "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+            "trough_at_max_pct_usdt": "9653.6761401596615370946586045120"
+          }
+        }
+      ],
+      "keltner_breakout__fixed50": [
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "55a64545276834181ee30f103f619b7dbb9aa6af9b21c4aa0b0541bb9baf59a0",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11993.991629014985393960949832",
+            "final_equity_after_exit_fee_usdt": "11993.991629014985393960949832",
+            "net_profit_usdt": "1993.991629014985393960949832",
+            "net_return_pct": "19.9399162901498539396094983200",
+            "realized_price_pnl_usdt": "2731.01097116846228",
+            "fees_usdt": "44.0379664189911578000",
+            "funding_usdt": "-452.817104687257802161050168",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.51027393056249,
+            "max_drawdown_pct": "12.934494942094113963844344134700788098400542059494619543119067274450413314767405740855283804720313038612906330234123458447629638",
+            "cash_at_max_pct_drawdown_usdt": "1776.220270800151734191720132",
+            "max_cash_drawdown_usdt": "1776.220270800151734191720132",
+            "peak_at_max_pct_usdt": "13732.428508047945714606669964",
+            "trough_at_max_pct_usdt": "11956.208237247793980414949832"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "cb69e9baed8ac5a0accd203c9fd39f1adfc291d71390a8b6868b34d7c8da07fd",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11993.7428036940542510532651790760",
+            "final_equity_after_exit_fee_usdt": "11993.7428036940542510532651790760",
+            "net_profit_usdt": "1993.7428036940542510532651790760",
+            "net_return_pct": "19.9374280369405425105326517907600",
+            "realized_price_pnl_usdt": "2730.98509163529568",
+            "fees_usdt": "44.0374241553177471100",
+            "funding_usdt": "-453.0405927386957557587348209240",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.509138760841397,
+            "max_drawdown_pct": "12.934549560274999113582290778574968992444736877179775372001169616725384913446597134863088043835391052312531073030118698969035461",
+            "cash_at_max_pct_drawdown_usdt": "1776.1921824578384237683064182630",
+            "max_cash_drawdown_usdt": "1776.1921824578384237683064182630",
+            "peak_at_max_pct_usdt": "13732.1533632136403808692675973390",
+            "trough_at_max_pct_usdt": "11955.9611807558019571009611790760"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "07a8f74a974fa3609d9462ac754b384014b5d9d2915c6d221a641d1fcfad6387",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10756.523194311765493174511926",
+            "final_equity_after_exit_fee_usdt": "10756.523194311765493174511926",
+            "net_profit_usdt": "756.523194311765493174511926",
+            "net_return_pct": "7.5652319431176549317451192600",
+            "realized_price_pnl_usdt": "1470.35318542560110",
+            "fees_usdt": "40.9767037089968947070",
+            "funding_usdt": "-432.689016357610786040488074",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 3.711072949122344,
+            "max_drawdown_pct": "14.108439698772113821667104614159307901741945028504863992022760386547538544018454622211105336656913630067066475806540569447425959",
+            "cash_at_max_pct_drawdown_usdt": "1643.138286666306146959361105",
+            "max_cash_drawdown_usdt": "1643.138286666306146959361105",
+            "peak_at_max_pct_usdt": "11646.491899521049172108240645",
+            "trough_at_max_pct_usdt": "10003.353612854743025148879540"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "33e46917168d64e020550b9a8ffecb39da44ad7af7a5a4f9c5b4df54b3ba8c6a",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10756.2997437494959511702158907055",
+            "final_equity_after_exit_fee_usdt": "10756.2997437494959511702158907055",
+            "net_profit_usdt": "756.2997437494959511702158907055",
+            "net_return_pct": "7.56299743749495951170215890705500",
+            "realized_price_pnl_usdt": "1470.34305767690368",
+            "fees_usdt": "40.9762105141235799040",
+            "funding_usdt": "-432.9028323660562228477841092945",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 3.7099964597025332,
+            "max_drawdown_pct": "14.108930934287659474588405785088714568819046576819826367265158177029548874618193685837869782766249995368408080922096765192284012",
+            "cash_at_max_pct_drawdown_usdt": "1643.1832005800611168228534434475",
+            "max_cash_drawdown_usdt": "1643.1832005800611168228534434475",
+            "peak_at_max_pct_usdt": "11646.4047363559029110335061417780",
+            "trough_at_max_pct_usdt": "10003.2215357758417942106526983305"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "cac07c37175a2c14b93e099708a522fe5386a747d4f4ce2f0c2a63ecb1b55d46",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10563.284720161090651554473964",
+            "final_equity_after_exit_fee_usdt": "10563.284720161090651554473964",
+            "net_profit_usdt": "563.284720161090651554473964",
+            "net_return_pct": "5.6328472016109065155447396400",
+            "realized_price_pnl_usdt": "1254.78264581286132",
+            "fees_usdt": "40.0187997515327554500",
+            "funding_usdt": "-411.314854853009986917526036",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.7759154222804208,
+            "max_drawdown_pct": "15.595990460716445633141957758386867153732888274306597327950613531485910068192920328800234666058992352133848474961870886866027762",
+            "cash_at_max_pct_drawdown_usdt": "1766.148604325880128972348773",
+            "max_cash_drawdown_usdt": "1766.148604325880128972348773",
+            "peak_at_max_pct_usdt": "11324.376023276607797264635045",
+            "trough_at_max_pct_usdt": "9558.227418950727668292286272"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "ae544866d9f2a1486707dde0391c5c099df69af863a3eb9cae530c9877d5a85b",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10563.0678826722328285419377116185",
+            "final_equity_after_exit_fee_usdt": "10563.0678826722328285419377116185",
+            "net_profit_usdt": "563.0678826722328285419377116185",
+            "net_return_pct": "5.63067882672232828541937711618500",
+            "realized_price_pnl_usdt": "1254.76881571787040",
+            "fees_usdt": "40.0183204467482681520",
+            "funding_usdt": "-411.5183415516613772280622883815",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.774861273732117,
+            "max_drawdown_pct": "15.596482952809089119713662806240005453324848222387210261771411288047470691494916216320214278108038572107787491874733175928103587",
+            "cash_at_max_pct_drawdown_usdt": "1766.1915850424609379375654005620",
+            "max_cash_drawdown_usdt": "1766.1915850424609379375654005620",
+            "peak_at_max_pct_usdt": "11324.2940115826012362217385369450",
+            "trough_at_max_pct_usdt": "9558.1024265401402982841731363830"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "7bbb2a5ec90209fc787a6f809bdc927288b6cba609b8064df5146ed40ff32569",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11885.840587652612815939734470",
+            "final_equity_after_exit_fee_usdt": "11885.840587652612815939734470",
+            "net_profit_usdt": "1885.840587652612815939734470",
+            "net_return_pct": "18.858405876526128159397344700",
+            "realized_price_pnl_usdt": "2656.9112137936002",
+            "fees_usdt": "79.6749804148690026",
+            "funding_usdt": "-451.231374678890455382265530",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.015760950200471,
+            "max_drawdown_pct": "13.039324024467026311895355656491326628915665525509591802628816351775482358519212581627699794316211656920045032878189312658610208",
+            "cash_at_max_pct_drawdown_usdt": "1777.343462633457663643219986",
+            "max_cash_drawdown_usdt": "1777.343462633457663643219986",
+            "peak_at_max_pct_usdt": "13630.641122948130697660954456",
+            "trough_at_max_pct_usdt": "11853.297660314673034017734470"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "fd77f93d2d11c27aa722eea5972a4229584c58af0ca6393c657a1c85c0eecea5",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11885.5938418314702979638056570075",
+            "final_equity_after_exit_fee_usdt": "11885.5938418314702979638056570075",
+            "net_profit_usdt": "1885.5938418314702979638056570075",
+            "net_return_pct": "18.85593841831470297963805657007500",
+            "realized_price_pnl_usdt": "2656.8861931798997",
+            "fees_usdt": "79.6740001198704373",
+            "funding_usdt": "-451.4540801813310386581943429925",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.014630154108842,
+            "max_drawdown_pct": "13.039378607190154052392186357550752204739808374682580035576199444940177462997065795140855652308325825649381254288324244610340056",
+            "cash_at_max_pct_drawdown_usdt": "1777.3152687623244896001653942280",
+            "max_cash_drawdown_usdt": "1777.3152687623244896001653942280",
+            "peak_at_max_pct_usdt": "13630.3678442336204862710270512355",
+            "trough_at_max_pct_usdt": "11853.0525754712959966708616570075"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "954dcb1c520c954b4a0529fd188b42f8c87ff5baf5dd9b52668b3f7f683a6367",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10660.353841151663010055986741",
+            "final_equity_after_exit_fee_usdt": "10660.353841151663010055986741",
+            "net_profit_usdt": "660.353841151663010055986741",
+            "net_return_pct": "6.6035384115166301005598674100",
+            "realized_price_pnl_usdt": "1405.9015427695049",
+            "fees_usdt": "74.1488836380886405",
+            "funding_usdt": "-431.234546932525323366013259",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 3.2467315579476526,
+            "max_drawdown_pct": "14.326010779875151279984499442308447996635997095136430493575700331233556831497346695759468242196929437619574683744470239771749270",
+            "cash_at_max_pct_drawdown_usdt": "1664.923544833289322185992419",
+            "max_cash_drawdown_usdt": "1664.923544833289322185992419",
+            "peak_at_max_pct_usdt": "11621.682898439078548068452132",
+            "trough_at_max_pct_usdt": "9956.759353605789225882459713"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "557812197c2fb049644b4d6f34845a4aeec09a841c24b40fe2ba9447dd71a9ac",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10660.1322500402045058429219374465",
+            "final_equity_after_exit_fee_usdt": "10660.1322500402045058429219374465",
+            "net_profit_usdt": "660.1322500402045058429219374465",
+            "net_return_pct": "6.60132250040204505842921937446500",
+            "realized_price_pnl_usdt": "1405.8921572350429",
+            "fees_usdt": "74.1479920488277745",
+            "funding_usdt": "-431.4476440987826935790780625535",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 3.2456592188665563,
+            "max_drawdown_pct": "14.326501244909344530856428980599282137895870570083660768368301334489525345266120085085241327229536452636231666483409738600982270",
+            "cash_at_max_pct_drawdown_usdt": "1664.9680816510517355610014039865",
+            "max_cash_drawdown_usdt": "1664.9680816510517355610014039865",
+            "peak_at_max_pct_usdt": "11621.5959025073699900996971345215",
+            "trough_at_max_pct_usdt": "9956.6278208563182545386957305350"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "c470ed395d24581ea3cf5a3fd1f7c1d87c17e346ca5feb97cc6da7f804f5b9f2",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10468.914526724122399863092950",
+            "final_equity_after_exit_fee_usdt": "10468.914526724122399863092950",
+            "net_profit_usdt": "468.914526724122399863092950",
+            "net_return_pct": "4.689145267241223998630929500",
+            "realized_price_pnl_usdt": "1191.4451241528656",
+            "fees_usdt": "72.4166035933427908",
+            "funding_usdt": "-409.949722788172483258907050",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.316110128808611,
+            "max_drawdown_pct": "15.807915047480898366788722800827719856296479609275381601354944171342588888989723367917026114657573807459343744255444379925026898",
+            "cash_at_max_pct_drawdown_usdt": "1786.338925752916585358199478",
+            "max_cash_drawdown_usdt": "1786.338925752916585358199478",
+            "peak_at_max_pct_usdt": "11300.281665149650240196975424",
+            "trough_at_max_pct_usdt": "9513.942739396733654838775946"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "6eed2e227e601850248c443bda62a0719e99784d866965d5304389cb26561d59",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10468.6994957804440211992558960825",
+            "final_equity_after_exit_fee_usdt": "10468.6994957804440211992558960825",
+            "net_profit_usdt": "468.6994957804440211992558960825",
+            "net_return_pct": "4.68699495780444021199255896082500",
+            "realized_price_pnl_usdt": "1191.4320368424678",
+            "fees_usdt": "72.4157370888944196",
+            "funding_usdt": "-410.1525329259014331227441039175",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 7,
+            "signal_exits": 7,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 2.3150600584320418,
+            "max_drawdown_pct": "15.808406725516921911528424616137451381451881740965236088839074201565163752065417047594843646034511954599061435313032277358107356",
+            "cash_at_max_pct_drawdown_usdt": "1786.3815452092263385621176164175",
+            "max_cash_drawdown_usdt": "1786.3815452092263385621176164175",
+            "peak_at_max_pct_usdt": "11300.1998001845636961144947440340",
+            "trough_at_max_pct_usdt": "9513.8182549753373575523771276165"
+          }
+        }
+      ],
+      "obv_breakout__fixed50": [
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "ae04399d7a6a1f5c0ea0353fcd6ab7159d210aa32ec0179b641eeaaa59b77206",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12019.819174793472190239846242",
+            "final_equity_after_exit_fee_usdt": "12019.819174793472190239846242",
+            "net_profit_usdt": "2019.819174793472190239846242",
+            "net_return_pct": "20.1981917479347219023984624200",
+            "realized_price_pnl_usdt": "2723.41741289756242",
+            "fees_usdt": "50.2593889137753062650",
+            "funding_usdt": "-413.174578143086997417153758",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.62803814537319,
+            "max_drawdown_pct": "11.301654186908587229230788548282218412912461565687969922279464056364282572663843148277010060005409897443556046388012777191135891",
+            "cash_at_max_pct_drawdown_usdt": "1354.738506330529343203675098",
+            "max_cash_drawdown_usdt": "1484.595196528640812764755439",
+            "peak_at_max_pct_usdt": "11987.081571649995015041118930",
+            "trough_at_max_pct_usdt": "10632.343065319465671837443832"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "eaf4ea27ee06bad0a18fba95c2642350bf141088d595f11e2ec0ca94f0363991",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12019.5999487352015815157144396620",
+            "final_equity_after_exit_fee_usdt": "12019.5999487352015815157144396620",
+            "net_profit_usdt": "2019.5999487352015815157144396620",
+            "net_return_pct": "20.1959994873520158151571443966200",
+            "realized_price_pnl_usdt": "2723.40203589013706",
+            "fees_usdt": "50.2588327390587641390",
+            "funding_usdt": "-413.3789833686487882672855603380",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.627039087348557,
+            "max_drawdown_pct": "11.302024696701216278345335776035591123428118903064543719399163054973135504346517372148134272703034050166808287812753242628870952",
+            "cash_at_max_pct_drawdown_usdt": "1354.7722753666605154829518417395",
+            "max_cash_drawdown_usdt": "1484.5752872349823010283831614055",
+            "peak_at_max_pct_usdt": "11986.9873914015185639021139978125",
+            "trough_at_max_pct_usdt": "10632.2151160348580484191621560730"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "b8b5a52357da312a8113e0fd799b6ff280e6cfafa60ccc43451435c1e9a04745",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11770.209087072270185362744163",
+            "final_equity_after_exit_fee_usdt": "11770.209087072270185362744163",
+            "net_profit_usdt": "1770.209087072270185362744163",
+            "net_return_pct": "17.7020908707227018536274416300",
+            "realized_price_pnl_usdt": "2459.46098403589812",
+            "fees_usdt": "48.2847515654209645500",
+            "funding_usdt": "-400.802874350979044009255837",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 8.484547261340026,
+            "max_drawdown_pct": "16.544712742438824279272586157676774055388923657111459063754938849963638336424229518485259164894715248916348473704689430803391325",
+            "cash_at_max_pct_drawdown_usdt": "1976.436274459251495598284769",
+            "max_cash_drawdown_usdt": "1976.436274459251495598284769",
+            "peak_at_max_pct_usdt": "11946.029557766191994545342137",
+            "trough_at_max_pct_usdt": "9969.593283306940498947057368"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "56039443652bb207107b15bf7815a4e8b43d97fbd029329f3d29c6f775ca7153",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11769.9906225672880297219159709750",
+            "final_equity_after_exit_fee_usdt": "11769.9906225672880297219159709750",
+            "net_profit_usdt": "1769.9906225672880297219159709750",
+            "net_return_pct": "17.6999062256728802972191597097500",
+            "realized_price_pnl_usdt": "2459.44033468513690",
+            "fees_usdt": "48.2842013236827578950",
+            "funding_usdt": "-401.0012397469381863050840290250",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 8.483541165270353,
+            "max_drawdown_pct": "16.545186304729962996799759568764386591819988318480067087107015353988521697725156985420433003126301928266333295112350725966702572",
+            "cash_at_max_pct_drawdown_usdt": "1976.4774350807127795828170819980",
+            "max_cash_drawdown_usdt": "1976.4774350807127795828170819980",
+            "peak_at_max_pct_usdt": "11945.9364112187386352424546733925",
+            "trough_at_max_pct_usdt": "9969.4589761380258556596375913945"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "09f05515960cd810df23c0ff248c4af39b6ed609e8a3b67e494f827f41bafa34",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12592.756421863881511158878346",
+            "final_equity_after_exit_fee_usdt": "12592.756421863881511158878346",
+            "net_profit_usdt": "2592.756421863881511158878346",
+            "net_return_pct": "25.9275642186388151115887834600",
+            "realized_price_pnl_usdt": "3273.17370439181020",
+            "fees_usdt": "49.1182305355207649260",
+            "funding_usdt": "-391.134780945179997837121654",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 12.208604301517125,
+            "max_drawdown_pct": "15.282518582608673138158201101052949267922336890837492266549497490374719532873532610368016978975561680831998118744148083038838317",
+            "cash_at_max_pct_drawdown_usdt": "1780.396391344432892634805387",
+            "max_cash_drawdown_usdt": "1780.396391344432892634805387",
+            "peak_at_max_pct_usdt": "11649.888607827397634984976720",
+            "trough_at_max_pct_usdt": "9869.492216482964742350171333"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "4122f7e208ba9554b378a16e4287ff73bd35b980ead1542ab8aa8492adf8e5e8",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12592.5273248558075342762187462210",
+            "final_equity_after_exit_fee_usdt": "12592.5273248558075342762187462210",
+            "net_profit_usdt": "2592.5273248558075342762187462210",
+            "net_return_pct": "25.9252732485580753427621874622100",
+            "realized_price_pnl_usdt": "3273.13765071606464",
+            "fees_usdt": "49.1176744602092024300",
+            "funding_usdt": "-391.3283803528199772157812537790",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 12.207584302861818,
+            "max_drawdown_pct": "15.282981600053951432674119557620005487647924186864934322297327704005676302690367957425939796887944123243979606995900911996917195",
+            "cash_at_max_pct_drawdown_usdt": "1780.4368219599304776543465003280",
+            "max_cash_drawdown_usdt": "1780.4368219599304776543465003280",
+            "peak_at_max_pct_usdt": "11649.8002062218359507768908464960",
+            "trough_at_max_pct_usdt": "9869.3633842619054731225443461680"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "4cd8e9ad8560b952cb10cc4e837657010e155db42d6bdc3237105150a5de885f",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11896.548562183932101296886173",
+            "final_equity_after_exit_fee_usdt": "11896.548562183932101296886173",
+            "net_profit_usdt": "1896.548562183932101296886173",
+            "net_return_pct": "18.9654856218393210129688617300",
+            "realized_price_pnl_usdt": "2639.2123331770452",
+            "fees_usdt": "90.8786342344572948",
+            "funding_usdt": "-411.620865711427877825113827",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.064822551467646,
+            "max_drawdown_pct": "11.528884159031498274994347952320875742713257066803349220597462676069123008951504604489740356134010811158615903045907794585568378",
+            "cash_at_max_pct_drawdown_usdt": "1379.020771790197054286703544",
+            "max_cash_drawdown_usdt": "1486.547743873381297701045869",
+            "peak_at_max_pct_usdt": "11961.441825312293056298699555",
+            "trough_at_max_pct_usdt": "10582.421053522096002011996011"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "50b385f5914405774d6baa540a6fa2ccd8cd0155b49937d68e04931fdd5d3f2d",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11896.3314549645584656075988886345",
+            "final_equity_after_exit_fee_usdt": "11896.3314549645584656075988886345",
+            "net_profit_usdt": "1896.3314549645584656075988886345",
+            "net_return_pct": "18.96331454964558465607598888634500",
+            "realized_price_pnl_usdt": "2639.1978616068299",
+            "fees_usdt": "90.8776296892487257",
+            "funding_usdt": "-411.8245059057947826144011113655",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.063828033094426,
+            "max_drawdown_pct": "11.529254228832853807639463735669229019494474922942124829356353941436539869735526456847352619767653380267801217148399477669599304",
+            "cash_at_max_pct_drawdown_usdt": "1379.0542016505740018677145161160",
+            "max_cash_drawdown_usdt": "1486.5277315233370807669582376280",
+            "peak_at_max_pct_usdt": "11961.3478398435873309339645038825",
+            "trough_at_max_pct_usdt": "10582.2936381930133290662499877665"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "d9df243703ad5d70b9277b25ed97e6445dfa5ed3135dc8f851e2373d706462ee",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11649.556434088205964274902183",
+            "final_equity_after_exit_fee_usdt": "11649.556434088205964274902183",
+            "net_profit_usdt": "1649.556434088205964274902183",
+            "net_return_pct": "16.4955643408820596427490218300",
+            "realized_price_pnl_usdt": "2376.3718598161583",
+            "fees_usdt": "87.3101173825008169",
+            "funding_usdt": "-399.341037298223592747097817",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.927475110936297,
+            "max_drawdown_pct": "16.859594314785299904820235121916702682892424670502206506024871944796936162617830130475049551551572000463196158291331121445604187",
+            "cash_at_max_pct_drawdown_usdt": "2009.747470926838810425578299",
+            "max_cash_drawdown_usdt": "2009.747470926838810425578299",
+            "peak_at_max_pct_usdt": "11920.497216023505066730794506",
+            "trough_at_max_pct_usdt": "9910.749745096666256305216207"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "44fb8e7f0289f3bc179073e93e37c28eb911d08d10cf5baec3673e54794567d0",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11649.3400668642105132304728171450",
+            "final_equity_after_exit_fee_usdt": "11649.3400668642105132304728171450",
+            "net_profit_usdt": "1649.3400668642105132304728171450",
+            "net_return_pct": "16.4934006686421051323047281714500",
+            "realized_price_pnl_usdt": "2376.3521435531761",
+            "fees_usdt": "87.3091234605932225",
+            "funding_usdt": "-399.5386821811444381915271828550",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.926473523273877,
+            "max_drawdown_pct": "16.860066657879761278473240549886705488990758314424280005459742843082503588011918980806156988244209665242179847263596067260043892",
+            "cash_at_max_pct_drawdown_usdt": "2009.7881044850403099925362710890",
+            "max_cash_drawdown_usdt": "2009.7881044850403099925362710890",
+            "peak_at_max_pct_usdt": "11920.4042621370118409774507626785",
+            "trough_at_max_pct_usdt": "9910.6161576519715309849144915895"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "7c816f4cec63efd194942bfc422a5c2ef1926708815257f052b86ba4c7645b05",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12463.000046465382703477919336",
+            "final_equity_after_exit_fee_usdt": "12463.000046465382703477919336",
+            "net_profit_usdt": "2463.000046465382703477919336",
+            "net_return_pct": "24.6300004646538270347791933600",
+            "realized_price_pnl_usdt": "3181.6755350746967",
+            "fees_usdt": "88.8096396659580709",
+            "funding_usdt": "-389.701577896127999544080664",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 11.629401338673585,
+            "max_drawdown_pct": "15.602251800464214399626141396495027447867863218404382113637917134262616989083708110084207973559951991694710339917299437062470966",
+            "cash_at_max_pct_drawdown_usdt": "1813.763909274018906854738798",
+            "max_cash_drawdown_usdt": "1813.763909274018906854738798",
+            "peak_at_max_pct_usdt": "11625.013699753608125347463617",
+            "trough_at_max_pct_usdt": "9811.249790479589218492724819"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "a43d1d89721a114d7c4b3bccd06e52e8eaec1e3268889d33181e71420898df10",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12462.7731528232834402207428864955",
+            "final_equity_after_exit_fee_usdt": "12462.7731528232834402207428864955",
+            "net_profit_usdt": "2462.7731528232834402207428864955",
+            "net_return_pct": "24.62773152823283440220742886495500",
+            "realized_price_pnl_usdt": "3181.6405266767610",
+            "fees_usdt": "88.8086349380069328",
+            "funding_usdt": "-389.8944678682427009012571135045",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 8,
+            "signal_exits": 8,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 11.628385901282757,
+            "max_drawdown_pct": "15.602713488251573223613191068159959688790785547504793171343390933865378086721734425274178571016365669871669323916598176887622598",
+            "cash_at_max_pct_drawdown_usdt": "1813.8038119525750569430976094700",
+            "max_cash_drawdown_usdt": "1813.8038119525750569430976094700",
+            "peak_at_max_pct_usdt": "11624.9254549109096428826753428430",
+            "trough_at_max_pct_usdt": "9811.1216429583345859395777333730"
+          }
+        }
+      ],
+      "aroon_trend__fixed50": [
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "c140f952ab93064ffb52394448805e7c3430fb723777d5fb9e7b4013b1759adf",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10377.356875867521273967551946",
+            "final_equity_after_exit_fee_usdt": "10377.356875867521273967551946",
+            "net_profit_usdt": "377.356875867521273967551946",
+            "net_return_pct": "3.7735687586752127396755194600",
+            "realized_price_pnl_usdt": "1116.54180337291316",
+            "fees_usdt": "53.8953746597204535740",
+            "funding_usdt": "-445.125281798443506380448054",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 1.868022260703264,
+            "max_drawdown_pct": "29.815120282540914679585705133919552149989765213998872920671774094220206631031465189218527183096414504961038027187049884169596446",
+            "cash_at_max_pct_drawdown_usdt": "3627.810490869653922542926032",
+            "max_cash_drawdown_usdt": "3627.810490869653922542926032",
+            "peak_at_max_pct_usdt": "12167.686920230272434845147142",
+            "trough_at_max_pct_usdt": "8539.876429360618512302221110"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "8f2269f50ffccb65e823ee34a7535520756a0aa3aee0f2a3f929a297e208dd26",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10377.1264593238116417335549736820",
+            "final_equity_after_exit_fee_usdt": "10377.1264593238116417335549736820",
+            "net_profit_usdt": "377.1264593238116417335549736820",
+            "net_return_pct": "3.7712645932381164173355497368200",
+            "realized_price_pnl_usdt": "1116.53209496849760",
+            "fees_usdt": "53.8947062651079038880",
+            "funding_usdt": "-445.3466583323501283004450263180",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 1.86689210042231,
+            "max_drawdown_pct": "29.815900137069447998596527613434450048616472854950311065823225488451368987635229863240721126094760807612104321421002458296314290",
+            "cash_at_max_pct_drawdown_usdt": "3627.8785219079397022872322302685",
+            "max_cash_drawdown_usdt": "3627.8785219079397022872322302685",
+            "peak_at_max_pct_usdt": "12167.5968366874113595266446962445",
+            "trough_at_max_pct_usdt": "8539.7183147794716572394124659760"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "78188717c6288e73fc34b5ca21c8d5dc1b7095dd236ca476f0b9b40b447f43e4",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11652.223471585496264556346087",
+            "final_equity_after_exit_fee_usdt": "11652.223471585496264556346087",
+            "net_profit_usdt": "1652.223471585496264556346087",
+            "net_return_pct": "16.5222347158549626455634608700",
+            "realized_price_pnl_usdt": "2420.47955733104274",
+            "fees_usdt": "58.5817833858740793090",
+            "funding_usdt": "-469.510031312444470056653913",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.939820356280491,
+            "max_drawdown_pct": "25.281984571023176130100264670307161833405551173620283821121737522462726533257644300538758571931824213141553003543765171557480681",
+            "cash_at_max_pct_drawdown_usdt": "3141.768244587029850384285427",
+            "max_cash_drawdown_usdt": "3141.768244587029850384285427",
+            "peak_at_max_pct_usdt": "12426.905157548241961853444508",
+            "trough_at_max_pct_usdt": "9285.136912961212111469159081"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "7878c448837710eb5ecf3e63a49f710f8facda477b9103db7347c9eca5098a9c",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11651.9665937352690235987286346030",
+            "final_equity_after_exit_fee_usdt": "11651.9665937352690235987286346030",
+            "net_profit_usdt": "1651.9665937352690235987286346030",
+            "net_return_pct": "16.5196659373526902359872863460300",
+            "realized_price_pnl_usdt": "2420.45551258612062",
+            "fees_usdt": "58.5810451854843593730",
+            "funding_usdt": "-469.7436026181393109502713653970",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.938631375630736,
+            "max_drawdown_pct": "25.282794380286585354013246067016979961991261116767663086767420457671592682255337079435087558119739346166485374597709041388374848",
+            "cash_at_max_pct_drawdown_usdt": "3141.8454914600106532154123527455",
+            "max_cash_drawdown_usdt": "3141.8454914600106532154123527455",
+            "peak_at_max_pct_usdt": "12426.8126544973990654942712103035",
+            "trough_at_max_pct_usdt": "9284.9671630373884122788588575580"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "e25ff6e08414aac4e608e473e38121507c386adbe213d02d7b562e3609892714",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12181.673725659780881108186059",
+            "final_equity_after_exit_fee_usdt": "12181.673725659780881108186059",
+            "net_profit_usdt": "2181.673725659780881108186059",
+            "net_return_pct": "21.8167372565978088110818605900",
+            "realized_price_pnl_usdt": "2937.71789531987494",
+            "fees_usdt": "59.5386490475914466890",
+            "funding_usdt": "-456.341249565274686124813941",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 10.363170929098553,
+            "max_drawdown_pct": "19.937456733845716495962511104757549989130920251503615510484638155692662836609250446223035444028989334581750649478920078564317503",
+            "cash_at_max_pct_drawdown_usdt": "2375.314066334479326231385842",
+            "max_cash_drawdown_usdt": "2375.314066334479326231385842",
+            "peak_at_max_pct_usdt": "11913.826813738781832857317889",
+            "trough_at_max_pct_usdt": "9538.512747404302506625932047"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "49db79396afe2f6386a1cda574b9894c51b437477930e01978ab7ce786eb70d1",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12181.4120087056588851041725798430",
+            "final_equity_after_exit_fee_usdt": "12181.4120087056588851041725798430",
+            "net_profit_usdt": "2181.4120087056588851041725798430",
+            "net_return_pct": "21.8141200870565888510417257984300",
+            "realized_price_pnl_usdt": "2937.68326569376256",
+            "fees_usdt": "59.5379145077641323080",
+            "funding_usdt": "-456.5690714331116165098274201570",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 10.361986185840152,
+            "max_drawdown_pct": "19.938275119903928759766439441451254575509214109469868394849372480778764031996324716648214154802373608438922201717014833035766652",
+            "cash_at_max_pct_drawdown_usdt": "2375.3942985042896586115735118520",
+            "max_cash_drawdown_usdt": "2375.3942985042896586115735118520",
+            "peak_at_max_pct_usdt": "11913.7402017940222733853084150605",
+            "trough_at_max_pct_usdt": "9538.3459032897326147737349032085"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "25ac8c309972118644ebfab013ea287a6c1b1f0dc7665bff2cd60aceb67c8af4",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10245.608647160918384246977652",
+            "final_equity_after_exit_fee_usdt": "10245.608647160918384246977652",
+            "net_profit_usdt": "245.608647160918384246977652",
+            "net_return_pct": "2.4560864716091838424697765200",
+            "realized_price_pnl_usdt": "1026.1270137469547",
+            "fees_usdt": "97.3606380331700311",
+            "funding_usdt": "-442.993457505638358575022348",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 1.2197540366310005,
+            "max_drawdown_pct": "30.425844276935659071155784861405109323767152704581022853050145810703144082475717165846552191339918802350052174526918889120475176",
+            "cash_at_max_pct_drawdown_usdt": "3694.082902118825990910259862",
+            "max_cash_drawdown_usdt": "3694.082902118825990910259862",
+            "peak_at_max_pct_usdt": "12141.266708970600818290203390",
+            "trough_at_max_pct_usdt": "8447.183806851774827379943528"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "cc9690ebf7eba753c55b3ff906361d524fd677bf8a3df719c8327b354ad3f566",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "10245.3809932001617418162206508820",
+            "final_equity_after_exit_fee_usdt": "10245.3809932001617418162206508820",
+            "net_profit_usdt": "245.3809932001617418162206508820",
+            "net_return_pct": "2.4538099320016174181622065088200",
+            "realized_price_pnl_usdt": "1026.1184665681639",
+            "fees_usdt": "97.3594321573138955",
+            "funding_usdt": "-443.2137701634603366057793491180",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 1.2186302652001995,
+            "max_drawdown_pct": "30.426618031564232307868001796163443938531246156389412318053241431073780456087146037735651379303055897629963198579280577827823612",
+            "cash_at_max_pct_drawdown_usdt": "3694.1494902492436830812980274655",
+            "max_cash_drawdown_usdt": "3694.1494902492436830812980274655",
+            "peak_at_max_pct_usdt": "12141.1768025515501992858568323685",
+            "trough_at_max_pct_usdt": "8447.0273123023065162045588049030"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "29a3683d59c75ea10d099a887295eabd0eef9a1487568855b83bf1986dd06e46",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11503.428676495762143586068426",
+            "final_equity_after_exit_fee_usdt": "11503.428676495762143586068426",
+            "net_profit_usdt": "1503.428676495762143586068426",
+            "net_return_pct": "15.0342867649576214358606842600",
+            "realized_price_pnl_usdt": "2316.6200937553643",
+            "fees_usdt": "105.8105423732771383",
+            "funding_usdt": "-467.216603839097092035931574",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.248900681186683,
+            "max_drawdown_pct": "25.843417602087744003864948844920375259155477529349617387395769357597076311692554661153266302924549334684369586383458528648202460",
+            "cash_at_max_pct_drawdown_usdt": "3204.522148817431551454247751",
+            "max_cash_drawdown_usdt": "3204.522148817431551454247751",
+            "peak_at_max_pct_usdt": "12399.761510484419344079149485",
+            "trough_at_max_pct_usdt": "9195.239361666987792624901734"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "d71137b0f94354b1cb69ac2db094f8cd3f47aa0e610f836184851939c7e0148a",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11503.1749018808014950548383477530",
+            "final_equity_after_exit_fee_usdt": "11503.1749018808014950548383477530",
+            "net_profit_usdt": "1503.1749018808014950548383477530",
+            "net_return_pct": "15.0317490188080149505483834775300",
+            "realized_price_pnl_usdt": "2316.5974144602255",
+            "fees_usdt": "105.8092108880267427",
+            "funding_usdt": "-467.4490306441693361671616522470",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.247718486597711,
+            "max_drawdown_pct": "25.844222069530293386014744456483277731415900381592270903381931960627334843586827760402080060409896400361757785785767287994047773",
+            "cash_at_max_pct_drawdown_usdt": "3204.5980412476124348775734883875",
+            "max_cash_drawdown_usdt": "3204.5980412476124348775734883875",
+            "peak_at_max_pct_usdt": "12399.6691896010105022806026797920",
+            "trough_at_max_pct_usdt": "9195.0711483533980674030291914045"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "5a20530da4d341cafd8613dc8ce3d7d771d152ed739e2ba34707035d8ae263af",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12025.750152269298137821241331",
+            "final_equity_after_exit_fee_usdt": "12025.750152269298137821241331",
+            "net_profit_usdt": "2025.750152269298137821241331",
+            "net_return_pct": "20.2575015226929813782124133100",
+            "realized_price_pnl_usdt": "2827.5300568872506",
+            "fees_usdt": "107.5327028434546036",
+            "funding_usdt": "-454.082930727269932500758669",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.655063364862011,
+            "max_drawdown_pct": "20.437314354037259320570636867137631044225510481209074158559693298961608208114348445394035728091412153996225523450298349257595479",
+            "cash_at_max_pct_drawdown_usdt": "2429.582525466314461740982353",
+            "max_cash_drawdown_usdt": "2429.582525466314461740982353",
+            "peak_at_max_pct_usdt": "11887.973553562169196770324792",
+            "trough_at_max_pct_usdt": "9458.391028095854735029342439"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "f4b935fc6b95cf139eaa3ed5c06f6202844907955899bd425db2b267265e545b",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12025.4916045654517424403273690120",
+            "final_equity_after_exit_fee_usdt": "12025.4916045654517424403273690120",
+            "net_profit_usdt": "2025.4916045654517424403273690120",
+            "net_return_pct": "20.2549160456545174244032736901200",
+            "realized_price_pnl_usdt": "2827.4968687015396",
+            "fees_usdt": "107.5313779590787082",
+            "funding_usdt": "-454.3096151297812232816726309880",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 10,
+            "signal_exits": 10,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.65388539987433,
+            "max_drawdown_pct": "20.438128219911592532647629933333488203744989235417509877332580050301010204243055852588093302345473449441934948967819924641545436",
+            "cash_at_max_pct_drawdown_usdt": "2429.6616105538364532976533167835",
+            "max_cash_drawdown_usdt": "2429.6616105538364532976533167835",
+            "peak_at_max_pct_usdt": "11887.8871118284149467721150815120",
+            "trough_at_max_pct_usdt": "9458.2255012745784934744617647285"
+          }
+        }
+      ],
+      "cci_reversion__fixed50": [
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag0_adverse0.json.gz",
+          "sha256": "1549b62ab157fd249a6c4e0e8b62882d43bd91cc9bb82fe55d75d915d0577bcb",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11591.477642741414913228919267",
+            "final_equity_after_exit_fee_usdt": "11591.477642741414913228919267",
+            "net_profit_usdt": "1591.477642741414913228919267",
+            "net_return_pct": "15.9147764274141491322891926700",
+            "realized_price_pnl_usdt": "2135.92119845946634",
+            "fees_usdt": "102.5404564538329141870",
+            "funding_usdt": "-201.738828216990586506080733",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.658287093437783,
+            "max_drawdown_pct": "12.509504266479906804217494208402173315050143804452709944756113742936863789711740819492933231499071865228640844446559550859524667",
+            "cash_at_max_pct_drawdown_usdt": "1509.278832366427256662900272",
+            "max_cash_drawdown_usdt": "1509.278832366427256662900272",
+            "peak_at_max_pct_usdt": "12065.057097511414899734263193",
+            "trough_at_max_pct_usdt": "10555.778265144987643071362921"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag0_adverse1.json.gz",
+          "sha256": "f260f1b8cc6590989fe9e31421ee2afa79c83a247b235fbecf0821093cb84c59",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11591.3691067367835660139885870040",
+            "final_equity_after_exit_fee_usdt": "11591.3691067367835660139885870040",
+            "net_profit_usdt": "1591.3691067367835660139885870040",
+            "net_return_pct": "15.9136910673678356601398858700400",
+            "realized_price_pnl_usdt": "2135.91604013757146",
+            "fees_usdt": "102.5398342589361374150",
+            "funding_usdt": "-201.8428280946238304930114129960",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 7.657783411520799,
+            "max_drawdown_pct": "12.509632105281961846423380713468358129517344130227214392404039708366301447255224727702652980304095108632273234468546303658502972",
+            "cash_at_max_pct_drawdown_usdt": "1509.2864548285667112074055466595",
+            "max_cash_drawdown_usdt": "1509.2864548285667112074055466595",
+            "peak_at_max_pct_usdt": "12064.9947346676829332916092587825",
+            "trough_at_max_pct_usdt": "10555.7082798391162220842037121230"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag1_adverse0.json.gz",
+          "sha256": "a6b01713282d938bb31010fa61b4ce9aa76bb74a9fe19a2aec63a889711b4956",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12005.373024413229434554682056",
+            "final_equity_after_exit_fee_usdt": "12005.373024413229434554682056",
+            "net_profit_usdt": "2005.373024413229434554682056",
+            "net_return_pct": "20.0537302441322943455468205600",
+            "realized_price_pnl_usdt": "2543.17494925428108",
+            "fees_usdt": "98.8415292387100943640",
+            "funding_usdt": "-198.796124555113625003317944",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.562184575059009,
+            "max_drawdown_pct": "10.443522265188120443987923205149957738185131350484936499104530967610728567130919850427953963292552287113620800891249203222412110",
+            "cash_at_max_pct_drawdown_usdt": "1298.929620761093521868673784",
+            "max_cash_drawdown_usdt": "1298.929620761093521868673784",
+            "peak_at_max_pct_usdt": "12437.658366381581547077169721",
+            "trough_at_max_pct_usdt": "11138.728745620488025208495937"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag1_adverse1.json.gz",
+          "sha256": "159e92918e2d8c83299976e30c9f9d2ab1fe2525455051c5c8c82a896f37835f",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "12005.2593332745559166651931027520",
+            "final_equity_after_exit_fee_usdt": "12005.2593332745559166651931027520",
+            "net_profit_usdt": "2005.2593332745559166651931027520",
+            "net_return_pct": "20.0525933327455591666519310275200",
+            "realized_price_pnl_usdt": "2543.16160586005572",
+            "fees_usdt": "98.8409240659218147000",
+            "funding_usdt": "-198.8970774723500625568068972480",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 9.561666150559482,
+            "max_drawdown_pct": "10.443578833530334225047686477839626270016096459663124579847161930192340697646224725836913438137940703002170523626661672075113850",
+            "cash_at_max_pct_drawdown_usdt": "1298.9253380324426447335554732790",
+            "max_cash_drawdown_usdt": "1298.9253380324426447335554732790",
+            "peak_at_max_pct_usdt": "12437.5499887269540600969748487665",
+            "trough_at_max_pct_usdt": "11138.6246506945114153634193754875"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag2_adverse0.json.gz",
+          "sha256": "e64e09ab8beeecd5d91d529fd5b32985d49fe07cfa52403f49d9a13794d304d8",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "8927.105092972687341640703563",
+            "final_equity_after_exit_fee_usdt": "8927.105092972687341640703563",
+            "net_profit_usdt": "-1072.894907027312658359296437",
+            "net_return_pct": "-10.7289490702731265835929643700",
+            "realized_price_pnl_usdt": "-560.16848702071486",
+            "fees_usdt": "86.7745704627439446710",
+            "funding_usdt": "-185.787578496625927610296437",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -5.512973811088169,
+            "max_drawdown_pct": "17.506656072882183241576493771038271045523645272276004817284918335144418209188656002171716100191878103201207728469054953030612884",
+            "cash_at_max_pct_drawdown_usdt": "1881.094132990823088173921004",
+            "max_cash_drawdown_usdt": "1881.094132990823088173921004",
+            "peak_at_max_pct_usdt": "10745.022494070918539191844567",
+            "trough_at_max_pct_usdt": "8863.928361080095451017923563"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_venue_assumption_lag2_adverse1.json.gz",
+          "sha256": "7474bc38212e5edbf32d0de1fc5253d160f365b4b74ec7a4cfafdb2dffc80f9a",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "8927.0196090280026850833283160110",
+            "final_equity_after_exit_fee_usdt": "8927.0196090280026850833283160110",
+            "net_profit_usdt": "-1072.9803909719973149166716839890",
+            "net_return_pct": "-10.7298039097199731491667168398900",
+            "realized_price_pnl_usdt": "-560.16103094136066",
+            "fees_usdt": "86.7740482585206140790",
+            "funding_usdt": "-185.8810407248881147596716839890",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -5.5134258959613645,
+            "max_drawdown_pct": "17.506785943900701173414221198389092726070583785828720201739325120852889463848724839238459501668340626769616291375554145107141032",
+            "cash_at_max_pct_drawdown_usdt": "1881.0930830696225500042423889695",
+            "max_cash_drawdown_usdt": "1881.0930830696225500042423889695",
+            "peak_at_max_pct_usdt": "10744.9367867834606920404467049805",
+            "trough_at_max_pct_usdt": "8863.8437037138381420362043160110"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag0_adverse0.json.gz",
+          "sha256": "26cdbef36b9a2512ea013655a12f288371d0e60f0bfae869f92c906c0c510e72",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11357.577715762700646280143323",
+            "final_equity_after_exit_fee_usdt": "11357.577715762700646280143323",
+            "net_profit_usdt": "1357.577715762700646280143323",
+            "net_return_pct": "13.5757771576270064628014332300",
+            "realized_price_pnl_usdt": "1982.6057215378021",
+            "fees_usdt": "184.4806262877829859",
+            "funding_usdt": "-200.383108440090541741856677",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 6.567297167380144,
+            "max_drawdown_pct": "12.836173986603669325996647911681627385212073709171997292835592573363907058854025609613277299116629134836074277752460061892201693",
+            "cash_at_max_pct_drawdown_usdt": "1537.477186275704571498850089",
+            "max_cash_drawdown_usdt": "1537.477186275704571498850089",
+            "peak_at_max_pct_usdt": "11977.690454182652804875442055",
+            "trough_at_max_pct_usdt": "10440.213267906948233376591966"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag0_adverse1.json.gz",
+          "sha256": "87f4f1a4f4dc7deaeaa8c3fca2ac6726e8114fd5997aed8bcc5884638f7211fc",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11357.4712946043803456975080087825",
+            "final_equity_after_exit_fee_usdt": "11357.4712946043803456975080087825",
+            "net_profit_usdt": "1357.4712946043803456975080087825",
+            "net_return_pct": "13.57471294604380345697508008782500",
+            "realized_price_pnl_usdt": "1982.6014533815101",
+            "fees_usdt": "184.4795090832603521",
+            "funding_usdt": "-200.4863786466414761244919912175",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 6.566798236848405,
+            "max_drawdown_pct": "12.836301428474003701150925335609471616300944635851863517616720365122820927940638567264525848831821921662122529185187385075275226",
+            "cash_at_max_pct_drawdown_usdt": "1537.4844998079303658774859623645",
+            "max_cash_drawdown_usdt": "1537.4844998079303658774859623645",
+            "peak_at_max_pct_usdt": "11977.6285121929279411089797885455",
+            "trough_at_max_pct_usdt": "10440.1440123849975752314938261810"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag1_adverse0.json.gz",
+          "sha256": "9a4a5c23f57348da62d9f6ab6ac0ed80f76db177fffe01a2099f543eca0f6246",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11762.647286758076775936574746",
+            "final_equity_after_exit_fee_usdt": "11762.647286758076775936574746",
+            "net_profit_usdt": "1762.647286758076775936574746",
+            "net_return_pct": "17.6264728675807677593657474600",
+            "realized_price_pnl_usdt": "2378.0682643566284",
+            "fees_usdt": "177.8236813090700398",
+            "funding_usdt": "-197.433025242253658185425254",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 8.449717413803596,
+            "max_drawdown_pct": "10.554301694414283407889452847888785668712694595015575091221263946293270632585720429176980807043937804814387971856995717308790231",
+            "cash_at_max_pct_drawdown_usdt": "1291.577483219818837640931220",
+            "max_cash_drawdown_usdt": "1291.577483219818837640931220",
+            "peak_at_max_pct_usdt": "12237.450857628678178177062611",
+            "trough_at_max_pct_usdt": "10945.873374408859340536131391"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag1_adverse1.json.gz",
+          "sha256": "188784f4c9362b7c6f1e82ea0a2bfda595014d316caddf47195db10bf850c9b7",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "11762.5358182846185641876346241255",
+            "final_equity_after_exit_fee_usdt": "11762.5358182846185641876346241255",
+            "net_profit_usdt": "1762.5358182846185641876346241255",
+            "net_return_pct": "17.62535818284618564187634624125500",
+            "realized_price_pnl_usdt": "2378.0559551231872",
+            "fees_usdt": "177.8225948929069028",
+            "funding_usdt": "-197.5332708984338069343653758745",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": 8.449203903359434,
+            "max_drawdown_pct": "10.554358207567914025761785354248546923549141574750431199302099342291799414185588213971339814369375989638595077003258894650667732",
+            "cash_at_max_pct_drawdown_usdt": "1291.5731372090058744144344765490",
+            "max_cash_drawdown_usdt": "1291.5731372090058744144344765490",
+            "peak_at_max_pct_usdt": "12237.3441549756591521528190763455",
+            "trough_at_max_pct_usdt": "10945.7710177666532777383845997965"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag2_adverse0.json.gz",
+          "sha256": "240a2e13846f1265e2bb455e754e621ffa75a81ece442ff706c78db8b9549f2d",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "8748.359600167170556122274800",
+            "final_equity_after_exit_fee_usdt": "8748.359600167170556122274800",
+            "net_profit_usdt": "-1251.640399832829443877725200",
+            "net_return_pct": "-12.51640399832829443877725200",
+            "realized_price_pnl_usdt": "-670.7283592688020",
+            "fees_usdt": "156.1903598489159584",
+            "funding_usdt": "-184.557409667883559399725200",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -6.463056561347658,
+            "max_drawdown_pct": "18.124804903477682152659595022216755257260315115651742829304890579124406406490336770998339473946655213711849178503136988128720021",
+            "cash_at_max_pct_drawdown_usdt": "1923.773853689322796224218625",
+            "max_cash_drawdown_usdt": "1923.773853689322796224218625",
+            "peak_at_max_pct_usdt": "10614.038958952878205449693425",
+            "trough_at_max_pct_usdt": "8690.265105263555409225474800"
+          }
+        },
+        {
+          "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag2_adverse1.json.gz",
+          "sha256": "37b4a9b7b3802218bb94b4662951bfccb66edb8b8c1318bcd4df2e29a6fab7c8",
+          "status": "COMPLETE",
+          "metrics": {
+            "initial_usdt": "10000",
+            "final_cash_usdt": "8748.2757809338418550615655407335",
+            "final_equity_after_exit_fee_usdt": "8748.2757809338418550615655407335",
+            "net_profit_usdt": "-1251.7242190661581449384344592665",
+            "net_return_pct": "-12.51724219066158144938434459266500",
+            "realized_price_pnl_usdt": "-670.7202805846175",
+            "fees_usdt": "156.1894220352905807",
+            "funding_usdt": "-184.6502453990221381604344592665",
+            "operating_expense_usdt": "240.164271047227926078",
+            "open_quantity": "0",
+            "closed_trades": 16,
+            "signal_exits": 16,
+            "rejected_entries": 0,
+            "annualized_net_return_pct": -6.463504351069055,
+            "max_drawdown_pct": "18.124933933021355045743036229334673379467805745761967433557152284423349809573911544282581489897010538678174495648820080086745823",
+            "cash_at_max_pct_drawdown_usdt": "1923.7721975176165083795816597185",
+            "max_cash_drawdown_usdt": "1923.7721975176165083795816597185",
+            "peak_at_max_pct_usdt": "10613.9542611669606552709552004520",
+            "trough_at_max_pct_usdt": "8690.1820636493441468913735407335"
+          }
+        }
+      ]
+    }
+  },
+  "gates": {
+    "ETHUSDT": {
+      "sma200_band__vol15_cap50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      },
+      "regression_trend__fixed50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      },
+      "keltner_breakout__fixed50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      },
+      "obv_breakout__fixed50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      },
+      "aroon_trend__fixed50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      },
+      "cci_reversion__fixed50": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    }
+  },
+  "benchmarks": {
+    "ETHUSDT": {
+      "benchmark_ETHUSDT_cash_venue_assumption_adverse0": {
+        "file": "benchmark_ETHUSDT_cash_venue_assumption_adverse0.json.gz",
+        "sha256": "b7fed0abfbacd470740677e66e77f7c17b09def2ed8c70099bfe1fb8ea528953",
+        "status": "COMPLETE",
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10000.0000000000000000",
+          "final_equity_after_exit_fee_usdt": "10000.0000000000000000",
+          "net_profit_usdt": "0E-16",
+          "net_return_pct": "0E-16",
+          "realized_price_pnl_usdt": "0",
+          "fees_usdt": "0",
+          "funding_usdt": "0E-16",
+          "operating_expense_usdt": "0",
+          "open_quantity": "0",
+          "closed_trades": 0,
+          "signal_exits": 0,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 0.0,
+          "max_drawdown_pct": "0",
+          "cash_at_max_pct_drawdown_usdt": "0",
+          "max_cash_drawdown_usdt": "0",
+          "peak_at_max_pct_usdt": "10000",
+          "trough_at_max_pct_usdt": "10000"
+        }
+      },
+      "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse0": {
+        "file": "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse0.json.gz",
+        "sha256": "81c6cf5cc570e3df52a10194b7bd186d3467c4c6902f7063d174ec0aa15c8f04",
+        "status": "COMPLETE",
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9949.061280932071891751009995",
+          "final_equity_after_exit_fee_usdt": "9949.061280932071891751009995",
+          "net_profit_usdt": "-50.938719067928108248990005",
+          "net_return_pct": "-0.5093871906792810824899000500",
+          "realized_price_pnl_usdt": "1462.08373061383470",
+          "fees_usdt": "6.3041385126972237150",
+          "funding_usdt": "-1266.554040121837658455990005",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 1,
+          "signal_exits": 0,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -0.2548445592119486,
+          "max_drawdown_pct": "48.941122714673388608791777279722065081836008210685194994826917831862564578990395626715800892121505424664059236971265266633256375",
+          "cash_at_max_pct_drawdown_usdt": "6639.520855295129796886297655",
+          "max_cash_drawdown_usdt": "6639.520855295129796886297655",
+          "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+          "trough_at_max_pct_usdt": "6926.822716354254299924259135"
+        }
+      },
+      "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse1": {
+        "file": "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse1.json.gz",
+        "sha256": "729fc3b2943320fa89e2577d753d5fac9e7e90d40cac25e9e874cf9fb354493e",
+        "status": "COMPLETE",
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9948.3943175302521668434470532225",
+          "final_equity_after_exit_fee_usdt": "9948.3943175302521668434470532225",
+          "net_profit_usdt": "-51.6056824697478331565529467775",
+          "net_return_pct": "-0.51605682469747833156552946777500",
+          "realized_price_pnl_usdt": "1462.08373061383470",
+          "fees_usdt": "6.3041385126972237150",
+          "funding_usdt": "-1267.2210035236573833635529467775",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 1,
+          "signal_exits": 0,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -0.2581856774150298,
+          "max_drawdown_pct": "48.944429684812367707601251449810398572890383518649935465654731914737258761722410009563651381380307293239605375486915338543772460",
+          "cash_at_max_pct_drawdown_usdt": "6639.9047390595688979996562204425",
+          "max_cash_drawdown_usdt": "6639.9047390595688979996562204425",
+          "peak_at_max_pct_usdt": "13566.2112763772895338604259683950",
+          "trough_at_max_pct_usdt": "6926.3065373177206358607697479525"
+        }
+      },
+      "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse0": {
+        "file": "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse0.json.gz",
+        "sha256": "7269ae3c497428fde752f010822c134af37a4073fe7eaf23046ddcd3fcfce73a",
+        "status": "COMPLETE",
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9934.594851384059765211150295",
+          "final_equity_after_exit_fee_usdt": "9934.594851384059765211150295",
+          "net_profit_usdt": "-65.405148615940234788849705",
+          "net_return_pct": "-0.6540514861594023478884970500",
+          "realized_price_pnl_usdt": "1451.7526714067635",
+          "fees_usdt": "11.4517389708629165",
+          "funding_usdt": "-1265.541810004612892210849705",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 1,
+          "signal_exits": 0,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -0.32733854447777555,
+          "max_drawdown_pct": "48.930882231085302984416845166363937785611826926767429313310549239344466708341970933476098824163005791740965746369852220315075066",
+          "cash_at_max_pct_drawdown_usdt": "6631.720819332542274659598355",
+          "max_cash_drawdown_usdt": "6631.720819332542274659598355",
+          "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+          "trough_at_max_pct_usdt": "6921.521053587288249572431035"
+        }
+      },
+      "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse1": {
+        "file": "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse1.json.gz",
+        "sha256": "15ac72e28c3efbb4800045d2a9ff9ce8f8a89332f36e718250707bfe71ca023d",
+        "status": "COMPLETE",
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9933.9284210194583682835044298725",
+          "final_equity_after_exit_fee_usdt": "9933.9284210194583682835044298725",
+          "net_profit_usdt": "-66.0715789805416317164955701275",
+          "net_return_pct": "-0.66071578980541631716495570127500",
+          "realized_price_pnl_usdt": "1451.7526714067635",
+          "fees_usdt": "11.4517389708629165",
+          "funding_usdt": "-1266.2082403692142891384955701275",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 1,
+          "signal_exits": 0,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -0.3306794239428952,
+          "max_drawdown_pct": "48.934189652658200768819152451344551483628670833087920606336051196243846676813026834433038355326127540051426200050049014932392804",
+          "cash_at_max_pct_drawdown_usdt": "6632.1043962970379311994550038925",
+          "max_cash_drawdown_usdt": "6632.1043962970379311994550038925",
+          "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+          "trough_at_max_pct_usdt": "6921.0052870810928955710554008025"
+        }
+      }
+    }
+  },
+  "opportunity_comparison": [
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "obv_breakout__fixed50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "16.4934006686421051323047281714500",
+      "worst_net_profit_usdt": "1649.3400668642105132304728171450",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "12019.819174793472190239846242",
+        "final_equity_after_exit_fee_usdt": "12019.819174793472190239846242",
+        "net_profit_usdt": "2019.819174793472190239846242",
+        "net_return_pct": "20.1981917479347219023984624200",
+        "realized_price_pnl_usdt": "2723.41741289756242",
+        "fees_usdt": "50.2593889137753062650",
+        "funding_usdt": "-413.174578143086997417153758",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 8,
+        "signal_exits": 8,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.62803814537319,
+        "max_drawdown_pct": "11.301654186908587229230788548282218412912461565687969922279464056364282572663843148277010060005409897443556046388012777191135891",
+        "cash_at_max_pct_drawdown_usdt": "1354.738506330529343203675098",
+        "max_cash_drawdown_usdt": "1484.595196528640812764755439",
+        "peak_at_max_pct_usdt": "11987.081571649995015041118930",
+        "trough_at_max_pct_usdt": "10632.343065319465671837443832"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "keltner_breakout__fixed50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "4.68699495780444021199255896082500",
+      "worst_net_profit_usdt": "468.6994957804440211992558960825",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11993.991629014985393960949832",
+        "final_equity_after_exit_fee_usdt": "11993.991629014985393960949832",
+        "net_profit_usdt": "1993.991629014985393960949832",
+        "net_return_pct": "19.9399162901498539396094983200",
+        "realized_price_pnl_usdt": "2731.01097116846228",
+        "fees_usdt": "44.0379664189911578000",
+        "funding_usdt": "-452.817104687257802161050168",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.51027393056249,
+        "max_drawdown_pct": "12.934494942094113963844344134700788098400542059494619543119067274450413314767405740855283804720313038612906330234123458447629638",
+        "cash_at_max_pct_drawdown_usdt": "1776.220270800151734191720132",
+        "max_cash_drawdown_usdt": "1776.220270800151734191720132",
+        "peak_at_max_pct_usdt": "13732.428508047945714606669964",
+        "trough_at_max_pct_usdt": "11956.208237247793980414949832"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "regression_trend__fixed50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "4.11457168300024415532036005548500",
+      "worst_net_profit_usdt": "411.4571683000244155320360055485",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10506.095575218402945519230079",
+        "final_equity_after_exit_fee_usdt": "10506.095575218402945519230079",
+        "net_profit_usdt": "506.095575218402945519230079",
+        "net_return_pct": "5.0609557521840294551923007900",
+        "realized_price_pnl_usdt": "1475.56041602362348",
+        "fees_usdt": "40.1774888689835558920",
+        "funding_usdt": "-689.123080889009052510769921",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 2.4975160629759947,
+        "max_drawdown_pct": "33.950439848943365186375598249265361439457478851599880002696878505237328762804296577967475835766401670068959279379288019445201687",
+        "cash_at_max_pct_drawdown_usdt": "4605.833313993819091569190374",
+        "max_cash_drawdown_usdt": "4605.833313993819091569190374",
+        "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+        "trough_at_max_pct_usdt": "8960.510257655565005241366416"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "aroon_trend__fixed50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "2.4538099320016174181622065088200",
+      "worst_net_profit_usdt": "245.3809932001617418162206508820",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10377.356875867521273967551946",
+        "final_equity_after_exit_fee_usdt": "10377.356875867521273967551946",
+        "net_profit_usdt": "377.356875867521273967551946",
+        "net_return_pct": "3.7735687586752127396755194600",
+        "realized_price_pnl_usdt": "1116.54180337291316",
+        "fees_usdt": "53.8953746597204535740",
+        "funding_usdt": "-445.125281798443506380448054",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 10,
+        "signal_exits": 10,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 1.868022260703264,
+        "max_drawdown_pct": "29.815120282540914679585705133919552149989765213998872920671774094220206631031465189218527183096414504961038027187049884169596446",
+        "cash_at_max_pct_drawdown_usdt": "3627.810490869653922542926032",
+        "max_cash_drawdown_usdt": "3627.810490869653922542926032",
+        "peak_at_max_pct_usdt": "12167.686920230272434845147142",
+        "trough_at_max_pct_usdt": "8539.876429360618512302221110"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "sma200_band__vol15_cap50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "-9.35044988915036538256622464461500",
+      "worst_net_profit_usdt": "-935.0449889150365382566224644615",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9742.166771654117219058687446",
+        "final_equity_after_exit_fee_usdt": "9742.166771654117219058687446",
+        "net_profit_usdt": "-257.833228345882780941312554",
+        "net_return_pct": "-2.5783322834588278094131255400",
+        "realized_price_pnl_usdt": "480.53622114068016",
+        "fees_usdt": "17.2556957388152630040",
+        "funding_usdt": "-480.949482700519751859312554",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -1.2967030114881404,
+        "max_drawdown_pct": "19.795936890625169328465360694465615705887344628525788532843718531662471574892878359684020202714891043805582649953580506975639981",
+        "cash_at_max_pct_drawdown_usdt": "2354.992320352351657483557073",
+        "max_cash_drawdown_usdt": "2354.992320352351657483557073",
+        "peak_at_max_pct_usdt": "11896.341826931230316587391780",
+        "trough_at_max_pct_usdt": "9541.349506578878659103834707"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    },
+    {
+      "symbol": "ETHUSDT",
+      "candidate": "cci_reversion__fixed50",
+      "historical_screen_pass": false,
+      "all_scenarios_complete": true,
+      "worst_net_return_pct": "-12.51724219066158144938434459266500",
+      "worst_net_profit_usdt": "-1251.7242190661581449384344592665",
+      "nominal_lag0": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11591.477642741414913228919267",
+        "final_equity_after_exit_fee_usdt": "11591.477642741414913228919267",
+        "net_profit_usdt": "1591.477642741414913228919267",
+        "net_return_pct": "15.9147764274141491322891926700",
+        "realized_price_pnl_usdt": "2135.92119845946634",
+        "fees_usdt": "102.5404564538329141870",
+        "funding_usdt": "-201.738828216990586506080733",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 16,
+        "signal_exits": 16,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 7.658287093437783,
+        "max_drawdown_pct": "12.509504266479906804217494208402173315050143804452709944756113742936863789711740819492933231499071865228640844446559550859524667",
+        "cash_at_max_pct_drawdown_usdt": "1509.278832366427256662900272",
+        "max_cash_drawdown_usdt": "1509.278832366427256662900272",
+        "peak_at_max_pct_usdt": "12065.057097511414899734263193",
+        "trough_at_max_pct_usdt": "10555.778265144987643071362921"
+      },
+      "failed_scenarios": [
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "venue_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 0,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": false,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 1,
+          "adverse_funding": true,
+          "reasons": [
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": false,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        },
+        {
+          "cost": "stress_assumption",
+          "lag": 2,
+          "adverse_funding": true,
+          "reasons": [
+            "NONPOSITIVE_NET",
+            "FEWER_THAN_20_SIGNAL_EXITS"
+          ]
+        }
+      ],
+      "selected_by_training": false
+    }
+  ],
+  "opportunity_ranking_classification": "Post-hoc descriptive ranking; no change to training selection or forward cohorts.",
+  "historical_strategy_simulations": 72,
+  "benchmark_simulations": 5,
+  "independent_10000usdt_accounts": true,
+  "real_orders": 0
+}

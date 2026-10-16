@@ -1,0 +1,29 @@
+{
+  "experiment": "017",
+  "files": [
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_Binance_017_EL.html",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000bd5081f5a53b53caae84b698",
+      "library_file_id": "libfile_97e91d3c9a6081918c2137f7585f6bbf",
+      "file_name": "Futures_Binance_017_EL.html",
+      "local_metadata_applied": true,
+      "path": "/Futures_Binance_017_EL.html",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_Binance_017_Evidence.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000e4f881f7bade9d40e7e62616",
+      "library_file_id": "libfile_4a34e6a7d2dc8191bca89e277b1fbd97",
+      "file_name": "Futures_Binance_017_Evidence.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_Binance_017_Evidence.zip",
+      "current_version_number": 0
+    }
+  ],
+  "verification_file": "research/experiments/017/verification.json",
+  "source": "Prepared upload helper results; all ordered items succeeded and local metadata was applied."
+}

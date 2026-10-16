@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T21:58:01.195473+00:00",
+  "updated_utc": "2026-10-16T22:08:11.381335+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 23,
@@ -136,6 +136,42 @@
       "new_delay_robust_passes": 0,
       "cross_asset_robust_passes": [],
       "conclusion": "LTCvolpasses historicalgate and selectedWFAispositive underbothcosts, but3delayprofitgatesfail. Retain as promising fragile idea;BTC/ETHfail. Noretuning,paperpromotion orBybitclaims."
+    },
+    {
+      "id": "017",
+      "status": "COMPLETED",
+      "protocol": "docs/BINANCE_PERPETUAL_017.json",
+      "new_signal_variants": 0,
+      "existing_variants_planned": 6,
+      "candidate_symbols": [
+        "ETHUSDT"
+      ],
+      "excluded_before_outcomes": {
+        "BTCUSDT": "Networkblocked2023-02markarchive",
+        "LTCUSDT": "Missing72hoursFebruary2022and48hoursApril2022inchecksummedtradearchives"
+      },
+      "planned_simulations": 89,
+      "freeze_sha256": "59291edfbb05990fd32ebd0be369ac22be1c4c75842a2d6e0a85fd5b5797c807",
+      "completed_utc": "2026-10-16T22:08:11.381321+00:00",
+      "report": "docs/BINANCE_PERPETUAL_017_RESULTS.md",
+      "results": "research/experiments/017",
+      "remote_freeze_commit": "4c788ab5861dc7bc10fcf5d42f74f80155298ef9",
+      "remote_training_selection_commit": "6e6ee508e1cf244fa80d239ef47cab8b9805b31e",
+      "scenario_runs": 89,
+      "integrity_replays": 2,
+      "total_new_executions": 91,
+      "new_families": 0,
+      "new_variants": 0,
+      "all_variants": 46,
+      "historical_robust_passes": [],
+      "positive_in_all_12_scenarios": [
+        "obv_breakout__fixed50",
+        "keltner_breakout__fixed50",
+        "regression_trend__fixed50",
+        "aroon_trend__fixed50"
+      ],
+      "training_selection": "cash",
+      "conclusion": "Four of six variants have positive net PnL in every evaluation scenario, led by OBV (worst +16.4934% / +1649.34 USDT). All six fail the preregistered minimum 20 signal exits. Training selected cash because all six had fewer than 10 exits. Preserve positive evidence and failures without retuning or promotion. Two zero-byte result files were reconstructed byte-identically to their original manifest hashes; originals and recovery receipt preserved."
     }
   ],
   "prospective_cohorts": [
@@ -164,33 +200,16 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
-    },
-    {
-      "id": "017",
-      "status": "PREREGISTERED_NOT_EXECUTED",
-      "protocol": "docs/BINANCE_PERPETUAL_017.json",
-      "new_signal_variants": 0,
-      "existing_variants_planned": 6,
-      "candidate_symbols": [
-        "ETHUSDT"
-      ],
-      "excluded_before_outcomes": {
-        "BTCUSDT": "Networkblocked2023-02markarchive",
-        "LTCUSDT": "Missing72hoursFebruary2022and48hoursApril2022inchecksummedtradearchives"
-      },
-      "next": "FinishETH2022..2025coverageaudit;publishcompleteinput/source/testfreeze beforeanyPnL;retainall6families,costs,delays,fundingcases.",
-      "planned_simulations": 89,
-      "freeze_sha256": "59291edfbb05990fd32ebd0be369ac22be1c4c75842a2d6e0a85fd5b5797c807"
     }
   ],
-  "active_experiment": "017",
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "570+1226+2020+3174+174+174=7338historical scenario executions on overlapping histories, including cost/lag/WFA repetitions.46unique sizing variants,23families. Synthetic software runs excluded. Earlier001/002/006remain separately documented.",
+  "count_note": "570 + 1226 + 2020 + 3174 + 174 + 174 + 89 = 7427 research scenario executions on overlapping histories, plus two byte-identical evidence-recovery replays = 7429 total known executions. Still 46 unique sizing variants in 23 families; repeated scenarios are not independent evidence. Synthetic software runs are excluded. Earlier 001/002/006 remain separately documented.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Publish017freeze thencomplete12trainingruns,pinselection,andall72evaluations+5benchmarks onverifiedETHBinancehistory. NoBybitclaim;013awaitsuserpacket.",
-  "execution_realism": "36validated real Bybit books and600fundingevents remain diagnostic. Full hourly perpetual adapter tested on synthetic data; historical replay still awaits the unified user packet. Account settings and historical fills remain unverified.",
+  "next_action": "Prioritize frozen Bybit 013 when the single BYBIT_SEND_THIS.zip arrives. Until then continue useful bounded futures research on accessible official sources, with a separate pre-outcome freeze for each new batch. Preserve 017 findings and all failures; do not retune or rerun unchanged scenarios to force profit, and do not automatically substitute spot.",
+  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022\u20132025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",
@@ -254,5 +273,8 @@
   ],
   "collection_current": "docs/BYBIT_COMPLETE_014.json supersedes separate collection instructions;013research design and all prior results remain frozen.",
   "cumulative_known_simulations_003_007_009_011_015": 7164,
-  "cumulative_known_simulations_003_007_009_011_015_016": 7338
+  "cumulative_known_simulations_003_007_009_011_015_016": 7338,
+  "cumulative_known_design_runs_through_017": 7427,
+  "additional_integrity_replays_017": 2,
+  "cumulative_known_executions_through_017": 7429
 }

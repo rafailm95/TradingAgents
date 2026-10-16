@@ -1,0 +1,1697 @@
+{
+  "experiment": "binance_perpetual_017_v1",
+  "completed_utc": "2026-10-16T22:07:41.867647+00:00",
+  "venue": "Binance USD-M perpetual",
+  "symbols": [
+    "ETHUSDT"
+  ],
+  "evaluation": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "training_selection": "cash",
+  "training_selection_sha256": "5a60dfc9c11d3cb286adea86a62533be2231dbcf314598f9560791b763012895",
+  "historical_screen_passes": [],
+  "new_simulations": 89,
+  "training_simulations": 12,
+  "evaluation_simulations": 72,
+  "benchmark_simulations": 5,
+  "completed_scenarios": 89,
+  "new_unique_variants": 0,
+  "cumulative_known_simulations": 7429,
+  "cumulative_design_runs": 7427,
+  "additional_integrity_replays": 2,
+  "cumulative_unique_variants": 46,
+  "cumulative_families": 23,
+  "wealth_audit_events": 7706153,
+  "max_wealth_error_usdt": "0",
+  "candidates": [
+    {
+      "candidate": "sma200_band__vol15_cap50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9742.166771654117219058687446",
+        "final_equity_after_exit_fee_usdt": "9742.166771654117219058687446",
+        "net_profit_usdt": "-257.833228345882780941312554",
+        "net_return_pct": "-2.5783322834588278094131255400",
+        "realized_price_pnl_usdt": "480.53622114068016",
+        "fees_usdt": "17.2556957388152630040",
+        "funding_usdt": "-480.949482700519751859312554",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -1.2967030114881404,
+        "max_drawdown_pct": "19.795936890625169328465360694465615705887344628525788532843718531662471574892878359684020202714891043805582649953580506975639981",
+        "cash_at_max_pct_drawdown_usdt": "2354.992320352351657483557073",
+        "max_cash_drawdown_usdt": "2354.992320352351657483557073",
+        "peak_at_max_pct_usdt": "11896.341826931230316587391780",
+        "trough_at_max_pct_usdt": "9541.349506578878659103834707"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9703.677534284390491103159002",
+        "final_equity_after_exit_fee_usdt": "9703.677534284390491103159002",
+        "net_profit_usdt": "-296.322465715609508896840998",
+        "net_return_pct": "-2.9632246571560950889684099800",
+        "realized_price_pnl_usdt": "455.4431646427867",
+        "fees_usdt": "31.2961464397154777",
+        "funding_usdt": "-480.305212871452805118840998",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -1.4917405178693974,
+        "max_drawdown_pct": "19.963921471962347489024862798795845194286635436092002403087560679787735658471673950549975237718691121760278383867059051017034313",
+        "cash_at_max_pct_drawdown_usdt": "2373.577579426623026832991507",
+        "max_cash_drawdown_usdt": "2373.577579426623026832991507",
+        "peak_at_max_pct_usdt": "11889.335383131583478826238478",
+        "trough_at_max_pct_usdt": "9515.757803704960451993246971"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "sma200_band__vol15_cap50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9064.9550110849634617433775355385",
+          "final_equity_after_exit_fee_usdt": "9064.9550110849634617433775355385",
+          "net_profit_usdt": "-935.0449889150365382566224644615",
+          "net_return_pct": "-9.35044988915036538256622464461500",
+          "realized_price_pnl_usdt": "-203.2737611067145",
+          "fees_usdt": "29.3174726802768829",
+          "funding_usdt": "-462.2894840808172292786224644615",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -4.7867461017041535,
+          "max_drawdown_pct": "25.883641162024318019088783022729080446821456021175293703415444430881129476845796544865791318952661241721281878139149931336381422",
+          "cash_at_max_pct_drawdown_usdt": "3077.0515506205697796264812842020",
+          "max_cash_drawdown_usdt": "3077.0515506205697796264812842020",
+          "peak_at_max_pct_usdt": "11888.0165713899833637609172903310",
+          "trough_at_max_pct_usdt": "8810.9650207694135841344360061290"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "27.698585776739854371519013253655658693599073856243155703673063540867204445816925719053281637366956899158141393986419296783884779",
+          "cash_at_max_excursion_usdt": "3292.8124671795028277737812842020",
+          "mark_low_ms": 1738548000000,
+          "prior_sampled_peak_usdt": "11888.0165713899833637609172903310",
+          "low_equity_after_exit_fee_usdt": "8595.2041042104805359871360061290",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "sma200_band__vol15_cap50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "9064.9550110849634617433775355385",
+          "final_equity_after_exit_fee_usdt": "9064.9550110849634617433775355385",
+          "net_profit_usdt": "-935.0449889150365382566224644615",
+          "net_return_pct": "-9.35044988915036538256622464461500",
+          "realized_price_pnl_usdt": "-203.2737611067145",
+          "fees_usdt": "29.3174726802768829",
+          "funding_usdt": "-462.2894840808172292786224644615",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -4.7867461017041535,
+          "max_drawdown_pct": "25.883641162024318019088783022729080446821456021175293703415444430881129476845796544865791318952661241721281878139149931336381422",
+          "cash_at_max_pct_drawdown_usdt": "3077.0515506205697796264812842020",
+          "max_cash_drawdown_usdt": "3077.0515506205697796264812842020",
+          "peak_at_max_pct_usdt": "11888.0165713899833637609172903310",
+          "trough_at_max_pct_usdt": "8810.9650207694135841344360061290"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "27.698585776739854371519013253655658693599073856243155703673063540867204445816925719053281637366956899158141393986419296783884779",
+          "cash_at_max_excursion_usdt": "3292.8124671795028277737812842020",
+          "mark_low_ms": 1738548000000,
+          "prior_sampled_peak_usdt": "11888.0165713899833637609172903310",
+          "low_equity_after_exit_fee_usdt": "8595.2041042104805359871360061290",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    },
+    {
+      "candidate": "regression_trend__fixed50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10506.095575218402945519230079",
+        "final_equity_after_exit_fee_usdt": "10506.095575218402945519230079",
+        "net_profit_usdt": "506.095575218402945519230079",
+        "net_return_pct": "5.0609557521840294551923007900",
+        "realized_price_pnl_usdt": "1475.56041602362348",
+        "fees_usdt": "40.1774888689835558920",
+        "funding_usdt": "-689.123080889009052510769921",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 2.4975160629759947,
+        "max_drawdown_pct": "33.950439848943365186375598249265361439457478851599880002696878505237328762804296577967475835766401670068959279379288019445201687",
+        "cash_at_max_pct_drawdown_usdt": "4605.833313993819091569190374",
+        "max_cash_drawdown_usdt": "4605.833313993819091569190374",
+        "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+        "trough_at_max_pct_usdt": "8960.510257655565005241366416"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10411.804365273384523395141068",
+        "final_equity_after_exit_fee_usdt": "10411.804365273384523395141068",
+        "net_profit_usdt": "411.804365273384523395141068",
+        "net_return_pct": "4.1180436527338452339514106800",
+        "realized_price_pnl_usdt": "1411.9205670343759",
+        "fees_usdt": "72.7153230123494159",
+        "funding_usdt": "-687.236607701414034626858932",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 2.0368412664373987,
+        "max_drawdown_pct": "34.361748379772867390871135105717554349861476857083364000562782188355195734426780367991703808419101340287802977299792036666931169",
+        "cash_at_max_pct_drawdown_usdt": "4657.130869674727691971536220",
+        "max_cash_drawdown_usdt": "4657.130869674727691971536220",
+        "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+        "trough_at_max_pct_usdt": "8896.111003245102832260493170"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "regression_trend__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 0,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10411.4571683000244155320360055485",
+          "final_equity_after_exit_fee_usdt": "10411.4571683000244155320360055485",
+          "net_profit_usdt": "411.4571683000244155320360055485",
+          "net_return_pct": "4.11457168300024415532036005548500",
+          "realized_price_pnl_usdt": "1411.9145154819763",
+          "fees_usdt": "72.7138597904637977",
+          "funding_usdt": "-687.5792163442601606899639944515",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 2.0351411314382966,
+          "max_drawdown_pct": "34.363043127979703082417774356284551084437412513861412604358141515228909877781384969642900660830719783852205426304086914596088993",
+          "cash_at_max_pct_drawdown_usdt": "4657.2609256816204798211495578435",
+          "max_cash_drawdown_usdt": "4657.2609256816204798211495578435",
+          "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+          "trough_at_max_pct_usdt": "8895.8487576965103469493608468515"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "35.181112520584634852664014447845575618074577571469593928538360290685548180022949694224597810774538665482547370250530116348070908",
+          "cash_at_max_excursion_usdt": "4768.1347677475121460677495578435",
+          "mark_low_ms": 1750622400000,
+          "prior_sampled_peak_usdt": "13553.1096833781308267705104046950",
+          "low_equity_after_exit_fee_usdt": "8784.9749156306186807027608468515",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_regression_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "regression_trend__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 0,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10411.4571683000244155320360055485",
+          "final_equity_after_exit_fee_usdt": "10411.4571683000244155320360055485",
+          "net_profit_usdt": "411.4571683000244155320360055485",
+          "net_return_pct": "4.11457168300024415532036005548500",
+          "realized_price_pnl_usdt": "1411.9145154819763",
+          "fees_usdt": "72.7138597904637977",
+          "funding_usdt": "-687.5792163442601606899639944515",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 2.0351411314382966,
+          "max_drawdown_pct": "34.363043127979703082417774356284551084437412513861412604358141515228909877781384969642900660830719783852205426304086914596088993",
+          "cash_at_max_pct_drawdown_usdt": "4657.2609256816204798211495578435",
+          "max_cash_drawdown_usdt": "4657.2609256816204798211495578435",
+          "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+          "trough_at_max_pct_usdt": "8895.8487576965103469493608468515"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "35.181112520584634852664014447845575618074577571469593928538360290685548180022949694224597810774538665482547370250530116348070908",
+          "cash_at_max_excursion_usdt": "4768.1347677475121460677495578435",
+          "mark_low_ms": 1750622400000,
+          "prior_sampled_peak_usdt": "13553.1096833781308267705104046950",
+          "low_equity_after_exit_fee_usdt": "8784.9749156306186807027608468515",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    },
+    {
+      "candidate": "keltner_breakout__fixed50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11993.991629014985393960949832",
+        "final_equity_after_exit_fee_usdt": "11993.991629014985393960949832",
+        "net_profit_usdt": "1993.991629014985393960949832",
+        "net_return_pct": "19.9399162901498539396094983200",
+        "realized_price_pnl_usdt": "2731.01097116846228",
+        "fees_usdt": "44.0379664189911578000",
+        "funding_usdt": "-452.817104687257802161050168",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.51027393056249,
+        "max_drawdown_pct": "12.934494942094113963844344134700788098400542059494619543119067274450413314767405740855283804720313038612906330234123458447629638",
+        "cash_at_max_pct_drawdown_usdt": "1776.220270800151734191720132",
+        "max_cash_drawdown_usdt": "1776.220270800151734191720132",
+        "peak_at_max_pct_usdt": "13732.428508047945714606669964",
+        "trough_at_max_pct_usdt": "11956.208237247793980414949832"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11885.840587652612815939734470",
+        "final_equity_after_exit_fee_usdt": "11885.840587652612815939734470",
+        "net_profit_usdt": "1885.840587652612815939734470",
+        "net_return_pct": "18.858405876526128159397344700",
+        "realized_price_pnl_usdt": "2656.9112137936002",
+        "fees_usdt": "79.6749804148690026",
+        "funding_usdt": "-451.231374678890455382265530",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 7,
+        "signal_exits": 7,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.015760950200471,
+        "max_drawdown_pct": "13.039324024467026311895355656491326628915665525509591802628816351775482358519212581627699794316211656920045032878189312658610208",
+        "cash_at_max_pct_drawdown_usdt": "1777.343462633457663643219986",
+        "max_cash_drawdown_usdt": "1777.343462633457663643219986",
+        "peak_at_max_pct_usdt": "13630.641122948130697660954456",
+        "trough_at_max_pct_usdt": "11853.297660314673034017734470"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "keltner_breakout__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10468.6994957804440211992558960825",
+          "final_equity_after_exit_fee_usdt": "10468.6994957804440211992558960825",
+          "net_profit_usdt": "468.6994957804440211992558960825",
+          "net_return_pct": "4.68699495780444021199255896082500",
+          "realized_price_pnl_usdt": "1191.4320368424678",
+          "fees_usdt": "72.4157370888944196",
+          "funding_usdt": "-410.1525329259014331227441039175",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 2.3150600584320418,
+          "max_drawdown_pct": "15.808406725516921911528424616137451381451881740965236088839074201565163752065417047594843646034511954599061435313032277358107356",
+          "cash_at_max_pct_drawdown_usdt": "1786.3815452092263385621176164175",
+          "max_cash_drawdown_usdt": "1786.3815452092263385621176164175",
+          "peak_at_max_pct_usdt": "11300.1998001845636961144947440340",
+          "trough_at_max_pct_usdt": "9513.8182549753373575523771276165"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "15.883550754352539257576338237082849935018292837274422027138064685625841404602540967417041443581046089133494238219645916498766820",
+          "cash_at_max_excursion_usdt": "1794.8729706055594008260176164175",
+          "mark_low_ms": 1731686400000,
+          "prior_sampled_peak_usdt": "11300.1998001845636961144947440340",
+          "low_equity_after_exit_fee_usdt": "9505.3268295790042952884771276165",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "keltner_breakout__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10468.6994957804440211992558960825",
+          "final_equity_after_exit_fee_usdt": "10468.6994957804440211992558960825",
+          "net_profit_usdt": "468.6994957804440211992558960825",
+          "net_return_pct": "4.68699495780444021199255896082500",
+          "realized_price_pnl_usdt": "1191.4320368424678",
+          "fees_usdt": "72.4157370888944196",
+          "funding_usdt": "-410.1525329259014331227441039175",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 7,
+          "signal_exits": 7,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 2.3150600584320418,
+          "max_drawdown_pct": "15.808406725516921911528424616137451381451881740965236088839074201565163752065417047594843646034511954599061435313032277358107356",
+          "cash_at_max_pct_drawdown_usdt": "1786.3815452092263385621176164175",
+          "max_cash_drawdown_usdt": "1786.3815452092263385621176164175",
+          "peak_at_max_pct_usdt": "11300.1998001845636961144947440340",
+          "trough_at_max_pct_usdt": "9513.8182549753373575523771276165"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "15.883550754352539257576338237082849935018292837274422027138064685625841404602540967417041443581046089133494238219645916498766820",
+          "cash_at_max_excursion_usdt": "1794.8729706055594008260176164175",
+          "mark_low_ms": 1731686400000,
+          "prior_sampled_peak_usdt": "11300.1998001845636961144947440340",
+          "low_equity_after_exit_fee_usdt": "9505.3268295790042952884771276165",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92851,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    },
+    {
+      "candidate": "obv_breakout__fixed50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "12019.819174793472190239846242",
+        "final_equity_after_exit_fee_usdt": "12019.819174793472190239846242",
+        "net_profit_usdt": "2019.819174793472190239846242",
+        "net_return_pct": "20.1981917479347219023984624200",
+        "realized_price_pnl_usdt": "2723.41741289756242",
+        "fees_usdt": "50.2593889137753062650",
+        "funding_usdt": "-413.174578143086997417153758",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 8,
+        "signal_exits": 8,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.62803814537319,
+        "max_drawdown_pct": "11.301654186908587229230788548282218412912461565687969922279464056364282572663843148277010060005409897443556046388012777191135891",
+        "cash_at_max_pct_drawdown_usdt": "1354.738506330529343203675098",
+        "max_cash_drawdown_usdt": "1484.595196528640812764755439",
+        "peak_at_max_pct_usdt": "11987.081571649995015041118930",
+        "trough_at_max_pct_usdt": "10632.343065319465671837443832"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11896.548562183932101296886173",
+        "final_equity_after_exit_fee_usdt": "11896.548562183932101296886173",
+        "net_profit_usdt": "1896.548562183932101296886173",
+        "net_return_pct": "18.9654856218393210129688617300",
+        "realized_price_pnl_usdt": "2639.2123331770452",
+        "fees_usdt": "90.8786342344572948",
+        "funding_usdt": "-411.620865711427877825113827",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 8,
+        "signal_exits": 8,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 9.064822551467646,
+        "max_drawdown_pct": "11.528884159031498274994347952320875742713257066803349220597462676069123008951504604489740356134010811158615903045907794585568378",
+        "cash_at_max_pct_drawdown_usdt": "1379.020771790197054286703544",
+        "max_cash_drawdown_usdt": "1486.547743873381297701045869",
+        "peak_at_max_pct_usdt": "11961.441825312293056298699555",
+        "trough_at_max_pct_usdt": "10582.421053522096002011996011"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag1_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "obv_breakout__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 1,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "11649.3400668642105132304728171450",
+          "final_equity_after_exit_fee_usdt": "11649.3400668642105132304728171450",
+          "net_profit_usdt": "1649.3400668642105132304728171450",
+          "net_return_pct": "16.4934006686421051323047281714500",
+          "realized_price_pnl_usdt": "2376.3521435531761",
+          "fees_usdt": "87.3091234605932225",
+          "funding_usdt": "-399.5386821811444381915271828550",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 8,
+          "signal_exits": 8,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 7.926473523273877,
+          "max_drawdown_pct": "16.860066657879761278473240549886705488990758314424280005459742843082503588011918980806156988244209665242179847263596067260043892",
+          "cash_at_max_pct_drawdown_usdt": "2009.7881044850403099925362710890",
+          "max_cash_drawdown_usdt": "2009.7881044850403099925362710890",
+          "peak_at_max_pct_usdt": "11920.4042621370118409774507626785",
+          "trough_at_max_pct_usdt": "9910.6161576519715309849144915895"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "17.017364769635828551387922702825783500299100454080851080028570092554339647711341465270272617715239876744915775586003359261327067",
+          "cash_at_max_excursion_usdt": "2028.5386753030715932753849697470",
+          "mark_low_ms": 1721937600000,
+          "prior_sampled_peak_usdt": "11920.4042621370118409774507626785",
+          "low_equity_after_exit_fee_usdt": "9891.8655868339402477020657929315",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92853,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_obv_breakout__fixed50_stress_assumption_lag1_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "obv_breakout__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 1,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "11649.3400668642105132304728171450",
+          "final_equity_after_exit_fee_usdt": "11649.3400668642105132304728171450",
+          "net_profit_usdt": "1649.3400668642105132304728171450",
+          "net_return_pct": "16.4934006686421051323047281714500",
+          "realized_price_pnl_usdt": "2376.3521435531761",
+          "fees_usdt": "87.3091234605932225",
+          "funding_usdt": "-399.5386821811444381915271828550",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 8,
+          "signal_exits": 8,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 7.926473523273877,
+          "max_drawdown_pct": "16.860066657879761278473240549886705488990758314424280005459742843082503588011918980806156988244209665242179847263596067260043892",
+          "cash_at_max_pct_drawdown_usdt": "2009.7881044850403099925362710890",
+          "max_cash_drawdown_usdt": "2009.7881044850403099925362710890",
+          "peak_at_max_pct_usdt": "11920.4042621370118409774507626785",
+          "trough_at_max_pct_usdt": "9910.6161576519715309849144915895"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "17.017364769635828551387922702825783500299100454080851080028570092554339647711341465270272617715239876744915775586003359261327067",
+          "cash_at_max_excursion_usdt": "2028.5386753030715932753849697470",
+          "mark_low_ms": 1721937600000,
+          "prior_sampled_peak_usdt": "11920.4042621370118409774507626785",
+          "low_equity_after_exit_fee_usdt": "9891.8655868339402477020657929315",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92853,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    },
+    {
+      "candidate": "aroon_trend__fixed50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10377.356875867521273967551946",
+        "final_equity_after_exit_fee_usdt": "10377.356875867521273967551946",
+        "net_profit_usdt": "377.356875867521273967551946",
+        "net_return_pct": "3.7735687586752127396755194600",
+        "realized_price_pnl_usdt": "1116.54180337291316",
+        "fees_usdt": "53.8953746597204535740",
+        "funding_usdt": "-445.125281798443506380448054",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 10,
+        "signal_exits": 10,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 1.868022260703264,
+        "max_drawdown_pct": "29.815120282540914679585705133919552149989765213998872920671774094220206631031465189218527183096414504961038027187049884169596446",
+        "cash_at_max_pct_drawdown_usdt": "3627.810490869653922542926032",
+        "max_cash_drawdown_usdt": "3627.810490869653922542926032",
+        "peak_at_max_pct_usdt": "12167.686920230272434845147142",
+        "trough_at_max_pct_usdt": "8539.876429360618512302221110"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10245.608647160918384246977652",
+        "final_equity_after_exit_fee_usdt": "10245.608647160918384246977652",
+        "net_profit_usdt": "245.608647160918384246977652",
+        "net_return_pct": "2.4560864716091838424697765200",
+        "realized_price_pnl_usdt": "1026.1270137469547",
+        "fees_usdt": "97.3606380331700311",
+        "funding_usdt": "-442.993457505638358575022348",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 10,
+        "signal_exits": 10,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 1.2197540366310005,
+        "max_drawdown_pct": "30.425844276935659071155784861405109323767152704581022853050145810703144082475717165846552191339918802350052174526918889120475176",
+        "cash_at_max_pct_drawdown_usdt": "3694.082902118825990910259862",
+        "max_cash_drawdown_usdt": "3694.082902118825990910259862",
+        "peak_at_max_pct_usdt": "12141.266708970600818290203390",
+        "trough_at_max_pct_usdt": "8447.183806851774827379943528"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "aroon_trend__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 0,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10245.3809932001617418162206508820",
+          "final_equity_after_exit_fee_usdt": "10245.3809932001617418162206508820",
+          "net_profit_usdt": "245.3809932001617418162206508820",
+          "net_return_pct": "2.4538099320016174181622065088200",
+          "realized_price_pnl_usdt": "1026.1184665681639",
+          "fees_usdt": "97.3594321573138955",
+          "funding_usdt": "-443.2137701634603366057793491180",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 10,
+          "signal_exits": 10,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 1.2186302652001995,
+          "max_drawdown_pct": "30.426618031564232307868001796163443938531246156389412318053241431073780456087146037735651379303055897629963198579280577827823612",
+          "cash_at_max_pct_drawdown_usdt": "3694.1494902492436830812980274655",
+          "max_cash_drawdown_usdt": "3694.1494902492436830812980274655",
+          "peak_at_max_pct_usdt": "12141.1768025515501992858568323685",
+          "trough_at_max_pct_usdt": "8447.0273123023065162045588049030"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "30.558279181427641723912527994935804028250683110593244992384712178096654253238713208653568829151495145183749862927194453001784927",
+          "cash_at_max_excursion_usdt": "3710.1347032344325791228333935565",
+          "mark_low_ms": 1752332400000,
+          "prior_sampled_peak_usdt": "12141.1768025515501992858568323685",
+          "low_equity_after_exit_fee_usdt": "8431.0420993171176201630234388120",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92857,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_aroon_trend__fixed50_stress_assumption_lag0_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "aroon_trend__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 0,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "10245.3809932001617418162206508820",
+          "final_equity_after_exit_fee_usdt": "10245.3809932001617418162206508820",
+          "net_profit_usdt": "245.3809932001617418162206508820",
+          "net_return_pct": "2.4538099320016174181622065088200",
+          "realized_price_pnl_usdt": "1026.1184665681639",
+          "fees_usdt": "97.3594321573138955",
+          "funding_usdt": "-443.2137701634603366057793491180",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 10,
+          "signal_exits": 10,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": 1.2186302652001995,
+          "max_drawdown_pct": "30.426618031564232307868001796163443938531246156389412318053241431073780456087146037735651379303055897629963198579280577827823612",
+          "cash_at_max_pct_drawdown_usdt": "3694.1494902492436830812980274655",
+          "max_cash_drawdown_usdt": "3694.1494902492436830812980274655",
+          "peak_at_max_pct_usdt": "12141.1768025515501992858568323685",
+          "trough_at_max_pct_usdt": "8447.0273123023065162045588049030"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "30.558279181427641723912527994935804028250683110593244992384712178096654253238713208653568829151495145183749862927194453001784927",
+          "cash_at_max_excursion_usdt": "3710.1347032344325791228333935565",
+          "mark_low_ms": 1752332400000,
+          "prior_sampled_peak_usdt": "12141.1768025515501992858568323685",
+          "low_equity_after_exit_fee_usdt": "8431.0420993171176201630234388120",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92857,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    },
+    {
+      "candidate": "cci_reversion__fixed50",
+      "baseline": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11591.477642741414913228919267",
+        "final_equity_after_exit_fee_usdt": "11591.477642741414913228919267",
+        "net_profit_usdt": "1591.477642741414913228919267",
+        "net_return_pct": "15.9147764274141491322891926700",
+        "realized_price_pnl_usdt": "2135.92119845946634",
+        "fees_usdt": "102.5404564538329141870",
+        "funding_usdt": "-201.738828216990586506080733",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 16,
+        "signal_exits": 16,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 7.658287093437783,
+        "max_drawdown_pct": "12.509504266479906804217494208402173315050143804452709944756113742936863789711740819492933231499071865228640844446559550859524667",
+        "cash_at_max_pct_drawdown_usdt": "1509.278832366427256662900272",
+        "max_cash_drawdown_usdt": "1509.278832366427256662900272",
+        "peak_at_max_pct_usdt": "12065.057097511414899734263193",
+        "trough_at_max_pct_usdt": "10555.778265144987643071362921"
+      },
+      "stress": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "11357.577715762700646280143323",
+        "final_equity_after_exit_fee_usdt": "11357.577715762700646280143323",
+        "net_profit_usdt": "1357.577715762700646280143323",
+        "net_return_pct": "13.5757771576270064628014332300",
+        "realized_price_pnl_usdt": "1982.6057215378021",
+        "fees_usdt": "184.4806262877829859",
+        "funding_usdt": "-200.383108440090541741856677",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 16,
+        "signal_exits": 16,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 6.567297167380144,
+        "max_drawdown_pct": "12.836173986603669325996647911681627385212073709171997292835592573363907058854025609613277299116629134836074277752460061892201693",
+        "cash_at_max_pct_drawdown_usdt": "1537.477186275704571498850089",
+        "max_cash_drawdown_usdt": "1537.477186275704571498850089",
+        "peak_at_max_pct_usdt": "11977.690454182652804875442055",
+        "trough_at_max_pct_usdt": "10440.213267906948233376591966"
+      },
+      "worst": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "cci_reversion__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "8748.2757809338418550615655407335",
+          "final_equity_after_exit_fee_usdt": "8748.2757809338418550615655407335",
+          "net_profit_usdt": "-1251.7242190661581449384344592665",
+          "net_return_pct": "-12.51724219066158144938434459266500",
+          "realized_price_pnl_usdt": "-670.7202805846175",
+          "fees_usdt": "156.1894220352905807",
+          "funding_usdt": "-184.6502453990221381604344592665",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 16,
+          "signal_exits": 16,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -6.463504351069055,
+          "max_drawdown_pct": "18.124933933021355045743036229334673379467805745761967433557152284423349809573911544282581489897010538678174495648820080086745823",
+          "cash_at_max_pct_drawdown_usdt": "1923.7721975176165083795816597185",
+          "max_cash_drawdown_usdt": "1923.7721975176165083795816597185",
+          "peak_at_max_pct_usdt": "10613.9542611669606552709552004520",
+          "trough_at_max_pct_usdt": "8690.1820636493441468913735407335"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "19.011676059614632255825587205417848955781771053898930091078944933840194339062497995657934512125503995493341474401333855495014020",
+          "cash_at_max_excursion_usdt": "2017.8906012487261794238042393845",
+          "mark_low_ms": 1762290000000,
+          "prior_sampled_peak_usdt": "10613.9542611669606552709552004520",
+          "low_equity_after_exit_fee_usdt": "8596.0636599182344758471509610675",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92869,
+          "max_error_usdt": "0"
+        }
+      },
+      "risk": {
+        "stage": "evaluation",
+        "file": "eval_ETHUSDT_cci_reversion__fixed50_stress_assumption_lag2_adverse1.json.gz",
+        "status": "COMPLETE",
+        "symbol": "ETHUSDT",
+        "candidate": "cci_reversion__fixed50",
+        "benchmark": null,
+        "cost": "stress_assumption",
+        "lag": 2,
+        "adverse_funding": true,
+        "metrics": {
+          "initial_usdt": "10000",
+          "final_cash_usdt": "8748.2757809338418550615655407335",
+          "final_equity_after_exit_fee_usdt": "8748.2757809338418550615655407335",
+          "net_profit_usdt": "-1251.7242190661581449384344592665",
+          "net_return_pct": "-12.51724219066158144938434459266500",
+          "realized_price_pnl_usdt": "-670.7202805846175",
+          "fees_usdt": "156.1894220352905807",
+          "funding_usdt": "-184.6502453990221381604344592665",
+          "operating_expense_usdt": "240.164271047227926078",
+          "open_quantity": "0",
+          "closed_trades": 16,
+          "signal_exits": 16,
+          "rejected_entries": 0,
+          "annualized_net_return_pct": -6.463504351069055,
+          "max_drawdown_pct": "18.124933933021355045743036229334673379467805745761967433557152284423349809573911544282581489897010538678174495648820080086745823",
+          "cash_at_max_pct_drawdown_usdt": "1923.7721975176165083795816597185",
+          "max_cash_drawdown_usdt": "1923.7721975176165083795816597185",
+          "peak_at_max_pct_usdt": "10613.9542611669606552709552004520",
+          "trough_at_max_pct_usdt": "8690.1820636493441468913735407335"
+        },
+        "intrahour_excursion": {
+          "max_excursion_pct": "19.011676059614632255825587205417848955781771053898930091078944933840194339062497995657934512125503995493341474401333855495014020",
+          "cash_at_max_excursion_usdt": "2017.8906012487261794238042393845",
+          "mark_low_ms": 1762290000000,
+          "prior_sampled_peak_usdt": "10613.9542611669606552709552004520",
+          "low_equity_after_exit_fee_usdt": "8596.0636599182344758471509610675",
+          "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+        },
+        "wealth_audit": {
+          "status": "PASS",
+          "events_checked": 92869,
+          "max_error_usdt": "0"
+        }
+      },
+      "gate": {
+        "historical_screen_pass": false,
+        "failed_scenarios": [
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "venue_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 0,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": false,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 1,
+            "adverse_funding": true,
+            "reasons": [
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": false,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          },
+          {
+            "cost": "stress_assumption",
+            "lag": 2,
+            "adverse_funding": true,
+            "reasons": [
+              "NONPOSITIVE_NET",
+              "FEWER_THAN_20_SIGNAL_EXITS"
+            ]
+          }
+        ],
+        "classification": "Exploratory, reused-history family selection; not proof of future profit."
+      }
+    }
+  ],
+  "benchmark_summaries": [
+    {
+      "stage": "evaluation",
+      "file": "benchmark_ETHUSDT_cash_venue_assumption_adverse0.json.gz",
+      "status": "COMPLETE",
+      "symbol": "ETHUSDT",
+      "candidate": null,
+      "benchmark": "cash",
+      "cost": "venue_assumption",
+      "lag": 0,
+      "adverse_funding": false,
+      "metrics": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "10000.0000000000000000",
+        "final_equity_after_exit_fee_usdt": "10000.0000000000000000",
+        "net_profit_usdt": "0E-16",
+        "net_return_pct": "0E-16",
+        "realized_price_pnl_usdt": "0",
+        "fees_usdt": "0",
+        "funding_usdt": "0E-16",
+        "operating_expense_usdt": "0",
+        "open_quantity": "0",
+        "closed_trades": 0,
+        "signal_exits": 0,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": 0.0,
+        "max_drawdown_pct": "0",
+        "cash_at_max_pct_drawdown_usdt": "0",
+        "max_cash_drawdown_usdt": "0",
+        "peak_at_max_pct_usdt": "10000",
+        "trough_at_max_pct_usdt": "10000"
+      },
+      "intrahour_excursion": {
+        "max_excursion_pct": "0",
+        "cash_at_max_excursion_usdt": "0",
+        "mark_low_ms": null,
+        "prior_sampled_peak_usdt": "10000",
+        "low_equity_after_exit_fee_usdt": null,
+        "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+      },
+      "wealth_audit": {
+        "status": "PASS",
+        "events_checked": 92837,
+        "max_error_usdt": "0"
+      }
+    },
+    {
+      "stage": "evaluation",
+      "file": "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse0.json.gz",
+      "status": "COMPLETE",
+      "symbol": "ETHUSDT",
+      "candidate": null,
+      "benchmark": "buy_hold50",
+      "cost": "venue_assumption",
+      "lag": 0,
+      "adverse_funding": false,
+      "metrics": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9949.061280932071891751009995",
+        "final_equity_after_exit_fee_usdt": "9949.061280932071891751009995",
+        "net_profit_usdt": "-50.938719067928108248990005",
+        "net_return_pct": "-0.5093871906792810824899000500",
+        "realized_price_pnl_usdt": "1462.08373061383470",
+        "fees_usdt": "6.3041385126972237150",
+        "funding_usdt": "-1266.554040121837658455990005",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 1,
+        "signal_exits": 0,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -0.2548445592119486,
+        "max_drawdown_pct": "48.941122714673388608791777279722065081836008210685194994826917831862564578990395626715800892121505424664059236971265266633256375",
+        "cash_at_max_pct_drawdown_usdt": "6639.520855295129796886297655",
+        "max_cash_drawdown_usdt": "6639.520855295129796886297655",
+        "peak_at_max_pct_usdt": "13566.343571649384096810556790",
+        "trough_at_max_pct_usdt": "6926.822716354254299924259135"
+      },
+      "intrahour_excursion": {
+        "max_excursion_pct": "49.474827796130593818377406471115783830513464519137509551387500814744762365796840419251851351491530256145704356784790796698945497",
+        "cash_at_max_excursion_usdt": "6711.925120304965464876047655",
+        "mark_low_ms": 1744160400000,
+        "prior_sampled_peak_usdt": "13566.343571649384096810556790",
+        "low_equity_after_exit_fee_usdt": "6854.418451344418631934509135",
+        "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+      },
+      "wealth_audit": {
+        "status": "PASS",
+        "events_checked": 92839,
+        "max_error_usdt": "0"
+      }
+    },
+    {
+      "stage": "evaluation",
+      "file": "benchmark_ETHUSDT_buy_hold50_venue_assumption_adverse1.json.gz",
+      "status": "COMPLETE",
+      "symbol": "ETHUSDT",
+      "candidate": null,
+      "benchmark": "buy_hold50",
+      "cost": "venue_assumption",
+      "lag": 0,
+      "adverse_funding": true,
+      "metrics": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9948.3943175302521668434470532225",
+        "final_equity_after_exit_fee_usdt": "9948.3943175302521668434470532225",
+        "net_profit_usdt": "-51.6056824697478331565529467775",
+        "net_return_pct": "-0.51605682469747833156552946777500",
+        "realized_price_pnl_usdt": "1462.08373061383470",
+        "fees_usdt": "6.3041385126972237150",
+        "funding_usdt": "-1267.2210035236573833635529467775",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 1,
+        "signal_exits": 0,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -0.2581856774150298,
+        "max_drawdown_pct": "48.944429684812367707601251449810398572890383518649935465654731914737258761722410009563651381380307293239605375486915338543772460",
+        "cash_at_max_pct_drawdown_usdt": "6639.9047390595688979996562204425",
+        "max_cash_drawdown_usdt": "6639.9047390595688979996562204425",
+        "peak_at_max_pct_usdt": "13566.2112763772895338604259683950",
+        "trough_at_max_pct_usdt": "6926.3065373177206358607697479525"
+      },
+      "intrahour_excursion": {
+        "max_excursion_pct": "49.478139970866311918187729182199463036818230795699433976418119317419701511471544927207427607952995984151950367765938386775933836",
+        "cash_at_max_excursion_usdt": "6712.3090040694045659894062204425",
+        "mark_low_ms": 1744160400000,
+        "prior_sampled_peak_usdt": "13566.2112763772895338604259683950",
+        "low_equity_after_exit_fee_usdt": "6853.9022723078849678710197479525",
+        "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+      },
+      "wealth_audit": {
+        "status": "PASS",
+        "events_checked": 92839,
+        "max_error_usdt": "0"
+      }
+    },
+    {
+      "stage": "evaluation",
+      "file": "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse0.json.gz",
+      "status": "COMPLETE",
+      "symbol": "ETHUSDT",
+      "candidate": null,
+      "benchmark": "buy_hold50",
+      "cost": "stress_assumption",
+      "lag": 0,
+      "adverse_funding": false,
+      "metrics": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9934.594851384059765211150295",
+        "final_equity_after_exit_fee_usdt": "9934.594851384059765211150295",
+        "net_profit_usdt": "-65.405148615940234788849705",
+        "net_return_pct": "-0.6540514861594023478884970500",
+        "realized_price_pnl_usdt": "1451.7526714067635",
+        "fees_usdt": "11.4517389708629165",
+        "funding_usdt": "-1265.541810004612892210849705",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 1,
+        "signal_exits": 0,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -0.32733854447777555,
+        "max_drawdown_pct": "48.930882231085302984416845166363937785611826926767429313310549239344466708341970933476098824163005791740965746369852220315075066",
+        "cash_at_max_pct_drawdown_usdt": "6631.720819332542274659598355",
+        "max_cash_drawdown_usdt": "6631.720819332542274659598355",
+        "peak_at_max_pct_usdt": "13553.241872919830524232029390",
+        "trough_at_max_pct_usdt": "6921.521053587288249572431035"
+      },
+      "intrahour_excursion": {
+        "max_excursion_pct": "49.464435821418100278953189704204826619228324716928296492550810644312452541724372689702944679551646331582605400031304064208257074",
+        "cash_at_max_excursion_usdt": "6704.034627951994090518598355",
+        "mark_low_ms": 1744160400000,
+        "prior_sampled_peak_usdt": "13553.241872919830524232029390",
+        "low_equity_after_exit_fee_usdt": "6849.207244967836433713431035",
+        "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+      },
+      "wealth_audit": {
+        "status": "PASS",
+        "events_checked": 92839,
+        "max_error_usdt": "0"
+      }
+    },
+    {
+      "stage": "evaluation",
+      "file": "benchmark_ETHUSDT_buy_hold50_stress_assumption_adverse1.json.gz",
+      "status": "COMPLETE",
+      "symbol": "ETHUSDT",
+      "candidate": null,
+      "benchmark": "buy_hold50",
+      "cost": "stress_assumption",
+      "lag": 0,
+      "adverse_funding": true,
+      "metrics": {
+        "initial_usdt": "10000",
+        "final_cash_usdt": "9933.9284210194583682835044298725",
+        "final_equity_after_exit_fee_usdt": "9933.9284210194583682835044298725",
+        "net_profit_usdt": "-66.0715789805416317164955701275",
+        "net_return_pct": "-0.66071578980541631716495570127500",
+        "realized_price_pnl_usdt": "1451.7526714067635",
+        "fees_usdt": "11.4517389708629165",
+        "funding_usdt": "-1266.2082403692142891384955701275",
+        "operating_expense_usdt": "240.164271047227926078",
+        "open_quantity": "0",
+        "closed_trades": 1,
+        "signal_exits": 0,
+        "rejected_entries": 0,
+        "annualized_net_return_pct": -0.3306794239428952,
+        "max_drawdown_pct": "48.934189652658200768819152451344551483628670833087920606336051196243846676813026834433038355326127540051426200050049014932392804",
+        "cash_at_max_pct_drawdown_usdt": "6632.1043962970379311994550038925",
+        "max_cash_drawdown_usdt": "6632.1043962970379311994550038925",
+        "peak_at_max_pct_usdt": "13553.1096833781308267705104046950",
+        "trough_at_max_pct_usdt": "6921.0052870810928955710554008025"
+      },
+      "intrahour_excursion": {
+        "max_excursion_pct": "49.467748446977848757893368430691637499325572673881126450966737611900629595917798891589338030368356579459660008185009204095017664",
+        "cash_at_max_excursion_usdt": "6704.4182049164897470584550038925",
+        "mark_low_ms": 1744160400000,
+        "prior_sampled_peak_usdt": "13553.1096833781308267705104046950",
+        "low_equity_after_exit_fee_usdt": "6848.6914784616410797120554008025",
+        "interpretation": "Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown."
+      },
+      "wealth_audit": {
+        "status": "PASS",
+        "events_checked": 92839,
+        "max_error_usdt": "0"
+      }
+    }
+  ],
+  "real_orders": 0,
+  "not_bybit": true
+}
