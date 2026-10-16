@@ -1,0 +1,19 @@
+{
+  "filename": "bybit_measurements_20261016_170105.zip",
+  "library_file_id": "libfile_acb5644ade08819181ca3def07259655",
+  "sha256": "f9291c2baa1954f99f84a7e810fe0f1344acc69663666bbc537dd28278cd77f9",
+  "size_bytes": 380838,
+  "archive_entries": 80,
+  "raw_responses": 78,
+  "received_by_user_upload": true,
+  "source": "public Bybit Global API from user local collector",
+  "capture_period_utc": [
+    "2026-10-16T17:01:16.759000+00:00",
+    "2026-10-16T17:04:15.149000+00:00"
+  ],
+  "audit_source_hashes": {
+    "scripts/audit_bybit_capture.py": "81844fbc83f82b65fcc426b5c7945bef3e3e1eba76fd0cde1134c18776bb45dd",
+    "tradingagents/bybit_depth.py": "f3b4f2e90a71f38651ae5b8386c17e6bbe369914c4f069e0b38bb78f886a0f41",
+    "tests/test_bybit_capture_audit.py": "b32cf7fe433eefc4fb68f0ae1d783a8bde912275d6aada133649042715245028"
+  }
+}

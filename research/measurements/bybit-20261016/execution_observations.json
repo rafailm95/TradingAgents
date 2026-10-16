@@ -1,0 +1,618 @@
+{
+  "classification": "OBSERVED_BRIEF_CAPTURE_NOT_FINAL_BACKTEST_CALIBRATION",
+  "venue": "Bybit Global",
+  "category": "linear USDT perpetual",
+  "capital_assumption_usdt": 10000,
+  "captured_minutes": 2.9731666666666663,
+  "account_fee_verified": false,
+  "fee_bps_scenarios": [
+    5.5,
+    10
+  ],
+  "reuse_rules": [
+    "Use records only at captured source times; never as future quotes or backfilled fills.",
+    "Static book sweeps measure displayed-size impact at capture; do not replace latency slippage with zero.",
+    "Do not reduce historical stress costs based on a single3minute sample.",
+    "Compute funding from timestamped position notional/mark prices, not from this constant5000USDT illustration.",
+    "No margin, liquidation or profitable strategy claim follows from these measurements."
+  ],
+  "assets": {
+    "BTCUSDT": {
+      "depth_5bps": {
+        "bid": {
+          "min": 9037290.7185,
+          "median": 11106182.4474,
+          "max": 12169626.9835,
+          "complete_snapshots": 12
+        },
+        "ask": {
+          "min": 8612433.41,
+          "median": 11138274.81825,
+          "max": 15663552.1652,
+          "complete_snapshots": 12
+        }
+      },
+      "cost_scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 975.5772,
+            "median": 975.729,
+            "max": 976.1328
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.07433426,
+            "median": 1.07450124,
+            "max": 1.07494542
+          },
+          "loss_pct_capital": {
+            "min": 0.0107433426,
+            "median": 0.0107450124,
+            "max": 0.0107494542
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11012286647882337,
+            "median": 0.11012291732673472,
+            "max": 0.11012293645238942
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.07313426,
+            "median": 1.0733012400000002,
+            "max": 1.07374542
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 975.5772,
+            "median": 975.729,
+            "max": 976.1328
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.9523532,
+            "median": 1.9526568000000002,
+            "max": 1.9534644
+          },
+          "loss_pct_capital": {
+            "min": 0.019523532,
+            "median": 0.019526568,
+            "max": 0.019534644
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.2001228111584817,
+            "median": 0.20012286198349893,
+            "max": 0.20012288110054233
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.9511532,
+            "median": 1.9514567999999999,
+            "max": 1.9522644
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4959.1841,
+            "median": 4959.95575,
+            "max": 4962.0084
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 5.461199155,
+            "median": 5.46204797,
+            "max": 5.464305885
+          },
+          "loss_pct_capital": {
+            "min": 0.05461199155,
+            "median": 0.0546204797,
+            "max": 0.05464305885
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11012286647882337,
+            "median": 0.11012291732673472,
+            "max": 0.11012293645238942
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.455099155,
+            "median": 5.45594797,
+            "max": 5.458205885
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4959.1841,
+            "median": 4959.95575,
+            "max": 4962.0084
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 9.9244621,
+            "median": 9.926005400000001,
+            "max": 9.9301107
+          },
+          "loss_pct_capital": {
+            "min": 0.099244621,
+            "median": 0.099260054,
+            "max": 0.099301107
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.2001228111584817,
+            "median": 0.20012286198349893,
+            "max": 0.20012288110054233
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.9183621,
+            "median": 9.919905400000001,
+            "max": 9.9240107
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.00187100",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "43.21350000",
+        "sum_short_funding_paid_usdt": "-43.21350000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.004579,
+          "median": 0.004111,
+          "max": 0.01
+        },
+        "positive_events": 180,
+        "negative_events": 20,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.43213500",
+        "last_event_long_cost_5000_usdt": "0.09355000"
+      }
+    },
+    "ETHUSDT": {
+      "depth_5bps": {
+        "bid": {
+          "min": 4092325.2914,
+          "median": 5227438.2513,
+          "max": 7563252.3838,
+          "complete_snapshots": 12
+        },
+        "ask": {
+          "min": 4402781.3721,
+          "median": 5754722.72,
+          "max": 7125258.1661,
+          "complete_snapshots": 12
+        }
+      },
+      "cost_scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 994.3033,
+            "median": 995.0699999999999,
+            "max": 995.48
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.098160605,
+            "median": 1.098746905,
+            "max": 1.099630385
+          },
+          "loss_pct_capital": {
+            "min": 0.01098160605,
+            "median": 0.01098746905,
+            "max": 0.01099630385
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11041163509060956,
+            "median": 0.11041180469852727,
+            "max": 0.11059305395043947
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.093730385,
+            "median": 1.094574745,
+            "max": 1.095025745
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.018103202738169757
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 994.3033,
+            "median": 995.0699999999999,
+            "max": 995.48
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.9933011,
+            "median": 1.9943671,
+            "max": 1.9950559
+          },
+          "loss_pct_capital": {
+            "min": 0.019933011,
+            "median": 0.019943671,
+            "max": 0.019950559
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.20041144975288303,
+            "median": 0.20041161928443518,
+            "max": 0.20059278692930013
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.9886007,
+            "median": 1.9901359,
+            "max": 1.9909559
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.018103202738169757
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4976.0336,
+            "median": 4997.4879,
+            "max": 4999.9908
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 5.494253175,
+            "median": 5.5188223999999995,
+            "max": 5.685620305
+          },
+          "loss_pct_capital": {
+            "min": 0.05494253175,
+            "median": 0.055188224,
+            "max": 0.05685620305
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11041163509060956,
+            "median": 0.110411845424227,
+            "max": 0.1142600866883214
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.473520305,
+            "median": 5.49722536,
+            "max": 5.49997855
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.38506045810940137
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.20257229989539904
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4976.0336,
+            "median": 4997.4879,
+            "max": 4999.9908
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 9.9727785,
+            "median": 10.017368000000001,
+            "max": 10.1639551
+          },
+          "loss_pct_capital": {
+            "min": 0.099727785,
+            "median": 0.10017367999999999,
+            "max": 0.101639551
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.20041144975288303,
+            "median": 0.20041165999179825,
+            "max": 0.20425816859435997
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.9518551,
+            "median": 9.9949552,
+            "max": 9.999961
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.38506045810940137
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.20257229989539904
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.0024500",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "41.23315000",
+        "sum_short_funding_paid_usdt": "-41.23315000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.008769,
+          "median": 0.004046,
+          "max": 0.01
+        },
+        "positive_events": 174,
+        "negative_events": 26,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.41233150",
+        "last_event_long_cost_5000_usdt": "0.1225000"
+      }
+    },
+    "LTCUSDT": {
+      "depth_5bps": {
+        "bid": {
+          "min": 19239.531,
+          "median": 33783.9865,
+          "max": 44952.216,
+          "complete_snapshots": 12
+        },
+        "ask": {
+          "min": 18004.415,
+          "median": 34884.518500000006,
+          "max": 52576.393,
+          "complete_snapshots": 12
+        }
+      },
+      "cost_scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 995.487,
+            "median": 996.322,
+            "max": 996.823
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.26194385,
+            "median": 1.2633216,
+            "max": 1.4395813
+          },
+          "loss_pct_capital": {
+            "min": 0.0126194385,
+            "median": 0.012633216,
+            "max": 0.014395813
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.126744010722064,
+            "median": 0.1267608605137079,
+            "max": 0.14451378550526775
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.09494385,
+            "median": 1.09586235,
+            "max": 1.09641345
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.646606184010249
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.7771298449378907
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 995.487,
+            "median": 996.322,
+            "max": 996.823
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 2.157807,
+            "median": 2.1603120000000002,
+            "max": 2.335966
+          },
+          "loss_pct_capital": {
+            "min": 0.02157807,
+            "median": 0.02160312,
+            "max": 0.02335966
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.21673647177081587,
+            "median": 0.21675331397588093,
+            "max": 0.2344982457549277
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.990807,
+            "median": 1.992477,
+            "max": 1.993479
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.646606184010249
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.7771298449378907
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4994.389,
+            "median": 4997.8305,
+            "max": 4999.834
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 6.3369979,
+            "median": 7.0899225,
+            "max": 7.85424065
+          },
+          "loss_pct_capital": {
+            "min": 0.063369979,
+            "median": 0.07089922500000001,
+            "max": 0.0785424065
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.1267524304391552,
+            "median": 0.1419327474152951,
+            "max": 0.1571266086779083
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.4929325,
+            "median": 5.496355975,
+            "max": 5.4991772
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.24211888022597117,
+            "max": 1.6707244261111618
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.35115225961977115,
+            "max": 3.0393178482189875
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4994.389,
+            "median": 4997.8305,
+            "max": 4999.834
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 10.836178,
+            "median": 11.58495,
+            "max": 12.351983
+          },
+          "loss_pct_capital": {
+            "min": 0.10836178,
+            "median": 0.1158495,
+            "max": 0.12351983
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.21674488769694938,
+            "median": 0.231918369771254,
+            "max": 0.24710539003374898
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.98715,
+            "median": 9.9933745,
+            "max": 9.998504
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.24211888022597117,
+            "max": 1.6707244261111618
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.35115225961977115,
+            "max": 3.0393178482189875
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.00881200",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "46.02650000",
+        "sum_short_funding_paid_usdt": "-46.02650000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.016418,
+          "median": 0.0057935,
+          "max": 0.01
+        },
+        "positive_events": 160,
+        "negative_events": 40,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.46026500",
+        "last_event_long_cost_5000_usdt": "0.44060000"
+      }
+    }
+  }
+}

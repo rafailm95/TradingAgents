@@ -1,6 +1,6 @@
 {
-  "reviewed_utc": "2026-10-16T16:08:45.923751+00:00",
-  "status": "RESEARCH_USEFUL_EXECUTION_REALISM_INCOMPLETE",
+  "reviewed_utc": "2026-10-16T17:14:55.524809+00:00",
+  "status": "LOCAL_CAPTURE_VALIDATED_FULL_PERPETUAL_REPLAY_PENDING",
   "implemented_now": [
     "Completed-week causal signal family with two sizing variants",
     "Standalone Level2 depth sweep diagnostic",
@@ -19,12 +19,12 @@
   "remaining": [
     {
       "priority": 1,
-      "task": "Identify intended exchange/interface, quote currency, actual fee tier, starting research capital and tolerated drawdown.",
+      "task": "Venue Global/perpetual and hypothetical10000USDT confirmed; actual fee tier, margin mode, leverage and tolerated drawdown remain unverified optional inputs.",
       "requires_user_inputs": true
     },
     {
       "priority": 2,
-      "task": "Use an authorized execution environment with reliable public API access. Establish source timestamps, spread/depth and latency collection before a new execution contract.",
+      "task": "Local public API capture works. Broaden observed depth across sessions and volatility conditions; assistant runtime connection remains unresolved.",
       "requires_user_inputs": false
     },
     {
@@ -61,16 +61,26 @@
     "contract_settlement": "USDT assumed; inverse/USDC not confirmed"
   },
   "latest_access": {
-    "status": "BLOCKED_NON_JSON_HTML",
-    "valid_books": 0,
-    "valid_funding_events": 0,
-    "evidence": "research/experiments/012/bybit_requests.json",
-    "collector": "scripts/collect_bybit_public_v2.py"
+    "status": "LOCAL_CAPTURE_VALIDATED_RUNTIME_ACCESS_NOT_RETESTED",
+    "valid_books": 36,
+    "valid_funding_events": 600,
+    "evidence": "research/measurements/bybit-20261016/audit.json",
+    "source_receipt": "research/measurements/bybit-20261016/source_receipt.json",
+    "capture_minutes": 2.9731666666666663
   },
   "next_required_work": [
-    "Obtain authentic Bybit public snapshots via permitted network; portable local collector uses no key.",
-    "Collect matching perpetual trade-price/mark-price/funding histories before strategy replay.",
-    "Freeze a separate perpetual accounting contract including funding and margin/mark rules; preserve frozen seven spot paper strategies.",
-    "Evaluate strongest distinct shortlisted families and preregister distinct new causal families; all failures retained."
+    "Obtain matching historical Bybit perpetual trade-price and mark-price candles plus funding covering the exact evaluation period.",
+    "Audit historical gaps and freeze a separate causal perpetual replay contract with funding and quantity constraints.",
+    "Test strongest distinct families with chronological selection, baseline/stress costs and preservation of all failures.",
+    "Collect broader depth/latency samples; do not extrapolate3minutes into reliable capacity or future quotes."
+  ],
+  "access_history": [
+    {
+      "status": "BLOCKED_NON_JSON_HTML",
+      "valid_books": 0,
+      "valid_funding_events": 0,
+      "evidence": "research/experiments/012/bybit_requests.json",
+      "collector": "scripts/collect_bybit_public_v2.py"
+    }
   ]
 }

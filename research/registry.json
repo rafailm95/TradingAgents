@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T16:40:23.522419+00:00",
+  "updated_utc": "2026-10-16T17:14:55.525086+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 21,
@@ -119,5 +119,19 @@
   "count_note": "570+1226+2020+3174=6990 simulation executions, with overlapping references/windows/WFA. Only42 unique strategy-sizing variants; correlated reused history, not6990 independent hypotheses. Older studies001/002/006 remain in their reports.",
   "cumulative_known_simulations_003_007_009_011": 6990,
   "next_action": "No queued batch. Follow standing policy: preregister one new causal family before evaluating. Also consult research/realism_backlog.json; optional user venue/capital inputs do not block offline research.",
-  "execution_realism": "research/realism_backlog.json; live depth capture failed due runtime tunnel403 on2026-10-16. No live depth measurements, no paper-rule changes."
+  "execution_realism": "research/realism_backlog.json; live depth capture failed due runtime tunnel403 on2026-10-16. No live depth measurements, no paper-rule changes.",
+  "measurement_runs": [
+    {
+      "id": "bybit-20261016",
+      "status": "VALIDATED_LOCAL_CAPTURE",
+      "raw_input_library_file_id": "libfile_acb5644ade08819181ca3def07259655",
+      "input_sha256": "f9291c2baa1954f99f84a7e810fe0f1344acc69663666bbc537dd28278cd77f9",
+      "evidence": "research/measurements/bybit-20261016",
+      "books": 36,
+      "funding_events": 600,
+      "recomputed_cost_scenarios": 144,
+      "new_strategy_variants": 0,
+      "new_strategy_simulations": 0
+    }
+  ]
 }

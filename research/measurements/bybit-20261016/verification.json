@@ -1,0 +1,10 @@
+{
+  "targeted_tests_passed": 27,
+  "real_capture_raw_hash_checks": 78,
+  "exact_scenario_recalculations": 144,
+  "independent_cost_oracles": 144,
+  "real_capture_summary_tamper_test": "REJECTED",
+  "source_freshness_validated_at": "recorded capture receive times, not current clock",
+  "strategy_backtests_run": 0,
+  "real_orders": 0
+}

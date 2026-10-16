@@ -17,6 +17,6 @@
     "historical_scope": "Existing Coinbase USD spot data stays spot; no relabeling as Bybit results. New perpetual strategy replay must use matching real Bybit price/mark/funding histories with gap/coverage checks and a separate preregistered contract. Funding and liquidation cannot be silently omitted.",
     "discovery": "Use docs/OPPORTUNITY_DISCOVERY_012.json to show promising families as well as failed gates. All42 variants and126asset-candidate rankings retained. Do not tune thresholds to force profit.",
     "reporting": "All PnL in percent and quote-currency amount. Actual drawdown amount from peak-to-trough equity, never simply initial capital times maxDD. Separate USD history and USDT future assumptions.",
-    "current_access": "2026-10-16 mainnet returned HTTP200 HTML Site Unavailable for spot book and linear instrument. Zero valid Bybit books/funding. Portable collector v2 provided; no automatic retry or access bypass."
+    "current_access": "User local capture2026-10-16T17:01..17:04UTC validated:36books,600fundingevents,78rawhashes,144costrecalculations. See research/measurements/bybit-20261016/. Assistant runtime remains blocked/not retested; snapshot span178.39seconds. Full perpetual/mark history absent, no strategy profitability measured."
   }
 }

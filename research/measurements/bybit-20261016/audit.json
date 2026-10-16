@@ -1,0 +1,1205 @@
+{
+  "input_sha256": "f9291c2baa1954f99f84a7e810fe0f1344acc69663666bbc537dd28278cd77f9",
+  "input_provenance": "User-uploaded public API capture; internally reconciled, not independently signed by exchange",
+  "status": "VALIDATED_LOCAL_CAPTURE",
+  "request_count": 78,
+  "book_count": 36,
+  "funding_event_count": 600,
+  "scenario_recalculations": 144,
+  "independent_cash_oracles": 144,
+  "http_duration_seconds": {
+    "min": 0.4877010000636801,
+    "median": 0.6039056999143213,
+    "max": 8.628797000041232
+  },
+  "response_age_at_capture_ms": {
+    "min": 118.0,
+    "median": 173.5,
+    "max": 4895.0
+  },
+  "assets": {
+    "BTCUSDT": {
+      "snapshots": 12,
+      "book_age_ms": {
+        "min": 168.0,
+        "median": 300.0,
+        "max": 553.0
+      },
+      "spread_bps": {
+        "min": 0.01229341681382911,
+        "median": 0.012298504409394222,
+        "max": 0.01230041802970674
+      },
+      "qty_step": "0.001",
+      "tick_size": "0.10",
+      "depth_bands": {
+        "5": {
+          "bid": {
+            "min": 9037290.7185,
+            "median": 11106182.4474,
+            "max": 12169626.9835,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 8612433.41,
+            "median": 11138274.81825,
+            "max": 15663552.1652,
+            "complete_snapshots": 12
+          }
+        },
+        "10": {
+          "bid": {
+            "min": 21564835.7587,
+            "median": 24001143.3613,
+            "max": 27869158.1327,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 23376526.7811,
+            "median": 24954144.574,
+            "max": 33663539.0576,
+            "complete_snapshots": 12
+          }
+        },
+        "25": {
+          "bid": {
+            "min": 43583295.1409,
+            "median": 46713353.89215,
+            "max": 49539213.5479,
+            "complete_snapshots": 0
+          },
+          "ask": {
+            "min": 50996090.5657,
+            "median": 54677664.73565,
+            "max": 59811203.8303,
+            "complete_snapshots": 12
+          }
+        },
+        "50": {
+          "bid": {
+            "min": 43583295.1409,
+            "median": 46713353.89215,
+            "max": 49539213.5479,
+            "complete_snapshots": 0
+          },
+          "ask": {
+            "min": 55419921.7846,
+            "median": 58518489.633,
+            "max": 64188001.3641,
+            "complete_snapshots": 0
+          }
+        }
+      },
+      "scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 975.5772,
+            "median": 975.729,
+            "max": 976.1328
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.07433426,
+            "median": 1.07450124,
+            "max": 1.07494542
+          },
+          "loss_pct_capital": {
+            "min": 0.0107433426,
+            "median": 0.0107450124,
+            "max": 0.0107494542
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11012286647882337,
+            "median": 0.11012291732673472,
+            "max": 0.11012293645238942
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.07313426,
+            "median": 1.0733012400000002,
+            "max": 1.07374542
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 975.5772,
+            "median": 975.729,
+            "max": 976.1328
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.9523532,
+            "median": 1.9526568000000002,
+            "max": 1.9534644
+          },
+          "loss_pct_capital": {
+            "min": 0.019523532,
+            "median": 0.019526568,
+            "max": 0.019534644
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.2001228111584817,
+            "median": 0.20012286198349893,
+            "max": 0.20012288110054233
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.9511532,
+            "median": 1.9514567999999999,
+            "max": 1.9522644
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4959.1841,
+            "median": 4959.95575,
+            "max": 4962.0084
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 5.461199155,
+            "median": 5.46204797,
+            "max": 5.464305885
+          },
+          "loss_pct_capital": {
+            "min": 0.05461199155,
+            "median": 0.0546204797,
+            "max": 0.05464305885
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11012286647882337,
+            "median": 0.11012291732673472,
+            "max": 0.11012293645238942
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.455099155,
+            "median": 5.45594797,
+            "max": 5.458205885
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4959.1841,
+            "median": 4959.95575,
+            "max": 4962.0084
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 9.9244621,
+            "median": 9.926005400000001,
+            "max": 9.9301107
+          },
+          "loss_pct_capital": {
+            "min": 0.099244621,
+            "median": 0.099260054,
+            "max": 0.099301107
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.2001228111584817,
+            "median": 0.20012286198349893,
+            "max": 0.20012288110054233
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.9183621,
+            "median": 9.919905400000001,
+            "max": 9.9240107
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.00187100",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "43.21350000",
+        "sum_short_funding_paid_usdt": "-43.21350000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.004579,
+          "median": 0.004111,
+          "max": 0.01
+        },
+        "positive_events": 180,
+        "negative_events": 20,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.43213500",
+        "last_event_long_cost_5000_usdt": "0.09355000"
+      },
+      "observations": [
+        {
+          "round": 1,
+          "source_utc": "2026-10-16T17:01:16.759000+00:00",
+          "age_ms": 459,
+          "spread_bps": "0.01229498874701154929767950530",
+          "notional_usdt": "4961.37400",
+          "round_trip_cost_usdt": "5.4636080450",
+          "cost_pct_equity": "0.0546360804500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 2,
+          "source_utc": "2026-10-16T17:01:48.959000+00:00",
+          "age_ms": 553,
+          "spread_bps": "0.01229341681382911044221264292",
+          "notional_usdt": "4962.00840",
+          "round_trip_cost_usdt": "5.4643058850",
+          "cost_pct_equity": "0.0546430588500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 3,
+          "source_utc": "2026-10-16T17:02:06.959000+00:00",
+          "age_ms": 336,
+          "spread_bps": "0.01229396089905736054806477688",
+          "notional_usdt": "4961.78880",
+          "round_trip_cost_usdt": "5.4640643250",
+          "cost_pct_equity": "0.0546406432500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 4,
+          "source_utc": "2026-10-16T17:02:23.359000+00:00",
+          "age_ms": 458,
+          "spread_bps": "0.01229468642094916208638369626",
+          "notional_usdt": "4961.49600",
+          "round_trip_cost_usdt": "5.4637422450",
+          "cost_pct_equity": "0.0546374224500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 5,
+          "source_utc": "2026-10-16T17:02:38.359000+00:00",
+          "age_ms": 407,
+          "spread_bps": "0.01229911698489606938669838199",
+          "notional_usdt": "4959.70870",
+          "round_trip_cost_usdt": "5.4617762150",
+          "cost_pct_equity": "0.0546177621500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 6,
+          "source_utc": "2026-10-16T17:02:51.959000+00:00",
+          "age_ms": 312,
+          "spread_bps": "0.01229922287360273141141576969",
+          "notional_usdt": "4959.66600",
+          "round_trip_cost_usdt": "5.4617292450",
+          "cost_pct_equity": "0.0546172924500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 7,
+          "source_utc": "2026-10-16T17:03:05.359000+00:00",
+          "age_ms": 231,
+          "spread_bps": "0.01229789183389237499961569088",
+          "notional_usdt": "4960.20280",
+          "round_trip_cost_usdt": "5.4623197250",
+          "cost_pct_equity": "0.0546231972500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 8,
+          "source_utc": "2026-10-16T17:03:18.959000+00:00",
+          "age_ms": 255,
+          "spread_bps": "0.01229949516722086141974302665",
+          "notional_usdt": "4959.55620",
+          "round_trip_cost_usdt": "5.4616084650",
+          "cost_pct_equity": "0.0546160846500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 9,
+          "source_utc": "2026-10-16T17:03:32.559000+00:00",
+          "age_ms": 168,
+          "spread_bps": "0.01229660644403660699738389698",
+          "notional_usdt": "4960.72130",
+          "round_trip_cost_usdt": "5.4628900750",
+          "cost_pct_equity": "0.0546289007500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 10,
+          "source_utc": "2026-10-16T17:03:45.759000+00:00",
+          "age_ms": 288,
+          "spread_bps": "0.01230005491974521666239239758",
+          "notional_usdt": "4959.33050",
+          "round_trip_cost_usdt": "5.4613601950",
+          "cost_pct_equity": "0.0546136019500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 11,
+          "source_utc": "2026-10-16T17:03:59.560000+00:00",
+          "age_ms": 209,
+          "spread_bps": "0.01230026673128406789501230334",
+          "notional_usdt": "4959.24510",
+          "round_trip_cost_usdt": "5.4612662550",
+          "cost_pct_equity": "0.0546126625500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 12,
+          "source_utc": "2026-10-16T17:04:12.959000+00:00",
+          "age_ms": 202,
+          "spread_bps": "0.01230041802970673958354474677",
+          "notional_usdt": "4959.18410",
+          "round_trip_cost_usdt": "5.4611991550",
+          "cost_pct_equity": "0.0546119915500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        }
+      ]
+    },
+    "ETHUSDT": {
+      "snapshots": 12,
+      "book_age_ms": {
+        "min": 196.0,
+        "median": 300.5,
+        "max": 1487.0
+      },
+      "spread_bps": {
+        "min": 0.041186246264922295,
+        "median": 0.04120321646016996,
+        "max": 0.04123498788722231
+      },
+      "qty_step": "0.01",
+      "tick_size": "0.01",
+      "depth_bands": {
+        "5": {
+          "bid": {
+            "min": 4092325.2914,
+            "median": 5227438.2513,
+            "max": 7563252.3838,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 4402781.3721,
+            "median": 5754722.72,
+            "max": 7125258.1661,
+            "complete_snapshots": 12
+          }
+        },
+        "10": {
+          "bid": {
+            "min": 12720729.7228,
+            "median": 14493191.4223,
+            "max": 17946641.4117,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 12150036.1879,
+            "median": 13494407.581149999,
+            "max": 14936332.6204,
+            "complete_snapshots": 12
+          }
+        },
+        "25": {
+          "bid": {
+            "min": 39252264.5143,
+            "median": 45754897.69245,
+            "max": 47052503.3208,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 38144712.6258,
+            "median": 42329131.7414,
+            "max": 44074104.8912,
+            "complete_snapshots": 12
+          }
+        },
+        "50": {
+          "bid": {
+            "min": 64423894.8051,
+            "median": 69598852.19775,
+            "max": 76792660.0058,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 61358569.7732,
+            "median": 67051810.96645,
+            "max": 72239100.6967,
+            "complete_snapshots": 12
+          }
+        }
+      },
+      "scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 994.3033,
+            "median": 995.0699999999999,
+            "max": 995.48
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.098160605,
+            "median": 1.098746905,
+            "max": 1.099630385
+          },
+          "loss_pct_capital": {
+            "min": 0.01098160605,
+            "median": 0.01098746905,
+            "max": 0.01099630385
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11041163509060956,
+            "median": 0.11041180469852727,
+            "max": 0.11059305395043947
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.093730385,
+            "median": 1.094574745,
+            "max": 1.095025745
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.018103202738169757
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 994.3033,
+            "median": 995.0699999999999,
+            "max": 995.48
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.9933011,
+            "median": 1.9943671,
+            "max": 1.9950559
+          },
+          "loss_pct_capital": {
+            "min": 0.019933011,
+            "median": 0.019943671,
+            "max": 0.019950559
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.20041144975288303,
+            "median": 0.20041161928443518,
+            "max": 0.20059278692930013
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.9886007,
+            "median": 1.9901359,
+            "max": 1.9909559
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.0
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.018103202738169757
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4976.0336,
+            "median": 4997.4879,
+            "max": 4999.9908
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 5.494253175,
+            "median": 5.5188223999999995,
+            "max": 5.685620305
+          },
+          "loss_pct_capital": {
+            "min": 0.05494253175,
+            "median": 0.055188224,
+            "max": 0.05685620305
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.11041163509060956,
+            "median": 0.110411845424227,
+            "max": 0.1142600866883214
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.473520305,
+            "median": 5.49722536,
+            "max": 5.49997855
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.38506045810940137
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.20257229989539904
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4976.0336,
+            "median": 4997.4879,
+            "max": 4999.9908
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 9.9727785,
+            "median": 10.017368000000001,
+            "max": 10.1639551
+          },
+          "loss_pct_capital": {
+            "min": 0.099727785,
+            "median": 0.10017367999999999,
+            "max": 0.101639551
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.20041144975288303,
+            "median": 0.20041165999179825,
+            "max": 0.20425816859435997
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.9518551,
+            "median": 9.9949552,
+            "max": 9.999961
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.38506045810940137
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 0.20257229989539904
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.0024500",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "41.23315000",
+        "sum_short_funding_paid_usdt": "-41.23315000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.008769,
+          "median": 0.004046,
+          "max": 0.01
+        },
+        "positive_events": 174,
+        "negative_events": 26,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.41233150",
+        "last_event_long_cost_5000_usdt": "0.1225000"
+      },
+      "observations": [
+        {
+          "round": 1,
+          "source_utc": "2026-10-16T17:01:29.849000+00:00",
+          "age_ms": 1487,
+          "spread_bps": "0.04119659633721061965860380615",
+          "notional_usdt": "4976.1495",
+          "round_trip_cost_usdt": "5.494253175",
+          "cost_pct_equity": "0.0549425317500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 2,
+          "source_utc": "2026-10-16T17:01:52.849000+00:00",
+          "age_ms": 390,
+          "spread_bps": "0.04118624626492229184985965787",
+          "notional_usdt": "4977.4000",
+          "round_trip_cost_usdt": "5.495628725",
+          "cost_pct_equity": "0.0549562872500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 3,
+          "source_utc": "2026-10-16T17:02:09.049000+00:00",
+          "age_ms": 407,
+          "spread_bps": "0.04120083967311253803352512324",
+          "notional_usdt": "4999.9084",
+          "round_trip_cost_usdt": "5.520487910",
+          "cost_pct_equity": "0.055204879100",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 4,
+          "source_utc": "2026-10-16T17:02:25.649000+00:00",
+          "age_ms": 315,
+          "spread_bps": "0.04120016068062665444395233141",
+          "notional_usdt": "4999.9908",
+          "round_trip_cost_usdt": "5.520578550",
+          "cost_pct_equity": "0.055205785500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 5,
+          "source_utc": "2026-10-16T17:02:39.649000+00:00",
+          "age_ms": 232,
+          "spread_bps": "0.04121765187159052735924687107",
+          "notional_usdt": "4997.8690",
+          "round_trip_cost_usdt": "5.518244570",
+          "cost_pct_equity": "0.055182445700",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 6,
+          "source_utc": "2026-10-16T17:02:53.049000+00:00",
+          "age_ms": 345,
+          "spread_bps": "0.04120559324722737864437718776",
+          "notional_usdt": "4999.3316",
+          "round_trip_cost_usdt": "5.519853430",
+          "cost_pct_equity": "0.055198534300",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 7,
+          "source_utc": "2026-10-16T17:03:06.449000+00:00",
+          "age_ms": 286,
+          "spread_bps": "0.04119914223385869106205208808",
+          "notional_usdt": "4976.0336",
+          "round_trip_cost_usdt": "5.685620305",
+          "cost_pct_equity": "0.0568562030500",
+          "buy_impact_bps": "0.385060458109401383725610000",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 8,
+          "source_utc": "2026-10-16T17:03:20.049000+00:00",
+          "age_ms": 277,
+          "spread_bps": "0.04119540835978421845101145026",
+          "notional_usdt": "4976.2930",
+          "round_trip_cost_usdt": "5.494411025",
+          "cost_pct_equity": "0.0549441102500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 9,
+          "source_utc": "2026-10-16T17:03:33.649000+00:00",
+          "age_ms": 199,
+          "spread_bps": "0.04120898932893221327300337296",
+          "notional_usdt": "4998.9196",
+          "round_trip_cost_usdt": "5.519400230",
+          "cost_pct_equity": "0.055194002300",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 10,
+          "source_utc": "2026-10-16T17:03:46.849000+00:00",
+          "age_ms": 409,
+          "spread_bps": "0.04122257925556144122381593294",
+          "notional_usdt": "4997.2716",
+          "round_trip_cost_usdt": "5.517587430",
+          "cost_pct_equity": "0.055175874300",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 11,
+          "source_utc": "2026-10-16T17:04:00.649000+00:00",
+          "age_ms": 196,
+          "spread_bps": "0.04121901103226830278661124084",
+          "notional_usdt": "4997.7042",
+          "round_trip_cost_usdt": "5.518063290",
+          "cost_pct_equity": "0.055180632900",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 12,
+          "source_utc": "2026-10-16T17:04:14.049000+00:00",
+          "age_ms": 238,
+          "spread_bps": "0.04123498788722230812844698727",
+          "notional_usdt": "4995.7678",
+          "round_trip_cost_usdt": "5.617077590",
+          "cost_pct_equity": "0.056170775900",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0.2025722998953990305994670000"
+        }
+      ]
+    },
+    "LTCUSDT": {
+      "snapshots": 12,
+      "book_age_ms": {
+        "min": 151.0,
+        "median": 352.5,
+        "max": 446.0
+      },
+      "spread_bps": {
+        "min": 1.6754628466113763,
+        "median": 1.676305422848043,
+        "max": 1.6777116013757236
+      },
+      "qty_step": "0.1",
+      "tick_size": "0.01",
+      "depth_bands": {
+        "5": {
+          "bid": {
+            "min": 19239.531,
+            "median": 33783.9865,
+            "max": 44952.216,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 18004.415,
+            "median": 34884.518500000006,
+            "max": 52576.393,
+            "complete_snapshots": 12
+          }
+        },
+        "10": {
+          "bid": {
+            "min": 64790.621,
+            "median": 85197.9685,
+            "max": 107630.369,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 73455.008,
+            "median": 105335.388,
+            "max": 143792.908,
+            "complete_snapshots": 12
+          }
+        },
+        "25": {
+          "bid": {
+            "min": 240869.84,
+            "median": 278778.98,
+            "max": 569491.204,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 286152.557,
+            "median": 313685.006,
+            "max": 346762.688,
+            "complete_snapshots": 12
+          }
+        },
+        "50": {
+          "bid": {
+            "min": 1014707.764,
+            "median": 1058178.0465000002,
+            "max": 1141572.673,
+            "complete_snapshots": 12
+          },
+          "ask": {
+            "min": 669436.367,
+            "median": 690820.2975000001,
+            "max": 717601.877,
+            "complete_snapshots": 12
+          }
+        }
+      },
+      "scenarios": [
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 995.487,
+            "median": 996.322,
+            "max": 996.823
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 1.26194385,
+            "median": 1.2633216,
+            "max": 1.4395813
+          },
+          "loss_pct_capital": {
+            "min": 0.0126194385,
+            "median": 0.012633216,
+            "max": 0.014395813
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.126744010722064,
+            "median": 0.1267608605137079,
+            "max": 0.14451378550526775
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.09494385,
+            "median": 1.09586235,
+            "max": 1.09641345
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.646606184010249
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.7771298449378907
+          }
+        },
+        {
+          "target_notional_usdt": 1000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 995.487,
+            "median": 996.322,
+            "max": 996.823
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 2.157807,
+            "median": 2.1603120000000002,
+            "max": 2.335966
+          },
+          "loss_pct_capital": {
+            "min": 0.02157807,
+            "median": 0.02160312,
+            "max": 0.02335966
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.21673647177081587,
+            "median": 0.21675331397588093,
+            "max": 0.2344982457549277
+          },
+          "round_trip_fees_usdt": {
+            "min": 1.990807,
+            "median": 1.992477,
+            "max": 1.993479
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.646606184010249
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.0,
+            "max": 1.7771298449378907
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "5.5",
+          "buy_notional_usdt": {
+            "min": 4994.389,
+            "median": 4997.8305,
+            "max": 4999.834
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 6.3369979,
+            "median": 7.0899225,
+            "max": 7.85424065
+          },
+          "loss_pct_capital": {
+            "min": 0.063369979,
+            "median": 0.07089922500000001,
+            "max": 0.0785424065
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.1267524304391552,
+            "median": 0.1419327474152951,
+            "max": 0.1571266086779083
+          },
+          "round_trip_fees_usdt": {
+            "min": 5.4929325,
+            "median": 5.496355975,
+            "max": 5.4991772
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.24211888022597117,
+            "max": 1.6707244261111618
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.35115225961977115,
+            "max": 3.0393178482189875
+          }
+        },
+        {
+          "target_notional_usdt": 5000,
+          "fee_bps_assumption": "10",
+          "buy_notional_usdt": {
+            "min": 4994.389,
+            "median": 4997.8305,
+            "max": 4999.834
+          },
+          "same_snapshot_round_trip_loss_usdt": {
+            "min": 10.836178,
+            "median": 11.58495,
+            "max": 12.351983
+          },
+          "loss_pct_capital": {
+            "min": 0.10836178,
+            "median": 0.1158495,
+            "max": 0.12351983
+          },
+          "loss_pct_buy_notional": {
+            "min": 0.21674488769694938,
+            "median": 0.231918369771254,
+            "max": 0.24710539003374898
+          },
+          "round_trip_fees_usdt": {
+            "min": 9.98715,
+            "median": 9.9933745,
+            "max": 9.998504
+          },
+          "buy_impact_bps": {
+            "min": 0.0,
+            "median": 0.24211888022597117,
+            "max": 1.6707244261111618
+          },
+          "sell_impact_bps": {
+            "min": 0.0,
+            "median": 0.35115225961977115,
+            "max": 3.0393178482189875
+          }
+        }
+      ],
+      "funding": {
+        "observed_events": 200,
+        "first_timestamp_ms": 1786435200000,
+        "last_timestamp_ms": 1792166400000,
+        "coverage": "latest returned events only; not full backtest coverage",
+        "latest_rate_pct": "0.00881200",
+        "constant_notional_assumption_usdt": "5000",
+        "sum_long_funding_paid_usdt": "46.02650000",
+        "sum_short_funding_paid_usdt": "-46.02650000",
+        "amounts_are_scenarios_not_account_pnl": true,
+        "first_utc": "2026-08-11T08:00:00+00:00",
+        "last_utc": "2026-10-16T16:00:00+00:00",
+        "expected_interval_minutes_current_metadata": 480,
+        "interval_anomalies": 0,
+        "rate_pct_range": {
+          "min": -0.016418,
+          "median": 0.0057935,
+          "max": 0.01
+        },
+        "positive_events": 160,
+        "negative_events": 40,
+        "zero_events": 0,
+        "long_cost_pct_10000_equity": "0.46026500",
+        "last_event_long_cost_5000_usdt": "0.44060000"
+      },
+      "observations": [
+        {
+          "round": 1,
+          "source_utc": "2026-10-16T17:01:34.949000+00:00",
+          "age_ms": 353,
+          "spread_bps": "1.675743611227482195224130708",
+          "notional_usdt": "4995.785",
+          "round_trip_cost_usdt": "6.90059020",
+          "cost_pct_equity": "0.06900590200",
+          "buy_impact_bps": "1.139089881198330562682370000",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 2,
+          "source_utc": "2026-10-16T17:01:55.549000+00:00",
+          "age_ms": 391,
+          "spread_bps": "1.676024469957261376016089835",
+          "notional_usdt": "4994.389",
+          "round_trip_cost_usdt": "7.12093250",
+          "cost_pct_equity": "0.07120932500",
+          "buy_impact_bps": "0.020022509304960636747830000",
+          "sell_impact_bps": "1.564020088346107832876944000"
+        },
+        {
+          "round": 3,
+          "source_utc": "2026-10-16T17:02:11.550000+00:00",
+          "age_ms": 304,
+          "spread_bps": "1.676586469947187526196663593",
+          "notional_usdt": "4998.808",
+          "round_trip_cost_usdt": "6.82495895",
+          "cost_pct_equity": "0.068249589500",
+          "buy_impact_bps": "0.276073435533852004633230000",
+          "sell_impact_bps": "0.7023045192395422655263330000"
+        },
+        {
+          "round": 4,
+          "source_utc": "2026-10-16T17:02:27.149000+00:00",
+          "age_ms": 327,
+          "spread_bps": "1.676305422848042913418824910",
+          "notional_usdt": "4999.508",
+          "round_trip_cost_usdt": "6.33699790",
+          "cost_pct_equity": "0.06336997900",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 5,
+          "source_utc": "2026-10-16T17:02:40.749000+00:00",
+          "age_ms": 380,
+          "spread_bps": "1.676305422848042913418824910",
+          "notional_usdt": "4999.508",
+          "round_trip_cost_usdt": "6.33699790",
+          "cost_pct_equity": "0.06336997900",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 6,
+          "source_utc": "2026-10-16T17:02:54.149000+00:00",
+          "age_ms": 419,
+          "spread_bps": "1.676305422848042913418824910",
+          "notional_usdt": "4999.834",
+          "round_trip_cost_usdt": "6.66317720",
+          "cost_pct_equity": "0.06663177200",
+          "buy_impact_bps": "0.652064163113650383197710000",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 7,
+          "source_utc": "2026-10-16T17:03:07.549000+00:00",
+          "age_ms": 446,
+          "spread_bps": "1.675462846611376392728491246",
+          "notional_usdt": "4996.157",
+          "round_trip_cost_usdt": "7.05891250",
+          "cost_pct_equity": "0.07058912500",
+          "buy_impact_bps": "0.208164324918090340514800000",
+          "sell_impact_bps": "1.247193314563374236469454000"
+        },
+        {
+          "round": 8,
+          "source_utc": "2026-10-16T17:03:21.149000+00:00",
+          "age_ms": 352,
+          "spread_bps": "1.676024469957261376016089835",
+          "notional_usdt": "4995.186",
+          "round_trip_cost_usdt": "7.13780040",
+          "cost_pct_equity": "0.07137800400",
+          "buy_impact_bps": "1.615816500910323385550040000",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 9,
+          "source_utc": "2026-10-16T17:03:34.749000+00:00",
+          "age_ms": 151,
+          "spread_bps": "1.676586469947187526196663593",
+          "notional_usdt": "4998.670",
+          "round_trip_cost_usdt": "7.85424065",
+          "cost_pct_equity": "0.078542406500",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "3.039317848218987753089740000"
+        },
+        {
+          "round": 10,
+          "source_utc": "2026-10-16T17:03:48.149000+00:00",
+          "age_ms": 435,
+          "spread_bps": "1.676867611302087700176071099",
+          "notional_usdt": "4998.667",
+          "round_trip_cost_usdt": "7.17061355",
+          "cost_pct_equity": "0.071706135500",
+          "buy_impact_bps": "1.670724426111161799756370000",
+          "sell_impact_bps": "0"
+        },
+        {
+          "round": 11,
+          "source_utc": "2026-10-16T17:04:01.749000+00:00",
+          "age_ms": 321,
+          "spread_bps": "1.677148846960167714884696017",
+          "notional_usdt": "4996.994",
+          "round_trip_cost_usdt": "7.71747130",
+          "cost_pct_equity": "0.07717471300",
+          "buy_impact_bps": "0",
+          "sell_impact_bps": "2.770129675694674065421496000"
+        },
+        {
+          "round": 12,
+          "source_utc": "2026-10-16T17:04:15.149000+00:00",
+          "age_ms": 318,
+          "spread_bps": "1.677711601375723513128093281",
+          "notional_usdt": "4995.757",
+          "round_trip_cost_usdt": "7.16341475",
+          "cost_pct_equity": "0.071634147500",
+          "buy_impact_bps": "0.878822929791456720072680000",
+          "sell_impact_bps": "0.7848664926078390543159650000"
+        }
+      ]
+    }
+  },
+  "orders": 0,
+  "strategy_profit_measured": false,
+  "first_book_utc": "2026-10-16T17:01:16.759000+00:00",
+  "last_book_utc": "2026-10-16T17:04:15.149000+00:00",
+  "book_span_seconds": 178.39,
+  "limits": [
+    "Only one brief capture, not representative historical liquidity",
+    "Fees are scenarios, account tier unverified",
+    "Static book sweep is not an actual fill or latency-slippage estimate",
+    "Funding is constant-notional illustration, not strategy PnL",
+    "REST book excludes RPI liquidity; deep bands may be incomplete",
+    "No matching historical perpetual or mark-price series in this archive"
+  ]
+}
