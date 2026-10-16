@@ -53,11 +53,14 @@ def features(frame):
     return out
 
 
-def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10, initial=10000):
+def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10,
+             initial=10000, allocation_fraction=1.0):
     if strategy not in {"trend", "buy_hold", "cash"}:
         raise ValueError("Unknown strategy")
     if not math.isfinite(initial) or initial <= 0:
         raise ValueError("Invalid initial balance")
+    if not math.isfinite(allocation_fraction) or not 0 < allocation_fraction <= 1:
+        raise ValueError("Entry allocation must be in (0, 1]")
     if any(not math.isfinite(v) or not 0 <= v < 10000 for v in (fee_bps, slippage_bps)):
         raise ValueError("Invalid transaction costs")
     start_ts, end_ts = pd.Timestamp(start, tz="UTC"), pd.Timestamp(end, tz="UTC")
@@ -77,10 +80,10 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
         nonlocal cash, quantity, entry, fees_paid
         reference = float(row.Open)
         price = reference * (1 + slip)
-        committed = cash
+        committed = cash * allocation_fraction
         quantity = committed / (price * (1 + fee))
         charge = quantity * price * fee
-        cash = 0.0
+        cash -= committed
         fees_paid += charge
         entry = {"entry_date": row.Date.strftime("%Y-%m-%d"), "entry_signal_date": signal_date,
                  "entry_fill": price, "quantity": quantity, "entry_cash": committed,
@@ -93,7 +96,8 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
         nonlocal cash, quantity, entry, fees_paid
         price = float(reference) * (1 - slip)
         charge = quantity * price * fee
-        cash = quantity * price - charge
+        proceeds = quantity * price - charge
+        cash += proceeds
         fees_paid += charge
         exit_date = row.Date.strftime("%Y-%m-%d")
         fills.append({"date": exit_date, "signal_date": signal_date, "side": "sell",
@@ -101,8 +105,9 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
                       "fee": charge, "cash_after": cash, "reason": reason})
         trades.append({**entry, "exit_date": exit_date, "exit_signal_date": signal_date,
                        "exit_fill": price, "exit_fee": charge, "exit_cash": cash,
-                       "pnl_usd": cash - entry["entry_cash"],
-                       "return_pct": 100 * (cash / entry["entry_cash"] - 1), "exit_reason": reason})
+                       "exit_position_proceeds": proceeds,
+                       "pnl_usd": proceeds - entry["entry_cash"],
+                       "return_pct": 100 * (proceeds / entry["entry_cash"] - 1), "exit_reason": reason})
         quantity, entry = 0.0, None
 
     for i in selected:
@@ -123,7 +128,8 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
         if not math.isfinite(equity) or equity <= 0 or cash < -1e-8 or quantity < 0:
             raise ArithmeticError("Invalid cash/position ledger")
         curve.append({"Date": row.Date.strftime("%Y-%m-%d"), "equity": equity,
-                      "cash": cash, "btc": quantity, "exposed_during_day": exposed})
+                      "cash": cash, "btc": quantity, "exposed_during_day": exposed,
+                      "close_position_weight": quantity * float(row.Close) / equity})
 
     equity = pd.Series([initial] + [point["equity"] for point in curve], dtype=float)
     returns = equity.pct_change().dropna()
@@ -135,6 +141,7 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
     operating = 120 * days / 365.25
     metrics = {
         "strategy": strategy, "start": start, "end": end, "days": days,
+        "entry_allocation_fraction": allocation_fraction,
         "initial_usd": initial, "fee_bps_per_side": fee_bps, "slippage_bps_per_side": slippage_bps,
         "final_usd": end_equity, "net_profit_usd": end_equity - initial,
         "net_return_pct": 100 * (end_equity / initial - 1),
@@ -147,6 +154,7 @@ def simulate(frame, start, end, *, strategy="trend", fee_bps=60, slippage_bps=10
         "win_rate_pct": 100 * sum(value > 0 for value in pnl) / len(pnl) if pnl else None,
         "profit_factor": gains / losses if losses > 0 else None,
         "fees_paid_usd": fees_paid, "exposure_pct": 100 * sum(p["exposed_during_day"] for p in curve) / days,
+        "max_close_position_weight_pct": 100 * max(p["close_position_weight"] for p in curve),
         "external_operating_cost_120_per_year_usd": operating,
         "profit_after_external_operating_cost_usd": end_equity - initial - operating,
     }
