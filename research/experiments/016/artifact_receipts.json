@@ -1,0 +1,20 @@
+{
+  "saved_utc": "2026-10-16T21:37:22.921634+00:00",
+  "files": [
+    {
+      "filename": "Trading_Strategies_016_EL.html",
+      "library_file_id": "libfile_6505b9c6212081918e25ab08ac08506f",
+      "file_id": "file_000000003818820c863cc22a596390a7",
+      "version": 0,
+      "sha256": "54ea4e6983ba00a215d52850fe990d7ee656d3a3e4a2ed038b02a46f3c556387"
+    },
+    {
+      "filename": "Trading_Strategies_016_Evidence.zip",
+      "library_file_id": "libfile_4a0f81e8ba948191bccab42fb68156b2",
+      "file_id": "file_000000009db0820c99e51d75ed02cfea",
+      "version": 0,
+      "sha256": "d1e8305aabb6661de91aebcc944bbf58dd47c20e844f9aaa00b04226942200d5"
+    }
+  ],
+  "local_identity_applied": true
+}

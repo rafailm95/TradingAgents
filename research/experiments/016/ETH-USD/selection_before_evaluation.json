@@ -1,0 +1,14 @@
+{
+  "selected": "peer_reversion60__vol15_cap50",
+  "eligible": [
+    {
+      "id": "peer_reversion60__vol15_cap50",
+      "score": 0.668729752742962
+    },
+    {
+      "id": "peer_reversion60__fixed50",
+      "score": 0.5701955737791663
+    }
+  ],
+  "selection_universe": "Only the two preregistered016variants; old44selection/cohorts unchanged."
+}

@@ -1,0 +1,28 @@
+{
+  "verified_utc": "2026-10-16T21:36:42.141340+00:00",
+  "freeze_commit": "d38e671fee368f7118e1c884f1d126bf39fc1863",
+  "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
+  "historical_runs": 174,
+  "new_variants": 2,
+  "audit_cases": 174,
+  "audit_points": 194382,
+  "max_wealth_error_usd": 5.093170329928398e-11,
+  "all_result_hashes_verified": true,
+  "result_files": 38,
+  "source_rules_changed_after_outcomes": false,
+  "preserved_files_verified": 72,
+  "archive": {
+    "name": "Trading_Strategies_016_Evidence.zip",
+    "sha256": "d1e8305aabb6661de91aebcc944bbf58dd47c20e844f9aaa00b04226942200d5",
+    "bytes": 1750159,
+    "crc": "PASS"
+  },
+  "report": {
+    "name": "Trading_Strategies_016_EL.html",
+    "sha256": "54ea4e6983ba00a215d52850fe990d7ee656d3a3e4a2ed038b02a46f3c556387",
+    "bytes": 55015
+  },
+  "new_historical_passes": 1,
+  "new_delay_robust_passes": 0,
+  "real_orders": 0
+}

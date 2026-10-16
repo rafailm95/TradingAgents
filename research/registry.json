@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T21:32:35.286591+00:00",
+  "updated_utc": "2026-10-16T21:36:42.141340+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
-  "unique_signal_families": 22,
-  "unique_sizing_variants": 44,
+  "unique_signal_families": 23,
+  "unique_sizing_variants": 46,
   "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
   "completed": [
     {
@@ -112,6 +112,30 @@
       "new_delay_robust_passes": 0,
       "cross_asset_robust_passes": [],
       "conclusion": "Relative28dayleader filter fails bothsizings on all3assets. Least-negative ETHvol15 loses1.3663%base/13.7939%stress in2024..2026evaluation. Preserve failures; do not retune. Prior strength shortlist remains exploratory."
+    },
+    {
+      "id": "016",
+      "status": "COMPLETED",
+      "completed_utc": "2026-10-16T21:33:18.112891+00:00",
+      "protocol": "docs/PEER_REVERSION_016.json",
+      "report": "docs/PEER_REVERSION_016_RESULTS.md",
+      "results": "research/experiments/016",
+      "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
+      "remote_freeze_commit": "d38e671fee368f7118e1c884f1d126bf39fc1863",
+      "new_families": 1,
+      "new_variants": 2,
+      "all_variants": 46,
+      "assets": [
+        "BTC-USD",
+        "ETH-USD",
+        "LTC-USD"
+      ],
+      "simulations": 174,
+      "audit_points": 194382,
+      "new_historical_passes": 1,
+      "new_delay_robust_passes": 0,
+      "cross_asset_robust_passes": [],
+      "conclusion": "LTCvolpasses historicalgate and selectedWFAispositive underbothcosts, but3delayprofitgatesfail. Retain as promising fragile idea;BTC/ETHfail. Noretuning,paperpromotion orBybitclaims."
     }
   ],
   "prospective_cohorts": [
@@ -140,22 +164,15 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
-    },
-    {
-      "id": "016",
-      "status": "PREREGISTERED_NOT_EXECUTED",
-      "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
-      "protocol": "docs/PEER_REVERSION_016.json",
-      "planned_runs": 174
     }
   ],
-  "active_experiment": "016",
+  "active_experiment": "013",
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "570+1226+2020+3174+174=7164historical scenario executions on overlapping histories,including cost/lag/WFA repetitions.44unique sizing variants,22families. Synthetic software runs are excluded. Earlier001/002/006remain separately documented.",
+  "count_note": "570+1226+2020+3174+174+174=7338historical scenario executions on overlapping histories, including cost/lag/WFA repetitions.46unique sizing variants,23families. Synthetic software runs excluded. Earlier001/002/006remain separately documented.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Publish016freeze, then complete all174new spot simulations once. Prioritize013on receipt of the unified Bybit packet.",
+  "next_action": "Prioritize one BYBIT_SEND_THIS.zip and frozen013engine on arrival.016complete;retain LTCvolpositive-but-delay-failed result, no retuning. Further user-authorized distinct bounded spot family requires fresh freeze before outcomes. Existing013andbothprospectivecohorts unchanged.",
   "execution_realism": "36validated real Bybit books and600fundingevents remain diagnostic. Full hourly perpetual adapter tested on synthetic data; historical replay still awaits the unified user packet. Account settings and historical fills remain unverified.",
   "measurement_runs": [
     {
@@ -219,5 +236,6 @@
     }
   ],
   "collection_current": "docs/BYBIT_COMPLETE_014.json supersedes separate collection instructions;013research design and all prior results remain frozen.",
-  "cumulative_known_simulations_003_007_009_011_015": 7164
+  "cumulative_known_simulations_003_007_009_011_015": 7164,
+  "cumulative_known_simulations_003_007_009_011_015_016": 7338
 }

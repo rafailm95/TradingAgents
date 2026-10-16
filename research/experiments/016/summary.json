@@ -1,0 +1,1896 @@
+{
+  "experiment": "peer_reversion_016_v1",
+  "completed_utc": "2026-10-16T21:33:18.112891+00:00",
+  "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
+  "new_families": 1,
+  "new_variants": 2,
+  "historical_simulations": 174,
+  "cumulative_historical_simulations": 7338,
+  "cumulative_unique_variants": 46,
+  "cumulative_families": 23,
+  "historical_scope": "Reused correlated Coinbase USD spot dates; exploratory, not Bybit/future performance.",
+  "assets": {
+    "BTC-USD": {
+      "product": "BTC-USD",
+      "selection": {
+        "selected": "cash",
+        "eligible": [],
+        "selection_universe": "Only the two preregistered016variants; old44selection/cohorts unchanged."
+      },
+      "assessments": [
+        {
+          "id": "peer_reversion60__fixed50",
+          "historical_pass": false,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": false,
+            "full_base_drawdown": false,
+            "full_base_20trades": true,
+            "validation_base_positive": false,
+            "validation_base_5trades": false,
+            "recent_base_positive": true,
+            "full_stress_positive": false,
+            "full_stress_drawdown": false,
+            "full_stress_20trades": true,
+            "validation_stress_positive": false,
+            "validation_stress_5trades": false,
+            "recent_stress_positive": true
+          },
+          "delay_checks": {
+            "lag1_base_positive": false,
+            "lag1_base_drawdown": true,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": true,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": true,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": true
+          },
+          "failed": [
+            "full_base_positive",
+            "full_base_drawdown",
+            "validation_base_positive",
+            "validation_base_5trades",
+            "full_stress_positive",
+            "full_stress_drawdown",
+            "validation_stress_positive",
+            "validation_stress_5trades"
+          ],
+          "delay_failed": [
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ]
+        },
+        {
+          "id": "peer_reversion60__vol15_cap50",
+          "historical_pass": false,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": false,
+            "full_base_drawdown": true,
+            "full_base_20trades": true,
+            "validation_base_positive": false,
+            "validation_base_5trades": false,
+            "recent_base_positive": true,
+            "full_stress_positive": false,
+            "full_stress_drawdown": true,
+            "full_stress_20trades": true,
+            "validation_stress_positive": false,
+            "validation_stress_5trades": false,
+            "recent_stress_positive": true
+          },
+          "delay_checks": {
+            "lag1_base_positive": false,
+            "lag1_base_drawdown": true,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": true,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": true,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": true
+          },
+          "failed": [
+            "full_base_positive",
+            "validation_base_positive",
+            "validation_base_5trades",
+            "full_stress_positive",
+            "validation_stress_positive",
+            "validation_stress_5trades"
+          ],
+          "delay_failed": [
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ]
+        }
+      ],
+      "new_opportunities": [
+        {
+          "product": "BTC-USD",
+          "id": "peer_reversion60__fixed50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "full_base_positive",
+            "full_base_drawdown",
+            "validation_base_positive",
+            "validation_base_5trades",
+            "full_stress_positive",
+            "full_stress_drawdown",
+            "validation_stress_positive",
+            "validation_stress_5trades",
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ],
+          "selected_within_new_family_by_training": false,
+          "worst_return_pct": -9.688051912820661,
+          "worst_pnl_usd": -968.8051912820665,
+          "worst_return_scenario": {
+            "lag_days": 0,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 16.694031001713384,
+          "min_signal_exits": 5,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": -6.144373463651243,
+              "pnl_usd": -614.4373463651245,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 13.85686330709033,
+              "amount_at_max_pct_usd": 1427.6437702231287,
+              "max_cash_drawdown_usd": 1427.6437702231287,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -184.02942011599043,
+                  "return_pct": -1.8402942011599088,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -612.9004869762284,
+                  "return_pct": -6.243911205604602,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 182.49256072709431,
+                  "return_pct": 1.9829530676695573,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": -9.688051912820661,
+              "pnl_usd": -968.8051912820665,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 16.431894362868263,
+              "amount_at_max_pct_usd": 1686.3407908528843,
+              "max_cash_drawdown_usd": 1686.3407908528843,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -257.5250662489925,
+                  "return_pct": -2.575250662489925,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -744.7253061608008,
+                  "return_pct": -7.644108003612482,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 33.445181127726755,
+                  "return_pct": 0.37170606553857954,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": -5.930097534004708,
+              "pnl_usd": -593.0097534004708,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 14.127156590640533,
+              "amount_at_max_pct_usd": 1466.6409093684433,
+              "max_cash_drawdown_usd": 1466.6409093684433,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -92.04447417048323,
+                  "return_pct": -0.9204447417048289,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -769.5556317049432,
+                  "return_pct": -7.767047699182261,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 268.5903524749556,
+                  "return_pct": 2.9391398449048145,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -9.482877814014024,
+              "pnl_usd": -948.2877814014028,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 16.694031001713384,
+              "amount_at_max_pct_usd": 1726.3203388298498,
+              "max_cash_drawdown_usd": 1726.3203388298498,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -166.90968996691845,
+                  "return_pct": -1.6690968996691868,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -898.0948985845553,
+                  "return_pct": -9.133394185022325,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 116.71680715007096,
+                  "return_pct": 1.306288383769294,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -5.515128052574214,
+              "pnl_usd": -551.5128052574219,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 13.86303188317006,
+              "amount_at_max_pct_usd": 1438.7279813060522,
+              "max_cash_drawdown_usd": 1438.7279813060522,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -122.67074673097704,
+                  "return_pct": -1.2267074673097733,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -708.5855432569897,
+                  "return_pct": -7.173857680429907,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 279.7434847305449,
+                  "return_pct": 3.0510557779586778,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -9.085787569332716,
+              "pnl_usd": -908.5787569332715,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 16.438254596752127,
+              "amount_at_max_pct_usd": 1699.291273135621,
+              "max_cash_drawdown_usd": 1699.291273135621,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -197.07996602307503,
+                  "return_pct": -1.9707996602307487,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -838.4496795307405,
+                  "return_pct": -8.553060482230535,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 126.95088862054399,
+                  "return_pct": 1.4161560427000452,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "product": "BTC-USD",
+          "id": "peer_reversion60__vol15_cap50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "full_base_positive",
+            "validation_base_positive",
+            "validation_base_5trades",
+            "full_stress_positive",
+            "validation_stress_positive",
+            "validation_stress_5trades",
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ],
+          "selected_within_new_family_by_training": false,
+          "worst_return_pct": -9.583118487939613,
+          "worst_pnl_usd": -958.311848793961,
+          "worst_return_scenario": {
+            "lag_days": 1,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 14.208952295943517,
+          "min_signal_exits": 5,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": -6.3755315713914795,
+              "pnl_usd": -637.5531571391475,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 11.408890696223578,
+              "amount_at_max_pct_usd": 1155.8139598869493,
+              "max_cash_drawdown_usd": 1155.8139598869493,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -157.81529746498563,
+                  "return_pct": -1.5781529746498602,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -593.6141589139861,
+                  "return_pct": -6.031325126027065,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 113.87629923982422,
+                  "return_pct": 1.2312854046225397,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": -9.245238188959648,
+              "pnl_usd": -924.5238188959647,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 13.640038884562703,
+              "amount_at_max_pct_usd": 1378.619051865764,
+              "max_cash_drawdown_usd": 1378.619051865764,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -201.10503492480166,
+                  "return_pct": -2.0110503492480114,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -722.4120314124357,
+                  "return_pct": -7.372382640973552,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1.006752558727385,
+                  "return_pct": -0.011091879597913135,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": -6.723897640445098,
+              "pnl_usd": -672.3897640445102,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 11.99309534824577,
+              "amount_at_max_pct_usd": 1220.5737461655845,
+              "max_cash_drawdown_usd": 1220.5737461655845,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -103.63516068476929,
+                  "return_pct": -1.0363516068476963,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -749.5899925090234,
+                  "return_pct": -7.574397313356229,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 180.8353891492825,
+                  "return_pct": 1.977039909454259,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -9.583118487939613,
+              "pnl_usd": -958.311848793961,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 14.208952295943517,
+              "amount_at_max_pct_usd": 1442.6761254325247,
+              "max_cash_drawdown_usd": 1442.6761254325247,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -147.73158961928675,
+                  "return_pct": -1.4773158961928656,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -875.1113839853933,
+                  "return_pct": -8.882333971568857,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 64.53112481071912,
+                  "return_pct": 0.7188369839246311,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -6.347408278092348,
+              "pnl_usd": -634.7408278092353,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 11.735538491832646,
+              "amount_at_max_pct_usd": 1194.1159537259064,
+              "max_cash_drawdown_usd": 1194.1159537259064,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -121.67436937636194,
+                  "return_pct": -1.2167436937636222,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -701.6089959137971,
+                  "return_pct": -7.102509293060255,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 188.54253748092378,
+                  "return_pct": 2.0545751273149726,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -9.220756354979532,
+              "pnl_usd": -922.075635497953,
+              "signal_exits": 5,
+              "closed_trades": 5,
+              "max_drawdown_pct": 13.958680113538527,
+              "amount_at_max_pct_usd": 1416.9754844710315,
+              "max_cash_drawdown_usd": 1416.9754844710315,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -165.50221139459063,
+                  "return_pct": -1.6550221139459032,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -828.1767554711369,
+                  "return_pct": -8.421139271907618,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 71.60333136777444,
+                  "return_pct": 0.7950341888141255,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "multiplicity": [
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.270353007035067,
+          "family_adjusted_p_exploratory": 0.20839580209895053,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.270353007035067,
+          "family_adjusted_p_exploratory": 0.20589705147426288,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 0.0,
+          "family_adjusted_p_exploratory": 1.0,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 0.0,
+          "family_adjusted_p_exploratory": 1.0,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        }
+      ],
+      "walk_forward_summary": {
+        "base": {
+          "final_after_operating_usd": 9425.379876796716,
+          "net_profit_usd": -574.6201232032836,
+          "net_return_pct": -5.746201232032833,
+          "max_drawdown_pct": 5.746201232032836,
+          "amount_at_max_pct_usd": 574.6201232032836,
+          "max_cash_drawdown_usd": 574.6201232032836
+        },
+        "stress": {
+          "final_after_operating_usd": 9425.379876796716,
+          "net_profit_usd": -574.6201232032836,
+          "net_return_pct": -5.746201232032833,
+          "max_drawdown_pct": 5.746201232032836,
+          "amount_at_max_pct_usd": 574.6201232032836,
+          "max_cash_drawdown_usd": 574.6201232032836
+        }
+      },
+      "walk_forward_choices": [
+        {
+          "year": 2022,
+          "selected": "cash"
+        },
+        {
+          "year": 2023,
+          "selected": "cash"
+        },
+        {
+          "year": 2024,
+          "selected": "cash"
+        },
+        {
+          "year": 2025,
+          "selected": "cash"
+        },
+        {
+          "year": 2026,
+          "selected": "cash"
+        }
+      ],
+      "simulation_count": 58,
+      "audit_cases": 58,
+      "audit_days": 64794,
+      "max_wealth_error_usd": 2.3646862246096134e-11
+    },
+    "ETH-USD": {
+      "product": "ETH-USD",
+      "selection": {
+        "selected": "peer_reversion60__vol15_cap50",
+        "eligible": [
+          {
+            "id": "peer_reversion60__vol15_cap50",
+            "score": 0.668729752742962
+          },
+          {
+            "id": "peer_reversion60__fixed50",
+            "score": 0.5701955737791663
+          }
+        ],
+        "selection_universe": "Only the two preregistered016variants; old44selection/cohorts unchanged."
+      },
+      "assessments": [
+        {
+          "id": "peer_reversion60__fixed50",
+          "historical_pass": false,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": true,
+            "full_base_drawdown": false,
+            "full_base_20trades": true,
+            "validation_base_positive": false,
+            "validation_base_5trades": true,
+            "recent_base_positive": false,
+            "full_stress_positive": false,
+            "full_stress_drawdown": false,
+            "full_stress_20trades": true,
+            "validation_stress_positive": false,
+            "validation_stress_5trades": true,
+            "recent_stress_positive": false
+          },
+          "delay_checks": {
+            "lag1_base_positive": false,
+            "lag1_base_drawdown": false,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": false,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": false,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": false
+          },
+          "failed": [
+            "full_base_drawdown",
+            "validation_base_positive",
+            "recent_base_positive",
+            "full_stress_positive",
+            "full_stress_drawdown",
+            "validation_stress_positive",
+            "recent_stress_positive"
+          ],
+          "delay_failed": [
+            "lag1_base_positive",
+            "lag1_base_drawdown",
+            "lag2_base_positive",
+            "lag2_base_drawdown",
+            "lag1_stress_positive",
+            "lag1_stress_drawdown",
+            "lag2_stress_positive",
+            "lag2_stress_drawdown"
+          ]
+        },
+        {
+          "id": "peer_reversion60__vol15_cap50",
+          "historical_pass": false,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": true,
+            "full_base_drawdown": true,
+            "full_base_20trades": true,
+            "validation_base_positive": false,
+            "validation_base_5trades": true,
+            "recent_base_positive": false,
+            "full_stress_positive": false,
+            "full_stress_drawdown": true,
+            "full_stress_20trades": true,
+            "validation_stress_positive": false,
+            "validation_stress_5trades": true,
+            "recent_stress_positive": false
+          },
+          "delay_checks": {
+            "lag1_base_positive": false,
+            "lag1_base_drawdown": true,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": true,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": true,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": true
+          },
+          "failed": [
+            "validation_base_positive",
+            "recent_base_positive",
+            "full_stress_positive",
+            "validation_stress_positive",
+            "recent_stress_positive"
+          ],
+          "delay_failed": [
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ]
+        }
+      ],
+      "new_opportunities": [
+        {
+          "product": "ETH-USD",
+          "id": "peer_reversion60__fixed50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "full_base_drawdown",
+            "validation_base_positive",
+            "recent_base_positive",
+            "full_stress_positive",
+            "full_stress_drawdown",
+            "validation_stress_positive",
+            "recent_stress_positive",
+            "lag1_base_positive",
+            "lag1_base_drawdown",
+            "lag2_base_positive",
+            "lag2_base_drawdown",
+            "lag1_stress_positive",
+            "lag1_stress_drawdown",
+            "lag2_stress_positive",
+            "lag2_stress_drawdown"
+          ],
+          "selected_within_new_family_by_training": false,
+          "worst_return_pct": -55.99579408604713,
+          "worst_pnl_usd": -5599.579408604713,
+          "worst_return_scenario": {
+            "lag_days": 2,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 55.99579408604713,
+          "min_signal_exits": 16,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": -41.77888473549897,
+              "pnl_usd": -4177.888473549897,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 44.94507829655168,
+              "amount_at_max_pct_usd": 4752.985751520305,
+              "max_cash_drawdown_usd": 4752.985751520305,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -478.00428170267514,
+                  "return_pct": -4.780042817026753,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2240.076084211397,
+                  "return_pct": -23.525279263746146,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1459.8081076358249,
+                  "return_pct": -20.04702305148509,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": -48.499383844654616,
+              "pnl_usd": -4849.938384465462,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 49.2765573244823,
+              "amount_at_max_pct_usd": 5003.156194384108,
+              "max_cash_drawdown_usd": 5003.156194384108,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -965.75938945284,
+                  "return_pct": -9.657593894528404,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2432.2485573307313,
+                  "return_pct": -26.922556772410577,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1451.930437681891,
+                  "return_pct": -21.992308169691356,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": -43.02144676928299,
+              "pnl_usd": -4302.144676928299,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 45.34380823543849,
+              "amount_at_max_pct_usd": 4727.048313859201,
+              "max_cash_drawdown_usd": 4727.048313859201,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -426.40830934888254,
+                  "return_pct": -4.264083093488824,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2064.369034442796,
+                  "return_pct": -21.5631614669624,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1811.3673331366208,
+                  "return_pct": -24.121902040540178,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -49.59535432890168,
+              "pnl_usd": -4959.535432890168,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 50.38416750557081,
+              "amount_at_max_pct_usd": 5118.519599236203,
+              "max_cash_drawdown_usd": 5118.519599236203,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -916.7595692909254,
+                  "return_pct": -9.16759569290926,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2276.0816396931777,
+                  "return_pct": -25.058035808433377,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1766.6942239060645,
+                  "return_pct": -25.953474542679267,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -50.26116051214545,
+              "pnl_usd": -5026.116051214545,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 50.26116051214545,
+              "amount_at_max_pct_usd": 5026.116051214545,
+              "max_cash_drawdown_usd": 5026.116051214545,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -966.7551197322227,
+                  "return_pct": -9.667551197322233,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2224.729567343147,
+                  "return_pct": -24.62824374663912,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1834.6313641391753,
+                  "return_pct": -26.946129659964015,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -55.99579408604713,
+              "pnl_usd": -5599.579408604713,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 55.99579408604713,
+              "amount_at_max_pct_usd": 5599.579408604713,
+              "max_cash_drawdown_usd": 5599.579408604713,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -1425.8698663022278,
+                  "return_pct": -14.258698663022273,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -2398.9688126302426,
+                  "return_pct": -27.9791509485247,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1774.7407296722422,
+                  "return_pct": -28.7399897330202,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "product": "ETH-USD",
+          "id": "peer_reversion60__vol15_cap50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "validation_base_positive",
+            "recent_base_positive",
+            "full_stress_positive",
+            "validation_stress_positive",
+            "recent_stress_positive",
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ],
+          "selected_within_new_family_by_training": true,
+          "worst_return_pct": -34.57925003649689,
+          "worst_pnl_usd": -3457.9250036496887,
+          "worst_return_scenario": {
+            "lag_days": 2,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 34.57925003649689,
+          "min_signal_exits": 16,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": -25.521866393889436,
+              "pnl_usd": -2552.186639388943,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 26.27073812215754,
+              "amount_at_max_pct_usd": 2653.7571297471495,
+              "max_cash_drawdown_usd": 2653.7571297471495,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -369.7588578321247,
+                  "return_pct": -3.6975885783212425,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1166.5571229051293,
+                  "return_pct": -12.113477800645434,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1015.8706586516892,
+                  "return_pct": -12.002700671948997,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": -29.66002174344087,
+              "pnl_usd": -2966.0021743440866,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 30.050005325423225,
+              "amount_at_max_pct_usd": 3021.753941559602,
+              "max_cash_drawdown_usd": 3021.753941559602,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -616.288896809725,
+                  "return_pct": -6.1628889680972465,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1288.5257311099267,
+                  "return_pct": -13.731515356135093,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1061.187546424435,
+                  "return_pct": -13.10887271444563,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": -26.397247658434818,
+              "pnl_usd": -2639.7247658434817,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 26.959132505561474,
+              "amount_at_max_pct_usd": 2716.652226647454,
+              "max_cash_drawdown_usd": 2716.652226647454,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -352.2151896707892,
+                  "return_pct": -3.5221518967078924,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1043.4782541302484,
+                  "return_pct": -10.815728943426151,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1244.0313220424441,
+                  "return_pct": -14.458240346471419,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -30.478701398747766,
+              "pnl_usd": -3047.870139874776,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 30.882982842999436,
+              "amount_at_max_pct_usd": 3106.36245636658,
+              "max_cash_drawdown_usd": 3106.36245636658,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -599.2890041594255,
+                  "return_pct": -5.992890041594256,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1172.3274822638887,
+                  "return_pct": -12.470625708870264,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1276.253653451462,
+                  "return_pct": -15.510381247369743,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -30.777914071080325,
+              "pnl_usd": -3077.791407108032,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 30.77791407108032,
+              "amount_at_max_pct_usd": 3077.791407108032,
+              "max_cash_drawdown_usd": 3077.791407108032,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -559.854640518015,
+                  "return_pct": -5.59854640518015,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1182.8091783823675,
+                  "return_pct": -12.529565312194224,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1335.1275882076498,
+                  "return_pct": -16.168986691660326,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -34.57925003649689,
+              "pnl_usd": -3457.9250036496887,
+              "signal_exits": 16,
+              "closed_trades": 16,
+              "max_drawdown_pct": 34.57925003649689,
+              "amount_at_max_pct_usd": 3457.9250036496887,
+              "max_cash_drawdown_usd": 3457.9250036496887,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -799.1595392309682,
+                  "return_pct": -7.99159539230968,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1300.6501861849738,
+                  "return_pct": -14.136210618266299,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1358.1152782337467,
+                  "return_pct": -17.190918585884962,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "multiplicity": [
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.13436551583072,
+          "family_adjusted_p_exploratory": 0.42028985507246375,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.13436551583072,
+          "family_adjusted_p_exploratory": 0.3988005997001499,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 2.0377821759547543,
+          "family_adjusted_p_exploratory": 0.6461769115442278,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 2.0377821759547543,
+          "family_adjusted_p_exploratory": 0.6296851574212894,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        }
+      ],
+      "walk_forward_summary": {
+        "base": {
+          "final_after_operating_usd": 7298.1201541912205,
+          "net_profit_usd": -2701.8798458087795,
+          "net_return_pct": -27.01879845808779,
+          "max_drawdown_pct": 27.018798458087794,
+          "amount_at_max_pct_usd": 2701.8798458087795,
+          "max_cash_drawdown_usd": 2701.8798458087795
+        },
+        "stress": {
+          "final_after_operating_usd": 6898.188542320559,
+          "net_profit_usd": -3101.8114576794414,
+          "net_return_pct": -31.01811457679442,
+          "max_drawdown_pct": 31.018114576794414,
+          "amount_at_max_pct_usd": 3101.8114576794414,
+          "max_cash_drawdown_usd": 3101.8114576794414
+        }
+      },
+      "walk_forward_choices": [
+        {
+          "year": 2022,
+          "selected": "cash"
+        },
+        {
+          "year": 2023,
+          "selected": "cash"
+        },
+        {
+          "year": 2024,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2025,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2026,
+          "selected": "peer_reversion60__vol15_cap50"
+        }
+      ],
+      "simulation_count": 58,
+      "audit_cases": 58,
+      "audit_days": 64794,
+      "max_wealth_error_usd": 5.093170329928398e-11
+    },
+    "LTC-USD": {
+      "product": "LTC-USD",
+      "selection": {
+        "selected": "peer_reversion60__vol15_cap50",
+        "eligible": [
+          {
+            "id": "peer_reversion60__vol15_cap50",
+            "score": 0.2723173819736209
+          },
+          {
+            "id": "peer_reversion60__fixed50",
+            "score": 0.20861470013512784
+          }
+        ],
+        "selection_universe": "Only the two preregistered016variants; old44selection/cohorts unchanged."
+      },
+      "assessments": [
+        {
+          "id": "peer_reversion60__fixed50",
+          "historical_pass": false,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": true,
+            "full_base_drawdown": true,
+            "full_base_20trades": true,
+            "validation_base_positive": true,
+            "validation_base_5trades": true,
+            "recent_base_positive": true,
+            "full_stress_positive": true,
+            "full_stress_drawdown": true,
+            "full_stress_20trades": true,
+            "validation_stress_positive": true,
+            "validation_stress_5trades": true,
+            "recent_stress_positive": false
+          },
+          "delay_checks": {
+            "lag1_base_positive": false,
+            "lag1_base_drawdown": true,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": true,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": true,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": true
+          },
+          "failed": [
+            "recent_stress_positive"
+          ],
+          "delay_failed": [
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ]
+        },
+        {
+          "id": "peer_reversion60__vol15_cap50",
+          "historical_pass": true,
+          "robust_pass": false,
+          "checks": {
+            "full_base_positive": true,
+            "full_base_drawdown": true,
+            "full_base_20trades": true,
+            "validation_base_positive": true,
+            "validation_base_5trades": true,
+            "recent_base_positive": true,
+            "full_stress_positive": true,
+            "full_stress_drawdown": true,
+            "full_stress_20trades": true,
+            "validation_stress_positive": true,
+            "validation_stress_5trades": true,
+            "recent_stress_positive": true
+          },
+          "delay_checks": {
+            "lag1_base_positive": true,
+            "lag1_base_drawdown": true,
+            "lag2_base_positive": false,
+            "lag2_base_drawdown": true,
+            "lag1_stress_positive": false,
+            "lag1_stress_drawdown": true,
+            "lag2_stress_positive": false,
+            "lag2_stress_drawdown": true
+          },
+          "failed": [],
+          "delay_failed": [
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ]
+        }
+      ],
+      "new_opportunities": [
+        {
+          "product": "LTC-USD",
+          "id": "peer_reversion60__fixed50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "recent_stress_positive",
+            "lag1_base_positive",
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ],
+          "selected_within_new_family_by_training": false,
+          "worst_return_pct": -18.681280884148887,
+          "worst_pnl_usd": -1868.1280884148891,
+          "worst_return_scenario": {
+            "lag_days": 1,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 34.859714801236336,
+          "min_signal_exits": 14,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": 11.714206612877032,
+              "pnl_usd": 1171.4206612877024,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 23.771896321695973,
+              "amount_at_max_pct_usd": 2956.262120831834,
+              "max_cash_drawdown_usd": 2956.262120831834,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 2296.612610416558,
+                  "return_pct": 22.966126104165575,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1199.4498393868416,
+                  "return_pct": -9.754311023596674,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 74.25789025798622,
+                  "return_pct": 0.6691610440449081,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": 0.22132953159983426,
+              "pnl_usd": 22.132953159984027,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 26.738039054034747,
+              "amount_at_max_pct_usd": 3192.8518274481703,
+              "max_cash_drawdown_usd": 3192.8518274481703,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 1825.0660108824868,
+                  "return_pct": 18.250660108824878,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1471.835011655754,
+                  "return_pct": -12.446738227940878,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -331.0980460667488,
+                  "return_pct": -3.198016600725684,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": -9.417994838275956,
+              "pnl_usd": -941.7994838275954,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 29.752195833505795,
+              "amount_at_max_pct_usd": 3448.5015863276176,
+              "max_cash_drawdown_usd": 3448.5015863276176,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 269.77143506186076,
+                  "return_pct": 2.6977143506186074,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -891.6662394134,
+                  "return_pct": -8.682435096551188,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -319.9046794760561,
+                  "return_pct": -3.411186724846027,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -18.681280884148887,
+              "pnl_usd": -1868.1280884148891,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 34.859714801236336,
+              "amount_at_max_pct_usd": 3993.5749759016107,
+              "max_cash_drawdown_usd": 3993.5749759016107,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": -112.35247289178187,
+                  "return_pct": -1.123524728917824,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -1130.3946590948399,
+                  "return_pct": -11.432392346063324,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -625.3809564282674,
+                  "return_pct": -7.141291519770143,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -7.344334891713933,
+              "pnl_usd": -734.4334891713934,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 25.309218140281132,
+              "amount_at_max_pct_usd": 2929.361491493646,
+              "max_cash_drawdown_usd": 2929.361491493646,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 659.7893049399445,
+                  "return_pct": 6.597893049399439,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -614.214681270314,
+                  "return_pct": -5.76197768736082,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -780.0081128410238,
+                  "return_pct": -7.764693828495883,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -16.833430054278598,
+              "pnl_usd": -1683.3430054278597,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 31.33438954823889,
+              "amount_at_max_pct_usd": 3584.6564260378254,
+              "max_cash_drawdown_usd": 3584.6564260378254,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 260.0881060975098,
+                  "return_pct": 2.600881060975091,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -883.7927070996993,
+                  "return_pct": -8.613890036426364,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -1059.6384044256702,
+                  "return_pct": -11.301248087159566,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "product": "LTC-USD",
+          "id": "peer_reversion60__vol15_cap50",
+          "family": "peer_reversion60",
+          "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+          "historical_robust_pass": false,
+          "failed": [
+            "lag2_base_positive",
+            "lag1_stress_positive",
+            "lag2_stress_positive"
+          ],
+          "selected_within_new_family_by_training": true,
+          "worst_return_pct": -6.324496444804861,
+          "worst_pnl_usd": -632.4496444804863,
+          "worst_return_scenario": {
+            "lag_days": 2,
+            "cost": "stress"
+          },
+          "worst_drawdown_pct": 18.771571419116864,
+          "min_signal_exits": 14,
+          "scenarios": [
+            {
+              "lag_days": 0,
+              "cost": "base",
+              "return_pct": 18.303594824787584,
+              "pnl_usd": 1830.3594824787579,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 11.711803403776884,
+              "amount_at_max_pct_usd": 1367.2496107542029,
+              "max_cash_drawdown_usd": 1367.2496107542029,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 1626.8674491285037,
+                  "return_pct": 16.26867449128504,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -384.06464843904723,
+                  "return_pct": -3.303251285176001,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 587.5566817893014,
+                  "return_pct": 5.226069443762449,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 0,
+              "cost": "stress",
+              "return_pct": 10.968575451771056,
+              "pnl_usd": 1096.8575451771067,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 13.64788743956917,
+              "amount_at_max_pct_usd": 1563.1813600357127,
+              "max_cash_drawdown_usd": 1563.1813600357127,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 1372.2009165254367,
+                  "return_pct": 13.722009165254367,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -519.9046201759211,
+                  "return_pct": -4.571715044362479,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 244.56124882759104,
+                  "return_pct": 2.2535437860267127,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "base",
+              "return_pct": 1.0946074173448395,
+              "pnl_usd": 109.46074173448324,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 15.21184091426036,
+              "amount_at_max_pct_usd": 1664.962581876749,
+              "max_cash_drawdown_usd": 1664.962581876749,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 352.14990953274173,
+                  "return_pct": 3.5214990953274183,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -320.2519525391908,
+                  "return_pct": -3.0935791631483966,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": 77.56278474093233,
+                  "return_pct": 0.7731616197995894,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 1,
+              "cost": "stress",
+              "return_pct": -5.069094018339316,
+              "pnl_usd": -506.90940183393104,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 18.771571419116864,
+              "amount_at_max_pct_usd": 2040.6240876120792,
+              "max_cash_drawdown_usd": 2040.6240876120792,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 136.60767089811634,
+                  "return_pct": 1.3660767089811676,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -443.3923879562499,
+                  "return_pct": -4.374169370579628,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -200.1246847757975,
+                  "return_pct": -2.0645851653370073,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "base",
+              "return_pct": -0.23770773598825734,
+              "pnl_usd": -23.770773598826054,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 13.902839863043996,
+              "amount_at_max_pct_usd": 1520.5348310234222,
+              "max_cash_drawdown_usd": 1520.5348310234222,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 557.834663702095,
+                  "return_pct": 5.578346637020948,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -212.6463965684834,
+                  "return_pct": -2.014109932025765,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -368.95904073243764,
+                  "return_pct": -3.566479712163484,
+                  "partial_year": true
+                }
+              ]
+            },
+            {
+              "lag_days": 2,
+              "cost": "stress",
+              "return_pct": -6.324496444804861,
+              "pnl_usd": -632.4496444804863,
+              "signal_exits": 14,
+              "closed_trades": 14,
+              "max_drawdown_pct": 17.764230877844987,
+              "amount_at_max_pct_usd": 1929.6706715795845,
+              "max_cash_drawdown_usd": 1929.6706715795845,
+              "calendar_segments": [
+                {
+                  "year": 2024,
+                  "pnl_usd": 335.7380315493956,
+                  "return_pct": 3.357380315493952,
+                  "partial_year": false
+                },
+                {
+                  "year": 2025,
+                  "pnl_usd": -343.21941537929524,
+                  "return_pct": -3.320705442916927,
+                  "partial_year": false
+                },
+                {
+                  "year": 2026,
+                  "pnl_usd": -624.9682606505867,
+                  "return_pct": -6.254361734580605,
+                  "partial_year": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "multiplicity": [
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.2960306414811065,
+          "family_adjusted_p_exploratory": 0.384807596201899,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "cash",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 4.2960306414811065,
+          "family_adjusted_p_exploratory": 0.38130934532733635,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 30,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 3.096120464913851,
+          "family_adjusted_p_exploratory": 0.5737131434282858,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        },
+        {
+          "benchmark": "buy_hold50",
+          "candidate_count": 46,
+          "block_days": 60,
+          "resamples": 2000,
+          "seed": 20261016,
+          "max_daily_mean_excess_bps": 3.096120464913851,
+          "family_adjusted_p_exploratory": 0.5562218890554723,
+          "transaction_costs_included": true,
+          "operating_costs_included": false,
+          "prior_research_selection_corrected": false
+        }
+      ],
+      "walk_forward_summary": {
+        "base": {
+          "final_after_operating_usd": 11933.888120418807,
+          "net_profit_usd": 1933.8881204188074,
+          "net_return_pct": 19.338881204188073,
+          "max_drawdown_pct": 12.018996076777562,
+          "amount_at_max_pct_usd": 1429.1629462571855,
+          "max_cash_drawdown_usd": 1429.1629462571855
+        },
+        "stress": {
+          "final_after_operating_usd": 10753.586130135454,
+          "net_profit_usd": 753.5861301354544,
+          "net_return_pct": 7.535861301354552,
+          "max_drawdown_pct": 13.996154273974968,
+          "amount_at_max_pct_usd": 1569.679619360777,
+          "max_cash_drawdown_usd": 1569.679619360777
+        }
+      },
+      "walk_forward_choices": [
+        {
+          "year": 2022,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2023,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2024,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2025,
+          "selected": "peer_reversion60__vol15_cap50"
+        },
+        {
+          "year": 2026,
+          "selected": "peer_reversion60__vol15_cap50"
+        }
+      ],
+      "simulation_count": 58,
+      "audit_cases": 58,
+      "audit_days": 64794,
+      "max_wealth_error_usd": 2.9103830456733704e-11
+    }
+  },
+  "cross_asset_robust_passes": [],
+  "audit_cases": 174,
+  "audit_days": 194382,
+  "max_wealth_error_usd": 5.093170329928398e-11,
+  "real_orders": 0
+}

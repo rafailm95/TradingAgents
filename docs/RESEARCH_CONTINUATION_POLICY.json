@@ -54,7 +54,7 @@
     "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
     "new_variants": 2,
     "planned_runs": 174,
-    "status": "PREREGISTERED_NOT_EXECUTED",
+    "status": "COMPLETED:174runs,1newhistoricalpass(LTCvol),0newrobustpasses.46totalvariants,23families,7338knownhistoricalexecutions. LTCvolpositivebase/stress/WFA, but3delayprofitgatesfail;retain withoutpromotionorretuning.",
     "preserve": "015and all previous sources, inputs, outcomes and prospective pins remain unchanged. No retuning.013stillwaiting."
   }
 }
