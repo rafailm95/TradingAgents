@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "watchlist_id": "btc_five_exploratory_forward_008_v1",
+  "symbol": "BTC-USD",
+  "research_parent": "btc_strategy_families_007_v1",
+  "research_protocol_sha256": "4fef47213a6b362739bf17c28fbeab9c321382072f566c259005692a7fa75a3b",
+  "known_history_through": "2026-10-15",
+  "freeze_date_utc": "2026-10-16",
+  "first_observation_day": "2026-10-17",
+  "earliest_recording_utc": "2026-10-18T00:00:00+00:00",
+  "observation_rule": "Only yesterday's completed UTC candle; no operator date override and no historical backfill. A missing day stays missing. Actual observation time is retained, not assumed to be the next open.",
+  "required_snapshot_rows": 200,
+  "implementation_sha256": {
+    "tradingagents/strategy_lab.py": "7e259022c0a2c30906d6c2380695e584564237716e6cfb92586c9241ef81452c",
+    "tradingagents/strategy_backtest.py": "d6eafa1fcd8fcbc9eed081bd9dcb2b5089c43cc80ab2ede19594e5dab5f2d955",
+    "tradingagents/strategy_families.py": "ee4d79dd1153b0d2271a4648c7ac17cf25b6127a8755069edc85bfaccbde325c"
+  },
+  "candidates": [
+    {
+      "id": "adx_directional__fixed50",
+      "family": "adx_directional",
+      "sizing": "fixed50",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Historical screen passed but at least one delay-stress criterion failed. User authorized exploratory forward observation on2026-10-16; not validated profitability."
+    },
+    {
+      "id": "aroon_trend__fixed50",
+      "family": "aroon_trend",
+      "sizing": "fixed50",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Historical screen passed but at least one delay-stress criterion failed. User authorized exploratory forward observation on2026-10-16; not validated profitability."
+    },
+    {
+      "id": "aroon_trend__vol15_cap50",
+      "family": "aroon_trend",
+      "sizing": "vol15_cap50",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Historical screen passed but at least one delay-stress criterion failed. User authorized exploratory forward observation on2026-10-16; not validated profitability."
+    },
+    {
+      "id": "cmo_momentum__vol15_cap50",
+      "family": "cmo_momentum",
+      "sizing": "vol15_cap50",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Historical screen passed but at least one delay-stress criterion failed. User authorized exploratory forward observation on2026-10-16; not validated profitability."
+    },
+    {
+      "id": "squeeze_breakout__vol15_cap50",
+      "family": "squeeze_breakout",
+      "sizing": "vol15_cap50",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Historical screen passed but at least one delay-stress criterion failed. User authorized exploratory forward observation on2026-10-16; not validated profitability."
+    }
+  ],
+  "entry_sizing": "fixed50 or vol15_cap50 exactly as defined in experiment007. No rebalancing or guaranteed risk cap.",
+  "meaning": "Five exploratory signal observers only, admitted by user despite recorded delay failures. Their separate paper ledger uses fresh quotes; no actual orders.",
+  "data_authentication": "Caller-supplied OHLCV CSV. Structural integrity and stored bytes are checked; exchange origin is not authenticated by this journal.",
+  "integrity_limit": "Local hashes and replay detect inconsistency, not coordinated rewriting by a privileged attacker. No external timestamp or signature.",
+  "orders": 0,
+  "paid_ai": false,
+  "research_protocol_path": "docs/STRATEGY_FAMILIES_PROTOCOL.json",
+  "history_start": "2019-01-01",
+  "seed_file": "data/paper-expanded/btc_seed_20190101_20261015.csv",
+  "seed_sha256": "cd11ea3edba7d5531b716aad3f9bb783ba2439631bf08e3edbe287725a19161c",
+  "seed_last_day": "2026-10-15",
+  "snapshot_policy": "Full anchored history from2019-01-01; immutable seed prefix and append-only observed candle history. Missing observation days remain missing even when their prices are needed for indicators. Recursive ADX state is never restarted at a moving200-bar boundary."
+}

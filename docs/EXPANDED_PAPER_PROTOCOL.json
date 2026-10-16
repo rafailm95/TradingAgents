@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "protocol_id": "btc_five_exploratory_paper_008_v1",
+  "frozen_on_utc_day": "2026-10-16",
+  "watchlist_sha256": "3bc96eb858a44456a8728229291a54011dcd4e8c0a0787a0f3f4af6f442ef495",
+  "initial_cash_per_independent_book_usd": 10000.0,
+  "cost_scenarios": {
+    "base": {
+      "fee_bps_per_side": 60.0,
+      "slippage_bps_per_side": 10.0
+    },
+    "stress": {
+      "fee_bps_per_side": 120.0,
+      "slippage_bps_per_side": 25.0
+    }
+  },
+  "benchmarks": [
+    "cash",
+    "buy_hold_50"
+  ],
+  "candidate_operating_cost_usd_per_year": 120.0,
+  "benchmark_operating_cost_usd_per_year": 0.0,
+  "year_seconds": 31557600.0,
+  "quote_endpoint": "https://api.exchange.coinbase.com/products/BTC-USD/ticker",
+  "quote_max_bytes": 65536,
+  "quote_timeout_seconds": 10,
+  "quote_max_request_seconds": 15.0,
+  "quote_max_record_delay_seconds": 30.0,
+  "last_trade_max_age_seconds": 15.0,
+  "execution": "One hypothetical fill per book per recorded signal day, using a fresh bid/ask response requested after the signal was recorded. Buy at ask plus slippage; sell at bid minus slippage; fees on both sides. No next-open backfill, leverage, shorting or rebalancing. Entry budget includes the buy fee.",
+  "timing": "Request start >= observed signal time; response receipt >= request start; last-trade time >= signal time and <= receipt. Signal day must still be yesterday UTC at append time. Receipt is the hypothetical execution/valuation time, not an exchange execution acknowledgement.",
+  "sequence": "Every existing observation must be consumed in journal order, without skipping recorded observations. Missing calendar days stay missing and positions persist until the next actual observation. No fills or valuations are invented for missing days.",
+  "valuation": "Report midpoint and estimated net liquidation equity separately. Net liquidation uses bid less sell slippage and fee. Operating expense is an external sensitivity accrued from first receipt; it is not withdrawn from trading cash. Drawdown is sampled only at recorded valuations.",
+  "data_authentication": "Local clock, uncredentialed public HTTP response and local replay hashes; no external timestamp or signed exchange fill. Ticker time is last-trade time, not a timestamp of the best bid/ask. Best bid/ask has no depth guarantee. Synthetic test fixtures are not market evidence.",
+  "meaning": "Research-only independent virtual books, before taxes. Fees and operating costs are assumptions, not a user's actual account tier. No evidence of profit until actual prospective events exist. Historical selection provenance remains unchanged. Five candidates are explicitly post-hoc and failed delay robustness; inclusion is an authorized exploratory observation, not a validation pass.",
+  "orders": 0
+}
