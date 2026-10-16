@@ -1,0 +1,68 @@
+{
+  "created_utc": "2026-10-16T20:00:52.029145+00:00",
+  "classification": "SYNTHETIC_SOFTWARE_VALIDATION_ONLY",
+  "new_tests_passed": 42,
+  "total_tests_passed": 152,
+  "command": "/tmp/paper-campaign-clean-20261016/bin/python -m pytest --noconftest -q tests/test_bybit_replay.py tests/test_bybit_complete.py tests/test_bybit_history.py tests/test_bybit_cashflow.py tests/test_bybit_capture_audit.py tests/test_bybit_collector.py tests/test_bybit_discovery.py tests/test_research_continuation.py",
+  "elapsed_seconds": 15.73,
+  "network_calls_to_exchange": 0,
+  "actual_historical_strategy_simulations": 0,
+  "synthetic_matrix_test": {
+    "training_runs": 36,
+    "evaluation_runs": 216,
+    "benchmark_runs": 15,
+    "classification": "Generated constant-price fixture; these do not add to historical search count."
+  },
+  "long_accumulation_test": {
+    "warmup_days": 200,
+    "replayed_days": 1900,
+    "wealth_recurrence": "PASS"
+  },
+  "coverage": [
+    "closed-day signal causality for all6frozen families",
+    "signal lag0/1/2and actual-entry holding clock",
+    "funding signed cashflow/actual held quantity/mark proxy",
+    "adverse valuation increases paid and reduces received funding",
+    "quantity rejection without resizing and adverse tick rounding",
+    "gap/duplicate/grid/anchor/decimal/OHLC refusal",
+    "fully backed coverage stops at funding or intrahour extremes",
+    "sampled drawdown separated from unknown-order OHLC excursion",
+    "independent wealth/fee/funding/expense/curve reconstruction",
+    "all3assets and all6candidates in two-stage train/evaluation",
+    "single014packet offline bridge with unchanged collector/auditor",
+    "external freeze, source and training/input identity checks"
+  ],
+  "preserved_freezes": {
+    "research/experiments/011/freeze.json": {
+      "sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d",
+      "source_files_verified": 26,
+      "all_unchanged": true
+    },
+    "research/experiments/012/freeze.json": {
+      "sha256": "348e44e5cef56ceaa9becb8822fe58b4ada12403d015c9ebd816c040c8aca213",
+      "source_files_verified": 10,
+      "all_unchanged": true
+    },
+    "research/experiments/013/freeze.json": {
+      "sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+      "source_files_verified": 13,
+      "all_unchanged": true
+    },
+    "research/collection-014/freeze.json": {
+      "sha256": "d65d0e0d547ff106b3b2f77201d0e31f7a5983a8ce32eae8bd620ecacf792f7d",
+      "source_files_verified": 12,
+      "all_unchanged": true
+    }
+  },
+  "prospective_runtime_pins": {
+    "docs/PAPER_AUTOMATION_RUNTIME.json": "22c65210592af6a789cdc21014b045a515fe591d9f85f59a6213df8478b533c7",
+    "docs/EXPANDED_AUTOMATION_RUNTIME.json": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
+  },
+  "real_orders": 0,
+  "known_limits": [
+    "No real historical Bybit replay yet; await already requested single packet.",
+    "No exchange liquidation or tick/queue/partial-fill model.",
+    "No personal fee/margin verification.",
+    "Historical transfer remains exploratory due to post-hoc family selection."
+  ]
+}

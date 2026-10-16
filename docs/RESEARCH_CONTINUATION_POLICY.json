@@ -22,7 +22,13 @@
       "collection_protocol": "docs/BYBIT_HISTORY_013.json",
       "replay_design": "docs/BYBIT_PERPETUAL_REPLAY_013.json",
       "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
-      "status": "Collector and cash-flow kernel validated86tests; real history and full replay adapter pending. Existing001..012results and prospective pins preserved."
+      "status": "Collection and full hourly replay engine validated/frozen. Real historical input pending; no strategy outcomes calculated.",
+      "engine_v1": {
+        "freeze_sha256": "174238d65c8b7cbfb4a879f350b129e361bc003af3710b9f70231d9c3f77577a",
+        "status": "152software tests passed,42new; complete hourly adapter frozen before real PnL. Await one unified packet.",
+        "entrypoint": "scripts/run_bybit_replay_013.py",
+        "planned_runs": 267
+      }
     },
     "unified_collection_014": {
       "authorization": "User requested one complete collection package to avoid repeated requests.",

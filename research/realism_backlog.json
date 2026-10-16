@@ -1,6 +1,6 @@
 {
-  "reviewed_utc": "2026-10-16T18:26:38.136655+00:00",
-  "status": "UNIFIED_PUBLIC_CAPTURE_PACKAGE_READY",
+  "reviewed_utc": "2026-10-16T20:00:52.029145+00:00",
+  "status": "REPLAY_ENGINE_FROZEN_AWAITING_SINGLE_PACKET",
   "implemented_now": [
     "Completed-week causal signal family with two sizing variants",
     "Standalone Level2 depth sweep diagnostic",
@@ -12,7 +12,10 @@
     "Decimal USDT-linear cash-flow kernel with independent long/short funding and cash drawdown oracles",
     "One014launcher for core history,90day5minute series,index/premium,open-interest/account ratios,current risk tiers and72hourpaireddepthsampling",
     "Per-request durable journal, bounded transient retry, old013cache import and OS-released process lock",
-    "One evidenceZIP with inventory hashes and offline semantic audit; live interruption cannot become fresh data"
+    "One evidenceZIP with inventory hashes and offline semantic audit; live interruption cannot become fresh data",
+    "Causal hourly perpetual replay reusing all6frozen daily signals with entry/funding/terminal timing",
+    "Independent mark-to-mark wealth oracle, expense reconciliation and conservative margin-coverage stops",
+    "Externally pinned two-stage training selection then complete all-candidate evaluation with opportunity/failure comparison"
   ],
   "observed_blockers": [
     {
@@ -35,7 +38,7 @@
     },
     {
       "priority": 3,
-      "task": "Preregister hourly or finer historical execution timing and intraday drawdown analysis on the intended venue. Daily OHLCV cannot establish spread, queue, partial fills or within-bar sequence.",
+      "task": "Hourly causal replay and intrahour excursion analysis are now implemented/frozen. Run on complete real inputs; actual spreads, queue, partial fills and within-hour sequence remain unmeasured historically.",
       "requires_user_inputs": false
     },
     {
@@ -75,10 +78,10 @@
     "capture_minutes": 2.9731666666666663
   },
   "next_required_work": [
-    "Receive one BYBIT_SEND_THIS.zip from START_ALL.cmd; audit with scripts/audit_bybit_complete.py and its external hash.",
-    "Inspect actual per-component coverage. Unavailable optional data must remain flagged rather than prompting serial collection requests.",
-    "Complete and freeze the013causal hourly replay adapter on synthetic data before real strategy calculations.",
-    "Evaluate all planned candidates with fees,funding,delay/stress and explicit margin limitations; no actualaccount assumptions presented as verified."
+    "Receive the already requested BYBIT_SEND_THIS.zip and audit external hash with unchanged014auditor; no separate collector request.",
+    "Use frozen013engine-v1 to train and pin selection before computing evaluation, retaining all267planned scenario/benchmark runs and failures.",
+    "Inspect coverage and funding cadence before any strategy PnL; missing optional supplements remain disclosed.",
+    "Retain unknown personal fees, margin mode and exact execution limitations; no real trading."
   ],
   "access_history": [
     {
