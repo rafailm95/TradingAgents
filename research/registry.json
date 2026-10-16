@@ -79,7 +79,7 @@
   "queue": [
     {
       "id": "011",
-      "status": "PREREGISTERED_NOT_EXECUTED",
+      "status": "IMPLEMENTED_FROZEN_PENDING_EVALUATION",
       "protocol": "docs/NEXT_RESEARCH_BATCH_011.json",
       "protocol_sha256": "88d5adcdefed94a66e9c8eec8977a8965b3d5815b1cbacff942ba12ada185ea0",
       "variants": 2,
@@ -90,7 +90,12 @@
       ]
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "011",
+    "status": "IMPLEMENTED_FROZEN_PENDING_EVALUATION",
+    "freeze": "research/experiments/011/freeze.json",
+    "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d"
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
