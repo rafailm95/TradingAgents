@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-16T21:32:35.286591+00:00",
+  "new_tests_passed": 25,
+  "total_tests_passed": 170,
+  "elapsed_seconds": 3.46,
+  "command": "/tmp/paper-campaign-clean-20261016/bin/python -m pytest --noconftest -q tests/test_peer_reversion.py tests/test_relative_strength.py tests/test_weekly_confirmation.py tests/test_strategy_lab.py tests/test_strategy_families.py",
+  "test_scope": "Synthetic prior-window z-score, prefix invariance, peer validation, quote-scale invariance, degenerate variance, delayed fills, cash-flow oracle, actual entry-clock time exits, selectors and46candidate coverage. Prior regression tests unchanged.",
+  "preserved_files_verified": 72,
+  "new_real_strategy_simulations_before_freeze": 0
+}

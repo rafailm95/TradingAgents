@@ -1,0 +1,42 @@
+{
+  "experiment": "peer_reversion_016_v1",
+  "status": "PREREGISTERED_NOT_EXECUTED",
+  "authorization": "2026-10-17 Asia/Nicosia: user explicitly requested additional strategies while the frozen013Bybit batch awaits the single public-data packet. This separate bounded spot batch may proceed without changing013or its collector.",
+  "family": "peer_reversion60",
+  "products": [
+    "BTC-USD",
+    "ETH-USD",
+    "LTC-USD"
+  ],
+  "sizing": [
+    "fixed50",
+    "vol15_cap50"
+  ],
+  "rationale": "Cross-asset mean reversion tests whether a relatively depressed asset subsequently recovers. Unlike015momentum this buys the laggard. Permanent relative declines are a known failure mechanism. No empirical profitability is assumed.",
+  "source": "https://www.newyorkfed.org/research/staff_reports/sr187.html",
+  "source_detail": "https://www.newyorkfed.org/research/staff_reports/sr187.html",
+  "source_scope": "Tobias Adrian, Inference, Arbitrage, and Asset Price Volatility: temporary versus permanent declines motivate competing effects. This custom long/flat crypto rule is not a replication of the theoretical paper or a hedged pairs/arbitrage strategy.",
+  "formation": "On all3aligned closed UTC daily bars, L_i[t]=log(Close_i[t]/Close_i[0]). Spread_i[t]=L_i[t]-mean(L_other2[t]). Z=(spread[t]-mean(spread[t-60:t-1]))/sample_std(spread[t-60:t-1],ddof1). First-observation normalization uses no future data. Require all3vol60features and prior spread standard deviation>1e-12. No imputation; no signal when degenerate. No estimated hedge ratio, cointegration claim or peer short leg.",
+  "entry": "Enter only when ready and z<-2. Reuse fixed50 andvol15_cap50 unchanged. Independently simulated assets may simultaneously hold; their capital is not shared.",
+  "exit": "Exit at next open after ready z>=0, or at open after20elapsed UTC days from actual filled entry. max_hold clock does not move with delayed signals. No immediate same-open re-entry after exit; persistent z<-2 may re-enter on a later open under the unchanged ledger.",
+  "execution": "Reuse the unchanged011adapter and003cash-conserving next-open spot ledger. Extra signal delays0,1,2days shift entry,exit andvolatility together. One position per asset simulation, no pyramiding,leverage orshorting. Entry-only size cap50%; mark weight can drift. Each asset has its own10000USD account. These are independent relative-reversion tests, not a shared-capital hedged portfolio; never sum their results as one10000USD account.",
+  "data": "Exact already-used Coinbase USD spot history2019-01-01..2026-10-15,2845UTCdailycandles per asset. Fixed survivor/availability-constrained universe,not a point-in-time broad crypto universe. No new Bybit history,orderbooks,funding oraccount fees are inferred.",
+  "windows_and_costs": "Reuse docs/CROSS_ASSET_PROTOCOL.json unchanged: train2020-2023;validation2024-2025;recent2026throughOct15;evaluation2024throughOct15;full2020throughOct15. Per-side fee60bps+slip10bps base,fee120+slip25stress;120USD/year expense externally deducted at window end. These are original spot cost scenarios,not Bybit fees.",
+  "selection": "For each asset select only between the two016variants using training data. Positive net afterexpense,closeDD<=35%,>=10closedtrades under both costs; score stressannualizednet/max(stressDD,1%). Lexical ties,cash fallback. Persist choice before evaluation; previous selectors and prospective cohorts remain frozen.",
+  "screen": "Same011historical/delay gates: full,validation,recent netpositive underbothcosts;full closeDD<=35%,full>=20closedtrades;validation>=5closedtrades;lag1/2evaluation netpositive andcloseDD<=35%underbothcosts. Closed-trade counts include the existing scheduled terminal close for comparability; report signal exits separately.35%is a research screen,not user risk consent.",
+  "drawdown_reporting": "Preserve old closeDD-beforeexternalexpense gates; additionally show daily allocated-expense drawdown diagnostics with actual peak-minus-trough USD,never initialcapital*DD. The daily expense allocation is a diagnostic and does not retroactively change the frozen ledger's end-window expense debit.",
+  "walk_forward": "Expandingtrain2020..priorDec31 for years2022..2026,2026endingOct15. Train-only selector among the two newvariants,cashfallback. Start flat eachfold,carry finalbalance afteroperatingexpense. Cashfallback in the managed WFA still incurs120USD/year,matching009/011. No claim that this reused history is untouched forward evidence.",
+  "comparison": "Reuse hash-verified011matrix/delay for42oldvariants and015matrix/delay andcomparison44assessment for2more. Add2newvariants to46candidate descriptive opportunity ranking. No old strategy reruns, no automatic promotion and no post-hoc rank used as training selection.",
+  "multiplicity": "Aligned46candidate evaluationbase panel versus cachedcash andbuy_hold50; unchanged centered circular-block maxmean bootstrap,blocks30and60,2000resamples,seed20261016. Conditional diagnostic excludingoperatingexpense; not correction for all prior searches,the survivor universe orcorrelated assets. No p-value-based retuning.",
+  "planned_runs": {
+    "per_asset_matrix": 20,
+    "per_asset_delays": 8,
+    "per_asset_walk_forward_training": 20,
+    "per_asset_walk_forward_folds": 10,
+    "per_asset_total": 58,
+    "all_assets_total": 174
+  },
+  "stop": "Exactly one newfamily,two variants; complete all174runs once. Freeze sources,inputs,rules andtests and publish the freeze before inspecting newstrategy outcomes. Retain every failure. No parameter retuning,newfamilies orautomaticpaperpromotion in this batch.013remains a separate waiting batch.",
+  "orders": 0,
+  "paid_ai": false
+}

@@ -48,5 +48,13 @@
     "preserve": "No overwrite or retune of existing freezes, results or paper cohorts.",
     "status": "COMPLETED:174runs,all6newasset-variantpairsfailed; source/rulesunchanged.44totalvariants,22families.013stillawaitsoneBybitpacket.",
     "continuation": "While013is blocked only on the already requested packet,the user authorizes further bounded distinct spot families under the existing freeze-before-outcomes policy. Prioritize013when actual input arrives; no serial collector requests or parameter retuning of015."
+  },
+  "separate_batch_016": {
+    "protocol": "docs/PEER_REVERSION_016.json",
+    "freeze_sha256": "b215ddf0986511c619144ddca6202d115316bb34324e6a1beee2fc8974a70c49",
+    "new_variants": 2,
+    "planned_runs": 174,
+    "status": "PREREGISTERED_NOT_EXECUTED",
+    "preserve": "015and all previous sources, inputs, outcomes and prospective pins remain unchanged. No retuning.013stillwaiting."
   }
 }
