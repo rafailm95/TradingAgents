@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T20:00:52.029145+00:00",
+  "updated_utc": "2026-10-16T21:17:23.626582+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 21,
@@ -116,15 +116,22 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
+    },
+    {
+      "id": "015",
+      "status": "PREREGISTERED_AWAITING_FREEZE_PUBLICATION",
+      "freeze_sha256": "05cb88bdf7569c5ee8bf0f71a38df1cb9fda6ac6195907ff0dd68a626305a9d7",
+      "planned_simulations": 174,
+      "next": "Publish this freeze before new historical signal/simulation outcomes; execute once and preserve all outcomes."
     }
   ],
-  "active_experiment": "013",
+  "active_experiment": "015",
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "570+1226+2020+3174=6990 simulation executions, with overlapping references/windows/WFA. Only42 unique strategy-sizing variants; correlated reused history, not6990 independent hypotheses. Older studies001/002/006 remain in their reports.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Receive the already requested BYBIT_SEND_THIS.zip. Full013adapter is implemented, validated and frozen; no repeat collector request or real strategy PnL yet.",
+  "next_action": "Run the explicitly authorized separate015spot batch after publishing its freeze;013remains ready and waiting for the one Bybit packet.",
   "execution_realism": "36validated real Bybit books and600fundingevents remain diagnostic. Full hourly perpetual adapter tested on synthetic data; historical replay still awaits the unified user packet. Account settings and historical fills remain unverified.",
   "measurement_runs": [
     {

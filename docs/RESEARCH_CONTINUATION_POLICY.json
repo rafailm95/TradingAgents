@@ -38,5 +38,13 @@
       "one_upload": "BYBIT_SEND_THIS.zip",
       "constraint": "One comprehensive public-data packet for the defined research. Do not claim complete historical ticks, exact account fees or future profitability. PublicGET-only bounded retry in014supersedes the old collector transport policy without modifying013sources. Existing research/paper contracts unchanged."
     }
+  },
+  "separate_batch_015": {
+    "authorization": "User explicitly requested additional strategies2026-10-17Asia/Nicosia while013awaits real history. Proceed with one separate bounded spot family without changing013,014or priorcohorts.",
+    "protocol": "docs/RELATIVE_STRENGTH_015.json",
+    "freeze_sha256": "05cb88bdf7569c5ee8bf0f71a38df1cb9fda6ac6195907ff0dd68a626305a9d7",
+    "new_variants": 2,
+    "planned_runs": 174,
+    "preserve": "No overwrite or retune of existing freezes, results or paper cohorts."
   }
 }
