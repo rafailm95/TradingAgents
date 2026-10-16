@@ -1,0 +1,22 @@
+{
+  "report": {
+    "library_file_id": "libfile_b074033751548191966dc420a85918a8",
+    "filename": "Bybit_Opportunities_Realism_EL.html",
+    "sha256": "aae8b58905d2578b2a60b5df8b64013b76981a4502cd8cb63d2461bcdf28fa2f"
+  },
+  "collector_bundle": {
+    "filename": "Bybit_Public_Collector.zip",
+    "sha256": "d79632dbbbc83ce0e7e1f5bde36b461512569a0bfce84885adee44c25f033fac",
+    "durable_source_commit": "d5cf2728aae82a1bd4d957ea32a3c68c99f8df5a",
+    "paths": [
+      "START_BYBIT.cmd",
+      "scripts/collect_bybit_public_v2.py",
+      "tradingagents/bybit_depth.py",
+      "docs/BYBIT_PUBLIC_COLLECTOR_EL.txt"
+    ],
+    "note": "Source-controlled code export; source persists in Git."
+  },
+  "actual_valid_bybit_depth_snapshots": 0,
+  "software_tests_passed": 344,
+  "new_strategy_simulations": 0
+}
