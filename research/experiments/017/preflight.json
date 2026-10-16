@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-16T21:53:50.841029+00:00",
+  "new_tests_passed": 24,
+  "total_tests_passed": 77,
+  "elapsed_seconds": 9.57,
+  "command": "/tmp/paper-campaign-clean-20261016/bin/python -m pytest --noconftest -q tests/test_binance_archive.py tests/test_bybit_replay.py tests/test_bybit_cashflow.py",
+  "scope": "Syntheticnativeparsers,coverage,clockjitter,fundingcash,originlabels,checksums,cachetamper,blockedresumption,inputpinsandunchangedperpetualengine. NoactualstrategyPnL.",
+  "historical_strategy_runs": 0
+}

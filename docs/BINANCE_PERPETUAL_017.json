@@ -1,0 +1,83 @@
+{
+  "schema": "binance_perpetual_017_design_v1",
+  "status": "COVERAGE_AUDIT_PENDING_NO_STRATEGY_OUTCOMES",
+  "authorization": "2026-10-17Asia/Nicosia user explicitly requests futures from another exchange while awaitingBybit. This separate venue transfer does not alter013or spot/prospective cohorts.",
+  "purpose": "Test the six previously selected distinct families on real Binance USD-M perpetual trade/mark/funding data. No new strategy signals or parameter searches.",
+  "venue": "Binance USD-M USDT linear perpetuals",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "LTCUSDT"
+  ],
+  "capital_per_independent_simulation_usdt": 10000,
+  "candidate_ids": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "candidate_selection_origin": "Six distinct families from the012post-hoc strength shortlist. Signal and sizing rules are reused unchanged from frozen sources. This family choice has already seen correlated Coinbase spot history; it is exploratory and not independent validation.",
+  "warmup": [
+    "2022-01-01",
+    "2022-12-31"
+  ],
+  "training": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "evaluation": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "data_period_selection": "2021collection aborted on network403after8verifiedarchives. 2022..2025BTCcollectionabortedafter37verifiedarchivesatBTC2023-02mark. No deniedrequestretried. IndependentETH/LTCrequests use same2022..2025period. Eligibility requires all144archives perassetwithchecksums andcompletehourlytrade/mark/eight-hourfunding. No gapsfilled, no results-baseddate/assetselection.",
+  "position_policy": "Long or flat, one position per independent asset/candidate; no pyramiding, no borrowing, entry notional capped at50%of equity. Research accounting assumes1x fully cash-backed exposure. Actual user margin mode/leverage is unknown. Independent asset results must not be summed as a single10000USDT portfolio.",
+  "signal_timing": "Aggregate exactly24complete UTC hourly traded-price candles per day. A signal formed on closed dayD is eligible at01:00UTC onD+1+lag_days. Execution reference is that hour's traded-price open with adverse slippage; no same-bar signal/fill. The one-hour buffer avoids the assumed00/08/16UTC funding boundaries.",
+  "lag_days": [
+    0,
+    1,
+    2
+  ],
+  "holding_period": "Reuse each frozen family's max_hold measured in elapsed UTC days from its actual entry. Evaluate exits before entries; do not close and reopen in the same decision hour. A missing size-volatility feature blocks entry rather than assuming a value.",
+  "costs": [
+    {
+      "name": "venue_assumption",
+      "fee_bps_each_side": 5.5,
+      "slippage_bps_each_side": 2
+    },
+    {
+      "name": "stress_assumption",
+      "fee_bps_each_side": 10,
+      "slippage_bps_each_side": 10
+    }
+  ],
+  "cost_basis": "Exactly5.5bpsfee+2bpsslippageeachside baseline,10+10stress, chosen for comparability to013. These are explicit scenarios, NOT verified Binance personal orhistorical fees. No costreductionafteroutcomes.",
+  "operating_expense_usdt_per_365_25_days": 120,
+  "funding": "Actual archived settledrate and actualheldquantity. Archivecalc_time may be a few milliseconds after00/08/16UTC. Require interval_hours8,one event pernominalslot,source timestamp in[slot,slot+60000ms). Preserve actualtimestamp; normalize toslot onlybecause no positionschangeuntil01UTC orfinalcloseend-1ms. Use matching hourly markopen as explicit settlementmark proxy. No assumedzeroevents.",
+  "funding_valuation_sensitivity": "Separately report an adverse5basis-point mark-valuation perturbation at each settlement: increase mark when paying and decrease mark when receiving. This is a sensitivity assumption, not a bound on the true settlement mark error.",
+  "execution_filters": "ExchangeInfo publicAPI returned451andwasnotbypassed. Hypothetical fine-lot rules:qtyStep=minqty=1e-8base,maxqty1e9base,minnotional.01USDT,tick1e-8USDT. These are research assumptions,not exchange filters inferredfromprices. Report allentryrejections; no actualfill/readinessclaim.",
+  "mark_and_margin_guard": "Mark equity each hour, also evaluate adverse hourly mark extremes while the position is held, reserve estimated exit fees, and stop the run as MARGIN_MODEL_UNSUPPORTED if remaining equity cannot fully cover marked notional plus exit fees or becomes nonpositive. Do not continue through a possible liquidation. This conservative guard is not an implementation of Bybit cross/isolated margin, historical risk tiers, insurance, ADL, or exact liquidation rules. No live-trading readiness claim is permitted.",
+  "terminal_close": "At the final fully closed hour in each window, flatten at that traded-price close with adverse slippage, tick rounding and taker fee. Label this scheduled research terminal close, not exchange liquidation. Funding precedes any exit at the same timestamp; new entries are not allowed at a funding timestamp.",
+  "train_selection": "Rank only candidates with positive training net PnL under both costs, sampled mark drawdown<=35%, at least10completed signal exits and no integrity/margin failure. Score=stress annualized net return/max(stress sampled drawdown,1%). Tie break candidate ID. If none qualify, select cash. Freeze the choice before computing evaluation outcomes.",
+  "evaluation_gate": "Positive net PnL after fees,funding,operating expense and terminal close in all six cost-by-lag scenarios and the adverse funding-valuation sensitivity; sampled mark drawdown<=35%; at least20completed signal exits; complete data; no integrity/margin failures.35%is a research screen, not user-approved risk tolerance. Passing is exploratory historical evidence, never proof of future profit.",
+  "benchmarks": "Cash and a separately disclosed50%-notional buy-and-hold perpetual using the same funding,cost,terminal-close and margin rules. Operational expense is120USDT/year for managed strategy/hold, zero for idle cash; report this distinction.",
+  "reporting": "For every candidate and failure report exact evaluation dates, net return%, net USDT PnL, fee/funding/operating breakdown, number of exits, hourly sampled drawdown%, actual peak-to-troughUSDT amount at that maximum%, and adverse intrahour mark excursion separately. Do not present an uncertain OHLC path as a known realized drawdown. No annualized future-income promise.",
+  "comparison_control": "All6variants on all3assets are retained, with base/stress,delay and funding-valuation outcomes. No parameter retuning or deletion of failed candidates. No new families in this transfer batch. Do not stop at the first green result.",
+  "matrix": {
+    "training": 36,
+    "evaluation": 216,
+    "benchmarks": 15,
+    "total": 267
+  },
+  "multiplicity": "Allsixexistingvariants andfailuresretained. Priorfamilyselection sawcorrelatedspotdata; training2023beforeevaluationdoesnotremovepriorsearchselection. Descriptiverankingnotindependentvalidation; no statisticalsignificanceclaim. No extraWFAinthisvenue-transferbatch.",
+  "freeze": "Pin exactsources,testresults,rawmanifestandnormalizeddatahashesandpublish before any newfuturesPnL. Persist/pin36runtrainingselectionbefore216evaluation+15benchmarkruns. Separate directories,nowriteoverwrite.",
+  "existing_state": "No changes to013/014,spot015/016or originalsevenprospectivecohorts. No Binance tradingaccount connection.",
+  "real_orders": 0,
+  "sources": [
+    "https://github.com/binance/binance-public-data",
+    "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Get-Funding-Rate-History",
+    "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Mark-Price-Kline-Candlestick-Data"
+  ],
+  "planned_symbol_eligibility": "BTCUSDTexcludedbecause2023-02markarchiveblocked; preservefailure. ETHUSDT/LTCUSDTareindependentlycollected. Freeze onlyassetswithall144monthlyarchivesandcomplete2022..2025grids, basedonavailabilitybeforeanyPnL;excludeanyfailedassetwithoutdatechanges. Finalactualsymbolsandmatrixcounts must be fixedbeforeoutcomes."
+}

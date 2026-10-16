@@ -1,0 +1,13 @@
+{
+  "name": "first_funding",
+  "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2021-01.zip",
+  "requested_utc": "2026-10-16T21:42:49.759739+00:00",
+  "status": 200,
+  "bytes": 981,
+  "sha256": "cff916dc4b638ec3de97828e8911cd91cf7d7a3d0836ec0175869c374e66823d",
+  "first_rows": [
+    "calc_time,funding_interval_hours,last_funding_rate",
+    "1609459200002,8,0.00022753",
+    "1609488000006,8,0.00026336"
+  ]
+}

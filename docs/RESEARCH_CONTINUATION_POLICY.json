@@ -56,5 +56,13 @@
     "planned_runs": 174,
     "status": "COMPLETED:174runs,1newhistoricalpass(LTCvol),0newrobustpasses.46totalvariants,23families,7338knownhistoricalexecutions. LTCvolpositivebase/stress/WFA, but3delayprofitgatesfail;retain withoutpromotionorretuning.",
     "preserve": "015and all previous sources, inputs, outcomes and prospective pins remain unchanged. No retuning.013stillwaiting."
+  },
+  "alternative_futures_017": {
+    "authorization": "User2026-10-17Asia/Nicosia:continuewithfuturesfromelsewhereuntilBybitpacketarrives.",
+    "market": "BinanceUSD-MUSDTperpetuals,separatefromBybitandspot",
+    "protocol": "docs/BINANCE_PERPETUAL_017.json",
+    "status": "COLLECTION_AUDIT_PENDING_NO_PNL",
+    "constraint": "Publicofficialarchivesonly,checksumandcoveragechecks,noaccessbypass,gapfill,privatekeysororders. Fixed2022..2025period;onlycompleteassetseligiblebeforePnL. Reuse6frozenfamilies;pin/publishsourcesandinputs beforeevaluation. Preserveallpriorfreezes/cohorts.",
+    "priority": "Continue this alternative-venue futures work whileawaitingBybit;do not automatically substitutespotresearch. Prioritize013onpacketarrival."
   }
 }

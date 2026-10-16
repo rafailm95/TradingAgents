@@ -1,0 +1,6 @@
+{
+  "utc": "2026-10-16T21:52:57.305202+00:00",
+  "reason": "Bounded parallel static downloads increased from2to6workers;verified receipts reused;interrupted read-only GETs may resume, no known denied URL retried. No strategy outcomes computed.",
+  "source_before_sha256": "b15520c529a353dc94222993f0b81db57b3a7d23445119a2d0d17b9989b636ba",
+  "source_after_sha256": "96d00ffe16e673c9753dda7ce34aa8748bc6808bdd6c05f181aa5ac8d1368574"
+}

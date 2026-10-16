@@ -1,0 +1,13 @@
+{
+  "name": "mark",
+  "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2024-01.zip",
+  "requested_utc": "2026-10-16T21:42:49.761040+00:00",
+  "status": 200,
+  "bytes": 23278,
+  "sha256": "759f86a22dadb455c87a3f90f6a9134c73d24a55a7596f0b96e193b5d45cdb49",
+  "first_rows": [
+    "open_time,open,high,low,close,volume,close_time,quote_volume,count,taker_buy_volume,taker_buy_quote_volume,ignore",
+    "1704067200000,42313.90000000,42591.90000000,42289.70000000,42503.50000000,0,1704070799999,0,3600,0,0,0",
+    "1704070800000,42503.50000000,42809.30826181,42462,42648,0,1704074399999,0,3600,0,0,0"
+  ]
+}

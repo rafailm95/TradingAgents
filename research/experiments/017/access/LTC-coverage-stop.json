@@ -1,0 +1,9 @@
+{
+  "status": "STOPPED_INPUT_COVERAGE_FAILURE",
+  "at_utc": "2026-10-16T21:51:35.104076+00:00",
+  "missing_trade_hours": {
+    "2022-02": 72,
+    "2022-04": 48
+  },
+  "reason": "Checksummed official archives lack required hours. No interpolation or performance calculations. LTCexcluded;independentETHcollectioncontinues."
+}

@@ -1,0 +1,7 @@
+{
+  "name": "exchange",
+  "url": "https://fapi.binance.com/fapi/v1/exchangeInfo",
+  "requested_utc": "2026-10-16T21:42:55.027292+00:00",
+  "error": "HTTP Error 451: ",
+  "status": 451
+}

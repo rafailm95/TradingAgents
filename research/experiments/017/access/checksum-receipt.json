@@ -1,0 +1,9 @@
+{
+  "name": "checksum",
+  "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2024-01.zip.CHECKSUM",
+  "requested_utc": "2026-10-16T21:42:54.977030+00:00",
+  "status": 200,
+  "bytes": 89,
+  "sha256": "ee1d42fdcdb8dea97af0f4e33a583691a89b3e1c8dd6085724e84ac7607dce8d",
+  "prefix": "bf673f3d10804a951e8bac56dd2473486f113025971d43ebe5258ec40f9bfeb3  BTCUSDT-1h-2024-01.zip\n"
+}

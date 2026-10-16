@@ -1,0 +1,6 @@
+{
+  "actual_failed_url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02.zip",
+  "legacy_failed_item_field": "Incorrect due to cancel-loop variable shadowing;errorstring and traceback preserve actualfailedURL. Corrected collectorbeforefurther independent asset attempts.",
+  "attempted_scope": "BTC first, no ETH/LTC requests reached in this batch.37archivesverified;all12months2022completeplus2023Januarymark.",
+  "pnl_calculations": 0
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://data.binance.vision/data/futures/um/monthly/klines/BTCUSDT/1h/BTCUSDT-1h-2024-01.zip",
+  "requested_utc": "2026-10-16T21:41:56.602590+00:00",
+  "attempts": 1,
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "bytes": 38890,
+  "sha256": "bf673f3d10804a951e8bac56dd2473486f113025971d43ebe5258ec40f9bfeb3",
+  "is_zip": true,
+  "entries": [
+    "BTCUSDT-1h-2024-01.csv"
+  ],
+  "first_rows": [
+    "open_time,open,high,low,close,volume,close_time,quote_volume,count,taker_buy_volume,taker_buy_quote_volume,ignore",
+    "1704067200000,42314.00,42603.20,42289.60,42503.50,8459.477,1704070799999,359196345.08716,88278,4687.976,199033806.82405,0",
+    "1704070800000,42503.50,42832.00,42462.00,42647.90,9043.411,1704074399999,385970069.22236,90351,4783.838,204180582.72378,0"
+  ]
+}
