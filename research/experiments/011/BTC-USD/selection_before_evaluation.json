@@ -1,0 +1,101 @@
+{
+  "selected": "cmf_trend__vol15_cap50",
+  "eligible": [
+    {
+      "id": "cmf_trend__vol15_cap50",
+      "score": 1.4756360187728026
+    },
+    {
+      "id": "obv_breakout__vol15_cap50",
+      "score": 1.3112470350053445
+    },
+    {
+      "id": "adx_directional__vol15_cap50",
+      "score": 1.0161771846591097
+    },
+    {
+      "id": "cmf_trend__fixed50",
+      "score": 0.9439839321325699
+    },
+    {
+      "id": "ichimoku_trend__fixed50",
+      "score": 0.9038000984811357
+    },
+    {
+      "id": "ichimoku_trend__vol15_cap50",
+      "score": 0.8970547759374544
+    },
+    {
+      "id": "obv_breakout__fixed50",
+      "score": 0.8893193342932562
+    },
+    {
+      "id": "breakout20__vol15_cap50",
+      "score": 0.8524883456139881
+    },
+    {
+      "id": "weekly_confirmed_breakout20__vol15_cap50",
+      "score": 0.8489111375803916
+    },
+    {
+      "id": "adx_directional__fixed50",
+      "score": 0.6432721481425876
+    },
+    {
+      "id": "aroon_trend__vol15_cap50",
+      "score": 0.6257226843065232
+    },
+    {
+      "id": "weekly_confirmed_breakout20__fixed50",
+      "score": 0.6096819084124335
+    },
+    {
+      "id": "cmo_momentum__vol15_cap50",
+      "score": 0.6044115967057663
+    },
+    {
+      "id": "regression_trend__vol15_cap50",
+      "score": 0.48252900570399193
+    },
+    {
+      "id": "aroon_trend__fixed50",
+      "score": 0.44889920699730124
+    },
+    {
+      "id": "breakout55__vol15_cap50",
+      "score": 0.3806387729893443
+    },
+    {
+      "id": "squeeze_breakout__vol15_cap50",
+      "score": 0.3771402352115957
+    },
+    {
+      "id": "cmo_momentum__fixed50",
+      "score": 0.34260209181207796
+    },
+    {
+      "id": "sma200_band__vol15_cap50",
+      "score": 0.3312225048415066
+    },
+    {
+      "id": "keltner_breakout__vol15_cap50",
+      "score": 0.3097372559110621
+    },
+    {
+      "id": "stochastic_pullback__fixed50",
+      "score": 0.24655202698877962
+    },
+    {
+      "id": "macd_trend__vol15_cap50",
+      "score": 0.1978842511807236
+    },
+    {
+      "id": "keltner_breakout__fixed50",
+      "score": 0.16391325072931598
+    },
+    {
+      "id": "stochastic_pullback__vol15_cap50",
+      "score": 0.14932791186462083
+    }
+  ]
+}

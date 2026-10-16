@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16",
+  "updated_utc": "2026-10-16T16:08:37.124456+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
-  "unique_signal_families": 20,
-  "unique_sizing_variants": 40,
+  "unique_signal_families": 21,
+  "unique_sizing_variants": 42,
   "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
   "completed": [
     {
@@ -53,6 +53,28 @@
       },
       "cross_asset_robust_passes": [],
       "conclusion": "ETH four post-hoc historical passes; train-selected ETH loses; LTC none; both WFA stress negative."
+    },
+    {
+      "id": "011",
+      "status": "COMPLETED",
+      "completed_utc": "2026-10-16T16:08:37.124456+00:00",
+      "report": "docs/WEEKLY_CONFIRMATION_RESULTS.md",
+      "results": "research/experiments/011",
+      "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d",
+      "remote_freeze_commit": "159ba06b11ec3b71ee6b70392fc809c8a14cd014",
+      "new_variants": 2,
+      "all_variants": 42,
+      "assets": [
+        "BTC-USD",
+        "ETH-USD",
+        "LTC-USD"
+      ],
+      "simulations": 3174,
+      "audit_points": 4015638,
+      "new_historical_passes": 0,
+      "new_delay_robust_passes": 0,
+      "cross_asset_robust_passes": [],
+      "conclusion": "Both weekly-confirmation variants fail all-criteria screens on each of BTC/ETH/LTC. Preserve losses; do not tune. Reference winners remain exploratory."
     }
   ],
   "prospective_cohorts": [
@@ -76,28 +98,13 @@
       "runtime_sha256": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
     }
   ],
-  "queue": [
-    {
-      "id": "011",
-      "status": "IMPLEMENTED_FROZEN_PENDING_EVALUATION",
-      "protocol": "docs/NEXT_RESEARCH_BATCH_011.json",
-      "protocol_sha256": "88d5adcdefed94a66e9c8eec8977a8965b3d5815b1cbacff942ba12ada185ea0",
-      "variants": 2,
-      "products": [
-        "BTC-USD",
-        "ETH-USD",
-        "LTC-USD"
-      ]
-    }
-  ],
-  "active_experiment": {
-    "id": "011",
-    "status": "IMPLEMENTED_FROZEN_PENDING_EVALUATION",
-    "freeze": "research/experiments/011/freeze.json",
-    "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d"
-  },
+  "queue": [],
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "570+1226+2020. Excludes earlier experiments001/002 and exposure006; these remain in their original reports. Only40 unique variants; reruns/windows/lag/WFA are not new independent strategies."
+  "count_note": "570+1226+2020+3174=6990 simulation executions, with overlapping references/windows/WFA. Only42 unique strategy-sizing variants; correlated reused history, not6990 independent hypotheses. Older studies001/002/006 remain in their reports.",
+  "cumulative_known_simulations_003_007_009_011": 6990,
+  "next_action": "No queued batch. Follow standing policy: preregister one new causal family before evaluating. Also consult research/realism_backlog.json; optional user venue/capital inputs do not block offline research.",
+  "execution_realism": "research/realism_backlog.json; live depth capture failed due runtime tunnel403 on2026-10-16. No live depth measurements, no paper-rule changes."
 }

@@ -1,0 +1,54 @@
+{
+  "reviewed_utc": "2026-10-16T16:08:45.923751+00:00",
+  "status": "RESEARCH_USEFUL_EXECUTION_REALISM_INCOMPLETE",
+  "implemented_now": [
+    "Completed-week causal signal family with two sizing variants",
+    "Standalone Level2 depth sweep diagnostic",
+    "Base-increment rounding and minimum-market-funds checks",
+    "Refusal of crossed/insufficient/auction/halted books",
+    "Synthetic independent cash-conservation and volume-level oracle"
+  ],
+  "observed_blockers": [
+    {
+      "component": "Public Coinbase product/book collection",
+      "status": "BLOCKED",
+      "evidence": "research/experiments/011/depth_probe_results.json",
+      "cause": "Runtime network tunnel returned403Forbidden for product metadata on all3assets; no book snapshot obtained. No automatic retry or credential request."
+    }
+  ],
+  "remaining": [
+    {
+      "priority": 1,
+      "task": "Identify intended exchange/interface, quote currency, actual fee tier, starting research capital and tolerated drawdown.",
+      "requires_user_inputs": true
+    },
+    {
+      "priority": 2,
+      "task": "Use an authorized execution environment with reliable public API access. Establish source timestamps, spread/depth and latency collection before a new execution contract.",
+      "requires_user_inputs": false
+    },
+    {
+      "priority": 3,
+      "task": "Preregister hourly or finer historical execution timing and intraday drawdown analysis on the intended venue. Daily OHLCV cannot establish spread, queue, partial fills or within-bar sequence.",
+      "requires_user_inputs": false
+    },
+    {
+      "priority": 4,
+      "task": "Create a versioned new paper contract for size/depth/precision/rejections and observed latency. Preserve old seven-candidate contracts and accepted history.",
+      "requires_user_inputs": false
+    },
+    {
+      "priority": 5,
+      "task": "Collect untouched forward observations and compare net profitability after realistic venue/account costs. Multiple comparisons and asset correlation remain explicit.",
+      "requires_user_inputs": false
+    }
+  ],
+  "standing_research": "Continue bounded preregistered research on verified existing inputs while optional account information is absent. No access-control bypass; report runtime blockers. Do not confuse active schedules with successful price collection.",
+  "sources": [
+    "https://help.coinbase.com/en/coinbase/trading-and-funding/advanced-trade/advanced-trade-fees",
+    "https://docs.cdp.coinbase.com/api-reference/exchange-api/rest-api/products/get-product-book",
+    "https://docs.cdp.coinbase.com/api-reference/exchange-api/rest-api/products/get-single-product"
+  ],
+  "orders": 0,
+  "paid_ai": false
+}

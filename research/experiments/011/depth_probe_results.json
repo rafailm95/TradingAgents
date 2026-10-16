@@ -1,0 +1,20 @@
+[
+  {
+    "product": "BTC-USD",
+    "status": "BLOCKED",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "orders": 0
+  },
+  {
+    "product": "ETH-USD",
+    "status": "BLOCKED",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "orders": 0
+  },
+  {
+    "product": "LTC-USD",
+    "status": "BLOCKED",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "orders": 0
+  }
+]

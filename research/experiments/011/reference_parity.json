@@ -1,0 +1,20 @@
+[
+  {
+    "product": "BTC-USD",
+    "identical_reference_metric_rows": 440,
+    "maximum_numeric_difference": 0,
+    "prior_summary_sha256": "31d4c31d6cde6d6fed2b272d494b63f90e7d29473c21cba84a32a7320ed4f966"
+  },
+  {
+    "product": "ETH-USD",
+    "identical_reference_metric_rows": 440,
+    "maximum_numeric_difference": 0,
+    "prior_summary_sha256": "f5683eacc0dba1ccb200fff7d309fb4d952d6eff78cd78136e9ff7cf3fadd989"
+  },
+  {
+    "product": "LTC-USD",
+    "identical_reference_metric_rows": 440,
+    "maximum_numeric_difference": 0,
+    "prior_summary_sha256": "a9a5aa46db0ccbe3f8cf748f2415c670d429fb6f81ed691d2742b1b1457277cb"
+  }
+]
