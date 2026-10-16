@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T16:08:37.124456+00:00",
+  "updated_utc": "2026-10-16T16:40:23.522419+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 21,
@@ -75,6 +75,19 @@
       "new_delay_robust_passes": 0,
       "cross_asset_robust_passes": [],
       "conclusion": "Both weekly-confirmation variants fail all-criteria screens on each of BTC/ETH/LTC. Preserve losses; do not tune. Reference winners remain exploratory."
+    },
+    {
+      "id": "012",
+      "status": "DISCOVERY_COMPLETED_MARKET_ACCESS_BLOCKED",
+      "report": "docs/OPPORTUNITY_DISCOVERY_RESULTS.md",
+      "results": "research/experiments/012",
+      "ranked_asset_candidate_pairs": 126,
+      "new_variants": 0,
+      "new_strategy_simulations": 0,
+      "freeze_commit": "3e2d1c9487295a82d46cb8e92b002de3e8610e0f",
+      "freeze_sha256": "348e44e5cef56ceaa9becb8822fe58b4ada12403d015c9ebd816c040c8aca213",
+      "valid_bybit_depth_snapshots": 0,
+      "conclusion": "Strength-aware post-hoc shortlist on old spot history; no Bybit profitability claim. Global/perpetual preference confirmed. Public runtime access blocked."
     }
   ],
   "prospective_cohorts": [

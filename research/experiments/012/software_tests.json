@@ -1,0 +1,12 @@
+{
+  "targeted_suite": "new depth/discovery/portable collector plus all previous322 targeted tests",
+  "passed": 344,
+  "failed": 0,
+  "note": "Synthetic tests verify software; do not imply live market data or live execution",
+  "portable_stdlib_check": "python -S scripts/collect_bybit_public_v2.py --help passed",
+  "actual_access_status": "BLOCKED_NON_JSON_HTML;0validsnapshots",
+  "known_corrections": [
+    "Initial v1 launch required dotenv via repository initializer;v2 direct pure-module import fixes portable dependency.",
+    "Initial new collector test import path failed during collection; corrected fixture module loading before final run."
+  ]
+}

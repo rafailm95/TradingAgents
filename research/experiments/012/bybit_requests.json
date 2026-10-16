@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://api.bybit.com/v5/market/instruments-info?category=linear&symbol=BTCUSDT",
+    "request_utc": "2026-10-16T16:38:18.065864+00:00",
+    "http_status": 200,
+    "raw_file": "0000_BTCUSDT_instrument.response",
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
+    "received_ms": 1792168705910,
+    "error": "ValueError: Non-JSON response; no market data accepted",
+    "response_utc": "2026-10-16T16:38:25.911056+00:00",
+    "elapsed_seconds": 7.845208627993998
+  }
+]

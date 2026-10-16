@@ -1,0 +1,25 @@
+{
+  "schema": "bybit_public_012_v1",
+  "host": "https://api.bybit.com",
+  "category": "linear",
+  "started_utc": "2026-10-16T16:38:18.065840+00:00",
+  "capital_assumption_usdt": 10000,
+  "rounds_requested": 1,
+  "interval_seconds": 10,
+  "status": "BLOCKED_OR_INVALID_DATA",
+  "snapshots": [],
+  "funding": {},
+  "orders": 0,
+  "private_api_calls": 0,
+  "fee_bps_scenarios": [
+    5.5,
+    10
+  ],
+  "account_fee_verified": false,
+  "limit_note": "Snapshot diagnostics only; no funding-adjusted strategy result, no intrabar/liquidation model.",
+  "error": "ValueError: Non-JSON response; no market data accepted",
+  "completed_utc": "2026-10-16T16:38:25.911266+00:00",
+  "valid_snapshot_count": 0,
+  "unique_book_timestamps": 0,
+  "actual_order_fills": 0
+}

@@ -1,0 +1,8 @@
+{
+  "original_collector": "scripts/collect_bybit_public.py",
+  "original_failure": "stdlib Python import invoked repository __init__.py and required dotenv; no HTTP call was made in that failed launch",
+  "corrected_collector": "scripts/collect_bybit_public_v2.py",
+  "change": "Directly import the pure stdlib depth module, bypassing repository package initializer. No accounting/strategy/data change. Original frozen sources retained.",
+  "sha256": "2c9ac35d92d302fc7febbb6e356625de01860f955d773bc0b537a793567abb9f",
+  "ranking_unchanged": true
+}

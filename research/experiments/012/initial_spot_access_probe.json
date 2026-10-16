@@ -1,0 +1,8 @@
+{
+  "url": "https://api.bybit.com/v5/market/orderbook?category=spot&symbol=BTCUSDT&limit=200",
+  "request_utc": "2026-10-16T16:25:25.342330+00:00",
+  "http_status": 200,
+  "body": "<html>\n    <head><title>Site Unavailable</title></head>\n    <body>\n      <center>\n        <h1>Site Unavailable</h1>\n        <p>Unable to access this site.</p>\n      </center>\n    </body>\n</html>\n",
+  "response_utc": "2026-10-16T16:25:34.598301+00:00",
+  "elapsed_seconds": 9.255979344998195
+}
