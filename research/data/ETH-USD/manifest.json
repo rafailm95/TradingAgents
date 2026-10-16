@@ -1,0 +1,12 @@
+{
+  "product": "ETH-USD",
+  "source": "Coinbase Exchange public GET",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-16",
+  "rows": 2845,
+  "csv_sha256": "1d06c54fbe991f01912059a1353270aa5651126a6bd84a356b8593ac51b9ec09",
+  "request_count": 12,
+  "synthetic": false,
+  "cross_venue_verified": false,
+  "automatic_retry": false
+}

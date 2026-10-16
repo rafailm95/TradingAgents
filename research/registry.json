@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-10-16",
+  "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
+  "research_branch": "codex/research-continuation-20261016",
+  "unique_signal_families": 20,
+  "unique_sizing_variants": 40,
+  "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
+  "completed": [
+    {
+      "id": "003",
+      "status": "COMPLETED",
+      "report": "docs/STRATEGY_LAB_RESULTS.md",
+      "unique_variants": 16,
+      "matrix_runs": 400,
+      "walk_forward_training_runs": 160,
+      "walk_forward_evaluations": 10,
+      "conclusion": "Train-selected BTC breakout20 vol15 fails stress; SMA200 vol15 is post-hoc exploratory."
+    },
+    {
+      "id": "007",
+      "status": "COMPLETED",
+      "report": "docs/STRATEGY_FAMILIES_RESULTS.md",
+      "new_variants": 24,
+      "all_variants": 40,
+      "simulations": 1226,
+      "historical_passes": 5,
+      "delay_robust_passes": 0,
+      "conclusion": "Five passes remain delay-failed exploratory candidates."
+    },
+    {
+      "id": "009",
+      "status": "COMPLETED",
+      "protocol": "docs/CROSS_ASSET_PROTOCOL.json",
+      "protocol_sha256": "a53b6f3aa8305752680d88d55b8fd0475cf476c18e8f7ba002d88fee476501f9",
+      "report": "docs/CROSS_ASSET_RESULTS.md",
+      "results": "research/experiments/009",
+      "assets": [
+        "ETH-USD",
+        "LTC-USD"
+      ],
+      "variants_per_asset": 40,
+      "simulations": 2020,
+      "audit_points": 2554500,
+      "historical_robust_passes": {
+        "ETH-USD": [
+          "aroon_trend__fixed50",
+          "aroon_trend__vol15_cap50",
+          "obv_breakout__fixed50",
+          "obv_breakout__vol15_cap50"
+        ],
+        "LTC-USD": []
+      },
+      "cross_asset_robust_passes": [],
+      "conclusion": "ETH four post-hoc historical passes; train-selected ETH loses; LTC none; both WFA stress negative."
+    }
+  ],
+  "prospective_cohorts": [
+    {
+      "id": "005",
+      "branch": "codex/paper-campaign-20261016",
+      "directory": "campaigns/btc-paper-005",
+      "candidates": 2,
+      "status": "FROZEN_WAITING_FOR_FIRST_ELIGIBLE_CANDLE",
+      "first_recording_not_before_utc": "2026-10-18T00:00:00Z",
+      "runtime_sha256": "22c65210592af6a789cdc21014b045a515fe591d9f85f59a6213df8478b533c7"
+    },
+    {
+      "id": "008",
+      "branch": "codex/expanded-paper-20261016",
+      "directory": "campaigns/btc-expanded-008",
+      "candidates": 5,
+      "status": "FROZEN_WAITING_FOR_FIRST_ELIGIBLE_CANDLE",
+      "selection_class": "POST_HOC_EXPLORATORY_DELAY_FAILED",
+      "first_recording_not_before_utc": "2026-10-18T00:00:00Z",
+      "runtime_sha256": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
+    }
+  ],
+  "queue": [
+    {
+      "id": "011",
+      "status": "PREREGISTERED_NOT_EXECUTED",
+      "protocol": "docs/NEXT_RESEARCH_BATCH_011.json",
+      "protocol_sha256": "88d5adcdefed94a66e9c8eec8977a8965b3d5815b1cbacff942ba12ada185ea0",
+      "variants": 2,
+      "products": [
+        "BTC-USD",
+        "ETH-USD",
+        "LTC-USD"
+      ]
+    }
+  ],
+  "active_experiment": null,
+  "real_orders_authorized": false,
+  "paid_model_calls_authorized": false,
+  "cumulative_known_simulations_003_007_009": 3816,
+  "count_note": "570+1226+2020. Excludes earlier experiments001/002 and exposure006; these remain in their original reports. Only40 unique variants; reruns/windows/lag/WFA are not new independent strategies."
+}

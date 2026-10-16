@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-10-16T15:14:43.873227+00:00",
+  "protocol_sha256": "a53b6f3aa8305752680d88d55b8fd0475cf476c18e8f7ba002d88fee476501f9",
+  "source_hashes": {
+    "scripts/run_cross_asset_lab.py": "dcfb13049e17398b500ce4deb99af7bbef030adc8c4048bea0861a75cb7b0603",
+    "scripts/fetch_research_candles.py": "35a846c1a4fd62fe978d2d6aa5949d7765da813b18e423aca28c71a3ff1c56e5",
+    "tradingagents/strategy_lab.py": "7e259022c0a2c30906d6c2380695e584564237716e6cfb92586c9241ef81452c",
+    "tradingagents/strategy_families.py": "ee4d79dd1153b0d2271a4648c7ac17cf25b6127a8755069edc85bfaccbde325c",
+    "tradingagents/strategy_backtest.py": "d6eafa1fcd8fcbc9eed081bd9dcb2b5089c43cc80ab2ede19594e5dab5f2d955"
+  },
+  "inputs": {
+    "ETH-USD": {
+      "product": "ETH-USD",
+      "source": "Coinbase Exchange public GET",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-16",
+      "rows": 2845,
+      "csv_sha256": "1d06c54fbe991f01912059a1353270aa5651126a6bd84a356b8593ac51b9ec09",
+      "request_count": 12,
+      "synthetic": false,
+      "cross_venue_verified": false,
+      "automatic_retry": false
+    },
+    "LTC-USD": {
+      "product": "LTC-USD",
+      "source": "Coinbase Exchange public GET",
+      "start": "2019-01-01",
+      "end_exclusive": "2026-10-16",
+      "rows": 2845,
+      "csv_sha256": "302e93eeabb7a1486dc606b38dc15ebcf368942b8564f71fcaf4783ce73220f6",
+      "request_count": 12,
+      "synthetic": false,
+      "cross_venue_verified": false,
+      "automatic_retry": false
+    }
+  },
+  "orders": 0
+}

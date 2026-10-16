@@ -213,3 +213,33 @@ def test_bad_market_data_cannot_become_a_dataset(tmp_path,row):
     with pytest.raises(ValueError):
         download('LTC-USD',date(2026,10,14),date(2026,10,15),tmp_path/'data',opener=lambda r,timeout:Response(r.full_url,json.dumps([row]).encode()))
     assert not (tmp_path/'data/manifest.json').exists()
+
+
+def milestone_events(days=181,sells=20,stress_pnl=100):
+    events=[];start=date(2026,10,17)
+    for i in range(days):
+        day=start+timedelta(days=i)
+        books={cost:{'candidate':{'action':'SELL' if i<sells else 'FLAT',
+            'net_pnl_usd':100 if cost=='base' else stress_pnl,'sampled_max_drawdown_fraction':.1}}
+            for cost in ('base','stress')}
+        events.append({'payload':{'as_of_utc_day':day.isoformat(),
+            'valuation_at_utc':(day+timedelta(days=1)).isoformat()+'T06:00:00+00:00','books':books}})
+    return events
+
+
+@pytest.mark.parametrize('case',['short','few_trades','stress_loss','missing_days','pending'])
+def test_forward_milestone_requires_all_evidence_dimensions(case):
+    from scripts.expanded_forward_status import assess
+    events=milestone_events(days=180 if case=='short' else 181,sells=19 if case=='few_trades' else 20,
+        stress_pnl=-1 if case=='stress_loss' else 100)
+    if case=='missing_days':events=events[:30]+events[45:]
+    result=assess({'pending_observations':1 if case=='pending' else 0},events,'2026-10-17')
+    assert result['milestone_candidates']==[]
+
+
+def test_forward_milestone_positive_fixture_is_only_a_monitoring_flag():
+    from scripts.expanded_forward_status import assess
+    result=assess({'pending_observations':0},milestone_events(),'2026-10-17')
+    assert result['milestone_candidates']==['candidate'] and result['orders']==0
+    assert 'No statistical proof' in result['meaning']
+    assert assess({'pending_observations':0},[],'2026-10-17')['milestone_candidates']==[]

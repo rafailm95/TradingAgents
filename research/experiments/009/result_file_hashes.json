@@ -1,0 +1,21 @@
+{
+  "ETH-USD/audits.json": "28a6408cb0312f27b6c30e65bd819360194622303e86b2221741b1a370fa716d",
+  "ETH-USD/delays.json.gz": "69dc27c02d6242b6fbb2f95eb067e9305bd23b9ae193e0e010388e2c45574c78",
+  "ETH-USD/matrix.json.gz": "1beda62b0e2d454f8066e776c34a46076f70c0f73e5c5fd2706190821c7d2b65",
+  "ETH-USD/metrics.csv": "4d81b38cc6de9bf2ace9da5734abe9e34436851a96bb164ebaeb9c9be45534a9",
+  "ETH-USD/selection_before_evaluation.json": "ea90588aae74f4b921ef9c8043731c92aae8d49dfb2c49327cc0ec9cb5da8a8b",
+  "ETH-USD/summary.json": "f5683eacc0dba1ccb200fff7d309fb4d952d6eff78cd78136e9ff7cf3fadd989",
+  "ETH-USD/walk_forward.json.gz": "d747dcf710795765f98a7c635a360b8efb693938ee0901e4e932663e0e38c23f",
+  "ETH-USD/wf_training.json.gz": "ef6f8f5016e0b0541d0e07b8a6e7418d566b32191ba1cb0a8666e0e665aeab87",
+  "LTC-USD/audits.json": "a7252353cf16176baf7ce37f866b80cbebe042424d9bd53eeb584b212fcf7ad3",
+  "LTC-USD/delays.json.gz": "86ccf0e6a738153f894466f92ba701f154f9cff9eff6600e29fef7737aab3d88",
+  "LTC-USD/matrix.json.gz": "ea31f663e700d8c4642c1d926e437cb535bfe96563a436ee1ad69f1a7a5025b8",
+  "LTC-USD/metrics.csv": "053aaeb413a1b31319cad35a7e3023f9e098e6c447cf246446f0d0868804ed1e",
+  "LTC-USD/selection_before_evaluation.json": "b9c27396c65291b17b2f6c7ea552b551ebfb46091ea804d15affa9f29fd99cc5",
+  "LTC-USD/summary.json": "a9a5aa46db0ccbe3f8cf748f2415c670d429fb6f81ed691d2742b1b1457277cb",
+  "LTC-USD/walk_forward.json.gz": "9e6c290f51cab1cd47e5840f7ea7f4f435346292cc2a6470b5431dd92a78e43f",
+  "LTC-USD/wf_training.json.gz": "4f8585cd560fbb5263243278784c1aac54fa7dbc19aa6df92a78f338a9fc02d8",
+  "protocol.json": "a53b6f3aa8305752680d88d55b8fd0475cf476c18e8f7ba002d88fee476501f9",
+  "run_manifest.json": "2b7ac06fba0b0943fb6750cc26449bd470b1d1de4d1a31ec517520d5f760998f",
+  "summary.json": "e836e864ae3c433b26cc5b65a41a6067ed915e04cc36f85b763b5ca095fcdfe3"
+}

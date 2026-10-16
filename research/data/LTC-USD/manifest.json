@@ -1,0 +1,12 @@
+{
+  "product": "LTC-USD",
+  "source": "Coinbase Exchange public GET",
+  "start": "2019-01-01",
+  "end_exclusive": "2026-10-16",
+  "rows": 2845,
+  "csv_sha256": "302e93eeabb7a1486dc606b38dc15ebcf368942b8564f71fcaf4783ce73220f6",
+  "request_count": 12,
+  "synthetic": false,
+  "cross_venue_verified": false,
+  "automatic_retry": false
+}

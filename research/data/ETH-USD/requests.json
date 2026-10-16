@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2019-01-01T00%3A00%3A00Z&end=2019-09-08T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:42.096819+00:00",
+    "received_at_utc": "2026-10-16T15:08:48.347211+00:00",
+    "raw_file": "raw_01.json",
+    "sha256": "1de41afd39dda4563033e61437a70175a38796eabdd202037d505aa02489bd70",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2019-09-08T00%3A00%3A00Z&end=2020-05-15T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:48.347479+00:00",
+    "received_at_utc": "2026-10-16T15:08:55.390897+00:00",
+    "raw_file": "raw_02.json",
+    "sha256": "65bf2cd427c44b63d11e21a702a81529e30a7e9b745bba8d1f547bdf01ec4209",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2020-05-15T00%3A00%3A00Z&end=2021-01-20T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:55.391190+00:00",
+    "received_at_utc": "2026-10-16T15:08:59.415005+00:00",
+    "raw_file": "raw_03.json",
+    "sha256": "bdc14304e846af3fe74f1bd290090ace8262f5a9226417774fdb9051d0089402",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2021-01-20T00%3A00%3A00Z&end=2021-09-27T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:59.415247+00:00",
+    "received_at_utc": "2026-10-16T15:09:03.045094+00:00",
+    "raw_file": "raw_04.json",
+    "sha256": "e962548b018eefd38565290b9ce975583f782160f5bb4558a351abec4dff4c97",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2021-09-27T00%3A00%3A00Z&end=2022-06-04T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:03.045398+00:00",
+    "received_at_utc": "2026-10-16T15:09:07.738757+00:00",
+    "raw_file": "raw_05.json",
+    "sha256": "9e6a146256412e6a964f8c47781406174a9204e2bf4b4bfa6a82e6a7812c7638",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2022-06-04T00%3A00%3A00Z&end=2023-02-09T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:07.739005+00:00",
+    "received_at_utc": "2026-10-16T15:09:14.327899+00:00",
+    "raw_file": "raw_06.json",
+    "sha256": "e608aec2b285a62958cf6dddc0dac048e3e7c651a346e5cefbced26787b8def9",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2023-02-09T00%3A00%3A00Z&end=2023-10-17T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:14.328153+00:00",
+    "received_at_utc": "2026-10-16T15:09:17.089930+00:00",
+    "raw_file": "raw_07.json",
+    "sha256": "009c7f1e5cc70527374c928e57e639c7d84bb0e3bffd49f17893a3841c2046cc",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2023-10-17T00%3A00%3A00Z&end=2024-06-23T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:17.090395+00:00",
+    "received_at_utc": "2026-10-16T15:09:20.739782+00:00",
+    "raw_file": "raw_08.json",
+    "sha256": "074db88d4393d00757b78bd107fad41ef33bedb3c9667f8331153d634605d04c",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2024-06-23T00%3A00%3A00Z&end=2025-02-28T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:20.740042+00:00",
+    "received_at_utc": "2026-10-16T15:09:23.207865+00:00",
+    "raw_file": "raw_09.json",
+    "sha256": "3bdeea4f1bf3aa3dfa163f9f89331f5538b513d6a923ac9515310a9d770328c8",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2025-02-28T00%3A00%3A00Z&end=2025-11-05T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:23.208140+00:00",
+    "received_at_utc": "2026-10-16T15:09:26.814612+00:00",
+    "raw_file": "raw_10.json",
+    "sha256": "c26824990925f1d0ebd531ed77d401a84d25639c24e961ac28f380cd55086880",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2025-11-05T00%3A00%3A00Z&end=2026-07-13T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:26.814903+00:00",
+    "received_at_utc": "2026-10-16T15:09:31.022509+00:00",
+    "raw_file": "raw_11.json",
+    "sha256": "87e1dec2b6e03b3fda21d07dfacd5e9bacd28f8ebff1bafd4004462d547d72f6",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/ETH-USD/candles?granularity=86400&start=2026-07-13T00%3A00%3A00Z&end=2026-10-16T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:31.022867+00:00",
+    "received_at_utc": "2026-10-16T15:09:34.732447+00:00",
+    "raw_file": "raw_12.json",
+    "sha256": "f9be489a4beaf78c298f1a6a36293506adda39fa36aa1c33f3b8540395a784ac",
+    "returned_rows": 96
+  }
+]

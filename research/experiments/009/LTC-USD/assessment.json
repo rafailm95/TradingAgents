@@ -1,0 +1,1838 @@
+{
+  "product": "LTC-USD",
+  "selection": {
+    "selected": "cash",
+    "eligible": []
+  },
+  "assessments": [
+    {
+      "id": "breakout20__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "breakout20__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "breakout55__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "breakout55__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "sma200_band__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": false,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "sma200_band__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "sma50_200__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": false,
+        "validation_base_5trades": false,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": false,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": false,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": false,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "validation_base_5trades",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "validation_stress_5trades",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "sma50_200__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": false,
+        "validation_base_5trades": false,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": false,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "validation_base_5trades",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "validation_stress_5trades",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "momentum90__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "full_stress_positive",
+        "full_stress_drawdown"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive"
+      ]
+    },
+    {
+      "id": "momentum90__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": true,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_drawdown",
+        "full_stress_positive",
+        "full_stress_drawdown"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "rsi2_pullback__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "rsi2_pullback__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "bollinger20__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "bollinger20__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "macd_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": false,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": false,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "macd_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "kama_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": false,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "kama_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "keltner_breakout__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "keltner_breakout__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "adx_directional__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "adx_directional__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "ichimoku_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": false,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": false,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "ichimoku_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "aroon_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": false,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "aroon_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "regression_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": true,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": true,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": true,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive"
+      ],
+      "delay_failed": []
+    },
+    {
+      "id": "regression_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": true,
+        "full_base_drawdown": false,
+        "full_base_20trades": false,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": true,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": false,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": true
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": true,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive"
+      ],
+      "delay_failed": []
+    },
+    {
+      "id": "cmo_momentum__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "cmo_momentum__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "stochastic_pullback__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "stochastic_pullback__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "cci_reversion__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": true,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive"
+      ],
+      "delay_failed": []
+    },
+    {
+      "id": "cci_reversion__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": true,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": []
+    },
+    {
+      "id": "squeeze_breakout__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "squeeze_breakout__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": true,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": true,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag1_stress_positive"
+      ]
+    },
+    {
+      "id": "obv_breakout__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": true,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "obv_breakout__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "cmf_trend__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    },
+    {
+      "id": "cmf_trend__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": false,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": true,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    }
+  ],
+  "multiplicity": [
+    {
+      "benchmark": "cash",
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.2960306414811065,
+      "family_adjusted_p_exploratory": 0.3333333333333333,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "cash",
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.2960306414811065,
+      "family_adjusted_p_exploratory": 0.32533733133433285,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 3.096120464913851,
+      "family_adjusted_p_exploratory": 0.5422288855572214,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 3.096120464913851,
+      "family_adjusted_p_exploratory": 0.5257371314342829,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    }
+  ],
+  "walk_forward_summary": {
+    "base": {
+      "net_return_after_operating_pct": -26.936869176976742,
+      "final_after_operating_usd": 7306.313082302326,
+      "max_close_drawdown_after_operating_pct": 27.737188546971623
+    },
+    "stress": {
+      "net_return_after_operating_pct": -29.059018120732848,
+      "final_after_operating_usd": 7094.098187926716,
+      "max_close_drawdown_after_operating_pct": 29.73535281831343
+    }
+  },
+  "walk_forward_choices": [
+    {
+      "year": 2022,
+      "selected": "ichimoku_trend__vol15_cap50",
+      "base_return": -12.63554716701083,
+      "stress_return": -13.710892489084326
+    },
+    {
+      "year": 2023,
+      "selected": "breakout20__vol15_cap50",
+      "base_return": -12.53768290451045,
+      "stress_return": -13.907064327470685
+    },
+    {
+      "year": 2024,
+      "selected": "cash",
+      "base_return": -1.573679788012461,
+      "stress_return": -1.6186338287177526
+    },
+    {
+      "year": 2025,
+      "selected": "cash",
+      "base_return": -1.5944720000508283,
+      "stress_return": -1.6407693801564371
+    },
+    {
+      "year": 2026,
+      "selected": "cash",
+      "base_return": -1.2784890847669983,
+      "stress_return": -1.3162307814563956
+    }
+  ],
+  "matrix_runs": 440,
+  "delay_runs": 160,
+  "wf_training_runs": 400,
+  "wf_fold_runs": 10,
+  "audit_cases": 1010,
+  "audit_days": 1277250,
+  "max_audit_error_usd": 1.8917489796876907e-10
+}

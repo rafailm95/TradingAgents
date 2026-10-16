@@ -1,0 +1,20 @@
+{
+  "experiment": "cross_asset_validation_009_v1",
+  "frozen_on": "2026-10-16",
+  "products": ["ETH-USD", "LTC-USD"],
+  "data_start": "2019-01-01", "data_end": "2026-10-15",
+  "data_policy": "Freeze before downloading these assets. Preserve exact public responses, contiguous daily UTC OHLCV, hashes and rejected downloads. Same historical dates as BTC and correlated crypto markets; exploratory transfer test, not independent future evidence or a search restricted to winners.",
+  "candidate_policy": "All40 previously frozen candidates from experiments003 and007, unchanged. No new parameter search. Source/protocol hashes recorded before run. Reuse the original cash-conserving engine with asset_quantity labels for non-BTC data.",
+  "windows": [{"name":"train","start":"2020-01-01","end":"2023-12-31"},{"name":"validation","start":"2024-01-01","end":"2025-12-31"},{"name":"recent","start":"2026-01-01","end":"2026-10-15"},{"name":"evaluation","start":"2024-01-01","end":"2026-10-15"},{"name":"full","start":"2020-01-01","end":"2026-10-15"}],
+  "costs": [{"name":"base","fee":60,"slippage":10},{"name":"stress","fee":120,"slippage":25}],
+  "initial_usd": 10000, "operating_usd_per_year":120,
+  "benchmarks":["cash","buy_hold50","buy_hold100","original_trend100"],
+  "execution":"Close[t] condition fills nextopen[t+1]. One long position, no leverage, same entry-only sizing and terminal liquidation as original studies. Hypothetical fees/slippage per side, annual expense externally deducted at window end; cash/buyhold benchmark expense0, original_trend expense120. No liquidity/order-book or partial fills. Close drawdown before external expense.",
+  "selection":"Perasset, train-only all40. Require positive after expense, closeDD<=35%, >=10 closedtrades underbothcosts. Rank stress annualizedafterexpense/max(stressDD,1), lexicalties. Persist before later windows. No switching to an evaluation winner.",
+  "screen":"Perasset eachcandidate must be positive afterexpense in full,validation,recent underbothcosts; fullDD<=35 and>=20closedtrades; validation>=5. Additional delay robustness requires positive evaluationafterexpense andDD<=35 for extrasignal lag1 and2 underbothcosts. Cross-asset robust pass requires every criterion on BOTHassets. Does not automatically imply BTC robustness or forward adoption.",
+  "delays":"All40 candidates, evaluation window, bothcosts, extra signal-feed lag1 and2. Shift entry/exit/volatility together, preserve holding-period clock from actualentry and fixedterminaldate. Not queued orders or a realistic outage model.",
+  "walk_forward":"Eachasset separately, all40 selector, expandingtrain2020..priorDec31, years2022..2026 with2026throughOct15. Flat annually, carry endbalanceafterannualoperatingexpense. Record400trainingruns+10foldrunsperasset. Cashfallback still pays120/year researchexpense.",
+  "multiplicity":"On eachasset evaluationbase, common-date centered circular-block maxmean bootstrap across40, blocks30,60,2000resamples seed20261016 versuscash andbuy_hold50. Report bothassets without cherry-picking. Conditional diagnostic, not correction for allasset/hypothesis choices or full PBO; excludesoperatingexpense.",
+  "stop":"Complete this frozen matrix once. Preserve failures. No tuning until a profitable number appears. Code-defect corrections require a labeled rerun register. Ongoing research is separately authorized by RESEARCH_CONTINUATION_POLICY.json.",
+  "orders":0,"paid_ai":false
+}

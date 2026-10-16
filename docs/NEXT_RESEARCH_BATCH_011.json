@@ -1,0 +1,17 @@
+{
+  "experiment":"weekly_confirmation_011_v1",
+  "status":"PREREGISTERED_NOT_EXECUTED",
+  "family":"weekly_confirmed_breakout20",
+  "rationale":"Test multi-timeframe confirmation, a mechanism not present in the previous daily-only signal universe. This remains a trend/breakout variant, not an independent source of returns.",
+  "products":["BTC-USD","ETH-USD","LTC-USD"],
+  "data_start":"2019-01-01","data_end":"2026-10-15",
+  "sizing":["fixed50","vol15_cap50"],
+  "weekly_definition":"UTC calendar weeks ending Sunday. At daily close t, use only the latest completed Sunday close at or before t. Weekly mean is the arithmetic mean of the latest40 completed Sunday closes. No incomplete weekly bar, backward fill, centered rolling or negative shift.",
+  "entry":"Daily close>maximum high over prior20 daily candles excluding current AND latest completed weekly close>its40week SMA.",
+  "exit":"Daily close<minimum low over prior10 daily candles excluding current OR latest completed weekly close<its40week SMA. Suppress entry where exit true. No maximum holding limit.",
+  "execution":"Same cash-conserving next-open research engine, entry-only sizing, terminal liquidation and cost/expense assumptions as experiments003/007/009. No leverage or shorts. Prefix-invariance must include perturbing prices within an incomplete future week.",
+  "evaluation":"Same train2020-2023,validation2024-2025,recent2026throughOct15,evaluation2024throughOct15andfull2020throughOct15. Base/stress and extra1/2day signal-feed lags. Expanding2022..2026 yearly selection; cash fallback if no train-eligible variant. Historical screen full/validation/recent positive bothcosts, fullDD<=35%,fulltrades>=20,validationtrades>=5; every delay positive andDD<=35. Report eachasset and failures separately.",
+  "comparison":"Compare both new variants with the existing40 using the same windows and costs. Retain all42 candidates in multiplicity diagnostics where aligned curves are available; explicitly state reused history and correlated asset tests. Do not select solely by the highest evaluation return.",
+  "stop":"Exactly these2variants in this batch. No parameter adjustment after results. A code defect can justify a labeled correction, retaining the first attempt. No automatic adoption into the frozen two/five paper cohorts.",
+  "orders":0,"paid_ai":false
+}

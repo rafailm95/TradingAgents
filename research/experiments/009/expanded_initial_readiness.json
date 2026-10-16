@@ -1,0 +1,23 @@
+{
+  "status": "WAITING_FOR_NEW_CANDLES",
+  "outcome": {
+    "status": "WAITING_FOR_NEW_CANDLES",
+    "observation": {
+      "status": "WAITING_FOR_NEW_CANDLES",
+      "observed_at_utc": "2026-10-16T15:15:35.846177+00:00",
+      "first_observation_day": "2026-10-17",
+      "earliest_recording_utc": "2026-10-18T00:00:00+00:00",
+      "record_created": false,
+      "candidate_count": 5,
+      "orders": 0
+    },
+    "paper_record_created": false,
+    "quote_requests": 0,
+    "orders": 0
+  },
+  "error": null,
+  "generation": 0,
+  "publish_files": [],
+  "remote_commit_required": false,
+  "orders": 0
+}

@@ -1,0 +1,85 @@
+{
+  "selected": "breakout20__fixed50",
+  "eligible": [
+    {
+      "id": "breakout20__fixed50",
+      "score": 1.590036302816656
+    },
+    {
+      "id": "obv_breakout__fixed50",
+      "score": 1.5776352915913638
+    },
+    {
+      "id": "aroon_trend__fixed50",
+      "score": 1.3378328623136433
+    },
+    {
+      "id": "breakout20__vol15_cap50",
+      "score": 1.2462111860887617
+    },
+    {
+      "id": "ichimoku_trend__vol15_cap50",
+      "score": 1.163516973180238
+    },
+    {
+      "id": "aroon_trend__vol15_cap50",
+      "score": 1.1219611327488193
+    },
+    {
+      "id": "ichimoku_trend__fixed50",
+      "score": 1.0768990358410344
+    },
+    {
+      "id": "obv_breakout__vol15_cap50",
+      "score": 0.9539956236400823
+    },
+    {
+      "id": "cmo_momentum__fixed50",
+      "score": 0.767009508242661
+    },
+    {
+      "id": "cmo_momentum__vol15_cap50",
+      "score": 0.6951072720010222
+    },
+    {
+      "id": "adx_directional__vol15_cap50",
+      "score": 0.6289499324765293
+    },
+    {
+      "id": "keltner_breakout__fixed50",
+      "score": 0.4966297058948618
+    },
+    {
+      "id": "adx_directional__fixed50",
+      "score": 0.4928240345711243
+    },
+    {
+      "id": "keltner_breakout__vol15_cap50",
+      "score": 0.46532744989808533
+    },
+    {
+      "id": "cmf_trend__vol15_cap50",
+      "score": 0.4429678063766105
+    },
+    {
+      "id": "macd_trend__vol15_cap50",
+      "score": 0.34136488149849514
+    },
+    {
+      "id": "squeeze_breakout__fixed50",
+      "score": 0.31693027676079133
+    },
+    {
+      "id": "squeeze_breakout__vol15_cap50",
+      "score": 0.20422582193867342
+    },
+    {
+      "id": "macd_trend__fixed50",
+      "score": 0.1863964088178803
+    },
+    {
+      "id": "bollinger20__fixed50",
+      "score": 0.13790321451335258
+    }
+  ]
+}

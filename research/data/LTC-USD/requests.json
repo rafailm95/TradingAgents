@@ -1,0 +1,98 @@
+[
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2019-01-01T00%3A00%3A00Z&end=2019-09-08T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:43.448776+00:00",
+    "received_at_utc": "2026-10-16T15:08:48.385719+00:00",
+    "raw_file": "raw_01.json",
+    "sha256": "057c83a1c780fab14ec0c8958a8db764c8635aca892dd661287c3fb8c80cf23a",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2019-09-08T00%3A00%3A00Z&end=2020-05-15T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:48.385959+00:00",
+    "received_at_utc": "2026-10-16T15:08:52.187043+00:00",
+    "raw_file": "raw_02.json",
+    "sha256": "4a6b81c49a7ae1d32890ec9afd55a144fd2ba00416c9cab629e76078f37f1b19",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2020-05-15T00%3A00%3A00Z&end=2021-01-20T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:52.187335+00:00",
+    "received_at_utc": "2026-10-16T15:08:55.328591+00:00",
+    "raw_file": "raw_03.json",
+    "sha256": "53afea1bb200a3bfb64afe806cfe6539ac43eba5f3953ae185995b98369a73f1",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2021-01-20T00%3A00%3A00Z&end=2021-09-27T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:08:55.328881+00:00",
+    "received_at_utc": "2026-10-16T15:09:01.667173+00:00",
+    "raw_file": "raw_04.json",
+    "sha256": "de18c20ad21d42cfeadbed3d3dd94c1665ab1d54d40e2c1c1dc9abad36b10990",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2021-09-27T00%3A00%3A00Z&end=2022-06-04T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:01.667456+00:00",
+    "received_at_utc": "2026-10-16T15:09:08.000066+00:00",
+    "raw_file": "raw_05.json",
+    "sha256": "22bcb4c6cc04020d31979b66479ca23ed61b103e86c33ef100323e0596f7aab4",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2022-06-04T00%3A00%3A00Z&end=2023-02-09T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:08.000368+00:00",
+    "received_at_utc": "2026-10-16T15:09:11.393491+00:00",
+    "raw_file": "raw_06.json",
+    "sha256": "5142127851fdb80505e0e3ba5aa6a1f50edb1b0a5df3779a66f7643a18178814",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2023-02-09T00%3A00%3A00Z&end=2023-10-17T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:11.393991+00:00",
+    "received_at_utc": "2026-10-16T15:09:13.976658+00:00",
+    "raw_file": "raw_07.json",
+    "sha256": "29818ec3e23fc146ea425ccc4c4715aa5eb24c5fe58f6aa3a9a33aa042120651",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2023-10-17T00%3A00%3A00Z&end=2024-06-23T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:13.976925+00:00",
+    "received_at_utc": "2026-10-16T15:09:20.366552+00:00",
+    "raw_file": "raw_08.json",
+    "sha256": "15dd8eb462bf97414e34eb48a16ffa6ee76aea388405cd57c1d6a0a4d924c8c1",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2024-06-23T00%3A00%3A00Z&end=2025-02-28T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:20.366850+00:00",
+    "received_at_utc": "2026-10-16T15:09:26.676414+00:00",
+    "raw_file": "raw_09.json",
+    "sha256": "69e0b63b998f2c8d97cb6f3fae0f5f3d2046360802469e75fed0cf4ee6fbee30",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2025-02-28T00%3A00%3A00Z&end=2025-11-05T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:26.676694+00:00",
+    "received_at_utc": "2026-10-16T15:09:33.475197+00:00",
+    "raw_file": "raw_10.json",
+    "sha256": "9b31d2cdabd4f1649dfd7e3473efa5abc29117e74b9ef4d517605db910d1dadd",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2025-11-05T00%3A00%3A00Z&end=2026-07-13T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:33.475475+00:00",
+    "received_at_utc": "2026-10-16T15:09:39.800300+00:00",
+    "raw_file": "raw_11.json",
+    "sha256": "e10d2865fe74eca776578e5a184cc6eeb707cf18869b43728e5be884b9be9014",
+    "returned_rows": 251
+  },
+  {
+    "url": "https://api.exchange.coinbase.com/products/LTC-USD/candles?granularity=86400&start=2026-07-13T00%3A00%3A00Z&end=2026-10-16T00%3A00%3A00Z",
+    "requested_at_utc": "2026-10-16T15:09:39.800578+00:00",
+    "received_at_utc": "2026-10-16T15:09:46.295405+00:00",
+    "raw_file": "raw_12.json",
+    "sha256": "1512a42959e20ccd89f64840b982f4328f94023ae5bc9bcbe37fb6ac607951d9",
+    "returned_rows": 96
+  }
+]
