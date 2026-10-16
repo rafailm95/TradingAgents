@@ -1,0 +1,16 @@
+{
+  "repository": "rafailm95/TradingAgents",
+  "branch": "codex/research-continuation-20261016",
+  "source_commit": "798023fc7bb7aef97997272ad03080ebe8d5951f",
+  "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+  "purpose": "Versioned source-code export; public historical data collector, no trading.",
+  "file_name": "Bybit_History_Collector.zip",
+  "size_bytes": 23355,
+  "sha256": "9662cf97203c705eaf2170b580e32f3d7a37d1ea1ec0709bccb6095a534980fd",
+  "portable_checks": {
+    "zip_crc": "PASS",
+    "manifest_hashes": "PASS",
+    "isolated_python_no_site_packages": "PASS",
+    "windows_launcher": "CRLF command file inspected; actual Windows launch not run in Linux runtime"
+  }
+}
