@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "watchlist_id": "btc_two_candidate_forward_004_v1",
+  "symbol": "BTC-USD",
+  "research_parent": "btc_strategy_lab_003",
+  "research_protocol_sha256": "848a6696b9899a9d7817f1997001bf7a5996688b77b2d54c699b20c08127ed97",
+  "known_history_through": "2026-10-15",
+  "freeze_date_utc": "2026-10-16",
+  "first_observation_day": "2026-10-17",
+  "earliest_recording_utc": "2026-10-18T00:00:00+00:00",
+  "observation_rule": "Only yesterday's completed UTC candle; no operator date override and no historical backfill. A missing day stays missing. Actual observation time is retained, not assumed to be the next open.",
+  "required_snapshot_rows": 200,
+  "implementation_sha256": {
+    "tradingagents/strategy_lab.py": "7e259022c0a2c30906d6c2380695e584564237716e6cfb92586c9241ef81452c",
+    "tradingagents/strategy_backtest.py": "d6eafa1fcd8fcbc9eed081bd9dcb2b5089c43cc80ab2ede19594e5dab5f2d955"
+  },
+  "candidates": [
+    {
+      "id": "breakout20__vol15_cap50",
+      "family": "breakout20",
+      "sizing": "vol15_cap50",
+      "selection_class": "TRAIN_ONLY_SELECTED_ON_REUSED_HISTORY",
+      "selection_cutoff": "2023-12-31",
+      "selection_note": "Selected by the predeclared training screen before this campaign's evaluation. The broader dataset had already been inspected in prior studies."
+    },
+    {
+      "id": "sma200_band__vol15_cap50",
+      "family": "sma200_band",
+      "sizing": "vol15_cap50",
+      "selection_class": "POST_HOC_EXPLORATORY",
+      "selection_cutoff": "2026-10-15",
+      "selection_note": "Identified after comparing all 16 candidates on reused historical data; not a blind holdout winner."
+    }
+  ],
+  "entry_sizing": "min(0.5,0.15/vol60), where vol60 is sample standard deviation of 60 completed daily simple returns times sqrt(365.25). Zero volatility uses 50%. Entry-only sizing, no promised volatility cap.",
+  "meaning": "Signal conditions and hypothetical entry fraction only. No portfolio, fills, broker orders, paper P&L, scheduler or live-profit claim.",
+  "data_authentication": "Caller-supplied OHLCV CSV. Structural integrity and stored bytes are checked; exchange origin is not authenticated by this journal.",
+  "integrity_limit": "Local hashes and replay detect inconsistency, not coordinated rewriting by a privileged attacker. No external timestamp or signature.",
+  "orders": 0,
+  "paid_ai": false
+}

@@ -1,0 +1,3 @@
+# Preserve exact evidence and checkpoint bytes across Windows/Linux checkouts.
+* -text
+state/** -text

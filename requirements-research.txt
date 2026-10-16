@@ -1,0 +1,6 @@
+# Minimal isolated environment used by the deterministic research and journal.
+# No LLM provider dependencies or paid API configuration required.
+numpy==2.3.5
+pandas==2.2.3
+python-dotenv==1.2.4
+pytest==9.1.1

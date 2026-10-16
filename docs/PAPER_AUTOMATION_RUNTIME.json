@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "campaign_id": "btc_paper_scheduled_006_v1",
+  "source_files": {
+    "docs/PAPER_PORTFOLIO_PROTOCOL.json": "776cb747320743eb20ef42e5900861388c5fe5d04d7ffc16e12ec7adba8b4cbc",
+    "docs/STRATEGY_LAB_PROTOCOL.json": "848a6696b9899a9d7817f1997001bf7a5996688b77b2d54c699b20c08127ed97",
+    "docs/TWO_CANDIDATE_WATCHLIST.json": "1456c36808fbd8733f3f29029eb15307eb46a09ef51572d72f143974754b39b0",
+    "requirements-research.txt": "62efd41f8e7724a47d1a851723ca0204cc64c3bd50b16c0a36bfa104e0806759",
+    "scripts/fetch_trend_candles.py": "c4ccce9c9b0cfae07a5a1b5deb49ded8b180650292e68e95e834f664a384c8af",
+    "scripts/observe_candidates.py": "5462d18b171a00f54902639c56a65a64e4953420a19323cd33ec20d9fa41dd55",
+    "scripts/observe_paper_portfolios.py": "16aebe782fb7e910b1d5c89ca03aa056f5204cd0814f4001e46f60e205ffe5e0",
+    "scripts/run_paper_campaign.py": "04bd8df941b57455c2bd422db478c4d18d84286d8196bff175df573a6a017bab",
+    "tradingagents/__init__.py": "3f0d6849a19802b42d542c25d5577bde8cc2b9129f5a9c56056f18711700f715",
+    "tradingagents/candidate_journal.py": "58387fb91d5a6971935d3d26017e8b2f4f8ab496900f73d8839e4d6ad5302cce",
+    "tradingagents/paper_campaign.py": "85ad105b9ab682666c36e825894d8389e9211a0d4772ff0ab8e770c904ac975b",
+    "tradingagents/paper_portfolio.py": "f4cf7eccea8e609aa808ca42773bbb5bb0a42a629d283c852ba356cc1d0c4255",
+    "tradingagents/strategy_backtest.py": "d6eafa1fcd8fcbc9eed081bd9dcb2b5089c43cc80ab2ede19594e5dab5f2d955",
+    "tradingagents/strategy_lab.py": "7e259022c0a2c30906d6c2380695e584564237716e6cfb92586c9241ef81452c"
+  }
+}
