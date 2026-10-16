@@ -1,0 +1,42 @@
+{
+  "experiment": "btc_daily_trend_001",
+  "frozen_before_result_inspection": true,
+  "symbol": "BTC-USD",
+  "source": "Coinbase Exchange public daily candles",
+  "data_start": "2019-01-01",
+  "data_end_exclusive": "2026-10-16",
+  "rules": {
+    "entry": "At daily close: close > SMA200 including current close AND close > maximum High of the previous 20 completed days, excluding current day.",
+    "exit": "At daily close: close < SMA200 OR close < minimum Low of previous 10 completed days, excluding current day.",
+    "execution": "Signals from day t execute at day t+1 open, adjusted adversely for slippage plus fee on each fill.",
+    "position": "Long or cash, one position, no leverage, no shorting. Entire simulated balance per entry for an explicit comparable research baseline, not a real-money sizing recommendation.",
+    "terminal": "Liquidate any remaining position at final daily close, with both slippage and fee. Tag forced terminal exits separately.",
+    "initial_balance_usd": 10000,
+    "benchmark": "Buy and hold from first evaluated open to last close, same fees and slippage. Cash benchmark has zero interest."
+  },
+  "cost_scenarios_bps_per_side": [
+    {"name": "frictionless", "fee": 0, "slippage": 0},
+    {"name": "low_cost", "fee": 10, "slippage": 5},
+    {"name": "base_assumption", "fee": 60, "slippage": 10},
+    {"name": "stress", "fee": 120, "slippage": 25}
+  ],
+  "cost_note": "Assumed sensitivity scenarios, not verified user fee tiers. Slippage includes a simple adverse execution allowance; no order-book simulation. Operating cost shown separately at USD120/year, before tax.",
+  "windows": [
+    {"name": "full", "start": "2020-01-01", "end": "2026-10-15"},
+    {"name": "early", "start": "2020-01-01", "end": "2023-12-31"},
+    {"name": "validation", "start": "2024-01-01", "end": "2025-12-31"},
+    {"name": "recent", "start": "2026-01-01", "end": "2026-10-15"}
+  ],
+  "window_note": "Each window resets to cash; warmup uses only preceding dates. Chronological evaluation, not a statistically blind holdout. 2026 snapshots were already inspected in the earlier pilot. No parameter sweep or after-result tuning is authorized by this protocol.",
+  "screen": {
+    "full_base_net_profit_positive": true,
+    "validation_base_net_profit_positive": true,
+    "validation_stress_net_profit_positive": true,
+    "full_base_close_to_close_max_drawdown_at_most_pct": 35,
+    "full_base_drawdown_less_than_buy_hold": true,
+    "minimum_full_closed_trades": 20,
+    "minimum_validation_closed_trades": 5,
+    "meaning": "Provisional engineering screen for whether further paper observation is worth considering; not a significance test, guarantee or capital authorization."
+  },
+  "limits": ["No LLM calls", "No broker or exchange credentials", "No orders", "No paid services", "No annualization of a promised profit", "No automatic live activation"]
+}
