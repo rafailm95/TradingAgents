@@ -1,0 +1,42 @@
+{
+  "id": "opportunity_discovery_012_v1",
+  "classification": "POST_HOC_DISCOVERY_ON_REUSED_COINBASE_SPOT_HISTORY",
+  "intent": "Identify relative strengths among every existing strategy, alongside unchanged rejection criteria; do not optimize parameters or claim Bybit perpetual profitability.",
+  "candidates_per_asset": 42,
+  "assets": [
+    "BTC-USD",
+    "ETH-USD",
+    "LTC-USD"
+  ],
+  "input_experiment": "011",
+  "evaluation_window": [
+    "2024-01-01",
+    "2026-10-15"
+  ],
+  "capital": 10000,
+  "currency": "USD",
+  "dimensions": [
+    "maximize worst return after operating expenses over base/stress and 0/1/2 extra signal days",
+    "minimize worst daily close drawdown after accrued operating expenses over those six scenarios"
+  ],
+  "method": "Within each asset, repeatedly remove nondominated Pareto fronts. Display unchanged robust-pass flag independently. For review prioritize robust passes, then Pareto tier, then worst return / max(worst drawdown,1), then candidate ID. No weighted score tuned to outcomes. Keep all126 rows including negative results. Retain original train-only ranking separately.",
+  "drawdown_amount": "For each scenario accrue its original total operating cost equally over its daily curve; calculate each peak-to-trough cash decline and percentage using that peak. Report cash amount at the maximum-percentage drawdown AND independent maximum cash drawdown, never percent times initial capital mislabeled as realized drawdown.",
+  "yearly_stability": "Report mark-to-market changes in the net accrued-cost curve by calendar year, including partial2026; descriptive, no independence assumption.",
+  "new_strategy_simulations": 0,
+  "promotion": "Research shortlist only. Future Bybit USDT perpetual replay needs authentic venue prices, funding events, mark prices, contract filters and recorded depth. At most three distinct families shortlisted per asset; no automatic live or frozen-paper migration.",
+  "new_venue": {
+    "venue": "Bybit",
+    "market_type": "Futures/Perpetuals confirmed by user",
+    "research_contract_assumption": "linear USDT perpetual; coin-margined not yet confirmed",
+    "hypothetical_capital_usdt": 10000,
+    "order_notional_scenarios_usdt": [
+      1000,
+      5000
+    ],
+    "leverage_assumption": 1,
+    "account_domain": "Bybit Global confirmed by user screenshot: Site: Bybit Global",
+    "private_api_required_for_public_data": false,
+    "user_risk_limit": "not supplied"
+  },
+  "success_for_this_batch": "Reproducible full opportunity ranking; tested public-data collector and honest access status. No invented depth or passing criterion solely to produce profit."
+}

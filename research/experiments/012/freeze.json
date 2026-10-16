@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-16T16:37:10.093181+00:00",
+  "sources": {
+    "docs/OPPORTUNITY_DISCOVERY_012.json": "1d99609365a33930c2bd1847ab602c03d255a0b6f02ab83a66b8b3fc49e4564d",
+    "scripts/rank_opportunities.py": "e970982e8852e5f592f89efbbf36ee9cbabbaa73660d3a77951c80155f732899",
+    "scripts/collect_bybit_public.py": "eb740c767bef0e71facc29ba6f2f0a26ecddf9904bfd96a730404639118ae4e7",
+    "tradingagents/opportunity_discovery.py": "91a79b7d534b8d0b1e07ef3e6521735a0ba274ee7d0198a70f73cb5ca01e92ba",
+    "tradingagents/bybit_depth.py": "f3b4f2e90a71f38651ae5b8386c17e6bbe369914c4f069e0b38bb78f886a0f41",
+    "tests/test_bybit_discovery.py": "434babdfe4a48bf3cf344bb2336ec88f72ef5eea30798780f2fb57c2ca9bdea2",
+    "research/experiments/011/full_result_hashes.json": "defe3fd3465b7afd80eea3eca8bb748d4e9e5fc7f9c5f23c42c5c7c415f8e17c",
+    "research/experiments/011/BTC-USD/assessment.json": "7256d9f98184dd556ba8b8b28da809332b97708283ae3fabd7b33f8a0dbf6072",
+    "research/experiments/011/ETH-USD/assessment.json": "df4b5f595871fe221082c3b4ba9f6c07150b19f392a13377141d637b1e9c2737",
+    "research/experiments/011/LTC-USD/assessment.json": "8a136a5dfaaf9c7a641ae9755b05b35b7a1b89c49368d4670c55b077ed396fa8"
+  },
+  "tests_before_ranking": "19 passed",
+  "classification": "post-hoc discovery; previous history already seen"
+}
