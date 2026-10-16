@@ -30,7 +30,7 @@ def integer(value):
     if not re.fullmatch(r'[0-9]+',str(value)):raise ValueError('Invalid unsigned integer')
     return int(value)
 
-def parse_bars(rows,*,kind,start,end):
+def parse_bars(rows,*,kind,start,end,allow_gaps=False):
     out=[]
     if kind not in ('klines','markPriceKlines'):raise ValueError('Unknown candle type')
     for row in rows:
@@ -41,8 +41,28 @@ def parse_bars(rows,*,kind,start,end):
         if not l<=min(o,c)<=max(o,c)<=h:raise ValueError('Invalid OHLC')
         if any(inherited.decimal(row[i])<0 for i in (5,7,9,10)) or integer(row[8])<0:raise ValueError('Invalid volume/count')
         out.append([str(ts),*row[1:5],row[5],row[7]])
-    if [int(r[0]) for r in out]!=list(range(start,end,HOUR)):raise ValueError('Missing/duplicate/out-of-window hourly candles')
+    actual=[int(r[0]) for r in out]; expected=list(range(start,end,HOUR))
+    if actual!=sorted(set(actual)) or not set(actual)<=set(expected) or (not allow_gaps and actual!=expected):raise ValueError('Missing/duplicate/out-of-window hourly candles')
     return out
+
+def recover_bars(monthly, supplements, *, kind, start, end):
+    """Fill only absent timestamps using authenticated official daily rows.
+    Exact decimal equality required at every overlap. Never interpolate or
+    overwrite a conflicting observed bar. Final grid must still be complete.
+    """
+    base=parse_bars(monthly,kind=kind,start=start,end=end,allow_gaps=True)
+    merged={int(r[0]):r for r in base};added=overlap=0
+    for day,rows in supplements:
+        parsed=parse_bars(rows,kind=kind,start=day,end=day+DAY)
+        if not start<=day<end:raise ValueError('Supplement outside month')
+        for row in parsed:
+            ts=int(row[0])
+            if ts in merged:
+                if [D(x) for x in row[1:]]!=[D(x) for x in merged[ts][1:]]:raise ValueError('Conflicting official daily/monthly observation')
+                overlap+=1
+            else:merged[ts]=row;added+=1
+    if sorted(merged)!=list(range(start,end,HOUR)):raise ValueError('Still missing hours after official daily recovery')
+    return [merged[t] for t in sorted(merged)],{'added_hours':added,'matched_overlap_hours':overlap}
 
 def parse_funding(rows,*,start,end):
     """Normalize only documented bounded clock jitter, preserving exact raw time.
@@ -76,6 +96,18 @@ def audit_raw(root,expected_manifest_sha):
     files=manifest['files'];keys=[(r['symbol'],r['kind'],r['period']) for r in files]
     if set(keys)!=expected or len(keys)!=len(expected):raise ValueError('Incomplete/duplicate archive inventory for the declared assets')
     data={p:{'trade':[],'mark':[],'funding':[]} for p in symbols};max_offset=0
+    repairs={}; repair_records=[]; added_hours=overlap_hours=0
+    for item in manifest.get('supplemental_daily',[]):
+        if item['symbol'] not in symbols or item['kind']!='markPriceKlines' or not re.fullmatch(r'202[2-5]-[0-9]{2}-[0-9]{2}',item['day']):raise ValueError('Unregistered daily recovery')
+        name=f"{item['symbol']}-1h-{item['day']}.zip";rel='daily-repairs/'+name
+        url=f"https://data.binance.vision/data/futures/um/daily/markPriceKlines/{item['symbol']}/1h/{name}"
+        if item['relative']!=rel or item['url']!=url or item['status']!='VERIFIED':raise ValueError('Invalid recovery provenance')
+        path=root/rel;check=Path(str(path)+'.CHECKSUM')
+        if sha(path)!=item['sha256'] or sha(check)!=item['checksum_sha256'] or check.read_text().split()!=[item['sha256'],name]:raise ValueError('Daily recovery hash mismatch')
+        day=utc_ms(item['day']+'T00:00:00Z');key=(item['symbol'],item['kind'],item['day'][:7])
+        if any(d==day for d,_ in repairs.get(key,[])):raise ValueError('Duplicate recovery day')
+        repairs.setdefault(key,[]).append((day,csv_rows(path.read_bytes(),name[:-4]+'.csv')))
+        repair_records.append(item)
     for item in sorted(files,key=lambda r:r['relative']):
         p,k,period=item['symbol'],item['kind'],item['period']
         name=f'{p}-fundingRate-{period}.zip' if k=='fundingRate' else f'{p}-1h-{period}.zip'
@@ -89,11 +121,16 @@ def audit_raw(root,expected_manifest_sha):
         if k=='fundingRate':
             parsed=parse_funding(rows,start=a,end=b);data[p]['funding'].extend(parsed)
             max_offset=max(max_offset,max(x['source_timestamp_ms']-x['timestamp_ms'] for x in parsed))
-        else:data[p]['trade' if k=='klines' else 'mark'].extend(parse_bars(rows,kind=k,start=a,end=b))
+        else:
+            if (p,k,period) in repairs:
+                bars,diagnostic=recover_bars(rows,repairs[(p,k,period)],kind=k,start=a,end=b)
+                added_hours+=diagnostic['added_hours'];overlap_hours+=diagnostic['matched_overlap_hours']
+            else:bars=parse_bars(rows,kind=k,start=a,end=b)
+            data[p]['trade' if k=='klines' else 'mark'].extend(bars)
     for p,d in data.items():
         for k in ('trade','mark'):d[k].sort(key=lambda x:int(x[0]));assert [int(x[0]) for x in d[k]]==list(range(START,END,HOUR))
         d['funding'].sort(key=lambda x:x['timestamp_ms']);assert [x['timestamp_ms'] for x in d['funding']]==list(range(START,END,8*HOUR))
-    audit={'status':'COMPLETE','venue':'Binance USD-M perpetual','manifest_sha256':expected_manifest_sha,'archives':len(files),'start_ms':START,'end_exclusive_ms':END,'max_funding_clock_offset_ms':max_offset,'per_symbol':{p:{'trade_hours':len(d['trade']),'mark_hours':len(d['mark']),'funding_events':len(d['funding'])} for p,d in data.items()},'execution_rules':RULES_NOTE,'no_price_imputation':True,'strategy_pnl_computed':False}
+    audit={'status':'COMPLETE','venue':'Binance USD-M perpetual','manifest_sha256':expected_manifest_sha,'archives':len(files),'daily_recovery_archives':len(repair_records),'recovered_real_hours':added_hours,'matched_overlap_hours':overlap_hours,'start_ms':START,'end_exclusive_ms':END,'max_funding_clock_offset_ms':max_offset,'per_symbol':{p:{'trade_hours':len(d['trade']),'mark_hours':len(d['mark']),'funding_events':len(d['funding'])} for p,d in data.items()},'execution_rules':RULES_NOTE,'no_price_imputation':True,'strategy_pnl_computed':False}
     return data,audit
 
 def prepare(data,symbol):

@@ -1,13 +1,11 @@
 {
   "schema": "binance_perpetual_017_design_v1",
-  "status": "COVERAGE_AUDIT_PENDING_NO_STRATEGY_OUTCOMES",
+  "status": "PREREGISTERED_NOT_EXECUTED",
   "authorization": "2026-10-17Asia/Nicosia user explicitly requests futures from another exchange while awaitingBybit. This separate venue transfer does not alter013or spot/prospective cohorts.",
   "purpose": "Test the six previously selected distinct families on real Binance USD-M perpetual trade/mark/funding data. No new strategy signals or parameter searches.",
   "venue": "Binance USD-M USDT linear perpetuals",
   "symbols": [
-    "BTCUSDT",
-    "ETHUSDT",
-    "LTCUSDT"
+    "ETHUSDT"
   ],
   "capital_per_independent_simulation_usdt": 10000,
   "candidate_ids": [
@@ -31,7 +29,7 @@
     "2024-01-01",
     "2025-12-31"
   ],
-  "data_period_selection": "2021collection aborted on network403after8verifiedarchives. 2022..2025BTCcollectionabortedafter37verifiedarchivesatBTC2023-02mark. No deniedrequestretried. IndependentETH/LTCrequests use same2022..2025period. Eligibility requires all144archives perassetwithchecksums andcompletehourlytrade/mark/eight-hourfunding. No gapsfilled, no results-baseddate/assetselection.",
+  "data_period_selection": "NativeETH2022..2025:144monthlyarchives+4officialdailyarchives,allpublishedSHA256verified. Monthlymarkfilesmissed2022-10-02and2023-02-24. Restoreexact48realhoursfromofficialdailyfilesandverify48neighboringoverlaphoursagreeexactly. No interpolation or replacement ofconflictingbars.35064tradehours,35064markhours,4383settledfundingevents. Allactualfundingtimestampoffsets0..31ms;frozenmappinglimit<60seconds.",
   "position_policy": "Long or flat, one position per independent asset/candidate; no pyramiding, no borrowing, entry notional capped at50%of equity. Research accounting assumes1x fully cash-backed exposure. Actual user margin mode/leverage is unknown. Independent asset results must not be summed as a single10000USDT portfolio.",
   "signal_timing": "Aggregate exactly24complete UTC hourly traded-price candles per day. A signal formed on closed dayD is eligible at01:00UTC onD+1+lag_days. Execution reference is that hour's traded-price open with adverse slippage; no same-bar signal/fill. The one-hour buffer avoids the assumed00/08/16UTC funding boundaries.",
   "lag_days": [
@@ -65,10 +63,10 @@
   "reporting": "For every candidate and failure report exact evaluation dates, net return%, net USDT PnL, fee/funding/operating breakdown, number of exits, hourly sampled drawdown%, actual peak-to-troughUSDT amount at that maximum%, and adverse intrahour mark excursion separately. Do not present an uncertain OHLC path as a known realized drawdown. No annualized future-income promise.",
   "comparison_control": "All6variants on all3assets are retained, with base/stress,delay and funding-valuation outcomes. No parameter retuning or deletion of failed candidates. No new families in this transfer batch. Do not stop at the first green result.",
   "matrix": {
-    "training": 36,
-    "evaluation": 216,
-    "benchmarks": 15,
-    "total": 267
+    "training": 12,
+    "evaluation": 72,
+    "benchmarks": 5,
+    "total": 89
   },
   "multiplicity": "Allsixexistingvariants andfailuresretained. Priorfamilyselection sawcorrelatedspotdata; training2023beforeevaluationdoesnotremovepriorsearchselection. Descriptiverankingnotindependentvalidation; no statisticalsignificanceclaim. No extraWFAinthisvenue-transferbatch.",
   "freeze": "Pin exactsources,testresults,rawmanifestandnormalizeddatahashesandpublish before any newfuturesPnL. Persist/pin36runtrainingselectionbefore216evaluation+15benchmarkruns. Separate directories,nowriteoverwrite.",
@@ -79,5 +77,6 @@
     "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Get-Funding-Rate-History",
     "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Mark-Price-Kline-Candlestick-Data"
   ],
-  "planned_symbol_eligibility": "BTCUSDTexcludedbecause2023-02markarchiveblocked; preservefailure. ETHUSDT/LTCUSDTareindependentlycollected. Freeze onlyassetswithall144monthlyarchivesandcomplete2022..2025grids, basedonavailabilitybeforeanyPnL;excludeanyfailedassetwithoutdatechanges. Finalactualsymbolsandmatrixcounts must be fixedbeforeoutcomes."
+  "planned_symbol_eligibility": "Finalfrozeneligibleasset:ETHUSDTonly. BTCexcludedforblocked2023-02markarchive;LTCexcludedfor120missingtradehoursin2022February/April. NoPnLusedinassetselection. Do not changeassetswithinthisattempt.",
+  "daily_recovery": "Officialdailyarchivepath:data/futures/um/daily/markPriceKlines/ETHUSDT/1h/. Fourdays2022-10-01,2022-10-02,2023-02-23,2023-02-24. Missingdaydataandneighboroverlapchecks. No blocked request bypass or retries."
 }

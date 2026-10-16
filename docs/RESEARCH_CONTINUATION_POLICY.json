@@ -61,8 +61,13 @@
     "authorization": "User2026-10-17Asia/Nicosia:continuewithfuturesfromelsewhereuntilBybitpacketarrives.",
     "market": "BinanceUSD-MUSDTperpetuals,separatefromBybitandspot",
     "protocol": "docs/BINANCE_PERPETUAL_017.json",
-    "status": "COLLECTION_AUDIT_PENDING_NO_PNL",
+    "status": "PREREGISTERED_NOT_EXECUTED",
     "constraint": "Publicofficialarchivesonly,checksumandcoveragechecks,noaccessbypass,gapfill,privatekeysororders. Fixed2022..2025period;onlycompleteassetseligiblebeforePnL. Reuse6frozenfamilies;pin/publishsourcesandinputs beforeevaluation. Preserveallpriorfreezes/cohorts.",
-    "priority": "Continue this alternative-venue futures work whileawaitingBybit;do not automatically substitutespotresearch. Prioritize013onpacketarrival."
+    "priority": "Continue this alternative-venue futures work whileawaitingBybit;do not automatically substitutespotresearch. Prioritize013onpacketarrival.",
+    "freeze_sha256": "59291edfbb05990fd32ebd0be369ac22be1c4c75842a2d6e0a85fd5b5797c807",
+    "eligible_symbols": [
+      "ETHUSDT"
+    ],
+    "planned_runs": 89
   }
 }

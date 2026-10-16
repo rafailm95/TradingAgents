@@ -119,3 +119,13 @@ def test_normalized_archive_identity_hash_and_empty_assets(tmp_path):
     path.write_bytes(gzip.compress(json.dumps(payload).encode()))
     audit,data=load_archive(path,hashlib.sha256(path.read_bytes()).hexdigest())
     assert set(data)=={'ETHUSDT'} and audit['venue']=='Binance USD-M perpetual'
+
+
+def test_daily_recovery_adds_only_missing_real_bars_and_checks_overlap():
+    monthly=[row(t) for t in range(b.START,b.START+2*DAY,HOUR)]
+    missing=monthly[:24];supplements=[(b.START,monthly[:24]),(b.START+DAY,monthly[24:])]
+    out,a=b.recover_bars(missing,supplements,kind='markPriceKlines',start=b.START,end=b.START+2*DAY)
+    assert len(out)==48 and a=={'added_hours':24,'matched_overlap_hours':24}
+    conflict=copy.deepcopy(supplements);conflict[0][1][0][1]='100.5'
+    with pytest.raises(ValueError,match='Conflicting'):b.recover_bars(missing,conflict,kind='markPriceKlines',start=b.START,end=b.START+2*DAY)
+    with pytest.raises(ValueError,match='Still missing'):b.recover_bars(missing,supplements[:1],kind='markPriceKlines',start=b.START,end=b.START+2*DAY)

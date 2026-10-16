@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "venue": "Binance USD-M perpetual",
+  "manifest_sha256": "23268b1511dcc6b0ef877ae0ff493d4ad76d607f3d94c4a44b88f32cc16f55e4",
+  "archives": 144,
+  "daily_recovery_archives": 4,
+  "recovered_real_hours": 48,
+  "matched_overlap_hours": 48,
+  "start_ms": 1640995200000,
+  "end_exclusive_ms": 1767225600000,
+  "max_funding_clock_offset_ms": 31,
+  "per_symbol": {
+    "ETHUSDT": {
+      "trade_hours": 35064,
+      "mark_hours": 35064,
+      "funding_events": 4383
+    }
+  },
+  "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+  "no_price_imputation": true,
+  "strategy_pnl_computed": false
+}
