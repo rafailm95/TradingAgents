@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T17:47:22.964359+00:00",
+  "updated_utc": "2026-10-16T18:26:38.136655+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 21,
@@ -124,7 +124,7 @@
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "570+1226+2020+3174=6990 simulation executions, with overlapping references/windows/WFA. Only42 unique strategy-sizing variants; correlated reused history, not6990 independent hypotheses. Older studies001/002/006 remain in their reports.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Complete013using docs/BYBIT_HISTORY_013.json and docs/BYBIT_PERPETUAL_REPLAY_013.json. Build/audit replay adapter on synthetic inputs while awaiting historical capture; no strategy profit claim before real input audit. Do not rerun old data looking for a lucky winner.",
+  "next_action": "Use the unified014collector and single BYBIT_SEND_THIS.zip for current013research. Do not ask for separate history/depth/supplement uploads. Audit the returned packet; keep unknown account fees/margin and unavailable historical/tick data explicit. Implement and separately freeze013replay adapter while awaiting capture.",
   "execution_realism": "36validated real Bybit books and600fundingevents from a178.39second local capture; history collector ready. Broader execution coverage, historical price/mark/funding and actual account settings still needed. Old Coinbase cohorts unchanged.",
   "measurement_runs": [
     {
@@ -157,6 +157,24 @@
       "new_strategy_simulations": 0,
       "tests_passed": 86,
       "conclusion": "Hourly history collector, deterministic audit, resumption and cash-flow kernel tested. Historical data and full replay adapter still required."
+    },
+    {
+      "id": "collection_014",
+      "status": "UNIFIED_COLLECTOR_READY_FOR_USER_LOCAL_RUN",
+      "freeze_sha256": "d65d0e0d547ff106b3b2f77201d0e31f7a5983a8ce32eae8bd620ecacf792f7d",
+      "report": "docs/BYBIT_COMPLETE_014_STATUS.md",
+      "entrypoint": "START_ALL.cmd",
+      "result_archive": "BYBIT_SEND_THIS.zip",
+      "live_target_hours": 72,
+      "assets": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "LTCUSDT"
+      ],
+      "tests_passed": 110,
+      "new_strategy_variants": 0,
+      "new_strategy_simulations": 0
     }
-  ]
+  ],
+  "collection_current": "docs/BYBIT_COMPLETE_014.json supersedes separate collection instructions;013research design and all prior results remain frozen."
 }

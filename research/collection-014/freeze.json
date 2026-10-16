@@ -1,0 +1,40 @@
+{
+  "id": "collection_014",
+  "created_utc": "2026-10-16T18:26:38.136655+00:00",
+  "authorization": "User requested one comprehensive data package instead of repeated separate collection requests.",
+  "source_hashes": {
+    "docs/BYBIT_COMPLETE_014.json": "da7010ba96bf8cdfa80d5dc953648145c5dced4aa7bc47061e7dcd3a92fd4b0f",
+    "docs/BYBIT_ALL_DATA_README_EL.txt": "bdde1d5e5531dead2f7854c88f2a88db3c6a0ee582c0eaee368b93fc671713cc",
+    "START_ALL.cmd": "2abafb6b7426961d90857c68a12084d9e610ce8ebe72970a7c366d06cd987bf3",
+    "tradingagents/bybit_complete.py": "68cff6c384f495da697b0ebab57d6273bce24035d001a128f3e9e07766396046",
+    "tradingagents/bybit_history.py": "c7962ac62bad8df43a133b0379fee832f236058654adab0ff16cfcfc4dd06ad3",
+    "tradingagents/bybit_depth.py": "f3b4f2e90a71f38651ae5b8386c17e6bbe369914c4f069e0b38bb78f886a0f41",
+    "scripts/collect_bybit_complete.py": "4f6fe55b23b55ae2f12290336f3cc44045345e0ca634901b612f356225998895",
+    "scripts/audit_bybit_complete.py": "c186e904f5f46a28fe4f86b5fec48b1a75532540bf5b0441655066968d90dde4",
+    "scripts/collect_bybit_history.py": "c1cf27572904d535b58912924ad071fa87e04fea7dca85c8f8575f409b4fa2b1",
+    "scripts/build_bybit_complete_bundle.py": "33f96409c7dda99b5dbcac6c98f68612493930f54dcb0a1f5cea534ae817f5b9",
+    "tests/test_bybit_complete.py": "3ec8ffc35cbcdcebdb0a843b2934b14401ec7ab31b5588fdcf89d5155b83f1a9",
+    "docs/BYBIT_HISTORY_013.json": "76dff172969a269360e42af0cf9f976ae33f759b4eb2fcdd8791b4c5a77ee217"
+  },
+  "tests_passed": 110,
+  "new_tests_passed": 24,
+  "real_api_requests_this_turn": 0,
+  "real_strategy_simulations": 0,
+  "old_freezes": {
+    "011": {
+      "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d",
+      "all_source_hashes_unchanged": true
+    },
+    "012": {
+      "freeze_sha256": "348e44e5cef56ceaa9becb8822fe58b4ada12403d015c9ebd816c040c8aca213",
+      "all_source_hashes_unchanged": true
+    },
+    "013": {
+      "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+      "all_source_hashes_unchanged": true
+    },
+    "docs/PAPER_AUTOMATION_RUNTIME.json": "22c65210592af6a789cdc21014b045a515fe591d9f85f59a6213df8478b533c7",
+    "docs/EXPANDED_AUTOMATION_RUNTIME.json": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
+  },
+  "scope": "Unified collection implementation, no strategy cohort change and no claim of complete tick-level market history."
+}

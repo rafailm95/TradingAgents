@@ -1,6 +1,6 @@
 {
-  "reviewed_utc": "2026-10-16T17:47:22.964359+00:00",
-  "status": "HISTORY_COLLECTOR_VALIDATED_AWAITING_LOCAL_CAPTURE_REPLAY_ADAPTER_PENDING",
+  "reviewed_utc": "2026-10-16T18:26:38.136655+00:00",
+  "status": "UNIFIED_PUBLIC_CAPTURE_PACKAGE_READY",
   "implemented_now": [
     "Completed-week causal signal family with two sizing variants",
     "Standalone Level2 depth sweep diagnostic",
@@ -9,7 +9,10 @@
     "Synthetic independent cash-conservation and volume-level oracle",
     "Resumable hash-verified public hourly trade/mark/funding collector with fixed request windows",
     "Bounded offline ZIP audit and complete-day aggregation with no gap filling",
-    "Decimal USDT-linear cash-flow kernel with independent long/short funding and cash drawdown oracles"
+    "Decimal USDT-linear cash-flow kernel with independent long/short funding and cash drawdown oracles",
+    "One014launcher for core history,90day5minute series,index/premium,open-interest/account ratios,current risk tiers and72hourpaireddepthsampling",
+    "Per-request durable journal, bounded transient retry, old013cache import and OS-released process lock",
+    "One evidenceZIP with inventory hashes and offline semantic audit; live interruption cannot become fresh data"
   ],
   "observed_blockers": [
     {
@@ -72,10 +75,10 @@
     "capture_minutes": 2.9731666666666663
   },
   "next_required_work": [
-    "Obtain and audit bybit_history_013.zip using the external archive hash and frozen013sources.",
-    "Implement and separately freeze the complete hourly causal replay adapter specified in docs/BYBIT_PERPETUAL_REPLAY_013.json before any strategy PnL calculation.",
-    "Evaluate all six preregistered variants across BTCUSDT/ETHUSDT/LTCUSDT with fees,funding,operating expense,stress/delay and margin guards; retain failures.",
-    "Broaden real depth observations beyond the existing3minute sample. Account fees and actual margin/leverage remain optional unverified inputs."
+    "Receive one BYBIT_SEND_THIS.zip from START_ALL.cmd; audit with scripts/audit_bybit_complete.py and its external hash.",
+    "Inspect actual per-component coverage. Unavailable optional data must remain flagged rather than prompting serial collection requests.",
+    "Complete and freeze the013causal hourly replay adapter on synthetic data before real strategy calculations.",
+    "Evaluate all planned candidates with fees,funding,delay/stress and explicit margin limitations; no actualaccount assumptions presented as verified."
   ],
   "access_history": [
     {

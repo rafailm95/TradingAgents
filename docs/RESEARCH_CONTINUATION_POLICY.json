@@ -23,6 +23,14 @@
       "replay_design": "docs/BYBIT_PERPETUAL_REPLAY_013.json",
       "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
       "status": "Collector and cash-flow kernel validated86tests; real history and full replay adapter pending. Existing001..012results and prospective pins preserved."
+    },
+    "unified_collection_014": {
+      "authorization": "User requested one complete collection package to avoid repeated requests.",
+      "protocol": "docs/BYBIT_COMPLETE_014.json",
+      "freeze_sha256": "d65d0e0d547ff106b3b2f77201d0e31f7a5983a8ce32eae8bd620ecacf792f7d",
+      "one_entrypoint": "START_ALL.cmd",
+      "one_upload": "BYBIT_SEND_THIS.zip",
+      "constraint": "One comprehensive public-data packet for the defined research. Do not claim complete historical ticks, exact account fees or future profitability. PublicGET-only bounded retry in014supersedes the old collector transport policy without modifying013sources. Existing research/paper contracts unchanged."
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "verified_utc": "2026-10-16T18:26:38.136655+00:00",
+  "tests_passed": 110,
+  "new_tests_passed": 24,
+  "command": "/tmp/paper-campaign-clean-20261016/bin/python -m pytest --noconftest -q tests/test_bybit_complete.py tests/test_bybit_history.py tests/test_bybit_cashflow.py tests/test_bybit_capture_audit.py tests/test_bybit_collector.py tests/test_bybit_discovery.py tests/test_research_continuation.py",
+  "checks": [
+    "Synthetic full pipeline and returned ZIP recomputation",
+    "Bounded transient retries; no repeated retry cycle within an invocation",
+    "HTTP401/403/HTML/redirect refusal",
+    "Immutable historical cache and imported013byte checks",
+    "Interrupted live round retains old timestamps and new rounds use fresh requests",
+    "Optional/core endpoint failures do not suppress other independent data",
+    "Post-capture history extension",
+    "Margin-tier cursors, negative premium OHLC and missing auxiliary points",
+    "Response/source/cache-key/summary tampering and unsafe ZIP paths",
+    "OS-held lock released after exception",
+    "Python-S standalone entrypoints"
+  ],
+  "platform_limit": "Linux executed; actual72hourWindowsconnection and Windows power/locking APIs not run here.",
+  "real_api_requests_this_turn": 0,
+  "real_strategy_simulations": 0,
+  "preserved_freezes": {
+    "011": {
+      "freeze_sha256": "e9391b9f0bcfa46045e58ddd982c5e495ad488d5181aeb272a41184df46fd16d",
+      "all_source_hashes_unchanged": true
+    },
+    "012": {
+      "freeze_sha256": "348e44e5cef56ceaa9becb8822fe58b4ada12403d015c9ebd816c040c8aca213",
+      "all_source_hashes_unchanged": true
+    },
+    "013": {
+      "freeze_sha256": "3eba097d05bb2aff969e5beb6363a772af0c231ef6b1ed5afbcd202cde57ba0d",
+      "all_source_hashes_unchanged": true
+    },
+    "docs/PAPER_AUTOMATION_RUNTIME.json": "22c65210592af6a789cdc21014b045a515fe591d9f85f59a6213df8478b533c7",
+    "docs/EXPANDED_AUTOMATION_RUNTIME.json": "7e8d7cbe7758c2fd3fd4313b102d4f9729627e32bc0fe757e048dd55e973b2b8"
+  }
+}
