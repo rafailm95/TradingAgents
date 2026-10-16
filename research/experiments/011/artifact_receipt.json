@@ -1,0 +1,13 @@
+{
+  "report": {
+    "filename": "TradingBot_Weekly_Confirmation_Realism_EL.html",
+    "library_file_id": "libfile_c93ac577dc88819181b2a5a8483c7670",
+    "sha256": "0793f38477a0c1d03d5dd6f41cbd48f3884b37e113d0127569d35db6780d1609"
+  },
+  "full_evidence": {
+    "filename": "TradingBot_Weekly_Confirmation_Evidence.zip",
+    "library_file_id": "libfile_a9daad9adf6c81918ca858a3d2841331",
+    "sha256": "cecee2e3ce8814e68033f58367da483b20b8c88ccf1c147a9f643d039b874078"
+  },
+  "access_note": "Owned persistent artifacts, not public share links. The evidence archive contains complete audited curves excluded from Git; use the Library connector only if needed and available. Source and compact results are already in Git."
+}
