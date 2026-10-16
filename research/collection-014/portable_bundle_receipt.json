@@ -1,0 +1,17 @@
+{
+  "repository": "rafailm95/TradingAgents",
+  "branch": "codex/research-continuation-20261016",
+  "source_commit": "b4ac6fdccbe07e616ecc8b755deb080c4eaa518c",
+  "freeze_sha256": "d65d0e0d547ff106b3b2f77201d0e31f7a5983a8ce32eae8bd620ecacf792f7d",
+  "purpose": "Unified public-data collection code export; no trading or account access",
+  "filename": "Bybit_All_Data.zip",
+  "size_bytes": 33480,
+  "sha256": "204433895a946275c9e1fd48f4f94e5ad2c4002c6b359de336758a74c219e0c9",
+  "checks": {
+    "zip_crc": "PASS",
+    "all_member_hashes": "PASS",
+    "isolated_python_S_entrypoints": "PASS",
+    "old_import_and_new_source_dependencies": "PASS",
+    "actual_windows_72hour_capture": "NOT_RUN"
+  }
+}
