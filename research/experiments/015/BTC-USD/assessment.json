@@ -1,0 +1,2346 @@
+{
+  "product": "BTC-USD",
+  "selection": {
+    "selected": "cash",
+    "eligible": [],
+    "selection_universe": "Only the two preregistered015variants; old42selection/cohorts unchanged."
+  },
+  "assessments": [
+    {
+      "id": "relative_leader28__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": false,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "relative_leader28__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": false,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": false,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": false,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    }
+  ],
+  "new_opportunities": [
+    {
+      "product": "BTC-USD",
+      "id": "relative_leader28__fixed50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -49.07277278258607,
+      "worst_pnl_usd": -4907.277278258607,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 52.08015588906776,
+      "min_signal_exits": 50,
+      "scenarios": [
+        {
+          "lag_days": 0,
+          "cost": "base",
+          "return_pct": -24.63945059275108,
+          "pnl_usd": -2463.9450592751073,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 30.995686305081556,
+          "amount_at_max_pct_usd": 3383.050432923549,
+          "max_cash_drawdown_usd": 3383.050432923549,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -451.2843501214211,
+              "return_pct": -4.512843501214214,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1279.3053661898375,
+              "return_pct": -13.397669520152744,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -733.3553429638487,
+              "return_pct": -8.868290697951931,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 0,
+          "cost": "stress",
+          "return_pct": -49.07277278258607,
+          "pnl_usd": -4907.277278258607,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 52.08015588906776,
+          "amount_at_max_pct_usd": 5534.863440584122,
+          "max_cash_drawdown_usd": 5534.863440584122,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1790.59800528475,
+              "return_pct": -17.905980052847504,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -2082.7026780185115,
+              "return_pct": -25.36972460794633,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1033.9765949553457,
+              "return_pct": -16.876568303874638,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "base",
+          "return_pct": -13.287792354707417,
+          "pnl_usd": -1328.7792354707417,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 18.71712663326889,
+          "amount_at_max_pct_usd": 1992.6446389142893,
+          "max_cash_drawdown_usd": 1992.6446389142893,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -56.891843071853145,
+              "return_pct": -0.5689184307185347,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -883.5043822123698,
+              "return_pct": -8.885595613246577,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -388.38301018651873,
+              "return_pct": -4.286975676248083,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "stress",
+          "return_pct": -41.30988103207625,
+          "pnl_usd": -4130.988103207625,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 42.742474174400044,
+          "amount_at_max_pct_usd": 4381.189822836119,
+          "max_cash_drawdown_usd": 4381.189822836119,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1453.6005722865902,
+              "return_pct": -14.536005722865909,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1833.33085519235,
+              "return_pct": -21.451499788874926,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -844.0566757286842,
+              "return_pct": -12.573336122078416,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "base",
+          "return_pct": -16.58008304139108,
+          "pnl_usd": -1658.008304139108,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 22.37261481106783,
+          "amount_at_max_pct_usd": 2404.205249402521,
+          "max_cash_drawdown_usd": 2404.205249402521,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": 545.7677319785344,
+              "return_pct": 5.457677319785348,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1094.2046740669211,
+              "return_pct": -10.375770658677618,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1109.5713620507213,
+              "return_pct": -11.739554137788177,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "stress",
+          "return_pct": -43.55594496974178,
+          "pnl_usd": -4355.594496974178,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 43.62103881254655,
+          "amount_at_max_pct_usd": 4367.140265366104,
+          "max_cash_drawdown_usd": 4367.140265366104,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -937.8606781385733,
+              "return_pct": -9.378606781385734,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -2057.678614150748,
+              "return_pct": -22.70632287882424,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1360.055204684856,
+              "return_pct": -19.416986709450377,
+              "partial_year": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "BTC-USD",
+      "id": "relative_leader28__vol15_cap50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -35.07977206455989,
+      "worst_pnl_usd": -3507.9772064559893,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 37.60141301351503,
+      "min_signal_exits": 50,
+      "scenarios": [
+        {
+          "lag_days": 0,
+          "cost": "base",
+          "return_pct": -16.51683695404461,
+          "pnl_usd": -1651.683695404461,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 21.1494403116792,
+          "amount_at_max_pct_usd": 2239.2005597040006,
+          "max_cash_drawdown_usd": 2239.2005597040006,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -299.31198923553893,
+              "return_pct": -2.9931198923553892,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -760.1695639007467,
+              "return_pct": -7.836243811338095,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -592.2021422681755,
+              "return_pct": -6.623800910291921,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 0,
+          "cost": "stress",
+          "return_pct": -35.07977206455989,
+          "pnl_usd": -3507.9772064559893,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 37.60141301351503,
+          "amount_at_max_pct_usd": 3912.0954839261667,
+          "max_cash_drawdown_usd": 3912.0954839261667,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1108.6986256241235,
+              "return_pct": -11.086986256241238,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1510.8338388173815,
+              "return_pct": -16.992268906456165,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -888.4447420144843,
+              "return_pct": -12.037784025660025,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "base",
+          "return_pct": -11.865887655488317,
+          "pnl_usd": -1186.5887655488314,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 14.90289348505301,
+          "amount_at_max_pct_usd": 1543.4758506615617,
+          "max_cash_drawdown_usd": 1543.4758506615617,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -116.91175143470718,
+              "return_pct": -1.1691175143470733,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -734.2281257260456,
+              "return_pct": -7.429136594349773,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -335.44888838807856,
+              "return_pct": -3.666564838505537,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "stress",
+          "return_pct": -31.472014132454806,
+          "pnl_usd": -3147.2014132454806,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 32.57542972280828,
+          "amount_at_max_pct_usd": 3310.8532668378994,
+          "max_cash_drawdown_usd": 3310.8532668378994,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -943.0156978348168,
+              "return_pct": -9.430156978348169,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1506.6513754842,
+              "return_pct": -16.635243312986823,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -697.5343399264639,
+              "return_pct": -9.238458048141851,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "base",
+          "return_pct": -14.932116254323047,
+          "pnl_usd": -1493.2116254323046,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 18.688219901046295,
+          "amount_at_max_pct_usd": 1955.1500606937389,
+          "max_cash_drawdown_usd": 1955.1500606937389,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": 335.58016231094916,
+              "return_pct": 3.355801623109489,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -961.1824514740401,
+              "return_pct": -9.299743569103413,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -867.6093362692136,
+              "return_pct": -9.255094172783473,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "stress",
+          "return_pct": -33.85936341665945,
+          "pnl_usd": -3385.9363416659453,
+          "signal_exits": 50,
+          "closed_trades": 50,
+          "max_drawdown_pct": 33.90995650451515,
+          "amount_at_max_pct_usd": 3393.591517117473,
+          "max_cash_drawdown_usd": 3393.591517117473,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -531.4980726909816,
+              "return_pct": -5.314980726909813,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": -1732.799628379349,
+              "return_pct": -18.30067355620021,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1121.6386405956146,
+              "return_pct": -14.49950627948554,
+              "partial_year": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison44": [
+    {
+      "product": "BTC-USD",
+      "id": "sma200_band__vol15_cap50",
+      "family": "sma200_band",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": true,
+      "failed": [],
+      "original_train_rank": 19,
+      "original_train_selected": false,
+      "worst_return_pct": 0.20887699947489402,
+      "worst_pnl_usd": 20.887699947488727,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 22.3409235305712,
+      "min_signal_exits": 8,
+      "pareto_tier": 4,
+      "review_rank": 1
+    },
+    {
+      "product": "BTC-USD",
+      "id": "regression_trend__fixed50",
+      "family": "regression_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 31.219005160300007,
+      "worst_pnl_usd": 3121.9005160300003,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 14.654260802166538,
+      "min_signal_exits": 5,
+      "pareto_tier": 1,
+      "review_rank": 2
+    },
+    {
+      "product": "BTC-USD",
+      "id": "regression_trend__vol15_cap50",
+      "family": "regression_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_20trades",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": 14,
+      "original_train_selected": false,
+      "worst_return_pct": 19.133092217638104,
+      "worst_pnl_usd": 1913.3092217638114,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 10.163479606419322,
+      "min_signal_exits": 5,
+      "pareto_tier": 1,
+      "review_rank": 3
+    },
+    {
+      "product": "BTC-USD",
+      "id": "keltner_breakout__fixed50",
+      "family": "keltner_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_stress_positive"
+      ],
+      "original_train_rank": 23,
+      "original_train_selected": false,
+      "worst_return_pct": 5.711980518079374,
+      "worst_pnl_usd": 571.1980518079363,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.85452669040149,
+      "min_signal_exits": 11,
+      "pareto_tier": 2,
+      "review_rank": 4
+    },
+    {
+      "product": "BTC-USD",
+      "id": "sma50_200__fixed50",
+      "family": "sma50_200",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_5trades",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_5trades",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 6.362812767850778,
+      "worst_pnl_usd": 636.2812767850774,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 27.626786308852715,
+      "min_signal_exits": 3,
+      "pareto_tier": 2,
+      "review_rank": 5
+    },
+    {
+      "product": "BTC-USD",
+      "id": "momentum90__vol15_cap50",
+      "family": "momentum90",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 3.7381046063235557,
+      "worst_pnl_usd": 373.8104606323559,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 18.324753857192043,
+      "min_signal_exits": 14,
+      "pareto_tier": 2,
+      "review_rank": 6
+    },
+    {
+      "product": "BTC-USD",
+      "id": "keltner_breakout__vol15_cap50",
+      "family": "keltner_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive"
+      ],
+      "original_train_rank": 20,
+      "original_train_selected": false,
+      "worst_return_pct": -0.027619598186878758,
+      "worst_pnl_usd": -2.7619598186884105,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 15.50490767451401,
+      "min_signal_exits": 11,
+      "pareto_tier": 2,
+      "review_rank": 7
+    },
+    {
+      "product": "BTC-USD",
+      "id": "momentum90__fixed50",
+      "family": "momentum90",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 4.827946645625425,
+      "worst_pnl_usd": 482.7946645625416,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.95994548084187,
+      "min_signal_exits": 14,
+      "pareto_tier": 3,
+      "review_rank": 8
+    },
+    {
+      "product": "BTC-USD",
+      "id": "sma50_200__vol15_cap50",
+      "family": "sma50_200",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_20trades",
+        "validation_base_5trades",
+        "full_stress_20trades",
+        "validation_stress_5trades",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 3.99314955542176,
+      "worst_pnl_usd": 399.3149555421751,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 21.695704434052253,
+      "min_signal_exits": 3,
+      "pareto_tier": 3,
+      "review_rank": 9
+    },
+    {
+      "product": "BTC-USD",
+      "id": "squeeze_breakout__fixed50",
+      "family": "squeeze_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_stress_drawdown",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -1.6437420941984193,
+      "worst_pnl_usd": -164.37420941984237,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 20.18156418998201,
+      "min_signal_exits": 16,
+      "pareto_tier": 3,
+      "review_rank": 10
+    },
+    {
+      "product": "BTC-USD",
+      "id": "obv_breakout__vol15_cap50",
+      "family": "obv_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 2,
+      "original_train_selected": false,
+      "worst_return_pct": -2.8828494957361395,
+      "worst_pnl_usd": -288.28494957361363,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.07157856849294,
+      "min_signal_exits": 18,
+      "pareto_tier": 3,
+      "review_rank": 11
+    },
+    {
+      "product": "BTC-USD",
+      "id": "squeeze_breakout__vol15_cap50",
+      "family": "squeeze_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 17,
+      "original_train_selected": false,
+      "worst_return_pct": -4.288322383311261,
+      "worst_pnl_usd": -428.83223833112606,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 17.153555023960575,
+      "min_signal_exits": 16,
+      "pareto_tier": 3,
+      "review_rank": 12
+    },
+    {
+      "product": "BTC-USD",
+      "id": "adx_directional__fixed50",
+      "family": "adx_directional",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 10,
+      "original_train_selected": false,
+      "worst_return_pct": -4.539495999475585,
+      "worst_pnl_usd": -453.94959994755845,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 22.307521432741297,
+      "min_signal_exits": 8,
+      "pareto_tier": 4,
+      "review_rank": 13
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cmf_trend__vol15_cap50",
+      "family": "cmf_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 1,
+      "original_train_selected": true,
+      "worst_return_pct": -4.966963187546791,
+      "worst_pnl_usd": -496.69631875467894,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 20.988535065912636,
+      "min_signal_exits": 20,
+      "pareto_tier": 4,
+      "review_rank": 14
+    },
+    {
+      "product": "BTC-USD",
+      "id": "breakout55__vol15_cap50",
+      "family": "breakout55",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_20trades",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 16,
+      "original_train_selected": false,
+      "worst_return_pct": -5.1056316348286,
+      "worst_pnl_usd": -510.56316348286055,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.68049843263228,
+      "min_signal_exits": 7,
+      "pareto_tier": 4,
+      "review_rank": 15
+    },
+    {
+      "product": "BTC-USD",
+      "id": "weekly_confirmed_breakout20__vol15_cap50",
+      "family": "weekly_confirmed_breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 9,
+      "original_train_selected": false,
+      "worst_return_pct": -5.249485781123608,
+      "worst_pnl_usd": -524.9485781123603,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 18.353318810990043,
+      "min_signal_exits": 12,
+      "pareto_tier": 4,
+      "review_rank": 16
+    },
+    {
+      "product": "BTC-USD",
+      "id": "stochastic_pullback__vol15_cap50",
+      "family": "stochastic_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 24,
+      "original_train_selected": false,
+      "worst_return_pct": -13.581825756755316,
+      "worst_pnl_usd": -1358.1825756755316,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 18.132132104889614,
+      "min_signal_exits": 14,
+      "pareto_tier": 4,
+      "review_rank": 17
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cci_reversion__vol15_cap50",
+      "family": "cci_reversion",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -15.866060006513038,
+      "worst_pnl_usd": -1586.6060006513035,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 17.5928789427663,
+      "min_signal_exits": 16,
+      "pareto_tier": 4,
+      "review_rank": 18
+    },
+    {
+      "product": "BTC-USD",
+      "id": "sma200_band__fixed50",
+      "family": "sma200_band",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_stress_drawdown",
+        "lag1_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -1.1831248654966653,
+      "worst_pnl_usd": -118.31248654966657,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 31.423968049361488,
+      "min_signal_exits": 8,
+      "pareto_tier": 5,
+      "review_rank": 19
+    },
+    {
+      "product": "BTC-USD",
+      "id": "breakout55__fixed50",
+      "family": "breakout55",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "recent_stress_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -2.248201919766102,
+      "worst_pnl_usd": -224.82019197661066,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 22.610034614843556,
+      "min_signal_exits": 7,
+      "pareto_tier": 5,
+      "review_rank": 20
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cmo_momentum__vol15_cap50",
+      "family": "cmo_momentum",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 13,
+      "original_train_selected": false,
+      "worst_return_pct": -6.389481598352598,
+      "worst_pnl_usd": -638.9481598352595,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.163795428786663,
+      "min_signal_exits": 13,
+      "pareto_tier": 5,
+      "review_rank": 21
+    },
+    {
+      "product": "BTC-USD",
+      "id": "adx_directional__vol15_cap50",
+      "family": "adx_directional",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 3,
+      "original_train_selected": false,
+      "worst_return_pct": -6.566417969215365,
+      "worst_pnl_usd": -656.6417969215363,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 18.568784800882014,
+      "min_signal_exits": 8,
+      "pareto_tier": 5,
+      "review_rank": 22
+    },
+    {
+      "product": "BTC-USD",
+      "id": "weekly_confirmed_breakout20__fixed50",
+      "family": "weekly_confirmed_breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 12,
+      "original_train_selected": false,
+      "worst_return_pct": -2.274350933896463,
+      "worst_pnl_usd": -227.43509338964577,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.134258829204857,
+      "min_signal_exits": 12,
+      "pareto_tier": 6,
+      "review_rank": 23
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cmf_trend__fixed50",
+      "family": "cmf_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 4,
+      "original_train_selected": false,
+      "worst_return_pct": -4.424302471194319,
+      "worst_pnl_usd": -442.43024711943144,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 23.139880247874462,
+      "min_signal_exits": 20,
+      "pareto_tier": 6,
+      "review_rank": 24
+    },
+    {
+      "product": "BTC-USD",
+      "id": "aroon_trend__vol15_cap50",
+      "family": "aroon_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 11,
+      "original_train_selected": false,
+      "worst_return_pct": -7.950432287766384,
+      "worst_pnl_usd": -795.043228776638,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 22.606548829306067,
+      "min_signal_exits": 13,
+      "pareto_tier": 6,
+      "review_rank": 25
+    },
+    {
+      "product": "BTC-USD",
+      "id": "breakout20__vol15_cap50",
+      "family": "breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 8,
+      "original_train_selected": false,
+      "worst_return_pct": -8.00128728576347,
+      "worst_pnl_usd": -800.1287285763465,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.417757302298448,
+      "min_signal_exits": 13,
+      "pareto_tier": 6,
+      "review_rank": 26
+    },
+    {
+      "product": "BTC-USD",
+      "id": "obv_breakout__fixed50",
+      "family": "obv_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive"
+      ],
+      "original_train_rank": 7,
+      "original_train_selected": false,
+      "worst_return_pct": -3.341111087192239,
+      "worst_pnl_usd": -334.1111087192239,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 25.50794118039551,
+      "min_signal_exits": 18,
+      "pareto_tier": 7,
+      "review_rank": 27
+    },
+    {
+      "product": "BTC-USD",
+      "id": "breakout20__fixed50",
+      "family": "breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -5.7140543828469,
+      "worst_pnl_usd": -571.4054382846898,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.723533066287917,
+      "min_signal_exits": 13,
+      "pareto_tier": 7,
+      "review_rank": 28
+    },
+    {
+      "product": "BTC-USD",
+      "id": "ichimoku_trend__vol15_cap50",
+      "family": "ichimoku_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 6,
+      "original_train_selected": false,
+      "worst_return_pct": -13.253621871108045,
+      "worst_pnl_usd": -1325.3621871108044,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.245380772727497,
+      "min_signal_exits": 18,
+      "pareto_tier": 7,
+      "review_rank": 29
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cci_reversion__fixed50",
+      "family": "cci_reversion",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -21.123307858237006,
+      "worst_pnl_usd": -2112.3307858237004,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 22.90922350379635,
+      "min_signal_exits": 16,
+      "pareto_tier": 7,
+      "review_rank": 30
+    },
+    {
+      "product": "BTC-USD",
+      "id": "cmo_momentum__fixed50",
+      "family": "cmo_momentum",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 18,
+      "original_train_selected": false,
+      "worst_return_pct": -4.762498633365753,
+      "worst_pnl_usd": -476.2498633365758,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 27.75264694835606,
+      "min_signal_exits": 13,
+      "pareto_tier": 8,
+      "review_rank": 31
+    },
+    {
+      "product": "BTC-USD",
+      "id": "stochastic_pullback__fixed50",
+      "family": "stochastic_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 21,
+      "original_train_selected": false,
+      "worst_return_pct": -21.359358457570487,
+      "worst_pnl_usd": -2135.935845757049,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 26.047441423484162,
+      "min_signal_exits": 14,
+      "pareto_tier": 8,
+      "review_rank": 32
+    },
+    {
+      "product": "BTC-USD",
+      "id": "aroon_trend__fixed50",
+      "family": "aroon_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 15,
+      "original_train_selected": false,
+      "worst_return_pct": -11.595779281069374,
+      "worst_pnl_usd": -1159.5779281069372,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 33.61163522620712,
+      "min_signal_exits": 13,
+      "pareto_tier": 9,
+      "review_rank": 33
+    },
+    {
+      "product": "BTC-USD",
+      "id": "ichimoku_trend__fixed50",
+      "family": "ichimoku_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 5,
+      "original_train_selected": false,
+      "worst_return_pct": -14.397343500179737,
+      "worst_pnl_usd": -1439.734350017974,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 30.58487788284013,
+      "min_signal_exits": 18,
+      "pareto_tier": 9,
+      "review_rank": 34
+    },
+    {
+      "product": "BTC-USD",
+      "id": "bollinger20__vol15_cap50",
+      "family": "bollinger20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -23.602161855729175,
+      "worst_pnl_usd": -2360.2161855729173,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 26.6406608303071,
+      "min_signal_exits": 17,
+      "pareto_tier": 9,
+      "review_rank": 35
+    },
+    {
+      "product": "BTC-USD",
+      "id": "bollinger20__fixed50",
+      "family": "bollinger20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -25.47623413906428,
+      "worst_pnl_usd": -2547.623413906428,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 31.00430808356105,
+      "min_signal_exits": 17,
+      "pareto_tier": 10,
+      "review_rank": 36
+    },
+    {
+      "product": "BTC-USD",
+      "id": "kama_trend__vol15_cap50",
+      "family": "kama_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -31.91066056656815,
+      "worst_pnl_usd": -3191.066056656815,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 38.8000860292705,
+      "min_signal_exits": 38,
+      "pareto_tier": 11,
+      "review_rank": 37
+    },
+    {
+      "product": "BTC-USD",
+      "id": "macd_trend__vol15_cap50",
+      "family": "macd_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 22,
+      "original_train_selected": false,
+      "worst_return_pct": -33.04397864303533,
+      "worst_pnl_usd": -3304.3978643035334,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 37.178224540990236,
+      "min_signal_exits": 35,
+      "pareto_tier": 11,
+      "review_rank": 38
+    },
+    {
+      "product": "BTC-USD",
+      "id": "relative_leader28__vol15_cap50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -35.07977206455989,
+      "worst_pnl_usd": -3507.9772064559893,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 37.60141301351503,
+      "min_signal_exits": 50,
+      "pareto_tier": 12,
+      "review_rank": 39
+    },
+    {
+      "product": "BTC-USD",
+      "id": "macd_trend__fixed50",
+      "family": "macd_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -41.69768782668166,
+      "worst_pnl_usd": -4169.768782668166,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 47.78860187408248,
+      "min_signal_exits": 35,
+      "pareto_tier": 13,
+      "review_rank": 40
+    },
+    {
+      "product": "BTC-USD",
+      "id": "kama_trend__fixed50",
+      "family": "kama_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -43.89204823322467,
+      "worst_pnl_usd": -4389.204823322467,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 52.58385811344151,
+      "min_signal_exits": 38,
+      "pareto_tier": 14,
+      "review_rank": 41
+    },
+    {
+      "product": "BTC-USD",
+      "id": "relative_leader28__fixed50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -49.07277278258607,
+      "worst_pnl_usd": -4907.277278258607,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 52.08015588906776,
+      "min_signal_exits": 50,
+      "pareto_tier": 14,
+      "review_rank": 42
+    },
+    {
+      "product": "BTC-USD",
+      "id": "rsi2_pullback__vol15_cap50",
+      "family": "rsi2_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -53.46539595244053,
+      "worst_pnl_usd": -5346.539595244053,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 54.23748461296979,
+      "min_signal_exits": 73,
+      "pareto_tier": 15,
+      "review_rank": 43
+    },
+    {
+      "product": "BTC-USD",
+      "id": "rsi2_pullback__fixed50",
+      "family": "rsi2_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -67.5900212323041,
+      "worst_pnl_usd": -6759.00212323041,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 68.37499850151622,
+      "min_signal_exits": 73,
+      "pareto_tier": 16,
+      "review_rank": 44
+    }
+  ],
+  "multiplicity": [
+    {
+      "benchmark": "cash",
+      "candidate_count": 44,
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.270353007035067,
+      "family_adjusted_p_exploratory": 0.20839580209895053,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "cash",
+      "candidate_count": 44,
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.270353007035067,
+      "family_adjusted_p_exploratory": 0.20589705147426288,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "candidate_count": 44,
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 0.0,
+      "family_adjusted_p_exploratory": 1.0,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "candidate_count": 44,
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 0.0,
+      "family_adjusted_p_exploratory": 1.0,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    }
+  ],
+  "walk_forward_summary": {
+    "base": {
+      "final_after_operating_usd": 8366.81436480029,
+      "net_profit_usd": -1633.1856351997103,
+      "net_return_pct": -16.331856351997097,
+      "max_drawdown_pct": 16.49572652386471,
+      "amount_at_max_pct_usd": 1652.809801131103,
+      "max_cash_drawdown_usd": 1652.809801131103
+    },
+    "stress": {
+      "final_after_operating_usd": 7868.050964917133,
+      "net_profit_usd": -2131.9490350828673,
+      "net_return_pct": -21.319490350828673,
+      "max_drawdown_pct": 21.319490350828673,
+      "amount_at_max_pct_usd": 2131.9490350828673,
+      "max_cash_drawdown_usd": 2131.9490350828673
+    }
+  },
+  "walk_forward_choices": [
+    {
+      "year": 2022,
+      "selected": "relative_leader28__vol15_cap50"
+    },
+    {
+      "year": 2023,
+      "selected": "cash"
+    },
+    {
+      "year": 2024,
+      "selected": "cash"
+    },
+    {
+      "year": 2025,
+      "selected": "cash"
+    },
+    {
+      "year": 2026,
+      "selected": "cash"
+    }
+  ],
+  "metrics": {
+    "train__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 13333.259711125516,
+      "net_return_pct": 33.332597111255154,
+      "net_profit_usd": 3333.2597111255163,
+      "annualized_return_pct": 7.456844846651722,
+      "max_close_drawdown_pct": 29.8687952056938,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 2853.2597111255163,
+      "return_after_operating_pct": 28.532597111255154,
+      "annualized_after_operating_pct": 6.47639059680849,
+      "daily_sharpe_rf_zero": 0.6110328467010643,
+      "closed_trades": 53,
+      "signal_exits": 52,
+      "fees_paid_usd": 3909.859029585668,
+      "exposure_days_pct": 22.92950034223135,
+      "max_close_weight_pct": 57.56740878423976
+    },
+    "train__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 12242.990379580511,
+      "net_return_pct": 22.429903795805117,
+      "net_profit_usd": 2242.990379580511,
+      "annualized_return_pct": 5.1893755744393255,
+      "max_close_drawdown_pct": 16.21311370576356,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 1762.9903795805112,
+      "return_after_operating_pct": 17.629903795805113,
+      "annualized_after_operating_pct": 4.142844470459939,
+      "daily_sharpe_rf_zero": 0.7672530420145351,
+      "closed_trades": 53,
+      "signal_exits": 52,
+      "fees_paid_usd": 1918.041757868933,
+      "exposure_days_pct": 22.92950034223135,
+      "max_close_weight_pct": 49.98448549809652
+    },
+    "train__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 8956.180458427607,
+      "net_return_pct": -10.438195415723929,
+      "net_profit_usd": -1043.819541572393,
+      "annualized_return_pct": -2.7183990969217087,
+      "max_close_drawdown_pct": 39.923834908726306,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": -1523.819541572393,
+      "return_after_operating_pct": -15.238195415723933,
+      "annualized_after_operating_pct": -4.048879972937858,
+      "daily_sharpe_rf_zero": -0.13954991657267354,
+      "closed_trades": 53,
+      "signal_exits": 52,
+      "fees_paid_usd": 6417.116287313103,
+      "exposure_days_pct": 22.92950034223135,
+      "max_close_weight_pct": 57.38547294960698
+    },
+    "train__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 9899.013467470919,
+      "net_return_pct": -1.0098653252908152,
+      "net_profit_usd": -100.98653252908116,
+      "annualized_return_pct": -0.2534280916564158,
+      "max_close_drawdown_pct": 22.44718593563916,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": -580.9865325290812,
+      "return_after_operating_pct": -5.809865325290808,
+      "annualized_after_operating_pct": -1.4852284750860534,
+      "daily_sharpe_rf_zero": -0.000957777626068015,
+      "closed_trades": 53,
+      "signal_exits": 52,
+      "fees_paid_usd": 3433.7818974029524,
+      "exposure_days_pct": 22.92950034223135,
+      "max_close_weight_pct": 49.79838961391938
+    },
+    "validation__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 8509.57455473597,
+      "net_return_pct": -14.90425445264031,
+      "net_profit_usd": -1490.4254452640307,
+      "annualized_return_pct": -7.747552900843758,
+      "max_close_drawdown_pct": 26.7109315464118,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -1730.5897163112586,
+      "return_after_operating_pct": -17.305897163112583,
+      "annualized_after_operating_pct": -9.05779219007795,
+      "daily_sharpe_rf_zero": -0.5872722350108999,
+      "closed_trades": 39,
+      "signal_exits": 39,
+      "fees_paid_usd": 2159.5571106569546,
+      "exposure_days_pct": 25.444596443228455,
+      "max_close_weight_pct": 53.355160625617124
+    },
+    "validation__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 9180.682717910942,
+      "net_return_pct": -8.193172820890581,
+      "net_profit_usd": -819.3172820890577,
+      "annualized_return_pct": -4.181319511717884,
+      "max_close_drawdown_pct": 18.299370651140734,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -1059.4815531362856,
+      "return_after_operating_pct": -10.594815531362855,
+      "annualized_after_operating_pct": -5.442063627865035,
+      "daily_sharpe_rf_zero": -0.48607055913283526,
+      "closed_trades": 39,
+      "signal_exits": 39,
+      "fees_paid_usd": 1426.9839651079178,
+      "exposure_days_pct": 25.444596443228455,
+      "max_close_weight_pct": 52.476473984959846
+    },
+    "validation__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 6366.8635877439665,
+      "net_return_pct": -36.33136412256034,
+      "net_profit_usd": -3633.1364122560335,
+      "annualized_return_pct": -20.195050069920693,
+      "max_close_drawdown_pct": 43.02614427214056,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -3873.3006833032614,
+      "return_after_operating_pct": -38.73300683303261,
+      "annualized_after_operating_pct": -21.713648884024074,
+      "daily_sharpe_rf_zero": -1.6775824832595894,
+      "closed_trades": 39,
+      "signal_exits": 39,
+      "fees_paid_usd": 3759.7964452622114,
+      "exposure_days_pct": 25.444596443228455,
+      "max_close_weight_pct": 53.16985618952606
+    },
+    "validation__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 7620.631806605723,
+      "net_return_pct": -23.793681933942768,
+      "net_profit_usd": -2379.368193394277,
+      "annualized_return_pct": -12.695657032393793,
+      "max_close_drawdown_pct": 30.271682848396665,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -2619.532464441505,
+      "return_after_operating_pct": -26.195324644415052,
+      "annualized_after_operating_pct": -14.081427643022426,
+      "daily_sharpe_rf_zero": -1.5677983784576195,
+      "closed_trades": 39,
+      "signal_exits": 39,
+      "fees_paid_usd": 2597.805810785271,
+      "exposure_days_pct": 25.444596443228455,
+      "max_close_weight_pct": 52.29080016522249
+    },
+    "recent__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 9249.39229846094,
+      "net_return_pct": -7.5060770153906,
+      "net_profit_usd": -750.6077015390601,
+      "annualized_return_pct": -9.421782151833325,
+      "max_close_drawdown_pct": 8.412852468042164,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -845.2278247423455,
+      "return_after_operating_pct": -8.45227824742345,
+      "annualized_after_operating_pct": -10.595311815663244,
+      "daily_sharpe_rf_zero": -1.3956343434305456,
+      "closed_trades": 11,
+      "signal_exits": 11,
+      "fees_paid_usd": 629.0399553817692,
+      "exposure_days_pct": 15.972222222222221,
+      "max_close_weight_pct": 51.34082465131085
+    },
+    "recent__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 9458.011964519652,
+      "net_return_pct": -5.419880354803485,
+      "net_profit_usd": -541.9880354803481,
+      "annualized_return_pct": -6.823010302015453,
+      "max_close_drawdown_pct": 6.097686071500208,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -636.6081586836335,
+      "return_after_operating_pct": -6.366081586836336,
+      "annualized_after_operating_pct": -8.003617814771612,
+      "daily_sharpe_rf_zero": -1.395499714684419,
+      "closed_trades": 11,
+      "signal_exits": 11,
+      "fees_paid_usd": 425.2391592705905,
+      "exposure_days_pct": 15.972222222222221,
+      "max_close_weight_pct": 42.57548368847852
+    },
+    "recent__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 8524.616620402721,
+      "net_return_pct": -14.753833795972781,
+      "net_profit_usd": -1475.3833795972787,
+      "annualized_return_pct": -18.326751257790907,
+      "max_close_drawdown_pct": 15.08526598287837,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -1570.003502800564,
+      "return_after_operating_pct": -15.700035028005644,
+      "annualized_after_operating_pct": -19.474739597199076,
+      "daily_sharpe_rf_zero": -2.5854691640527983,
+      "closed_trades": 11,
+      "signal_exits": 11,
+      "fees_paid_usd": 1204.3700256309971,
+      "exposure_days_pct": 15.972222222222221,
+      "max_close_weight_pct": 51.15484379799315
+    },
+    "recent__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 8958.321778355576,
+      "net_return_pct": -10.416782216444243,
+      "net_profit_usd": -1041.6782216444244,
+      "annualized_return_pct": -13.021391728727483,
+      "max_close_drawdown_pct": 10.650987684786983,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -1136.2983448477098,
+      "return_after_operating_pct": -11.362983448477094,
+      "annualized_after_operating_pct": -14.18484731839701,
+      "daily_sharpe_rf_zero": -2.5073339016389657,
+      "closed_trades": 11,
+      "signal_exits": 11,
+      "fees_paid_usd": 824.0667606190308,
+      "exposure_days_pct": 15.972222222222221,
+      "max_close_weight_pct": 42.39359140121841
+    },
+    "evaluation__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 7870.839334975406,
+      "net_return_pct": -21.291606650245942,
+      "net_profit_usd": -2129.160665024594,
+      "annualized_return_pct": -8.223852996446956,
+      "max_close_drawdown_pct": 28.54677653852097,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -2463.9450592751073,
+      "return_after_operating_pct": -24.63945059275108,
+      "annualized_after_operating_pct": -9.642634733539325,
+      "daily_sharpe_rf_zero": -0.7146034393416709,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 2694.84335047985,
+      "exposure_days_pct": 22.767419038272816,
+      "max_close_weight_pct": 53.355160625617124
+    },
+    "evaluation__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8683.100698846052,
+      "net_return_pct": -13.168993011539476,
+      "net_profit_usd": -1316.8993011539478,
+      "annualized_return_pct": -4.935442621850983,
+      "max_close_drawdown_pct": 18.53802478110348,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1651.683695404461,
+      "return_after_operating_pct": -16.51683695404461,
+      "annualized_after_operating_pct": -6.2658305086959025,
+      "daily_sharpe_rf_zero": -0.6509112663507708,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 1817.3825451573668,
+      "exposure_days_pct": 22.767419038272816,
+      "max_close_weight_pct": 52.476473984959846
+    },
+    "evaluation__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 5427.507115991906,
+      "net_return_pct": -45.724928840080935,
+      "net_profit_usd": -4572.492884008094,
+      "annualized_return_pct": -19.671388214003215,
+      "max_close_drawdown_pct": 49.208646455509175,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -4907.277278258607,
+      "return_after_operating_pct": -49.07277278258607,
+      "annualized_after_operating_pct": -21.483799977548014,
+      "daily_sharpe_rf_zero": -1.8129003419419167,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 4526.602411498237,
+      "exposure_days_pct": 22.767419038272816,
+      "max_close_weight_pct": 53.16985618952606
+    },
+    "evaluation__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 6826.807187794524,
+      "net_return_pct": -31.731928122054764,
+      "net_profit_usd": -3173.192812205476,
+      "annualized_return_pct": -12.787842906705936,
+      "max_close_drawdown_pct": 34.66038164503769,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -3507.9772064559893,
+      "return_after_operating_pct": -35.07977206455989,
+      "annualized_after_operating_pct": -14.34562186621051,
+      "daily_sharpe_rf_zero": -1.7346451659205038,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 3225.7967474592647,
+      "exposure_days_pct": 22.767419038272816,
+      "max_close_weight_pct": 52.29080016522249
+    },
+    "full__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 10568.494261732263,
+      "net_return_pct": 5.684942617322641,
+      "net_profit_usd": 568.4942617322631,
+      "annualized_return_pct": 0.8176590626380431,
+      "max_close_drawdown_pct": 29.8687952056938,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -246.29013251825018,
+      "return_after_operating_pct": -2.4629013251824983,
+      "annualized_after_operating_pct": -0.3665997013188371,
+      "daily_sharpe_rf_zero": 0.12741127562534046,
+      "closed_trades": 102,
+      "signal_exits": 102,
+      "fees_paid_usd": 7448.335123263994,
+      "exposure_days_pct": 22.862903225806452,
+      "max_close_weight_pct": 57.56740878423976
+    },
+    "full__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 10680.81831460211,
+      "net_return_pct": 6.808183146021096,
+      "net_profit_usd": 680.8183146021092,
+      "annualized_return_pct": 0.9747587154295134,
+      "max_close_drawdown_pct": 18.538024781103523,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -133.96607964840405,
+      "return_after_operating_pct": -1.3396607964840435,
+      "annualized_after_operating_pct": -0.198439231487757,
+      "daily_sharpe_rf_zero": 0.1719283976723816,
+      "closed_trades": 102,
+      "signal_exits": 102,
+      "fees_paid_usd": 4103.321967393165,
+      "exposure_days_pct": 22.862903225806452,
+      "max_close_weight_pct": 52.476473984959846
+    },
+    "full__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 4931.753503631802,
+      "net_return_pct": -50.68246496368198,
+      "net_profit_usd": -5068.246496368198,
+      "annualized_return_pct": -9.887345064418918,
+      "max_close_drawdown_pct": 61.88276862976231,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -5883.030890618711,
+      "return_after_operating_pct": -58.83030890618711,
+      "annualized_after_operating_pct": -12.252313697437156,
+      "daily_sharpe_rf_zero": -0.7543282433279339,
+      "closed_trades": 102,
+      "signal_exits": 102,
+      "fees_paid_usd": 10422.783708510055,
+      "exposure_days_pct": 22.862903225806452,
+      "max_close_weight_pct": 57.38547294960698
+    },
+    "full__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 6824.212546078433,
+      "net_return_pct": -31.75787453921567,
+      "net_profit_usd": -3175.7874539215672,
+      "annualized_return_pct": -5.472199389820876,
+      "max_close_drawdown_pct": 41.00900331911143,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -3990.5718481720805,
+      "return_after_operating_pct": -39.90571848172081,
+      "annualized_after_operating_pct": -7.225859764956455,
+      "daily_sharpe_rf_zero": -0.7296231947828747,
+      "closed_trades": 102,
+      "signal_exits": 102,
+      "fees_paid_usd": 6577.324020526604,
+      "exposure_days_pct": 22.862903225806452,
+      "max_close_weight_pct": 52.29080016522249
+    }
+  },
+  "delay_metrics": {
+    "lag1__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 9006.005158779772,
+      "net_return_pct": -9.939948412202282,
+      "net_profit_usd": -993.9948412202284,
+      "annualized_return_pct": -3.683091448260767,
+      "max_close_drawdown_pct": 16.457518676691684,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1328.7792354707417,
+      "return_after_operating_pct": -13.287792354707417,
+      "annualized_after_operating_pct": -4.982083270043458,
+      "daily_sharpe_rf_zero": -0.273960751127321,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 2889.2910415337683,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 53.95623060949018
+    },
+    "lag1__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 9148.195628701682,
+      "net_return_pct": -8.51804371298318,
+      "net_profit_usd": -851.8043712983181,
+      "annualized_return_pct": -3.140752674129521,
+      "max_close_drawdown_pct": 12.339591102414428,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1186.5887655488314,
+      "return_after_operating_pct": -11.865887655488317,
+      "annualized_after_operating_pct": -4.426509549611623,
+      "daily_sharpe_rf_zero": -0.381306427839486,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 1877.3656306570708,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 52.48014352221646
+    },
+    "lag1__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 6203.796291042889,
+      "net_return_pct": -37.96203708957111,
+      "net_profit_usd": -3796.2037089571113,
+      "annualized_return_pct": -15.728594379588646,
+      "max_close_drawdown_pct": 39.8391520727455,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -4130.988103207625,
+      "return_after_operating_pct": -41.30988103207625,
+      "annualized_after_operating_pct": -17.387737426176898,
+      "daily_sharpe_rf_zero": -1.3937768356747513,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 4823.51664461633,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 53.77124510780189
+    },
+    "lag1__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 7187.582981005033,
+      "net_return_pct": -28.12417018994967,
+      "net_profit_usd": -2812.4170189949673,
+      "annualized_return_pct": -11.16305501134719,
+      "max_close_drawdown_pct": 29.540632657864453,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -3147.2014132454806,
+      "return_after_operating_pct": -31.472014132454806,
+      "annualized_after_operating_pct": -12.66897202979994,
+      "daily_sharpe_rf_zero": -1.4583455319135268,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 3326.2295571961745,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 52.294471005925224
+    },
+    "lag2__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8676.776090111405,
+      "net_return_pct": -13.232239098885945,
+      "net_profit_usd": -1323.2239098885948,
+      "annualized_return_pct": -4.960267950042296,
+      "max_close_drawdown_pct": 20.05646109080854,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1658.008304139108,
+      "return_after_operating_pct": -16.58008304139108,
+      "annualized_after_operating_pct": -6.291290269416605,
+      "daily_sharpe_rf_zero": -0.36079410468843603,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 2920.4878061926115,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 56.97678018221638
+    },
+    "lag2__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8841.572768818209,
+      "net_return_pct": -11.584272311817912,
+      "net_profit_usd": -1158.4272311817913,
+      "annualized_return_pct": -4.317158950213806,
+      "max_close_drawdown_pct": 16.34722460660565,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1493.2116254323046,
+      "return_after_operating_pct": -14.932116254323047,
+      "annualized_after_operating_pct": -5.631898751182385,
+      "daily_sharpe_rf_zero": -0.49219362591053706,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 1897.7599973844963,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 51.91412927926172
+    },
+    "lag2__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 5979.189897276336,
+      "net_return_pct": -40.208101027236644,
+      "net_profit_usd": -4020.8101027236644,
+      "annualized_return_pct": -16.835158977638965,
+      "max_close_drawdown_pct": 40.28097527273846,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -4355.594496974178,
+      "return_after_operating_pct": -43.55594496974178,
+      "annualized_after_operating_pct": -18.535177098342125,
+      "daily_sharpe_rf_zero": -1.404722440895597,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 4863.859823824604,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 56.7942125761869
+    },
+    "lag2__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 6948.848052584568,
+      "net_return_pct": -30.511519474154326,
+      "net_profit_usd": -3051.151947415432,
+      "annualized_return_pct": -12.232185258520945,
+      "max_close_drawdown_pct": 30.569232131110446,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -3385.9363416659453,
+      "return_after_operating_pct": -33.85936341665945,
+      "annualized_after_operating_pct": -13.771914006243168,
+      "daily_sharpe_rf_zero": -1.4758877365158447,
+      "closed_trades": 50,
+      "signal_exits": 50,
+      "fees_paid_usd": 3359.643172080471,
+      "exposure_days_pct": 22.865554465161924,
+      "max_close_weight_pct": 51.72827941581482
+    }
+  },
+  "simulation_count": 58,
+  "audit_cases": 58,
+  "audit_days": 64794,
+  "max_wealth_error_usd": 4.9112713895738125e-11
+}

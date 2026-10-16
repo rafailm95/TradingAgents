@@ -1,0 +1,2365 @@
+{
+  "product": "ETH-USD",
+  "selection": {
+    "selected": "relative_leader28__vol15_cap50",
+    "eligible": [
+      {
+        "id": "relative_leader28__vol15_cap50",
+        "score": 0.03828151876764318
+      }
+    ],
+    "selection_universe": "Only the two preregistered015variants; old42selection/cohorts unchanged."
+  },
+  "assessments": [
+    {
+      "id": "relative_leader28__fixed50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": true,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": false,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": false
+      },
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ]
+    },
+    {
+      "id": "relative_leader28__vol15_cap50",
+      "historical_pass": false,
+      "robust_pass": false,
+      "checks": {
+        "full_base_positive": true,
+        "full_base_drawdown": true,
+        "full_base_20trades": true,
+        "validation_base_positive": true,
+        "validation_base_5trades": true,
+        "recent_base_positive": false,
+        "full_stress_positive": false,
+        "full_stress_drawdown": true,
+        "full_stress_20trades": true,
+        "validation_stress_positive": false,
+        "validation_stress_5trades": true,
+        "recent_stress_positive": false
+      },
+      "delay_checks": {
+        "lag1_base_positive": true,
+        "lag1_base_drawdown": true,
+        "lag2_base_positive": false,
+        "lag2_base_drawdown": true,
+        "lag1_stress_positive": false,
+        "lag1_stress_drawdown": true,
+        "lag2_stress_positive": false,
+        "lag2_stress_drawdown": true
+      },
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive"
+      ],
+      "delay_failed": [
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ]
+    }
+  ],
+  "new_opportunities": [
+    {
+      "product": "ETH-USD",
+      "id": "relative_leader28__fixed50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -30.32751697048923,
+      "worst_pnl_usd": -3032.7516970489232,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 41.24406958107196,
+      "min_signal_exits": 37,
+      "scenarios": [
+        {
+          "lag_days": 0,
+          "cost": "base",
+          "return_pct": -2.356794864299483,
+          "pnl_usd": -235.67948642994816,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 27.472852002306254,
+          "amount_at_max_pct_usd": 3569.3418764603994,
+          "max_cash_drawdown_usd": 3569.3418764603994,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -406.37310573315517,
+              "return_pct": -4.063731057331554,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 1515.0771969726447,
+              "return_pct": 15.79253825138911,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1344.3835776694377,
+              "return_pct": -12.102073892936271,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 0,
+          "cost": "stress",
+          "return_pct": -26.734814927453275,
+          "pnl_usd": -2673.481492745328,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 37.50477135562215,
+          "amount_at_max_pct_usd": 4295.401549127086,
+          "max_cash_drawdown_usd": 4295.401549127086,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1236.8962738743194,
+              "return_pct": -12.368962738743194,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 690.5820310510626,
+              "return_pct": 7.880564382596678,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -2127.1672499220713,
+              "return_pct": -22.50093037318527,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "base",
+          "return_pct": 2.327207128325637,
+          "pnl_usd": 232.72071283256446,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 27.781266189566185,
+          "amount_at_max_pct_usd": 3351.557478648887,
+          "max_cash_drawdown_usd": 3351.557478648887,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -481.4373859959869,
+              "return_pct": -4.814373859959864,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 1111.6823840236466,
+              "return_pct": 11.67909934624063,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -397.5242851950952,
+              "return_pct": -3.7395590155151814,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "stress",
+          "return_pct": -23.205226122073398,
+          "pnl_usd": -2320.52261220734,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 34.648667767622044,
+          "amount_at_max_pct_usd": 3686.2012379401995,
+          "max_cash_drawdown_usd": 3686.2012379401995,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1305.0351108551095,
+              "return_pct": -13.050351108551094,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 387.7278294552907,
+              "return_pct": 4.459222485640435,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1403.2153308075212,
+              "return_pct": -15.449331759665474,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "base",
+          "return_pct": -6.411165305220889,
+          "pnl_usd": -641.1165305220893,
+          "signal_exits": 38,
+          "closed_trades": 38,
+          "max_drawdown_pct": 27.60239396650969,
+          "amount_at_max_pct_usd": 2985.9456830048075,
+          "max_cash_drawdown_usd": 2985.9456830048075,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1534.0621634966155,
+              "return_pct": -15.340621634966157,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 965.0489403019765,
+              "return_pct": 11.399197099474122,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -72.10330732745024,
+              "return_pct": -0.7645361936545303,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "stress",
+          "return_pct": -30.32751697048923,
+          "pnl_usd": -3032.7516970489232,
+          "signal_exits": 38,
+          "closed_trades": 38,
+          "max_drawdown_pct": 41.24406958107196,
+          "amount_at_max_pct_usd": 4279.760890489973,
+          "max_cash_drawdown_usd": 4279.760890489973,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -2319.1065964137697,
+              "return_pct": -23.191065964137692,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 350.05929898415434,
+              "return_pct": 4.557533617387666,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1063.7043996193079,
+              "return_pct": -13.245058699933054,
+              "partial_year": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "product": "ETH-USD",
+      "id": "relative_leader28__vol15_cap50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "selected_within_new_family_by_training": true,
+      "worst_return_pct": -13.835431598845737,
+      "worst_pnl_usd": -1383.5431598845735,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 23.21051020506213,
+      "min_signal_exits": 37,
+      "scenarios": [
+        {
+          "lag_days": 0,
+          "cost": "base",
+          "return_pct": -1.3663091253565463,
+          "pnl_usd": -136.63091253565472,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 15.046470058771591,
+          "amount_at_max_pct_usd": 1713.7167630283548,
+          "max_cash_drawdown_usd": 1713.7167630283548,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -154.83324106784494,
+              "return_pct": -1.5483324106784546,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 686.9105191678318,
+              "return_pct": 6.977134425322196,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -668.7081906356416,
+              "return_pct": -6.349252602106603,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 0,
+          "cost": "stress",
+          "return_pct": -13.793855126485255,
+          "pnl_usd": -1379.385512648525,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 20.54325521045169,
+          "amount_at_max_pct_usd": 2202.279378830701,
+          "max_cash_drawdown_usd": 2202.279378830701,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -604.206637075602,
+              "return_pct": -6.042066370756016,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 362.6872833044399,
+              "return_pct": 3.8601028065984977,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -1137.866158877363,
+              "return_pct": -11.660279915778604,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "base",
+          "return_pct": 3.887755136216464,
+          "pnl_usd": 388.7755136216474,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 14.014688417778789,
+          "amount_at_max_pct_usd": 1544.8079184343314,
+          "max_cash_drawdown_usd": 1544.8079184343314,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -243.3972478198848,
+              "return_pct": -2.4339724781988425,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 579.6114252393345,
+              "return_pct": 5.9407094862996335,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": 52.56133620219771,
+              "return_pct": 0.508516322320629,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 1,
+          "cost": "stress",
+          "return_pct": -9.22027116622176,
+          "pnl_usd": -922.0271166221755,
+          "signal_exits": 37,
+          "closed_trades": 37,
+          "max_drawdown_pct": 18.419466030046436,
+          "amount_at_max_pct_usd": 1911.6481774748427,
+          "max_cash_drawdown_usd": 1911.6481774748427,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -688.0606988135878,
+              "return_pct": -6.880606988135874,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 283.74248319674916,
+              "return_pct": 3.0470826110367666,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -517.7089010053369,
+              "return_pct": -5.39522790186624,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "base",
+          "return_pct": -1.0187326056247392,
+          "pnl_usd": -101.87326056247366,
+          "signal_exits": 38,
+          "closed_trades": 38,
+          "max_drawdown_pct": 15.227829882525423,
+          "amount_at_max_pct_usd": 1596.3175289759656,
+          "max_cash_drawdown_usd": 1596.3175289759656,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -871.6819772434374,
+              "return_pct": -8.71681977243437,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 559.4960021267034,
+              "return_pct": 6.129234331362032,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": 210.3127145542603,
+              "return_pct": 2.1708995859547775,
+              "partial_year": true
+            }
+          ]
+        },
+        {
+          "lag_days": 2,
+          "cost": "stress",
+          "return_pct": -13.835431598845737,
+          "pnl_usd": -1383.5431598845735,
+          "signal_exits": 38,
+          "closed_trades": 38,
+          "max_drawdown_pct": 23.21051020506213,
+          "amount_at_max_pct_usd": 2378.5411060132456,
+          "max_cash_drawdown_usd": 2378.5411060132456,
+          "calendar_segments": [
+            {
+              "year": 2024,
+              "pnl_usd": -1316.882363797362,
+              "return_pct": -13.168823637973615,
+              "partial_year": false
+            },
+            {
+              "year": 2025,
+              "pnl_usd": 295.33095052450153,
+              "return_pct": 3.401208677551182,
+              "partial_year": false
+            },
+            {
+              "year": 2026,
+              "pnl_usd": -361.9917466117131,
+              "return_pct": -4.0317850363017715,
+              "partial_year": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison44": [
+    {
+      "product": "ETH-USD",
+      "id": "obv_breakout__fixed50",
+      "family": "obv_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": true,
+      "failed": [],
+      "original_train_rank": 2,
+      "original_train_selected": false,
+      "worst_return_pct": 14.47894690783913,
+      "worst_pnl_usd": 1447.8946907839127,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 13.900697087365064,
+      "min_signal_exits": 9,
+      "pareto_tier": 1,
+      "review_rank": 1
+    },
+    {
+      "product": "ETH-USD",
+      "id": "obv_breakout__vol15_cap50",
+      "family": "obv_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": true,
+      "failed": [],
+      "original_train_rank": 9,
+      "original_train_selected": false,
+      "worst_return_pct": 8.081202923974363,
+      "worst_pnl_usd": 808.1202923974361,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 8.370220628489996,
+      "min_signal_exits": 9,
+      "pareto_tier": 1,
+      "review_rank": 2
+    },
+    {
+      "product": "ETH-USD",
+      "id": "aroon_trend__fixed50",
+      "family": "aroon_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": true,
+      "failed": [],
+      "original_train_rank": 4,
+      "original_train_selected": false,
+      "worst_return_pct": 3.294358752976989,
+      "worst_pnl_usd": 329.43587529769866,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 32.84936145944187,
+      "min_signal_exits": 10,
+      "pareto_tier": 4,
+      "review_rank": 3
+    },
+    {
+      "product": "ETH-USD",
+      "id": "aroon_trend__vol15_cap50",
+      "family": "aroon_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": true,
+      "failed": [],
+      "original_train_rank": 7,
+      "original_train_selected": false,
+      "worst_return_pct": 1.5518542055144025,
+      "worst_pnl_usd": 155.18542055143917,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.475663539587202,
+      "min_signal_exits": 10,
+      "pareto_tier": 4,
+      "review_rank": 4
+    },
+    {
+      "product": "ETH-USD",
+      "id": "breakout55__fixed50",
+      "family": "breakout55",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 20.867084802944568,
+      "worst_pnl_usd": 2086.7084802944573,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.660723348703563,
+      "min_signal_exits": 5,
+      "pareto_tier": 1,
+      "review_rank": 5
+    },
+    {
+      "product": "ETH-USD",
+      "id": "breakout55__vol15_cap50",
+      "family": "breakout55",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 10.257829410807172,
+      "worst_pnl_usd": 1025.7829410807171,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 10.988294124755727,
+      "min_signal_exits": 5,
+      "pareto_tier": 1,
+      "review_rank": 6
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cmo_momentum__fixed50",
+      "family": "cmo_momentum",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": 11,
+      "original_train_selected": false,
+      "worst_return_pct": 12.033949064577353,
+      "worst_pnl_usd": 1203.3949064577355,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 18.947497021568662,
+      "min_signal_exits": 7,
+      "pareto_tier": 2,
+      "review_rank": 7
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cmo_momentum__vol15_cap50",
+      "family": "cmo_momentum",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": 12,
+      "original_train_selected": false,
+      "worst_return_pct": 6.14993307310463,
+      "worst_pnl_usd": 614.9933073104621,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 11.646694313648435,
+      "min_signal_exits": 7,
+      "pareto_tier": 2,
+      "review_rank": 8
+    },
+    {
+      "product": "ETH-USD",
+      "id": "squeeze_breakout__vol15_cap50",
+      "family": "squeeze_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 20,
+      "original_train_selected": false,
+      "worst_return_pct": -3.678850275694312,
+      "worst_pnl_usd": -367.88502756943126,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 11.633827349591158,
+      "min_signal_exits": 11,
+      "pareto_tier": 2,
+      "review_rank": 9
+    },
+    {
+      "product": "ETH-USD",
+      "id": "keltner_breakout__vol15_cap50",
+      "family": "keltner_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 16,
+      "original_train_selected": false,
+      "worst_return_pct": -4.257475374461118,
+      "worst_pnl_usd": -425.7475374461119,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 11.338126615536671,
+      "min_signal_exits": 9,
+      "pareto_tier": 2,
+      "review_rank": 10
+    },
+    {
+      "product": "ETH-USD",
+      "id": "stochastic_pullback__vol15_cap50",
+      "family": "stochastic_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -5.7566191560017295,
+      "worst_pnl_usd": -575.6619156001725,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 9.999819748900796,
+      "min_signal_exits": 10,
+      "pareto_tier": 2,
+      "review_rank": 11
+    },
+    {
+      "product": "ETH-USD",
+      "id": "adx_directional__vol15_cap50",
+      "family": "adx_directional",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": 13,
+      "original_train_selected": false,
+      "worst_return_pct": 2.924623115541225,
+      "worst_pnl_usd": 292.4623115541217,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 13.523322705206219,
+      "min_signal_exits": 7,
+      "pareto_tier": 3,
+      "review_rank": 12
+    },
+    {
+      "product": "ETH-USD",
+      "id": "adx_directional__fixed50",
+      "family": "adx_directional",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive"
+      ],
+      "original_train_rank": 15,
+      "original_train_selected": false,
+      "worst_return_pct": 4.406927368576241,
+      "worst_pnl_usd": 440.69273685762346,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 25.154744419919904,
+      "min_signal_exits": 7,
+      "pareto_tier": 3,
+      "review_rank": 13
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cmf_trend__vol15_cap50",
+      "family": "cmf_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 17,
+      "original_train_selected": false,
+      "worst_return_pct": -0.14003577515583343,
+      "worst_pnl_usd": -14.003577515582947,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 13.256875271379576,
+      "min_signal_exits": 11,
+      "pareto_tier": 3,
+      "review_rank": 14
+    },
+    {
+      "product": "ETH-USD",
+      "id": "regression_trend__fixed50",
+      "family": "regression_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 4.235536689207309,
+      "worst_pnl_usd": 423.55366892073107,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 35.01549415190885,
+      "min_signal_exits": 7,
+      "pareto_tier": 4,
+      "review_rank": 15
+    },
+    {
+      "product": "ETH-USD",
+      "id": "regression_trend__vol15_cap50",
+      "family": "regression_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": 2.2072585626050856,
+      "worst_pnl_usd": 220.72585626050932,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 20.394380516160872,
+      "min_signal_exits": 7,
+      "pareto_tier": 4,
+      "review_rank": 16
+    },
+    {
+      "product": "ETH-USD",
+      "id": "breakout20__vol15_cap50",
+      "family": "breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 5,
+      "original_train_selected": false,
+      "worst_return_pct": -9.754421362965282,
+      "worst_pnl_usd": -975.4421362965277,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 16.38828296803237,
+      "min_signal_exits": 11,
+      "pareto_tier": 4,
+      "review_rank": 17
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cci_reversion__vol15_cap50",
+      "family": "cci_reversion",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -14.370211219653683,
+      "worst_pnl_usd": -1437.0211219653684,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 15.602809282574249,
+      "min_signal_exits": 17,
+      "pareto_tier": 4,
+      "review_rank": 18
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cmf_trend__fixed50",
+      "family": "cmf_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -1.3823852573006667,
+      "worst_pnl_usd": -138.2385257300666,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 23.47260180078482,
+      "min_signal_exits": 11,
+      "pareto_tier": 5,
+      "review_rank": 19
+    },
+    {
+      "product": "ETH-USD",
+      "id": "keltner_breakout__fixed50",
+      "family": "keltner_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 14,
+      "original_train_selected": false,
+      "worst_return_pct": -8.285299660677392,
+      "worst_pnl_usd": -828.5299660677392,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 21.071688874399676,
+      "min_signal_exits": 9,
+      "pareto_tier": 5,
+      "review_rank": 20
+    },
+    {
+      "product": "ETH-USD",
+      "id": "weekly_confirmed_breakout20__vol15_cap50",
+      "family": "weekly_confirmed_breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 10,
+      "original_train_selected": false,
+      "worst_return_pct": -12.489303756260195,
+      "worst_pnl_usd": -1248.9303756260197,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 19.716642552902858,
+      "min_signal_exits": 9,
+      "pareto_tier": 5,
+      "review_rank": 21
+    },
+    {
+      "product": "ETH-USD",
+      "id": "stochastic_pullback__fixed50",
+      "family": "stochastic_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -8.837213587979242,
+      "worst_pnl_usd": -883.721358797924,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 21.166880281121067,
+      "min_signal_exits": 10,
+      "pareto_tier": 6,
+      "review_rank": 22
+    },
+    {
+      "product": "ETH-USD",
+      "id": "sma50_200__vol15_cap50",
+      "family": "sma50_200",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "validation_base_5trades",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "validation_stress_5trades",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -9.42248766921624,
+      "worst_pnl_usd": -942.2487669216243,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 25.427824456557214,
+      "min_signal_exits": 3,
+      "pareto_tier": 7,
+      "review_rank": 23
+    },
+    {
+      "product": "ETH-USD",
+      "id": "momentum90__vol15_cap50",
+      "family": "momentum90",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -9.715448189732456,
+      "worst_pnl_usd": -971.5448189732451,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.76467606602159,
+      "min_signal_exits": 14,
+      "pareto_tier": 7,
+      "review_rank": 24
+    },
+    {
+      "product": "ETH-USD",
+      "id": "macd_trend__vol15_cap50",
+      "family": "macd_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 18,
+      "original_train_selected": false,
+      "worst_return_pct": -10.564853524251362,
+      "worst_pnl_usd": -1056.4853524251357,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 21.94109307928117,
+      "min_signal_exits": 24,
+      "pareto_tier": 7,
+      "review_rank": 25
+    },
+    {
+      "product": "ETH-USD",
+      "id": "momentum90__fixed50",
+      "family": "momentum90",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "recent_stress_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -9.487096365610503,
+      "worst_pnl_usd": -948.7096365610505,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 36.14183519640798,
+      "min_signal_exits": 14,
+      "pareto_tier": 8,
+      "review_rank": 26
+    },
+    {
+      "product": "ETH-USD",
+      "id": "sma200_band__vol15_cap50",
+      "family": "sma200_band",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -9.918216494232258,
+      "worst_pnl_usd": -991.8216494232256,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.933645604737865,
+      "min_signal_exits": 7,
+      "pareto_tier": 8,
+      "review_rank": 27
+    },
+    {
+      "product": "ETH-USD",
+      "id": "squeeze_breakout__fixed50",
+      "family": "squeeze_breakout",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 19,
+      "original_train_selected": false,
+      "worst_return_pct": -11.483700279247355,
+      "worst_pnl_usd": -1148.370027924735,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 23.039917830570037,
+      "min_signal_exits": 11,
+      "pareto_tier": 8,
+      "review_rank": 28
+    },
+    {
+      "product": "ETH-USD",
+      "id": "relative_leader28__vol15_cap50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "selected_within_new_family_by_training": true,
+      "worst_return_pct": -13.835431598845737,
+      "worst_pnl_usd": -1383.5431598845735,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 23.21051020506213,
+      "min_signal_exits": 37,
+      "pareto_tier": 9,
+      "review_rank": 29
+    },
+    {
+      "product": "ETH-USD",
+      "id": "kama_trend__vol15_cap50",
+      "family": "kama_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -16.615574698022538,
+      "worst_pnl_usd": -1661.5574698022538,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 24.654840163463092,
+      "min_signal_exits": 29,
+      "pareto_tier": 10,
+      "review_rank": 30
+    },
+    {
+      "product": "ETH-USD",
+      "id": "sma200_band__fixed50",
+      "family": "sma200_band",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -17.465128041163368,
+      "worst_pnl_usd": -1746.512804116337,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 40.09257990722471,
+      "min_signal_exits": 7,
+      "pareto_tier": 11,
+      "review_rank": 31
+    },
+    {
+      "product": "ETH-USD",
+      "id": "ichimoku_trend__vol15_cap50",
+      "family": "ichimoku_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 6,
+      "original_train_selected": false,
+      "worst_return_pct": -17.635815589583437,
+      "worst_pnl_usd": -1763.5815589583435,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 25.601915904085924,
+      "min_signal_exits": 20,
+      "pareto_tier": 11,
+      "review_rank": 32
+    },
+    {
+      "product": "ETH-USD",
+      "id": "sma50_200__fixed50",
+      "family": "sma50_200",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "full_base_20trades",
+        "validation_base_positive",
+        "validation_base_5trades",
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "full_stress_20trades",
+        "validation_stress_positive",
+        "validation_stress_5trades",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -18.458360825643705,
+      "worst_pnl_usd": -1845.8360825643704,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 44.290766253138315,
+      "min_signal_exits": 3,
+      "pareto_tier": 12,
+      "review_rank": 33
+    },
+    {
+      "product": "ETH-USD",
+      "id": "breakout20__fixed50",
+      "family": "breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 1,
+      "original_train_selected": true,
+      "worst_return_pct": -19.865598828982435,
+      "worst_pnl_usd": -1986.5598828982438,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 30.32752026264731,
+      "min_signal_exits": 11,
+      "pareto_tier": 12,
+      "review_rank": 34
+    },
+    {
+      "product": "ETH-USD",
+      "id": "cci_reversion__fixed50",
+      "family": "cci_reversion",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -26.40258292504647,
+      "worst_pnl_usd": -2640.258292504647,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 28.565532233933734,
+      "min_signal_exits": 17,
+      "pareto_tier": 12,
+      "review_rank": 35
+    },
+    {
+      "product": "ETH-USD",
+      "id": "weekly_confirmed_breakout20__fixed50",
+      "family": "weekly_confirmed_breakout20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "recent_base_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 3,
+      "original_train_selected": false,
+      "worst_return_pct": -24.91162379914099,
+      "worst_pnl_usd": -2491.162379914099,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 34.71476303666208,
+      "min_signal_exits": 9,
+      "pareto_tier": 13,
+      "review_rank": 36
+    },
+    {
+      "product": "ETH-USD",
+      "id": "bollinger20__vol15_cap50",
+      "family": "bollinger20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -28.96753652066656,
+      "worst_pnl_usd": -2896.7536520666563,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 29.317757707935538,
+      "min_signal_exits": 18,
+      "pareto_tier": 13,
+      "review_rank": 37
+    },
+    {
+      "product": "ETH-USD",
+      "id": "macd_trend__fixed50",
+      "family": "macd_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "validation_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "lag1_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 21,
+      "original_train_selected": false,
+      "worst_return_pct": -25.000849565956575,
+      "worst_pnl_usd": -2500.084956595658,
+      "worst_return_scenario": {
+        "lag_days": 0,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 40.14904585049049,
+      "min_signal_exits": 24,
+      "pareto_tier": 14,
+      "review_rank": 38
+    },
+    {
+      "product": "ETH-USD",
+      "id": "ichimoku_trend__fixed50",
+      "family": "ichimoku_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": 8,
+      "original_train_selected": false,
+      "worst_return_pct": -26.9091505237244,
+      "worst_pnl_usd": -2690.91505237244,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 37.60493159500229,
+      "min_signal_exits": 20,
+      "pareto_tier": 14,
+      "review_rank": 39
+    },
+    {
+      "product": "ETH-USD",
+      "id": "rsi2_pullback__vol15_cap50",
+      "family": "rsi2_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -30.88066261433643,
+      "worst_pnl_usd": -3088.0662614336434,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 32.002777499872046,
+      "min_signal_exits": 52,
+      "pareto_tier": 14,
+      "review_rank": 40
+    },
+    {
+      "product": "ETH-USD",
+      "id": "relative_leader28__fixed50",
+      "family": "relative_leader28",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "selected_within_new_family_by_training": false,
+      "worst_return_pct": -30.32751697048923,
+      "worst_pnl_usd": -3032.7516970489232,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 41.24406958107196,
+      "min_signal_exits": 37,
+      "pareto_tier": 15,
+      "review_rank": 41
+    },
+    {
+      "product": "ETH-USD",
+      "id": "kama_trend__fixed50",
+      "family": "kama_trend",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -34.93931288993253,
+      "worst_pnl_usd": -3493.9312889932526,
+      "worst_return_scenario": {
+        "lag_days": 1,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 44.54127568600478,
+      "min_signal_exits": 29,
+      "pareto_tier": 16,
+      "review_rank": 42
+    },
+    {
+      "product": "ETH-USD",
+      "id": "bollinger20__fixed50",
+      "family": "bollinger20",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag1_base_drawdown",
+        "lag2_base_positive",
+        "lag2_base_drawdown",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": 22,
+      "original_train_selected": false,
+      "worst_return_pct": -45.83106881637609,
+      "worst_pnl_usd": -4583.106881637608,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 46.44920242659376,
+      "min_signal_exits": 18,
+      "pareto_tier": 17,
+      "review_rank": 43
+    },
+    {
+      "product": "ETH-USD",
+      "id": "rsi2_pullback__fixed50",
+      "family": "rsi2_pullback",
+      "classification": "POST_HOC_SPOT_DISCOVERY_NOT_PERPETUAL_VALIDATION",
+      "historical_robust_pass": false,
+      "failed": [
+        "full_base_positive",
+        "full_base_drawdown",
+        "validation_base_positive",
+        "recent_base_positive",
+        "full_stress_positive",
+        "full_stress_drawdown",
+        "validation_stress_positive",
+        "recent_stress_positive",
+        "lag1_base_positive",
+        "lag2_base_positive",
+        "lag1_stress_positive",
+        "lag1_stress_drawdown",
+        "lag2_stress_positive",
+        "lag2_stress_drawdown"
+      ],
+      "original_train_rank": null,
+      "original_train_selected": false,
+      "worst_return_pct": -52.60652979716899,
+      "worst_pnl_usd": -5260.652979716899,
+      "worst_return_scenario": {
+        "lag_days": 2,
+        "cost": "stress"
+      },
+      "worst_drawdown_pct": 54.11570006449574,
+      "min_signal_exits": 52,
+      "pareto_tier": 18,
+      "review_rank": 44
+    }
+  ],
+  "multiplicity": [
+    {
+      "benchmark": "cash",
+      "candidate_count": 44,
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.13436551583072,
+      "family_adjusted_p_exploratory": 0.3938030984507746,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "cash",
+      "candidate_count": 44,
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 4.13436551583072,
+      "family_adjusted_p_exploratory": 0.3733133433283358,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "candidate_count": 44,
+      "block_days": 30,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 2.0377821759547543,
+      "family_adjusted_p_exploratory": 0.6336831584207896,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    },
+    {
+      "benchmark": "buy_hold50",
+      "candidate_count": 44,
+      "block_days": 60,
+      "resamples": 2000,
+      "seed": 20261016,
+      "max_daily_mean_excess_bps": 2.0377821759547543,
+      "family_adjusted_p_exploratory": 0.6136931534232883,
+      "transaction_costs_included": true,
+      "operating_costs_included": false,
+      "prior_research_selection_corrected": false
+    }
+  ],
+  "walk_forward_summary": {
+    "base": {
+      "final_after_operating_usd": 9937.263860872734,
+      "net_profit_usd": -62.73613912726614,
+      "net_return_pct": -0.6273613912726628,
+      "max_drawdown_pct": 22.264680676878776,
+      "amount_at_max_pct_usd": 2814.890004410072,
+      "max_cash_drawdown_usd": 2814.890004410072
+    },
+    "stress": {
+      "final_after_operating_usd": 7705.673505731482,
+      "net_profit_usd": -2294.326494268518,
+      "net_return_pct": -22.943264942685182,
+      "max_drawdown_pct": 36.079069948282964,
+      "amount_at_max_pct_usd": 4342.566177986844,
+      "max_cash_drawdown_usd": 4342.566177986844
+    }
+  },
+  "walk_forward_choices": [
+    {
+      "year": 2022,
+      "selected": "relative_leader28__fixed50"
+    },
+    {
+      "year": 2023,
+      "selected": "relative_leader28__vol15_cap50"
+    },
+    {
+      "year": 2024,
+      "selected": "relative_leader28__vol15_cap50"
+    },
+    {
+      "year": 2025,
+      "selected": "cash"
+    },
+    {
+      "year": 2026,
+      "selected": "relative_leader28__vol15_cap50"
+    }
+  ],
+  "metrics": {
+    "train__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 18841.50469369161,
+      "net_return_pct": 88.41504693691611,
+      "net_profit_usd": 8841.504693691611,
+      "annualized_return_pct": 17.159873937313108,
+      "max_close_drawdown_pct": 31.955630656858713,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 8361.504693691611,
+      "return_after_operating_pct": 83.6150469369161,
+      "annualized_after_operating_pct": 16.406455915007157,
+      "daily_sharpe_rf_zero": 0.7063196537824165,
+      "closed_trades": 53,
+      "signal_exits": 53,
+      "fees_paid_usd": 5334.991638265424,
+      "exposure_days_pct": 28.88432580424367,
+      "max_close_weight_pct": 63.95158629595146
+    },
+    "train__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 12664.053121783723,
+      "net_return_pct": 26.64053121783723,
+      "net_profit_usd": 2664.0531217837233,
+      "annualized_return_pct": 6.082361963427907,
+      "max_close_drawdown_pct": 12.823281829980871,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 2184.0531217837233,
+      "return_after_operating_pct": 21.840531217837224,
+      "annualized_after_operating_pct": 5.062552053987313,
+      "daily_sharpe_rf_zero": 0.6144665932528253,
+      "closed_trades": 53,
+      "signal_exits": 53,
+      "fees_paid_usd": 1549.0755509324586,
+      "exposure_days_pct": 28.88432580424367,
+      "max_close_weight_pct": 38.18596698932454
+    },
+    "train__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 12630.963739299375,
+      "net_return_pct": 26.309637392993746,
+      "net_profit_usd": 2630.9637392993754,
+      "annualized_return_pct": 6.012999405507635,
+      "max_close_drawdown_pct": 41.03735125847322,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 2150.9637392993754,
+      "return_after_operating_pct": 21.509637392993763,
+      "annualized_after_operating_pct": 4.991147221465941,
+      "daily_sharpe_rf_zero": 0.34924310898194805,
+      "closed_trades": 53,
+      "signal_exits": 53,
+      "fees_paid_usd": 8573.196158449333,
+      "exposure_days_pct": 28.88432580424367,
+      "max_close_weight_pct": 63.77980097647619
+    },
+    "train__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1461,
+      "final_usd": 10804.423807861473,
+      "net_return_pct": 8.044238078614718,
+      "net_profit_usd": 804.4238078614726,
+      "annualized_return_pct": 1.9530923172641268,
+      "max_close_drawdown_pct": 20.933728632949354,
+      "operating_cost_usd": 480.0,
+      "profit_after_operating_usd": 324.4238078614726,
+      "return_after_operating_pct": 3.2442380786147362,
+      "annualized_after_operating_pct": 0.8013749255390001,
+      "daily_sharpe_rf_zero": 0.23632771049471607,
+      "closed_trades": 53,
+      "signal_exits": 53,
+      "fees_paid_usd": 2838.4729109408945,
+      "exposure_days_pct": 28.88432580424367,
+      "max_close_weight_pct": 38.0104147326202
+    },
+    "validation__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 11348.868362286717,
+      "net_return_pct": 13.488683622867171,
+      "net_profit_usd": 1348.8683622867175,
+      "annualized_return_pct": 6.526457674823094,
+      "max_close_drawdown_pct": 13.954472291189957,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": 1108.7040912394896,
+      "return_after_operating_pct": 11.087040912394897,
+      "annualized_after_operating_pct": 5.39404729930506,
+      "daily_sharpe_rf_zero": 0.45807376314448556,
+      "closed_trades": 21,
+      "signal_exits": 21,
+      "fees_paid_usd": 1293.0435811400303,
+      "exposure_days_pct": 25.718194254445965,
+      "max_close_weight_pct": 61.908886630388814
+    },
+    "validation__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 10772.241549147215,
+      "net_return_pct": 7.7224154914721455,
+      "net_profit_usd": 772.2415491472148,
+      "annualized_return_pct": 3.7867692168619405,
+      "max_close_drawdown_pct": 7.0286028468789175,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": 532.0772780999869,
+      "return_after_operating_pct": 5.320772780999872,
+      "annualized_after_operating_pct": 2.6240899200225654,
+      "daily_sharpe_rf_zero": 0.487871427761061,
+      "closed_trades": 21,
+      "signal_exits": 21,
+      "fees_paid_usd": 605.2360702247842,
+      "exposure_days_pct": 25.718194254445965,
+      "max_close_weight_pct": 34.080102242105944
+    },
+    "validation__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 9693.850028223971,
+      "net_return_pct": -3.0614997177602854,
+      "net_profit_usd": -306.1499717760289,
+      "annualized_return_pct": -1.5416016957690126,
+      "max_close_drawdown_pct": 16.791502266418725,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -546.3142428232568,
+      "return_after_operating_pct": -5.463142428232571,
+      "annualized_after_operating_pct": -2.768065730666147,
+      "daily_sharpe_rf_zero": -0.0068471849368573565,
+      "closed_trades": 21,
+      "signal_exits": 21,
+      "fees_paid_usd": 2376.7368273618044,
+      "exposure_days_pct": 25.718194254445965,
+      "max_close_weight_pct": 61.733191741739724
+    },
+    "validation__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 731,
+      "final_usd": 9998.644917276066,
+      "net_return_pct": -0.013550827239339203,
+      "net_profit_usd": -1.3550827239341743,
+      "annualized_return_pct": -0.006771008820427582,
+      "max_close_drawdown_pct": 8.414939226501172,
+      "operating_cost_usd": 240.1642710472279,
+      "profit_after_operating_usd": -241.51935377116206,
+      "return_after_operating_pct": -2.415193537711624,
+      "annualized_after_operating_pct": -1.2141516495011384,
+      "daily_sharpe_rf_zero": 0.04088907059329916,
+      "closed_trades": 21,
+      "signal_exits": 21,
+      "fees_paid_usd": 1159.159838490764,
+      "exposure_days_pct": 25.718194254445965,
+      "max_close_weight_pct": 33.913069981125076
+    },
+    "recent__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 8898.777028184399,
+      "net_return_pct": -11.012229718156007,
+      "net_profit_usd": -1101.2229718156013,
+      "annualized_return_pct": -13.753944743089708,
+      "max_close_drawdown_pct": 15.323736852424263,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -1195.8430950188867,
+      "return_after_operating_pct": -11.95843095018887,
+      "annualized_after_operating_pct": -14.91530988223535,
+      "daily_sharpe_rf_zero": -0.8484776808260508,
+      "closed_trades": 16,
+      "signal_exits": 16,
+      "fees_paid_usd": 864.0531786544398,
+      "exposure_days_pct": 40.97222222222222,
+      "max_close_weight_pct": 53.406735158863015
+    },
+    "recent__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 9467.067216406966,
+      "net_return_pct": -5.329327835930342,
+      "net_profit_usd": -532.9327835930344,
+      "annualized_return_pct": -6.709858145084347,
+      "max_close_drawdown_pct": 7.805163431894946,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -627.5529067963198,
+      "return_after_operating_pct": -6.275529067963193,
+      "annualized_after_operating_pct": -7.89077026485111,
+      "daily_sharpe_rf_zero": -0.9084426517885746,
+      "closed_trades": 16,
+      "signal_exits": 16,
+      "fees_paid_usd": 427.23767119911565,
+      "exposure_days_pct": 40.97222222222222,
+      "max_close_weight_pct": 36.511140962156055
+    },
+    "recent__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 7903.261221495114,
+      "net_return_pct": -20.967387785048864,
+      "net_profit_usd": -2096.738778504886,
+      "annualized_return_pct": -25.80151882361047,
+      "max_close_drawdown_pct": 23.57883074948535,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -2191.3589017081713,
+      "return_after_operating_pct": -21.913589017081712,
+      "annualized_after_operating_pct": -26.926305039497798,
+      "daily_sharpe_rf_zero": -1.7599628240805316,
+      "closed_trades": 16,
+      "signal_exits": 16,
+      "fees_paid_usd": 1625.6655097418673,
+      "exposure_days_pct": 40.97222222222222,
+      "max_close_weight_pct": 53.22145597755333
+    },
+    "recent__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 288,
+      "final_usd": 8956.612576698757,
+      "net_return_pct": -10.43387423301243,
+      "net_profit_usd": -1043.387423301243,
+      "annualized_return_pct": -13.042437542576158,
+      "max_close_drawdown_pct": 12.024249501475627,
+      "operating_cost_usd": 94.62012320328542,
+      "profit_after_operating_usd": -1138.0075465045284,
+      "return_after_operating_pct": -11.38007546504528,
+      "annualized_after_operating_pct": -14.205833269646629,
+      "daily_sharpe_rf_zero": -1.8278291556631125,
+      "closed_trades": 16,
+      "signal_exits": 16,
+      "fees_paid_usd": 826.8930026423393,
+      "exposure_days_pct": 40.97222222222222,
+      "max_close_weight_pct": 36.33876195377336
+    },
+    "evaluation__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 10099.104907820565,
+      "net_return_pct": 0.9910490782056414,
+      "net_profit_usd": 99.10490782056513,
+      "annualized_return_pct": 0.35410805395259537,
+      "max_close_drawdown_pct": 26.228924001376118,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -235.67948642994816,
+      "return_after_operating_pct": -2.356794864299483,
+      "annualized_after_operating_pct": -0.8512389463217307,
+      "daily_sharpe_rf_zero": 0.10365264401337461,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 2273.6461593964946,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 61.908886630388814
+    },
+    "evaluation__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 10198.153481714859,
+      "net_return_pct": 1.981534817148578,
+      "net_profit_usd": 198.15348171485857,
+      "annualized_return_pct": 0.7057942795957617,
+      "max_close_drawdown_pct": 13.77252634076871,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -136.63091253565472,
+      "return_after_operating_pct": -1.3663091253565463,
+      "annualized_after_operating_pct": -0.4919020074759417,
+      "daily_sharpe_rf_zero": 0.12734835545038942,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 1065.4668095299853,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 36.511140962156055
+    },
+    "evaluation__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 7661.302901505185,
+      "net_return_pct": -23.386970984948153,
+      "net_profit_usd": -2338.697098494815,
+      "annualized_return_pct": -9.107201168473345,
+      "max_close_drawdown_pct": 35.85776019471587,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -2673.481492745328,
+      "return_after_operating_pct": -26.734814927453275,
+      "annualized_after_operating_pct": -10.551314703351022,
+      "daily_sharpe_rf_zero": -0.4845708280390804,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 3952.6325921111984,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 61.733191741739724
+    },
+    "evaluation__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8955.398881601988,
+      "net_return_pct": -10.446011183980119,
+      "net_profit_usd": -1044.6011183980117,
+      "annualized_return_pct": -3.8774373131433615,
+      "max_close_drawdown_pct": 19.091961431776163,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1379.385512648525,
+      "return_after_operating_pct": -13.793855126485255,
+      "annualized_after_operating_pct": -5.181224222780612,
+      "daily_sharpe_rf_zero": -0.44478619051040935,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 1985.9407902908608,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 36.33876195377334
+    },
+    "full__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 19028.233252278525,
+      "net_return_pct": 90.28233252278525,
+      "net_profit_usd": 9028.233252278525,
+      "annualized_return_pct": 9.938374257288896,
+      "max_close_drawdown_pct": 31.955630656858713,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": 8213.448858028012,
+      "return_after_operating_pct": 82.13448858028012,
+      "annualized_after_operating_pct": 9.232053909987336,
+      "daily_sharpe_rf_zero": 0.5152681705529178,
+      "closed_trades": 90,
+      "signal_exits": 90,
+      "fees_paid_usd": 9618.88311667172,
+      "exposure_days_pct": 29.35483870967742,
+      "max_close_weight_pct": 63.95158629595146
+    },
+    "full__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 12914.995743654066,
+      "net_return_pct": 29.149957436540653,
+      "net_profit_usd": 2914.9957436540662,
+      "annualized_return_pct": 3.8393035364273187,
+      "max_close_drawdown_pct": 15.587909825956636,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": 2100.211349403553,
+      "return_after_operating_pct": 21.002113494035534,
+      "annualized_after_operating_pct": 2.847466910301444,
+      "daily_sharpe_rf_zero": 0.44120047628441567,
+      "closed_trades": 90,
+      "signal_exits": 90,
+      "fees_paid_usd": 2898.3883784709737,
+      "exposure_days_pct": 29.35483870967742,
+      "max_close_weight_pct": 38.18596698932454
+    },
+    "full__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 9676.963914470107,
+      "net_return_pct": -3.2303608552989305,
+      "net_profit_usd": -323.03608552989317,
+      "annualized_return_pct": -0.4824482941333863,
+      "max_close_drawdown_pct": 54.40294433515657,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -1137.8204797804065,
+      "return_after_operating_pct": -11.37820479780407,
+      "annualized_after_operating_pct": -1.7632775600286532,
+      "daily_sharpe_rf_zero": 0.10104183156280527,
+      "closed_trades": 90,
+      "signal_exits": 90,
+      "fees_paid_usd": 13565.752053022277,
+      "exposure_days_pct": 29.35483870967742,
+      "max_close_weight_pct": 63.77980097647619
+    },
+    "full__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 2480,
+      "final_usd": 9675.792488527659,
+      "net_return_pct": -3.2420751147234084,
+      "net_profit_usd": -324.20751147234114,
+      "annualized_return_pct": -0.4842226321553844,
+      "max_close_drawdown_pct": 28.385900023939936,
+      "operating_cost_usd": 814.7843942505134,
+      "profit_after_operating_usd": -1138.9919057228544,
+      "return_after_operating_pct": -11.389919057228548,
+      "annualized_after_operating_pct": -1.765190102902403,
+      "daily_sharpe_rf_zero": -0.002288230941724145,
+      "closed_trades": 90,
+      "signal_exits": 90,
+      "fees_paid_usd": 4984.167506503076,
+      "exposure_days_pct": 29.35483870967742,
+      "max_close_weight_pct": 38.0104147326202
+    }
+  },
+  "delay_metrics": {
+    "lag1__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 10567.505107083078,
+      "net_return_pct": 5.675051070830772,
+      "net_profit_usd": 567.5051070830777,
+      "annualized_return_pct": 1.998241032040804,
+      "max_close_drawdown_pct": 26.731730388207954,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": 232.72071283256446,
+      "return_after_operating_pct": 2.327207128325637,
+      "annualized_after_operating_pct": 0.8280141890223192,
+      "daily_sharpe_rf_zero": 0.20028253801488485,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 2193.680070222064,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 61.85022487405144
+    },
+    "lag1__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 10723.55990787216,
+      "net_return_pct": 7.2355990787216,
+      "net_profit_usd": 723.5599078721607,
+      "annualized_return_pct": 2.5356040185656736,
+      "max_close_drawdown_pct": 13.109614067532815,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": 388.7755136216474,
+      "return_after_operating_pct": 3.887755136216464,
+      "annualized_after_operating_pct": 1.3765071885459168,
+      "daily_sharpe_rf_zero": 0.32995795991104776,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 1053.943987201479,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 40.37292702924301
+    },
+    "lag1__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8014.261782043173,
+      "net_return_pct": -19.857382179568273,
+      "net_profit_usd": -1985.7382179568267,
+      "annualized_return_pct": -7.627887538935707,
+      "max_close_drawdown_pct": 33.174025531414586,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -2320.52261220734,
+      "return_after_operating_pct": -23.205226122073398,
+      "annualized_after_operating_pct": -9.029973158074245,
+      "daily_sharpe_rf_zero": -0.3782310134150919,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 3817.952189931403,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 61.67442691301075
+    },
+    "lag1__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 9412.757277628338,
+      "net_return_pct": -5.872427223716626,
+      "net_profit_usd": -587.2427223716622,
+      "annualized_return_pct": -2.145887919978262,
+      "max_close_drawdown_pct": 16.960854334335774,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -922.0271166221755,
+      "return_after_operating_pct": -9.22027116622176,
+      "annualized_after_operating_pct": -3.4079130622094778,
+      "daily_sharpe_rf_zero": -0.2033095020926377,
+      "closed_trades": 37,
+      "signal_exits": 37,
+      "fees_paid_usd": 1964.5350782502478,
+      "exposure_days_pct": 30.029440628066734,
+      "max_close_weight_pct": 40.19385823229169
+    },
+    "lag2__base__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 9693.667863728424,
+      "net_return_pct": -3.063321362715765,
+      "net_profit_usd": -306.332136271576,
+      "annualized_return_pct": -1.1089901099047172,
+      "max_close_drawdown_pct": 25.276156419776974,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -641.1165305220893,
+      "return_after_operating_pct": -6.411165305220889,
+      "annualized_after_operating_pct": -2.347007829203951,
+      "daily_sharpe_rf_zero": 0.01908239304682749,
+      "closed_trades": 38,
+      "signal_exits": 38,
+      "fees_paid_usd": 2069.3813434950466,
+      "exposure_days_pct": 30.12757605495584,
+      "max_close_weight_pct": 61.9679799267966
+    },
+    "lag2__base__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 10232.91113368804,
+      "net_return_pct": 2.3291113368804073,
+      "net_profit_usd": 232.91113368803963,
+      "annualized_return_pct": 0.8286867289193145,
+      "max_close_drawdown_pct": 13.391019170398888,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -101.87326056247366,
+      "return_after_operating_pct": -1.0187326056247392,
+      "annualized_after_operating_pct": -0.3663541365839018,
+      "daily_sharpe_rf_zero": 0.1365269509799839,
+      "closed_trades": 38,
+      "signal_exits": 38,
+      "fees_paid_usd": 1036.160555085945,
+      "exposure_days_pct": 30.12757605495584,
+      "max_close_weight_pct": 41.15453308041264
+    },
+    "lag2__stress__relative_leader28__fixed50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 7302.03269720159,
+      "net_return_pct": -26.9796730279841,
+      "net_profit_usd": -2697.96730279841,
+      "annualized_return_pct": -10.658583405455246,
+      "max_close_drawdown_pct": 38.466361137876994,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -3032.7516970489232,
+      "return_after_operating_pct": -30.32751697048923,
+      "annualized_after_operating_pct": -12.148952607906116,
+      "daily_sharpe_rf_zero": -0.5604456839227214,
+      "closed_trades": 38,
+      "signal_exits": 38,
+      "fees_paid_usd": 3601.8977940651403,
+      "exposure_days_pct": 30.12757605495584,
+      "max_close_weight_pct": 61.792389388137416
+    },
+    "lag2__stress__relative_leader28__vol15_cap50": {
+      "initial_usd": 10000,
+      "days": 1019,
+      "final_usd": 8951.24123436594,
+      "net_return_pct": -10.487587656340603,
+      "net_profit_usd": -1048.7587656340602,
+      "annualized_return_pct": -3.893435426666836,
+      "max_close_drawdown_pct": 20.43887624952744,
+      "operating_cost_usd": 334.78439425051334,
+      "profit_after_operating_usd": -1383.5431598845735,
+      "return_after_operating_pct": -13.835431598845737,
+      "annualized_after_operating_pct": -5.1976183009072585,
+      "daily_sharpe_rf_zero": -0.3926498470234852,
+      "closed_trades": 38,
+      "signal_exits": 38,
+      "fees_paid_usd": 1930.031125901431,
+      "exposure_days_pct": 30.12757605495584,
+      "max_close_weight_pct": 40.974379818194166
+    }
+  },
+  "simulation_count": 58,
+  "audit_cases": 58,
+  "audit_days": 64794,
+  "max_wealth_error_usd": 3.8198777474462986e-11
+}
