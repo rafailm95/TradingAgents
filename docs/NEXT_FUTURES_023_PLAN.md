@@ -1,0 +1,11 @@
+# Next bounded evidence gap after022
+
+Plan only; NOT an active protocol, outcome freeze or authorization to alter existing candidates. Prioritize the unchanged013 replay when the already-requested single BYBIT_SEND_THIS.zip arrives. Do not request serial uploads, account keys or a second collector package.
+
+If the packet is absent, the useful next gap is calendar transfer for the same BTCUSDT/SOLUSDT/XRPUSDT native Binance USD-M contracts: a separate official public-data extension covering2026-01-01 through2026-09-30 (end2026-10-01exclusive). These dates have not been evaluated in021/022; they are historical, not prospective evidence. Keep all prior outcomes and raw inputs unchanged.
+
+Before collection/evaluation, reconcile the latest registry, freeze a precise data inventory and access policy, then verify trade/mark/funding coverage and official checksums. Nine complete months imply81monthly archives across3assets×3series, but availability/cadence must be verified without assuming success. Stop on access restrictions; no bypass, invented funding or redownload to improve returns. If schedule changes appear, record the gap and publish a separate causal contract before any outcome.
+
+Reuse the same six frozen daily variants, costs/delays/funding sensitivities, hypothetical10000USDT accounts,50%entrycap and conservative margin guard. No strategy retuning from021/022, no automatic adoption of posthoc winners. Train-only selection can use2023–2025 before evaluating2026, with the exact eligibility rule and its10exit threshold. Retain all six candidates regardless of prior strength. Every gate and reporting comparison must be frozen before outcomes. At most3assets and267new planned scenarios (36training,216evaluation,15benchmarks); avoid duplicate WFA execution if the only held-out fold is the same2026window and reuse its exact selected outcome with provenance.
+
+The shortened2026evaluation may lack20completed exits; disclose that rather than lowering the sample gate. Report both positive evidence and failures, percentage and actualUSDT, drawdowns, expenses, all old/new compatible comparison diagnostics and the full priorsearch count. Same markets and overlapping development histories remain dependent. No guarantee of profit, new prospective cohort, live order or access to another project.

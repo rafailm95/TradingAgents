@@ -1,0 +1,258 @@
+{
+  "curves": [
+    {
+      "symbol": "BTCUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 4.547473508864641e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 7.09405867382884e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.3096723705530167e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.127773430198431e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.7280399333685637e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.000444171950221e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0186340659856796e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.382431946694851e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 2.7284841053187847e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 2.4374458007514477e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 2.255546860396862e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.9281287677586079e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 3.2741809263825417e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 8.731149137020111e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 4.3655745685100555e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 8.185452315956354e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0186340659856796e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0732037480920553e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.3278622645884752e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.0550138540565968e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "terminal_error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "terminal_error_usdt": 2.000888343900442e-11
+    }
+  ],
+  "maximum_error_usdt": 2.4374458007514477e-10,
+  "shared_dates": "2024-01-01..2025-12-31"
+}

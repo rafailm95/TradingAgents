@@ -1,0 +1,8 @@
+{
+  "scripts/package_sol_funding_022.py": "ea0d65b49f05f989d87ba78d522c363206595a845029e525747e72d8f8a561ef",
+  "scripts/report_cross_asset_022.py": "4df5f826e79bf27bb0bef073430b69038390bd54e92eccaba7995806161a27e9",
+  "scripts/archive_sol_funding_022.py": "671d27f229b97b0182769a3aae116f732d0c940a377a08bfb2fac3fa88087886",
+  "docs/SOL_FUNDING_022_RESULTS.md": "f3ec921b2d8eda1135d5cc166dda1a24c90a85cd5a132514e30457c9543fc811",
+  "docs/SOL_FUNDING_022_REPRODUCE.md": "2e7701699adc00ccc31a316f1e313367a22e24368a64e81e84f11c5a3c564294",
+  "docs/NEXT_FUTURES_023_PLAN.md": "d92b55edcf3104af13e8d06765ed60e8329dfdcb3436c3d0b35d7e1325f6390d"
+}

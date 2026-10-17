@@ -1,0 +1,15 @@
+{
+  "classification": "Descriptive posthoc sign check across all six preregistered candidates; not replacement for full gates, training selection or prior-search correction. Correlated dates, no future validation.",
+  "candidates_checked": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "positive_in_every_cost_lag_funding_scenario_on_all3": [
+    "obv_breakout__fixed50"
+  ],
+  "full_cross_asset_passes": []
+}

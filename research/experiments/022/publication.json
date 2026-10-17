@@ -1,0 +1,16 @@
+{
+  "starting_remote_head": "c03579011738a60b024eb8799d943266f154f39b",
+  "preregistration_commit": "9f2994071c2f7231c063b3d504253e2feda0fd21",
+  "freeze_sha256": "599c6e7da6f68036fcf28d8ff1286d7321d736da23026d75c0794b2ee283d100",
+  "selection1_commit": "00e6d6503fdf6dff66dddcbe00ad7bda14e94937",
+  "selection1_sha256": "975d80d1ddbca1bdee4f651695c04ad8ae759a3308d3b429d7fb9ef2a0929dbf",
+  "selection2_commit": "04c4d6f7fa7a3e480d9e0335faf95d56e3b70558",
+  "selection2_sha256": "3afb1c1642e91ecacc3b8671384e227cd6568e3f9856678b572e506762d746cd",
+  "remote_heads_verified_after_each_checkpoint": true,
+  "force": false,
+  "only_branch": "codex/research-continuation-20261016",
+  "source_commit_before_any_real_SOL_PnL": true,
+  "train1_committed_before_train2": true,
+  "train2_committed_before_evaluation": true,
+  "evaluation_command": ".venv-research/bin/python scripts/run_sol_funding_022.py --data-root ../futures-022-data --freeze-sha256 599c6e7da6f68036fcf28d8ff1286d7321d736da23026d75c0794b2ee283d100 --stage evaluate --output ../futures-022-evaluation --train1 ../futures-022-train1 --selection1-sha256 975d80d1ddbca1bdee4f651695c04ad8ae759a3308d3b429d7fb9ef2a0929dbf --train2 ../futures-022-train2 --selection2-sha256 3afb1c1642e91ecacc3b8671384e227cd6568e3f9856678b572e506762d746cd"
+}

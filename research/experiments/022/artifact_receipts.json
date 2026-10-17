@@ -1,0 +1,115 @@
+{
+  "artifacts": [
+    {
+      "filename": "Futures_022_SOL_BTC_XRP_EL.html",
+      "library_file_id": "libfile_471d11cedb708191af9d18c4256737d0",
+      "file_id": "file_00000000a21481f9b22b8b3ba8b12942",
+      "sha256": "9d232f7f9daf0f5dd536c42680e6dc38a667c93d4603f96959a7956fe11f92fd",
+      "bytes": 36666,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part1.zip",
+      "library_file_id": "libfile_330fe6717f908191b3c679a89459e193",
+      "file_id": "file_0000000023f481f9867d199bd9b19532",
+      "sha256": "90da97124fcd686a241fadd1e7203615da65bd15faada7530f29e15fae457b0f",
+      "bytes": 21061664,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part2.zip",
+      "library_file_id": "libfile_a26b1308d06c81919337f62898d84a3b",
+      "file_id": "file_00000000a9f881f98773e8d4f8ea179e",
+      "sha256": "7818b26439159c4efd2816c8c2d992e10e09b7d110db27f2de657eff6ab4577b",
+      "bytes": 19433806,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part3.zip",
+      "library_file_id": "libfile_852b542a46608191809393eb5865fc8b",
+      "file_id": "file_000000003c7481f987718eb0c579c197",
+      "sha256": "b750471fe7df53c7bed827b52d83a5c35af4eca939832709821c4744a0756d47",
+      "bytes": 21321137,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part4.zip",
+      "library_file_id": "libfile_01fec4e674fc81918cfbb82f6cfbbdc0",
+      "file_id": "file_000000005dc881f982ce1359ada7e18e",
+      "sha256": "35e15f1c81291e6fa7aea0eb3ce60b4a5e4df8488210601ad01006d8dcdab923",
+      "bytes": 21136264,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part5.zip",
+      "library_file_id": "libfile_25d08f7175e48191981f3829288cba57",
+      "file_id": "file_0000000099e081f9b13079f6203e12e8",
+      "sha256": "26897508f86b19c07a83bc37e9a7d30c3e548af42c00b68540de89f3c96feb28",
+      "bytes": 21242717,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part6.zip",
+      "library_file_id": "libfile_3eba6cf8d7a08191ad13bb5b1c37ee75",
+      "file_id": "file_0000000064fc81f9b0688d98a307fab7",
+      "sha256": "e0a081354524d5474eff4946783d603269a45c40cfed3243f1438164d9df5094",
+      "bytes": 19894301,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part7.zip",
+      "library_file_id": "libfile_d67e7ad0e8f881919ee703cac82ed784",
+      "file_id": "file_00000000498881f98579546e6a2edb61",
+      "sha256": "f1795731cb843a0ba01f281cee49f0e6e136c05f80d2841c38e4810f76b26ff0",
+      "bytes": 20049661,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part8.zip",
+      "library_file_id": "libfile_5e4131e9546c8191a01ee217a74df4f1",
+      "file_id": "file_00000000e30881f9a174d919fba824cf",
+      "sha256": "3a1a6e2486bcca5df2f046cb3c2a745a31d659845ec3a026dc6877195c754d0e",
+      "bytes": 21826134,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part9.zip",
+      "library_file_id": "libfile_04f6d8b58c6c8191802213a3cee98af0",
+      "file_id": "file_00000000cf4c81f98abbbc9f2d290773",
+      "sha256": "fe66b5663fced9de55b03d2f11cbab1e43e089829f7479fa707e8e5f40c44290",
+      "bytes": 21832920,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part10.zip",
+      "library_file_id": "libfile_11b13193c5c881919945c447af20615d",
+      "file_id": "file_00000000455481f9ba08de8174ab237e",
+      "sha256": "8e1ab3fd9e3470e4a463c5801209cb105e842c3ea2fd253c920008cb6176e31f",
+      "bytes": 22028362,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part11.zip",
+      "library_file_id": "libfile_5ec9868049008191b56aa35b8c662701",
+      "file_id": "file_00000000f37881f99f85d15ed1d31055",
+      "sha256": "18b97071dddd6ff6ba6ef52655327c750a90754d96bc55fec2cac40b1339b2c1",
+      "bytes": 20095597,
+      "status": "PERSISTED"
+    },
+    {
+      "filename": "Futures_022_Results_Part12.zip",
+      "library_file_id": "libfile_ddce4e60e7c88191a2e680c36375fe6c",
+      "file_id": "file_0000000020b881f9b0156785610a162f",
+      "sha256": "7c3b227414173f2256c1983f6ff51ac429583eb2e673c1015bddcf2e94c6d4fe",
+      "bytes": 2145143,
+      "status": "PERSISTED"
+    }
+  ],
+  "all_succeeded": true,
+  "full_results_archive_parts": 12,
+  "full_results_archive_bytes": 232067706,
+  "raw_input_receipt": "research/experiments/022/input-receipt.json",
+  "normalized_input_also_source_controlled": true,
+  "all_125_result_files_persisted": true,
+  "temporary_scratch_is_not_the_only_copy": true
+}

@@ -1,0 +1,20 @@
+{
+  "engine_freeze_sha256": "599c6e7da6f68036fcf28d8ff1286d7321d736da23026d75c0794b2ee283d100",
+  "preserved_files_verified": 604,
+  "source_hashes_verified": 11,
+  "full_results_verified": 125,
+  "result_status_counts": {
+    "COMPLETE": 125
+  },
+  "wealth_events": 9934857,
+  "max_error_usdt": "0",
+  "integrity_failures": [],
+  "new_integrity_replays": 0,
+  "software_tests": 157,
+  "new_tests": 29,
+  "new_synthetic_matrix_executions": 125,
+  "inherited_synthetic_matrix_executions": 125,
+  "prior021_results_not_rerun": true,
+  "daily_diagnostic_curves_reconciled": 42,
+  "max_daily_terminal_error_usdt": 2.4374458007514477e-10
+}
