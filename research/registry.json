@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T18:14:23.010Z",
+  "updated_utc": "2026-10-17T18:26:28.052988+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 35,
@@ -570,8 +570,8 @@
   ],
   "active_experiment": {
     "id": "025",
-    "attempt": "025-initial",
-    "status": "PREREGISTERED_RUNTIME_TRANSPORT_INTERRUPTED",
+    "attempt": "025-recovery-1",
+    "status": "RECOVERED_READY_FOR_TRAIN1",
     "new_families": 10,
     "new_variants": 20,
     "planned_total_variants": 90,
@@ -585,14 +585,16 @@
     "remote_preregistration_verified": true,
     "verified_new_historical_simulations": 0,
     "training_launch_state": "No process/session identifier returned; local state must be inspected before any retry.",
-    "runtime_interruption_record": "research/experiments/025/runtime-interruption.json"
+    "runtime_interruption_record": "research/experiments/025/runtime-interruption.json",
+    "recovery_record": "research/experiments/025/runtime-recovery-success.json",
+    "prior_interruption_preserved": true
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "8934 design executions +7 prior integrity replays=8941 known executions;70variants/35families.024adds20variants/10families,1032newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Recover active025, not a new batch. Inspect processes and futures-025-train1 directory/log/intent before launching anything. Preserve any partial files; never overwrite or blindly repeat an unknown execution. Verify frozen source/input hashes. Complete train1 and publishselection1, train2 and publishselection2, then all20newvariants/all3assets/all12cases. Old024completed,013priorityifBybitpacketarrives,023data-block unchanged.",
+  "next_action": "Complete frozen025train1 then publish selection1;train2 then publish selection2;evaluate all20newvariants on3assets andall12cases. Source/data/rules unchanged. Prior runtime interruption retained, no earlier025financial result identified.013priority ifsingleBybitpacketarrives.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {

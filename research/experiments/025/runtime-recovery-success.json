@@ -1,0 +1,478 @@
+{
+  "restored": [
+    {
+      "archive": "Futures_024_Results_Part10.zip",
+      "sha256": "c34ecb2086924d9de609f88bcc9094d4e5c3487a0bf0b0f95ae6a4a6cf766f83"
+    },
+    {
+      "archive": "Futures_024_Results_Part16.zip",
+      "sha256": "f3c67cc24beb2b126a2d768872e900b58be1ad0bac96ada0a376ddbcaec177ad"
+    }
+  ],
+  "reference_hashes": {
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "d6529108afc82b584481d17e4f75e6420e695140e7c023f36d15a9f6a6fb6494",
+      "decoded_sha256": "fc02424251b0e91a09885bb6d08ba0db2032143fdf2efba25b2765fcdb5fdca5",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "b8075d837d5f579963cf93f06630621ca10f66a630ef43ac28d2e06a8f38edd1",
+      "decoded_sha256": "92cbc906a6affc01354db0ae6bd04df08e27c8f0cb45dd9e8a00c6568921668a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "094509a3d3776f331a397b95db6ac1315923405008ac82bc131c8d16446acf5a",
+      "decoded_sha256": "666fcb8e78b75fd94d86ea57196be4f89353f6f7e3ef21c4e74362d3aebdf172",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "5fae8e780360d67aff360276eb51110a5ca250bf90a21b121ceb8dd88aa0c8da",
+      "decoded_sha256": "fa2ee7e4d661d18ec25a5e70c9d3b49b9f98302c3f4beecb7fc428245b19ff4f",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "99e68bd35fc21732609f3dd0d1a7dd99fc59fa3a783fef32f198a9948bf006ed",
+      "decoded_sha256": "8b73cb616a850197ce3dc8f8b26f37d1d4ae889d75294a47d0db99406c933993",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "5971cd133e9a6f6023ab7fc3fc0b654e5d5538c01c50de1d51184bbaa32f79c0",
+      "decoded_sha256": "779db63ee947bf18f0e6293b0cd088c777739f968c69200cb0e7d7f0dc8b1d8f",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "359776bd2b225ab2e66b7ca954d7e92038448c96dab58809ca8efda523251135",
+      "decoded_sha256": "193482fe957013ac1687d230e401fd6fb018804556df52aeef5d41338f591170",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "aaa747f163b393db1822b9686a55985d8b6ef4bdaf2946326a6e893431a3a872",
+      "decoded_sha256": "90338629ff7e60be6858d84dcda0d8fd7c31206bbb78349be251df770cc1d8ae",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "2fed98ae5ce590133f1f7f5d546013dfbb74d27ae350c1b5a039b6d0e854b163",
+      "decoded_sha256": "83e029110035d1b276dac0dfad92f37a1f1987aedcee1b6a4584ac5b2e5462c6",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "ae34f5c6ae06ef9f03f382919f58fc3006d04fa9d144b3fa4038303ab9e1da49",
+      "decoded_sha256": "deb9bb29ff4416a338ef31955bbf017e4d277bfa772bafb43510c36edf68e626",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "5b4fb17f5457617730af23f7ed136b99e03f54753b16a1334335ebce1f5e2d25",
+      "decoded_sha256": "db6d8858ae2fb6431584180d15b1a7b5dacfcaa46c72ef12fee68c581c51bba8",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "69572b7197b74803fca507bdc684bf4086b40df1ce21bed416ef1ab5d3dfd933",
+      "decoded_sha256": "95558f20e873c9ee2e0181395f5212a3770f8cfe560c5c02b34abef756652878",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "67ea7158627d5292a9fb0c5ce4eef732d5a532a71a0f9e2c87a8fa1a556da65d",
+      "decoded_sha256": "acc0b17021999927c69a63ae39ea1b773dfb9ba7064381611c9bc02eb4207520",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "c299ecb5d064b6ee416f0f42d9a8941ec53703e2a300b7cdcf4c0d20ed6c8551",
+      "decoded_sha256": "ddc88caebd4efa3059bfbc302d41b1a2d916aca75ccd6c96f3243229ad044333",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "720183b0ca6415b79c1fb8eda954c3092e57b7992ba927efe90f9246e3872a32",
+      "decoded_sha256": "d50f809dccf4c0ee9e6323532d00306378c59aea8ed29afe0c45565520819135",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "3c73f300dce7684317f4d596d3a74e4c2c03ef07ce497fbb3e2633e8fc65ddba",
+      "decoded_sha256": "0b44b5b8fa9c892eca28de064efb80ad1e50f3b1dced445451c2a4799bb6dad2",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "a1d46c8705f18c8d0a32a25d6b207c8c7575a3000366068a5bb43e7ff1541c72",
+      "decoded_sha256": "2c11b1bb5ea40094a08db1d6239b8b612a83606511f616ea8c0bc92fe61bf600",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "6cb6e7a241ff59d5b87c89b4b70c581f86cdc2dfe781bd2ee5bb14444c216e64",
+      "decoded_sha256": "011a45c38125183dad7235afec7f8d2401e4c31a0e5464ba438c699c50248b0d",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "a9ee361f65015803192d97cb92e73a648e001c98286a3e8ab365cc321e2b55c6",
+      "decoded_sha256": "d2db934330484c26d7d1dd883cc9bc99e63456499d6ff5151398fb7bdb24a72a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "e3acf93a6f29553d5140efe889f34effb978d14c67d2dc19fcaaf779c999a42f",
+      "decoded_sha256": "66e00d40be7a62fd9e940d4ade34e63e5c1d4953c415fd71eba827511467108a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "9df364cf2d7ea9e459e72f01d4229d2777c1ef09c4dd2b220b1d9bf21a38ae0f",
+      "decoded_sha256": "59b552c20ceace039626b9f6eec0c72b37f4b1e35818ce55368d0ff901306134",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "5b87501f6b041a9621b189592564c4f2b84788604e010f8dadad7231f9cf1c01",
+      "decoded_sha256": "97c54d431b1742a4b71e8f74bf15548dbcd3d6f7b092955325d3445ae8473f2c",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "9e351cf2b2c98224d41cbb101de2b50ab3796406a9e155ea92eaf197afa26e5d",
+      "decoded_sha256": "b8325d4e34362f4fe4c18917d74fc9f9597fe6972cb2e073a2588334d9535703",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "ad9037e263d0373866e410763299ee4c70ce7fedf00392420dc01a2a2331d20e",
+      "decoded_sha256": "ffafa836391ea870066850b3f12f87872d8a006bb79f842bec5195290f98936f",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "e53a195ff207c05cfca162edff7c77d57d16f067a0567edc3919059d8e3a1d0e",
+      "decoded_sha256": "1aa0bcd128adf4e959408c660ddcb74e983996debe86e0e6af422a9fcbf25292",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "810e738c779f9c507b07dfea543bfe10c0ab12485878e298848717da41c3b2c0",
+      "decoded_sha256": "895e41f56bf98dd5ca0b12c3c083fde66971205a30ff181faf7df5e39de23ce9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "7fcd41d29a2e8fd4d53e87586a97982aa0b59faccf14836da04470498cfa63fa",
+      "decoded_sha256": "43f7407e672c239d4c77c24159c765952ebb25480ba8bbe3479511d4c4ea6da9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "978f445c2470c8e827528ba8509bdee989840eff834bf0290a23ac586f41d912",
+      "decoded_sha256": "faaffe3359a30ffc6d42115d832397eb51e34a1aa14a6e21a01ef81094eba3b9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "ab322796c8d72d7234f4f37d9845d2b48234afd8aa185058e4a5afe325250003",
+      "decoded_sha256": "8bd6fdf66e12d4786d3f7ca62c21ae33478122119c4c443143abe69ce2f029dd",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "c87bfbf74c2267fbadee458448e1982a90690e0671eff6391c8d18d94b50c4be",
+      "decoded_sha256": "a998332abd68120f550d0bdb7a0005c6ade4ed31e216422d1f1f5d2e23a56e2f",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "d32886cb2d73d6b8aae1cca54a40955c2255835ce6f3ce0e1e5120273ad0ff4d",
+      "decoded_sha256": "df02ed5bec95ea8315a0c7c575f377bc35f1060d948f24123c23cf6b2f78e1b7",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "1573748a1edd57a59b38dd338e5ed0477acdc1821b6acf5f2d48b46323098bc3",
+      "decoded_sha256": "38eda06f668f280c385f20838f3c382225ab94c5e36977162cb5156cfa735c35",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "02513a01486027891c24635faed68ec69a5063fe5b096c667062144a9bbd8678",
+      "decoded_sha256": "628693d1cda2335559ca723263bc3451c018f7cf46bf549589d793277836c62d",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "6a897019e6bef2b7592453c8d054a35a8b62106139f00d292df95a39b863b023",
+      "decoded_sha256": "3e559bf8de82375bbac24915cc5cc8b51c00be04b650124d04936720de3d5d16",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "83e814576507b40409f58c1d717a3aba3f55afb7fdb31b734c628da876b795e9",
+      "decoded_sha256": "3064f9e14d8e8ea12712f709df66a81ab87abea6fb5125804df810e6c78fb7af",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "4caa450a82a0b68ecd4332fdf777d43fcba0bd423cff92b9d7d007f70125772c",
+      "decoded_sha256": "8e0a75be663737bd0025f2e560976ead459d5e7da01695e0ce6e1f0cac1d43a8",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "ce954a5962b782e2f065106ae55b66ebd3b6183a6757ab5f22eb9a0eadc0ef82",
+      "decoded_sha256": "6bfbd557b51187390bce89d9ca42f5cb771b321242950f05799c57f81c68f9a9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "61164001f6bf4ec73ff5bd277a4cd3bef4a5c40ec2fcd574e40329a3b968cbf9",
+      "decoded_sha256": "53ad0b9ab08d7b297ede0a458da4fd8d1e07a8dc095cdc5e0e215f64e5524ec0",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "76b1254034a918b400151fdd8e01072eda2a95dfe8272d38e9d9c867147e0fe1",
+      "decoded_sha256": "111b306edebc669e1474e86b4dcadad710b5fd90b721df35b740a2ef85b76567",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "aba5ba77f616cfe20fd3a0d095f8f9128455d3d4abfee8d178248a2e0ce36059",
+      "decoded_sha256": "7a40a6fcb2130ddf9dd83fb8a70bb7d8a04a518152a04fdd277e85e7ee1a5a21",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "501d3e421d312d772c4ad89972441e0794ebfacae2ae51ee8f3376f1441b8624",
+      "decoded_sha256": "4e6fde388526971a3dd9d1f1bff1ee00f5331f17cf2ea53b6cc98355295a6867",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "dde4aa351ad37f24b2b63c81976fd4b7689b0b3efb5d6603b5a2aef7674d2db3",
+      "decoded_sha256": "aecc67baba735e708a0c4603a9bd15131fe733b9a3de51453dc403753c06f3e9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "18fb1e3347d14580a66bbfedf287ecef6d56d992723ceeff34d8bea9edb9f08a",
+      "decoded_sha256": "b96a1e6ce004d2d07342d52367af5b07578c298be8b4e70c3a04a040c62bb60e",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "ad77d29fd034b0a1f06964ba43adbc2477fd8d535175b8b81130cb5c46949874",
+      "decoded_sha256": "ae3078d529d70a58d0f1082a5c0e04355d25e1e891a58c657385b29841714cf9",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "1cb31771d970693acae4bbf8f3940d13e2dd81af2a2b6b12e01c769b10524334",
+      "decoded_sha256": "ca4fe53ffd86fe57ea8c11138cd732bc72a5e6437077794152fb09b2568862da",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "e7f27ae5ef39f4d87f6e851bed3d35d87fb4bfbee35bda19ccc6bfeb8f50140f",
+      "decoded_sha256": "0ad67eb9d31e26ac05d45aa95c419594e933ae4bdd1e83aaea4025f3f7aee80b",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "91a3ad45435b6ebf90595d4cba51ad6c86865401a0b3bf9a324dfe1a4582a0d3",
+      "decoded_sha256": "6680cbd6b06d98891ed2b9abfaf979293dcfb554d9f7564148a981a24cdd61f5",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/SOLUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "449eda70edd1fe9f2b5f337d4223fd97b28d82e60767192734983de3735ad581",
+      "decoded_sha256": "cc41dbbbca466ff291b15a8b8c91a75dbdf574360139a6014e8590125b8cc2e4",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "3795403f249e36d3bdbee32204e3b5b228c5a972fe95646b3c5b6a7283126907",
+      "decoded_sha256": "d973b7275d13ec92e6e2df7a5ac95cf1b6ffe66ece2b0264134095bb4c387b6e",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "a6162617374a26f2a3a10177c10aa40e1f545cbbfa225d3f880cf9fa3904abfa",
+      "decoded_sha256": "3cddb937b23943320864455bf026284f35b3c5338417a7126d0337c0f3c55078",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "49bf7a43b4cbd9313b0daddb2d18fd3af6f83fbb9c60526df4c2284b67b6ee03",
+      "decoded_sha256": "d6c6ccb65824c3d6f26d489f2a8d6546010ecc300316dbea1138e7eee4b3e35f",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "6b77dd8fc6077982b668f88bdef8e6a92117356d04b6927e76634f06c5e2060e",
+      "decoded_sha256": "eb9f2d277a24b5f133046ad7d56a23b0cceaf0b411ce9234bf63579e06699af8",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "5a3f631b96da8e242662dc661208f9b0e3c7554aa4a2db114ee2a1b154377f31",
+      "decoded_sha256": "9e4242cac65b7709b517eabb25816c1d197a808938ed33e1536803943e0bb832",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "1867560493cb03e4a11347232ff367e055b50570555b1e0d685668ade565e7d7",
+      "decoded_sha256": "d71f3e0c779dc6c723ef8621f28cd47b2a58f1e913788d0794de7e45c1fff90a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "2a72bf7a657e0212ddf39af29718ea3bd6d3ea17cd2497b452226e1111e32b3b",
+      "decoded_sha256": "cff77eb831bfd375a6936b91da74bedb24e6b22d3dd8897a9ecd349136898f7b",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "5a4de80590621620886b12520847b69b175d7e22506b54d6af10473a0f2d6569",
+      "decoded_sha256": "3890c8a2c3376a8a50d29a50c68b5e9542e48169b19991f45f2b6db96916f389",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "72ebe4b3fbfc41f2e6b3828b596fc59d018e336b8b1ad843fc4a340f54facc18",
+      "decoded_sha256": "e17420e34bc053bda25a0b0369df1f56da5e77685536b114040168c10af9665a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "76e1c163f2a8607d5647dfc81e45bfa45da6837584acb900948bd21c37204ecc",
+      "decoded_sha256": "7891dfcc376bb16131ada461db1c89972bf0b2bbbd8828ca9248bab3a141018b",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "6fa56d4a4c8ca5e005d1cbc51b7c7504af23fb6858fe7b7ef1df08defcddcbfc",
+      "decoded_sha256": "034c92c4dfa32c4bd697edec0ef29efa180431d552393b9e7a19eca67babac43",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "f16bbb8d443eb6d499b0a2fb0b7f9871d51ea322ee6ad7038064d24ff17c1b31",
+      "decoded_sha256": "0e7c6d7b7952fa81c312f8fb0c2d16506c79b326c14ece54cb33b5092672b6d0",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "feb58235bd6952a6dc873ba1b849c174548bc5049e0f8255f7957d81b415eedd",
+      "decoded_sha256": "31fe2665be9cb10240a27069ea7f33d7df72117979e75455ebda9f42b9b4c260",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "cbe45d758b54af8e96839c0d69cac4e4a7c798ce075fd8d529d7500a6901eafd",
+      "decoded_sha256": "7bf1008ab61f6b1c6647fc757b9f6e4d0f2a62bc31872f006e208cf06b5d181a",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "64b99db9d7f556ff1dea6115720eea97d569078e54d92b17278d0e3986af205d",
+      "decoded_sha256": "d2b9ff51d4c3abaef6178573c370f17abe7532036888343c338c2540706d3bdc",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "59bdf0c060314cc2c35d73e0d7365bf0bcdad40352d0ec95fe779aebb8b0f3b6",
+      "decoded_sha256": "f714444fc1e0426bbe087ea49208f4c9818300f82c4468029c5c887da8850122",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "18376220d98a5b08fa5778766138466f8bcbd98ad395473417b0e61f69c12e08",
+      "decoded_sha256": "b302a4896297d48b3833021f9b0ccbaa43ab9c5463a0e8b8fd93c2e6cd3b3c45",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "f33d3fdaccfcb29c1e6e8d56b57ccd7ade920089d448fb241ea8141acdf2e241",
+      "decoded_sha256": "050bd6e24b4257fe59a7af66dcb683a70450df74a363e925888005dc595c24bc",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json": {
+      "container_sha256": "c1b3385ef5f06eeed247d4c0b0a8a2ce341d25d3a29a3655fd65bc75981b7eec",
+      "decoded_sha256": "34d05811349fef7167d514fe05562939256f1a49fa396fbabd0b5cd842614386",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json": {
+      "container_sha256": "e129f5b4674e5aa652e84124287435517585cfd5c7dac7f6852261fdb5eb804b",
+      "decoded_sha256": "5cdc1bac78c436442fd33fe0673394f6a68d511cc89882c3de6c834c6cbac57c",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json": {
+      "container_sha256": "a53f7851695193d555c7d162d7dc411500ed283bc79254574d8e8a91de5c15b1",
+      "decoded_sha256": "1c96556b69badcfcb1a29991d33c9f69b0ef77d049506d28468c059d92984854",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json": {
+      "container_sha256": "267a520c0960d16f2573e367e100ad163524604bfc39999fc9e5f5a13fac5216",
+      "decoded_sha256": "6af8cdffefb17bed95b9bef4585b7c6cee578f63ecbf1b3955385387dad4990d",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json": {
+      "container_sha256": "888086ccb3307d3be5ea43020bea5adf45e256c08e9a5d8e7fbab3f97bc5a532",
+      "decoded_sha256": "d7de3442872ecd355c33ea346115124ec3e72adea240c08e9885a4c9c1479cfa",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    },
+    "futures-024-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json": {
+      "container_sha256": "7091e339313ec05a3fe52cbcb2319185bcafcbc0dab59bc788c93c5033bff786",
+      "decoded_sha256": "e906931086d3ec0c2f8443d27331d7493260018f29ac8433ab1bb13f4ecde87b",
+      "durable_artifact_receipts": "research/experiments/024/artifact_receipts.json"
+    }
+  },
+  "frozen_inputs_verified": {
+    "BTCUSDT": {
+      "normalized_sha256": "7c9124b3259aa45445a1dd4e924a8749fad4b21a60965c03e0094ecc2c0d7b50",
+      "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+      "audit": {
+        "status": "COMPLETE",
+        "venue": "Binance USD-M perpetual",
+        "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+        "archives": 144,
+        "daily_recovery_archives": 6,
+        "recovered_real_hours": 72,
+        "matched_overlap_hours": 72,
+        "start_ms": 1640995200000,
+        "end_exclusive_ms": 1767225600000,
+        "max_funding_clock_offset_ms": 31,
+        "per_symbol": {
+          "BTCUSDT": {
+            "trade_hours": 35064,
+            "mark_hours": 35064,
+            "funding_events": 4383
+          }
+        },
+        "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+        "no_price_imputation": true,
+        "strategy_pnl_computed": false
+      }
+    },
+    "XRPUSDT": {
+      "normalized_sha256": "367f1d7bef2bafd09da18e8514c4a3b5b7319085f8aa2cb7c33c3f58b0b6e7d6",
+      "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+      "audit": {
+        "status": "COMPLETE",
+        "venue": "Binance USD-M perpetual",
+        "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+        "archives": 144,
+        "daily_recovery_archives": 10,
+        "recovered_real_hours": 168,
+        "matched_overlap_hours": 72,
+        "start_ms": 1640995200000,
+        "end_exclusive_ms": 1767225600000,
+        "max_funding_clock_offset_ms": 31,
+        "per_symbol": {
+          "XRPUSDT": {
+            "trade_hours": 35064,
+            "mark_hours": 35064,
+            "funding_events": 4383
+          }
+        },
+        "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+        "no_price_imputation": true,
+        "strategy_pnl_computed": false
+      }
+    },
+    "SOLUSDT": {
+      "normalized_sha256": "caf418c4b634991cbbdf64c1fc1ffba3e6bf15b87f049742816ca290d86287da",
+      "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+      "audit": {
+        "status": "COMPLETE",
+        "venue": "Binance USD-M perpetual",
+        "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+        "archives": 144,
+        "daily_recovery_archives": 10,
+        "recovered_real_hours": 168,
+        "matched_overlap_hours": 72,
+        "start_ms": 1640995200000,
+        "end_exclusive_ms": 1767225600000,
+        "max_funding_clock_offset_ms": 31,
+        "per_symbol": {
+          "SOLUSDT": {
+            "trade_hours": 35064,
+            "mark_hours": 35064,
+            "funding_events": 4458
+          }
+        },
+        "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+        "no_price_imputation": true,
+        "strategy_pnl_computed": false,
+        "funding_completeness": "Exact observed piecewise archive schedule; not independent API confirmation",
+        "funding_interval_labels": {
+          "2": 99,
+          "4": 2,
+          "8": 4357
+        }
+      }
+    }
+  },
+  "market_redownloads": 0,
+  "financial_replays": 0,
+  "recovered_utc": "2026-10-17T18:26:28.052988+00:00",
+  "remote_starting_head": "90c6b467e2e75dc03eb24998b18bf1e0fb437f03",
+  "source_freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+  "preserved_prior_files": 692,
+  "frozen_source_files": 10,
+  "python": "3.12.14",
+  "runtime": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python-dotenv": "1.2.4",
+    "pytest": "9.1.1"
+  },
+  "initial_runtime_attempt": "Interrupted process-start acknowledgement; unknown in prior environment. Current recovered snapshot has no025checkout/output/log and no025research process. No previous025financial output identified; preserve prior uncertainty, count only verified new executions.",
+  "new_attempt": "025-recovery-1",
+  "new_financial_outcomes_before_recovery_checkpoint": false,
+  "tests": "117preflight checks already passed at frozen source. No unchanged synthetic reruns this recovery."
+}
