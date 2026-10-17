@@ -1,0 +1,132 @@
+--- frozen013/bybit_replay.py
++++ additive019/futures_replay_019.py
+@@ -1,4 +1,7 @@
+-"""Experiment013 causal hourly USDT-linear replay. Offline research only.
++"""Experiment019 additive capital-carry derivative of the frozen013 replay.
++
++Only registration, initial capital and managed-cash expense are extended.
++Frozen013 source is untouched. See engine-diff.patch for the exact delta.
+ 
+ Frozen daily signals; exact decimal cash accounting; current-rule fill proxies.
+ No exchange transport, private API, orders, or liquidation-price calculation.
+@@ -17,6 +20,8 @@
+               'keltner_breakout__fixed50', 'obv_breakout__fixed50',
+               'aroon_trend__fixed50', 'cci_reversion__fixed50')
+ COSTS = {'venue_assumption': ('5.5', '2'), 'stress_assumption': ('10', '10')}
++from tradingagents.funding_signal_019 import NEW_CANDIDATES, funding_signals
++CANDIDATES = CANDIDATES + NEW_CANDIDATES
+ ZERO = D(0)
+ 
+ 
+@@ -120,6 +125,8 @@
+ def make_signals(market, candidate, end):
+     if candidate not in CANDIDATES:
+         raise ValueError('Unregistered013 candidate')
++    if candidate in NEW_CANDIDATES:
++        return funding_signals(market, end)
+     frame = market.frame.iloc[:(end - market.start) // DAY].copy()
+     family, _ = candidate.split('__')
+     sig = legacy.signals(frame, family) if family in legacy.FAMILIES else families.signals(frame, family)
+@@ -137,8 +144,9 @@
+ 
+ 
+ def replay(market, start, end, *, candidate=None, benchmark=None, cost='venue_assumption',
+-           lag=0, adverse_funding=False, prepared_signals=None):
+-    """Exclusive UTC end; fresh10000USDT account per run; no network.
++           lag=0, adverse_funding=False, prepared_signals=None,
++           initial_usdt='10000', managed_cash=False):
++    """Exclusive UTC end; explicit opening cash; terminal flatten each fold; no network.
+ 
+     prepared_signals is a test/internal causal cache, never a CLI input.
+     Cash precision128; expense rounded to18decimal places cumulatively by hour.
+@@ -147,10 +155,17 @@
+         ctx.prec = 128
+         return _replay(market, start, end, candidate=candidate, benchmark=benchmark,
+                        cost=cost, lag=lag, adverse_funding=adverse_funding,
+-                       prepared_signals=prepared_signals)
+-
+-
+-def _replay(m, start, end, *, candidate, benchmark, cost, lag, adverse_funding, prepared_signals):
++                       prepared_signals=prepared_signals, initial_usdt=initial_usdt,
++                       managed_cash=managed_cash)
++
++
++def _replay(m, start, end, *, candidate, benchmark, cost, lag, adverse_funding, prepared_signals,
++            initial_usdt, managed_cash):
++    initial = D(initial_usdt)
++    if not initial.is_finite() or not 0 < initial <= D('1e15') or len(initial.as_tuple().digits) > 200:
++        raise ValueError('Invalid opening cash')
++    if type(managed_cash) is not bool:
++        raise ValueError('managed_cash must be boolean')
+     if (candidate is None) == (benchmark is None) or candidate not in (None, *CANDIDATES):
+         raise ValueError('Exactly one registered candidate or benchmark required')
+     if benchmark not in (None, 'cash', 'buy_hold50') or cost not in COSTS:
+@@ -173,13 +188,13 @@
+         if not sig.max_hold.isin([0, 10, 20]).all():
+             raise ValueError('Invalid holding limit')
+     fee, slip = map(D, COSTS[cost])
+-    ledger = LinearCashflow('10000', fee)
++    ledger = LinearCashflow(initial, fee)
+     events, curve, fills, trades, rejections, funding_events = [], [], [], [], [], []
+     opened = None
+     status, failure = 'COMPLETE', None
+     peak = ledger.initial
+     excursion = {'max_excursion_pct': '0', 'cash_at_max_excursion_usdt': '0',
+-                 'mark_low_ms': None, 'prior_sampled_peak_usdt': '10000',
++                 'mark_low_ms': None, 'prior_sampled_peak_usdt': str(initial),
+                  'low_equity_after_exit_fee_usdt': None,
+                  'interpretation': 'Adverse hourly low relative to preceding sampled peak; unknown OHLC order, not realized drawdown.'}
+ 
+@@ -286,7 +301,7 @@
+             if not guard(ts, 'after_decision', mark[0]): break
+         # Allocate expense to each completed hour, rounded cumulatively, not per trade.
+         hours = i - first + 1
+-        desired = (D(120) * hours / (D('365.25') * 24)).quantize(D('1e-18')) if benchmark != 'cash' else ZERO
++        desired = (D(120) * hours / (D('365.25') * 24)).quantize(D('1e-18')) if benchmark != 'cash' or managed_cash else ZERO
+         expense = desired - ledger.expense
+         ledger.operating_cost(expense)
+         event(ts + HOUR - 1, 'expense', mark[3], amount_usdt=str(expense))
+@@ -331,8 +346,9 @@
+                'signal_exits': sum(t['reason'] in ('signal_exit', 'time_exit') for t in trades),
+                'rejected_entries': len(rejections),
+                'annualized_net_return_pct': annualized,
+-               **drawdown([r['equity_usdt'] for r in curve])}
+-    result = {'schema': 'bybit_replay_013_v1', 'status': status, 'failure': failure,
++               **drawdown([r['equity_usdt'] for r in curve], initial=ledger.initial)}
++    result = {'schema': 'futures_replay_019_v1', 'venue': 'Binance USD-M perpetual',
++              'managed_cash': managed_cash, 'status': status, 'failure': failure,
+               'symbol': m.symbol, 'candidate': candidate, 'benchmark': benchmark,
+               'start_ms': start, 'end_exclusive_ms': end, 'cost': cost, 'lag_days': lag,
+               'adverse_funding_5bps': adverse_funding, 'metrics': metrics,
+@@ -353,7 +369,7 @@
+     """
+     with localcontext() as ctx:
+         ctx.prec = 128
+-        wealth, q, previous = D('10000'), ZERO, None
++        wealth, q, previous = D(result['metrics']['initial_usdt']), ZERO, None
+         fee = D(COSTS[result['cost']][0]) / 10000
+         funding_seen = set(); maximum = ZERO; sampled = []; previous_ts = -1
+         fees = ZERO; funding_total = ZERO; expenses = ZERO; fills = []; settlements = []
+@@ -400,7 +416,7 @@
+             elif event['kind'] == 'expense':
+                 charge = D(event['amount_usdt'])
+                 hours = (event['timestamp_ms'] + 1 - result['start_ms']) // HOUR
+-                expected_expense = (D(120) * hours / (D('365.25') * 24)).quantize(D('1e-18')) if result['benchmark'] != 'cash' else ZERO
++                expected_expense = (D(120) * hours / (D('365.25') * 24)).quantize(D('1e-18')) if result['benchmark'] != 'cash' or result['managed_cash'] else ZERO
+                 if charge < 0 or expenses + charge != expected_expense:
+                     raise ValueError('Operating expense schedule mismatch')
+                 expenses += charge; wealth -= charge
+@@ -427,7 +443,7 @@
+             raise ValueError('Accounting summary mismatch')
+         if sampled != result['curve']:
+             raise ValueError('Sampled curve mismatch')
+-        dd = drawdown([r['equity_usdt'] for r in sampled])
++        dd = drawdown([r['equity_usdt'] for r in sampled], initial=metrics['initial_usdt'])
+         if any(result['metrics'][k] != v for k, v in dd.items()):
+             raise ValueError('Drawdown summary mismatch')
+         final = wealth - q * previous * fee
+@@ -478,3 +494,4 @@
+                                      'adverse_funding': r['adverse_funding_5bps'], 'reasons': reasons})
+     return {'historical_screen_pass': not failures, 'failed_scenarios': failures,
+             'classification': 'Exploratory, reused-history family selection; not proof of future profit.'}
++

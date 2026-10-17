@@ -1,0 +1,82 @@
+{
+  "schema": "funding_futures_019_design_v1",
+  "created_utc_date": "2026-10-17",
+  "status": "PREREGISTERED_BEFORE_NEW_OUTCOMES",
+  "authorization": "User requests continued new futures strategies and cross-checks; one bounded family, no tuning until green.",
+  "venue": "Binance USD-M ETHUSDT perpetual; not Bybit",
+  "new_family": "funding_carry7_momentum28",
+  "new_candidates": [
+    "funding_carry7_momentum28__fixed50",
+    "funding_carry7_momentum28__vol15_cap50"
+  ],
+  "rationale": "Test whether positive28-day momentum with a recent funding burden no greater than the documented default1bp per8h settlement improves net opportunity. The7-day/28-day windows are one/four calendar weeks; threshold is mechanism-derived, not fitted. Historical funding is not a forecast of future rates. This is a new testable hypothesis, not a claim established by the source.",
+  "rules": {
+    "entry": "After complete dayD: closeD>closeD-28 AND sum of21 settled rates at00/08/16UTC during D-6..D <=21*.0001 (Decimal comparison). All21events required. No next-midnight funding is used.",
+    "exit": "After complete dayD: closeD<=closeD-28 OR21-rate sum>21*.0001; also time exit after20actual elapsed holdingdays. Exit before entry; no same-hour reopen.",
+    "sizing": "fixed50=.5; vol15_cap50=min(.5,.15/annualized60dailyreturns sample standard deviation), sqrt365.25 annualizer. No sizing retune.",
+    "execution": "D+1+lag at01UTC traded-price hourlyopen; lag0/1/2; complete daily/hourly bars only. Same frozen013fill/funding/cashflow/margin guard, no leverage or shorts."
+  },
+  "input": {
+    "normalized_sha256": "cccf3ff868465439ede973dd505c95d906c9e6eb9a9c31263c040fd053ccd00e",
+    "reference_archive_sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+    "dates": "2022-01-01T00UTC..2026-01-01T00UTC exclusive",
+    "trade_hours": 35064,
+    "mark_hours": 35064,
+    "funding_events": 4383,
+    "provenance": "Reused017official checksummed archives;144monthly+4daily. No new market observations. ETHonly; priorBTCaccess/LTCcoverage exclusions remain."
+  },
+  "windows": {
+    "warmup": "2022",
+    "main_training": "2023-01-01..2023-12-31",
+    "evaluation": "2024-01-01..2025-12-31",
+    "second_expanding_training": "2023-01-01..2024-12-31",
+    "wfa_folds": [
+      "2024",
+      "2025"
+    ]
+  },
+  "costs": {
+    "venue_assumption": {
+      "fee_bps_side": 5.5,
+      "slippage_bps_side": 2
+    },
+    "stress_assumption": {
+      "fee_bps_side": 10,
+      "slippage_bps_side": 10
+    },
+    "expense_usdt_per_365_25days": 120
+  },
+  "funding": "Actual rate at held-position timestamp, hour-open mark settlement proxy, nominal and adverse5bpsvaluation. Frozen017timestamp alignment retained. No zero-imputation.",
+  "execution_unknowns": "Hypothetical fine-lot rules inherited017; personal/historical fees, exact settlement marks, historical books/fills and liquidation model unverified. Fully cash-backed guard, at most50%entry allocation; unknown OHLC order is not realized DD.35%screen is not user-approved tolerance.",
+  "capital": "Independent10000USDT fixed-evaluation accounts. WFA starts10000 once; every year ends flat with explicit terminal fee/slippage, next year uses exact prior finalcash. No deposits, withdrawals, capital reset or fixed-cost return scaling. New additive capital parameter/audit; frozen013/017 unchanged.",
+  "selection": "All8native candidates (old6+new2),bothcosts,lag0,nominalfunding. Requirepositive net,DD<=35%,>=10signal/timeexits,no failures. Rank stress annualizednet/max(stressDD,1%); lexicographic ID tie. Otherwisecash. Main/train1selection published before train2 or evaluation. Train2 only2023..2024, published before2025evaluation. Choices never use future evaluation scores.",
+  "evaluation_gates": "Each candidate mustpass positive net,DD<=35%,>=20signal/timeexits,completeinputs/wealthaudit in all12cost*lag*funding scenarios. All failures retained. Same aggregate gates for WFA12paths, terminalforcedcloses never credited as signalexits. Historicalpass is not validation.",
+  "wfa_cash": "When annual selector picks cash, the managed WFA still incurs120/year monitoring expense. Idlecash benchmark and staticmainselectorcash have0expense. Report this distinction.",
+  "benchmarks": "Reuse hash-verified017cash0expense and50%perpetualhold4cost/funding paths over identical2024..2025dates. Hold paysfunding/fees/120yearopex, terminalclose. WFA annualflats may addcost unlike continuoushold, intentionally disclosed.",
+  "matrix": {
+    "new_train1": 4,
+    "reused_train1": 12,
+    "new_train2": 16,
+    "new_fixed_evaluation": 24,
+    "new_wfa_fold_executions": 24,
+    "new_total": 68,
+    "reused_evaluation": 72,
+    "reused_benchmarks": 5
+  },
+  "multiplicity": "Include all8compatible native-perpetual candidates in4centered circular30day-block maxmean diagnostics (base/stress vs cash/hold50),2000resamples,seed20261017. All dailyreturns include actual modelexpense.40other sizingvariants have onlyspot or incompatible data and are not pooled. Prior46variants/23families/7427design+2recoveryexecutions,01877diagnostics. Neither bootstrap nor train split corrects allpriorsearch, correlateddates or design choices.",
+  "preservation": "All previous frozen files and seven prospective candidates/pins unchanged. No new papercohort or orderauthority.013prioritized when oneBybitpacket arrives.",
+  "sources": [
+    {
+      "url": "https://www.binance.com/en/support/faq/detail/360033525031",
+      "retrieved_utc_date": "2026-10-17",
+      "page_updated": "2026-03-06",
+      "supports": "Funding mechanism,held-position payment,mark*quantity valuation,default1bp/8hreference. Does not prove strategyprofit orhistorical fee schedule."
+    },
+    {
+      "url": "https://github.com/binance/binance-public-data",
+      "retrieved_utc_date": "2026-10-17",
+      "supports": "Official public archive provenance/checksums;017nativeinputs reused."
+    }
+  ],
+  "reproduce": "Python3.12 isolated requirements-research.txt; scripts/run_funding_futures_019.py stages train1,train2,evaluate with externalfreeze/input/archive/selectionpins and newoutputdirs. Freeze all executable sources/testhashes before realnewoutcomes."
+}

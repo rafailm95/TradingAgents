@@ -16,3 +16,5 @@ Use a fresh nonexistent output directory. The runner refuses existing output. Py
 018 addresses the concrete futures evidence gap of trade-profit concentration and calendar attribution using authenticated existing 017 results. It introduces no strategy variants or replay executions. Its descriptive arithmetic does not replace the original gates or create walk-forward evidence. Bybit013 still awaits the one unified packet. See docs/FUTURES_CONCENTRATION_018.json and the independently published pre-analysis freeze.
 
 No forward-profit milestone has been reached. User cancellation or a verified forward milestone ends the strategy search; continue frozen observation without real orders. Access, integrity or resource blockers are reported rather than bypassed.
+
+019 preregisters one funding-aware futures family with two existing sizings and an annual capital-continuous walk-forward selector over all eight comparable native-futures candidates. Exact rules, accounting delta, preflight failures and synthetic checks are frozen before new outcomes. All earlier accepted source/results and013/014 remain unchanged.

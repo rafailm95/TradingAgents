@@ -1,0 +1,13 @@
+{
+  "synthetic_only": true,
+  "tests_passed": 111,
+  "new_tests": 33,
+  "command": "python -m pytest --noconftest -q tests/test_bybit_replay.py tests/test_bybit_cashflow.py tests/test_binance_archive.py tests/test_funding_futures_019.py",
+  "raw_stdout": "........................................................................ [ 64%]\n.......................................                                  [100%]\n111 passed in 15.41s\n",
+  "initial_failure_preserved": {
+    "type": "ModuleNotFoundError",
+    "module": "test_bybit_replay",
+    "stage": "synthetic test collection, no real outcomes",
+    "correction": "Add explicit tests directory to import path; no trading-rule or accounting change."
+  }
+}
