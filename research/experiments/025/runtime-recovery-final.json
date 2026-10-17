@@ -1,0 +1,11 @@
+{
+  "experiment": "025",
+  "recorded_utc": "2026-10-17T18:16:37.849Z",
+  "operation": "Final harmless local pwd recovery probe",
+  "error": "CreateProcess: failed to query exec-server capabilities: exec-server connection attempt failed: environment registry request failed (409 Conflict, environment_offline): Environment is not connected.",
+  "status": "ENVIRONMENT_OFFLINE",
+  "verified_new_financial_results": 0,
+  "financial_launch_state": "Still unconfirmed; inspect process/output state after reconnection before retry.",
+  "previous_record": "research/experiments/025/runtime-interruption.json",
+  "scope": "Temporary execution environment outage; no market/API authorization or strategy failure. No bypass or alternative accounting engine used."
+}
