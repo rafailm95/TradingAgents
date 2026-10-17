@@ -254,14 +254,14 @@
   ],
   "active_experiment": {
     "id": "020",
-    "status": "TRAIN1_COMPLETE_SELECTION_FROZEN",
+    "status": "BOTH_TRAIN_SELECTIONS_FROZEN_AWAITING_EVALUATION",
     "family": "nr7_close10",
     "new_variants": 2,
     "freeze_sha256": "81bc0277b2adb9141b4a3a6aad92a72253949848a1d0926089aeaa70f8a6c74d",
     "attempts": [
       {
         "id": "020-initial",
-        "status": "TRAIN1_COMPLETE",
+        "status": "BOTH_TRAIN_STAGES_COMPLETE",
         "preflight_tests": 129
       }
     ],
@@ -273,7 +273,9 @@
     },
     "preregistration_commit": "2ab77e2141b849faa9f3bc676e509f38a5969fc5",
     "selection1_sha256": "316418d95c59982fb936005ee47b5707581f1d4dbbc5d8fb58156c175a8b5220",
-    "new_simulations_completed": 4
+    "new_simulations_completed": 8,
+    "selection1_commit": "8a2f24bde58d017444cd93a0d660be36f450bb69",
+    "selection2_sha256": "fdf33d8b03bf96ba2e64fca5dfaa325a8dd4c881568bce12a4043263f7718034"
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
