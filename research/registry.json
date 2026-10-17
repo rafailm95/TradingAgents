@@ -511,18 +511,20 @@
   "active_experiment": {
     "id": "024",
     "attempt": "024-initial",
-    "status": "TRAIN1_COMPLETED_SELECTION_AWAITING_PUBLICATION",
+    "status": "BOTH_TRAININGS_COMPLETE_EVALUATION_AWAITING_SELECTION2_PUBLICATION",
     "new_families": 10,
     "new_variants": 20,
     "planned_total_variants": 70,
     "protocol": "docs/MULTIFAMILY_FUTURES_024.json",
     "freeze_sha256": "ff166e2a69fdb339319ed9a6ee7f09d0e1f977c48a7527e50216e45552dae812",
     "maximum_new_executions": 1035,
-    "new_historical_simulations": 120,
+    "new_historical_simulations": 240,
     "software_tests": 88,
     "latest_user_scope_override": "2026-10-17user explicitlyasks10to30strategies;onebatch20variants/10families.",
     "preregistration_commit": "ce5344ba556ffd3312faa68f68aadcf6f40dbda0",
-    "selection1_sha256": "354db42cacfa74c2a9d349b4f7717265e5565703ea05d0735b75ee92b377834b"
+    "selection1_sha256": "354db42cacfa74c2a9d349b4f7717265e5565703ea05d0735b75ee92b377834b",
+    "selection1_commit": "115ef568b725e72590a19df558602a570c0704a6",
+    "selection2_sha256": "7cec2b484e2e6a8e004f90e8c04ffd089cea413a5417355e79085a5ef31ca451"
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
