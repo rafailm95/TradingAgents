@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T18:26:28.052988+00:00",
+  "updated_utc": "2026-10-17T18:28:22.692284+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 35,
@@ -571,23 +571,33 @@
   "active_experiment": {
     "id": "025",
     "attempt": "025-recovery-1",
-    "status": "RECOVERED_READY_FOR_TRAIN1",
+    "status": "TRAIN1_COMPLETED_AWAITING_REMOTE_SELECTION",
     "new_families": 10,
     "new_variants": 20,
     "planned_total_variants": 90,
     "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
     "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
     "maximum_new_executions": 1035,
-    "new_historical_simulations": 0,
+    "new_historical_simulations": 120,
     "software_tests": 117,
     "latest_user_scope_override": "Latest2026-10-17request10to30morestrategies;onebatch20variants/10families.",
     "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
     "remote_preregistration_verified": true,
-    "verified_new_historical_simulations": 0,
+    "verified_new_historical_simulations": 120,
     "training_launch_state": "No process/session identifier returned; local state must be inspected before any retry.",
     "runtime_interruption_record": "research/experiments/025/runtime-interruption.json",
     "recovery_record": "research/experiments/025/runtime-recovery-success.json",
-    "prior_interruption_preserved": true
+    "prior_interruption_preserved": true,
+    "selection1_sha256": "ae8ae366ae8c57cb966de631d3f684219a5f8c7bbfcc060d9071ca32fc54be00",
+    "selection1": {
+      "path": "research/experiments/025/selection-train1.json",
+      "chosen": {
+        "BTCUSDT": "fisher10_turn__fixed50",
+        "XRPUSDT": "vortex14_cross__fixed50",
+        "SOLUSDT": "heikin2_trend__fixed50"
+      }
+    },
+    "evaluation_computed": false
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
