@@ -1,0 +1,9 @@
+train1 XRPUSDT sma200_band__vol15_cap50
+train1 BTCUSDT sma200_band__vol15_cap50
+train1 XRPUSDT regression_trend__fixed50
+train1 BTCUSDT regression_trend__fixed50
+train1 XRPUSDT keltner_breakout__fixed50
+train1 BTCUSDT keltner_breakout__fixed50
+train1 BTCUSDT obv_breakout__fixed50
+train1 XRPUSDT obv_breakout__fixed50
+train1 BTCUSDT aroon_trend__fixed50

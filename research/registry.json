@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T13:57:03.504691+00:00",
+  "updated_utc": "2026-10-17T14:07:47.808314+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -267,6 +267,75 @@
       ],
       "conclusion": "NR7fixed base+2.51754%/+251.75USDT but stress-1.31106%/-131.11 and worst-23.48888%/-2348.89;vol negative.29exits each. All10compatible futures fullgatesfail. Training choices and24WFAfolds identical019 and reused. No Bybit or prospective profitability; allpriorfiles/failures preserved.",
       "artifact_receipts": "research/experiments/020/artifact_receipts.json"
+    },
+    {
+      "id": "021",
+      "status": "COMPLETED_WITH_SOL_FUNDING_CADENCE_EXCLUDED_BEFORE_PNL",
+      "type": "NATIVE_FUTURES_ASSET_TRANSFER",
+      "requested_assets": [
+        "BTCUSDT",
+        "SOLUSDT",
+        "XRPUSDT"
+      ],
+      "tested_assets": [
+        "BTCUSDT",
+        "XRPUSDT"
+      ],
+      "existing_variants_per_asset": 6,
+      "new_variants": 0,
+      "new_signal_families": 0,
+      "new_historical_simulations": 250,
+      "new_integrity_replays": 0,
+      "results": "research/experiments/021",
+      "report": "docs/FUTURES_ASSETS_021_RESULTS.md",
+      "reproduce": "docs/FUTURES_ASSETS_021_REPRODUCE.md",
+      "freeze_sha256": "84a327534067a10aca16eb0cb8e162914b84ce78d2a149098595600484ad5f34",
+      "preregistration_commit": "9f2da0d6202445af0ab4de7eaa306f466be39766",
+      "collection_commit": "76b8a6a825f5da784f3631b455db1b2ee76252fd",
+      "engine_source_commit": "a43e8d415b04d1c93ac68c3ba7902de199babbe9",
+      "selection1_commit": "80bfd7f2d851739f621f24ba273ff150e2f978f1",
+      "selection2_commit": "9c9ebbcafaae821ed1fe26acb21681d6fb5829cf",
+      "selection1_sha256": "6eaac57ec7928c13a933d65717c8bae88be4e12029289c7fb44f5a6bbad8f3ba",
+      "selection2_sha256": "0cc99b09bf05aa5174d29ddbbe0f6ded63335e36ca1f07a62104c3979feb1ae0",
+      "asset_candidate_full_pass_fail": [
+        0,
+        12
+      ],
+      "individual_scenario_pass_fail": [
+        0,
+        144
+      ],
+      "positive_in_all12_scenarios": 9,
+      "WFA_scenarios_pass_fail": [
+        0,
+        24
+      ],
+      "cross_asset_full_passes": 0,
+      "unassessed_SOL_asset_candidate_pairs": 6,
+      "software_tests_passed": 128,
+      "new_tests": 17,
+      "new_wealth_audit_events": 19869554,
+      "max_wealth_error_usdt": "0",
+      "preserved_source_files": 554,
+      "excluded_asset_details": {
+        "SOLUSDT": {
+          "reason": "Πραγματική αλλαγή funding σε 4 και 2 ώρες τον Νοέμβριο 2022· ο παγωμένος έλεγχος απαιτεί 8 ώρες. Διατηρούνται 4.458 πραγματικά γεγονότα, χωρίς προσομοίωση SOL.",
+          "raw_error": "ValueError: Changed funding cadence or malformed row",
+          "status": "EXCLUDED_BEFORE_PNL",
+          "verified_monthly_archives": 144,
+          "verified_daily_archives": 10
+        }
+      },
+      "attempts": [
+        {
+          "id": "021-initial",
+          "status": "COMPLETED_BTC_XRP_ALL250_RESULTS_VERIFIED_SOL_STRICT_FUNDING_REJECTED",
+          "new_simulations": 250,
+          "outcome_integrity_replays": 0
+        }
+      ],
+      "conclusion": "BTCregression worst12+28.1715%/+2817.15USDT with5exits;XRPobv worst12+105.8083%/+10580.83USDT with9exits;maxDD14.3656%/1709.85USDT and33.4244%/9607.39USDT. Maintrain chooses cash both;WFA base/stress BTC-5.4288%/-6.1387%,XRP-6.5153%/-7.1001%. Nofullpasses, nofuture/Bybitvalidation. AllrawSOLevents retained;noSOLPnL.",
+      "artifact_receipts": "research/experiments/021/artifact_receipts.json"
     }
   ],
   "prospective_cohorts": [
@@ -295,56 +364,24 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
+    },
+    {
+      "id": "022",
+      "status": "DESIGN_REQUIRED_FOR_CAPTURED_SOL_FUNDING_CADENCE",
+      "plan": "docs/SOL_FUNDING_NEXT_021.md",
+      "pre_registered": false,
+      "priority_after_available013": true,
+      "next": "Freeze exact authentic2h/4h/8h eventtiming and completeness checks; synthetic transition/causality/accountingtests; publish source/input/testhashes before anySOLoutcomes. Use alreadycaptured021rawdata, notredownload oraggregatefunding."
     }
   ],
-  "active_experiment": {
-    "id": "021",
-    "status": "BOTH_TRAIN_SELECTIONS_COMPLETE_BEFORE_EVALUATION",
-    "protocol": "docs/FUTURES_ASSETS_021.json",
-    "symbols": [
-      "BTCUSDT",
-      "SOLUSDT",
-      "XRPUSDT"
-    ],
-    "existing_variants": 6,
-    "new_variants": 0,
-    "maximum_new_runs": 375,
-    "collection_freeze_sha256": "aee91a12bc07c066dc99f722b38cc780845e9084be1456118cb4e0bdbeab4ce5",
-    "attempts": [
-      {
-        "id": "021-initial",
-        "status": "DATA_COMPLETE_BTC_XRP_SOL_FUNDING_CADENCE_REJECTED",
-        "new_simulations": 0
-      }
-    ],
-    "user_asset_extension": "BTC,SOL,XRPexplicit2026-10-17; allpriorfreezesremainunchanged",
-    "collection_commit": "76b8a6a825f5da784f3631b455db1b2ee76252fd",
-    "engine_source_freeze_sha256": "0a9cb6f8da44bb5f31a680a26ce4c891ac169fa4a5b96fda0110798b7f4a8824",
-    "engine_tests_passed": 128,
-    "synthetic_full_matrix_executions": 125,
-    "engine_freeze_sha256": "84a327534067a10aca16eb0cb8e162914b84ce78d2a149098595600484ad5f34",
-    "eligible_assets": [
-      "BTCUSDT",
-      "XRPUSDT"
-    ],
-    "excluded_before_pnl": [
-      "SOLUSDT"
-    ],
-    "actual_maximum_new_runs": 250,
-    "engine_input_preregistration_commit": "9f2da0d6202445af0ab4de7eaa306f466be39766",
-    "selection1_sha256": "6eaac57ec7928c13a933d65717c8bae88be4e12029289c7fb44f5a6bbad8f3ba",
-    "completed_training_runs": 48,
-    "real_evaluation_runs": 0,
-    "selection1_commit": "80bfd7f2d851739f621f24ba273ff150e2f978f1",
-    "selection2_sha256": "0cc99b09bf05aa5174d29ddbbe0f6ded63335e36ca1f07a62104c3979feb1ae0"
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "7527 design scenario executions +7 prior integrity replays=7534 known executions;50 unique variants/25families.020adds32 executions and reuses24WFAfolds,32training,96fixed paths and5benchmarks. Reused/correlated histories are not independent evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "021: publish final exact input/engine freeze beforetrain1, pin eachchronologicalselection beforeevaluation. SOL strictcadencefailure remains. No strategy results computed yet.",
-  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022\u20132025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
+  "next_action": "Prioritize unchanged013 ifsingleBYBIT_SEND_THIS.zip arrives. Otherwise022: preregister additive authenticSOLfunding-schedule adapter/tests on preserved021inputs before anyPnL; unchanged6signals/windows/gates, atmostoneboundedSOLmatrix. Preserve021strict8hfailure. No newusercollectorrequest,retuning orautomaticpromotion.",
+  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",
@@ -425,5 +462,8 @@
   "cumulative_known_executions_through_019": 7502,
   "cumulative_known_design_runs_through_020": 7527,
   "additional_integrity_replays_020": 0,
-  "cumulative_known_executions_through_020": 7534
+  "cumulative_known_executions_through_020": 7534,
+  "cumulative_known_design_runs_through_021": 7777,
+  "additional_integrity_replays_021": 0,
+  "cumulative_known_executions_through_021": 7784
 }

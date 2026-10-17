@@ -22,7 +22,7 @@ def main():
              ROOT/'scripts/collect_futures_assets_021.py',ROOT/'tradingagents/binance_assets_021.py',ROOT/'scripts/run_futures_assets_021.py',
              ROOT/'tests/test_futures_assets_021.py',ROOT/'tests/test_futures_assets_replay_021.py',ROOT/'scripts/package_futures_assets_021.py',
              ROOT/'scripts/archive_futures_assets_021.py',ROOT/'scripts/summarize_futures_inputs_021.py',ROOT/'scripts/freeze_futures_inputs_021.py',ROOT/'scripts/audit_sol_candles_021.py',ROOT/'requirements-research.txt']
-    if a.stage=='results':sources.extend([ROOT/'docs/FUTURES_ASSETS_021_RESULTS.md',ROOT/'research/registry.json'])
+    if a.stage=='results':sources.extend([ROOT/'docs/FUTURES_ASSETS_021_RESULTS.md',ROOT/'docs/FUTURES_ASSETS_021_REPRODUCE.md',ROOT/'docs/SOL_FUNDING_NEXT_021.md',ROOT/'research/registry.json'])
     for path in sources:
         if path.is_file():entries.append(('repository/'+str(path.relative_to(ROOT)),path))
     inventory=[{'path':name,'sha256':sha(path.read_bytes()),'bytes':path.stat().st_size} for name,path in entries]

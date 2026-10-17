@@ -1,0 +1,21 @@
+{
+  "engine_freeze_sha256": "84a327534067a10aca16eb0cb8e162914b84ce78d2a149098595600484ad5f34",
+  "preserved_files_unchanged": 554,
+  "frozen_sources_verified": 11,
+  "new_result_hashes_verified": 250,
+  "independent_wealth_events": 19869554,
+  "max_error_usdt": "0",
+  "preflight_tests": 128,
+  "new_tests": 17,
+  "synthetic_matrix_executions": 125,
+  "result_integrity_failures": [],
+  "data_contract_exclusions": {
+    "SOLUSDT": {
+      "reason": "Πραγματική αλλαγή funding σε 4 και 2 ώρες τον Νοέμβριο 2022· ο παγωμένος έλεγχος απαιτεί 8 ώρες. Διατηρούνται 4.458 πραγματικά γεγονότα, χωρίς προσομοίωση SOL.",
+      "raw_error": "ValueError: Changed funding cadence or malformed row",
+      "status": "EXCLUDED_BEFORE_PNL",
+      "verified_monthly_archives": 144,
+      "verified_daily_archives": 10
+    }
+  }
+}

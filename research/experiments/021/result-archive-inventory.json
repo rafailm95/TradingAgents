@@ -1,0 +1,1749 @@
+{
+  "parts": [
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part1.zip",
+      "sha256": "35e945e6de31b9e83b41ff4833c50dfe742c846298cc3ace0793c69fb6a86ce3",
+      "bytes": 22591850,
+      "members": 22
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part2.zip",
+      "sha256": "77be361a910ad9ba8efffa9d01cd5378918adca1094404d2a3a1abe8e304a6de",
+      "bytes": 20691132,
+      "members": 14
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part3.zip",
+      "sha256": "229508a28d41f331b75cbcca3563f633af9610cebb55b34839303ea01516b45b",
+      "bytes": 20761523,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part4.zip",
+      "sha256": "baba7cc7fcb320d6e8dea1b5a224dc068eb22d3d3d4243b454bc5909d6e7b835",
+      "bytes": 21113849,
+      "members": 12
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part5.zip",
+      "sha256": "a54a6079649725f00dbf90c45ccac2c720b2cc7bc81fb8ca657f7b8d0fb43bcc",
+      "bytes": 21001210,
+      "members": 8
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part6.zip",
+      "sha256": "32bd955906c1aa57c463b343d903c9d54396a500c39bc43c51fe1a00d07e3359",
+      "bytes": 22372092,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part7.zip",
+      "sha256": "3dcda1177881faba61f49edcbab37471bd62eaa77536ea29d8086cb27b1ae43a",
+      "bytes": 20995361,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part8.zip",
+      "sha256": "4748bdb4ce9ffff61e97eff9a1e9d8d7dc614311b285704eabe089ee7214b2e8",
+      "bytes": 21764339,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part9.zip",
+      "sha256": "1c39be5a1ecadc1261b96bde36721976d635f6b91b15f06052510924fe1f5fcd",
+      "bytes": 21979374,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part10.zip",
+      "sha256": "a37e80e2b052172741d37d9bf7e1d95fa714cb69ff1fb642cbf72eb00c05e424",
+      "bytes": 21238422,
+      "members": 9
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part11.zip",
+      "sha256": "12fdac5106a4cfc8b9021ca2418684bbdf22d8e54c79793eb3c1bc8bb429869d",
+      "bytes": 20446878,
+      "members": 8
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part12.zip",
+      "sha256": "c6b02d26f4e243ac9f03c9f036deb1e41c33cdc92d1095a51499a4e182aaad9f",
+      "bytes": 22885991,
+      "members": 8
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part13.zip",
+      "sha256": "5b8a820d19c0347d9ebd61e3a298698b146a573034bc8628fecb7880761c3867",
+      "bytes": 21599655,
+      "members": 20
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part14.zip",
+      "sha256": "47409e96dd48cb9ea625864f168052e5f7b3dc7fa6cf2856ddc88fe80aa1885f",
+      "bytes": 22870906,
+      "members": 13
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part15.zip",
+      "sha256": "e7b750f7d66c293b44c1ac47c45250d51c380388779e371231560f3ad804f8f8",
+      "bytes": 20035249,
+      "members": 10
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part16.zip",
+      "sha256": "005d5d7d01c7eeb3afd5555ed521bd7eb4c11d7d8fce89615531017d0b58ecb1",
+      "bytes": 19977308,
+      "members": 11
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part17.zip",
+      "sha256": "3ff9166f5cc72ecc01c80b38b3dd43d4c021705d4a67feab62d7d7f8d3ebf435",
+      "bytes": 20276014,
+      "members": 11
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part18.zip",
+      "sha256": "708de1483d2bfad0a7fc399a9876794fdd7be4340a17576ff241fab58f181ce3",
+      "bytes": 20577860,
+      "members": 11
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part19.zip",
+      "sha256": "ac200ecbcd58874256c4c75834757d07de0592f03d2a0203e9a22dfd289cbfb6",
+      "bytes": 21708267,
+      "members": 11
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part20.zip",
+      "sha256": "96afc591858f383768b70ee6e9c6d2423c6607c6110739cbb5413421ad67eac6",
+      "bytes": 20166333,
+      "members": 9
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part21.zip",
+      "sha256": "e67354b0cf8264aecc6db3cc5d2ec2d6ddede7996a6e4294f4a577f37e3a0746",
+      "bytes": 21739323,
+      "members": 11
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part22.zip",
+      "sha256": "7435dbcd70e3ec59176b19f831fbd8d53313ca848fccda7895ed154ddc591481",
+      "bytes": 19030003,
+      "members": 55
+    },
+    {
+      "path": "/workspace/scratch/2884d1c5ce65/Futures_021_Results_Part23.zip",
+      "sha256": "7e7941e21cda8d5aea9711890feb424ac5a30dd74fb3d35b914126165bc8f3b3",
+      "bytes": 517603,
+      "members": 28
+    }
+  ],
+  "all_members": [
+    {
+      "path": "futures-021-train1/BTCUSDT/selection.json",
+      "sha256": "5434e9d0c15955d769b178bb51ab21a64b277092235f39610add66df33c13fb5",
+      "bytes": 38956
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_aroon_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "4f2ff79991cbd80ce5b48a3c8375e88c985ae646efca2fbbe22bd5a0b6ff095b",
+      "bytes": 1670866
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_aroon_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "ec93e5058450cdac65fd84366c122a7397c0d8290eb089c04f6a2ce16a6282c1",
+      "bytes": 1698282
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_cci_reversion__fixed50_stress_assumption.envelope.json",
+      "sha256": "610fea0a483af8c16431105dda84f0a5d620c4afa5b3bd34b241bb996d64a4e1",
+      "bytes": 1446502
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_cci_reversion__fixed50_venue_assumption.envelope.json",
+      "sha256": "d5c4d4b74e9a48aacd7a0ca245a3411962fa32dbe0a84fce496af28de2ce05c4",
+      "bytes": 1456950
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_keltner_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "bffcf43bcefbddab8b89a15bbd95e765cc4023e6b9719ee5ec36809d09aa6bee",
+      "bytes": 1640974
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_keltner_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "2f200331952c11881e98a07926ea5395cafdba7d661bb55970521fc2657d8e83",
+      "bytes": 1656426
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_obv_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "a2f57c08360a43eea9c74daea6ba95c2d7a443f3b23b9188684ab84d74533fe6",
+      "bytes": 1590082
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_obv_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "ce9ac2572a91de351260b2a0de0eca3188354be392a5457bb70095ef2aae4f88",
+      "bytes": 1603810
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_regression_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "4b352acc68efa2339f95938512d5569b053bfd394e6750db2934c4d453df11c3",
+      "bytes": 1774754
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_regression_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "082024c364a8bda260c54eaec849777928f993677f0d28a3a3bf187928c744e6",
+      "bytes": 1793374
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+      "sha256": "0cfef7d1c4976f3affd2c645e818e93be201d7b632f4d6a0ce66113a68421ed2",
+      "bytes": 1932194
+    },
+    {
+      "path": "futures-021-train1/BTCUSDT/train1_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+      "sha256": "2c08231172e5a042f04acdbfc920241f437850c247a38840318b67ea86881434",
+      "bytes": 1950318
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/selection.json",
+      "sha256": "61c3d885f12de26576a5177e18a40c72ebe20023183c2c6fd081ddbe72e3e3c0",
+      "bytes": 38828
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_aroon_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "5c864971fbf8d77e998738a88fc41cf3b1489c480874c6f17a63ed1431910bcb",
+      "bytes": 1486126
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_aroon_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "22036ecfcbebb5ad6c390f4b67510824f53ef5ba9b2e59216c87d8bc44bc73cd",
+      "bytes": 1496290
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_cci_reversion__fixed50_stress_assumption.envelope.json",
+      "sha256": "472116c495b41954f434df6e8bf39e268479083f32ee9bec9a16d461be2f0a52",
+      "bytes": 1393714
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_cci_reversion__fixed50_venue_assumption.envelope.json",
+      "sha256": "f585a9747bd026c1f27bbfa6998c5ed1c9ff7eb3c830c3052454644b69414a2b",
+      "bytes": 1397578
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_keltner_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "bbf0e9bc43b9e1ac421f9ed24cdca1c8f1d37654110376488c96f19089fd38b1",
+      "bytes": 1380398
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_keltner_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "d19097d07cbb0f94f16e4b5fe0a33dc348519d5dfe9bfc7d0612464db67167fc",
+      "bytes": 1386794
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_obv_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "f91ed73f9114093c0cba5b60ef5b19651d9c0158682706e1b86e3fb29e1d1706",
+      "bytes": 1515242
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_obv_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "c6bd7be9947b2731f8cb92504ee2c1902353d48a777cc91e324505aecd163cfb",
+      "bytes": 1526394
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_regression_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "563636b6e1b2ad7de964a293889b197063f0448842a3d4dd3980a6b003987aaf",
+      "bytes": 1532214
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_regression_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "12f63eaeee23dee484ced61cf7d7c7a029eb7de4a54a417cecbfd9ff116346fa",
+      "bytes": 1537890
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+      "sha256": "754a43cbe772ebf6c8a90bed0b1f5926d289c6dd49314fc797a3793db44b2c79",
+      "bytes": 1800802
+    },
+    {
+      "path": "futures-021-train1/XRPUSDT/train1_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+      "sha256": "8c7a5098a54813476c17fcdcdd0cd97838f1cb4112ca43a429b0b7ed4d57278c",
+      "bytes": 1826478
+    },
+    {
+      "path": "futures-021-train1/intent.json",
+      "sha256": "45b732a18b12a595a91c729aac6354926993a947fbc88e10c42a39a0f3026b53",
+      "bytes": 288
+    },
+    {
+      "path": "futures-021-train1/selection.json",
+      "sha256": "6eaac57ec7928c13a933d65717c8bae88be4e12029289c7fb44f5a6bbad8f3ba",
+      "bytes": 84788
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/selection.json",
+      "sha256": "497fd04c7a77347202bf88eca9809c0e85ea1d00a130c659cba1cff0e3a593fe",
+      "bytes": 39443
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_aroon_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "466f3a399d16836c80045968e40f490c256d0ef54b192b4e671d0407d6583e8b",
+      "bytes": 3373918
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_aroon_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "b01692df1b5a2b987e0538757c47117136685c5deb2649a1c787172c478c4a18",
+      "bytes": 3417210
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_cci_reversion__fixed50_stress_assumption.envelope.json",
+      "sha256": "2661918764aa31ec1151e1d1681dcacff45b5aebd86b129fad7db8ee0ef1315a",
+      "bytes": 2900362
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_cci_reversion__fixed50_venue_assumption.envelope.json",
+      "sha256": "4847ba54974ff6ee04859f1b5c9707a7562b68ef5e020ec148d6d17f2eb534ce",
+      "bytes": 2916006
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_keltner_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "5b17277683d12a5fa7458faeb2c3e70ee1f5db6d2c7f82083f55b01041a18c65",
+      "bytes": 3234174
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_keltner_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "f29a49f78c857120b7f96e64ff4eb8a7c3ba70346b886e28f2fa03ae6b0644d6",
+      "bytes": 3261074
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_obv_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "a6242041faf1361e986556eefa63ded0af621f2753c3d26bffe388689e2f3c03",
+      "bytes": 3155358
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_obv_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "a5aea476d3c28546784133232febf81038a702b029fcc052c8369605e3cb09f5",
+      "bytes": 3181234
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_regression_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "43fbd783969be333c88066fd7677994972b6280f7b3caf2e2b7227d358857969",
+      "bytes": 3490650
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_regression_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "74198a337cb982b95974ddaed7a06a0248e3c3301a77ca0f3c882990609b5791",
+      "bytes": 3529798
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+      "sha256": "64f2ecf5e1487a31862503e0d665cf71f6ab2d7aa1a159933fb306179399bffd",
+      "bytes": 3910386
+    },
+    {
+      "path": "futures-021-train2/BTCUSDT/train2_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+      "sha256": "e01cb1fbfe683fcc551ebb49b39a7b6549c34cf9cb402cbb931ddca3c533bb43",
+      "bytes": 3945334
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/selection.json",
+      "sha256": "162dcbd5a5196be564e3e5887adc90f7c93185cc7a206e6f38733f8417de300e",
+      "bytes": 39302
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_aroon_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "54b462a42ef9550117ac660aa6ca494a42687b0ebbd687826fcddaa14224cb76",
+      "bytes": 2948078
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_aroon_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "0d0901c0400ad8b9d330d0cd2a5e5b1dc95b5c0000b4a01329b5357d00e1f958",
+      "bytes": 2958306
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_cci_reversion__fixed50_stress_assumption.envelope.json",
+      "sha256": "1e110256ed5db27233f189f640abe895f24a3ffc6b046b9a3136f37aae82e2bd",
+      "bytes": 2659834
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_cci_reversion__fixed50_venue_assumption.envelope.json",
+      "sha256": "6ed13e929430fbcaae36260c9d7b32d614e79df65f3d17337fe331379a8d697e",
+      "bytes": 2664318
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_keltner_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "10e68ea82b3a45c507e87806955fda0772a30ca4a85d77a9b52b37c985238ff9",
+      "bytes": 2776078
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_keltner_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "6466f6ca30e49b39160f0e9ba1c55c4b8656b92cb5ce9b9a15497076de85c5fc",
+      "bytes": 2794006
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_obv_breakout__fixed50_stress_assumption.envelope.json",
+      "sha256": "fd224a184cda5cfd50a4ef9902ed0464b337a179f775ede8a5927a60cbd888d5",
+      "bytes": 2901478
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_obv_breakout__fixed50_venue_assumption.envelope.json",
+      "sha256": "04f14506b429663c2158817eb138dfac5deface9a3b7591291b57cf4512d29bb",
+      "bytes": 2918178
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_regression_trend__fixed50_stress_assumption.envelope.json",
+      "sha256": "5dbe993fa5adcf78a183c7f5dbc9fea190f527758a6bbf275e11936e0ad2dabf",
+      "bytes": 2993822
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_regression_trend__fixed50_venue_assumption.envelope.json",
+      "sha256": "626152bf86f5f022439e0e954d3b415cd04b94a33c4effc755c22e944a299c84",
+      "bytes": 3005698
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+      "sha256": "71905e6cf0929b7345ffa4bab16c46bc538920288036981d21e1e02e03331bd5",
+      "bytes": 3454310
+    },
+    {
+      "path": "futures-021-train2/XRPUSDT/train2_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+      "sha256": "3e2bc717aa6ef0ebde30c28d9cca02469a0d9a671b07893017adada31b8b2ea0",
+      "bytes": 3499134
+    },
+    {
+      "path": "futures-021-train2/intent.json",
+      "sha256": "898d44fe00da563ac15289426d41ce9f682f4e85df1857886457c432e96630d3",
+      "bytes": 365
+    },
+    {
+      "path": "futures-021-train2/selection.json",
+      "sha256": "0cc99b09bf05aa5174d29ddbbe0f6ded63335e36ca1f07a62104c3979feb1ae0",
+      "bytes": 85947
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/benchmark_cash.envelope.json",
+      "sha256": "b748358f3fe87513bd425ca56a7877d3aa1a43fd68233c3933aee801f0607ac9",
+      "bytes": 1471294
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_stress_assumption_adverse0.envelope.json",
+      "sha256": "8fd842b2b56df801051e70ff60972859af52fe990cf67841da803388d901bd63",
+      "bytes": 4244522
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_stress_assumption_adverse1.envelope.json",
+      "sha256": "2df94f43f952aba72079c6d2f2f0c8dbc1cc7c016d3f79d3ecdd456c5fd72bd9",
+      "bytes": 4304482
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_venue_assumption_adverse0.envelope.json",
+      "sha256": "c366ec5d9b43a22519f04c8f00aeb0b2368793699002f7200070f4049c784368",
+      "bytes": 4284606
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_venue_assumption_adverse1.envelope.json",
+      "sha256": "86a20a19230fab7815cf9385e2eaae7e1fe5ee585e715de49eaea185d6a84005",
+      "bytes": 4344014
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "745b4c2d7875cfda429abe6a6e148b157ee8092311e8ea7a7627672ed164b6c3",
+      "bytes": 3188018
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "49fd54c8c7be2e171e5e281f419d1a0fa46d2648e066cff012ec1d3f49a4905a",
+      "bytes": 3217762
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "2ff73108b11450d8bbf933c51e3b5b71d521478c14c136c40eed37c298aa9174",
+      "bytes": 3182202
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "7a3211b36696f62d7f4f93dbe5e2f6a0684edc8c8ce648b953a29a8ea8aa7219",
+      "bytes": 3219166
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "e6f294c1d12b0fce5ce1702e8a6622e1f5c529f59f0c855c7d34f17c9cf0a047",
+      "bytes": 3185382
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "fea647da1b87eb5f7677a511867d0a06ca23b3db9a422a25e4b1bbf63000a77b",
+      "bytes": 3210170
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "d4b70081e294c3816fd00e54004ce851996ea35263be5337b89f6aaf1281a7cc",
+      "bytes": 3200270
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "4e870d4e62501e4072a9e778a4339fe2ad3a461ea1600d9c96162ccbafc40113",
+      "bytes": 3244406
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "d82fc7c1de22673f41256068bb6dd907a139c8e4ce21bfe6c4d7f7ffd87d294e",
+      "bytes": 3214126
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "a8b5102c1c5feae51a472eee0135eea55427693ef56b9ea2d15b85fba473a3cc",
+      "bytes": 3240474
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "dae84d9c0872acb7f6eececfa93d0c59bd40a20c3762718b1789b65b320685ae",
+      "bytes": 3205658
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "1db341bf01597f03d9021ebac991287fcd5bdc09928cdcde9d029da95cf523ac",
+      "bytes": 3238294
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "de4dd44e0fc112c7c3e1825e37075339dba057dae9e47752d4e3b1a2aa1bb51f",
+      "bytes": 2949746
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "03aa61d957ccddcc9cc81d088cb6ba510a9fa8b349b1a1b5c5e8cbc5a50ee17e",
+      "bytes": 2975674
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "a44280e9c9ee59d1e76bef23039e1732363513bbbc19189b19c24ba7058bf62d",
+      "bytes": 2943978
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "5b1ba37788b81fef2d7ba36ef35c35c1a889300881425e86ada148928ffbba85",
+      "bytes": 2968114
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "7897a42805c36bc2e235582208d96134f768200ac94b04865d39831144a06560",
+      "bytes": 2943426
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "8dc223e9287ea384ea44d7c104540c4e4a315b0e0b148a500a04acf82cbbf29d",
+      "bytes": 2969842
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "eaf33301fbc5e99cbac29061118252cbd27d2a726a83d11a3af0a1abe8eb82f4",
+      "bytes": 2964294
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "5917880ab188a261dc1112cd5d96c984db5413a853993fee135d114cde9a6bd8",
+      "bytes": 2987246
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "e75535bea718131d5c40f9bca436be02e70740d3494aba670380ba6ff3abb623",
+      "bytes": 2961062
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "6ebebd33ba795d02c383451e8376f9fe85c0f26c7603d5dc546cb74570f9f122",
+      "bytes": 2985494
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "e4b925710ba164d993fb07188c5b9c3e4133c437749bc97b85bfa20b1fccba95",
+      "bytes": 2956678
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "1c3d52563ad220bc963b0a30e6ae7b1c4222e9ed65d258622aa667b45bf6557b",
+      "bytes": 2984334
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "8fe115e161f68f1077c2fa991d2588c92a25d8f2442740b475e3e92e260108c0",
+      "bytes": 3045858
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "4d4d15100c4f220062b7554e30921b950fe30401089d100dfb2296f65985659d",
+      "bytes": 3079114
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "e54d6cbc964f6ab81e0563a34676dda8de669da65557b383829eede2117d5bd5",
+      "bytes": 3053698
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "4f19d128479f24d1d09e321a6def1b07fabbb65c11da9fed920168f08303d019",
+      "bytes": 3082226
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "3e7c0931066f49b01df69dc2ee8ca0c96cff3c216ae8f3004087aa5a94a2f150",
+      "bytes": 3048762
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "dc2333c5eb5bb4901b46a471fa40c4ce56a45e57e8a7def5ca89c81a296b080d",
+      "bytes": 3079782
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "00208688e7f30e3c863d0a19bceb4bcd61bed013ea0756042989e6178932593f",
+      "bytes": 3068818
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "8c69ac08f8defef8fb0aa0eed251c682b532a71409791b1cea16b0d53af37a8c",
+      "bytes": 3100934
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "1e60832eab0a6e36af5141beb663f520541aaccd3fc8a2fbef42eeaee7ccb948",
+      "bytes": 3070014
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "95d78bad9bcddf6c9763d4a744816b29cdbbc1e1f1e55811268584145f8c9af5",
+      "bytes": 3103802
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "f1f01e8a266df3410c4890bea76721b18bae34d97ce46f767d5bd13e9d56a25d",
+      "bytes": 3073534
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "83c7a9882c5f347fbdc7add3dacd89cef2a365da50f2983f4409ec4e8febb8a6",
+      "bytes": 3090646
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "c61569a2c9bd8626d25849913f8033737910b048b3b53b1a6ee05bf4e9a4b352",
+      "bytes": 3079202
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "b0c62af1fb6407f760545087fe7f0625346bb587ed7c7dc75bd56e7e7843614c",
+      "bytes": 3106926
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "8eef5ba40bcf5fdc6837e72ebbf2b68cdf053375164f97d2932012b3e8bc4e66",
+      "bytes": 3068954
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "f004c7d8cd454cecde2f39c5cd2dce415301d81dbd7e2ab1000e02e5b0d42db1",
+      "bytes": 3109562
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "e063e1e0fce251f8fd8484694cf28134af4f91791a9c6b5b2383552c73fbce10",
+      "bytes": 3078946
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "f24d1a11de1d00124a1a1ae8d818119089f3533207094ed90d376fec47eb1930",
+      "bytes": 3110470
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "5fd356a0ebbd36d232149f0646b358411967537ba94b7a6a569e126dac16642b",
+      "bytes": 3100110
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "3802b74c2781f97d49581744a5dd49dd50f926ddc9afc3d55b5c1a1b10298406",
+      "bytes": 3122414
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "6ab020d2405675eac2172986656cb0c2ce2bd009b60f8a126b3bee138659d932",
+      "bytes": 3098874
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "aea0834114fc89551306a8b2d286d776a1c27ec0233d65c5f6a7d14fa3e216be",
+      "bytes": 3122706
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "017d0975d566c3b0526eb28caa6f5f4ca9ec0691c9ace6eff7a42de624e2388e",
+      "bytes": 3099814
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "d6db6b2abc7f93707f700f9c96fdf2722898e30a0d2218d9306825a6a503ad48",
+      "bytes": 3128058
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "771d85a3821e37d18b3b431e3ed7220248b7c8dade26e6ef85cb566f19ae5766",
+      "bytes": 3367758
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "92340252023c1b8749aebd82d4859af1b8c4e6732c9f948f8a91cbc95cd35ef3",
+      "bytes": 3405998
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "283aab0018d387793fd6c43f0940fc96ffea85b0c49c8edafaadd8da5429c4c0",
+      "bytes": 3374054
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "ac01efd1c75690b83aac409507bff86256d8646b8e22ee2b5d9ac3fbfc27d47e",
+      "bytes": 3413406
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "452aa2d9f3373382e02dfc087b50ba61c08fa2ea79de0a8f0ab373a0d9bd6f02",
+      "bytes": 3370058
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "c7b9d1f3acb0542f325fcb9a774bbe3f7299bca6809e393bf010710a0bd262ad",
+      "bytes": 3414318
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "132228c06eb59f4690b2f1cc1d22de706f8cd6a5644b4c84b5063599b3c99568",
+      "bytes": 3398394
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "b71997efc1f966408c63005ebfe500c2849c98fa4ddaaac3f1b53f284e538f32",
+      "bytes": 3432282
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "cd34cd3799c32004c51007e69d33fad06687ea28322adb4a4493525024bc7cd1",
+      "bytes": 3404238
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "90327ab16b2bc0dbe80a08dca7a305fd19821baf8f9e733515a15bd87fd61125",
+      "bytes": 3438910
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "a7564edce2f619f64a95284e14cc7886c0c67e4b42261d92037bfbb62a497252",
+      "bytes": 3405962
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "5ccf7fefefcd812e413945c455aecf3257103066a9d78f76ba8f455abdadf1de",
+      "bytes": 3454746
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "0ea498f493d868dc90a6505b7779fb5591f2b068f031bfac32df9d65cae817b2",
+      "bytes": 3841154
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "d94b81373026b11e527055ead4efa6ab875802282488ba68f4cfd01cf537cfd4",
+      "bytes": 3900158
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "ea76103f5742e9a8abf39951ac45fafeea30996fa470bf5a58a366b24bedc007",
+      "bytes": 3849830
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "4dfbc00cae7152e181bd5cc261e7d7bd1755d1ba3ce859a5432670e993159a33",
+      "bytes": 3891502
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "c65c5f07a30ceb0f77f4194aa724ba1303c2a34bfdb8b799b9b33c6db78bbab1",
+      "bytes": 3840378
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "d46c56c473868cb0f39483e11b4cd81513a07163e290d9c4aebd0071a961f150",
+      "bytes": 3901866
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "97e1836a761d7a82793beeb02d4c5aed86546faa1638a33121f16030d930f3f1",
+      "bytes": 3882054
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "5a38e569c02a48d07b39ef64d2c25bad44aa72de3b32bf6b0e8980266f63716e",
+      "bytes": 3957758
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "e432dbae56611901c7cc8b528c1acc51a999c1a3996a5876850958105e18b69a",
+      "bytes": 3903518
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "a64be39ebc19e0334e6217e39c73250edcc5e8118790ca7dd7e4bb372fe00124",
+      "bytes": 3938322
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "c6329e928ac927f5008c5c9396424dba2a72d083391a99de6414371b1879155b",
+      "bytes": 3893482
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "b51f85afb70f00b3a0a6305b9b6df3572a9b808a566bfa5f8c445c255ef09b79",
+      "bytes": 3946830
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/evaluation.json",
+      "sha256": "74bf816354e0841ce3561c2f99f083aa7eca70366f1dca87f24915d46f8a1e5c",
+      "bytes": 735300
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+      "bytes": 1258017
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+      "bytes": 1258013
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "8d2421f0152645980da73755784d6248333b998741bef26f17615b071fcd7410",
+      "bytes": 1507218
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "70888d1270665d66683e9adf22646913ef8ccc29d500804f3b75f42238be5750",
+      "bytes": 1517274
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "a26bbe0227c321dcc20f0f2150fb67fdd7eba87dfee2443cf7d7969d3f4fb9ae",
+      "bytes": 1508458
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "dedf74499d6957539068ec766f3fb5846bcf3cf9fd55d940701b2b8b4548a91c",
+      "bytes": 1522578
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "780beaa38818167c4b2ca9759452c188648032a6533b09812735a3fc6cdc4ba8",
+      "bytes": 1506038
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "4169c9ed597f1be5592b22299ef9dce58639ad026c19c2250928a133d78af998",
+      "bytes": 1518310
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "ae67f8c185ed2325b2077417d6f1b7748455a78360dc0a40512f0f1640265dcc",
+      "bytes": 1514354
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "30ebdc3a6590451f64ac94332368c1c2ded88194513453ae79b4a4742ea1cc32",
+      "bytes": 1526278
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "e3f4997f4797c22b9f93c747fa25a34c58a0a2051051ac4cd2dbba209a4433e0",
+      "bytes": 1516730
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "dc4a93251aa00741da4e7cdbc75655830ec5c346b0c9c6f2156c30405a742e9c",
+      "bytes": 1527206
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "91991ed42257b82f4f5bf9b48e9a52efbb1142f60f2c3df8c20e9cae2285bf31",
+      "bytes": 1516642
+    },
+    {
+      "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "78184e3443a65089015caa1f97d3f04272a8e3f653290fbea1cbc89141be40cc",
+      "bytes": 1531870
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/benchmark_cash.envelope.json",
+      "sha256": "2e4ad23bdc295d0b063afd9f9eb5d721ef4341a080a094f63efd7100a0b6fa8a",
+      "bytes": 1280557
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_stress_assumption_adverse0.envelope.json",
+      "sha256": "19e8923718a2ea452a1edc4816118e8a1657281829f88f2959a3b6f6bd258c96",
+      "bytes": 4213754
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_stress_assumption_adverse1.envelope.json",
+      "sha256": "b287cdeed3062486ce0dcfb0d6117728380d883092dc390b614cd38b93bf9b1f",
+      "bytes": 4265690
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_venue_assumption_adverse0.envelope.json",
+      "sha256": "0684cca1e4ac41b24e611361f6667e127d23db29193dbc3929a5d8af30ee9d6e",
+      "bytes": 4274650
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_venue_assumption_adverse1.envelope.json",
+      "sha256": "f8694117535d813252f255488cdf4d6ca55cc3712ed721520cb7c1f9ab85faf2",
+      "bytes": 4333722
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "fc9b0c430d9ba03fc040d2b594803e5ebb5bc1cf65b881f11628e4d18da08a97",
+      "bytes": 2913170
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "b538da98b5870b9d940bcb9224736493707683fbbecad818fc53576ee94a0bf9",
+      "bytes": 2948194
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "8d31b54ab795cb7f0c381a74771776488ca8ea651b069f073cbc2b49a50dc66b",
+      "bytes": 2907278
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "c6d1105837423d8dd228b0bdd9bdd5f389506dd72d3b92a0eb58556400e8c464",
+      "bytes": 2944118
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "e34a228d9bce1646b652ff333763ae86c0fe0d0104b45835ec14e986aefd5e9c",
+      "bytes": 2906770
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "83c5a84bd615d5deb36dfc1f030a7d1993fbf39f82c82e7c50e1646da35ae223",
+      "bytes": 2939598
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "3c10fde460b71b7ee100c87b69471eeed129c3f46fe2ebf29b8fe0958a29f7ec",
+      "bytes": 2925666
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "344fd21d881032191bed35fc4a9f64e8604ce0dee23254f6af25dfc84eba1459",
+      "bytes": 2961326
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "36ef38f24c05aaa98cca3439ad03ee035c72f4106da5c344d3da419fcdddaeb5",
+      "bytes": 2926450
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "f7bd22c530998d3b48a1452dc84101241d0203bd0185aef3bc880192fa4fccbe",
+      "bytes": 2964514
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "291e74acba04ead63d33726b6d44bb4f3fa17ef35d7077e00cec5da45c5ed126",
+      "bytes": 2926242
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "d4f516afeba0506178096d9f08ad83aa49aa1c0484ace8b05908e9c37892af9c",
+      "bytes": 2960262
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "6914957eaebdd6f77e29a8b1fdfdd9038a311ef7cd6fcba2c4c2bf76e9f777ca",
+      "bytes": 2675650
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "f7d26704dd0cae85113a26338c2b8c501b5aa48561f46791365510c2efa372e3",
+      "bytes": 2701530
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "b1ddbfe5002d90d9a0a13a924de71625407d9bc8eb1590558d893fe8f91a843d",
+      "bytes": 2673258
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "df0bef325fcc2704180c97eff5b69303e5315f297cd903f3cd1c0d2b2410728e",
+      "bytes": 2703878
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "15a5967f344b3acce4f89025e220cb6d26be274bbf594b60bda181a9f4230a08",
+      "bytes": 2672198
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "8f583a4e40977c823c726fd67caefeace7c8607c23118cb343677935e74f93a5",
+      "bytes": 2700762
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "638293c1ba3e4c79586502d5d53528629a2c42c2090cdeba59ae71aca0c5337a",
+      "bytes": 2684834
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "3868b65907ce9542829fa6144229cad415ad45b25dbb55693f0fee261c84578e",
+      "bytes": 2710734
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "94bf78cccb16ed077ef8cbe05e48debf6aeb85b7c3cbf1f7ca5be1ac57da765a",
+      "bytes": 2683722
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "8cfdbdab661228410c20e395d441b84079f41d6eed583bf04ac25fe435e635d4",
+      "bytes": 2712074
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "65ea0e9629462139d4c824a4fb11d39f3e428e399e486e45b7210465b9dc087e",
+      "bytes": 2681090
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "53352a1e8bdd73320df4da6da35125954173cfc38d92ce4de41e9b31efcb478f",
+      "bytes": 2710218
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "f0e71d97ef612bff55213cfaef9634ed30a218792211f1bd55be870864cbd43a",
+      "bytes": 2756546
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "2a5b6ec43ae062c42dd86d9f98f80a1a159f91fcad5db6f88d8c0addcf55bac5",
+      "bytes": 2784382
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "c2ccbac41f1cc44833ee5c5a5f423f0720ff507b9cf167850a207ea42b503a8f",
+      "bytes": 2754734
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "ba28e55ebccaa54dbece9da6e390b09f1b2764e475c21794260241670d745a47",
+      "bytes": 2777742
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "77b8da042f8eeaa615b04714615ebeb16bb04e26c69ddab51d5a90cb177cbe47",
+      "bytes": 2754278
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "89ae58aa7fcb2f216f4efdba5521c66d46e0205d3be24d5ae7dd0901188b2022",
+      "bytes": 2782222
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "3ed1eed04921ac08f18f129651cc27cd0214c66b68180f7a5b32af3772ac467b",
+      "bytes": 2768054
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "3e37daa1d56dddcd90eba3bb462d66ffeaa542486937013c073f12ff3007a503",
+      "bytes": 2794738
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "23dc1fa55931596e3f8323407a00d35810e049392202ab9017aafc30eafb8d22",
+      "bytes": 2764822
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "862f71834cc7acb4d59b9ed783b916d3538f472b7a77cc6b68b82f24dbfe27c2",
+      "bytes": 2795142
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "97dabb607cc5f74c89a122faa9259c891e60db13f8adfe34d2c9e25271be10ec",
+      "bytes": 2764386
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "197d0e936e193b4d90e0d42353e5ba20d7ef83a154eb3e4ecd5dfe7f13dd7be8",
+      "bytes": 2793834
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "0cfe019adf9599a6a5bedacf6367b7269c479a20019313057396f3320c5ff9b4",
+      "bytes": 2773286
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "c8605f07cfe7e7692fee556e5fa0dad226987c7ba95cebf9f50cf49d0d05224f",
+      "bytes": 2798278
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "c25bbbf491c7858277a330e6822871bef78e6959df93814da15f9165e2d02176",
+      "bytes": 2772150
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "8ebb1afc6f68726b34ada7dfe69a76305a8759e65b049ef8aa25724e3375d736",
+      "bytes": 2796638
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "d5fa13ed8fd21b3b9649c5b5cc15f8aae2cf33de7ef468157183970be18b3855",
+      "bytes": 2766754
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "cf3c6e3b26be6c48cc7082268336b81299659c85bd8e80cd9445e088fd94a179",
+      "bytes": 2799574
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "1a45b7fbecd02622bd32b0f440d075bade4f29fcaeb449fc0055c920bb101bb4",
+      "bytes": 2787338
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "16cc24a23932e1ab93f75dba9f1e3b34d2cd3dc1593593642f5d93eb80585ab8",
+      "bytes": 2814758
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "14fb1fd0b5eff17a8658aabe023d8fb741fd20cd104d40540c54f7a782fd174e",
+      "bytes": 2785910
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "29fa821dd406266e8f1d3e1329b9e714e5474a6842b6c546a15e1ab592a1270b",
+      "bytes": 2812486
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "431299c0681837d694fa38dac380802179d21405ba517c6154779f9ba5d38c57",
+      "bytes": 2782706
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "79094c8397a32386c9839340cf224471cb352020a49bcec98907ce70d9270b07",
+      "bytes": 2811398
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "28b4e682f4d349ad12dcc05d9819c3d707bacac492f53b55d849f78d01c654e7",
+      "bytes": 2952186
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "3efdf66602b7711ab48502d5ae44d802395b5ca374caaed9a2a0a399ee3eb5c3",
+      "bytes": 2981598
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "52b519a43968b450a9590be32b2fac5e27070505167fc383f3fe6f8924aaa1d3",
+      "bytes": 2947738
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "02d2b53771cb35b3c7e3696273d108906f6b6dfe6c12c7da2d5ae0e6730ec406",
+      "bytes": 2975646
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "fb9a35ad7dbd9aa06653110c3c0487a067087e2420c21d4a21b99eafff665ca6",
+      "bytes": 2952910
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "e70019f1c29ac181a5e5388316a92c7cfb809cc515c012a8dfe975f55d583cc0",
+      "bytes": 2978026
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "6c72aefe206d54b6e4ca15fb97d84c7eccc89937db2e493d75a9f9fbf41f71c4",
+      "bytes": 2965746
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "2296394f5849c344f613f63a5659254450f279c45553151fcd2d556775cab367",
+      "bytes": 2993862
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "6a91c265eb486a2ec05b69d3072a79a77cf07cc6ba52e1ff798312557e07f865",
+      "bytes": 2963782
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "5296ffc590a959176e2c3c3853849618394b76a4b1f1887120a233ece6508404",
+      "bytes": 2991238
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "897cb4730cebc2bbb158a8ef53ef7ed6ce2918e1a44c170f43aad5b48f03d9b0",
+      "bytes": 2964358
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "08d35cd11fe65d92ffe4caaab9d4c4b3887198a22cf28b72f88f15750b828261",
+      "bytes": 2990090
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "5489b10a155dd37d52ef05f26e0fb8a44f01a823baa0937007392040d0845861",
+      "bytes": 3489670
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "7e68310a6b4a1cd2ff8cc001ec3cc08ec9c77504335141aabb9403592915c2be",
+      "bytes": 3534662
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "863ffb7ca05e8e0c471d0f5eaf9b6bff848c0ff296f892eecdeb7845de3403aa",
+      "bytes": 3492402
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "706a87870811d73f47f8a9b150026afe0210c718f8721c69fd19fe779bc187b4",
+      "bytes": 3530030
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "9e6c4c44299e5131d437f02c4bd3979cb07c7efa536fdc7e4a8480757cc57a05",
+      "bytes": 3494838
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "479a34406a1ab10ab9b28b063d552cc80c197dc0253518a054ba16c537593b96",
+      "bytes": 3540670
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "28f79d818a28636e941e85b1393789bd746cb03cce677d3fc19b3851585be324",
+      "bytes": 3528110
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "49649031e0c1b52bc66325a1e9f6cd0e29da027dad7d0176240ae67df46ab55f",
+      "bytes": 3578066
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "c8170ef9157c5135b2d0055917c0f17bceb7a82eaf29b501ea0d826ed1ef9e56",
+      "bytes": 3530958
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "1dd2a604978798d2b0c235ff23ff6596669f5c29005791e0dd93ec9ba645d73b",
+      "bytes": 3564434
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "722a80d78d868aa29d176beb076af41eb0db0cf2abf90189a86764b82a079bb1",
+      "bytes": 3515066
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "49a9723854239287089163e31ef80d27636e9b423d84736b0deced19079133e5",
+      "bytes": 3573570
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/evaluation.json",
+      "sha256": "5fb14674577805fa31c1bb7f2639c9f52395ad6136ab52b392a9d116ca5e9424",
+      "bytes": 737380
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+      "bytes": 1141093
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+      "bytes": 1141089
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+      "bytes": 1141093
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+      "bytes": 1141089
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+      "bytes": 1141093
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+      "bytes": 1141089
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+      "bytes": 1141085
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json",
+      "sha256": "d0aa4a967fcea9013806884f19b9ec629a72dd1d109b28ceeb71b94b1e4bd8c8",
+      "bytes": 1396998
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json",
+      "sha256": "0248fdad1f65d682efa578a0bfa7a860aafc533309df81113554def23f81beaa",
+      "bytes": 1413154
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json",
+      "sha256": "862207e1ebea74a74f50de9069888eae87ce9167e5b28b84da81a3ca76fa0628",
+      "bytes": 1398278
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json",
+      "sha256": "ce69bdc33b016bf93608712307de77d4325bbf8a69623207974d955eb47bb156",
+      "bytes": 1413778
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json",
+      "sha256": "546c34b92700cbe3ca7aae59da10aa191dad345991094177df9838e8e3d7a326",
+      "bytes": 1396462
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json",
+      "sha256": "491873e6a3dc57b7f300783e80668c8f8712a0b3d588d31ced9bce1d44171849",
+      "bytes": 1411090
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json",
+      "sha256": "54a5828dddd9291ba8b8cc9be5c7ca682cd03cc1fd8b46b35cf8b8493c0635b8",
+      "bytes": 1401726
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json",
+      "sha256": "f1a8627b0c45168933533fcb8541a01ec4ad9512bef80e967a60d87b8bed3ab3",
+      "bytes": 1414238
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json",
+      "sha256": "91feed7bc18a6d59912ff287e89279522baaddcbaeb10353a8a228305c850264",
+      "bytes": 1403486
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json",
+      "sha256": "e034e1444718a76b3cb2aa067cc35139d4fc0bc844bd3bf409984451814233e4",
+      "bytes": 1417782
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json",
+      "sha256": "373817b066cad9edede55c24df08ab1f3c481637c15088196b810c539e9d251c",
+      "bytes": 1399782
+    },
+    {
+      "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json",
+      "sha256": "7388e71b749b9086e3c4f1534d0cd335f864195e1138dcc116331f84407bb726",
+      "bytes": 1416842
+    },
+    {
+      "path": "futures-021-evaluation/evaluation.json",
+      "sha256": "7926fecd1bfcdcf19171faecee6c25fd77c276685d91d3ab7159da55d8b13fee",
+      "bytes": 1638958
+    },
+    {
+      "path": "futures-021-evaluation/intent.json",
+      "sha256": "e7ca2c1803a4942fe0b65eae6fce83242bb2436f2121fbd909ee8c6080a59142",
+      "bytes": 448
+    },
+    {
+      "path": "Futures_021_BTC_SOL_XRP_EL.html",
+      "sha256": "d749c15105790bb0c0970d1d3d2059d4c6787ae04c93a005afdb30beb34b7e3a",
+      "bytes": 29636
+    },
+    {
+      "path": "repository/research/experiments/021/BTCUSDT-access.json",
+      "sha256": "dde1787ab2ab3976bdf6ac3294d366000519164514424dfd07595c46ef776d43",
+      "bytes": 452
+    },
+    {
+      "path": "repository/research/experiments/021/BTCUSDT-complete.json",
+      "sha256": "538eff57c1c59cdeeb0a70122d5e7865bccaefb8133d20de060325f093a45fc2",
+      "bytes": 1094
+    },
+    {
+      "path": "repository/research/experiments/021/BTCUSDT-daily-recovery-plan.json",
+      "sha256": "8528c83d8c10317fa4e91c059a5e6a276b29930da48728595c7f3abd088b99ab",
+      "bytes": 547
+    },
+    {
+      "path": "repository/research/experiments/021/BTCUSDT-manifest.json",
+      "sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+      "bytes": 91728
+    },
+    {
+      "path": "repository/research/experiments/021/BTCUSDT-monthly-manifest.json",
+      "sha256": "b503f4d06b7bc0e83b15396664a843f2abf2c620d0345b5a0b12de719e883a5b",
+      "bytes": 87789
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-access.json",
+      "sha256": "7c80dc22efa0f1c802a92f95e25a6a7cfac2006b612bb9e7adbd36f01d14f22a",
+      "bytes": 452
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-candle-audit.json",
+      "sha256": "7b0e2f43b9797d33d55b1b9841722992fc63eeff011e2807f42bae60a39f41b1",
+      "bytes": 596
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-daily-recovery-plan.json",
+      "sha256": "a7d48b4d7a71d930780f9a3a406179780d1f96371ab83bb35948c9d82ce25f0e",
+      "bytes": 725
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-manifest.json",
+      "sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+      "bytes": 94175
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-monthly-manifest.json",
+      "sha256": "11a011ae0ecc0459b8822ce84d5ac5ad97c39934199e09e56e8949a601aa22af",
+      "bytes": 87791
+    },
+    {
+      "path": "repository/research/experiments/021/SOLUSDT-stopped.json",
+      "sha256": "d9f973f165caa290f69967c2ea24f0ab143cb41a63167ed12e2781f5ea455d38",
+      "bytes": 232
+    },
+    {
+      "path": "repository/research/experiments/021/XRPUSDT-access.json",
+      "sha256": "9f095882c9902f08c55ea87c5bd518f91b74d38401f51ef08bb7761f049063ab",
+      "bytes": 452
+    },
+    {
+      "path": "repository/research/experiments/021/XRPUSDT-complete.json",
+      "sha256": "5c8ded6b66552a47b54a85f04e2fa7fe4135e95b2cdd968eca8335e2b341a9e6",
+      "bytes": 1096
+    },
+    {
+      "path": "repository/research/experiments/021/XRPUSDT-daily-recovery-plan.json",
+      "sha256": "a7d48b4d7a71d930780f9a3a406179780d1f96371ab83bb35948c9d82ce25f0e",
+      "bytes": 725
+    },
+    {
+      "path": "repository/research/experiments/021/XRPUSDT-manifest.json",
+      "sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+      "bytes": 94177
+    },
+    {
+      "path": "repository/research/experiments/021/XRPUSDT-monthly-manifest.json",
+      "sha256": "a0065480db22c215faef6dfd65ab1c321e24fed89114f03a9b4cb0d292256c34",
+      "bytes": 87793
+    },
+    {
+      "path": "repository/research/experiments/021/checkout-provenance.json",
+      "sha256": "7059bbaee86decb72582bab046a0db0bf475628593f9b84a2ce283130f35b177",
+      "bytes": 765
+    },
+    {
+      "path": "repository/research/experiments/021/collection-freeze.json",
+      "sha256": "aee91a12bc07c066dc99f722b38cc780845e9084be1456118cb4e0bdbeab4ce5",
+      "bytes": 1098
+    },
+    {
+      "path": "repository/research/experiments/021/collection-preflight.json",
+      "sha256": "e883d48bc479ea1f5f95d4c55713e2a350cec2ca1eb05c381681eb9892d0ca2d",
+      "bytes": 491
+    },
+    {
+      "path": "repository/research/experiments/021/collection-summary.json",
+      "sha256": "556046f1d2fede13b66e726bc29fab83311488cd761b8da6b7224752bbf3ef95",
+      "bytes": 2773
+    },
+    {
+      "path": "repository/research/experiments/021/console-collection.txt",
+      "sha256": "073749951974a73631c59c92b09fe9365e51fc65f68d495101b6a5423631557e",
+      "bytes": 3002
+    },
+    {
+      "path": "repository/research/experiments/021/console-evaluation.txt",
+      "sha256": "c76dfe2a35bdf2fde2afcfd6d2b369e9300c9e222d741fea31ff63d3f5821f28",
+      "bytes": 600
+    },
+    {
+      "path": "repository/research/experiments/021/console-log-receipts.json",
+      "sha256": "095a5a26d2bd8d62dfde97fe04563679679f78935802c3b74369b63cc5dd2de2",
+      "bytes": 1062
+    },
+    {
+      "path": "repository/research/experiments/021/console-report.txt",
+      "sha256": "fa88f162e806cf87d0d1fa134a5622b7f08e4849fd3c105673b7700f0809d0fa",
+      "bytes": 1824
+    },
+    {
+      "path": "repository/research/experiments/021/console-train1.txt",
+      "sha256": "777ffe6cf03512b22066f126063148e158082a37230e3b3d52be496e35190e4b",
+      "bytes": 354
+    },
+    {
+      "path": "repository/research/experiments/021/console-train2.txt",
+      "sha256": "473726cf94d6093b83a7362af294a05ebb28969cfb2fd84873e04366619fd61e",
+      "bytes": 466
+    },
+    {
+      "path": "repository/research/experiments/021/daily-return-reconciliation.json",
+      "sha256": "3c7e4e249c858f4086e171cebfce8de3d162ff3f9e542a782c1cfe8a6027cf65",
+      "bytes": 2363
+    },
+    {
+      "path": "repository/research/experiments/021/engine-freeze.json",
+      "sha256": "84a327534067a10aca16eb0cb8e162914b84ce78d2a149098595600484ad5f34",
+      "bytes": 67606
+    },
+    {
+      "path": "repository/research/experiments/021/engine-preflight.json",
+      "sha256": "9f174c5cc1f76f3464b7668eb054d436cad1aec9ec3bc18b9d4e65d5e9702025",
+      "bytes": 662
+    },
+    {
+      "path": "repository/research/experiments/021/engine-source-freeze.json",
+      "sha256": "0a9cb6f8da44bb5f31a680a26ce4c891ac169fa4a5b96fda0110798b7f4a8824",
+      "bytes": 63341
+    },
+    {
+      "path": "repository/research/experiments/021/evaluation.json",
+      "sha256": "7926fecd1bfcdcf19171faecee6c25fd77c276685d91d3ab7159da55d8b13fee",
+      "bytes": 1638958
+    },
+    {
+      "path": "repository/research/experiments/021/full_result_hashes.json",
+      "sha256": "0f55b9d8772f623506546acf5c7663f093d8587c4ea3ac2fdfb92878771b31b9",
+      "bytes": 113141
+    },
+    {
+      "path": "repository/research/experiments/021/input-artifact-receipts.json",
+      "sha256": "6870f8b92e0da918c2dbb07b87b0152379ac6ed9718d6a09d8bf2382ac8b2f92",
+      "bytes": 598
+    },
+    {
+      "path": "repository/research/experiments/021/input-coverage.json",
+      "sha256": "733175ebbfe2f1c1980cbb48c63d6c38f0b0c56f17ca0ee9fcaae158cfc33a82",
+      "bytes": 6568
+    },
+    {
+      "path": "repository/research/experiments/021/metrics-all.csv",
+      "sha256": "1ff4fcfa8d101f7de395b58278541ad1dfbbd5bb92855dbb11b8a8ca7b524ef7",
+      "bytes": 84033
+    },
+    {
+      "path": "repository/research/experiments/021/selection-train1.json",
+      "sha256": "6eaac57ec7928c13a933d65717c8bae88be4e12029289c7fb44f5a6bbad8f3ba",
+      "bytes": 84788
+    },
+    {
+      "path": "repository/research/experiments/021/selection-train2.json",
+      "sha256": "0cc99b09bf05aa5174d29ddbbe0f6ded63335e36ca1f07a62104c3979feb1ae0",
+      "bytes": 85947
+    },
+    {
+      "path": "repository/research/experiments/021/sol-funding-observation.json",
+      "sha256": "38812825cd273ab2381698ef15c7fd3c9f6445bedfa830b9910ebd0c1fa70f50",
+      "bytes": 1049
+    },
+    {
+      "path": "repository/research/experiments/021/summary.json",
+      "sha256": "6aee1fbbe38ba3275cbf751e0040c4872a7abf03e6caa58142270b996ad26f84",
+      "bytes": 282799
+    },
+    {
+      "path": "repository/research/experiments/021/verification.json",
+      "sha256": "7a152191381806c89a95327eb6d28a81d06d713327dd18e2a39203ce361d4546",
+      "bytes": 927
+    },
+    {
+      "path": "repository/research/experiments/021/walk-forward.csv",
+      "sha256": "f22a4c12d3246e44a86daf53960c800ce30f5062cc94b4a43a841b2ab3829c13",
+      "bytes": 13345
+    },
+    {
+      "path": "repository/docs/FUTURES_ASSETS_021.json",
+      "sha256": "cacbef206a025f5cfb87ab556ab9486b73dce28cc1891e7500c24510eab55866",
+      "bytes": 5522
+    },
+    {
+      "path": "repository/docs/FUTURES_ASSETS_021_REPORTING.json",
+      "sha256": "c45cae11394f289c6a8849b04c3f2316e803c26133803397d4f0aa09090b693b",
+      "bytes": 1973
+    },
+    {
+      "path": "repository/scripts/collect_futures_assets_021.py",
+      "sha256": "541542a9f053f34100cf05a560e48e4bfd04785ecd9d3b93edbda926b3cb5274",
+      "bytes": 9169
+    },
+    {
+      "path": "repository/tradingagents/binance_assets_021.py",
+      "sha256": "7fdb7d04d98f3c333d2f9b5e7796d071a72ebd1dd91ee2ac8b7a3fdebe905f1c",
+      "bytes": 12188
+    },
+    {
+      "path": "repository/scripts/run_futures_assets_021.py",
+      "sha256": "19ce39394f71e3d7cceb1808714d958d346c53072fdc98e25035c045c5de7e5c",
+      "bytes": 10917
+    },
+    {
+      "path": "repository/tests/test_futures_assets_021.py",
+      "sha256": "c0adce1928cd079ddb42e06bf7b958cc2d8c516d1105333fa017052442272ee4",
+      "bytes": 4068
+    },
+    {
+      "path": "repository/tests/test_futures_assets_replay_021.py",
+      "sha256": "51a31118732fba8a88489fea9f3651dbd742f2bff1ba8f50807acc7d162a0b54",
+      "bytes": 4093
+    },
+    {
+      "path": "repository/scripts/package_futures_assets_021.py",
+      "sha256": "7a9c6076b2173c3796ba546a1d5aafcd0858f288ec7f8517c0f5adb7f7973ec9",
+      "bytes": 27588
+    },
+    {
+      "path": "repository/scripts/archive_futures_assets_021.py",
+      "sha256": "30e8d2bc24026b7ce34dfdea91f2295d336ab3bbbdeba822a5562b79d5dc65cf",
+      "bytes": 3754
+    },
+    {
+      "path": "repository/scripts/summarize_futures_inputs_021.py",
+      "sha256": "2053eabc7288ed5a124b4d3d63ee3f0aea3ca6aa99ea7faed0df7c2b17f0471f",
+      "bytes": 3697
+    },
+    {
+      "path": "repository/scripts/freeze_futures_inputs_021.py",
+      "sha256": "0bdc99177815153221fc4242470293c35e421cd0126be9e76fa0866eda545ac6",
+      "bytes": 3228
+    },
+    {
+      "path": "repository/scripts/audit_sol_candles_021.py",
+      "sha256": "f74c8d2703516c7474c10e7df33ddd4ce6b02ae309f589ca43ae63a7a8ac6857",
+      "bytes": 2590
+    },
+    {
+      "path": "repository/requirements-research.txt",
+      "sha256": "62efd41f8e7724a47d1a851723ca0204cc64c3bd50b16c0a36bfa104e0806759",
+      "bytes": 208
+    },
+    {
+      "path": "repository/docs/FUTURES_ASSETS_021_RESULTS.md",
+      "sha256": "46626fb44f5520170730d5e499bd78191ef783035322ee0aba21960f5ddbf6ad",
+      "bytes": 5736
+    },
+    {
+      "path": "repository/docs/FUTURES_ASSETS_021_REPRODUCE.md",
+      "sha256": "ab22e12306084d8ac19d2e2bd6f2715806b889b38cd2e1c130ac9a11115f95e3",
+      "bytes": 4571
+    },
+    {
+      "path": "repository/docs/SOL_FUNDING_NEXT_021.md",
+      "sha256": "f9eddf2f40dcb4fc03276034a663054349234da0a2fac2651f26b58490ad1153",
+      "bytes": 2646
+    },
+    {
+      "path": "repository/research/registry.json",
+      "sha256": "c0db0f0c4b0a78cd3bfcb65b9eac9928ccb2e79d32612c6a7cbbe101983d6056",
+      "bytes": 20877
+    }
+  ]
+}

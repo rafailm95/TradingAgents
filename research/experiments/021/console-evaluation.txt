@@ -1,0 +1,14 @@
+evaluation BTCUSDT sma200_band__vol15_cap50
+evaluation XRPUSDT sma200_band__vol15_cap50
+evaluation BTCUSDT regression_trend__fixed50
+evaluation XRPUSDT regression_trend__fixed50
+evaluation BTCUSDT keltner_breakout__fixed50
+evaluation XRPUSDT keltner_breakout__fixed50
+evaluation BTCUSDT obv_breakout__fixed50
+evaluation XRPUSDT obv_breakout__fixed50
+evaluation BTCUSDT aroon_trend__fixed50
+evaluation XRPUSDT aroon_trend__fixed50
+evaluation BTCUSDT cci_reversion__fixed50
+evaluation XRPUSDT cci_reversion__fixed50
+WFA BTCUSDT venue_assumption_lag0_adverse0
+WFA XRPUSDT venue_assumption_lag0_adverse0

@@ -1,0 +1,30 @@
+{
+  "note": "Console captures are informational, not completion evidence. All250result containers and independentwealthaudits were verified directly; the evaluation console capture contains only14lines despite completeoutputmanifests. Noresults were rerun to reconstruct stdout. Cause ofshortcapture unknown.",
+  "logs": {
+    "collection": {
+      "sha256": "073749951974a73631c59c92b09fe9365e51fc65f68d495101b6a5423631557e",
+      "bytes": 3002,
+      "lines": 88
+    },
+    "train1": {
+      "sha256": "777ffe6cf03512b22066f126063148e158082a37230e3b3d52be496e35190e4b",
+      "bytes": 354,
+      "lines": 9
+    },
+    "train2": {
+      "sha256": "473726cf94d6093b83a7362af294a05ebb28969cfb2fd84873e04366619fd61e",
+      "bytes": 466,
+      "lines": 12
+    },
+    "evaluation": {
+      "sha256": "c76dfe2a35bdf2fde2afcfd6d2b369e9300c9e222d741fea31ff63d3f5821f28",
+      "bytes": 600,
+      "lines": 14
+    },
+    "report": {
+      "sha256": "fa88f162e806cf87d0d1fa134a5622b7f08e4849fd3c105673b7700f0809d0fa",
+      "bytes": 1824,
+      "lines": 34
+    }
+  }
+}

@@ -1,0 +1,3002 @@
+[
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+    "sha256": "2302942411b3bd550affe8d5f7eacdf3f85ee3c300c2266a902195051179b58f",
+    "container_sha256": "2c08231172e5a042f04acdbfc920241f437850c247a38840318b67ea86881434",
+    "bytes": 1950318,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46359,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+    "sha256": "b986ec6e17410a72259f91588ad7bda79b9ff8d534b17807afc524a0e826d136",
+    "container_sha256": "0cfef7d1c4976f3affd2c645e818e93be201d7b632f4d6a0ce66113a68421ed2",
+    "bytes": 1932194,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46359,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_regression_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "fb076b5bf3a1fcba380d0efe7ba49dd4b23aff2631f6430d3333ec12bea085e1",
+    "container_sha256": "082024c364a8bda260c54eaec849777928f993677f0d28a3a3bf187928c744e6",
+    "bytes": 1793374,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46363,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_regression_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "b94073fc7d71489460931482314a9c42951b1decd741cd169e56f896028a539a",
+    "container_sha256": "4b352acc68efa2339f95938512d5569b053bfd394e6750db2934c4d453df11c3",
+    "bytes": 1774754,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46363,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_keltner_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "89c259c1cb093bbf29430fb8979e329c8f84305a33ff9eb81f1337be76c15a45",
+    "container_sha256": "2f200331952c11881e98a07926ea5395cafdba7d661bb55970521fc2657d8e83",
+    "bytes": 1656426,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_keltner_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "9e330debc3b25b6ed5ecfc43159faac9a13ecafee3f2eefdc0e4bfb2ac6043d4",
+    "container_sha256": "bffcf43bcefbddab8b89a15bbd95e765cc4023e6b9719ee5ec36809d09aa6bee",
+    "bytes": 1640974,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_obv_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "4d3f7935739c5cbfbc53b3d94e81addf9a0746bf1ba463809ff98215e1837484",
+    "container_sha256": "ce9ac2572a91de351260b2a0de0eca3188354be392a5457bb70095ef2aae4f88",
+    "bytes": 1603810,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_obv_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "30ee4199b32b2a448c3cf1bc0bed66a81e008aae19ea130631630b85da30a1fd",
+    "container_sha256": "a2f57c08360a43eea9c74daea6ba95c2d7a443f3b23b9188684ab84d74533fe6",
+    "bytes": 1590082,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_aroon_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "0835795abd11e08288bed4aff41e81597da96f0092673779f6cc1f75d3ab6bf6",
+    "container_sha256": "ec93e5058450cdac65fd84366c122a7397c0d8290eb089c04f6a2ce16a6282c1",
+    "bytes": 1698282,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_aroon_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "b9ae072fafc3334c1c6526c65ee7893a0f8391698fb3c996344b1c0dd1970da9",
+    "container_sha256": "4f2ff79991cbd80ce5b48a3c8375e88c985ae646efca2fbbe22bd5a0b6ff095b",
+    "bytes": 1670866,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_cci_reversion__fixed50_venue_assumption.envelope.json",
+    "sha256": "59a75c712e829f431e1efb64ef0d9552ebfba2d59e0004baeeec8a61f652d769",
+    "container_sha256": "d5c4d4b74e9a48aacd7a0ca245a3411962fa32dbe0a84fce496af28de2ce05c4",
+    "bytes": 1456950,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/BTCUSDT/train1_cci_reversion__fixed50_stress_assumption.envelope.json",
+    "sha256": "c1b9672aa009b45040c9666cd960fe23b52836f1be684b5e77dd68c821a75ff3",
+    "container_sha256": "610fea0a483af8c16431105dda84f0a5d620c4afa5b3bd34b241bb996d64a4e1",
+    "bytes": 1446502,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+    "sha256": "bde2c0c9d29a88db1393d58a113dc41eeb7c8426cd09321084f06f00d3c61d3f",
+    "container_sha256": "e01cb1fbfe683fcc551ebb49b39a7b6549c34cf9cb402cbb931ddca3c533bb43",
+    "bytes": 3945334,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+    "sha256": "2dfa33cd13513ea491ff9ea683f4136ceadbed04cde6566b88202b99531f3623",
+    "container_sha256": "64f2ecf5e1487a31862503e0d665cf71f6ab2d7aa1a159933fb306179399bffd",
+    "bytes": 3910386,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_regression_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "0278227c6492065fdb46b1343e18c8cb3088a92e117411616ef70ebfa63c1e7c",
+    "container_sha256": "74198a337cb982b95974ddaed7a06a0248e3c3301a77ca0f3c882990609b5791",
+    "bytes": 3529798,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_regression_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "cb26681aae71994e03cee9cdc572ca7aca6ba66aa8012aac4841b3a7cf5cdb66",
+    "container_sha256": "43fbd783969be333c88066fd7677994972b6280f7b3caf2e2b7227d358857969",
+    "bytes": 3490650,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_keltner_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "ecf14b292390bb31a04fbb588c74fa1e0a9576fb22e03541c219290fcab2adfa",
+    "container_sha256": "f29a49f78c857120b7f96e64ff4eb8a7c3ba70346b886e28f2fa03ae6b0644d6",
+    "bytes": 3261074,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_keltner_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "91efad4e61ad03360073f127bb742bd99eee9eebad90802d599883b977f84b4d",
+    "container_sha256": "5b17277683d12a5fa7458faeb2c3e70ee1f5db6d2c7f82083f55b01041a18c65",
+    "bytes": 3234174,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_obv_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "ffc3c1f2a8d20d254f19d7dbbb85315bdfb9fe679cbe55e60ade33dad260b79c",
+    "container_sha256": "a5aea476d3c28546784133232febf81038a702b029fcc052c8369605e3cb09f5",
+    "bytes": 3181234,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_obv_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "0fa251ffa2520405e6a15ed26079742c25d5887511f51e8b5e07e5e7a8cf37d1",
+    "container_sha256": "a6242041faf1361e986556eefa63ded0af621f2753c3d26bffe388689e2f3c03",
+    "bytes": 3155358,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_aroon_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "23304fd9ed25127f4cc47ed930f35a14659e49e9ba2bf4affddb8b342feb555a",
+    "container_sha256": "b01692df1b5a2b987e0538757c47117136685c5deb2649a1c787172c478c4a18",
+    "bytes": 3417210,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_aroon_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "1a706ad5dbafba0f70e28950dd5717e69643273c8240afef5905376549f6fdfa",
+    "container_sha256": "466f3a399d16836c80045968e40f490c256d0ef54b192b4e671d0407d6583e8b",
+    "bytes": 3373918,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_cci_reversion__fixed50_venue_assumption.envelope.json",
+    "sha256": "402937a67400d780b2fc0a496f1fe7f828a64b639826f0e8dbff23acac665fe4",
+    "container_sha256": "4847ba54974ff6ee04859f1b5c9707a7562b68ef5e020ec148d6d17f2eb534ce",
+    "bytes": 2916006,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/BTCUSDT/train2_cci_reversion__fixed50_stress_assumption.envelope.json",
+    "sha256": "365e6cfddc6b73bb2a57781fb2ac507aab022189aeef9befcd99957176aaa5e6",
+    "container_sha256": "2661918764aa31ec1151e1d1681dcacff45b5aebd86b129fad7db8ee0ef1315a",
+    "bytes": 2900362,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "5e03c6c38fef70337d9c77e963973c5eac9a591ccc9cc9cc4cece2ff8a7f59f9",
+    "container_sha256": "97e1836a761d7a82793beeb02d4c5aed86546faa1638a33121f16030d930f3f1",
+    "bytes": 3882054,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "41b043d286fa1597c6ee12f885619a4579a290e56672b2c74aadfdaf229ae62f",
+    "container_sha256": "5a38e569c02a48d07b39ef64d2c25bad44aa72de3b32bf6b0e8980266f63716e",
+    "bytes": 3957758,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "20c442a21f68ca0ee35405dd7bb76fe2ed77df73908244ed805d884c7e8f0dcd",
+    "container_sha256": "e432dbae56611901c7cc8b528c1acc51a999c1a3996a5876850958105e18b69a",
+    "bytes": 3903518,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "a45b133a353b109e2d30b2b4b84a82c76da3ea7b6a1a804e5f5b6e3c51f41d1d",
+    "container_sha256": "a64be39ebc19e0334e6217e39c73250edcc5e8118790ca7dd7e4bb372fe00124",
+    "bytes": 3938322,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "b028e0d9257adb172529330b9ea9dc9aeeb9eb4e411d16050899505d406847ce",
+    "container_sha256": "c6329e928ac927f5008c5c9396424dba2a72d083391a99de6414371b1879155b",
+    "bytes": 3893482,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "99cd578752ddec4f67626733bc81df6889754242048b1de291e5a555d1f69aaf",
+    "container_sha256": "b51f85afb70f00b3a0a6305b9b6df3572a9b808a566bfa5f8c445c255ef09b79",
+    "bytes": 3946830,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "07b556922c800dbe91050f680c93505b118bb2012c8719b7d48f531c3d74f169",
+    "container_sha256": "0ea498f493d868dc90a6505b7779fb5591f2b068f031bfac32df9d65cae817b2",
+    "bytes": 3841154,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "3449203fc4b6579cb04be9cb7955362493e2c00dd48f29fc40deba4dca511d4a",
+    "container_sha256": "d94b81373026b11e527055ead4efa6ab875802282488ba68f4cfd01cf537cfd4",
+    "bytes": 3900158,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "dd236b06eb6c379d0eea78ed834450df4c7e00ddab350d19753867fb51cf860a",
+    "container_sha256": "ea76103f5742e9a8abf39951ac45fafeea30996fa470bf5a58a366b24bedc007",
+    "bytes": 3849830,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "ca8f57e92bf5c67b4d5a3fa2c856b7d58f12f0582ef0deaa1a8289e1ccfbaa03",
+    "container_sha256": "4dfbc00cae7152e181bd5cc261e7d7bd1755d1ba3ce859a5432670e993159a33",
+    "bytes": 3891502,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "f41cd4347e8dc3bb98069955c2febc0bf9a15d6697159531ca71b1754dc7c798",
+    "container_sha256": "c65c5f07a30ceb0f77f4194aa724ba1303c2a34bfdb8b799b9b33c6db78bbab1",
+    "bytes": 3840378,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "11ef4cb9afdd916ae8de1aba480133181d1bb3047c5ebbad9995ece56bcc1386",
+    "container_sha256": "d46c56c473868cb0f39483e11b4cd81513a07163e290d9c4aebd0071a961f150",
+    "bytes": 3901866,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "73e43e209738e63670e3996f94a1c8c485b3c8e5b44201869de005ff8c9d3539",
+    "container_sha256": "132228c06eb59f4690b2f1cc1d22de706f8cd6a5644b4c84b5063599b3c99568",
+    "bytes": 3398394,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "21aeba3e03f66f45d127e532c05dbbce2aed8540df5aef602b45af9b0696fb79",
+    "container_sha256": "b71997efc1f966408c63005ebfe500c2849c98fa4ddaaac3f1b53f284e538f32",
+    "bytes": 3432282,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "b58acfd7fed9e50e388bf06b9ffc3ea0fa2bc9686aecab5b4fe85fed9bd5b4a9",
+    "container_sha256": "cd34cd3799c32004c51007e69d33fad06687ea28322adb4a4493525024bc7cd1",
+    "bytes": 3404238,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "fce83b3becd4f968010b7d2b3541834344b9639007316c1c36432676eaa53703",
+    "container_sha256": "90327ab16b2bc0dbe80a08dca7a305fd19821baf8f9e733515a15bd87fd61125",
+    "bytes": 3438910,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "bcd7f6decd6a66e2c74773445e5d434f9bd2df419f176f47048581c2605bbd6f",
+    "container_sha256": "a7564edce2f619f64a95284e14cc7886c0c67e4b42261d92037bfbb62a497252",
+    "bytes": 3405962,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "192c1581dd518b0b6a3eb3d93efc2f92d720a2c12f6ab608d435bc461c7f5541",
+    "container_sha256": "5ccf7fefefcd812e413945c455aecf3257103066a9d78f76ba8f455abdadf1de",
+    "bytes": 3454746,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "702ca0bba7e0a3c344c8eea26727e2a2c85a159b114ef86333a192a9fe9af80c",
+    "container_sha256": "771d85a3821e37d18b3b431e3ed7220248b7c8dade26e6ef85cb566f19ae5766",
+    "bytes": 3367758,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "3c4f7679cf24e1723a5ac051edaa6283e3bcea3ad558a8b4b450142645a8b721",
+    "container_sha256": "92340252023c1b8749aebd82d4859af1b8c4e6732c9f948f8a91cbc95cd35ef3",
+    "bytes": 3405998,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "8dd59199dbf0dc102915504dbf9692a23037f1ad12709a92c857636a10dcf81c",
+    "container_sha256": "283aab0018d387793fd6c43f0940fc96ffea85b0c49c8edafaadd8da5429c4c0",
+    "bytes": 3374054,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "8fb69e8dc7685067964a0d011842fd5bbd81444252279e9f07729bc5bbd688b1",
+    "container_sha256": "ac01efd1c75690b83aac409507bff86256d8646b8e22ee2b5d9ac3fbfc27d47e",
+    "bytes": 3413406,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "1093ad9be6ae8070e64a7f967e0d8976d4b0a7251ecf0fafa3a39275ec6ff978",
+    "container_sha256": "452aa2d9f3373382e02dfc087b50ba61c08fa2ea79de0a8f0ab373a0d9bd6f02",
+    "bytes": 3370058,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "c01e89943d64896c8771a7c2a3cd2b4cf5ca8b8b92bf5342da2097ad34f5388d",
+    "container_sha256": "c7b9d1f3acb0542f325fcb9a774bbe3f7299bca6809e393bf010710a0bd262ad",
+    "bytes": 3414318,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92847,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "fc87b99c4ef521c8151811e773c7486e396eac28b7215978fadb10427b867397",
+    "container_sha256": "00208688e7f30e3c863d0a19bceb4bcd61bed013ea0756042989e6178932593f",
+    "bytes": 3068818,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "b2debb9acb9aa074fcdcd6ee933e79186daf6e9fcc0f9989b415e0bb4aa4f5df",
+    "container_sha256": "8c69ac08f8defef8fb0aa0eed251c682b532a71409791b1cea16b0d53af37a8c",
+    "bytes": 3100934,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "57697a890461f9e52d4e6b77e202d2e27ecdca529b6486d6beddf3fc0181fa03",
+    "container_sha256": "1e60832eab0a6e36af5141beb663f520541aaccd3fc8a2fbef42eeaee7ccb948",
+    "bytes": 3070014,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "e393550238c61fbfc00197cc289e43edb917e79ec367ff3c20b54851f7d913df",
+    "container_sha256": "95d78bad9bcddf6c9763d4a744816b29cdbbc1e1f1e55811268584145f8c9af5",
+    "bytes": 3103802,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "91c709e4fea63026afd14413e71476d72779fdfeb63ea53a10f457c8dfdf912f",
+    "container_sha256": "f1f01e8a266df3410c4890bea76721b18bae34d97ce46f767d5bd13e9d56a25d",
+    "bytes": 3073534,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "8b0265d1239e7eeb0934f705ed19f69d41ca5c1bab969990221cbd684f29185c",
+    "container_sha256": "83c7a9882c5f347fbdc7add3dacd89cef2a365da50f2983f4409ec4e8febb8a6",
+    "bytes": 3090646,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "963e6383cfeb72829bb31c8ca464ff50530bb23aa782f7e68a46ff00536086f8",
+    "container_sha256": "8fe115e161f68f1077c2fa991d2588c92a25d8f2442740b475e3e92e260108c0",
+    "bytes": 3045858,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "a55d713d36954c33ffb85579ef68a90f0d01093f790e36840f197358ecc12759",
+    "container_sha256": "4d4d15100c4f220062b7554e30921b950fe30401089d100dfb2296f65985659d",
+    "bytes": 3079114,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "62a0a274695e0ba99a2af3b328896399ef59bbae1127ac9cae6d3c45eff011da",
+    "container_sha256": "e54d6cbc964f6ab81e0563a34676dda8de669da65557b383829eede2117d5bd5",
+    "bytes": 3053698,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "74c92cce8d981d5b27bd69219654cad57c6597e3b2205dee7ff09ae9b9de4967",
+    "container_sha256": "4f19d128479f24d1d09e321a6def1b07fabbb65c11da9fed920168f08303d019",
+    "bytes": 3082226,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "7d5ba28cfefd8604b4ddf3259f1a3f4a4cd57a01d9aa21c95b1d0fb46c3ac63c",
+    "container_sha256": "3e7c0931066f49b01df69dc2ee8ca0c96cff3c216ae8f3004087aa5a94a2f150",
+    "bytes": 3048762,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "fb21ea9615304dd610e2c9634f4fd4a700abfc0811de77bfdd0e5996249b1161",
+    "container_sha256": "dc2333c5eb5bb4901b46a471fa40c4ce56a45e57e8a7def5ca89c81a296b080d",
+    "bytes": 3079782,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "42e45861af8d8e16d42cba61abfeecbebc43b7552c2d828b526c478607d6e938",
+    "container_sha256": "5fd356a0ebbd36d232149f0646b358411967537ba94b7a6a569e126dac16642b",
+    "bytes": 3100110,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "17190e606347829b75cfb8b93152081f0a303038939e524b58abd68cd1f3e074",
+    "container_sha256": "3802b74c2781f97d49581744a5dd49dd50f926ddc9afc3d55b5c1a1b10298406",
+    "bytes": 3122414,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "03bdc587de2d5eec8050dcb4b9120950c5ac7d34d127916ca545ba73d8c4ce30",
+    "container_sha256": "6ab020d2405675eac2172986656cb0c2ce2bd009b60f8a126b3bee138659d932",
+    "bytes": 3098874,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "ff84a32cc68ddf1c026b1047d320949c12b466ba9b9ceef9dae5793794a7f473",
+    "container_sha256": "aea0834114fc89551306a8b2d286d776a1c27ec0233d65c5f6a7d14fa3e216be",
+    "bytes": 3122706,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "4af5225bfde1dd1be1eafe5c89b6d29dd58ee2688bec2248e334cc02294654e8",
+    "container_sha256": "017d0975d566c3b0526eb28caa6f5f4ca9ec0691c9ace6eff7a42de624e2388e",
+    "bytes": 3099814,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "4e0be7866fa180d4a7b11705e5541622aea09b539ea8e89c1fd7bfdb8c2c24a2",
+    "container_sha256": "d6db6b2abc7f93707f700f9c96fdf2722898e30a0d2218d9306825a6a503ad48",
+    "bytes": 3128058,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "f2489a16d342af68d7f2a6f11618e6bfd410ed01c87038e892d6263676f0685c",
+    "container_sha256": "c61569a2c9bd8626d25849913f8033737910b048b3b53b1a6ee05bf4e9a4b352",
+    "bytes": 3079202,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "004889a95961a3f66e1d7b31181b55147c21280c987e3bfa9957ce4d20434994",
+    "container_sha256": "b0c62af1fb6407f760545087fe7f0625346bb587ed7c7dc75bd56e7e7843614c",
+    "bytes": 3106926,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "4802b94b0df0f7023026092be657a807e0cf186deb7737ac2dc2557ea2b66d2c",
+    "container_sha256": "8eef5ba40bcf5fdc6837e72ebbf2b68cdf053375164f97d2932012b3e8bc4e66",
+    "bytes": 3068954,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "924f71a696823fca5c84103cd7619d076c141bf438dcd95b4ea15165fec461ff",
+    "container_sha256": "f004c7d8cd454cecde2f39c5cd2dce415301d81dbd7e2ab1000e02e5b0d42db1",
+    "bytes": 3109562,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "ba3d5832b80688266e35f3e8e4a2ec2d23eaf0f5dc4429a8652811c57c66d9eb",
+    "container_sha256": "e063e1e0fce251f8fd8484694cf28134af4f91791a9c6b5b2383552c73fbce10",
+    "bytes": 3078946,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "33441f83e058a56e88c14434aaf88f95061178bd736b6fdf01c8f7b7d43af312",
+    "container_sha256": "f24d1a11de1d00124a1a1ae8d818119089f3533207094ed90d376fec47eb1930",
+    "bytes": 3110470,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "e1b3a5165dc5bcfb0fd47a7d9c305b8061bde7f315db86199e1653b7d4f618f6",
+    "container_sha256": "d4b70081e294c3816fd00e54004ce851996ea35263be5337b89f6aaf1281a7cc",
+    "bytes": 3200270,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "a8646029f0f4ec5e2ae3ae0e5a81f38551b5941a48b4056db84e7659cf0a7847",
+    "container_sha256": "4e870d4e62501e4072a9e778a4339fe2ad3a461ea1600d9c96162ccbafc40113",
+    "bytes": 3244406,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "4afffcfa82913ccd2e5be58c43e1a4559b74a6c54f6222fefdeeec9cc284aea2",
+    "container_sha256": "d82fc7c1de22673f41256068bb6dd907a139c8e4ce21bfe6c4d7f7ffd87d294e",
+    "bytes": 3214126,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "bd34de7b2b61cd0c5de36c3448ecc4890ae4e152aa61df01a30cb4623aedf651",
+    "container_sha256": "a8b5102c1c5feae51a472eee0135eea55427693ef56b9ea2d15b85fba473a3cc",
+    "bytes": 3240474,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "f7d5071d198f5608926c35ea77a132b53a65305c8198904dd293acf4ff6cc9b3",
+    "container_sha256": "dae84d9c0872acb7f6eececfa93d0c59bd40a20c3762718b1789b65b320685ae",
+    "bytes": 3205658,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "e47622548047be09884d145e84914ff21c0447ef19a81e5a28fa27502ad3255d",
+    "container_sha256": "1db341bf01597f03d9021ebac991287fcd5bdc09928cdcde9d029da95cf523ac",
+    "bytes": 3238294,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "e709c4dfaa78d4310e77107d2d191d51424b1a878195460352d1f61f38d09139",
+    "container_sha256": "745b4c2d7875cfda429abe6a6e148b157ee8092311e8ea7a7627672ed164b6c3",
+    "bytes": 3188018,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "3da983ebca2277b642de4949465db8899298e0b7d48b73e10e92793f4350c9e0",
+    "container_sha256": "49fd54c8c7be2e171e5e281f419d1a0fa46d2648e066cff012ec1d3f49a4905a",
+    "bytes": 3217762,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "0ba7396e7633e5107a93c3217c705358eccbc85fb84d13c108483ad5e2775817",
+    "container_sha256": "2ff73108b11450d8bbf933c51e3b5b71d521478c14c136c40eed37c298aa9174",
+    "bytes": 3182202,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "07887e690d0a722bd3ace30ea47ec2008668faa2554e2480427aed3678d87639",
+    "container_sha256": "7a3211b36696f62d7f4f93dbe5e2f6a0684edc8c8ce648b953a29a8ea8aa7219",
+    "bytes": 3219166,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "cdb99d0fa6d4ab51edd636762d743ffb891979792191a01d8d1076fcbb7d59d6",
+    "container_sha256": "e6f294c1d12b0fce5ce1702e8a6622e1f5c529f59f0c855c7d34f17c9cf0a047",
+    "bytes": 3185382,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "c5963fb4acf352afbc91e6157b1757136d06a2d6052966f7fd13439cff7253bf",
+    "container_sha256": "fea647da1b87eb5f7677a511867d0a06ca23b3db9a422a25e4b1bbf63000a77b",
+    "bytes": 3210170,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "18753be615017eeead0a4d92ff5fbbf24cf27e9f30356f79e0506fb6fe0905e5",
+    "container_sha256": "eaf33301fbc5e99cbac29061118252cbd27d2a726a83d11a3af0a1abe8eb82f4",
+    "bytes": 2964294,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "5fd5fb267c6e6af33b251134e47f4e4f60c5711843828385be5c2701cece533f",
+    "container_sha256": "5917880ab188a261dc1112cd5d96c984db5413a853993fee135d114cde9a6bd8",
+    "bytes": 2987246,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "f8d88fa0fa98a1ec882eade3f4d4a0f412ad3a36fa8d1187301788f34125b1d8",
+    "container_sha256": "e75535bea718131d5c40f9bca436be02e70740d3494aba670380ba6ff3abb623",
+    "bytes": 2961062,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "6bf8529187b62ffd6a53d9837a7f9d971b528591cf29f97d17abfa2542aa986b",
+    "container_sha256": "6ebebd33ba795d02c383451e8376f9fe85c0f26c7603d5dc546cb74570f9f122",
+    "bytes": 2985494,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "eb380ba0ea4a95a64a705f0b22ac45f10d42a233a029146302c9ee12a7da4485",
+    "container_sha256": "e4b925710ba164d993fb07188c5b9c3e4133c437749bc97b85bfa20b1fccba95",
+    "bytes": 2956678,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "73bd77dc2b39928f42ad8d3e11c32305c3026ff35c1af381c893f1bfc1118553",
+    "container_sha256": "1c3d52563ad220bc963b0a30e6ae7b1c4222e9ed65d258622aa667b45bf6557b",
+    "bytes": 2984334,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "d5a0dc5b782cf5c8ff86bb08f94eae4a38258669f323ff8e3b78121836f6e6a1",
+    "container_sha256": "de4dd44e0fc112c7c3e1825e37075339dba057dae9e47752d4e3b1a2aa1bb51f",
+    "bytes": 2949746,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "97c151ee49cb7b90899f4a5e3084521528dbc1a0ed961f55173ae54e2faefb4c",
+    "container_sha256": "03aa61d957ccddcc9cc81d088cb6ba510a9fa8b349b1a1b5c5e8cbc5a50ee17e",
+    "bytes": 2975674,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "746f654e960001865151f2e1f7fb50e180630632b95c1b3a6370d1045ba579ac",
+    "container_sha256": "a44280e9c9ee59d1e76bef23039e1732363513bbbc19189b19c24ba7058bf62d",
+    "bytes": 2943978,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "816474bb7d46055346419fbf34cf0a06ff69973d74568ab62527986c6ed5d8cc",
+    "container_sha256": "5b1ba37788b81fef2d7ba36ef35c35c1a889300881425e86ada148928ffbba85",
+    "bytes": 2968114,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "e58896f502a38faabed67c05fddf29160eaaf620c88cde358d0ac8d17621c67a",
+    "container_sha256": "7897a42805c36bc2e235582208d96134f768200ac94b04865d39831144a06560",
+    "bytes": 2943426,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "e3acfd9672c3627274f335c4f6182ddeccb9ac1f79d07cf00472612fb8622640",
+    "container_sha256": "8dc223e9287ea384ea44d7c104540c4e4a315b0e0b148a500a04acf82cbbf29d",
+    "bytes": 2969842,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/benchmark_cash.envelope.json",
+    "sha256": "be23890bdafccff8d95d38a1c208eeb1e2408600bab2fdcf2ea975c05d531c01",
+    "container_sha256": "b748358f3fe87513bd425ca56a7877d3aa1a43fd68233c3933aee801f0607ac9",
+    "bytes": 1471294,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92837,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_venue_assumption_adverse0.envelope.json",
+    "sha256": "395b28475b7f6e91cd9a2091849e6de5a32b328d82668c31679517f6c0434a49",
+    "container_sha256": "c366ec5d9b43a22519f04c8f00aeb0b2368793699002f7200070f4049c784368",
+    "bytes": 4284606,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_venue_assumption_adverse1.envelope.json",
+    "sha256": "107a183286fd0377fa27d0b601f87081272f0a2c00f7a54d0e24f6768f996394",
+    "container_sha256": "86a20a19230fab7815cf9385e2eaae7e1fe5ee585e715de49eaea185d6a84005",
+    "bytes": 4344014,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_stress_assumption_adverse0.envelope.json",
+    "sha256": "1a1e95ae9388c2613a848aced51a52d11b9df9de754c978027bbc88db96108ca",
+    "container_sha256": "8fd842b2b56df801051e70ff60972859af52fe990cf67841da803388d901bd63",
+    "bytes": 4244522,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/benchmark_hold50_stress_assumption_adverse1.envelope.json",
+    "sha256": "39e6f42510e7c738a4d0ac3d7c62dd7eb07c0a51881e4a3053d1a74ebff2018e",
+    "container_sha256": "2df94f43f952aba72079c6d2f2f0c8dbc1cc7c016d3f79d3ecdd456c5fd72bd9",
+    "bytes": 4304482,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "c6db9efefb9426d6cc6b44b296bfa188502f03c59d04e68f4fd04e477e4f34c0",
+    "container_sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "2d33e31562c4036833a122e0756aa95bab2bd338fa67d9917ade2a7637d7e44f",
+    "container_sha256": "ae67f8c185ed2325b2077417d6f1b7748455a78360dc0a40512f0f1640265dcc",
+    "bytes": 1514354,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "f6344bae87235855da6c9214c424a2d7b57f801c9c5848d352a65adaa14cbaeb",
+    "container_sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "7e500787e579a1653ec6e6a6b46debd0ea31c483f3c53187abb616465e34d834",
+    "container_sha256": "30ebdc3a6590451f64ac94332368c1c2ded88194513453ae79b4a4742ea1cc32",
+    "bytes": 1526278,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "c6db9efefb9426d6cc6b44b296bfa188502f03c59d04e68f4fd04e477e4f34c0",
+    "container_sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "b94802911055493ac162031e1b0bce319cc14a4a6fba42e5b5306e1b88b584c3",
+    "container_sha256": "e3f4997f4797c22b9f93c747fa25a34c58a0a2051051ac4cd2dbba209a4433e0",
+    "bytes": 1516730,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "f6344bae87235855da6c9214c424a2d7b57f801c9c5848d352a65adaa14cbaeb",
+    "container_sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "b19a5003aed170277ee2bea9399977e03f00fa7605fe748dd9ebcb9f7a0a30b7",
+    "container_sha256": "dc4a93251aa00741da4e7cdbc75655830ec5c346b0c9c6f2156c30405a742e9c",
+    "bytes": 1527206,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "c6db9efefb9426d6cc6b44b296bfa188502f03c59d04e68f4fd04e477e4f34c0",
+    "container_sha256": "43d6ee5835af66482fc27c4497019ed3b02b2a934ea789abc5e4a33726707149",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "a0fea3840f73007e0c9c03ff1f82cae6bad6af0b8d51e229ebe3900a35a31752",
+    "container_sha256": "91991ed42257b82f4f5bf9b48e9a52efbb1142f60f2c3df8c20e9cae2285bf31",
+    "bytes": 1516642,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "f6344bae87235855da6c9214c424a2d7b57f801c9c5848d352a65adaa14cbaeb",
+    "container_sha256": "6948fc7324774cb355e3b305ee73165335bf86d0af429738cc28baa67eca7699",
+    "bytes": 1258013,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "c6d2f985839b584be1a398e54fe2a68d20f6fabe9e0149c95785b800ab30ddf4",
+    "container_sha256": "78184e3443a65089015caa1f97d3f04272a8e3f653290fbea1cbc89141be40cc",
+    "bytes": 1531870,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "c76ead31aa48aaf015a888c1d4d3ce4ce8262a05b4e9fa558c40f8e3df748841",
+    "container_sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "c71140f2721bf8b24329e1ca3361473fe9b606e35f2792ca62e3fb34c48a4e6b",
+    "container_sha256": "8d2421f0152645980da73755784d6248333b998741bef26f17615b071fcd7410",
+    "bytes": 1507218,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "145c9fc151fcead2e14535cb9f8daf8f6ebb954f893ced17da347d34aded304d",
+    "container_sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "14f24a35fed5f7cc692638a8537cd80b00b6e2bc73f90eaac3c8fc192b29a101",
+    "container_sha256": "70888d1270665d66683e9adf22646913ef8ccc29d500804f3b75f42238be5750",
+    "bytes": 1517274,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "c76ead31aa48aaf015a888c1d4d3ce4ce8262a05b4e9fa558c40f8e3df748841",
+    "container_sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "50f19734070622efc9ea962a13cc33f10f362f363e10df28b737a85167bc3ff9",
+    "container_sha256": "a26bbe0227c321dcc20f0f2150fb67fdd7eba87dfee2443cf7d7969d3f4fb9ae",
+    "bytes": 1508458,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "145c9fc151fcead2e14535cb9f8daf8f6ebb954f893ced17da347d34aded304d",
+    "container_sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "aca618ff84c55d1d428d3b9981272d0ed14ea89e5c0bc67725cca9874351580c",
+    "container_sha256": "dedf74499d6957539068ec766f3fb5846bcf3cf9fd55d940701b2b8b4548a91c",
+    "bytes": 1522578,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "c76ead31aa48aaf015a888c1d4d3ce4ce8262a05b4e9fa558c40f8e3df748841",
+    "container_sha256": "98dc2704c2218afdbd7f81b9370286d37131d6d01d3c3da8a1ab8731bc7aafb1",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "9a3e2d7f2136da9886421251937f3e4c0630f0c210fbbc7182eb928480f566d3",
+    "container_sha256": "780beaa38818167c4b2ca9759452c188648032a6533b09812735a3fc6cdc4ba8",
+    "bytes": 1506038,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "145c9fc151fcead2e14535cb9f8daf8f6ebb954f893ced17da347d34aded304d",
+    "container_sha256": "25da7c339c9ec652fc79451a8b1c7a7aee61f05319e9b62cff821847a9905bf4",
+    "bytes": 1258017,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/BTCUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "883fc20831b867946781939c630828a5e4b234c31a1354a0a398062d6a941212",
+    "container_sha256": "4169c9ed597f1be5592b22299ef9dce58639ad026c19c2250928a133d78af998",
+    "bytes": 1518310,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46367,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+    "sha256": "9478f3d0a9431d0ab38291599439ddce106f27bffaf4d02e7bf1095dc02c66e0",
+    "container_sha256": "8c7a5098a54813476c17fcdcdd0cd97838f1cb4112ca43a429b0b7ed4d57278c",
+    "bytes": 1826478,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46369,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+    "sha256": "01917eb67aa9d6f2dfa7776d51c064903bb1c817de5dfda2811fc59dedf8227c",
+    "container_sha256": "754a43cbe772ebf6c8a90bed0b1f5926d289c6dd49314fc797a3793db44b2c79",
+    "bytes": 1800802,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46369,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_regression_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "886ce16fef389881543fdf2a587a7bacd3cdeaa0f477556eb0f5e62bf5e73c3f",
+    "container_sha256": "12f63eaeee23dee484ced61cf7d7c7a029eb7de4a54a417cecbfd9ff116346fa",
+    "bytes": 1537890,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46371,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_regression_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "8efbe04760ceaa4f10fd3843b9b54674cf5898053d9e697abc7c753e855a7476",
+    "container_sha256": "563636b6e1b2ad7de964a293889b197063f0448842a3d4dd3980a6b003987aaf",
+    "bytes": 1532214,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46371,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_keltner_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "b63b970393083de57a8c3189460ac12d6da94ae9f733e26b19c497041f75ae5d",
+    "container_sha256": "d19097d07cbb0f94f16e4b5fe0a33dc348519d5dfe9bfc7d0612464db67167fc",
+    "bytes": 1386794,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46363,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_keltner_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "168d01c08a5fa23d0fe4c8051094ab05e7d9d40d22576a94888bba543c8f5c86",
+    "container_sha256": "bbf0e9bc43b9e1ac421f9ed24cdca1c8f1d37654110376488c96f19089fd38b1",
+    "bytes": 1380398,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46363,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_obv_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "66dc78fa19e0c68163acfe4916fe5b1090d0a7c63c30647ed0dbf42246343bf5",
+    "container_sha256": "c6bd7be9947b2731f8cb92504ee2c1902353d48a777cc91e324505aecd163cfb",
+    "bytes": 1526394,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46377,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_obv_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "e50ba8a90dbffb7e0feb4fde79478660a1c7a79c4ae910cac20bf3651ae9eee2",
+    "container_sha256": "f91ed73f9114093c0cba5b60ef5b19651d9c0158682706e1b86e3fb29e1d1706",
+    "bytes": 1515242,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46377,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_aroon_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "29907460ded3580897e3947c0eb30c880c9fcd39321aff9363c66c8444dca527",
+    "container_sha256": "22036ecfcbebb5ad6c390f4b67510824f53ef5ba9b2e59216c87d8bc44bc73cd",
+    "bytes": 1496290,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46371,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_aroon_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "39ce7bf694b5b234174456783b1b419cc6eeb9949c880f453dd6a17f407ed0b1",
+    "container_sha256": "5c864971fbf8d77e998738a88fc41cf3b1489c480874c6f17a63ed1431910bcb",
+    "bytes": 1486126,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46371,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_cci_reversion__fixed50_venue_assumption.envelope.json",
+    "sha256": "f145c55a2c60f149199a370e74ada8f33998f5e84bbc9913b45deee1d9ba63ee",
+    "container_sha256": "f585a9747bd026c1f27bbfa6998c5ed1c9ff7eb3c830c3052454644b69414a2b",
+    "bytes": 1397578,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46369,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train1/XRPUSDT/train1_cci_reversion__fixed50_stress_assumption.envelope.json",
+    "sha256": "d172734b6cfc1174368f5f2dac66b83d9c80702fbb86a3d447cb29e00c4297b3",
+    "container_sha256": "472116c495b41954f434df6e8bf39e268479083f32ee9bec9a16d461be2f0a52",
+    "bytes": 1393714,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46369,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_sma200_band__vol15_cap50_venue_assumption.envelope.json",
+    "sha256": "8a1e342da2d0b9b92e3dfc9ab09cf3550a277c75c6d1ee6552bcc21d918eae4e",
+    "container_sha256": "3e2bc717aa6ef0ebde30c28d9cca02469a0d9a671b07893017adada31b8b2ea0",
+    "bytes": 3499134,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92865,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_sma200_band__vol15_cap50_stress_assumption.envelope.json",
+    "sha256": "5fe4a26926a5b088c1eea08a04a3d2b80e12ac892377238d873ccf35c238dc4d",
+    "container_sha256": "71905e6cf0929b7345ffa4bab16c46bc538920288036981d21e1e02e03331bd5",
+    "bytes": 3454310,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92865,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_regression_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "91125cbadeb17b79a39bc751915825af0455b0939f5bde6c2ae7fc05542e08b2",
+    "container_sha256": "626152bf86f5f022439e0e954d3b415cd04b94a33c4effc755c22e944a299c84",
+    "bytes": 3005698,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_regression_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "2ee1bbd45e956d5f72dbbbb3aa6cb6d5da7d24487209d6832e0f31f069d29967",
+    "container_sha256": "5dbe993fa5adcf78a183c7f5dbc9fea190f527758a6bbf275e11936e0ad2dabf",
+    "bytes": 2993822,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_keltner_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "5fa0d3d55d5b0d2573476a332c4d038e70f052db12101fd89f80b90dbaec2ab2",
+    "container_sha256": "6466f6ca30e49b39160f0e9ba1c55c4b8656b92cb5ce9b9a15497076de85c5fc",
+    "bytes": 2794006,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_keltner_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "0483963f2ace69671a871d9490a87323c397d4f98b9122ec04c5a4376d939661",
+    "container_sha256": "10e68ea82b3a45c507e87806955fda0772a30ca4a85d77a9b52b37c985238ff9",
+    "bytes": 2776078,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_obv_breakout__fixed50_venue_assumption.envelope.json",
+    "sha256": "3c80bffcd8e7b1698c0efc69e1702ded903873cb40b1f0256a1e3f7ecf91ac46",
+    "container_sha256": "04f14506b429663c2158817eb138dfac5deface9a3b7591291b57cf4512d29bb",
+    "bytes": 2918178,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_obv_breakout__fixed50_stress_assumption.envelope.json",
+    "sha256": "ba157b89444456cc2c81bee0f3bd186a1a01be6be0a9f81fcb83b646c7840f5b",
+    "container_sha256": "fd224a184cda5cfd50a4ef9902ed0464b337a179f775ede8a5927a60cbd888d5",
+    "bytes": 2901478,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92867,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_aroon_trend__fixed50_venue_assumption.envelope.json",
+    "sha256": "3716d966a606c741e30c4e9b3498a94b84e1825363bdbe1f11b6d68deeada3dd",
+    "container_sha256": "0d0901c0400ad8b9d330d0cd2a5e5b1dc95b5c0000b4a01329b5357d00e1f958",
+    "bytes": 2958306,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_aroon_trend__fixed50_stress_assumption.envelope.json",
+    "sha256": "d515e79e7799daacc735f457299617ef27922881778f16f319f2e7e23d75afd5",
+    "container_sha256": "54b462a42ef9550117ac660aa6ca494a42687b0ebbd687826fcddaa14224cb76",
+    "bytes": 2948078,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92861,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_cci_reversion__fixed50_venue_assumption.envelope.json",
+    "sha256": "d23fb07af09ea5b269a72f92b92157f9ce7cb091a3b7bf2f9e9a4c7c7f9112f7",
+    "container_sha256": "6ed13e929430fbcaae36260c9d7b32d614e79df65f3d17337fe331379a8d697e",
+    "bytes": 2664318,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-train2/XRPUSDT/train2_cci_reversion__fixed50_stress_assumption.envelope.json",
+    "sha256": "9ef5e33665337fc07c533d0cb50fb59d609e08e044114b4396973dfabc3e9e16",
+    "container_sha256": "1e110256ed5db27233f189f640abe895f24a3ffc6b046b9a3136f37aae82e2bd",
+    "bytes": 2659834,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "fe2867d1a06cb04bf995e7a6a04c8d83ed7a5f0b85a38ec97085360e9a703eb9",
+    "container_sha256": "28f79d818a28636e941e85b1393789bd746cb03cce677d3fc19b3851585be324",
+    "bytes": 3528110,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "b950e08244b227cd2515691a5ee42d3cc78ba4c9e7cfe6c2e5176fa41570d12c",
+    "container_sha256": "49649031e0c1b52bc66325a1e9f6cd0e29da027dad7d0176240ae67df46ab55f",
+    "bytes": 3578066,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "9d796e3f986d522902c5a31c1cab5f3ac12343d7a34c87aafda6b1562a3b2a41",
+    "container_sha256": "c8170ef9157c5135b2d0055917c0f17bceb7a82eaf29b501ea0d826ed1ef9e56",
+    "bytes": 3530958,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "de6c1fc126f32c71a4a2c7067d098c4415e6c9b047b67c5fff65806966793cda",
+    "container_sha256": "1dd2a604978798d2b0c235ff23ff6596669f5c29005791e0dd93ec9ba645d73b",
+    "bytes": 3564434,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "8313c1c34fe1c8b3c5be608eeaf9b068b46b203dbd254f5679b7c6c12e089435",
+    "container_sha256": "722a80d78d868aa29d176beb076af41eb0db0cf2abf90189a86764b82a079bb1",
+    "bytes": 3515066,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "76be0ee929c9522d35a645c224629483f8ab957eb89596296cccd2f5e5f9bf96",
+    "container_sha256": "49a9723854239287089163e31ef80d27636e9b423d84736b0deced19079133e5",
+    "bytes": 3573570,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "727b96bdf2b6f27a412da1d9110a36f20bb95484ef47acc8115088dd6f5b91d4",
+    "container_sha256": "5489b10a155dd37d52ef05f26e0fb8a44f01a823baa0937007392040d0845861",
+    "bytes": 3489670,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "860578ee6919e9df0025c85476edf62e4e4e96041803962c72c4343e73a9a8a9",
+    "container_sha256": "7e68310a6b4a1cd2ff8cc001ec3cc08ec9c77504335141aabb9403592915c2be",
+    "bytes": 3534662,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "fa66d515cb2d198cceb47996562a5b295f8eaebfe30fd65744edd9c58eb76ba4",
+    "container_sha256": "863ffb7ca05e8e0c471d0f5eaf9b6bff848c0ff296f892eecdeb7845de3403aa",
+    "bytes": 3492402,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "2be6b213fdf2a9a48e7fca76267927bd881c77ff1b530d8baa03b8e24c6d0208",
+    "container_sha256": "706a87870811d73f47f8a9b150026afe0210c718f8721c69fd19fe779bc187b4",
+    "bytes": 3530030,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "a6b8261705a3329c2aec3fb307d6ff7f890195d0113f48326c9bb08b47801d18",
+    "container_sha256": "9e6c4c44299e5131d437f02c4bd3979cb07c7efa536fdc7e4a8480757cc57a05",
+    "bytes": 3494838,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_sma200_band__vol15_cap50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "e995bb416c25c3358b5a1790a61c2ff028f006c61d3d349a115d98101bb6e374",
+    "container_sha256": "479a34406a1ab10ab9b28b063d552cc80c197dc0253518a054ba16c537593b96",
+    "bytes": 3540670,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92859,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "6a43a7eb2f2dfeb9721f37bda9c71264c0241b41e65c013430be71138a208e0c",
+    "container_sha256": "6c72aefe206d54b6e4ca15fb97d84c7eccc89937db2e493d75a9f9fbf41f71c4",
+    "bytes": 2965746,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "db2fe5ad8ffebf8e276fa6260e5239a43a4c1fd1e539c56bc16e59b193e49261",
+    "container_sha256": "2296394f5849c344f613f63a5659254450f279c45553151fcd2d556775cab367",
+    "bytes": 2993862,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "7dbe7aace6da8d52bc75e8ea4773e43bd4a09aa8c54f871a9c9ea713d1e32132",
+    "container_sha256": "6a91c265eb486a2ec05b69d3072a79a77cf07cc6ba52e1ff798312557e07f865",
+    "bytes": 2963782,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "60ff77deadd52c1f179f8203203f0b43c2fe723975bd2a83282a04536882fea0",
+    "container_sha256": "5296ffc590a959176e2c3c3853849618394b76a4b1f1887120a233ece6508404",
+    "bytes": 2991238,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "18dde54eb32d8a8096471169764459e94e7db501c6c5474ff7a7fe955ffd2f81",
+    "container_sha256": "897cb4730cebc2bbb158a8ef53ef7ed6ce2918e1a44c170f43aad5b48f03d9b0",
+    "bytes": 2964358,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "88bf342c00a7722060e2c1cdb636b7b1ac7ed061032c831b7feca5fe9e3e7b9a",
+    "container_sha256": "08d35cd11fe65d92ffe4caaab9d4c4b3887198a22cf28b72f88f15750b828261",
+    "bytes": 2990090,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "ad689615ed14916a152f50b1fcfc17a0ff2f20d83a140a86ca74f3d5b6cd1ea1",
+    "container_sha256": "28b4e682f4d349ad12dcc05d9819c3d707bacac492f53b55d849f78d01c654e7",
+    "bytes": 2952186,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "29f1da7825a54e170835463d65edab9d64843c9c1659cb33ea4999a7b45ea70f",
+    "container_sha256": "3efdf66602b7711ab48502d5ae44d802395b5ca374caaed9a2a0a399ee3eb5c3",
+    "bytes": 2981598,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "811f4227da871332285641bb2401fd30dd18caefb5c50ff311bb10ef09b4a661",
+    "container_sha256": "52b519a43968b450a9590be32b2fac5e27070505167fc383f3fe6f8924aaa1d3",
+    "bytes": 2947738,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "2063b3e818e1245707c02720685aa45198f144c61540eaf039677e2e4aa6e5c1",
+    "container_sha256": "02d2b53771cb35b3c7e3696273d108906f6b6dfe6c12c7da2d5ae0e6730ec406",
+    "bytes": 2975646,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "4a3f1f2f1a6af00ebc4ca9ff84ec167f1d02cf7b8fc335f378483b4471f4d09a",
+    "container_sha256": "fb9a35ad7dbd9aa06653110c3c0487a067087e2420c21d4a21b99eafff665ca6",
+    "bytes": 2952910,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_regression_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "514f9789bb432a5dc0b036eb73efc775fddff2d5c4e49e932104f8f472ad35cd",
+    "container_sha256": "e70019f1c29ac181a5e5388316a92c7cfb809cc515c012a8dfe975f55d583cc0",
+    "bytes": 2978026,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92851,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "322362d7f309c8776343cf0d0ce8327d9e9d925b66ec66afbe183334a9448937",
+    "container_sha256": "3ed1eed04921ac08f18f129651cc27cd0214c66b68180f7a5b32af3772ac467b",
+    "bytes": 2768054,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "fc31d756514a5d22c634eab954dfad5e7a4bc2f1e3fc10edac21815ce871a80d",
+    "container_sha256": "3e37daa1d56dddcd90eba3bb462d66ffeaa542486937013c073f12ff3007a503",
+    "bytes": 2794738,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "3ae76c4d7a173c654fb75311e79153157666595cdc2ea77744e3cba047c8d9bf",
+    "container_sha256": "23dc1fa55931596e3f8323407a00d35810e049392202ab9017aafc30eafb8d22",
+    "bytes": 2764822,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "fe5e29715527f3e88e30e22f3b13a97efdc8e2a468e3f3101365419de99c0f70",
+    "container_sha256": "862f71834cc7acb4d59b9ed783b916d3538f472b7a77cc6b68b82f24dbfe27c2",
+    "bytes": 2795142,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "8fc69b7ce29772651124feb7b211bc6aaed59b8725ba1ed88202a92e601b8c57",
+    "container_sha256": "97dabb607cc5f74c89a122faa9259c891e60db13f8adfe34d2c9e25271be10ec",
+    "bytes": 2764386,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "3c9da9443a7cefc48aba1403f79eb83009e025dc44d4c5c57985d6e9ddd5db7b",
+    "container_sha256": "197d0e936e193b4d90e0d42353e5ba20d7ef83a154eb3e4ecd5dfe7f13dd7be8",
+    "bytes": 2793834,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "8f223d3d0fcd1ca56dcd3b22390fded553a5c75f8df9f0d71d4457222aafb40e",
+    "container_sha256": "f0e71d97ef612bff55213cfaef9634ed30a218792211f1bd55be870864cbd43a",
+    "bytes": 2756546,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "706132d908e8b904c2a46d291ade1456170de5dfb8c3f1274ec7a5f34a7c8a9a",
+    "container_sha256": "2a5b6ec43ae062c42dd86d9f98f80a1a159f91fcad5db6f88d8c0addcf55bac5",
+    "bytes": 2784382,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "619742ffd65f54172c4b24a0072ae323436e450af3450e4fe046c565312d9294",
+    "container_sha256": "c2ccbac41f1cc44833ee5c5a5f423f0720ff507b9cf167850a207ea42b503a8f",
+    "bytes": 2754734,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "c9f3fc44b48d0c5fa3ea442fddd99423619338c3b625b7487ebdbdfff71a52d8",
+    "container_sha256": "ba28e55ebccaa54dbece9da6e390b09f1b2764e475c21794260241670d745a47",
+    "bytes": 2777742,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "b50485585cfed063417647d8c972aad1bb22098927ca4eda9f0e59a947a1cba7",
+    "container_sha256": "77b8da042f8eeaa615b04714615ebeb16bb04e26c69ddab51d5a90cb177cbe47",
+    "bytes": 2754278,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_keltner_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "ddfcf0eb684c20f4f2048e0fff4515704c8c18d97bb8a31fed9609c1afe86ffa",
+    "container_sha256": "89ae58aa7fcb2f216f4efdba5521c66d46e0205d3be24d5ae7dd0901188b2022",
+    "bytes": 2782222,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92849,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "fe3536eb37be39824116d684f68e9f4cba0337362544f288d58057f6a48c8842",
+    "container_sha256": "1a45b7fbecd02622bd32b0f440d075bade4f29fcaeb449fc0055c920bb101bb4",
+    "bytes": 2787338,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "7b953f729e89259c4cb162f01d7dc3e6eaf5cb4b8f2209b3f8e52f6b5f7620a1",
+    "container_sha256": "16cc24a23932e1ab93f75dba9f1e3b34d2cd3dc1593593642f5d93eb80585ab8",
+    "bytes": 2814758,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "8edb8e5433c050ac1311fe1e7f3f53999722f5420b5500586f4038859f48610c",
+    "container_sha256": "14fb1fd0b5eff17a8658aabe023d8fb741fd20cd104d40540c54f7a782fd174e",
+    "bytes": 2785910,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "3da157dc8afa4cd65c4829b466b9687826f624c3d95d3a1c4fe52a27a4ccfe95",
+    "container_sha256": "29fa821dd406266e8f1d3e1329b9e714e5474a6842b6c546a15e1ab592a1270b",
+    "bytes": 2812486,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "609391d4c65bc67a1648d0c449377f264531a2ee598b4571ec1b9604b4b5a571",
+    "container_sha256": "431299c0681837d694fa38dac380802179d21405ba517c6154779f9ba5d38c57",
+    "bytes": 2782706,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "dd3bff0ea9f574aac551d9c8673851fc52e6ed792dd5ca9a9ced07a9b7f22bd1",
+    "container_sha256": "79094c8397a32386c9839340cf224471cb352020a49bcec98907ce70d9270b07",
+    "bytes": 2811398,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "dbb1db22c005a5066efba835b1d83ffca476fa8585f2f335ce69d521ab77dcdc",
+    "container_sha256": "0cfe019adf9599a6a5bedacf6367b7269c479a20019313057396f3320c5ff9b4",
+    "bytes": 2773286,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "9da4e44f70d646025458ba9c057932902f603d00348e15e1b4339623fc537708",
+    "container_sha256": "c8605f07cfe7e7692fee556e5fa0dad226987c7ba95cebf9f50cf49d0d05224f",
+    "bytes": 2798278,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "ebd51da9c9beafd168f8c19f4f49399af00c306094e012fb9bcb4fb92bd1ca0f",
+    "container_sha256": "c25bbbf491c7858277a330e6822871bef78e6959df93814da15f9165e2d02176",
+    "bytes": 2772150,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "62c348eda310a26a8a23868e67bd08a38ae3ec885c8be4d3d3d3349c50c128ca",
+    "container_sha256": "8ebb1afc6f68726b34ada7dfe69a76305a8759e65b049ef8aa25724e3375d736",
+    "bytes": 2796638,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "c77da8d088f7b7ed446520df7f9a23d287175951f29f1f3225736634692ff08a",
+    "container_sha256": "d5fa13ed8fd21b3b9649c5b5cc15f8aae2cf33de7ef468157183970be18b3855",
+    "bytes": 2766754,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_obv_breakout__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "f23ab09388fef2301065c4e3138707e9ab047be0d79ecbe69fb1dc4feed69ffe",
+    "container_sha256": "cf3c6e3b26be6c48cc7082268336b81299659c85bd8e80cd9445e088fd94a179",
+    "bytes": 2799574,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92855,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "6ca2f6df680ea345152fe0c1151b59cffc1a8ebd465fd676958d440eee47ce31",
+    "container_sha256": "3c10fde460b71b7ee100c87b69471eeed129c3f46fe2ebf29b8fe0958a29f7ec",
+    "bytes": 2925666,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "f59639a9a7d8d6b2e1ed978a769f6aa936079bdd7080c5c6035253716f08c1c1",
+    "container_sha256": "344fd21d881032191bed35fc4a9f64e8604ce0dee23254f6af25dfc84eba1459",
+    "bytes": 2961326,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "1296af83262c4ce6bbd31768a6a94b0c951bd0406385ebd0437d1de7b01aab39",
+    "container_sha256": "36ef38f24c05aaa98cca3439ad03ee035c72f4106da5c344d3da419fcdddaeb5",
+    "bytes": 2926450,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "2bc2de8fd7b42690f80a331129650a3a19b195bb981c87105587fb4fb7a9edc1",
+    "container_sha256": "f7bd22c530998d3b48a1452dc84101241d0203bd0185aef3bc880192fa4fccbe",
+    "bytes": 2964514,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "7747e956b8b913374155cba612c53663d06f65777e8980c6270771d8f8e358d6",
+    "container_sha256": "291e74acba04ead63d33726b6d44bb4f3fa17ef35d7077e00cec5da45c5ed126",
+    "bytes": 2926242,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "fa480700d4a1f6a6e5ab1db5d61e1f2d0316a00867bbfc34d5a42aabd5a6d4a6",
+    "container_sha256": "d4f516afeba0506178096d9f08ad83aa49aa1c0484ace8b05908e9c37892af9c",
+    "bytes": 2960262,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "f887dd9681abfe6d952515b353240723e7567cf06f5b2d9e8d8dd541260d5ee2",
+    "container_sha256": "fc9b0c430d9ba03fc040d2b594803e5ebb5bc1cf65b881f11628e4d18da08a97",
+    "bytes": 2913170,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "a9f4cbbadee8302e2de3107286808e6fb2ef1d594c5ccda52212de91e22ab247",
+    "container_sha256": "b538da98b5870b9d940bcb9224736493707683fbbecad818fc53576ee94a0bf9",
+    "bytes": 2948194,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "e9abcdd8eafe427ac24be133218438b580ad2ef9aff752f61869882a7c1519cb",
+    "container_sha256": "8d31b54ab795cb7f0c381a74771776488ca8ea651b069f073cbc2b49a50dc66b",
+    "bytes": 2907278,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "a3a1a27daa3ce5f76ec059532882cdb5bebc9c4be8eeeafa16f576bfe6aa93a0",
+    "container_sha256": "c6d1105837423d8dd228b0bdd9bdd5f389506dd72d3b92a0eb58556400e8c464",
+    "bytes": 2944118,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "3be8598dbb6020e5227b0bc1cf0e7f66fcbaa640e3698a3cea016df36312f7e7",
+    "container_sha256": "e34a228d9bce1646b652ff333763ae86c0fe0d0104b45835ec14e986aefd5e9c",
+    "bytes": 2906770,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_aroon_trend__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "5c9b5b5ea70d4e5d3c1c4d298e13a4e82a13957ef887157fe13261a57388d35e",
+    "container_sha256": "83c5a84bd615d5deb36dfc1f030a7d1993fbf39f82c82e7c50e1646da35ae223",
+    "bytes": 2939598,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92853,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "46e91c4ddb6d691f1868de7f8e363cf1042ff272c24cd55a275e175b1d828dce",
+    "container_sha256": "638293c1ba3e4c79586502d5d53528629a2c42c2090cdeba59ae71aca0c5337a",
+    "bytes": 2684834,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "413d2b25584a8095c7e215741eb001e7da6448e2e7a4964d48d83bb550e949b3",
+    "container_sha256": "3868b65907ce9542829fa6144229cad415ad45b25dbb55693f0fee261c84578e",
+    "bytes": 2710734,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "771c43bec72ed8e59042f397a02dcd98ae94bf30bbee35cda46b7b8377b395f0",
+    "container_sha256": "94bf78cccb16ed077ef8cbe05e48debf6aeb85b7c3cbf1f7ca5be1ac57da765a",
+    "bytes": 2683722,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "a1e641244cb112a129b8625db158b80cbb88a7180aa18cb4ea8658e878bf8de8",
+    "container_sha256": "8cfdbdab661228410c20e395d441b84079f41d6eed583bf04ac25fe435e635d4",
+    "bytes": 2712074,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "780b5524b0e2b0da4afc232e3915a9a76aa35c2ccd750ea91aa8b708b4aff8f0",
+    "container_sha256": "65ea0e9629462139d4c824a4fb11d39f3e428e399e486e45b7210465b9dc087e",
+    "bytes": 2681090,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "30de5ea78ec6adb47552943ceaaba5d74768a42ed581b148738d78360e0d7a1c",
+    "container_sha256": "53352a1e8bdd73320df4da6da35125954173cfc38d92ce4de41e9b31efcb478f",
+    "bytes": 2710218,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "00aea383c4e433810dd4365842ba8793a36212c6d68b0eba8ddf789ed39bc98a",
+    "container_sha256": "6914957eaebdd6f77e29a8b1fdfdd9038a311ef7cd6fcba2c4c2bf76e9f777ca",
+    "bytes": 2675650,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "aaa1ef7ba57bfb24ed930868af701cd5a61b351487f7f3255c54c69c86fb6d68",
+    "container_sha256": "f7d26704dd0cae85113a26338c2b8c501b5aa48561f46791365510c2efa372e3",
+    "bytes": 2701530,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "96829f2abc90cf5973c79e1323c5a1ad237d06948fe468047f4b0d6f947cb624",
+    "container_sha256": "b1ddbfe5002d90d9a0a13a924de71625407d9bc8eb1590558d893fe8f91a843d",
+    "bytes": 2673258,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "11275269e66467c33e4202659f0bebecd10434a6fbb567a0df57282c4f070da7",
+    "container_sha256": "df0bef325fcc2704180c97eff5b69303e5315f297cd903f3cd1c0d2b2410728e",
+    "bytes": 2703878,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "3f2f08d9b48909c2eb9dd94786aaaefc3e11bf4d7a092d8c3d3e20d865345b2f",
+    "container_sha256": "15a5967f344b3acce4f89025e220cb6d26be274bbf594b60bda181a9f4230a08",
+    "bytes": 2672198,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/eval_cci_reversion__fixed50_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "b9727bf5becc75470f472f16ca76284c329dc059b8798e2ae76127690dfbf2fe",
+    "container_sha256": "8f583a4e40977c823c726fd67caefeace7c8607c23118cb343677935e74f93a5",
+    "bytes": 2700762,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92863,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/benchmark_cash.envelope.json",
+    "sha256": "1e508fba604f705ab048e839271906e7c5e13bfe931e9bfdc80d7207d0348cca",
+    "container_sha256": "2e4ad23bdc295d0b063afd9f9eb5d721ef4341a080a094f63efd7100a0b6fa8a",
+    "bytes": 1280557,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92837,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_venue_assumption_adverse0.envelope.json",
+    "sha256": "d4fb77341e51bc1b2fc95b5e4684c207e13a5c89ae2e4dd8abe0a24c2f86d7c0",
+    "container_sha256": "0684cca1e4ac41b24e611361f6667e127d23db29193dbc3929a5d8af30ee9d6e",
+    "bytes": 4274650,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_venue_assumption_adverse1.envelope.json",
+    "sha256": "50d82cce9b14603ee992ef8559ae5d5c3b38c3c4aab99faa708f9dca06202edf",
+    "container_sha256": "f8694117535d813252f255488cdf4d6ca55cc3712ed721520cb7c1f9ab85faf2",
+    "bytes": 4333722,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_stress_assumption_adverse0.envelope.json",
+    "sha256": "966427fd9ad238fc6bf4928cbd424973e660970a8cd7a85471b4f1d4c58c6adc",
+    "container_sha256": "19e8923718a2ea452a1edc4816118e8a1657281829f88f2959a3b6f6bd258c96",
+    "bytes": 4213754,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/benchmark_hold50_stress_assumption_adverse1.envelope.json",
+    "sha256": "0dbdd98ee01ef959c365493caa391bf2b866856dbca2c7b3dcade08ae00c81c7",
+    "container_sha256": "b287cdeed3062486ce0dcfb0d6117728380d883092dc390b614cd38b93bf9b1f",
+    "bytes": 4265690,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 92839,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "420652338b70f1af4f11135377ce7ba7f0b6dd894317e83810e828d66c27dd63",
+    "container_sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json",
+    "sha256": "7f0b66d8d9580a8bf8a8398f76892e01b86708f2d2d69fd1b8be0d10d3b1dc73",
+    "container_sha256": "54a5828dddd9291ba8b8cc9be5c7ca682cd03cc1fd8b46b35cf8b8493c0635b8",
+    "bytes": 1401726,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "d5a71b0e185dacf98dd2109fe53ce2be87a7d38a60411e46d6d3690c37feac8a",
+    "container_sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag0_adverse1.envelope.json",
+    "sha256": "2dca8b65b4a51cdb6b9881e85009fed66c5f736a34113f33e3df3f1ea70af7c9",
+    "container_sha256": "f1a8627b0c45168933533fcb8541a01ec4ad9512bef80e967a60d87b8bed3ab3",
+    "bytes": 1414238,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "420652338b70f1af4f11135377ce7ba7f0b6dd894317e83810e828d66c27dd63",
+    "container_sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse0.envelope.json",
+    "sha256": "893ec4e960539de8f104c8b73158c6daa412b234375091801e6f440ffb3776c8",
+    "container_sha256": "91feed7bc18a6d59912ff287e89279522baaddcbaeb10353a8a228305c850264",
+    "bytes": 1403486,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "d5a71b0e185dacf98dd2109fe53ce2be87a7d38a60411e46d6d3690c37feac8a",
+    "container_sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag1_adverse1.envelope.json",
+    "sha256": "51e4e1b3b7834c3f6ff67f4573c0efa7a8ae7befd5ef70304c52de984336e649",
+    "container_sha256": "e034e1444718a76b3cb2aa067cc35139d4fc0bc844bd3bf409984451814233e4",
+    "bytes": 1417782,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "420652338b70f1af4f11135377ce7ba7f0b6dd894317e83810e828d66c27dd63",
+    "container_sha256": "5058e6bae32232a0c2159ac9ad835744194b6b2f8faec50f51761ef2764c45d0",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse0.envelope.json",
+    "sha256": "5e2539bb1e1f3b68e914e116dfed5819ccfaaf24b35de4a9fa71f565f5772d0c",
+    "container_sha256": "373817b066cad9edede55c24df08ab1f3c481637c15088196b810c539e9d251c",
+    "bytes": 1399782,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "d5a71b0e185dacf98dd2109fe53ce2be87a7d38a60411e46d6d3690c37feac8a",
+    "container_sha256": "3dd3f515aeb8600069661b92dc5ec82b3f6cf933b11a31ae2f74cf119088de8c",
+    "bytes": 1141085,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_venue_assumption_lag2_adverse1.envelope.json",
+    "sha256": "1d0e4376ae714ede859713add385c1cc9711bc24477089ae5d93f3c48a375084",
+    "container_sha256": "7388e71b749b9086e3c4f1534d0cd335f864195e1138dcc116331f84407bb726",
+    "bytes": 1416842,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "6d9ad8f65732196568c00c1ae178e06c136d0a12391e5ce3f8413259adc26061",
+    "container_sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+    "bytes": 1141093,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse0.envelope.json",
+    "sha256": "398e0e704c0b04127193109240a883d5cacffde648d3c2faecbe44da17f63e1a",
+    "container_sha256": "d0aa4a967fcea9013806884f19b9ec629a72dd1d109b28ceeb71b94b1e4bd8c8",
+    "bytes": 1396998,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "3552c262ee2792733e56a13c2106d6ba26de3fc7b785487dc867fcbf858bb7a3",
+    "container_sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+    "bytes": 1141089,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag0_adverse1.envelope.json",
+    "sha256": "1127f4852ddaf3fc6479a82d0a4cf72faab31d0d2fa2ede678a4479c1d3f2a42",
+    "container_sha256": "0248fdad1f65d682efa578a0bfa7a860aafc533309df81113554def23f81beaa",
+    "bytes": 1413154,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "6d9ad8f65732196568c00c1ae178e06c136d0a12391e5ce3f8413259adc26061",
+    "container_sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+    "bytes": 1141093,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse0.envelope.json",
+    "sha256": "733ef4ddc4b8d0c2732f2b864921108bd74c8675d57fa23d2a1f47a87e65f571",
+    "container_sha256": "862207e1ebea74a74f50de9069888eae87ce9167e5b28b84da81a3ca76fa0628",
+    "bytes": 1398278,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "3552c262ee2792733e56a13c2106d6ba26de3fc7b785487dc867fcbf858bb7a3",
+    "container_sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+    "bytes": 1141089,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag1_adverse1.envelope.json",
+    "sha256": "aadffa58f7c0af6c88c68145fe1a19c188208da62911b35d55ef7a7dd9770593",
+    "container_sha256": "ce69bdc33b016bf93608712307de77d4325bbf8a69623207974d955eb47bb156",
+    "bytes": 1413778,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "6d9ad8f65732196568c00c1ae178e06c136d0a12391e5ce3f8413259adc26061",
+    "container_sha256": "f5b653c07ecf2e6e34b26997179dfb76e0f7d18b48d31c295001a562115b2a30",
+    "bytes": 1141093,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse0.envelope.json",
+    "sha256": "1a4ec7b1cef1069c71a77de26897e31f5d2efb4d1f7799857a7b1cafc1f5afa9",
+    "container_sha256": "546c34b92700cbe3ca7aae59da10aa191dad345991094177df9838e8e3d7a326",
+    "bytes": 1396462,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2024_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "3552c262ee2792733e56a13c2106d6ba26de3fc7b785487dc867fcbf858bb7a3",
+    "container_sha256": "fc8ea5e5a32f527ab4d3d5283bdbdeb406b58340f90ed542cbb690aa905cddb2",
+    "bytes": 1141089,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46482,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "futures-021-evaluation/XRPUSDT/wfa_2025_stress_assumption_lag2_adverse1.envelope.json",
+    "sha256": "aa36a7e8b298e177d14d32fa1870a3f92d00cc4ede6c1c054816b1103a5ecce3",
+    "container_sha256": "491873e6a3dc57b7f300783e80668c8f8712a0b3d588d31ced9bce1d44171849",
+    "bytes": 1411090,
+    "encoding": "base64+gzip",
+    "audit": {
+      "events_checked": 46365,
+      "max_error_usdt": "0",
+      "status": "PASS"
+    }
+  }
+]
