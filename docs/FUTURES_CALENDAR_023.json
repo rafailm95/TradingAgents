@@ -1,0 +1,95 @@
+{
+  "schema": "futures_calendar_extension_023_v1",
+  "authorization": "Continue authorized futures research for BTC,SOL,XRP; user asks for profit and explicit criteria. Complete one bounded new-date validation, never optimize until green.",
+  "symbols": [
+    "BTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "venue": "Binance USD-M native perpetual histories; NOTBybit results",
+  "new_strategy_variants": 0,
+  "existing_variants": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "hypothesis": "Transfer the same six signals from development2022–2025 to separately frozen historical2026 dates. No new strategy family or parameter fitting; test all six including failures. New calendar evidence is not prospective evidence.",
+  "data": {
+    "new_start_inclusive": "2026-01-01T00:00:00Z",
+    "new_end_exclusive": "2026-10-01T00:00:00Z",
+    "new_hours_per_series_per_asset": 6552,
+    "new_funding_events_if_unchanged8h": 819,
+    "prior_history": "Reuse exact frozen2022–2025BTC/XRP021 and SOL022. SHA and raw-source receipt verified; never redownload/replace olddata. Concatenate only consecutive verified new2026 rows.",
+    "timeframe": "Hourly trade/mark, dailyclosed signals",
+    "expected_monthly_archives": 81,
+    "maximum_daily_repair_archives": 60,
+    "maximum_GETs": 282,
+    "access": "Officialdata.binance.vision only, publicGET,noauth,noorders,noredirects,noretries. First request failure stops affectedasset; independent assets may proceed. Preserve raw failed response/status/timestamps/hashes. No bypass.",
+    "recovery": "Atmost10missing candle-kind UTCdays perasset; official daily missingday plus previousday withinmonth or nextday atmonthstart. Exact decimal overlap, rejectconflicts, no interpolation.",
+    "funding": "New2026 contract strict8h actualrates,sourcejitter<60000ms,rawtimesretained,nominal00/08/16withunchangedheldquantity. Any changedcadence/missingevent excludesassetbeforePnL and is retained for separatelyfrozen later work. SOL2022 authenticpiecewise schedule continues under unchanged022adapter.",
+    "eligibility": "Allmonthly inventory, publishedchecksums, CRC, trade/mark/fundingfullgrid required before outcomes; no shortenedwindow afterseeingPnL."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/binance/binance-public-data",
+      "retrieved_date": "2026-10-17",
+      "supports": "Officialarchives, monthly/dailyformat,publishedSHA256checksums. Noexecutionorprofitguarantee."
+    },
+    {
+      "path": "docs/BINANCE_PERPETUAL_017.json",
+      "supports": "Existingfrozen6variants and nativeperpetualassumptions"
+    },
+    {
+      "path": "tradingagents/futures_replay_019.py",
+      "supports": "ValidatedDecimalcapitalcarry/wealthaccounting"
+    }
+  ],
+  "windows": {
+    "warmup": "2022",
+    "train": "2023-01-01..2025-12-31",
+    "fixed_evaluation": "2026-01-01..2026-09-30",
+    "expanding_walk_forward": "Historical2024/2025folds reused from021/022; one newlyselected2026fold exact matching evaluated candidate scenario reused without duplicate execution. No forced sharedcapital across incompatible independentlyfunded windows. Report both new2026train-selected performance and preservedolderWFA separately."
+  },
+  "execution": {
+    "initial_usdt_per_independent_asset": 10000,
+    "position": "longorflat,50%entrycap,fullycash-backedguard;no leveragedliquidationmodel",
+    "signal": "Unchanged017dailyclosedrules; executeD+1+lag at01UTC;lag0/1/2",
+    "baseline_fee_slippage_bps_side": [
+      5.5,
+      2
+    ],
+    "stress_fee_slippage_bps_side": [
+      10,
+      10
+    ],
+    "opex_usdt_per_365_25days": 120,
+    "funding_sensitivities": [
+      "nominalhour-openmark",
+      "adverse5bpsvaluation"
+    ],
+    "filters": "Sameexplicit hypotheticalfine-lotfilters as017,not observed venue/account rules; noexchangeInfo retry inthisbatch",
+    "limitations": "Nohistoricalorderbook/fills/personalfeetier/margin confirmation. Intrahourhighloworderunknown;do notclaimrealizedintrabarDD. USDTneverrelabeledUSD."
+  },
+  "selection": "Perasset allsix atbothcostslag0nominalfunding over2023–2025. Positive net,DD<=35%,>=10signal/timeexits,completeaudit. Rankstressannualizedreturn/max(stressDD,1%),lexicographicIDtie;elsecash. Publish immutable selection SHA before any2026evaluation.",
+  "gates": "All12cost*lag*fundingscenarios net>0 afterfees/slippage/funding/120yearopex,DD<=35%,>=20signal/timeexits,completeinputs/wealthaudit. Forcedterminalcloses excluded. Same gates forselected2026fold; shorter273days neverjustifieslower20threshold. Crossassetfullpassrequiresallthreecompleteandallgatespass.",
+  "WFA": "Reuse prior2024–2025WFAhash-verified summaries as oldreference. New2026fold usesselectiontrained2023–2025 and independent10000USDT. Never concatenate independentlyresetaccounts into a continuousWFAreturn. Reuse exact selectedcandidate scenario without duplicateexecution; ifcashselected, compute one managedcash path paying120/year perasset and reuse it for equivalentcost/lag/fundingcases.",
+  "benchmarks": "Idlecash0expense;hold50 bothcosts*bothfundingvaluations payingallfees/funding/120yearopex. Iftrainingselectscash, add one managedcash scenario forselectedfold. This conditional additionalrun is frozenbefore outcomes, not countedasanewvariant.",
+  "matrix_per_eligible_asset": {
+    "train": 12,
+    "fixed_evaluation": 72,
+    "benchmarks": 5,
+    "conditional_managed_cash_if_selected": 1,
+    "maximum": 90
+  },
+  "maximum_new_design_executions": 270,
+  "multiplicity": "All6eligible candidates perasset and jointup-to18onmatchednew273evaluationdays vs cash/hold50 includingactualopex.30daycircularblocks,2000resamples,seed20261017. Prior50variants/25families,7902design+7integrityreplays=7909executions disclosed, not fullycorrected. Reuse all18old021/022metrics for temporalcomparison; retain ETH10 and spot40separately dueincompatibleasset/window/quote scope.",
+  "publication": "Freeze collectionimplementation/tests/access and entireexactstrategycontract before collectingnew2026. Separate engine/test/old+newinputhash freeze remotelybefore anyrealPnL; trainselection publishedbeforeevaluation. Retain completefailedvariants anddurablefulloutputs. Onlyauthorizedresearchbranch,expectedhead,forcefalse.",
+  "next_priority": "SingleBybitpacket audit013whenavailable; donotchange014collectororrequestserialuploads.",
+  "criteria_interpretation": "20exits is an operational minimum, not statisticalproof;35%DD is a researchscreen ceiling, not user-confirmed personalrisktolerance. Discovery distinguishes positiveall12, individualfailures, Paretoleads andfullgatepasses. No claim of profitability guarantee.",
+  "count_adjustment_before_outcomes": "Prior023plan267 omitted managedcashselectedfold when training choosescash. Freeze conditional0..3extra cash-only runs before data/outcomes; max270. No strategy/riskgate change and no duplicateWFAstrategyreplay.",
+  "positive_discovery": "Per asset compute each candidate's minimum net return across all12 scenarios and maximum sampled percentage drawdown across all12. Pareto domination means another candidate has at least as high minimum return and at most as high maximum drawdown with one strict improvement. Report all frontier flags; shortlist at most3frontier families per asset sorted by minimum return descending then ID. Descriptive posthoc only, never replaces train selection or acceptance gates.",
+  "forward_gate": "Use at least180calendar days AND20completed exit trades per candidate under bothcostscenarios before classifying forward profitability; require positive net liquidation PnL afteroperatingexpense underbase/stress, sampledDD<=35%,>=95%observedeligiblecalendar days, no integrity failures or stale pending observations. Missing observations cannot be backfilled. This gate is a monitoring milestone, not a profit guarantee or permission for real trading."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T15:46:55.241576+00:00",
+  "updated_utc": "2026-10-17T16:03:13.771099+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -469,23 +469,26 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
-    },
-    {
-      "id": "023",
-      "status": "DESIGN_REQUIRED_LATER_NATIVE_FUTURES_DATES",
-      "plan": "docs/NEXT_FUTURES_023_PLAN.md",
-      "pre_registered": false,
-      "priority": "After available013 singleBybitpacket",
-      "scope": "Same6variants BTC/SOL/XRP; separately freeze and audit official2026-01-01..2026-10-01exclusive trade/mark/funding. No retuning or duplicate021/022replays; atmost267scenarios; allgatesunchanged."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "023",
+    "status": "COLLECTION_PRE_REGISTERED_AWAITING_REMOTE_CHECKPOINT",
+    "attempt": "023-initial",
+    "protocol": "docs/FUTURES_CALENDAR_023.json",
+    "collection_freeze": "research/experiments/023/collection-freeze.json",
+    "collection_freeze_sha256": "1e0c382e9f9c665790c8e5ca4d25c82cfb159b015d65e45878fe286db79c7270",
+    "new_historical_simulations": 0,
+    "maximum_new_simulations": 270,
+    "new_variants": 0,
+    "collection_software_tests_passed": 50
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "7527 design scenario executions +7 prior integrity replays=7534 known executions;50 unique variants/25families.020adds32 executions and reuses24WFAfolds,32training,96fixed paths and5benchmarks. Reused/correlated histories are not independent evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Prioritize unchanged013 when singleBYBIT_SEND_THIS.zip arrives. Otherwise design/freeze one later-date nativefutures023batch for sameBTC/SOL/XRP sixvariants, with coverage/source/testpins before anyoutcome.022completed,notpending. Preserve old021fundingfailure and all prospectivepins; no keys, extra usercollectors or automaticpromotion.",
+  "next_action": "After remote023collectionfreeze collect/audit new2026 data; preserve missingassets. Before anyPnL publish fullengine/source/test/inputfreeze, then trainingselection beforeevaluation. No unchanged021/022replays.013prioritized ifsingleBybitpacketavailable.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {

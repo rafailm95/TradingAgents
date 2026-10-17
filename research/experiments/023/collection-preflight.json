@@ -1,0 +1,8 @@
+{
+  "tests_passed": 50,
+  "new_tests": 12,
+  "historical_simulations": 0,
+  "command": "python -m pytest --noconftest -q tests/test_binance_archive.py tests/test_futures_assets_021.py tests/test_futures_extension_023.py",
+  "stdout": "..................................................                       [100%]\n50 passed in 1.72s\n",
+  "failures": []
+}
