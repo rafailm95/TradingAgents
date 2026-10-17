@@ -1,0 +1,9 @@
+{
+  "synthetic_only": true,
+  "tests_passed": 129,
+  "new_tests": 18,
+  "command": "python -m pytest --noconftest -q tests/test_bybit_replay.py tests/test_bybit_cashflow.py tests/test_binance_archive.py tests/test_funding_futures_019.py tests/test_nr7_futures_020.py",
+  "raw_stdout": "........................................................................ [ 55%]\n.........................................................                [100%]\n129 passed in 19.39s\n",
+  "preflight_failures": [],
+  "reference_io": "AllfourreferencearchiveSHA verified; selected019train1/train2 and recoveredbase64WFA reference audited without anynew strategyPnL."
+}

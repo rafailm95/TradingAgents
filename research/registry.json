@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T10:31:29.086734+00:00",
+  "updated_utc": "2026-10-17T12:31:38.606597+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 24,
@@ -252,7 +252,26 @@
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "020",
+    "status": "FROZEN_AWAITING_REMOTE_PREREGISTRATION",
+    "family": "nr7_close10",
+    "new_variants": 2,
+    "freeze_sha256": "81bc0277b2adb9141b4a3a6aad92a72253949848a1d0926089aeaa70f8a6c74d",
+    "attempts": [
+      {
+        "id": "020-initial",
+        "status": "PREREGISTERED_NO_OUTCOMES",
+        "preflight_tests": 129
+      }
+    ],
+    "prior_counts": {
+      "variants": 48,
+      "families": 24,
+      "design_runs": 7495,
+      "known_executions": 7502
+    }
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,

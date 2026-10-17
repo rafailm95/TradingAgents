@@ -1,0 +1,92 @@
+{
+  "schema": "nr7_futures_020_design_v1",
+  "created_utc_date": "2026-10-17",
+  "status": "PREREGISTERED_BEFORE_NEW_OUTCOMES",
+  "authorization": "User requests continued new futures strategies and cross-checks; one bounded family, no tuning until green.",
+  "venue": "Binance USD-M ETHUSDT perpetual; not Bybit",
+  "new_family": "nr7_close10",
+  "new_candidates": [
+    "nr7_close10__fixed50",
+    "nr7_close10__vol15_cap50"
+  ],
+  "rationale": "Test daily range contraction followed by a next-day bullish closing breakout. NR7 absolute-range definition follows StockCharts own documentation. Daily close confirmation, previous-day low exit and10actualday limit are our one prespecified causal adaptation, not the original intraday ORB or an empirically proven edge. Distinct from prior Bollinger/Keltner squeeze families: single-bar rank contraction versus six prior ranges, not multi-day volatility bands.",
+  "rules": {
+    "entry": "After closed dayD: R(D-1)=High-Low>0 and strictly less than each of six preceding daily ranges; Close(D)>High(D-1). Ties, intraday-only breaks and same-day setup entries excluded. No trend, volume or funding filter.",
+    "exit": "After closed dayD: Close(D)<Low(D-1), strict inequality; also10actual elapsed holdingdays from executed entry. Exit before entry; no same-hour reopen.",
+    "sizing": "fixed50=.5; vol15_cap50=min(.5,.15/annualized60dailyreturns sample standard deviation), sqrt365.25 annualizer. No sizing retune.",
+    "execution": "D+1+lag at01UTC traded-price hourlyopen; lag0/1/2; complete daily/hourly bars only. Same frozen013fill/funding/cashflow/margin guard, no leverage or shorts."
+  },
+  "input": {
+    "normalized_sha256": "cccf3ff868465439ede973dd505c95d906c9e6eb9a9c31263c040fd053ccd00e",
+    "reference_archive_sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+    "dates": "2022-01-01T00UTC..2026-01-01T00UTC exclusive",
+    "trade_hours": 35064,
+    "mark_hours": 35064,
+    "funding_events": 4383,
+    "provenance": "Reused017official checksummed archives;144monthly+4daily. No new market observations. ETHonly; priorBTCaccess/LTCcoverage exclusions remain."
+  },
+  "windows": {
+    "warmup": "2022",
+    "main_training": "2023-01-01..2023-12-31",
+    "evaluation": "2024-01-01..2025-12-31",
+    "second_expanding_training": "2023-01-01..2024-12-31",
+    "wfa_folds": [
+      "2024",
+      "2025"
+    ]
+  },
+  "costs": {
+    "venue_assumption": {
+      "fee_bps_side": 5.5,
+      "slippage_bps_side": 2
+    },
+    "stress_assumption": {
+      "fee_bps_side": 10,
+      "slippage_bps_side": 10
+    },
+    "expense_usdt_per_365_25days": 120
+  },
+  "funding": "Actual rate at held-position timestamp, hour-open mark settlement proxy, nominal and adverse5bpsvaluation. Frozen017timestamp alignment retained. No zero-imputation.",
+  "execution_unknowns": "Hypothetical fine-lot rules inherited017; personal/historical fees, exact settlement marks, historical books/fills and liquidation model unverified. Fully cash-backed guard, at most50%entry allocation; unknown OHLC order is not realized DD.35%screen is not user-approved tolerance.",
+  "capital": "Independent10000USDT fixed evaluation accounts. Unchanged019Decimal capital-continuous WFA: annualterminalflatten payscost, nextfold opens with exact previouscash. No return scaling or annualcapitalreset. Frozen019ledger reused via explicit sizing-only dispatch with prepared NR7signals; no prior sources or globals modified.",
+  "selection": "All10native candidates (old8+new2),bothcosts,lag0,nominalfunding. Requirepositive net,DD<=35%,>=10signal/timeexits,no failures. Rank stress annualizednet/max(stressDD,1%); lexicographic ID tie. Otherwisecash. Main/train1selection published before train2 or evaluation. Train2 only2023..2024, published before2025evaluation. Choices never use future evaluation scores.",
+  "evaluation_gates": "Each candidate mustpass positive net,DD<=35%,>=20signal/timeexits,completeinputs/wealthaudit in all12cost*lag*funding scenarios. All failures retained. Same aggregate gates for WFA12paths, terminalforcedcloses never credited as signalexits. Historicalpass is not validation.",
+  "wfa_cash": "When annual selector picks cash, the managed WFA still incurs120/year monitoring expense. Idlecash benchmark and staticmainselectorcash have0expense. Report this distinction.",
+  "benchmarks": "Reuse hash-verified017cash0expense and50%perpetualhold4cost/funding paths over identical2024..2025dates. Hold paysfunding/fees/120yearopex, terminalclose. WFA annualflats may addcost unlike continuoushold, intentionally disclosed.",
+  "matrix": {
+    "new_train1": 4,
+    "reused_train1": 16,
+    "new_train2": 4,
+    "reused_train2": 16,
+    "new_fixed_evaluation": 24,
+    "reused_fixed_evaluation": 96,
+    "reused_benchmarks": 5,
+    "conditional_new_wfa_folds_max": 24,
+    "new_total_min": 32,
+    "new_total_max": 56
+  },
+  "multiplicity": "All10compatible native-perpetual candidates,4centered circular30day-block maxmean diagnostics base/stress vs cash/hold50,2000resamples seed20261017,actualopex included.40spot-only variants incompatible and excluded. Prior48variants/24families/7495design+7integrityreplay=7502executions;01877diagnosticpaths. Reused histories, old posthoc selection and prior design search mean no independent confirmation.",
+  "preservation": "All previous frozen files and seven prospective candidates/pins unchanged. No new papercohort or orderauthority.013prioritized when oneBybitpacket arrives.",
+  "sources": [
+    {
+      "url": "https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/narrow-range-day-nr7",
+      "retrieved_utc_date": "2026-10-17",
+      "supports": "Publisher documentation: absolute high-low range, strict range less than preceding six, bullish break over setup high, warns of whipsaw. Not evidence of crypto/futures profitability. We adapt timing/exit explicitly."
+    },
+    {
+      "url": "https://github.com/binance/binance-public-data",
+      "retrieved_utc_date": "2026-10-17",
+      "supports": "Official public archive provenance/checksums;017nativeinputs reused."
+    }
+  ],
+  "reproduce": "Python3.12 isolated requirements-research.txt; scripts/run_nr7_futures_020.py --input NORMALIZED --reference-archive ZIP017 --reference-parts PART1 PART2 PART3 --freeze-sha256 FREEZE --stage train1|train2|evaluate --output NEWDIR; train2 adds --train1 DIR --selection1-sha256 SHA; evaluate also --train2 DIR --selection2-sha256 SHA. Publish freeze before train1, publish each selection before next stage. Artifacts use deterministic gzip in fsynced base64 envelopes with immediate hash+independent wealth audit.",
+  "wfa_reuse": "Before computing a fold, compare hash-verified019fold: exact chosen candidate, Decimal initialcash, dates, cost, lag and funding sensitivity must match. Reuse identical complete result; otherwise compute new fold once. Reused folds counted separately, never new simulations. Old019source and all failure/recovery records preserved.",
+  "references019": {
+    "parts_sha256": [
+      "71443bab8d0159f4cae8c887e7c027c8b32d920d0ac2f99f3e2216fe978515d7",
+      "5f586b73e1fe4b9b599d1ba12ce0fc407695b2836d26896056900df828119986",
+      "00bd8a95856112b16814a22e65ddef2b855770ce2172aa35703a17fac98ae8ca"
+    ],
+    "resolved_record_map": "research/experiments/019/full_result_hashes.json"
+  }
+}

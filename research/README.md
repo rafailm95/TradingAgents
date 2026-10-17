@@ -20,3 +20,7 @@ No forward-profit milestone has been reached. User cancellation or a verified fo
 019 preregisters one funding-aware futures family with two existing sizings and an annual capital-continuous walk-forward selector over all eight comparable native-futures candidates. Exact rules, accounting delta, preflight failures and synthetic checks are frozen before new outcomes. All earlier accepted source/results and013/014 remain unchanged.
 
 019 completed: 68 new scenarios, two new variants, no full robustness passes. Funding family has positive lag2 scenarios but negative lag0/1; main-selected and nominal walk-forward outcomes lose. Five integrity recoveries preserve four initial zero-byte files and a repeated truncation; all accepted decoded hashes match the original manifest. Full failures, recovery transport and68audited paths are in the durable evidence archive. Totals48variants/24families;7495designruns+7integrityreplays=7502.
+
+## Batch020 preregistration —2026-10-17
+
+One NR7 daily-close family, two unchanged sizings, ETHUSDT native Binance futures. All10 compatible candidates compared; prior outcomes reused with hashes.32core new simulations plus0..24conditional WFAfolds. Exact rules and freeze in `docs/NR7_FUTURES_020.json` and `research/experiments/020/freeze.json`;129synthetic tests passed. No new market outcome computed before remote checkpoint.013still awaits the single Bybitpacket.
