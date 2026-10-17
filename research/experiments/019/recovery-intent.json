@@ -1,0 +1,34 @@
+{
+  "status": "RECOVERY_PREREGISTERED_NOT_EXECUTED",
+  "original_freeze_sha256": "04c9fb5a8ea26ee1ed3640ec75f2ef524dd50ffce1f9603bbb261ce941ad541d",
+  "original_evaluation_sha256": "9b71fc05e3ab4f12b7036bba7e802e696e6b2e8057f7ed3d5a816a9c08df865c",
+  "failed_files": [
+    {
+      "file": "wfa_2024_venue_assumption_lag0_adverse1.json.gz",
+      "observed_size": 0,
+      "observed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "19ef0f55be943728ce1c3944e734d406fbc58e0598fffd6114541e4b8f0350e8"
+    },
+    {
+      "file": "wfa_2025_venue_assumption_lag1_adverse0.json.gz",
+      "observed_size": 0,
+      "observed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "91c4540f8a86083060c95d1404f91f04440cf2c5fbae4742ef5d72ff7f98fe1c"
+    },
+    {
+      "file": "wfa_2024_venue_assumption_lag2_adverse0.json.gz",
+      "observed_size": 0,
+      "observed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "8fc9620ba5c7f2f75b4fef82e75788814809841cbc0da28a5c08f6e90c744b43"
+    },
+    {
+      "file": "wfa_2025_stress_assumption_lag0_adverse0.json.gz",
+      "observed_size": 0,
+      "observed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected_sha256": "dce3ef5dc06a6a8798e070e379479dabcfb952367e4dadabb9cc79b803e211f6"
+    }
+  ],
+  "planned_additional_integrity_replays": 4,
+  "source_sha256": "8dd503e624175fc39a5c01a9f58a313021bf7ccf3f6da4f57dfbf7980f4bbe6d",
+  "policy": "Original zero-byte files retained. Reconstruct exactly these scenarios in a new directory. Accept only byte-for-byte original SHA256. No rule or parameter changes. Unknown cause."
+}
