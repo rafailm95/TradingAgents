@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "command": ".venv-research/bin/python -m pytest --noconftest -q tests/test_futures_concentration.py tests/test_binance_archive.py tests/test_bybit_replay.py tests/test_bybit_cashflow.py",
+  "tests_passed": 113,
+  "new_tests_passed": 35,
+  "elapsed_seconds": 11.52,
+  "fixtures": "Synthetic only; no archived contribution or calendar diagnostics inspected",
+  "new_strategy_simulations": 0,
+  "coverage": [
+    "Exact static attribution with full expense, winning/loss/zero/tied/empty cases and scale invariance",
+    "Reject nonfinite/float/bool inputs and invalid capital or expenses",
+    "Independent reconstruction of trade fees, price PnL and funding, including terminal exits",
+    "Reject mismatched fees/quantities/sides, missing/duplicate/orphan/same-time funding, altered trade timestamps and totals",
+    "Reject partial results and open final positions",
+    "Calendar reconciliation and completed-hour boundary before following-year funding",
+    "Reject missing/duplicate/unordered calendar samples and wrong initial/final identities",
+    "Drawdown amount comes from actual equity peak and trough, not initial capital times percentage",
+    "78 unchanged native-archive, replay and cash-flow tests"
+  ]
+}

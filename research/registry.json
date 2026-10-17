@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-16T22:08:11.381335+00:00",
+  "updated_utc": "2026-10-17T05:24:36.434458+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 23,
@@ -200,16 +200,26 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
+    },
+    {
+      "id": "018",
+      "status": "PREREGISTERED_NOT_ANALYZED",
+      "protocol": "docs/FUTURES_CONCENTRATION_018.json",
+      "source_freeze": "research/experiments/018/freeze.json",
+      "new_variants": 0,
+      "new_strategy_simulations": 0,
+      "diagnostic_paths": 77,
+      "next": "Publish pre-analysis freeze, then analyze all 72 candidate and five benchmark paths from authenticated 017 evidence; preserve every failure."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": "018",
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "570 + 1226 + 2020 + 3174 + 174 + 174 + 89 = 7427 research scenario executions on overlapping histories, plus two byte-identical evidence-recovery replays = 7429 total known executions. Still 46 unique sizing variants in 23 families; repeated scenarios are not independent evidence. Synthetic software runs are excluded. Earlier 001/002/006 remain separately documented.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Prioritize frozen Bybit 013 when the single BYBIT_SEND_THIS.zip arrives. Until then continue useful bounded futures research on accessible official sources, with a separate pre-outcome freeze for each new batch. Preserve 017 findings and all failures; do not retune or rerun unchanged scenarios to force profit, and do not automatically substitute spot.",
-  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022\u20132025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
+  "next_action": "Complete frozen018 descriptive concentration/calendar audit; 013 still awaits its single Bybit packet. No new trading signals or repeated backtests.",
+  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",

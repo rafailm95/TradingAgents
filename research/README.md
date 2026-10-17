@@ -11,6 +11,8 @@ python -m pip install -r requirements-research.txt
 python scripts/run_cross_asset_lab.py --data-root research/data --output /tmp/cross-asset-reproduction-009
 ```
 
-Use a fresh nonexistent output directory. The runner refuses existing output. Python3.12. No model providers or credentials. Costs and windows are in the frozen protocol. Next queued batch011 must have its implementation/source hashes committed before evaluating results. Never modify old accepted outputs; corrections get a new attempt ID and an explanation.
+Use a fresh nonexistent output directory. The runner refuses existing output. Python3.12. No model providers or credentials. Costs and windows are in each frozen protocol. Read the current registry for the active batch; 011 and 015–017 are completed, not pending. Never modify old accepted outputs; corrections get a new attempt ID and an explanation.
+
+018 addresses the concrete futures evidence gap of trade-profit concentration and calendar attribution using authenticated existing 017 results. It introduces no strategy variants or replay executions. Its descriptive arithmetic does not replace the original gates or create walk-forward evidence. Bybit013 still awaits the one unified packet. See docs/FUTURES_CONCENTRATION_018.json and the independently published pre-analysis freeze.
 
 No forward-profit milestone has been reached. User cancellation or a verified forward milestone ends the strategy search; continue frozen observation without real orders. Access, integrity or resource blockers are reported rather than bypassed.

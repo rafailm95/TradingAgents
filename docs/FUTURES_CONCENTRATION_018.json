@@ -1,0 +1,104 @@
+{
+  "id": "futures_concentration_018_v1",
+  "classification": "Preregistered descriptive robustness audit of previously observed results; not new strategy validation.",
+  "authorization": "Latest user instruction permits a bounded concrete futures-evidence gap while Bybit013 awaits its one unified packet.",
+  "venue": "Binance USD-M ETHUSDT perpetual",
+  "initial_usdt": "10000",
+  "evaluation": [
+    "2024-01-01",
+    "2025-12-31"
+  ],
+  "evaluation_bounds": [
+    1704067200000,
+    1767225600000
+  ],
+  "input_archive": {
+    "library_file_id": "libfile_4a34e6a7d2dc8191bca89e277b1fbd97",
+    "name": "Futures_Binance_017_Evidence.zip",
+    "sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+    "bytes": 197998387
+  },
+  "evaluation_manifest_sha256": "71e492e15aca6cd9086466a31761807636b6a6938acfe705263ee941059fd4dc",
+  "parent_results_commit": "a60537ad04a51b8f05e4afbef9524cc1c8c946be",
+  "candidates": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "matrix": {
+    "candidate_paths": 72,
+    "benchmark_paths": 5,
+    "costs": [
+      "venue_assumption",
+      "stress_assumption"
+    ],
+    "extra_signal_lag_days": [
+      0,
+      1,
+      2
+    ],
+    "adverse_funding_5bps": [
+      false,
+      true
+    ]
+  },
+  "costs": {
+    "venue_assumption": {
+      "fee_bps_per_side": "5.5",
+      "slippage_bps_per_side": "2"
+    },
+    "stress_assumption": {
+      "fee_bps_per_side": "10",
+      "slippage_bps_per_side": "10"
+    },
+    "annual_operating_usdt": "120",
+    "cash_benchmark_operating_usdt": "0"
+  },
+  "primary_diagnostics": [
+    "Reconstruct every trade contribution from its original buy/sell fills and funding events; reconcile all totals.",
+    "Static contribution remainder after removing the largest positive trade; preserve later recorded quantities and all operating expense.",
+    "Calendar-year mark-to-market changes for 2024 and 2025, with actual sampled within-year drawdowns."
+  ],
+  "secondary_diagnostics": [
+    "Static remainder without the top two positive trade contributions.",
+    "All single-trade contribution removals, including losses, explicitly not used for selection.",
+    "Gross-positive contribution concentration and inverse HHI of winners; not an effective count of independent observations.",
+    "Monthly mark-to-market attribution and static remainder after best positive month."
+  ],
+  "descriptive_filter": {
+    "each_scenario": [
+      "Original net profit > 0",
+      "Static net remainder excluding largest positive trade > 0",
+      "Both complete calendar years have positive mark-to-market PnL"
+    ],
+    "candidate": "All 12 scenarios meet all three conditions; never substitutes for original trade-count/risk gates."
+  },
+  "boundary_rule": "Use unique completed-hour close at each month/year boundary, before the next hour's funding. Carry positions and account capital; never group total PnL solely by exit year.",
+  "integrity": "Verify archive SHA256, archived evaluation manifest SHA256, every original compressed-result SHA256, complete status, flat final position, preserved metrics, independent wealth recurrence, fill/funding/trade and calendar reconciliations. Stop on mismatch, preserve failure.",
+  "new_strategy_simulations": 0,
+  "new_variants": 0,
+  "new_families": 0,
+  "diagnostic_paths": 77,
+  "limits": [
+    "017 aggregate outcomes were already known before choosing this diagnostic.",
+    "No optimization, statistical significance, PBO estimate, new forward evidence or performance guarantee.",
+    "The top-trade removal is fixed-record attribution, not missing-execution replay; future trade sizes would differ in a true counterfactual.",
+    "No expanding walk-forward is computed; explicitly preserve the 2023 cash selection and label calendar splits as not walk-forward. A separately frozen futures walk-forward experiment remains next.",
+    "Only six of 46 prior variants have compatible native Binance outputs; do not pool 40 Coinbase USD spot paths.",
+    "BTC/LTC exclusions, historical book/fill gaps, hypothetical filters/fees and funding mark proxy remain unchanged.",
+    "Preserve all original gate failures and every scenario; no paper-cohort change or orders."
+  ],
+  "rationale": "With only 7–16 exits in the prior evaluation, total profit may be concentrated in very few events. Measure this directly without introducing another hypothesis or resimulating accepted history.",
+  "primary_source": {
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "title": "The Probability of Backtest Overfitting",
+    "authors": "Bailey, Borwein, Lopez de Prado, Zhu",
+    "date": "2015-02-27",
+    "accessed_utc_date": "2026-10-17",
+    "use": "Supports caution about repeated historical search and holdout claims; does not validate this study's diagnostic thresholds."
+  },
+  "reproduction": "python scripts/run_futures_concentration_018.py --archive /ABS/Futures_Binance_017_Evidence.zip --output /ABS/NEW_018_OUTPUT --freeze-sha256 EXTERNAL_FREEZE_SHA --freeze-commit PUBLISHED_PREREG_COMMIT"
+}
