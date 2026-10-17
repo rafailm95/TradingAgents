@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T16:34:28.915277+00:00",
+  "updated_utc": "2026-10-17T17:11:45.618397+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
-  "unique_signal_families": 25,
-  "unique_sizing_variants": 50,
+  "unique_signal_families": 35,
+  "unique_sizing_variants": 70,
   "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
   "completed": [
     {
@@ -473,6 +473,66 @@
         }
       ],
       "conclusion": "66 official archives verified; perasset5832trade/5064mark/636funding. June29markday absent. Augustmark request403 stops eachasset. No shortenedwindow, pricefills, outcomes or retuning. Adapter23synthetictests passes; realinputfreeze absent. All previousresults preserved."
+    },
+    {
+      "id": "024",
+      "status": "COMPLETED",
+      "completed_utc": "2026-10-17T17:11:45.618397+00:00",
+      "type": "USER_AUTHORIZED_TEN_DISTINCT_FAMILIES_TWENTY_VARIANTS",
+      "assets": [
+        "BTCUSDT",
+        "SOLUSDT",
+        "XRPUSDT"
+      ],
+      "new_variants": 20,
+      "new_signal_families": 10,
+      "new_historical_simulations": 1032,
+      "new_integrity_replays": 0,
+      "protocol": "docs/MULTIFAMILY_FUTURES_024.json",
+      "results": "research/experiments/024",
+      "report": "docs/MULTIFAMILY_FUTURES_024_RESULTS.md",
+      "reproduce": "docs/MULTIFAMILY_FUTURES_024_REPRODUCE.md",
+      "artifact_receipts": "research/experiments/024/artifact_receipts.json",
+      "preregistration_commit": "ce5344ba556ffd3312faa68f68aadcf6f40dbda0",
+      "freeze_sha256": "ff166e2a69fdb339319ed9a6ee7f09d0e1f977c48a7527e50216e45552dae812",
+      "selection1_commit": "115ef568b725e72590a19df558602a570c0704a6",
+      "selection1_sha256": "354db42cacfa74c2a9d349b4f7717265e5565703ea05d0735b75ee92b377834b",
+      "selection2_commit": "6ccbcdfc11d81618c76480dca307871e8aec9b1d",
+      "selection2_sha256": "7cec2b484e2e6a8e004f90e8c04ffd089cea413a5417355e79085a5ef31ca451",
+      "software_tests_passed": 88,
+      "new_tests": 88,
+      "new_wealth_audit_events": 86925980,
+      "max_wealth_error_usdt": "0",
+      "preserved_source_files": 659,
+      "attempts": [
+        {
+          "id": "024-initial",
+          "status": "COMPLETED_ALL_RESULTS_VERIFIED",
+          "new_simulations": 1032,
+          "integrity_replays": 0,
+          "progress_log_observations": "research/experiments/024/progress-log-observations.json"
+        }
+      ],
+      "conclusion": "All20newvariants/all3assets/all12scenarios retained. Exact strengths, failures, selections and WFA in summary/report. No retuning or newforwardevidence; historical success is not confirmed futureprofit. Source013/014/023 andprospectivecohorts unchanged.",
+      "new_full_pass_fail": [
+        6,
+        54
+      ],
+      "new_scenario_pass_fail": [
+        154,
+        566
+      ],
+      "new_positive_all12": 18,
+      "WFA_scenario_pass_fail": [
+        6,
+        30
+      ],
+      "cross_asset_new_full_passes": [],
+      "cross_asset_new_positive_all12": [
+        "vwma20_reclaim__fixed50",
+        "vwma20_reclaim__vol15_cap50"
+      ],
+      "reused_WFA_folds": 0
     }
   ],
   "prospective_cohorts": [
@@ -508,30 +568,13 @@
       "next": "Preserve initial023; resume only with a distinct permitted input acquisition and exact missing source hashes, no access bypass or shortened dates. Completeinputfreeze and selection checkpoint required.013prioritized if unifiedBybitpacket arrives."
     }
   ],
-  "active_experiment": {
-    "id": "024",
-    "attempt": "024-initial",
-    "status": "BOTH_TRAININGS_COMPLETE_EVALUATION_AWAITING_SELECTION2_PUBLICATION",
-    "new_families": 10,
-    "new_variants": 20,
-    "planned_total_variants": 70,
-    "protocol": "docs/MULTIFAMILY_FUTURES_024.json",
-    "freeze_sha256": "ff166e2a69fdb339319ed9a6ee7f09d0e1f977c48a7527e50216e45552dae812",
-    "maximum_new_executions": 1035,
-    "new_historical_simulations": 240,
-    "software_tests": 88,
-    "latest_user_scope_override": "2026-10-17user explicitlyasks10to30strategies;onebatch20variants/10families.",
-    "preregistration_commit": "ce5344ba556ffd3312faa68f68aadcf6f40dbda0",
-    "selection1_sha256": "354db42cacfa74c2a9d349b4f7717265e5565703ea05d0735b75ee92b377834b",
-    "selection1_commit": "115ef568b725e72590a19df558602a570c0704a6",
-    "selection2_sha256": "7cec2b484e2e6a8e004f90e8c04ffd089cea413a5417355e79085a5ef31ca451"
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "7902 design scenario executions +7 prior integrity replays=7909 known executions;50 uniquevariants/25families.023 adds0 historicalexecutions,0variants;179 synthetic software executions do not count as research evidence.",
+  "count_note": "8934 design executions +7 prior integrity replays=8941 known executions;70variants/35families.024adds20variants/10families,1032newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Publish024freeze then train1, publishselection1,train2,publishselection2,evaluateall20newvariants/all3assets withall12cases. Reuseallcompatibleoldoutcomes. No retuning;keep allfailures.013priorityifBybitpacketarrives;023 remainsdata-blocked.",
+  "next_action": "Prioritize single Bybitpacket audit/frozen013 if available.023 remains data-blocked without automatic retries.Otherwise one bounded preregistered futures evidence-gap/distinct-family batch;024parameters/gates never retuned and no automatic paper/live promotion.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
@@ -622,5 +665,8 @@
   "cumulative_known_executions_through_022": 7909,
   "cumulative_known_design_runs_through_023": 7902,
   "additional_integrity_replays_023": 0,
-  "cumulative_known_executions_through_023": 7909
+  "cumulative_known_executions_through_023": 7909,
+  "cumulative_known_design_runs_through_024": 8934,
+  "additional_integrity_replays_024": 0,
+  "cumulative_known_executions_through_024": 8941
 }

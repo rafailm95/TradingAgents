@@ -1,0 +1,772 @@
+{
+  "cause": "Original20large ZIPuploads returned explicit transfer_failed; cause unspecified. Report andPart21 succeeded. No unknown finalizations were retried.",
+  "recovery": "Only failed originals split into <=48000000byte chunks wrapped in ZIPs. Concatenate extracted .partNNN members in ascending numeric order to recover exact originalZIP. Allbyte hashes and reconstructed originalSHAs verified. No strategy replay.",
+  "original_upload_response": {
+    "results": [
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Twenty_Strategies_EL.html",
+        "purpose": "create_library_file",
+        "status": "succeeded",
+        "file_id": "file_000000006688822fa2817d6afc0d979a",
+        "library_file_id": "libfile_e30f18923ad08191bd2faa98adab7012",
+        "file_name": "Futures_024_Twenty_Strategies_EL.html",
+        "local_metadata_applied": true,
+        "path": "/Futures_024_Twenty_Strategies_EL.html",
+        "current_version_number": 0
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part1.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part2.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part3.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part4.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part5.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part6.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part7.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part8.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part9.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part10.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part11.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part12.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part13.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part14.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part15.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part16.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part17.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part18.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part19.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part20.zip",
+        "purpose": "create_library_file",
+        "status": "failed",
+        "error_code": "transfer_failed",
+        "message": "file transfer failed"
+      },
+      {
+        "local_path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part21.zip",
+        "purpose": "create_library_file",
+        "status": "succeeded",
+        "file_id": "file_00000000d09c820ca72d7f1562fb2f34",
+        "library_file_id": "libfile_e8e34f32788481918a398476fc7cc190",
+        "file_name": "Futures_024_Results_Part21.zip",
+        "local_metadata_applied": true,
+        "path": "/Futures_024_Results_Part21.zip",
+        "current_version_number": 0
+      }
+    ]
+  },
+  "records": [
+    {
+      "original": "Futures_024_Results_Part1.zip",
+      "original_sha256": "3158efbe969f21881f002cac0985737a76291ca8fb3467269dad181f23dfeb17",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part1.zip",
+          "original_sha256": "3158efbe969f21881f002cac0985737a76291ca8fb3467269dad181f23dfeb17",
+          "original_bytes": 86994672,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "bdd4bff011386f4f1d3204e3e03db1ca65b5e0eb782333f551894927bc5050cd",
+          "member": "Futures_024_Results_Part1.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part1_Segment001.zip",
+          "sha256": "56245e30f6274b57d4a94f5267d554bacd6cee6466fe8bba79032c6a3c2869ef",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part1.zip",
+          "original_sha256": "3158efbe969f21881f002cac0985737a76291ca8fb3467269dad181f23dfeb17",
+          "original_bytes": 86994672,
+          "offset": 48000000,
+          "chunk_bytes": 38994672,
+          "chunk_sha256": "50f86d8c6de13170490ac8372227dc63f03b6e7b5616ef2b88aac89ab6480698",
+          "member": "Futures_024_Results_Part1.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part1_Segment002.zip",
+          "sha256": "5a8bb105f5017a8c0ca97ad139f3d684adf0880cbe57889c5ce2e3a1bca9efad",
+          "bytes": 38995312
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part2.zip",
+      "original_sha256": "d59f2448581ffdcb16605f8b62083373583e556579f44ae6bc097f587fe2ad50",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part2.zip",
+          "original_sha256": "d59f2448581ffdcb16605f8b62083373583e556579f44ae6bc097f587fe2ad50",
+          "original_bytes": 87518537,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "59a005eec907ebb43adf06b87813c26d16e4374721c2a02ef66bac0262b4a6af",
+          "member": "Futures_024_Results_Part2.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part2_Segment001.zip",
+          "sha256": "2e72ce4d2b94a3d13a15259efd1a7d20d4517257b71be2a46a17a9a597c32ed0",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part2.zip",
+          "original_sha256": "d59f2448581ffdcb16605f8b62083373583e556579f44ae6bc097f587fe2ad50",
+          "original_bytes": 87518537,
+          "offset": 48000000,
+          "chunk_bytes": 39518537,
+          "chunk_sha256": "3784e8b6658f04a7a1993ce4b710e7bd7e45152fe64d1e5c351534355279d18c",
+          "member": "Futures_024_Results_Part2.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part2_Segment002.zip",
+          "sha256": "f3cb4a3501cfb586a0c89430bcdc78a57944b9f25ad1a1f651b7149f536df76a",
+          "bytes": 39519177
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part3.zip",
+      "original_sha256": "1727f36171c3fefd0d795cb3ca2856637d0dd16bf908d1da6a87e1aeddd9a825",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part3.zip",
+          "original_sha256": "1727f36171c3fefd0d795cb3ca2856637d0dd16bf908d1da6a87e1aeddd9a825",
+          "original_bytes": 85442738,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "d2e969b87d978928050dda411751951e0e1701c0b1b2d5abf26f08bad5d1369b",
+          "member": "Futures_024_Results_Part3.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part3_Segment001.zip",
+          "sha256": "2b439d1d079220b27a9e32141f8abc24fe2f80ef3ca1df7b2140eabc7b422e07",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part3.zip",
+          "original_sha256": "1727f36171c3fefd0d795cb3ca2856637d0dd16bf908d1da6a87e1aeddd9a825",
+          "original_bytes": 85442738,
+          "offset": 48000000,
+          "chunk_bytes": 37442738,
+          "chunk_sha256": "9510d842e1f325f3e8901e5746c908251ca1fd0e93f0bb5934e2a0da2b9afc12",
+          "member": "Futures_024_Results_Part3.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part3_Segment002.zip",
+          "sha256": "9fb4412acf9853f5fb9e093de99c84b85854cae560d64945ebfbda43853f492a",
+          "bytes": 37443378
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part4.zip",
+      "original_sha256": "3dbf6a1ff8f60e0affae79376fea0638073d189718e63a707fd5658369109035",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part4.zip",
+          "original_sha256": "3dbf6a1ff8f60e0affae79376fea0638073d189718e63a707fd5658369109035",
+          "original_bytes": 84970455,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "7476168d6bc85f0771403f3efbc3fb047750af85f4d4c2576a69b814059a6023",
+          "member": "Futures_024_Results_Part4.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part4_Segment001.zip",
+          "sha256": "e3885d606096807d45c864c5468baf68d8cedcf35a2207fed38ac261f1888262",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part4.zip",
+          "original_sha256": "3dbf6a1ff8f60e0affae79376fea0638073d189718e63a707fd5658369109035",
+          "original_bytes": 84970455,
+          "offset": 48000000,
+          "chunk_bytes": 36970455,
+          "chunk_sha256": "0330ec7ee7c99fe71550ea32ff75f88079910c33b851117fb4db4bd9fa49426d",
+          "member": "Futures_024_Results_Part4.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part4_Segment002.zip",
+          "sha256": "2ecbadfdc736cdcc7665bbe2c3ff2e0f09d717b26ce4dfae15e05ef8e8537b59",
+          "bytes": 36971095
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part5.zip",
+      "original_sha256": "0c9f8446bc312e49f8028d940ace39a6b675e440af91d6f0733731910fe1315c",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part5.zip",
+          "original_sha256": "0c9f8446bc312e49f8028d940ace39a6b675e440af91d6f0733731910fe1315c",
+          "original_bytes": 87810930,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "bacc9563f9eb32cda3881a91e3054776cc56c4ba5c67c3ec48d848f582111b2f",
+          "member": "Futures_024_Results_Part5.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part5_Segment001.zip",
+          "sha256": "9fa9b22692ba1305d85288a594419e34aff1fb39923550bf35975b8a9e400571",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part5.zip",
+          "original_sha256": "0c9f8446bc312e49f8028d940ace39a6b675e440af91d6f0733731910fe1315c",
+          "original_bytes": 87810930,
+          "offset": 48000000,
+          "chunk_bytes": 39810930,
+          "chunk_sha256": "28cb30a631ef04328870d476ad9686145a7e314b11bd21124b04a9b277d6df65",
+          "member": "Futures_024_Results_Part5.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part5_Segment002.zip",
+          "sha256": "a15118fbc8cf92768805eef51166c010377a2ab1785e74781c64e147926a41b4",
+          "bytes": 39811570
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part6.zip",
+      "original_sha256": "3359e461cc20a3a12c458eedc9ae8b740c13df6afa8cd84f9141188b9c7b0d18",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part6.zip",
+          "original_sha256": "3359e461cc20a3a12c458eedc9ae8b740c13df6afa8cd84f9141188b9c7b0d18",
+          "original_bytes": 89201067,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "5f661673a8fa7d2a1ab4c53abb465f842142bccb1193ba100839048f11078064",
+          "member": "Futures_024_Results_Part6.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part6_Segment001.zip",
+          "sha256": "e37a069a162963c3586b212a1261deba0de99ce2769e33dbcf6d5178f479011a",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part6.zip",
+          "original_sha256": "3359e461cc20a3a12c458eedc9ae8b740c13df6afa8cd84f9141188b9c7b0d18",
+          "original_bytes": 89201067,
+          "offset": 48000000,
+          "chunk_bytes": 41201067,
+          "chunk_sha256": "2643f45b8be46dc939982c88678baef9297476797f0bb1eb315a653b6aa14bdf",
+          "member": "Futures_024_Results_Part6.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part6_Segment002.zip",
+          "sha256": "d1cf01ced6410941a6f64f521a549f15ea968713745b611592f82b6d05823ddf",
+          "bytes": 41201707
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part7.zip",
+      "original_sha256": "e119bebe76b5eb1e1f2e25adcb715b2f8a0046a4ac72936997b6c5dafbc9fa8d",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part7.zip",
+          "original_sha256": "e119bebe76b5eb1e1f2e25adcb715b2f8a0046a4ac72936997b6c5dafbc9fa8d",
+          "original_bytes": 90353804,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "1da8777f879069108211c7049462f8926ffa73052bd2a8eee2a41dd90fb22358",
+          "member": "Futures_024_Results_Part7.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part7_Segment001.zip",
+          "sha256": "f99484e3a3703c6ea609aa6e68d6873b86cadc00eacb21febed63562591aef32",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part7.zip",
+          "original_sha256": "e119bebe76b5eb1e1f2e25adcb715b2f8a0046a4ac72936997b6c5dafbc9fa8d",
+          "original_bytes": 90353804,
+          "offset": 48000000,
+          "chunk_bytes": 42353804,
+          "chunk_sha256": "a215cc693e1f5d76f2926c92048a7cca6d536a8e9261044e5cbe699c15c2ef16",
+          "member": "Futures_024_Results_Part7.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part7_Segment002.zip",
+          "sha256": "a54dbd6cf6e6c15d8f1a5ec09bf1fc002ec22b5a5d8a3717577694f9be4a2a40",
+          "bytes": 42354444
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part8.zip",
+      "original_sha256": "29a3b133092638644e1d21f5d4c31680e1a5e33711c4b623ad70bd5c96060697",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part8.zip",
+          "original_sha256": "29a3b133092638644e1d21f5d4c31680e1a5e33711c4b623ad70bd5c96060697",
+          "original_bytes": 89387460,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "7693175da3ed3edc8675805912c8c0baf136c34a4a2568ae81727ec89217965a",
+          "member": "Futures_024_Results_Part8.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part8_Segment001.zip",
+          "sha256": "5395225330ce5bcb2ce3ddd2f3d4ef04e6a3ddf6cc03efd2e1b35572e24758b1",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part8.zip",
+          "original_sha256": "29a3b133092638644e1d21f5d4c31680e1a5e33711c4b623ad70bd5c96060697",
+          "original_bytes": 89387460,
+          "offset": 48000000,
+          "chunk_bytes": 41387460,
+          "chunk_sha256": "8008aac3675e5ca9b47b0e69e18105562dfd1f620dbe48d50ac0e2e79e2adc4e",
+          "member": "Futures_024_Results_Part8.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part8_Segment002.zip",
+          "sha256": "aacb3d71e399e9ac259cd52334c83cce4428a7e8bcdefc618f341cb3b8a3bf9d",
+          "bytes": 41388100
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part9.zip",
+      "original_sha256": "4c53a83a475d49f7c458d2a4d4776934e314e2cef1c61520076c3b89d4dc3965",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part9.zip",
+          "original_sha256": "4c53a83a475d49f7c458d2a4d4776934e314e2cef1c61520076c3b89d4dc3965",
+          "original_bytes": 89502853,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "c9ce69bba283571545074fe9ec88d664acc7781a5b08d9044aa748589aadb1ab",
+          "member": "Futures_024_Results_Part9.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part9_Segment001.zip",
+          "sha256": "c65432e51eccdf85162816beda3e41b10199eda934c6f9488be1ea84495d3207",
+          "bytes": 48000633
+        },
+        {
+          "original_file": "Futures_024_Results_Part9.zip",
+          "original_sha256": "4c53a83a475d49f7c458d2a4d4776934e314e2cef1c61520076c3b89d4dc3965",
+          "original_bytes": 89502853,
+          "offset": 48000000,
+          "chunk_bytes": 41502853,
+          "chunk_sha256": "e56bf9d255c9c8972db7abf556291bee7c36dcc9b602d2a55d55e48e5e66e7fc",
+          "member": "Futures_024_Results_Part9.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part9_Segment002.zip",
+          "sha256": "d00e5de6cd63e4455399afa95afd141ced8dc33b9718693e7bdb1ded28d51223",
+          "bytes": 41503493
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part10.zip",
+      "original_sha256": "c34ecb2086924d9de609f88bcc9094d4e5c3487a0bf0b0f95ae6a4a6cf766f83",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part10.zip",
+          "original_sha256": "c34ecb2086924d9de609f88bcc9094d4e5c3487a0bf0b0f95ae6a4a6cf766f83",
+          "original_bytes": 86813319,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "147b13930714040d5ae2b912916c2eb9552c2b207e747d83210c3a31e477d4c6",
+          "member": "Futures_024_Results_Part10.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part10_Segment001.zip",
+          "sha256": "7b6c47dc649b491152d0268a77ce1a7a85df1c33bed0142cefb20bf86d7646a6",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part10.zip",
+          "original_sha256": "c34ecb2086924d9de609f88bcc9094d4e5c3487a0bf0b0f95ae6a4a6cf766f83",
+          "original_bytes": 86813319,
+          "offset": 48000000,
+          "chunk_bytes": 38813319,
+          "chunk_sha256": "79c10b71b55c4b2bbc9ff55ffdc467121cf99335b0ba6fb57589293c583091b9",
+          "member": "Futures_024_Results_Part10.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part10_Segment002.zip",
+          "sha256": "c2109352dc85579271a7615549a7e0cc052a1a68ee50d6a0887d6f248f792d89",
+          "bytes": 38813963
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part11.zip",
+      "original_sha256": "d6e8defd30852abfc00212d064f6675ff4e32f6af52eb045e0669a9eadbbd316",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part11.zip",
+          "original_sha256": "d6e8defd30852abfc00212d064f6675ff4e32f6af52eb045e0669a9eadbbd316",
+          "original_bytes": 83829726,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "52913de0c2190ab66890a1265506e6f7eddb8c0e119549dd077fe91d852fae21",
+          "member": "Futures_024_Results_Part11.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part11_Segment001.zip",
+          "sha256": "eff7e11c5ada395db62f4247d6c79b3ce8a7f704374b1a9ba3dbfd30bfa0503e",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part11.zip",
+          "original_sha256": "d6e8defd30852abfc00212d064f6675ff4e32f6af52eb045e0669a9eadbbd316",
+          "original_bytes": 83829726,
+          "offset": 48000000,
+          "chunk_bytes": 35829726,
+          "chunk_sha256": "dab4b2bb93d4b38379b123063b9454df8bb9fa334e99091d87c0d2e85c8f874b",
+          "member": "Futures_024_Results_Part11.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part11_Segment002.zip",
+          "sha256": "d2bacb69a3079db0d1bdd98ccd8e28db4a95f25e46b35800c3a28bda2e26bdc3",
+          "bytes": 35830370
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part12.zip",
+      "original_sha256": "def6d47f45d6c4f544b8704485bf2163118171448119369d36f2d5f62a4c285e",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part12.zip",
+          "original_sha256": "def6d47f45d6c4f544b8704485bf2163118171448119369d36f2d5f62a4c285e",
+          "original_bytes": 86188840,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "bf182463efd21791869eb764e01a4ee3cb6df798a442fcea6b0254e788f5be53",
+          "member": "Futures_024_Results_Part12.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part12_Segment001.zip",
+          "sha256": "0704842e8ae37b6c5ded3bc95e1b5b93e0d12eab7c11bc1baa7ef05afdf99fa1",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part12.zip",
+          "original_sha256": "def6d47f45d6c4f544b8704485bf2163118171448119369d36f2d5f62a4c285e",
+          "original_bytes": 86188840,
+          "offset": 48000000,
+          "chunk_bytes": 38188840,
+          "chunk_sha256": "fa35551b5bd9e129af5c85e5717b14656863b58b3f328642e1937aed557d99c8",
+          "member": "Futures_024_Results_Part12.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part12_Segment002.zip",
+          "sha256": "8fc28bd94bd427c8ebeaebeb2bd44af86f79f50c2e09984587a9fb2b9ef8caa8",
+          "bytes": 38189484
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part13.zip",
+      "original_sha256": "dfc430b3efad455ecd9d73d064d0277380e14265630ed6ea897f1e91936c06ed",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part13.zip",
+          "original_sha256": "dfc430b3efad455ecd9d73d064d0277380e14265630ed6ea897f1e91936c06ed",
+          "original_bytes": 87252115,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "ac8267018c38c136864cd4bb0f0bc119ac1176bb70bacb225af2a14242df4221",
+          "member": "Futures_024_Results_Part13.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part13_Segment001.zip",
+          "sha256": "8aac2121a582d8652b4d942d1964ea26162dbe06041d19a68e973d7268629abf",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part13.zip",
+          "original_sha256": "dfc430b3efad455ecd9d73d064d0277380e14265630ed6ea897f1e91936c06ed",
+          "original_bytes": 87252115,
+          "offset": 48000000,
+          "chunk_bytes": 39252115,
+          "chunk_sha256": "bee191dd47fcc21e63e089f92f1dd098316f5c256fc433e6cf95c3b16a247593",
+          "member": "Futures_024_Results_Part13.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part13_Segment002.zip",
+          "sha256": "3963b0b381df82e0ea028a68a3166dfb0e8913c9496c1d7a09dc2f4c0f2f880d",
+          "bytes": 39252759
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part14.zip",
+      "original_sha256": "2d150665fc0864b68ea9b3eb28976246f1baad6b723b24dfce5eedc2d3177b6f",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part14.zip",
+          "original_sha256": "2d150665fc0864b68ea9b3eb28976246f1baad6b723b24dfce5eedc2d3177b6f",
+          "original_bytes": 84339224,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "551a4603f26408fae37fcda0b447662e6fa5e198b0303deab8a3bafa3e6011bb",
+          "member": "Futures_024_Results_Part14.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part14_Segment001.zip",
+          "sha256": "fed94d0bda84c27f70160172d3d22594214a374c1866763868d14316d83ab93a",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part14.zip",
+          "original_sha256": "2d150665fc0864b68ea9b3eb28976246f1baad6b723b24dfce5eedc2d3177b6f",
+          "original_bytes": 84339224,
+          "offset": 48000000,
+          "chunk_bytes": 36339224,
+          "chunk_sha256": "64d2e596a2a831cb9a32ac7709c68ca2a52a664dbbb45d4bfbd9b1203cb7ff76",
+          "member": "Futures_024_Results_Part14.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part14_Segment002.zip",
+          "sha256": "29a02429535d32754a9186dfae8da2614445038a6eac7f6e62491c03a05d2a51",
+          "bytes": 36339868
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part15.zip",
+      "original_sha256": "6bf986c2b873fddd5e1e58f2717bffb37d0639213c43cc547579bb08c193f7af",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part15.zip",
+          "original_sha256": "6bf986c2b873fddd5e1e58f2717bffb37d0639213c43cc547579bb08c193f7af",
+          "original_bytes": 86142668,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "fd145f0c3928b8b6c5d87277fbd9e1fed5318b7da3a05c3783f9c79f22590620",
+          "member": "Futures_024_Results_Part15.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part15_Segment001.zip",
+          "sha256": "de9fae8e35e47ecf4c2feef542ba037d4a83069fc341de6a7f4f4fa62977e9bb",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part15.zip",
+          "original_sha256": "6bf986c2b873fddd5e1e58f2717bffb37d0639213c43cc547579bb08c193f7af",
+          "original_bytes": 86142668,
+          "offset": 48000000,
+          "chunk_bytes": 38142668,
+          "chunk_sha256": "ce93eb868b2645202cf38bad804ac7985b299bf6134255a25516c16ea16cf686",
+          "member": "Futures_024_Results_Part15.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part15_Segment002.zip",
+          "sha256": "365c611eadd8a579dcaba0fc7a33988d8b25b315a8165590efa874da72b51587",
+          "bytes": 38143312
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part16.zip",
+      "original_sha256": "f3c67cc24beb2b126a2d768872e900b58be1ad0bac96ada0a376ddbcaec177ad",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part16.zip",
+          "original_sha256": "f3c67cc24beb2b126a2d768872e900b58be1ad0bac96ada0a376ddbcaec177ad",
+          "original_bytes": 83138858,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "659dfca09daeebedf7c646fcda04b9211e5854071bd86fd9001f6f0169eda0a4",
+          "member": "Futures_024_Results_Part16.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part16_Segment001.zip",
+          "sha256": "4e7dd7e135658e746217097f3d62fe62d9b04267a15fa5388555f222abeece3b",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part16.zip",
+          "original_sha256": "f3c67cc24beb2b126a2d768872e900b58be1ad0bac96ada0a376ddbcaec177ad",
+          "original_bytes": 83138858,
+          "offset": 48000000,
+          "chunk_bytes": 35138858,
+          "chunk_sha256": "67d666373b7a22c1a3defe2926a66b7fd795bc1574e89bc11a6538b4ce514ffe",
+          "member": "Futures_024_Results_Part16.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part16_Segment002.zip",
+          "sha256": "c819abfec9d54460e8e7227893cf5cb801f7d54d41e21d417d9e8dd91846e37f",
+          "bytes": 35139502
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part17.zip",
+      "original_sha256": "21af94aa399b8fb8e9e561c5ce6668107d3e3e911e4f6ebbb33100f6980b4a27",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part17.zip",
+          "original_sha256": "21af94aa399b8fb8e9e561c5ce6668107d3e3e911e4f6ebbb33100f6980b4a27",
+          "original_bytes": 83580286,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "b465de8e7845bb2a8939bbd0fa4159b2fe13a6517dbf60619ff9420e261dae6e",
+          "member": "Futures_024_Results_Part17.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part17_Segment001.zip",
+          "sha256": "e9e5452cde1a8ee0c6139a3bdf7b482de26eed3a156a8d056c111a9e5d2590df",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part17.zip",
+          "original_sha256": "21af94aa399b8fb8e9e561c5ce6668107d3e3e911e4f6ebbb33100f6980b4a27",
+          "original_bytes": 83580286,
+          "offset": 48000000,
+          "chunk_bytes": 35580286,
+          "chunk_sha256": "856ff744d3dbd8e5a0c9437b5da132d98b95f3b7f882507655f54d433fff5df3",
+          "member": "Futures_024_Results_Part17.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part17_Segment002.zip",
+          "sha256": "213bf4b0235dfacaec781e9cdd1a69acd463bdb354a12ff4bfd5cf04139cac82",
+          "bytes": 35580930
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part18.zip",
+      "original_sha256": "80b4afb0b0dd52e1a206188a66463fd11aa40d6f88effe3af2d63f24998f6d57",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part18.zip",
+          "original_sha256": "80b4afb0b0dd52e1a206188a66463fd11aa40d6f88effe3af2d63f24998f6d57",
+          "original_bytes": 86086663,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "7226f6d744a43c266b0cc13a0c1d2430987bd871c950f7648866f489a13ebcce",
+          "member": "Futures_024_Results_Part18.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part18_Segment001.zip",
+          "sha256": "e6da83d4f90777bef29b3dd4f529ca4792da0204b8b17cc976da1f743ca4dac9",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part18.zip",
+          "original_sha256": "80b4afb0b0dd52e1a206188a66463fd11aa40d6f88effe3af2d63f24998f6d57",
+          "original_bytes": 86086663,
+          "offset": 48000000,
+          "chunk_bytes": 38086663,
+          "chunk_sha256": "c185f8007813600380eba61e02d9f5ba854b403075072f6c1833c1b91a34c85b",
+          "member": "Futures_024_Results_Part18.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part18_Segment002.zip",
+          "sha256": "39f351c1759824403bf1a966e579d2ee8c8e9be677af41850c0d915d198a8cc0",
+          "bytes": 38087307
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part19.zip",
+      "original_sha256": "13cc513cf6042ff06f04c370ca0537fd77f645a3bc6c4a89b6fff039c4479417",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part19.zip",
+          "original_sha256": "13cc513cf6042ff06f04c370ca0537fd77f645a3bc6c4a89b6fff039c4479417",
+          "original_bytes": 83212127,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "fcd0e1dfab426818e23c2636dcf2153eabbf332b37e62cf5592ea327ec08abc8",
+          "member": "Futures_024_Results_Part19.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part19_Segment001.zip",
+          "sha256": "93f3ec12a4c4818306c75f28b68559de9f89fc0ba51c0e356b4bb17418fe1158",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part19.zip",
+          "original_sha256": "13cc513cf6042ff06f04c370ca0537fd77f645a3bc6c4a89b6fff039c4479417",
+          "original_bytes": 83212127,
+          "offset": 48000000,
+          "chunk_bytes": 35212127,
+          "chunk_sha256": "eadc57e9d76a3ecc6efc53880e64431aca4d7a328efe491dff4a024073df92ea",
+          "member": "Futures_024_Results_Part19.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part19_Segment002.zip",
+          "sha256": "9ba5d6574f046cd2c745771dfa9e7090689e87ddc1280aea154d94306a815af5",
+          "bytes": 35212771
+        }
+      ]
+    },
+    {
+      "original": "Futures_024_Results_Part20.zip",
+      "original_sha256": "65d23c8da95e2b98f2b9730bf95d921aee1130be0f54351e65b3e5504e5210be",
+      "segments": [
+        {
+          "original_file": "Futures_024_Results_Part20.zip",
+          "original_sha256": "65d23c8da95e2b98f2b9730bf95d921aee1130be0f54351e65b3e5504e5210be",
+          "original_bytes": 83979268,
+          "offset": 0,
+          "chunk_bytes": 48000000,
+          "chunk_sha256": "5fc36efce3bdb596fdd63bc5debf909b26c700f6f91487c72bc48cbe63ee2975",
+          "member": "Futures_024_Results_Part20.zip.part001",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part20_Segment001.zip",
+          "sha256": "646ab584898f44b3f610459fb697e7201f9420b3363a277ec904dfca87c994eb",
+          "bytes": 48000637
+        },
+        {
+          "original_file": "Futures_024_Results_Part20.zip",
+          "original_sha256": "65d23c8da95e2b98f2b9730bf95d921aee1130be0f54351e65b3e5504e5210be",
+          "original_bytes": 83979268,
+          "offset": 48000000,
+          "chunk_bytes": 35979268,
+          "chunk_sha256": "f30e4b83bdd1d4cebe3f0b36607aa4b184efb45cee68653d918870499336d6e3",
+          "member": "Futures_024_Results_Part20.zip.part002",
+          "path": "/workspace/scratch/2884d1c5ce65/Futures_024_Results_Part20_Segment002.zip",
+          "sha256": "b94642469429b79a73624fa8c3df750aeca330bc4567daac2cd4ddf667d230e6",
+          "bytes": 35979912
+        }
+      ]
+    }
+  ]
+}

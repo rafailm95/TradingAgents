@@ -1,0 +1,581 @@
+{
+  "experiment": "024",
+  "status": "ALL_FULL_RESULTS_DURABLY_SAVED",
+  "saved_files": [
+    {
+      "filename": "Futures_024_Twenty_Strategies_EL.html",
+      "library_file_id": "libfile_e30f18923ad08191bd2faa98adab7012",
+      "file_id": "file_000000006688822fa2817d6afc0d979a",
+      "library_path": "/Futures_024_Twenty_Strategies_EL.html",
+      "version": 0,
+      "sha256": "cd2060b3c2c71f6d637aa2dee4afb8fcba6e77ee7e60ae360831ff5b980734cd",
+      "bytes": 56778,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part21.zip",
+      "library_file_id": "libfile_e8e34f32788481918a398476fc7cc190",
+      "file_id": "file_00000000d09c820ca72d7f1562fb2f34",
+      "library_path": "/Futures_024_Results_Part21.zip",
+      "version": 0,
+      "sha256": "3fe9b6a1ec43853e752a5d725921a66eb75df9059becaeb790e57bae21bbb856",
+      "bytes": 59167936,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part1_Segment001.zip",
+      "library_file_id": "libfile_ee94f961b2908191b727226666e7e40f",
+      "file_id": "file_00000000ded481f694824d237623b1c1",
+      "library_path": "/Futures_024_Results_Part1_Segment001.zip",
+      "version": 0,
+      "sha256": "56245e30f6274b57d4a94f5267d554bacd6cee6466fe8bba79032c6a3c2869ef",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part1_Segment002.zip",
+      "library_file_id": "libfile_6a3bee884ce48191b4f8b558c629b02c",
+      "file_id": "file_000000006cf08230928dec168ed9513d",
+      "library_path": "/Futures_024_Results_Part1_Segment002.zip",
+      "version": 0,
+      "sha256": "5a8bb105f5017a8c0ca97ad139f3d684adf0880cbe57889c5ce2e3a1bca9efad",
+      "bytes": 38995312,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part2_Segment001.zip",
+      "library_file_id": "libfile_f5d02c7622dc8191a18d470f15a73678",
+      "file_id": "file_0000000092f0820d81db7838ca44c673",
+      "library_path": "/Futures_024_Results_Part2_Segment001.zip",
+      "version": 0,
+      "sha256": "2e72ce4d2b94a3d13a15259efd1a7d20d4517257b71be2a46a17a9a597c32ed0",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part2_Segment002.zip",
+      "library_file_id": "libfile_5bb568364ea48191a7adf134db96ec50",
+      "file_id": "file_00000000cb8c820c823e31d5802a64f1",
+      "library_path": "/Futures_024_Results_Part2_Segment002.zip",
+      "version": 0,
+      "sha256": "f3cb4a3501cfb586a0c89430bcdc78a57944b9f25ad1a1f651b7149f536df76a",
+      "bytes": 39519177,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part3_Segment001.zip",
+      "library_file_id": "libfile_4c8396ad949c8191b3116f1e5062a875",
+      "file_id": "file_0000000072b0820cbe0bba42d02ffef6",
+      "library_path": "/Futures_024_Results_Part3_Segment001.zip",
+      "version": 0,
+      "sha256": "2b439d1d079220b27a9e32141f8abc24fe2f80ef3ca1df7b2140eabc7b422e07",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part3_Segment002.zip",
+      "library_file_id": "libfile_02749a4b55ec8191b374638d086eb66a",
+      "file_id": "file_000000008c3081f988d3624704647ecc",
+      "library_path": "/Futures_024_Results_Part3_Segment002.zip",
+      "version": 0,
+      "sha256": "9fb4412acf9853f5fb9e093de99c84b85854cae560d64945ebfbda43853f492a",
+      "bytes": 37443378,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part4_Segment001.zip",
+      "library_file_id": "libfile_eba2b76dfcb88191926adba298c422ad",
+      "file_id": "file_00000000982081f6bcc693fb0e61df4b",
+      "library_path": "/Futures_024_Results_Part4_Segment001.zip",
+      "version": 0,
+      "sha256": "e3885d606096807d45c864c5468baf68d8cedcf35a2207fed38ac261f1888262",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part4_Segment002.zip",
+      "library_file_id": "libfile_7397f89e6bdc8191be77f0d6791cb6a9",
+      "file_id": "file_00000000b51881f494fda4d68db25eb4",
+      "library_path": "/Futures_024_Results_Part4_Segment002.zip",
+      "version": 0,
+      "sha256": "2ecbadfdc736cdcc7665bbe2c3ff2e0f09d717b26ce4dfae15e05ef8e8537b59",
+      "bytes": 36971095,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part5_Segment001.zip",
+      "library_file_id": "libfile_ded08016bb488191b630460bdabdc119",
+      "file_id": "file_0000000025ac822f925449df5dce6c16",
+      "library_path": "/Futures_024_Results_Part5_Segment001.zip",
+      "version": 0,
+      "sha256": "9fa9b22692ba1305d85288a594419e34aff1fb39923550bf35975b8a9e400571",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part5_Segment002.zip",
+      "library_file_id": "libfile_206403d8a4708191a1c59d8e6e85dc58",
+      "file_id": "file_00000000ab14820c9a994064b60bd5a0",
+      "library_path": "/Futures_024_Results_Part5_Segment002.zip",
+      "version": 0,
+      "sha256": "a15118fbc8cf92768805eef51166c010377a2ab1785e74781c64e147926a41b4",
+      "bytes": 39811570,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part6_Segment001.zip",
+      "library_file_id": "libfile_680674519e188191914fc92329e2a29b",
+      "file_id": "file_00000000591081f9aec2b3861cf3a437",
+      "library_path": "/Futures_024_Results_Part6_Segment001.zip",
+      "version": 0,
+      "sha256": "e37a069a162963c3586b212a1261deba0de99ce2769e33dbcf6d5178f479011a",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part6_Segment002.zip",
+      "library_file_id": "libfile_c3ee48a2267881918d68b5a73eed57ce",
+      "file_id": "file_00000000306881f79b017fac912a570b",
+      "library_path": "/Futures_024_Results_Part6_Segment002.zip",
+      "version": 0,
+      "sha256": "d1cf01ced6410941a6f64f521a549f15ea968713745b611592f82b6d05823ddf",
+      "bytes": 41201707,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part7_Segment001.zip",
+      "library_file_id": "libfile_4f1c3ad3d0508191b75661b338ce168a",
+      "file_id": "file_00000000a350820ca17357ff4a497cf8",
+      "library_path": "/Futures_024_Results_Part7_Segment001.zip",
+      "version": 0,
+      "sha256": "f99484e3a3703c6ea609aa6e68d6873b86cadc00eacb21febed63562591aef32",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part7_Segment002.zip",
+      "library_file_id": "libfile_52809ba675bc81918e5b02f73db47160",
+      "file_id": "file_0000000067d0820db80f0dc40b199abe",
+      "library_path": "/Futures_024_Results_Part7_Segment002.zip",
+      "version": 0,
+      "sha256": "a54dbd6cf6e6c15d8f1a5ec09bf1fc002ec22b5a5d8a3717577694f9be4a2a40",
+      "bytes": 42354444,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part8_Segment001.zip",
+      "library_file_id": "libfile_1700f4ee30a481918ea3e6e491bc4bda",
+      "file_id": "file_00000000127481f4b4723628bdf57f10",
+      "library_path": "/Futures_024_Results_Part8_Segment001.zip",
+      "version": 0,
+      "sha256": "5395225330ce5bcb2ce3ddd2f3d4ef04e6a3ddf6cc03efd2e1b35572e24758b1",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part8_Segment002.zip",
+      "library_file_id": "libfile_026ab970e25c8191888f6899cc6c8bcf",
+      "file_id": "file_000000009a74820d92d9b12e92caaffa",
+      "library_path": "/Futures_024_Results_Part8_Segment002.zip",
+      "version": 0,
+      "sha256": "aacb3d71e399e9ac259cd52334c83cce4428a7e8bcdefc618f341cb3b8a3bf9d",
+      "bytes": 41388100,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part9_Segment001.zip",
+      "library_file_id": "libfile_5be29fbbffb08191ae620efc4a3da8a0",
+      "file_id": "file_0000000047b0820ca7ca2da27263a931",
+      "library_path": "/Futures_024_Results_Part9_Segment001.zip",
+      "version": 0,
+      "sha256": "c65432e51eccdf85162816beda3e41b10199eda934c6f9488be1ea84495d3207",
+      "bytes": 48000633,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part9_Segment002.zip",
+      "library_file_id": "libfile_2450602fc92081919e78c3c96857ade3",
+      "file_id": "file_00000000287881f992f2b5fbfc369e9b",
+      "library_path": "/Futures_024_Results_Part9_Segment002.zip",
+      "version": 0,
+      "sha256": "d00e5de6cd63e4455399afa95afd141ced8dc33b9718693e7bdb1ded28d51223",
+      "bytes": 41503493,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part10_Segment001.zip",
+      "library_file_id": "libfile_d04ff528cdac819182ae0b8e00bd642c",
+      "file_id": "file_00000000bbc8820cadcc4e7425ef5c1b",
+      "library_path": "/Futures_024_Results_Part10_Segment001.zip",
+      "version": 0,
+      "sha256": "7b6c47dc649b491152d0268a77ce1a7a85df1c33bed0142cefb20bf86d7646a6",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part10_Segment002.zip",
+      "library_file_id": "libfile_d12264288d40819185bf7b0748690354",
+      "file_id": "file_00000000b688820da94308ff30ec2784",
+      "library_path": "/Futures_024_Results_Part10_Segment002.zip",
+      "version": 0,
+      "sha256": "c2109352dc85579271a7615549a7e0cc052a1a68ee50d6a0887d6f248f792d89",
+      "bytes": 38813963,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part11_Segment001.zip",
+      "library_file_id": "libfile_6b3bcd8263f08191b7a9517a5022de68",
+      "file_id": "file_00000000a5b8822fa12506ad8a7b24dc",
+      "library_path": "/Futures_024_Results_Part11_Segment001.zip",
+      "version": 0,
+      "sha256": "eff7e11c5ada395db62f4247d6c79b3ce8a7f704374b1a9ba3dbfd30bfa0503e",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part11_Segment002.zip",
+      "library_file_id": "libfile_5833d0f97f488191b9665651b4c76e1c",
+      "file_id": "file_0000000091ec81f582957746438b1ced",
+      "library_path": "/Futures_024_Results_Part11_Segment002.zip",
+      "version": 0,
+      "sha256": "d2bacb69a3079db0d1bdd98ccd8e28db4a95f25e46b35800c3a28bda2e26bdc3",
+      "bytes": 35830370,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part12_Segment001.zip",
+      "library_file_id": "libfile_6040baf25d2c81918486d3d4da41afdf",
+      "file_id": "file_00000000f0d481f88b2ea0c49e764a73",
+      "library_path": "/Futures_024_Results_Part12_Segment001.zip",
+      "version": 0,
+      "sha256": "0704842e8ae37b6c5ded3bc95e1b5b93e0d12eab7c11bc1baa7ef05afdf99fa1",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part12_Segment002.zip",
+      "library_file_id": "libfile_d9ab032a95a88191a1d728405bc9f027",
+      "file_id": "file_0000000000b081f5a301873c8917c741",
+      "library_path": "/Futures_024_Results_Part12_Segment002.zip",
+      "version": 0,
+      "sha256": "8fc28bd94bd427c8ebeaebeb2bd44af86f79f50c2e09984587a9fb2b9ef8caa8",
+      "bytes": 38189484,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part13_Segment001.zip",
+      "library_file_id": "libfile_53fba0198ea4819191d66032f07598d9",
+      "file_id": "file_00000000785c81f5a34fceccb497135f",
+      "library_path": "/Futures_024_Results_Part13_Segment001.zip",
+      "version": 0,
+      "sha256": "8aac2121a582d8652b4d942d1964ea26162dbe06041d19a68e973d7268629abf",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part13_Segment002.zip",
+      "library_file_id": "libfile_4d293271fb7c8191b473885fc4d26135",
+      "file_id": "file_00000000752c820ca4419e27fed4b9f0",
+      "library_path": "/Futures_024_Results_Part13_Segment002.zip",
+      "version": 0,
+      "sha256": "3963b0b381df82e0ea028a68a3166dfb0e8913c9496c1d7a09dc2f4c0f2f880d",
+      "bytes": 39252759,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part14_Segment001.zip",
+      "library_file_id": "libfile_f7017e6fa5b0819197d82e5bbe06c37e",
+      "file_id": "file_00000000add8822f9a3e3cd503ffbb34",
+      "library_path": "/Futures_024_Results_Part14_Segment001.zip",
+      "version": 0,
+      "sha256": "fed94d0bda84c27f70160172d3d22594214a374c1866763868d14316d83ab93a",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part14_Segment002.zip",
+      "library_file_id": "libfile_f8c0abe5138c819187051947848e7155",
+      "file_id": "file_0000000011e4822fbf16744406e25b5c",
+      "library_path": "/Futures_024_Results_Part14_Segment002.zip",
+      "version": 0,
+      "sha256": "29a02429535d32754a9186dfae8da2614445038a6eac7f6e62491c03a05d2a51",
+      "bytes": 36339868,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part15_Segment001.zip",
+      "library_file_id": "libfile_64ec12aecbac8191af99abc6a644f87d",
+      "file_id": "file_000000003260822fb076f07044807579",
+      "library_path": "/Futures_024_Results_Part15_Segment001.zip",
+      "version": 0,
+      "sha256": "de9fae8e35e47ecf4c2feef542ba037d4a83069fc341de6a7f4f4fa62977e9bb",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part15_Segment002.zip",
+      "library_file_id": "libfile_920d2903c51081919e6e6b41b7f299e9",
+      "file_id": "file_0000000095fc822f9838e5ff444d6275",
+      "library_path": "/Futures_024_Results_Part15_Segment002.zip",
+      "version": 0,
+      "sha256": "365c611eadd8a579dcaba0fc7a33988d8b25b315a8165590efa874da72b51587",
+      "bytes": 38143312,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part16_Segment001.zip",
+      "library_file_id": "libfile_7a35b89fa6988191a754cc62b45d115d",
+      "file_id": "file_000000005f0c822f8590947b106154fd",
+      "library_path": "/Futures_024_Results_Part16_Segment001.zip",
+      "version": 0,
+      "sha256": "4e7dd7e135658e746217097f3d62fe62d9b04267a15fa5388555f222abeece3b",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part16_Segment002.zip",
+      "library_file_id": "libfile_d9460b8170f88191a08dc486bb2af247",
+      "file_id": "file_0000000065a8822fbb84c983f49c09f4",
+      "library_path": "/Futures_024_Results_Part16_Segment002.zip",
+      "version": 0,
+      "sha256": "c819abfec9d54460e8e7227893cf5cb801f7d54d41e21d417d9e8dd91846e37f",
+      "bytes": 35139502,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part17_Segment001.zip",
+      "library_file_id": "libfile_b88d06a0e7f08191a7bab9dfe6ad1725",
+      "file_id": "file_000000005e9481f5b4a0fd654a6dc564",
+      "library_path": "/Futures_024_Results_Part17_Segment001.zip",
+      "version": 0,
+      "sha256": "e9e5452cde1a8ee0c6139a3bdf7b482de26eed3a156a8d056c111a9e5d2590df",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part17_Segment002.zip",
+      "library_file_id": "libfile_778ce22fcc5881919fa6a48da0da681d",
+      "file_id": "file_00000000910c822f8c30fdaf4c40a4b2",
+      "library_path": "/Futures_024_Results_Part17_Segment002.zip",
+      "version": 0,
+      "sha256": "213bf4b0235dfacaec781e9cdd1a69acd463bdb354a12ff4bfd5cf04139cac82",
+      "bytes": 35580930,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part18_Segment001.zip",
+      "library_file_id": "libfile_b17ba4dc51d08191b27c24de653fd58b",
+      "file_id": "file_000000008820822f86825f94179c7434",
+      "library_path": "/Futures_024_Results_Part18_Segment001.zip",
+      "version": 0,
+      "sha256": "e6da83d4f90777bef29b3dd4f529ca4792da0204b8b17cc976da1f743ca4dac9",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part18_Segment002.zip",
+      "library_file_id": "libfile_d07ce350b7d48191b140385ca87d2e7f",
+      "file_id": "file_00000000650481f9a7a2549c9aa20485",
+      "library_path": "/Futures_024_Results_Part18_Segment002.zip",
+      "version": 0,
+      "sha256": "39f351c1759824403bf1a966e579d2ee8c8e9be677af41850c0d915d198a8cc0",
+      "bytes": 38087307,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part19_Segment001.zip",
+      "library_file_id": "libfile_ca992f3c11b8819195b6af5d1f84fc0d",
+      "file_id": "file_00000000071c822faa87abb634cda8dd",
+      "library_path": "/Futures_024_Results_Part19_Segment001.zip",
+      "version": 0,
+      "sha256": "93f3ec12a4c4818306c75f28b68559de9f89fc0ba51c0e356b4bb17418fe1158",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part19_Segment002.zip",
+      "library_file_id": "libfile_fa8ea07e916481918f4312facfffa788",
+      "file_id": "file_00000000024481f481586e15bcd39969",
+      "library_path": "/Futures_024_Results_Part19_Segment002.zip",
+      "version": 0,
+      "sha256": "9ba5d6574f046cd2c745771dfa9e7090689e87ddc1280aea154d94306a815af5",
+      "bytes": 35212771,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part20_Segment001.zip",
+      "library_file_id": "libfile_7e61a8d7e0608191adda9addb6ce35ac",
+      "file_id": "file_000000005d34822fb4b2dab80f08e52b",
+      "library_path": "/Futures_024_Results_Part20_Segment001.zip",
+      "version": 0,
+      "sha256": "646ab584898f44b3f610459fb697e7201f9420b3363a277ec904dfca87c994eb",
+      "bytes": 48000637,
+      "metadata_applied": true
+    },
+    {
+      "filename": "Futures_024_Results_Part20_Segment002.zip",
+      "library_file_id": "libfile_d462c92261d0819194eee0eea0fcc2d3",
+      "file_id": "file_000000002b80822fa6dd610d1c404ca4",
+      "library_path": "/Futures_024_Results_Part20_Segment002.zip",
+      "version": 0,
+      "sha256": "b94642469429b79a73624fa8c3df750aeca330bc4567daac2cd4ddf667d230e6",
+      "bytes": 35979912,
+      "metadata_applied": true
+    }
+  ],
+  "full_results": 1032,
+  "full_result_containers_matched_archive_inventory": 1032,
+  "original_zip_parts": 21,
+  "original_zip_bytes": 1784913546,
+  "original_archives": [
+    {
+      "sha256": "3158efbe969f21881f002cac0985737a76291ca8fb3467269dad181f23dfeb17",
+      "bytes": 86994672,
+      "members": 95,
+      "filename": "Futures_024_Results_Part1.zip"
+    },
+    {
+      "sha256": "d59f2448581ffdcb16605f8b62083373583e556579f44ae6bc097f587fe2ad50",
+      "bytes": 87518537,
+      "members": 62,
+      "filename": "Futures_024_Results_Part2.zip"
+    },
+    {
+      "sha256": "1727f36171c3fefd0d795cb3ca2856637d0dd16bf908d1da6a87e1aeddd9a825",
+      "bytes": 85442738,
+      "members": 45,
+      "filename": "Futures_024_Results_Part3.zip"
+    },
+    {
+      "sha256": "3dbf6a1ff8f60e0affae79376fea0638073d189718e63a707fd5658369109035",
+      "bytes": 84970455,
+      "members": 51,
+      "filename": "Futures_024_Results_Part4.zip"
+    },
+    {
+      "sha256": "0c9f8446bc312e49f8028d940ace39a6b675e440af91d6f0733731910fe1315c",
+      "bytes": 87810930,
+      "members": 47,
+      "filename": "Futures_024_Results_Part5.zip"
+    },
+    {
+      "sha256": "3359e461cc20a3a12c458eedc9ae8b740c13df6afa8cd84f9141188b9c7b0d18",
+      "bytes": 89201067,
+      "members": 43,
+      "filename": "Futures_024_Results_Part6.zip"
+    },
+    {
+      "sha256": "e119bebe76b5eb1e1f2e25adcb715b2f8a0046a4ac72936997b6c5dafbc9fa8d",
+      "bytes": 90353804,
+      "members": 41,
+      "filename": "Futures_024_Results_Part7.zip"
+    },
+    {
+      "sha256": "29a3b133092638644e1d21f5d4c31680e1a5e33711c4b623ad70bd5c96060697",
+      "bytes": 89387460,
+      "members": 45,
+      "filename": "Futures_024_Results_Part8.zip"
+    },
+    {
+      "sha256": "4c53a83a475d49f7c458d2a4d4776934e314e2cef1c61520076c3b89d4dc3965",
+      "bytes": 89502853,
+      "members": 43,
+      "filename": "Futures_024_Results_Part9.zip"
+    },
+    {
+      "sha256": "c34ecb2086924d9de609f88bcc9094d4e5c3487a0bf0b0f95ae6a4a6cf766f83",
+      "bytes": 86813319,
+      "members": 56,
+      "filename": "Futures_024_Results_Part10.zip"
+    },
+    {
+      "sha256": "d6e8defd30852abfc00212d064f6675ff4e32f6af52eb045e0669a9eadbbd316",
+      "bytes": 83829726,
+      "members": 47,
+      "filename": "Futures_024_Results_Part11.zip"
+    },
+    {
+      "sha256": "def6d47f45d6c4f544b8704485bf2163118171448119369d36f2d5f62a4c285e",
+      "bytes": 86188840,
+      "members": 44,
+      "filename": "Futures_024_Results_Part12.zip"
+    },
+    {
+      "sha256": "dfc430b3efad455ecd9d73d064d0277380e14265630ed6ea897f1e91936c06ed",
+      "bytes": 87252115,
+      "members": 42,
+      "filename": "Futures_024_Results_Part13.zip"
+    },
+    {
+      "sha256": "2d150665fc0864b68ea9b3eb28976246f1baad6b723b24dfce5eedc2d3177b6f",
+      "bytes": 84339224,
+      "members": 49,
+      "filename": "Futures_024_Results_Part14.zip"
+    },
+    {
+      "sha256": "6bf986c2b873fddd5e1e58f2717bffb37d0639213c43cc547579bb08c193f7af",
+      "bytes": 86142668,
+      "members": 43,
+      "filename": "Futures_024_Results_Part15.zip"
+    },
+    {
+      "sha256": "f3c67cc24beb2b126a2d768872e900b58be1ad0bac96ada0a376ddbcaec177ad",
+      "bytes": 83138858,
+      "members": 60,
+      "filename": "Futures_024_Results_Part16.zip"
+    },
+    {
+      "sha256": "21af94aa399b8fb8e9e561c5ce6668107d3e3e911e4f6ebbb33100f6980b4a27",
+      "bytes": 83580286,
+      "members": 48,
+      "filename": "Futures_024_Results_Part17.zip"
+    },
+    {
+      "sha256": "80b4afb0b0dd52e1a206188a66463fd11aa40d6f88effe3af2d63f24998f6d57",
+      "bytes": 86086663,
+      "members": 47,
+      "filename": "Futures_024_Results_Part18.zip"
+    },
+    {
+      "sha256": "13cc513cf6042ff06f04c370ca0537fd77f645a3bc6c4a89b6fff039c4479417",
+      "bytes": 83212127,
+      "members": 48,
+      "filename": "Futures_024_Results_Part19.zip"
+    },
+    {
+      "sha256": "65d23c8da95e2b98f2b9730bf95d921aee1130be0f54351e65b3e5504e5210be",
+      "bytes": 83979268,
+      "members": 47,
+      "filename": "Futures_024_Results_Part20.zip"
+    },
+    {
+      "sha256": "3fe9b6a1ec43853e752a5d725921a66eb75df9059becaeb790e57bae21bbb856",
+      "bytes": 59167936,
+      "members": 80,
+      "filename": "Futures_024_Results_Part21.zip"
+    }
+  ],
+  "directly_saved_original_parts": [
+    "Futures_024_Results_Part21.zip"
+  ],
+  "reconstructed_original_parts": 20,
+  "saved_segment_zips": 40,
+  "recovery_manifest": "research/experiments/024/artifact-transfer-recovery.json",
+  "restore_script": "scripts/restore_multifamily_archive_024.py",
+  "initial_upload": {
+    "successes": 2,
+    "explicit_transfer_failures": 20,
+    "unknown_outcomes": 0
+  },
+  "recovery_upload": {
+    "successes": 40,
+    "failures": 0,
+    "metadata_applied": 40
+  },
+  "new_financial_replays": 0,
+  "source_data_receipts": [
+    "research/experiments/021/artifact_receipts.json",
+    "research/experiments/022/artifact_receipts.json"
+  ],
+  "note": "All20 failed originalZIPs can be reconstructed byte-for-byte from successfullysaved smaller segments. Initialfailures preserved. ReportandPart21savedonce; no duplicatecreate forsuccessfulitems. Exactdates/costs andalllosses retained."
+}

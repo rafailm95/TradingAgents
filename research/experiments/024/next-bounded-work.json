@@ -1,0 +1,25 @@
+{
+  "status": "PROPOSED_NOT_PREREGISTERED_NOT_EXECUTED",
+  "priority": "Audit single unifiedBybitpacket and execute frozen013 when complete. No newcollector request.",
+  "fallback_question": "Do allsix024XRP historical-screen passes survive separate adversehourly execution-latency assumptions beyond the existingdaily feed-delay tests?",
+  "maximum_existing_candidates": 6,
+  "candidates": [
+    "vortex14_cross__vol15_cap50",
+    "heikin2_trend__vol15_cap50",
+    "vwma20_reclaim__fixed50",
+    "vwma20_reclaim__vol15_cap50",
+    "eom14_confirm__fixed50",
+    "eom14_confirm__vol15_cap50"
+  ],
+  "assets": [
+    "XRPUSDT"
+  ],
+  "new_variants": 0,
+  "new_executions_this_invocation": 0,
+  "requirements": [
+    "Publish exact latency/cost/decision/accounting implementation and meaningful synthetic tests before anyoutcome.",
+    "Keep024rules/thresholds/sourcefreezes unchanged; retain allsix candidates andfailures.",
+    "Selection isposthoc; reused2024\u20132025 dates are notnewforwardvalidation.",
+    "No automatic papercohort or realorders;023 remains blockedwithoutautomaticretry."
+  ]
+}
