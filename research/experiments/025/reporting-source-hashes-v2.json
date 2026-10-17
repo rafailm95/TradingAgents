@@ -1,0 +1,9 @@
+{
+  "reason": "Add exact saved-input/reference restoration and finalregistry/archive tools; reporting only, no frozen signal/ledger changes. Initial reporting source hashes remain retained.",
+  "sources": {
+    "scripts/package_multifamily_futures_025.py": "a96a3ec74363d84311d7198327e29aec8b9089da00097000731529241eb101b9",
+    "scripts/archive_multifamily_futures_025.py": "730e4b230140dbd037eeb2982ec445d780119835535ec92b4f36d9e76fa51670",
+    "scripts/complete_multifamily_futures_025.py": "dfdc0f136045f2cb55008a151c1880690e14dc3b066cfad46fde7cefee3aaab1",
+    "scripts/restore_futures_references_025.py": "fd7353828198d6223e9c2e245f1e50571383036783b385bd1e8e3ba0d882f6b5"
+  }
+}

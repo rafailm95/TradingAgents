@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T18:28:22.692284+00:00",
+  "updated_utc": "2026-10-17T18:31:57.934751+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 35,
@@ -571,19 +571,19 @@
   "active_experiment": {
     "id": "025",
     "attempt": "025-recovery-1",
-    "status": "TRAIN1_COMPLETED_AWAITING_REMOTE_SELECTION",
+    "status": "TRAIN2_COMPLETED_AWAITING_REMOTE_SELECTION",
     "new_families": 10,
     "new_variants": 20,
     "planned_total_variants": 90,
     "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
     "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
     "maximum_new_executions": 1035,
-    "new_historical_simulations": 120,
+    "new_historical_simulations": 240,
     "software_tests": 117,
     "latest_user_scope_override": "Latest2026-10-17request10to30morestrategies;onebatch20variants/10families.",
     "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
     "remote_preregistration_verified": true,
-    "verified_new_historical_simulations": 120,
+    "verified_new_historical_simulations": 240,
     "training_launch_state": "No process/session identifier returned; local state must be inspected before any retry.",
     "runtime_interruption_record": "research/experiments/025/runtime-interruption.json",
     "recovery_record": "research/experiments/025/runtime-recovery-success.json",
@@ -597,7 +597,17 @@
         "SOLUSDT": "heikin2_trend__fixed50"
       }
     },
-    "evaluation_computed": false
+    "evaluation_computed": false,
+    "selection1_commit": "51490697a8a345ad98bf109f9043f0b758cbd8d5",
+    "selection2_sha256": "0ec0e8c34538821688f6055a44d44ba46a0d28e14b3530098391d3447c2eec7e",
+    "selection2": {
+      "path": "research/experiments/025/selection-train2.json",
+      "chosen": {
+        "BTCUSDT": "heikin2_trend__vol15_cap50",
+        "XRPUSDT": "obv_breakout__fixed50",
+        "SOLUSDT": "ao_saucer__fixed50"
+      }
+    }
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,

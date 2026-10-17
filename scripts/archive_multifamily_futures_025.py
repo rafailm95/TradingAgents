@@ -14,6 +14,7 @@ def main():
         entries.append((name,w/name))
     sources=[*sorted((ROOT/'research/experiments/025').glob('*')),ROOT/'docs/MULTIFAMILY_FUTURES_025.json',ROOT/'docs/MULTIFAMILY_FUTURES_025_RESULTS.md',ROOT/'docs/MULTIFAMILY_FUTURES_025_REPRODUCE.md',ROOT/'tradingagents/multifamily_futures_025.py',ROOT/'scripts/run_multifamily_futures_025.py',ROOT/'scripts/freeze_multifamily_futures_025.py',ROOT/'scripts/package_multifamily_futures_025.py',ROOT/'scripts/archive_multifamily_futures_025.py',ROOT/'tests/test_multifamily_futures_025.py',ROOT/'tests/test_multifamily_runner_025.py',ROOT/'requirements-research.txt',ROOT/'research/registry.json']
     sources += list((ROOT/'research/corrections/025-preflight').glob('*'))
+    sources.append(ROOT/'scripts/restore_futures_references_025.py')
     for path in sources:
         if path.is_file():entries.append(('repository/'+str(path.relative_to(ROOT)),path))
     completion=ROOT/'scripts/complete_multifamily_futures_025.py'
