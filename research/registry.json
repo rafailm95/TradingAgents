@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T13:53:27.698420+00:00",
+  "updated_utc": "2026-10-17T13:55:18.127681+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -299,7 +299,7 @@
   ],
   "active_experiment": {
     "id": "021",
-    "status": "INPUTS_AND_ENGINE_FROZEN_BEFORE_TRAINING",
+    "status": "TRAIN1_COMPLETE_SELECTION_FROZEN_BEFORE_TRAIN2",
     "protocol": "docs/FUTURES_ASSETS_021.json",
     "symbols": [
       "BTCUSDT",
@@ -330,7 +330,11 @@
     "excluded_before_pnl": [
       "SOLUSDT"
     ],
-    "actual_maximum_new_runs": 250
+    "actual_maximum_new_runs": 250,
+    "engine_input_preregistration_commit": "9f2da0d6202445af0ab4de7eaa306f466be39766",
+    "selection1_sha256": "6eaac57ec7928c13a933d65717c8bae88be4e12029289c7fb44f5a6bbad8f3ba",
+    "completed_training_runs": 24,
+    "real_evaluation_runs": 0
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
