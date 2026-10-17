@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T15:34:10.999147+00:00",
+  "updated_utc": "2026-10-17T15:37:00.384104+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -368,16 +368,18 @@
   ],
   "active_experiment": {
     "id": "022",
-    "status": "PRE_REGISTERED_AWAITING_REMOTE_CHECKPOINT",
+    "status": "TRAIN1_COMPLETE_SELECTION_FROZEN_BEFORE_TRAIN2",
     "attempt": "022-initial",
     "protocol": "docs/SOL_FUNDING_022.json",
     "freeze": "research/experiments/022/engine-freeze.json",
     "freeze_sha256": "599c6e7da6f68036fcf28d8ff1286d7321d736da23026d75c0794b2ee283d100",
-    "new_historical_simulations": 0,
+    "new_historical_simulations": 12,
     "maximum_new_simulations": 125,
     "new_variants": 0,
     "source_tests_passed": 157,
-    "prior_results_preserved": true
+    "prior_results_preserved": true,
+    "preregistration_commit": "9f2994071c2f7231c063b3d504253e2feda0fd21",
+    "selection1_sha256": "975d80d1ddbca1bdee4f651695c04ad8ae759a3308d3b429d7fb9ef2a0929dbf"
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
