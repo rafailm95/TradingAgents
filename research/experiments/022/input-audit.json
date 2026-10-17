@@ -1,0 +1,32 @@
+{
+  "normalized_sha256": "caf418c4b634991cbbdf64c1fc1ffba3e6bf15b87f049742816ca290d86287da",
+  "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+  "audit": {
+    "status": "COMPLETE",
+    "venue": "Binance USD-M perpetual",
+    "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+    "archives": 144,
+    "daily_recovery_archives": 10,
+    "recovered_real_hours": 168,
+    "matched_overlap_hours": 72,
+    "start_ms": 1640995200000,
+    "end_exclusive_ms": 1767225600000,
+    "max_funding_clock_offset_ms": 31,
+    "per_symbol": {
+      "SOLUSDT": {
+        "trade_hours": 35064,
+        "mark_hours": 35064,
+        "funding_events": 4458
+      }
+    },
+    "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+    "no_price_imputation": true,
+    "strategy_pnl_computed": false,
+    "funding_completeness": "Exact observed piecewise archive schedule; not independent API confirmation",
+    "funding_interval_labels": {
+      "2": 99,
+      "4": 2,
+      "8": 4357
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "library_file_id": "libfile_6cc1ae1b5ca88191bfac77daa3674334",
+  "name": "Futures_021_Inputs_Part1.zip",
+  "sha256": "5b83978eb5b4afc30d8a686c9a794c9681eb4230908f87f363ed0229bbc60da4",
+  "bytes": 12471707,
+  "archive_hash_and_crc_verified": true,
+  "raw_input_source_commit": "c03579011738a60b024eb8799d943266f154f39b",
+  "normalized_repository_encoding": "base64 of deterministic gzip JSON; decode into SOLUSDT/normalized.json.gz; copy SOLUSDT-manifest.json to SOLUSDT/manifest.json",
+  "raw_archives_reused_not_redownloaded": true
+}

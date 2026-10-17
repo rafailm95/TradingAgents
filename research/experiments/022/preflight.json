@@ -1,0 +1,21 @@
+{
+  "tests_passed": 157,
+  "new_tests": 29,
+  "new_synthetic_matrix_executions": 125,
+  "historical_executions": 0,
+  "command": "python -m pytest --noconftest -q tests/test_bybit_cashflow.py tests/test_bybit_replay.py tests/test_binance_archive.py tests/test_funding_futures_019.py tests/test_futures_assets_021.py tests/test_futures_assets_replay_021.py tests/test_sol_funding_022.py tests/test_sol_replay_022.py",
+  "stdout": "........................................................................ [ 45%]\n........................................................................ [ 91%]\n.............                                                            [100%]\n157 passed in 29.28s\n",
+  "preflight_failures": [],
+  "meaningful_checks": [
+    "exact2h/4h/8htransitions",
+    "deleteeveryNovemberfundingevent",
+    "duplicates/order/label/jitter/NaN",
+    "normalizedschedulevalidation",
+    "original021rejectionpreserved",
+    "heldquantityandindependentfundingcashflow",
+    "sixsignalprefixcausality",
+    "all125syntheticmatrixexecutions",
+    "unchangedtraininggate/selection",
+    "joint18matchedcomparison"
+  ]
+}

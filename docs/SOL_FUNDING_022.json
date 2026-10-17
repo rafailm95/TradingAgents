@@ -1,0 +1,123 @@
+{
+  "schema": "sol_funding_022_v1",
+  "authorization": "Continue user-requested BTC/SOL/XRP futures research. Complete queued022 genuine SOL funding gap; reuse BTC/XRP021 without reruns.",
+  "symbols": [
+    "SOLUSDT"
+  ],
+  "venue": "Binance USD-M native perpetual histories; NOTBybit results",
+  "new_strategy_variants": 0,
+  "existing_variants": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "hypothesis": "All six previously frozen signals transfer unchanged to SOL under an additive authentic event-schedule adapter. No new family or fitting. Original021 strict8h exclusion remains preserved.",
+  "data": {
+    "start_inclusive": "2022-01-01T00:00:00Z",
+    "end_exclusive": "2026-01-01T00:00:00Z",
+    "timeframe": "Hourly closed trade/mark bars, daily closed signals",
+    "expected_hours_per_series": 35064,
+    "expected_funding_events": 4458,
+    "source": "Unchanged021 official Binance archives:144monthly+10daily, independently pinned Library ZIP, all published checksums and overlap audits repeated. No network data request/redownload.",
+    "funding_schedule_UTC": [
+      {
+        "from": "2022-01-01T00:00:00Z",
+        "through": "2022-11-09T16:00:00Z",
+        "step_hours": 8,
+        "row_interval_label": 8
+      },
+      {
+        "from": "2022-11-09T20:00:00Z",
+        "through": "2022-11-10T00:00:00Z",
+        "step_hours": 4,
+        "row_interval_label": 4
+      },
+      {
+        "from": "2022-11-10T04:00:00Z",
+        "through": "2022-11-18T08:00:00Z",
+        "step_hours": 2,
+        "row_interval_label": 2
+      },
+      {
+        "from": "2022-11-18T16:00:00Z",
+        "through": "2025-12-31T16:00:00Z",
+        "step_hours": 8,
+        "row_interval_label": 8
+      }
+    ],
+    "transition_interpretation": "First2h label follows4h elapsed gap; return8h label follows8h gap. Row label is preserved, never blindly interpreted as preceding elapsed interval. Raw timestamps retained; <60000ms after exact even-hour slot accepted. No position changes until01UTC, so held quantity unchanged across jitter mapping. Mark at hour-open remains proxy. No aggregation/interpolation/rate invention.",
+    "completeness": "Conditional on exact observed archive schedule plus public checksum provenance. Initial4h change independently announced; 2h/return8h not independently confirmed by current API. Missing/duplicate/out-of-order/unexpected event, label or jitter blocks replay. Fullwindow retained; changes fall in2022warmup but remain fully audited."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/binance/binance-public-data",
+      "retrieved_date": "2026-10-17",
+      "supports": "Officialarchives, monthly/dailyformat,publishedSHA256checksums. Noexecutionorprofitguarantee."
+    },
+    {
+      "path": "docs/BINANCE_PERPETUAL_017.json",
+      "supports": "Existingfrozen6variants and nativeperpetualassumptions"
+    },
+    {
+      "path": "tradingagents/futures_replay_019.py",
+      "supports": "ValidatedDecimalcapitalcarry/wealthaccounting"
+    },
+    {
+      "url": "https://www.binance.com/en/support/announcement/detail/e8be17e1e544418490e86723d84759f0",
+      "published": "2022-11-09T17:05",
+      "retrieved": "2026-10-17",
+      "supports": "Initial4h funding change at2022-11-09T20UTC and possibility of unannounced further changes. Does not independently specify observed2h return8h boundaries."
+    }
+  ],
+  "windows": {
+    "warmup": "2022",
+    "train1": "2023-01-01..2023-12-31",
+    "train2": "2023-01-01..2024-12-31",
+    "fixed_evaluation": "2024-01-01..2025-12-31",
+    "expanding_walk_forward_folds": [
+      "2024",
+      "2025"
+    ]
+  },
+  "execution": {
+    "initial_usdt_per_independent_asset": 10000,
+    "position": "longorflat,50%entrycap,fullycash-backedguard;no leveragedliquidationmodel",
+    "signal": "Unchanged017dailyclosedrules; executeD+1+lag at01UTC;lag0/1/2",
+    "baseline_fee_slippage_bps_side": [
+      5.5,
+      2
+    ],
+    "stress_fee_slippage_bps_side": [
+      10,
+      10
+    ],
+    "opex_usdt_per_365_25days": 120,
+    "funding_sensitivities": [
+      "nominalhour-openmark",
+      "adverse5bpsvaluation"
+    ],
+    "filters": "Sameexplicit hypotheticalfine-lotfilters as017,not observed venue/account rules; noexchangeInfo retry inthisbatch",
+    "limitations": "Nohistoricalorderbook/fills/personalfeetier/margin confirmation. Intrahourhighloworderunknown;do notclaimrealizedintrabarDD. USDTneverrelabeledUSD."
+  },
+  "selection": "Perasset allsix bothcosts lag0 nominalfunding; positive net,DD<=35%,>=10signal/timeexits,completewealthevents. Rankstressannualizednet/max(stressDD,1%),lexicographicIDtie;elsecash. Publishtrain1selectionbeforetrain2;publishtrain2selectionbeforeevaluation.",
+  "gates": "All12evaluationcost*lag*fundingscenariospositive net,DD<=35%,>=20signal/timeexits,completecoverage/wealthaudit. Forcedterminalclosesdo notcount. SameaggregateWFAgates. Crossassetfullpassrequiresallthreeassetscompleteandpassed;missingassetisnotapass. Historicalscreenneverforwardvalidation.",
+  "WFA": "ExactDecimalcapitalcarry from10000once; annualterminalflattenwithcost; nextyearstartspriorcash. Managedcashpays120/year. Noannualcapitalreset.",
+  "benchmarks": "Perassetcash0expense;50%perpetualhold under2costs*2fundingvaluations,realratesand120/yearopex,terminalclose.5benchmarkspereligibleasset.",
+  "matrix_per_eligible_asset": {
+    "train1": 12,
+    "train2": 12,
+    "fixed_evaluation": 72,
+    "WFA_folds": 24,
+    "benchmarks": 5,
+    "total": 125
+  },
+  "maximum_new_design_executions": 125,
+  "multiplicity": "Matched evaluation2024–2025 daily returns for all6same candidates on BTC/XRP021 plus newSOL:18pairs, perasset6 and joint18. 30day circular blocks,2000resamples,seed20261017,actual expense. Reuse exact pinned021evaluation, no old replays. Four ETH-only native variants019/020 and40spot variants retain prior diagnostics; incompatible asset/venue/quote scope not pooled. Prior50variants/25families/7777design+7integrityreplays=7784known executions are not fully corrected. Shared dates/crossasset dependence retained; no forward evidence.",
+  "publication": "Publish exact022 implementation, tests, normalized input, raw archive hashes and active attempt before anySOLPnL. Publish train1 selection before train2; publish train2 before evaluation. Preserve every scenario and all failure gates. Original021 BTC/XRP outputs reused, not recomputed.",
+  "next_priority": "SingleBybitpacket audit013whenavailable; donotchange014collectororrequestserialuploads.",
+  "positive_discovery": "Per asset compute each candidate's minimum net return across all12 scenarios and maximum sampled percentage drawdown across all12. Pareto domination means another candidate has at least as high minimum return and at most as high maximum drawdown with one strict improvement. Report all frontier flags; shortlist at most3frontier families per asset sorted by minimum return descending then ID. Descriptive posthoc only, never replaces train selection or acceptance gates.",
+  "forward_validation": "At least180calendar days AND20completed exits per candidate, net liquidation positive after expense under both costs, sampledDD<=35%,>=95%coverage,no integrity/pending failures; still monitoring milestone,not proof/trade authorization. This batch adds0prospective days."
+}
