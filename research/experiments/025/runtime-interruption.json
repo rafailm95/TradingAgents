@@ -1,0 +1,47 @@
+{
+  "experiment": "025",
+  "status": "PREREGISTERED_RUNTIME_TRANSPORT_INTERRUPTED",
+  "recorded_utc": "2026-10-17T18:14:23.010Z",
+  "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
+  "tree": "0ebc08397623bd592d4181111b963983d1dd9595",
+  "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+  "tests_passed": 117,
+  "prior_synthetic_failures_preserved": "research/corrections/025-preflight/correction.json",
+  "initial_active_record": {
+    "id": "025",
+    "attempt": "025-initial",
+    "status": "PREREGISTERED_AWAITING_REMOTE_CHECKPOINT",
+    "new_families": 10,
+    "new_variants": 20,
+    "planned_total_variants": 90,
+    "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
+    "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+    "maximum_new_executions": 1035,
+    "new_historical_simulations": 0,
+    "software_tests": 117,
+    "latest_user_scope_override": "Latest2026-10-17request10to30morestrategies;onebatch20variants/10families."
+  },
+  "operation": "Commit local mirror of remote checkpoint, then launch frozen train1 with redirected log.",
+  "error": "CreateProcess: Rejected(\"Failed to create unified exec process: exec-server transport disconnected; failed to resume exec-server session: recovery timed out after 25s\")",
+  "process_id_returned": false,
+  "local_launch_state": "UNCONFIRMED; no train output or session identifier received",
+  "confirmed_new_historical_outputs": 0,
+  "unverified_execution_count": "UNKNOWN; do not infer zero actual process starts from missing acknowledgement",
+  "read_only_recovery": "Local status/intent/log diagnostic and harmless true command did not return within observed recovery window. Do not relaunch financial work until local state can be inspected.",
+  "classification": "Execution infrastructure interruption; not strategy failure or profitability evidence.",
+  "completed_counts_unchanged": {
+    "variants": 70,
+    "families": 35,
+    "design_executions": 8934,
+    "integrity_replays": 7,
+    "known_executions": 8941
+  },
+  "pending_new_design": {
+    "families": 10,
+    "variants": 20,
+    "max_executions": 1035
+  },
+  "recovery": "Resolve latest branch; preserve/check all partial results and running processes. Restore exact pinned inputs/references from durable021/022/024 receipts if needed. Verify original025 freeze unchanged. Never blindly overwrite/repeat financial work or retune rules. Publish train selections before evaluation.",
+  "public_market_requests_this_batch": 0,
+  "other_cohorts_changed": false
+}
