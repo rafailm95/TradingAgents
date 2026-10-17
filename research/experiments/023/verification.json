@@ -1,0 +1,24 @@
+{
+  "data_zip_crc_pass": true,
+  "data_archive_member_hashes_verified": 211,
+  "source_hashes_verified": 13,
+  "prior_files_verified": 636,
+  "old022_summary_sha256": "e65d227019fcefdd4e9fd3bd27d070280947b5b741d7bbe4bc7d8d91ac6b2364",
+  "collection_freeze_unchanged": true,
+  "runtime_pins_unchanged": true,
+  "tests": {
+    "software_tests_passed_this_invocation": 73,
+    "collection_suite": 50,
+    "adapter_suite": 23,
+    "new_tests": 35,
+    "synthetic_matrix_executions": 179,
+    "new_historical_executions": 0,
+    "initial_test_failures": [],
+    "commands": [
+      "python -m pytest --noconftest -q tests/test_binance_archive.py tests/test_futures_assets_021.py tests/test_futures_extension_023.py",
+      "python -m pytest --noconftest -q tests/test_futures_calendar_023.py"
+    ],
+    "stdout_sha256": "e593c25a2d9dc86d101608ad41351d1a18a511c601644e2a43eb03e3083c18d0"
+  },
+  "historical_results": 0
+}

@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "library_file_id": "libfile_349071f47d2c81918f7b95ba00253a84",
+      "file_id": "file_00000000f5e0820caa4697f16ab5885b",
+      "file_name": "Futures_023_Criteria_EL.html",
+      "path": "/Futures_023_Criteria_EL.html",
+      "status": "succeeded",
+      "sha256": "142342daa95a981b286d47c169d1504143db0fa9eb414d2c973d42e2352c3c73",
+      "bytes": 9951
+    },
+    {
+      "library_file_id": "libfile_e6dd1f1d128881919f1d204e364ce9ea",
+      "file_id": "file_00000000a920820d9bac629e981b45e3",
+      "file_name": "Futures_023_Evidence.zip",
+      "path": "/Futures_023_Evidence.zip",
+      "status": "succeeded",
+      "sha256": "48c11293d53b60f33c5b0c23114573664b9558060dc4efd835615ffa0cf1853c",
+      "bytes": 1576437
+    }
+  ],
+  "all_saved": true
+}

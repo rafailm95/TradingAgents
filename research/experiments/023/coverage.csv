@@ -1,0 +1,10 @@
+symbol,series,observed_rows,expected_rows,coverage_pct,eligible
+BTCUSDT,trade_hours,5832,6552,89.01098901098901,False
+BTCUSDT,mark_hours,5064,6552,77.2893772893773,False
+BTCUSDT,funding_events,636,819,77.65567765567766,False
+SOLUSDT,trade_hours,5832,6552,89.01098901098901,False
+SOLUSDT,mark_hours,5064,6552,77.2893772893773,False
+SOLUSDT,funding_events,636,819,77.65567765567766,False
+XRPUSDT,trade_hours,5832,6552,89.01098901098901,False
+XRPUSDT,mark_hours,5064,6552,77.2893772893773,False
+XRPUSDT,funding_events,636,819,77.65567765567766,False

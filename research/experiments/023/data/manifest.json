@@ -1,0 +1,1064 @@
+{
+  "encoding": "base64 of ZIP",
+  "archive_sha256": "6ee9c9d2d8d2713493aed0afd4e2ce8728c535e9e6cc6c134ccabb3934266b0b",
+  "archive_bytes": 1325443,
+  "files": [
+    {
+      "path": "BTCUSDT/failed-responses/BTCUSDT-markPriceKlines-2026-08.json",
+      "bytes": 380,
+      "sha256": "cada597cf248f9a51fa2b3d36f52ce30f09dd37202ed614d136ace0709ca2c70"
+    },
+    {
+      "path": "BTCUSDT/failed-responses/BTCUSDT-markPriceKlines-2026-08.response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-01.receipt.json",
+      "bytes": 563,
+      "sha256": "765be69d863af82677980d2b41e8dac71a2c9b9debb44599a3d589e96044759a"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-01.zip",
+      "bytes": 965,
+      "sha256": "fcdc796484f395830d418588a34a26baed8849dbef0ff2b56173247e493ff51f"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-01.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "37091043b93431ec0657d81fc77b3b2e259966249e5c1a7f320b19567528d4de"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-02.receipt.json",
+      "bytes": 563,
+      "sha256": "9f2061cab540fd47b67c4d57c9b80beb1e405a82be2e6f648ed3bd2d1434088f"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-02.zip",
+      "bytes": 937,
+      "sha256": "80df1dd669dc1e3afc360c9da8b9a949a127fce088eedbf5bf708bd37b0a1f58"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-02.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "8d930b2dc0fe7dc8891e8ed1d7e886ec503c2c63bdf518048fed623512deec6c"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-03.receipt.json",
+      "bytes": 564,
+      "sha256": "c8908f37bd6c0c6d3184ae9eb64ed4e4e88d7a77049f848a9355c2e8cf34a108"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-03.zip",
+      "bytes": 1008,
+      "sha256": "5c069d5e9597a44fd0e213395082e59ff223fb99c9eab3a2a5a2a5622ba7867c"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-03.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "8893f8a1c557467a44651ab2cad0f6dadf2405f044a1b7d5ea54a5a8db1423f1"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-04.receipt.json",
+      "bytes": 563,
+      "sha256": "6667a3463943b7acfec659ca574166767832d87424e80ce2ab2acac84d1bae14"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-04.zip",
+      "bytes": 960,
+      "sha256": "51cdeb4de7d5ef1d4eece80b6115e391bdf7a2d0803bf9ad8371ab23340b22d3"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-04.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "4306ccbfbf24cbcfe36ea1226dcdb8aa744ff6bd417018a432b16221415e34fa"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-05.receipt.json",
+      "bytes": 563,
+      "sha256": "2cc4a1dc133c1b40b8fc3d066922e17983d92d9c5c1898d9a5c8d6c9dd868662"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-05.zip",
+      "bytes": 980,
+      "sha256": "445b65fd6b17bfcfb5e4d035db29fad34f729fa078f0449024db42621be84e6e"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "d235c278ef78737a6c6ebcee4ea3754c64e67e04d6575c10637b9eb32144be2a"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-06.receipt.json",
+      "bytes": 563,
+      "sha256": "ca942d072bab4818677d9edec4db08d1f22e4866ea57580f9db161e62cc564a5"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-06.zip",
+      "bytes": 964,
+      "sha256": "cff97ce688329592bccbbf5873b5c7021649e093f5f5806e332c5b4fb7fd6a00"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-06.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "b16df2145a1acd03de19335dcd416e3f9dd85d4dd252ce8a60b205668d23f4a4"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-07.receipt.json",
+      "bytes": 563,
+      "sha256": "916727f19e7fdc9aa0f836b0d450d033cea7654131469fa03b0fc07981106f7f"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-07.zip",
+      "bytes": 914,
+      "sha256": "e36fcc66f493d7d9ec348c852fc22e9f318c79cf7adae17398a3994ae0adc41e"
+    },
+    {
+      "path": "BTCUSDT/fundingRate/BTCUSDT/BTCUSDT-fundingRate-2026-07.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "50e4e9f408bff433a4b2eb9bbc37ac816a1112dd6d851689ffd48f3014580ff6"
+    },
+    {
+      "path": "BTCUSDT/intent.json",
+      "bytes": 189,
+      "sha256": "ab5b5879003b429a1f53d52311e1c4615c94bdb4a8bde2637a406404abd1d5cb"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-01.receipt.json",
+      "bytes": 538,
+      "sha256": "7edb2b0ec8dec7f28e16c47945c876a4e7f3f380aa914a7c3597fb5bd3123bba"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-01.zip",
+      "bytes": 38152,
+      "sha256": "6c15ac5fd895f26bf8e12b99df6ab9aff637dc94b37128e92c75c19887d0e3b3"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "54989f5663d71e446a4745a9fc9bacafafbe285232563e4fa0d2039e5daa944e"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-02.receipt.json",
+      "bytes": 538,
+      "sha256": "bb819084696a8a66cf498e5d4ae584806178260ffe79e9d9230587ad76d500dc"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-02.zip",
+      "bytes": 35154,
+      "sha256": "886fca9764139a1d71d97ca28e0a2cb30fe7d6f44df9be2539452c02e3c4e775"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "d5f523827c51f605b76e9554a12dd3e59649c8b18c9e8efbde00ed11be444ec2"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-03.receipt.json",
+      "bytes": 538,
+      "sha256": "87fecb5fb7182a444f6f032e9cf7e5ae7efd7310bf57822055b565a06e1f6efd"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-03.zip",
+      "bytes": 38671,
+      "sha256": "41199df2dd62c333ea306d28de331bfffbbfed03609d100c63b2de1d173f7414"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "3bddb213a163377c99ee488a92709e40c6eee62d0f5c91505d24f1f694499fb3"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-04.receipt.json",
+      "bytes": 538,
+      "sha256": "3d71eaff2267ba887d8d15d41034c0cd50eea5c7dd207bc5c1fad0df0398ea74"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-04.zip",
+      "bytes": 36965,
+      "sha256": "c822801b16eb317f4672e376a73664f2e5f9180409c57b6c7517707f4f873e8c"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "31496607815a0abad9fcc35528f43f8ff1083e3d5545cbcf3952f46f9ef3f6a4"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-05.receipt.json",
+      "bytes": 538,
+      "sha256": "ed3d6924f615282d0e3a710f84e3c9c40a7fed78c1956b6aafcd8d0c95192461"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-05.zip",
+      "bytes": 37968,
+      "sha256": "9a367708c90de999a7a9d3114fd111ff28203b13c8daef77d154b5216fb571f7"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "7d22828b27926232e3fb25b5e6925c2be5377d45bdb5e676f1c52006e9f5a2ee"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-06.receipt.json",
+      "bytes": 538,
+      "sha256": "8331bca13953c1b38e958666b269dc674927df0aaec47c1367a26fc1bb6600b7"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-06.zip",
+      "bytes": 37239,
+      "sha256": "30bba473837a672a6a00a181a447446852414e6927bbda6684f873571788e9aa"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "c6ac5c043a17678996c8f16cd0f2696091afc5b044f3ef18bdddf347f79c4322"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-07.receipt.json",
+      "bytes": 538,
+      "sha256": "678f78aa60b6897011df8505836631827120c6671f5e18ad2229bc194229aeef"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-07.zip",
+      "bytes": 37864,
+      "sha256": "a09f135066ace6925ce051ddbbdd4345c103423fbe35d32b568942de978dcc7c"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "d46218572b6c7b1829c6a0c39b09539d546503d57edd6155b491d0fe9012ff3e"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-08.receipt.json",
+      "bytes": 538,
+      "sha256": "4b364495fa3d4bd38ba0e9c303a4e6e02ddf12a3de0c493bf48ca00b71883c9e"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-08.zip",
+      "bytes": 37864,
+      "sha256": "b594301740cbb39818ba60f2835e4636aa06ad53308e25b1b312f1443fe0ccfe"
+    },
+    {
+      "path": "BTCUSDT/klines/BTCUSDT/1h/BTCUSDT-1h-2026-08.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "366619c30b010a691eee81bfe569769b0d40ee0fbf8d569369647aa6b19428d7"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-01.receipt.json",
+      "bytes": 565,
+      "sha256": "053c99ae8549311d2ad03821d6fac2ac86d3b52c24bf2e8aa4be21ce1be1c8eb"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-01.zip",
+      "bytes": 21215,
+      "sha256": "996a9448726db911eac8db4fcddd6412c3c81ad1dad1f8b1dee7e7f5e1e1eb58"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "733808ecc894f39eb221ba7bf03ba9e08deff0e5acd68d30588d39f883a9626f"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-02.receipt.json",
+      "bytes": 565,
+      "sha256": "f44df3066fff815bc7c5d29fd21bb6535c63edfa05433d973147c6505b0c4d03"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-02.zip",
+      "bytes": 19770,
+      "sha256": "a8a6bad5c733f23da93166abec33a19a226b90c47078828d89b414e18bd2092e"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "20c845b9892440980b751214e391116bbcf7f3226127263d6bc4840777e34d3d"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-03.receipt.json",
+      "bytes": 565,
+      "sha256": "f070b5f7540b8d073aa59d078b8477e93fe303794cc5d3dcfc5dd03b075cd9dd"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-03.zip",
+      "bytes": 22245,
+      "sha256": "f5f15aedeece7ff54412e83def94c9788fbb184ad9b707af0f89bc9a50df918f"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "de7eb810b5ae7dc20b9e74bedb6194bc5daaf9485c24f6dd34f532ba2949871a"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-04.receipt.json",
+      "bytes": 565,
+      "sha256": "d9b9f730ef604750f8dd10c6b9605f41a0d172ed7b19ec4d2c883acd99698751"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-04.zip",
+      "bytes": 20641,
+      "sha256": "bf1abad992eb1107ee5f3a05003e3a806ed06e22385ea3e594857fe7c9a40716"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "06ecdd385f96a918b964fdb49e86cbf24d38abadab8c80988f49c5ba451a0bd0"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-05.receipt.json",
+      "bytes": 565,
+      "sha256": "672b6600522735d66324e14ade17e995ed59ef918a31811d771fa6f95f41d3e0"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-05.zip",
+      "bytes": 21149,
+      "sha256": "4930e4401f6d663cf9fe2fb082738b011e619e77972bfe764b2600f05fc91b72"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "c1d411052194b94aae751d63a4e53187670acb7fef023f53b7849b6d4f222886"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-06.receipt.json",
+      "bytes": 565,
+      "sha256": "30adaf2d20d8d552c158e387f459e3a7569a43a9f82df0c5e9b90223be191968"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-06.zip",
+      "bytes": 20367,
+      "sha256": "7d1d36168726c482372301b51ac2b035a974a82b6ece309c3dbcd196b872edba"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "f80e9d391d6707e1e4f6145446f4b72ab0611bd1825fdd3311336a3445801b4a"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-07.receipt.json",
+      "bytes": 565,
+      "sha256": "ccfc1791bdd0febb471b8908ffffc573119196b2dd70e3ddac2f6a09d82e0e1e"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-07.zip",
+      "bytes": 21070,
+      "sha256": "1b9a914bf005f439cc83d953ab65cd098703aba1436914bddd0ffd5638e17212"
+    },
+    {
+      "path": "BTCUSDT/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "8a3d2b97d3b021cf8c7ffe3a1c9f8910e1ede3574094871ac785169263cb3454"
+    },
+    {
+      "path": "BTCUSDT/stopped.json",
+      "bytes": 402,
+      "sha256": "22b987a7e1391caab1fb4101bcd077cda1b6d020f04141276308fd2fbac9f6c3"
+    },
+    {
+      "path": "SOLUSDT/failed-responses/SOLUSDT-markPriceKlines-2026-08.json",
+      "bytes": 380,
+      "sha256": "e205a507ae79e7deeb913d7254f3abfbdd6ec2ae565786a018fced565e1d24da"
+    },
+    {
+      "path": "SOLUSDT/failed-responses/SOLUSDT-markPriceKlines-2026-08.response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-01.receipt.json",
+      "bytes": 563,
+      "sha256": "101731cf3d89120a011abb67fc878114c22d41faa072b1396b28806d721e0a19"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-01.zip",
+      "bytes": 962,
+      "sha256": "c53be79aae38a1f35e94880f106df4eceab57bfa74a0b5fc5852fdfabf57ab8e"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-01.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "cd0665a13c81a5d3cd83578c26fda53ecfba8fdf545a638bd8e459f97816eaa8"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-02.receipt.json",
+      "bytes": 563,
+      "sha256": "2d5c33e20ee59dc30fee0ae15e5d30cca26392fb7009f338b9acf7acc9469b6c"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-02.zip",
+      "bytes": 942,
+      "sha256": "84cb9bcf44ba1364b37db876e7c852aa1b831371556b610e2387115addec9d5f"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-02.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "20c8734c73301d8def31a2e94741fa66c771303d72127a30d0ee000ee86c9941"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-03.receipt.json",
+      "bytes": 564,
+      "sha256": "437f31acc5a384d65db7090b0b5375652cd30347ec4c128c7490031532ff0274"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-03.zip",
+      "bytes": 1010,
+      "sha256": "75cfaea075d97779a577c3744ea63e3d83704f281806fb5f76f2d3e0f089fd2c"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-03.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "5ed0d61f91b9f0232540aa60bf882555c316b418c7e63a00e94998f47f66c468"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-04.receipt.json",
+      "bytes": 563,
+      "sha256": "b290ca458af3dc8d095ccfdfe689a299c864bb7be8cea3755a6edb51e88926e5"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-04.zip",
+      "bytes": 944,
+      "sha256": "951a280e98b6d20fe4be25bf2b71f3cda1c07c7583a88cb874151e2b1fe941f1"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-04.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "952807604b0571d56eaea9f167833eb5b6808e2f63c3efeda9be8e9ce5802e64"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-05.receipt.json",
+      "bytes": 563,
+      "sha256": "fd19f73ebd7502f55663ab02cef802d9f5dac7dbbeca72f41820aacb3c59e28d"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-05.zip",
+      "bytes": 979,
+      "sha256": "c13066e5f7c5d161dbebd488cbeaab1205688c6dc7f9fafcc8f94296f2c1e47b"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "9b59f6f723c22d8b495b6deb1d34acaaf9d2bfccaa17e50e27d0b605f959980a"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-06.receipt.json",
+      "bytes": 563,
+      "sha256": "c68d32d54297527799ad05189d7ccae06b5395d9e542ba79926fa44a8674c89f"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-06.zip",
+      "bytes": 973,
+      "sha256": "8d32fa3153d54c58667650e8b2c65e489b3a433b775052a93208bf60541a40d3"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-06.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "347cf316f99ecff10d3118c93a628d7400ad7c8edf1113dffe054c30384c141c"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-07.receipt.json",
+      "bytes": 563,
+      "sha256": "2c05b0ee65f782f26c222468066abbb4ff6871cf063f74de80a3079752ca3cd5"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-07.zip",
+      "bytes": 964,
+      "sha256": "13f655eaa29865b16acc7bd97be74e212bc4c2139fc2f9ead4d150852c2a9ebb"
+    },
+    {
+      "path": "SOLUSDT/fundingRate/SOLUSDT/SOLUSDT-fundingRate-2026-07.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "3448fe257a299a5bc9ee4a9895f1db2020f0c82423fd15a1920797805af89a0f"
+    },
+    {
+      "path": "SOLUSDT/intent.json",
+      "bytes": 189,
+      "sha256": "1a9c21671630039deab97c0ef702733e58202a890310d4408869eda210a70f83"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-01.receipt.json",
+      "bytes": 538,
+      "sha256": "53f6501973d4b32618ea8f1592a8f8347cd09f2f70044208a6350ec47a750c09"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-01.zip",
+      "bytes": 36611,
+      "sha256": "cc16e807c075689a73f096b7603c34f1eb289bb2d782ca8f6147e4c42632ed0e"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "2cc73da5f61ee1fd1c783681650f548e89542bc7946e38b0aa890d073c5b9e36"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-02.receipt.json",
+      "bytes": 538,
+      "sha256": "44aa293fcfde249443c38d3db56d98405f4a539b2635e98dd2f12c2bba4a55eb"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-02.zip",
+      "bytes": 33200,
+      "sha256": "fa733e5400163477fa7eb544a9a7e04b5c679656720ccb7f92787fcf33b739a3"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "a7944101b7dda63b1b9cdb9e249a12f937501158a2f2a2d071f454ecce5e4596"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-03.receipt.json",
+      "bytes": 538,
+      "sha256": "cd0947888e33b63f69ea05c19a57eda68800a5e5aba4f90f9a552fb98ede4ce8"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-03.zip",
+      "bytes": 36150,
+      "sha256": "5e9440665d3e4209c320e2dab897b5c3cec578800e669e1c8fd3503f157e49f1"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "61ef9a6f8f4b868c4ecd6ab59deec75f23d89ef8b3e71310db35b0fd3cb2a8ee"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-04.receipt.json",
+      "bytes": 538,
+      "sha256": "6ce82b23e966caaa655dcf9f906e7e9345c2c6e977c5d584978ad216df4f96b4"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-04.zip",
+      "bytes": 34581,
+      "sha256": "2f466580c7e6d2e02a67a968428c0f9b987108cc1a3d2ba73061e329aacc208d"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "1e63d803a06ed1b7d0920ba5f9afd7a2bf59d16cd6fc0c50218b6f316f9c6b6b"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-05.receipt.json",
+      "bytes": 538,
+      "sha256": "e251753213a614049701c95e030fa0e0c4362c986d25451e232dfe42aaca4352"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-05.zip",
+      "bytes": 35689,
+      "sha256": "0d1aef19746005c140421825e55e482813330b19a82cbc24c792aaa0464778c2"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "a60d7b92ceb7c390f1b55febd1d298e6e0b9242b6c1c51d89b88623624bcb0a1"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-06.receipt.json",
+      "bytes": 538,
+      "sha256": "b6c226feb6c3b7f212c60fa19ecae8bdba739149f0c5dbec4727c7ea6bb9f455"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-06.zip",
+      "bytes": 35026,
+      "sha256": "5b6913a64843d8fbadeb1783a2ef064291355a33e6eee84f1a03c7e8786acfc8"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "46fe18df6d6658b77d50fce7e0f6aadc40faae54f581ef0f1489ff202fe73655"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-07.receipt.json",
+      "bytes": 538,
+      "sha256": "c55587cbd5e436badd6a3e4a545f4e9477a45eb6cb66b42997205d83ec1d9ff0"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-07.zip",
+      "bytes": 35322,
+      "sha256": "4a88a47617d14ba94ae2154732ba724497a8cad66b1d7fd0dc4f88216101e0be"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "9788ffb1fdcc76493971cf17d1b7fc18adc7e7c01f21abb6e8f793823f81c20e"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-08.receipt.json",
+      "bytes": 538,
+      "sha256": "b8914bd7536c008fb9931d545ed240a54e1c0ebac023ebde81dcefbb81032df1"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-08.zip",
+      "bytes": 35792,
+      "sha256": "a25ab3dfcabcf739bd8bdd0aa9b1302865d5c571a5af1ffbb6e4a2b5c26ab833"
+    },
+    {
+      "path": "SOLUSDT/klines/SOLUSDT/1h/SOLUSDT-1h-2026-08.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "66c10063fced4abe59bcdb23ad4ed09fd4e7184e93cc91c4a8bc37b2dea350af"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-01.receipt.json",
+      "bytes": 565,
+      "sha256": "de1f0327f40bf10e94e9cf7b590acd4a14d38f94a098ab840641872b91292a5c"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-01.zip",
+      "bytes": 18754,
+      "sha256": "68553e21b642257b2100883336a0d97e6e5bcad62de6952c81a8370ad1b9887c"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "55b6523dbf3e53447e407a8fd5492297e963c4de9536ca5349893e3cebc86e3d"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-02.receipt.json",
+      "bytes": 565,
+      "sha256": "a56cfc45b9cf55e3ae4be7209aac2098a270db86bb63b5b1e5a38922a895013a"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-02.zip",
+      "bytes": 16965,
+      "sha256": "a86de544cb755b604ea6d7db5103cf88f67f5b162159db015d43b912f5e3a6aa"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "dc524988db81fccd89971c9bb40582ac8070447a6dffa7b5e5cb04ab96337c98"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-03.receipt.json",
+      "bytes": 565,
+      "sha256": "50b0315e47ca4b7a8b01f9a4f06817fedbaa147fc204d91b3a9043b14afec577"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-03.zip",
+      "bytes": 18695,
+      "sha256": "d3b435a19e3c37bdf09297cf3dcf584b8282e508492025c2bd045a4e478dc31d"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "3e627316b9b0003eca09e4c7d6fefcb5c2c599b2f5c1c42b2b2bcd68e1dd5a9e"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-04.receipt.json",
+      "bytes": 565,
+      "sha256": "4aa62b81fac550fcc41e22d12d6e4c38d3867e4f88995435f11906974fac860f"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-04.zip",
+      "bytes": 17435,
+      "sha256": "af98751d04ff21e9d4b86efe0d186410762523581c579ee4eab1f2a4007ab144"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "080e22358c1948cef503ebf13b1cdaf7743fa4303267486830619ff5f7fb1f5c"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-05.receipt.json",
+      "bytes": 565,
+      "sha256": "c4e8003a01e7c796cd21af2e1f565f72849a812b6c6e06a3c7742eb35e13541f"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-05.zip",
+      "bytes": 17832,
+      "sha256": "5c29f7a432418eb4f20284b499e582a72e56ffab5bfb2bb69de07880b8372055"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "3117f62b2b9647f62eecf539c583bce289244a17c60318935764fa583f168456"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-06.receipt.json",
+      "bytes": 565,
+      "sha256": "104f5d9ace449fc35323791b2c084d9ee3795241ccc43339e7f9b8dbfa7aefa7"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-06.zip",
+      "bytes": 17138,
+      "sha256": "f50a7a3932c0ae29b745dc1d21d7f380195565b7064753b3c0b03dc2dc999f67"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "5d3e4dde3964cf2af2e7a98884ba22eefb495a1ea94d9ff3c0ac2726b404ca54"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-07.receipt.json",
+      "bytes": 565,
+      "sha256": "21a0fb0b8cb73a2cc31939ee0e7cb549f28dd84495b5acdc71a2b615af30db9e"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-07.zip",
+      "bytes": 17900,
+      "sha256": "595d481d66e8d00341e1dd6e7ba67da41963f661e9c3ffdc85c5dc8d37634d91"
+    },
+    {
+      "path": "SOLUSDT/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "f5cfdd83acbcade8005d962d7a98bcd92757c39cf0ca774b3b8fa79ac3f00e9e"
+    },
+    {
+      "path": "SOLUSDT/stopped.json",
+      "bytes": 402,
+      "sha256": "892b0924b1adffcecff823b491d5051e9faf402d61992af6f4e72f231383a07e"
+    },
+    {
+      "path": "XRPUSDT/failed-responses/XRPUSDT-markPriceKlines-2026-08.json",
+      "bytes": 380,
+      "sha256": "8856dc7ee54d7d797326842f5578d79b6de9334f23bae2c20d206b314ad3ddf1"
+    },
+    {
+      "path": "XRPUSDT/failed-responses/XRPUSDT-markPriceKlines-2026-08.response",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-01.receipt.json",
+      "bytes": 563,
+      "sha256": "42662558ba7e5082b8985f591d3fb4e9a685eef4b26d7bf6a5ef2ae0227fa7dc"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-01.zip",
+      "bytes": 990,
+      "sha256": "618977f8e0c4d048292fae038094ea9624c96debfbb1d2bd6463ffcdce2fcd2a"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-01.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "da51af77fd40d1b9457d04b77653725eb5fed28118ba00f516e74f457c8a1b4d"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-02.receipt.json",
+      "bytes": 563,
+      "sha256": "91cda35bc99521cac1ffd72fdb69dd9a6d3315a2416f4fe8fbcee1bf9c80c941"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-02.zip",
+      "bytes": 939,
+      "sha256": "8d8be995b48b2085a8384d9e417bfeef2d213b35478baa88cbe5001d0497535d"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-02.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "0c69526eaded044a7a15f4339900f41ec6b80f8902494c34dd44dc43100b6be4"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-03.receipt.json",
+      "bytes": 563,
+      "sha256": "0dda333cbc84d13aa9bfedfc5b8fdb4aacc0ec8ae4d22e0bfe0aab57a53592e1"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-03.zip",
+      "bytes": 999,
+      "sha256": "e3399c2e5fd5c18a2716b26530bcedc7fb9ce8adb2641c0882c8ba6e0a336567"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-03.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "90c80c744c7207cd05536e7e0729a1ca5ad5a4bb670ba939bf4034730c1c742a"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-04.receipt.json",
+      "bytes": 563,
+      "sha256": "f1dc502625520fc7f2d91eae5420166c39a5dd16d8ed0a81ea7a3b78bf5c3ee8"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-04.zip",
+      "bytes": 974,
+      "sha256": "0e586915d578a977ad69482ddc52c11d9c2c1a767d3865078553b3e91fb7716a"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-04.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "f625917d6f8d283d9200fb63aef89841b3347b73b9c35340ae00a74fce6c8686"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-05.receipt.json",
+      "bytes": 564,
+      "sha256": "541e45f3bb74af17daac8e2e4f1e25a705b33e3cf5aca4e850eb99b0c299f466"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-05.zip",
+      "bytes": 1002,
+      "sha256": "f8c0c09953b112a7f5ac203a826811ead1ac43db8c075b17b2ca69e837828255"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-05.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "5db5ef74decd265c3744a318759bc2c535682866a886288ba4560cf9b8a17430"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-06.receipt.json",
+      "bytes": 563,
+      "sha256": "7270afbd72f7e4c9af696a6baab51211778616535cff51ed2ee5b35cd72d5724"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-06.zip",
+      "bytes": 962,
+      "sha256": "f5d1b51767ddc812c4608080adf54cfca0db7cba592d3e62d7416cd358a3ebde"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-06.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "17abc81e931220560ce90c5aaee26b83364e75934d35467b1cf84d41a27850a3"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-07.receipt.json",
+      "bytes": 563,
+      "sha256": "6f34c8e07d95eca328e3ed90b99371b31aae6938f47b400c0f8dee247ae41d59"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-07.zip",
+      "bytes": 972,
+      "sha256": "c705d06f311e974474a74dc2c5f572c9180630930cf2d5dbaf08cfb7f3d1948c"
+    },
+    {
+      "path": "XRPUSDT/fundingRate/XRPUSDT/XRPUSDT-fundingRate-2026-07.zip.CHECKSUM",
+      "bytes": 98,
+      "sha256": "51e57b5bb92623a666c666807ee35fae29d1d532b39dffb9725baebcd3798825"
+    },
+    {
+      "path": "XRPUSDT/intent.json",
+      "bytes": 189,
+      "sha256": "e4809ee5701f0b228ba5927ad7bffeb58f1c81abec63ba2b765d804098ca7e9f"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-01.receipt.json",
+      "bytes": 538,
+      "sha256": "401e4c2b182cbf4c5fff6db20597011d1c08d58dd5f8c3351c8a97ba6b72fdfa"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-01.zip",
+      "bytes": 36571,
+      "sha256": "304aeb41cbe641e8e4d39d9c6b839dc372e07efdd49e5b14d9b62a5128f1deb8"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "759edfb3b61809356c34195bff83b5245cc47d0e9a08a55018de9f4c2ca03b16"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-02.receipt.json",
+      "bytes": 538,
+      "sha256": "8d866242bd45a32053ec3425c6c9563e60ddde9dad29549aae00f4f31272f42f"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-02.zip",
+      "bytes": 33416,
+      "sha256": "bd95d4f6cb4988b981b3e6ae88d6a8ab4123364faf44d6e5ddd93956618d5564"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "26a35529c895d8c55d8ccd45d49318fcbb153259339d703274eb3d6db3a52793"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-03.receipt.json",
+      "bytes": 538,
+      "sha256": "067c81ccc23905ebcc883cc7f05d82fbf0d73375b47fc30fccd577d8bccb274e"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-03.zip",
+      "bytes": 36142,
+      "sha256": "916f1669dd934c78b9d94c655d9fe20e95ab355e11650f2aced3561efde05f1b"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "31b9a190879aa89b377122e5398077fe674ac7a0df6d093a359112b7cd253257"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-04.receipt.json",
+      "bytes": 538,
+      "sha256": "0331f3b1b310108343ec5893ff448c58df5320db28529131c117af0287c7cfcb"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-04.zip",
+      "bytes": 34504,
+      "sha256": "ab93b4954e1b531766ba46e4a079a06f767a40b16cc14a9f8f321ab80af19ae2"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "531bdedeaaa0e544d3225001f4dc2e44b3fc43f45a334c15e3c10c498ecefa5c"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-05.receipt.json",
+      "bytes": 538,
+      "sha256": "b7e05b0d1a69e71ba954545e40cbba12cd151b877dc6d35c644e13b46347ff85"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-05.zip",
+      "bytes": 35689,
+      "sha256": "30273c8778fab32eff2cc1343b3f0fd1087005bca859786cffe4fe8169b4cd97"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "a12c26e9b4856872c7b594347dcf4f1e0844bc4791fed729adcec1b97575821d"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-06.receipt.json",
+      "bytes": 538,
+      "sha256": "69f17d4ba095dcee06d9acfc28265ea74a3cd5f3243d7ba4576bdb2c004aa088"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-06.zip",
+      "bytes": 34886,
+      "sha256": "f26db58471a44843813bd757923e999a9d8d8b421fabb11292c015993795d2b6"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "2157b08aed262b1a054ade166b1abf59abb16c391216386b0bf19a9b7b04fa1a"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-07.receipt.json",
+      "bytes": 538,
+      "sha256": "69d01384c38b4f1fc4a70a7ac09dbfc29cad37c13da6064da8df3b2da877a4da"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-07.zip",
+      "bytes": 35375,
+      "sha256": "9dbdf2f4b57be325d70455ac36cdf403cf8b90d56688bbe72e930fdf74b832de"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "066364bb163692b3140025cf25cfab88adc7ca7fdd5816158cf9a7f1bca9cda7"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-08.receipt.json",
+      "bytes": 538,
+      "sha256": "9e0e633ee48fb467e0c5016ba761d0f406bc33f46ab8a2efebacca6dee01c5a5"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-08.zip",
+      "bytes": 35886,
+      "sha256": "387e1aa225a3984ac4add2764a9b948c0a255fb38c24b8714690d1d5dce4d48c"
+    },
+    {
+      "path": "XRPUSDT/klines/XRPUSDT/1h/XRPUSDT-1h-2026-08.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "68818579158dfa39c03907853d04d6f1a948b28978ede5da505042f541258bad"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-01.receipt.json",
+      "bytes": 565,
+      "sha256": "3a089fb4437828cb822cee0b5737a29e90ec6708d4c9442cc267055e36ab24d0"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-01.zip",
+      "bytes": 17326,
+      "sha256": "a6b5cc0d4a8ecc74c7c743b1795265a5d48159011e4d3f91a1916b5c288f50b2"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-01.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "52f3a4f0e4b3770625f368c71277100325402caa36ff2a11d0cbb61a2afeac75"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-02.receipt.json",
+      "bytes": 565,
+      "sha256": "b5f8f7adc82e9207666f3ef9550bb9c25a0ead75b660980f34e797eaa147c9f0"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-02.zip",
+      "bytes": 15698,
+      "sha256": "023c91c5c27ef780dc9eee28acf54333aeb9e70604b100d5941c2c6c00ea8b09"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-02.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "65083029d5ed105b92a39e59f8960f62369c1fdc87f47121ca9cb66b7162bf21"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-03.receipt.json",
+      "bytes": 565,
+      "sha256": "769db3f5fa8c3639bbd73c77048d37c33e7e412e923d6c56488017c6f27f59de"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-03.zip",
+      "bytes": 17345,
+      "sha256": "076e514bd8799f4b78d63465f94eff5abb79f4c5c7104fb1e35dad9571b38f84"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-03.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "6e9850139022568a7389ccb33114a06e6b2ab5c8ab63213e4210ec5d46cb4125"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-04.receipt.json",
+      "bytes": 565,
+      "sha256": "06e84dd5120665e7bbcfc9e56c2e0f4a6927011ff0706d78e808254cff30ff85"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-04.zip",
+      "bytes": 16130,
+      "sha256": "b5996ad3da0063138a9e77e93297618ce4adc535ce8699fecd135feeb8f4f9e5"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-04.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "98a62bc6c413b0418823bb6dfe6264b5bd2c27e8def348e94750a18dfb51234c"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-05.receipt.json",
+      "bytes": 565,
+      "sha256": "176fa7eb014c196b522b238a18e7b0d72a00c1e970246ab5fafef0d9f9c1216f"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-05.zip",
+      "bytes": 16391,
+      "sha256": "9611a6d1948feac5e016df1bde8526d6420e8371d590bb2045376e97fd2a0d9f"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-05.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "db9cd6ddcd4869b83092df90fe9defc47b7dc562c9aab6eb2cdd72c616a314a8"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-06.receipt.json",
+      "bytes": 565,
+      "sha256": "c871a97047d5568e172f4f336e4a938f84833d41ced04540233fcc47d12f385f"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-06.zip",
+      "bytes": 15762,
+      "sha256": "3a4cc212587cd1b3825689e2648c3d7aa35520d3ad7bf00cefa623f1e1fd45f2"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-06.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "9f99bb6310a860f5dc516d0d840ac97971a9ea86eed143cabdf9603049c36968"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-07.receipt.json",
+      "bytes": 565,
+      "sha256": "553c2805e2d481d67af0588c75d67d82b746964f869928e572dca9e230595a3a"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-07.zip",
+      "bytes": 16295,
+      "sha256": "899276c38705d10dfece01531a63dac166aff361cffb9740a02c83d9eb1e5b97"
+    },
+    {
+      "path": "XRPUSDT/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2026-07.zip.CHECKSUM",
+      "bytes": 89,
+      "sha256": "3ff9ae211b0d80380715512ae7f1c35ab69990946ccc306b2c38444da0d422d2"
+    },
+    {
+      "path": "XRPUSDT/stopped.json",
+      "bytes": 402,
+      "sha256": "376926abfbbd05521eab059b3f647296ef0bc1e581ac15f2ed7d3236a04ab5e3"
+    },
+    {
+      "path": "collection-summary.json",
+      "bytes": 1381,
+      "sha256": "ea32fe29ec78e71578082246e52b09211fdb4b7fe18b18bf4daed346bcc20179"
+    }
+  ],
+  "status": "INCOMPLETE_NOT_REPLAY_ELIGIBLE",
+  "new_strategy_simulations": 0
+}

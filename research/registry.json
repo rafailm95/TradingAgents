@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T16:03:13.771099+00:00",
+  "updated_utc": "2026-10-17T16:13:39.374795+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -441,6 +441,38 @@
       ],
       "completed_utc": "2026-10-17T15:46:55.241576+00:00",
       "conclusion": "SOL OBV base+15.4401%,worst12+8.0266%/+802.66USDT,maxsampledDD21.0706%/2587.35USDT,13exits. SameOBV positiveall12 onBTC/SOL/XRP but nofullpass dueinsufficient exits. SOLmaincash;2025OBV,WFA-7.6530%base/-8.3440%stress. OtherSOL candidates failprofit/drawdown too. Prior021strictfailure retained; additive exact4458event scheduleaudited. No new forward evidence, Bybit claim, retuning or order."
+    },
+    {
+      "id": "023",
+      "status": "COLLECTION_ATTEMPT_CLOSED_DATA_BLOCKED",
+      "completed_utc": "2026-10-17T16:13:39.374795+00:00",
+      "protocol": "docs/FUTURES_CALENDAR_023.json",
+      "report": "docs/FUTURES_CALENDAR_023_RESULTS.md",
+      "results": "research/experiments/023",
+      "preregistration_commit": "771004075dbc50c9d631f91c08d076942e907dad",
+      "freeze_sha256": "1e0c382e9f9c665790c8e5ca4d25c82cfb159b015d65e45878fe286db79c7270",
+      "adapter_freeze_sha256": "55a83fe36669596c8be5da78c5ee05af47de626a61f4eaefed52f4783377cba3",
+      "new_variants": 0,
+      "new_historical_simulations": 0,
+      "data_eligibility_pass_fail": [
+        0,
+        3
+      ],
+      "strategy_pass_fail": null,
+      "unassessed_asset_candidate_pairs": 18,
+      "unassessed_eval_scenarios": 216,
+      "verified_archives": 66,
+      "software_tests": 73,
+      "new_tests": 35,
+      "attempts": [
+        {
+          "id": "023-initial",
+          "status": "ALL_THREE_ACCESS_BLOCKED_AUGUST_MARK_403",
+          "new_simulations": 0,
+          "retry_count": 0
+        }
+      ],
+      "conclusion": "66 official archives verified; perasset5832trade/5064mark/636funding. June29markday absent. Augustmark request403 stops eachasset. No shortenedwindow, pricefills, outcomes or retuning. Adapter23synthetictests passes; realinputfreeze absent. All previousresults preserved."
     }
   ],
   "prospective_cohorts": [
@@ -469,26 +501,20 @@
       "id": "013",
       "status": "ENGINE_FROZEN_AWAITING_SINGLE_HISTORICAL_PACKET",
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
+    },
+    {
+      "id": "023",
+      "status": "BLOCKED_PENDING_COMPLETE_INPUTS_NO_AUTOMATIC_RETRY",
+      "next": "Preserve initial023; resume only with a distinct permitted input acquisition and exact missing source hashes, no access bypass or shortened dates. Completeinputfreeze and selection checkpoint required.013prioritized if unifiedBybitpacket arrives."
     }
   ],
-  "active_experiment": {
-    "id": "023",
-    "status": "COLLECTION_PRE_REGISTERED_AWAITING_REMOTE_CHECKPOINT",
-    "attempt": "023-initial",
-    "protocol": "docs/FUTURES_CALENDAR_023.json",
-    "collection_freeze": "research/experiments/023/collection-freeze.json",
-    "collection_freeze_sha256": "1e0c382e9f9c665790c8e5ca4d25c82cfb159b015d65e45878fe286db79c7270",
-    "new_historical_simulations": 0,
-    "maximum_new_simulations": 270,
-    "new_variants": 0,
-    "collection_software_tests_passed": 50
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "7527 design scenario executions +7 prior integrity replays=7534 known executions;50 unique variants/25families.020adds32 executions and reuses24WFAfolds,32training,96fixed paths and5benchmarks. Reused/correlated histories are not independent evidence.",
+  "count_note": "7902 design scenario executions +7 prior integrity replays=7909 known executions;50 uniquevariants/25families.023 adds0 historicalexecutions,0variants;179 synthetic software executions do not count as research evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "After remote023collectionfreeze collect/audit new2026 data; preserve missingassets. Before anyPnL publish fullengine/source/test/inputfreeze, then trainingselection beforeevaluation. No unchanged021/022replays.013prioritized ifsingleBybitpacketavailable.",
+  "next_action": "Prioritize audit of unifiedBybitpacket for013.023 is data-blocked and cannot yieldPnL. While awaiting inputs, a future bounded distinct causal futures family may use unchanged fullyvalidated2022–2025 BTC/SOL/XRP histories under a separatelypublished024 freeze; no automatic rerun of023 or oldvariants.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
@@ -576,5 +602,8 @@
   "cumulative_known_executions_through_021": 7784,
   "cumulative_known_design_runs_through_022": 7902,
   "additional_integrity_replays_022": 0,
-  "cumulative_known_executions_through_022": 7909
+  "cumulative_known_executions_through_022": 7909,
+  "cumulative_known_design_runs_through_023": 7902,
+  "additional_integrity_replays_023": 0,
+  "cumulative_known_executions_through_023": 7909
 }
