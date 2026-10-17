@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/2884d1c5ce65/TradingAgents019/scripts/package_funding_futures_019.py", line 180, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/scratch/2884d1c5ce65/TradingAgents019/scripts/package_funding_futures_019.py", line 57, in main
+    raise ValueError('Output integrity failed: '+str(path))
+ValueError: Output integrity failed: /workspace/scratch/2884d1c5ce65/funding019-result-recovery/wfa_2024_venue_assumption_lag0_adverse1.json.gz

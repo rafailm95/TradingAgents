@@ -1,0 +1,11 @@
+{
+  "status": "SECOND_RECOVERY_PREREGISTERED_NOT_EXECUTED",
+  "original_freeze_sha256": "04c9fb5a8ea26ee1ed3640ec75f2ef524dd50ffce1f9603bbb261ce941ad541d",
+  "original_evaluation_sha256": "9b71fc05e3ab4f12b7036bba7e802e696e6b2e8057f7ed3d5a816a9c08df865c",
+  "file": "wfa_2024_venue_assumption_lag0_adverse1.json.gz",
+  "expected_result_sha256": "19ef0f55be943728ce1c3944e734d406fbc58e0598fffd6114541e4b8f0350e8",
+  "observed_first_recovery_size": 0,
+  "source_sha256": "a65910f88da9a5f1726d373695e793353744b62cd3faa9a512db0b144cb94bf7",
+  "planned_additional_integrity_replays": 1,
+  "purpose": "Only first recovered file became zero-byte again after matching originalSHA. Other3recoveredfilesverified. One bounded persistence change: deterministic in-memory bytes,fsyncedbase64envelope. Stop and report blocker if this fails. No source/rule/data changes."
+}
