@@ -1,0 +1,15 @@
+{
+  "remote_checkpoints": {
+    "preregistration": "2ab77e2141b849faa9f3bc676e509f38a5969fc5",
+    "train1_selection": "8a2f24bde58d017444cd93a0d660be36f450bb69",
+    "train2_selection": "fdcf0a759801e49ed8bd121b8c1faf9f4e392b01"
+  },
+  "transport_incidents": [
+    {
+      "operation": "read-only git ls-remote after train2 publish",
+      "status": "stalled and interrupted before evaluation process started",
+      "resolution": "Connected GitHub fetch_file on authorized branch confirmed published selection-train2 before separate evaluation launch. No strategy outcome rerun or source change."
+    }
+  ],
+  "bybit_packet_search": "Exact BYBIT_SEND_THIS.zip and Bybit title search found no new unified packet; previous36books/600funding remain preserved."
+}

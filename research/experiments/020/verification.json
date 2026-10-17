@@ -1,0 +1,39 @@
+{
+  "source_freeze_verified": "81bc0277b2adb9141b4a3a6aad92a72253949848a1d0926089aeaa70f8a6c74d",
+  "frozen_source_files": 5,
+  "preserved_files": 523,
+  "new_result_hashes_verified": 32,
+  "independent_wealth_events": 2786608,
+  "max_error_usdt": "0",
+  "input_sha256": "cccf3ff868465439ede973dd505c95d906c9e6eb9a9c31263c040fd053ccd00e",
+  "synthetic_tests_passed": 129,
+  "new_tests": 18,
+  "integrity_failures_this_batch": [],
+  "reused_paths": "32training+96fixed+5benchmarks+conditional WFA; allreadandhashaudited by frozen runner; none counted as new executions.",
+  "artifact_parts": [
+    {
+      "library_file_id": "libfile_a654db99312481919a642817c64809e7",
+      "sha256": "7d353533935df8b422b0cb6b7f1c27a9726e092f434cdf3af58b67284e559a30",
+      "bytes": 21915277
+    },
+    {
+      "library_file_id": "libfile_2fe1c4ef0d7881918e1334c326e9174f",
+      "sha256": "2c73a33652411e66551b28faf4071657eeb6a5661303add73eb7d98b1988725a",
+      "bytes": 20634673
+    },
+    {
+      "library_file_id": "libfile_df73f2c205788191b094ceefc9dc42fe",
+      "sha256": "02f88f3afd6e4dd4d5275e55e359bc3f2bf9ee2c3246f4705f53ccf9dc4e408e",
+      "bytes": 20784633
+    }
+  ],
+  "archive_members_byte_verified": 62,
+  "report_html_structure_verified": {
+    "tables": 4,
+    "rows": 55
+  },
+  "post_outcome_reporting_source_hashes": {
+    "scripts/package_nr7_futures_020.py": "2d9d610a2ecbef4fe639c4f64791b3ca7eb875f12caa41b9e792d9626db5ccab",
+    "scripts/archive_nr7_futures_020.py": "1f97421b421257da0a0a33f221c0e0a5261dc6573523e86c6ae1db2e5b56be04"
+  }
+}

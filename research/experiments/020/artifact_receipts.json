@@ -1,0 +1,60 @@
+{
+  "report": {
+    "local_path": "/workspace/scratch/2884d1c5ce65/Futures_020_NR7_EL.html",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_00000000d9c081f58711520ad48b1e96",
+    "library_file_id": "libfile_f02d3935414081919babbafc303eceff",
+    "file_name": "Futures_020_NR7_EL.html",
+    "local_metadata_applied": true,
+    "path": "/Futures_020_NR7_EL.html",
+    "current_version_number": 0,
+    "sha256": "0e22bf3b1c4a94cbb65555780604c6116970627dbbf3a43cdde644a765ff7335",
+    "bytes": 20878
+  },
+  "evidence_parts": [
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_020_Evidence_Part1.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000007d7881f5911b82288fea8a12",
+      "library_file_id": "libfile_a654db99312481919a642817c64809e7",
+      "file_name": "Futures_020_Evidence_Part1.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_020_Evidence_Part1.zip",
+      "current_version_number": 0,
+      "sha256": "7d353533935df8b422b0cb6b7f1c27a9726e092f434cdf3af58b67284e559a30",
+      "bytes": 21915277
+    },
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_020_Evidence_Part2.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000004a1c81f5833b82ccc9f3392f",
+      "library_file_id": "libfile_2fe1c4ef0d7881918e1334c326e9174f",
+      "file_name": "Futures_020_Evidence_Part2.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_020_Evidence_Part2.zip",
+      "current_version_number": 0,
+      "sha256": "2c73a33652411e66551b28faf4071657eeb6a5661303add73eb7d98b1988725a",
+      "bytes": 20634673
+    },
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_020_Evidence_Part3.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000b1b081f5850a7472706daef3",
+      "library_file_id": "libfile_df73f2c205788191b094ceefc9dc42fe",
+      "file_name": "Futures_020_Evidence_Part3.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_020_Evidence_Part3.zip",
+      "current_version_number": 0,
+      "sha256": "02f88f3afd6e4dd4d5275e55e359bc3f2bf9ee2c3246f4705f53ccf9dc4e408e",
+      "bytes": 20784633
+    }
+  ],
+  "evidence_complete": true,
+  "all_new_result_envelopes": 32,
+  "extract_all3_into_same_directory": true,
+  "reference_inputs": "research/experiments/020/reference_artifacts.json"
+}

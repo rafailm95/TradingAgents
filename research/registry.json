@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T12:31:38.606597+00:00",
+  "updated_utc": "2026-10-17T12:42:03.439209+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
-  "unique_signal_families": 24,
-  "unique_sizing_variants": 48,
+  "unique_signal_families": 25,
+  "unique_sizing_variants": 50,
   "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
   "completed": [
     {
@@ -222,6 +222,51 @@
       "wfa_scenario_failures": 8,
       "wealth_events": 5015876,
       "conclusion": "New funding+momentum family has34signal exits but negative lag0/lag1 and positive lag2;bothvariantsfailrobustness. Maintrain selects fixed50, evaluation-2.7158%base/-6.8173%stress. Expandingselectionchanges toOBV2025;WFA-22.9064%base/-24.9305%stress;lag2positivebutnotposthocpromotion. Preserve4initialzero-bytefailuresandone repeatedtruncation;5integrityreplays matchoriginalhashes,onefsyncedbase64envelope. No rulechangesornewforwardevidence."
+    },
+    {
+      "id": "020",
+      "status": "COMPLETED",
+      "family": "nr7_close10",
+      "new_variants": 2,
+      "new_signal_families": 1,
+      "new_historical_simulations": 32,
+      "new_integrity_replays": 0,
+      "reused_wfa_folds": 24,
+      "results": "research/experiments/020",
+      "report": "docs/NR7_FUTURES_020_RESULTS.md",
+      "freeze_sha256": "81bc0277b2adb9141b4a3a6aad92a72253949848a1d0926089aeaa70f8a6c74d",
+      "preregistration_commit": "2ab77e2141b849faa9f3bc676e509f38a5969fc5",
+      "selection1_commit": "8a2f24bde58d017444cd93a0d660be36f450bb69",
+      "selection2_commit": "fdcf0a759801e49ed8bd121b8c1faf9f4e392b01",
+      "selection1_sha256": "316418d95c59982fb936005ee47b5707581f1d4dbbc5d8fb58156c175a8b5220",
+      "selection2_sha256": "fdf33d8b03bf96ba2e64fca5dfaa325a8dd4c881568bce12a4043263f7718034",
+      "new_full_passes": 0,
+      "new_full_failures": 2,
+      "new_scenarios_pass_fail": [
+        2,
+        22
+      ],
+      "all10_full_pass_fail": [
+        0,
+        10
+      ],
+      "wfa_scenarios_pass_fail": [
+        4,
+        8
+      ],
+      "software_tests_passed": 129,
+      "new_wealth_audit_events": 2786608,
+      "max_wealth_error_usdt": "0",
+      "attempts": [
+        {
+          "id": "020-initial",
+          "status": "COMPLETED_NO_OUTCOME_REPLAY",
+          "preflight_tests": 129,
+          "new_simulations": 32
+        }
+      ],
+      "conclusion": "NR7fixed base+2.51754%/+251.75USDT but stress-1.31106%/-131.11 and worst-23.48888%/-2348.89;vol negative.29exits each. All10compatible futures fullgatesfail. Training choices and24WFAfolds identical019 and reused. No Bybit or prospective profitability; allpriorfiles/failures preserved.",
+      "artifact_receipts": "research/experiments/020/artifact_receipts.json"
     }
   ],
   "prospective_cohorts": [
@@ -252,37 +297,13 @@
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
     }
   ],
-  "active_experiment": {
-    "id": "020",
-    "status": "BOTH_TRAIN_SELECTIONS_FROZEN_AWAITING_EVALUATION",
-    "family": "nr7_close10",
-    "new_variants": 2,
-    "freeze_sha256": "81bc0277b2adb9141b4a3a6aad92a72253949848a1d0926089aeaa70f8a6c74d",
-    "attempts": [
-      {
-        "id": "020-initial",
-        "status": "BOTH_TRAIN_STAGES_COMPLETE",
-        "preflight_tests": 129
-      }
-    ],
-    "prior_counts": {
-      "variants": 48,
-      "families": 24,
-      "design_runs": 7495,
-      "known_executions": 7502
-    },
-    "preregistration_commit": "2ab77e2141b849faa9f3bc676e509f38a5969fc5",
-    "selection1_sha256": "316418d95c59982fb936005ee47b5707581f1d4dbbc5d8fb58156c175a8b5220",
-    "new_simulations_completed": 8,
-    "selection1_commit": "8a2f24bde58d017444cd93a0d660be36f450bb69",
-    "selection2_sha256": "fdf33d8b03bf96ba2e64fca5dfaa325a8dd4c881568bce12a4043263f7718034"
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "7495researchdesignscenarioexecutions+2old017and5new019integrityrecoveries=7502knownexecutions;48uniquevariants/24families.01877diagnosticpathsarenotstrategyreplays. Reused/correlatedhistories andscenariosarenotindependentsamples.",
+  "count_note": "7527 design scenario executions +7 prior integrity replays=7534 known executions;50 unique variants/25families.020adds32 executions and reuses24WFAfolds,32training,96fixed paths and5benchmarks. Reused/correlated histories are not independent evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "PrioritizefrozenBybit013onsinglepacketarrival. Otherwiseoneboundedpreregisteredaudit/extensionofnativefutures2026closedprice,mark,fundingdataforunchangedrules. No019retuningorautomaticpromotion.",
+  "next_action": "Prioritize frozen013 after singleBybitpacket audit. Otherwise preregister one bounded2026nativefutures price/mark/funding extension for unchanged rules before any PnL. No020retuning, unchanged reruns for profit or automatic promotion.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
@@ -361,5 +382,8 @@
   ],
   "cumulative_known_design_runs_through_019": 7495,
   "additional_integrity_replays_019": 5,
-  "cumulative_known_executions_through_019": 7502
+  "cumulative_known_executions_through_019": 7502,
+  "cumulative_known_design_runs_through_020": 7527,
+  "additional_integrity_replays_020": 0,
+  "cumulative_known_executions_through_020": 7534
 }
