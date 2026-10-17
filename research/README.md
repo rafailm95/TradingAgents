@@ -28,3 +28,7 @@ One NR7 daily-close family, two unchanged sizings, ETHUSDT native Binance future
 ## Batch020 completed —2026-10-17
 
 32new native BinanceETHUSDT historical scenario executions;2new NR7 variants,50total in25families.0/2new and0/10compatible fullpasses;2/24new scenario passes.29signal exits each. Fixed50base+2.51754% (+251.75USDT),stress-1.31106% (-131.11),worst-23.48888% (-2348.89);maxDD35.11084%/3649.76actualUSDT. Volbase-0.94150% (-94.15),stress-2.63181% (-263.18),worst-13.48369% (-1348.37),maxDD19.03437%/1948.37. Train-only choices remain019funding→OBV;24identical WFAfolds reused,4/12scenario passes and fullfailure.129tests/2,786,608independentwealth events,zeroerror.7527design+7priorintegrityreplays=7534knownexecutions. Full results/failures in `docs/NR7_FUTURES_020_RESULTS.md` and `research/experiments/020`. No new prospective evidence or orders.
+
+## Batch021 user-directed futures asset extension
+
+BTCUSDT,SOLUSDT,XRPUSDT, native Binance2022–2025. Six existing017variants unchanged; maximum375scenarioexecutions ifallthreeassetscomplete. Collection/access/coverage first, then separate exact engine/inputfreeze before any PnL.124synthetictests13new. No newvariant or prospectivecohort. SingleBybitpacket and013design unchanged.

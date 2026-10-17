@@ -1,0 +1,13 @@
+{
+  "symbol": "BTCUSDT",
+  "period": "2023-02",
+  "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1h/BTCUSDT-1h-2023-02.zip",
+  "started_utc": "2026-10-17T13:20:57.650674+00:00",
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "bytes": 20177,
+  "sha256": "f15d23370f252082d8741819800b82f62ac8bbc9001b53ab6abb5d65ccb3ed3d",
+  "zip_magic": true,
+  "error": null,
+  "raw_file": "BTCUSDT-2023-02.response"
+}

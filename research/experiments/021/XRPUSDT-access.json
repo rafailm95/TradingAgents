@@ -1,0 +1,13 @@
+{
+  "symbol": "XRPUSDT",
+  "period": "2022-01",
+  "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/XRPUSDT/1h/XRPUSDT-1h-2022-01.zip",
+  "started_utc": "2026-10-17T13:20:57.652451+00:00",
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "bytes": 17095,
+  "sha256": "5e8cc78856a281c9bc48d0a5798de6a043549f1aaa830983bbe1146bd02b586a",
+  "zip_magic": true,
+  "error": null,
+  "raw_file": "XRPUSDT-2022-01.response"
+}

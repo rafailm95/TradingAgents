@@ -1,0 +1,19 @@
+{
+  "experiment": "021",
+  "stage": "COLLECTION_ONLY_NO_STRATEGY_PNL",
+  "remote_starting_head": "7efe79d32f823ff5fb755dfe15b4ee1ee39a4c35",
+  "created_utc": "2026-10-17T13:26:02.130323+00:00",
+  "source_hashes": {
+    "docs/FUTURES_ASSETS_021.json": "cacbef206a025f5cfb87ab556ab9486b73dce28cc1891e7500c24510eab55866",
+    "tradingagents/binance_assets_021.py": "7fdb7d04d98f3c333d2f9b5e7796d071a72ebd1dd91ee2ac8b7a3fdebe905f1c",
+    "scripts/collect_futures_assets_021.py": "541542a9f053f34100cf05a560e48e4bfd04785ecd9d3b93edbda926b3cb5274",
+    "tests/test_futures_assets_021.py": "c0adce1928cd079ddb42e06bf7b958cc2d8c516d1105333fa017052442272ee4",
+    "research/experiments/021/collection-preflight.json": "e883d48bc479ea1f5f95d4c55713e2a350cec2ca1eb05c381681eb9892d0ca2d"
+  },
+  "probe_hashes": {
+    "BTCUSDT": "f15d23370f252082d8741819800b82f62ac8bbc9001b53ab6abb5d65ccb3ed3d",
+    "SOLUSDT": "6c85571fc2e2172bcdae45cdc3a46e8e4167b21c61edea8888f94096e05d5c0c",
+    "XRPUSDT": "5e8cc78856a281c9bc48d0a5798de6a043549f1aaa830983bbe1146bd02b586a"
+  },
+  "input_hashes_pending_full_audit": true
+}

@@ -1,0 +1,12 @@
+{
+  "remote_head": "7efe79d32f823ff5fb755dfe15b4ee1ee39a4c35",
+  "verified_tree": "d55fa72f3208afeb081da8ff58fe39f7acdf83f9",
+  "method": "Freshcheckout of locallycached Gitobjects; root tree matchedcurrentremotehead obtainedthroughconnectedGitHubApp. Cached objects verifiedbyGitobjecthash, no reliance on uncommittedfiles.",
+  "transport_failures": [
+    "git.chatgpt-team.site clone requiredunavailableauthentication",
+    "github.com clone timedout after90seconds",
+    "Attempt to reconstruct remotecommit metadata didnotmatch originalcommitSHA; rejected withoutacceptingobject. Fresh cachedtree usedonly after exactremote-tree match."
+  ],
+  "local_cached_mirror_head": "db1617ae1b59bdc5fd19c6f468b951dc739cee48",
+  "real_strategy_outcomes_computed": false
+}

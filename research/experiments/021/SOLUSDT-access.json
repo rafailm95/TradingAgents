@@ -1,0 +1,13 @@
+{
+  "symbol": "SOLUSDT",
+  "period": "2022-01",
+  "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/SOLUSDT/1h/SOLUSDT-1h-2022-01.zip",
+  "started_utc": "2026-10-17T13:20:57.651371+00:00",
+  "status": 200,
+  "content_type": "binary/octet-stream",
+  "bytes": 20599,
+  "sha256": "6c85571fc2e2172bcdae45cdc3a46e8e4167b21c61edea8888f94096e05d5c0c",
+  "zip_magic": true,
+  "error": null,
+  "raw_file": "SOLUSDT-2022-01.response"
+}

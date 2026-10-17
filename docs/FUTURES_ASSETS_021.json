@@ -1,0 +1,95 @@
+{
+  "schema": "futures_assets_021_v1",
+  "authorization": "User2026-10-17explicitly requests continuing futures and addingBTC,SOL,XRP. This additively expands asset scope; no modification of prior sources/cohorts.",
+  "symbols": [
+    "BTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "venue": "Binance USD-M native perpetual histories; NOTBybit results",
+  "new_strategy_variants": 0,
+  "existing_variants": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50"
+  ],
+  "hypothesis": "Transfer allsix017frozen signal variants unchanged to three user-selected assets. Test positive ETH leads and failed variants together; no best-only selection or parameter fitting. Samecalendar dates are correlated and posthocasset/familyselection is not independent validation.",
+  "data": {
+    "start_inclusive": "2022-01-01T00:00:00Z",
+    "end_exclusive": "2026-01-01T00:00:00Z",
+    "timeframe": "1h trade andmark; dailyclosed signal",
+    "expected_hours_per_series_per_asset": 35064,
+    "expected_funding_events_per_asset": 4383,
+    "funding": "Actualsource8hourcadence,rawtimestamp retained; <60seconds afterslot mapped to nominal00/08/16UTC with positions unchanged until01UTC. Changedcadence/missingevent blocks replay.",
+    "max_monthly_archives": 432,
+    "max_daily_recovery_archives": 60,
+    "max_public_GETs_including_three_probes": 984,
+    "recovery_rule": "Atmost10missing candle-kind UTCdays perasset; officialdailyfor eachmissingday plus previousdayinsidemonth ornextdayiffirstday. Checkeveryoverlapexactly. Noimputation, nofundingrepair/inferredrates.",
+    "access_rule": "GETonly officialdata.binance.vision, noauth/orders, no redirects, no retries afterfailure; stop affectedassetandretainresponse. Other independentassetsmaycomplete. SuccessfulthreeprobesreusedwithSHAandpublishedchecksum; neverredownloadfornicerresults.",
+    "eligibility": "Fulltrade/mark/fundinggrid andhashcoverage required BEFOREoutcomes. Incompleteasset excludedwithallgapsretained; never shortenwindow afterseeingPnL."
+  },
+  "sources": [
+    {
+      "url": "https://github.com/binance/binance-public-data",
+      "retrieved_date": "2026-10-17",
+      "supports": "Officialarchives, monthly/dailyformat,publishedSHA256checksums. Noexecutionorprofitguarantee."
+    },
+    {
+      "path": "docs/BINANCE_PERPETUAL_017.json",
+      "supports": "Existingfrozen6variants and nativeperpetualassumptions"
+    },
+    {
+      "path": "tradingagents/futures_replay_019.py",
+      "supports": "ValidatedDecimalcapitalcarry/wealthaccounting"
+    }
+  ],
+  "windows": {
+    "warmup": "2022",
+    "train1": "2023-01-01..2023-12-31",
+    "train2": "2023-01-01..2024-12-31",
+    "fixed_evaluation": "2024-01-01..2025-12-31",
+    "expanding_walk_forward_folds": [
+      "2024",
+      "2025"
+    ]
+  },
+  "execution": {
+    "initial_usdt_per_independent_asset": 10000,
+    "position": "longorflat,50%entrycap,fullycash-backedguard;no leveragedliquidationmodel",
+    "signal": "Unchanged017dailyclosedrules; executeD+1+lag at01UTC;lag0/1/2",
+    "baseline_fee_slippage_bps_side": [
+      5.5,
+      2
+    ],
+    "stress_fee_slippage_bps_side": [
+      10,
+      10
+    ],
+    "opex_usdt_per_365_25days": 120,
+    "funding_sensitivities": [
+      "nominalhour-openmark",
+      "adverse5bpsvaluation"
+    ],
+    "filters": "Sameexplicit hypotheticalfine-lotfilters as017,not observed venue/account rules; noexchangeInfo retry inthisbatch",
+    "limitations": "Nohistoricalorderbook/fills/personalfeetier/margin confirmation. Intrahourhighloworderunknown;do notclaimrealizedintrabarDD. USDTneverrelabeledUSD."
+  },
+  "selection": "Perasset allsix bothcosts lag0 nominalfunding; positive net,DD<=35%,>=10signal/timeexits,completewealthevents. Rankstressannualizednet/max(stressDD,1%),lexicographicIDtie;elsecash. Publishtrain1selectionbeforetrain2;publishtrain2selectionbeforeevaluation.",
+  "gates": "All12evaluationcost*lag*fundingscenariospositive net,DD<=35%,>=20signal/timeexits,completecoverage/wealthaudit. Forcedterminalclosesdo notcount. SameaggregateWFAgates. Crossassetfullpassrequiresallthreeassetscompleteandpassed;missingassetisnotapass. Historicalscreenneverforwardvalidation.",
+  "WFA": "ExactDecimalcapitalcarry from10000once; annualterminalflattenwithcost; nextyearstartspriorcash. Managedcashpays120/year. Noannualcapitalreset.",
+  "benchmarks": "Perassetcash0expense;50%perpetualhold under2costs*2fundingvaluations,realratesand120/yearopex,terminalclose.5benchmarkspereligibleasset.",
+  "matrix_per_eligible_asset": {
+    "train1": 12,
+    "train2": 12,
+    "fixed_evaluation": 72,
+    "WFA_folds": 24,
+    "benchmarks": 5,
+    "total": 125
+  },
+  "maximum_new_design_executions": 375,
+  "multiplicity": "All6testedvariants pereligibleasset andjointalignedasset-candidatepanel versus matchedcash/hold50 using30daycircularblockmaxmean,2000resamples,seed20261017,actualopex. Prior50uniquevariants/25families/7527design+7integrityreplays=7534executions; allpriorsearch/designnotcorrected. OldETH10variantdiagnosticskeptasreference; do not poolincompatibleUSDspot.",
+  "publication": "Collectionimplementation/tests frozenbeforefullcollection. Additiveengine+normalizedinputSHAfreeze publishedbeforeanynewstrategyPnL. Preservealloldfreezes andpublishcompletefailedoutcomes plusdurablefullartifacts.",
+  "next_priority": "SingleBybitpacket audit013whenavailable; donotchange014collectororrequestserialuploads."
+}

@@ -297,7 +297,28 @@
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "021",
+    "status": "COLLECTION_PREREGISTERED_NO_PNL",
+    "protocol": "docs/FUTURES_ASSETS_021.json",
+    "symbols": [
+      "BTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "existing_variants": 6,
+    "new_variants": 0,
+    "maximum_new_runs": 375,
+    "collection_freeze_sha256": "aee91a12bc07c066dc99f722b38cc780845e9084be1456118cb4e0bdbeab4ce5",
+    "attempts": [
+      {
+        "id": "021-initial",
+        "status": "COLLECTION_READY",
+        "new_simulations": 0
+      }
+    ],
+    "user_asset_extension": "BTC,SOL,XRPexplicit2026-10-17; allpriorfreezesremainunchanged"
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,

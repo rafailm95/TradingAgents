@@ -1,0 +1,8 @@
+{
+  "tests_passed": 124,
+  "new_tests": 13,
+  "synthetic_only": true,
+  "command": "python -m pytest --noconftest -q tests/test_bybit_cashflow.py tests/test_bybit_replay.py tests/test_binance_archive.py tests/test_funding_futures_019.py tests/test_futures_assets_021.py",
+  "stdout": "........................................................................ [ 58%]\n....................................................                     [100%]\n124 passed in 17.18s\n",
+  "failures": []
+}
