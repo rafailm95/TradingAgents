@@ -228,7 +228,7 @@
   ],
   "active_experiment": {
     "id": "019",
-    "status": "TRAIN1_COMPLETE_AWAITING_SELECTION_PUBLICATION",
+    "status": "TRAIN2_COMPLETE_AWAITING_SELECTION_PUBLICATION",
     "protocol": "docs/FUNDING_FUTURES_019.json",
     "freeze_sha256": "04c9fb5a8ea26ee1ed3640ec75f2ef524dd50ffce1f9603bbb261ce941ad541d",
     "new_families": 1,
@@ -237,7 +237,9 @@
     "preserved_unfinished": "013awaitssingleBybitpacket",
     "remote_freeze_commit": "4119be986ec89e9ab5288aaa3e3121a8a99d7ce3",
     "selection1_sha256": "569510dbbe40d2a121d55cfe5ba2fd553719a31e2c80cb8e1bbcd04e3cd975bc",
-    "completed_new_simulations": 4
+    "completed_new_simulations": 20,
+    "remote_selection1_commit": "ba36d9cd4621d3bb81807a3127e3ee85b78c97d0",
+    "selection2_sha256": "841a467ecff8f93cfe276b366ba6a01eb8d37abdf4f928d722230179353b8f9f"
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
