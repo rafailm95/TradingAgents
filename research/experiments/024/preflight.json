@@ -1,0 +1,22 @@
+{
+  "new_tests": 88,
+  "passed": 88,
+  "initial_failures": [],
+  "logs": [
+    {
+      "path": "research/experiments/024/signals-preflight-attempt1.log",
+      "sha256": "ab0e55b24b1a54ad0c9bd74c8e3d37f139c04d2d7d02649078dcd9476af3ce6e",
+      "passed": 85
+    },
+    {
+      "path": "research/experiments/024/runner-preflight-attempt1.log",
+      "sha256": "92e4e6be6a278c619aca84872209cef3d24881db1e3b838240e8149381bbebc0",
+      "passed": 3
+    }
+  ],
+  "commands": [
+    "python -m pytest --noconftest -q tests/test_multifamily_futures_024.py",
+    "python -m pytest --noconftest -q tests/test_multifamily_runner_024.py"
+  ],
+  "fixtures": "Syntheticonly; full20newvariants matrix,oldreuse/changedWFAprefix,mathoracles,all20sizings*3lags,causality. No historical outcomes."
+}

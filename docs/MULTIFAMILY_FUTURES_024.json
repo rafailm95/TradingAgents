@@ -1,0 +1,237 @@
+{
+  "experiment": "024",
+  "authorization": {
+    "user_request": "Sinexise ke ales erevnes ke ales strategies dokimase tulaxisto 10 me 30",
+    "interpretation": "One bounded batch of10new signal families and2existing sizings=20unique variants. This explicit request supersedes older onefamily/max6variant periteration cap only for this batch; all finance, publication and preservation controls remain."
+  },
+  "classification": "Exploratory reused-history Binance USD-M futures, not Bybit or prospective validation. No shorts, orders, credentials or paidservices.",
+  "symbols": [
+    "BTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "families": [
+    {
+      "id": "vortex14_cross",
+      "indicator": "VI+14=sum(abs(H-Lprev),14)/sum(TR,14); VI-14=sum(abs(L-Hprev),14)/sum(TR,14).",
+      "entry_after_closed_day": "VI+ crosses above VI- AND C>SMA200.",
+      "exit_after_closed_day": "VI+<VI- OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Directional high/low cross-movement differs from priorADX and Aroon signals.",
+      "source": "https://www.tradingview.com/support/solutions/43000591352-vortex-indicator/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "tsi25_13_cross",
+      "indicator": "TSI=100*EMA13(EMA25(deltaC))/EMA13(EMA25(abs(deltaC))); signal=EMA7(TSI).",
+      "entry_after_closed_day": "TSI crosses above signal AND TSI>0 AND C>SMA200.",
+      "exit_after_closed_day": "TSI<signal OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Double-smoothed normalized price momentum differs from MACD moving-price spread.",
+      "source": "https://www.tradingview.com/support/solutions/43000592290-true-strength-index/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "ao_saucer",
+      "indicator": "AO=SMA5((H+L)/2)-SMA34((H+L)/2).",
+      "entry_after_closed_day": "AO>0;AO_t>AO_t-1<AO_t-2<AO_t-3;C>SMA200.",
+      "exit_after_closed_day": "AO_t<AO_t-1<AO_t-2 OR C<SMA200.",
+      "max_actual_holding_days": 10,
+      "distinct_rationale": "Positive-momentum saucer after two declines, not MACD or generic zero cross.",
+      "source": "https://www.tradingview.com/support/solutions/43000501826-awesome-oscillator-ao/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "fisher10_turn",
+      "indicator": "M=(H+L)/2. Normalize rolling10 M range to[-1,1], flat range0. x=clip(.33*norm+.67*xprev,+/-.999), initialx0. F=.5ln((1+x)/(1-x))+.5Fprev, initialF0 after firstcomplete10window.",
+      "entry_after_closed_day": "F_t>F_t-1 AND F_t-1<=F_t-2 AND F_t-1<-1 AND C>SMA200.",
+      "exit_after_closed_day": "F_t<F_t-1 OR C<SMA200.",
+      "max_actual_holding_days": 10,
+      "distinct_rationale": "Nonlinear bounded-price transform reversal; not CCI/Bollinger standardization.",
+      "source": "https://www.tradingview.com/support/solutions/43000589141-fisher-transform/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "heikin2_trend",
+      "indicator": "HAclose=(O+H+L+C)/4;HAopen0=(O0+C0)/2;HAopen_t=(HAopenprev+HAcloseprev)/2;green=HAclose>HAopen.",
+      "entry_after_closed_day": "green_t AND green_t-1 AND NOTgreen_t-2 AND C>SMA200.",
+      "exit_after_closed_day": "HAclose<HAopen OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Smoothed candle sequence; syntheticHAprices are features ONLY, every fill uses real hourly trade prices.",
+      "source": "https://www.tradingview.com/support/solutions/43000619436-understanding-heikin-ashi-charts/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "vwma20_reclaim",
+      "indicator": "VWMA20=sum(C*V,20)/sum(V,20);zero totalvolume ->NaN.",
+      "entry_after_closed_day": "C crosses above VWMA20 AND VWMA20>SMA20 AND C>SMA200.",
+      "exit_after_closed_day": "C<VWMA20 OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Price reclaim of volume-weighted level with volume-bias confirmation; distinct from OBV/CMF.",
+      "source": "https://www.tradingview.com/support/solutions/43000592293-volume-weighted-moving-average-vwma/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "ultimate_rebound",
+      "indicator": "BP=C-min(L,Cprev);TR=max(H,Cprev)-min(L,Cprev);UO=100*(4*sumBP7/sumTR7+2*sumBP14/sumTR14+sumBP28/sumTR28)/7;zeroTR neutral.5.",
+      "entry_after_closed_day": "UO crosses above30 AND C>SMA200.",
+      "exit_after_closed_day": "UO>50 OR C<SMA200.",
+      "max_actual_holding_days": 10,
+      "distinct_rationale": "Three-horizon buying-pressure rebound; no discretionary divergence or retroactive pivots.",
+      "source": "https://www.tradingview.com/support/solutions/43000502328-ultimate-oscillator-uo/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "chop14_release",
+      "indicator": "CHOP14=100*log10(sumTR14/(maxH14-minL14))/log10(14);zero range neutral100.",
+      "entry_after_closed_day": "max(CHOP over prior10days)>=61.8 AND CHOP_t<38.2 AND C>maxH over prior20days AND C>SMA200.",
+      "exit_after_closed_day": "C<SMA20 OR CHOP>61.8 OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Path-length/range transition gates breakout; distinct from Bollingercompression and NR7 single-dayrange.",
+      "source": "https://www.tradingview.com/support/solutions/43000501980-choppiness-index-chop/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "force2_pullback",
+      "indicator": "Force2=EMA2(deltaC*V);EMA13=EMA13(C).",
+      "entry_after_closed_day": "Force2<0 AND EMA13_t>EMA13_t-1 AND C>SMA200.",
+      "exit_after_closed_day": "Force2>0 OR C<SMA200.",
+      "max_actual_holding_days": 10,
+      "distinct_rationale": "Volume-weighted short correction in rising trend; unlike OBV cumulative breakout/CMF close location.",
+      "source": "https://www.tradingview.com/support/solutions/43000502259-elder-s-force-index-efi/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    },
+    {
+      "id": "eom14_confirm",
+      "indicator": "EOM14=SMA14(delta((H+L)/2)*(H-L)/V);V0 ->NaN;positive scaling1e8 omitted because only signcross is used.",
+      "entry_after_closed_day": "EOM crosses above0 AND C>SMA50 AND C>SMA200.",
+      "exit_after_closed_day": "EOM<0 OR C<SMA50 OR C<SMA200.",
+      "max_actual_holding_days": 20,
+      "distinct_rationale": "Price-range displacement per volume; distinct from cumulative/signed volume indicators.",
+      "source": "https://www.tradingview.com/support/solutions/43000502256-ease-of-movement-eom/",
+      "source_retrieved_utc_date": "2026-10-17",
+      "source_scope": "Official software indicator documentation; exact entry/exit/filter design is our hypothesis, not a cited profitability claim."
+    }
+  ],
+  "new_candidates": [
+    "vortex14_cross__fixed50",
+    "vortex14_cross__vol15_cap50",
+    "tsi25_13_cross__fixed50",
+    "tsi25_13_cross__vol15_cap50",
+    "ao_saucer__fixed50",
+    "ao_saucer__vol15_cap50",
+    "fisher10_turn__fixed50",
+    "fisher10_turn__vol15_cap50",
+    "heikin2_trend__fixed50",
+    "heikin2_trend__vol15_cap50",
+    "vwma20_reclaim__fixed50",
+    "vwma20_reclaim__vol15_cap50",
+    "ultimate_rebound__fixed50",
+    "ultimate_rebound__vol15_cap50",
+    "chop14_release__fixed50",
+    "chop14_release__vol15_cap50",
+    "force2_pullback__fixed50",
+    "force2_pullback__vol15_cap50",
+    "eom14_confirm__fixed50",
+    "eom14_confirm__vol15_cap50"
+  ],
+  "all_compatible_candidates_per_asset": [
+    "sma200_band__vol15_cap50",
+    "regression_trend__fixed50",
+    "keltner_breakout__fixed50",
+    "obv_breakout__fixed50",
+    "aroon_trend__fixed50",
+    "cci_reversion__fixed50",
+    "vortex14_cross__fixed50",
+    "vortex14_cross__vol15_cap50",
+    "tsi25_13_cross__fixed50",
+    "tsi25_13_cross__vol15_cap50",
+    "ao_saucer__fixed50",
+    "ao_saucer__vol15_cap50",
+    "fisher10_turn__fixed50",
+    "fisher10_turn__vol15_cap50",
+    "heikin2_trend__fixed50",
+    "heikin2_trend__vol15_cap50",
+    "vwma20_reclaim__fixed50",
+    "vwma20_reclaim__vol15_cap50",
+    "ultimate_rebound__fixed50",
+    "ultimate_rebound__vol15_cap50",
+    "chop14_release__fixed50",
+    "chop14_release__vol15_cap50",
+    "force2_pullback__fixed50",
+    "force2_pullback__vol15_cap50",
+    "eom14_confirm__fixed50",
+    "eom14_confirm__vol15_cap50"
+  ],
+  "new_unique_variants": 20,
+  "total_unique_variants_after_completion": 70,
+  "new_families": 10,
+  "total_families_after_completion": 35,
+  "math_conventions": "Allwindows trailing incl current closedday except explicitlyprior windows shifted1. EMA adjust=False, firstfinitevalue seed; standardTR absolute gaps. NaN comparisons false; exit wins simultaneoussignals. vol60 std dailyreturns ddof1*sqrt365.25. Full2022prefix retained for recursion; no backfill/centered/pivotfuture data.",
+  "sizings": {
+    "fixed50": "50%ofavailablecash atentry, no rebalance",
+    "vol15_cap50": "min(.5,.15/vol60) atentry, same causal laggedvol as frozen019; invalidvol skipsentry"
+  },
+  "data": {
+    "start_inclusive": "2022-01-01T00:00:00Z",
+    "end_exclusive": "2026-01-01T00:00:00Z",
+    "timeframe": "Hourly genuine trade/mark and actual timestampfunding; dailyclosed signals",
+    "cutoff": "2025-12-31",
+    "provenance": "Unchanged audited021BTC/XRP and022SOL normalizedinputs. 35064trade+mark hours/asset. BTC/XRP4383fundingevents each;SOL4458actual8/4/2hschedule. No newrequests/redownload/replacement. Existingraw/normalizedLibraryreceipts remain authoritative; local copies only hash-verified caches.",
+    "coverage": "Allhourlygrids and funding complete underfrozenvenuecontracts. Historicalorderbooks/fills/accountfees andhistoricaltickrules unavailable. Hypotheticalfine-lot assumptions retained."
+  },
+  "windows": {
+    "warmup": "2022",
+    "train1": "2023-01-01..2023-12-31",
+    "train2": "2023-01-01..2024-12-31",
+    "fixed_evaluation": "2024-01-01..2025-12-31",
+    "expanding_WFA": "2024usestrain1;2025usestrain2;terminalcloseeachyearandcarryexactnetcash. Evaluationyears reusedfromold research andalsooverlaptrain2; not pristineholdout or prospective evidence."
+  },
+  "execution": {
+    "capital_per_independent_asset_candidate_usdt": 10000,
+    "exposure": "longorflat,50%entrycap, fullycash-backedguard, noleveragedliquidationmodel",
+    "signal_timing": "DayDclosed; executeD+1+lag01UTC;lag0/1/2;holdingtime countedactualelapsed days;terminalflatten costs included",
+    "base_fee_slippage_bps_side": [
+      5.5,
+      2
+    ],
+    "stress_fee_slippage_bps_side": [
+      10,
+      10
+    ],
+    "operating_expense_usdt_per_365_25days": 120,
+    "funding": "Everyactualheldquantity settlement;hour-openmarkproxy andadverse5bpsvaluation, sourceclockjitterretained. Noinventedpayments.",
+    "drawdown": "Actualsampledequity peaks/troughs, exactUSDT;maxcashDDseparate. Unknownintrahourhighloworder notclaimedrealized."
+  },
+  "selection": "All26compatible candidates,12oldtrainresults reusedperasset/stage. Bothcosts nominalfunding lag0 must beCOMPLETE,net>0,DD<=35%,>=10signal/timeexits,auditPASS. Rankstressannualizedreturn/max(stressDD,1%),lexicographicIDtie;elsecash. Publishselection1 beforetrain2, selection2 beforeevaluation. No PnL-driven parameterchanges.",
+  "gates": "Eachcandidate must passall12cost*lag*fundingcases:net>0 afterallcosts,DD<=35%,>=20signal/timeexits,completecoverage/accountingaudit. Terminalforcedcloseexcluded. Crossassetfullpass requiresall3assets.20exits isoperationalminimum notstatisticalproof;35%researchceilingnotpersonalriskconfirmation.",
+  "benchmarks": "Reuse exactold5perasset cashidle0expense andhold50bothcosts*fundingallfees/opex. Mainselectorcash getsone separatelycosted managedcashrun perasset ifneeded;never relabelidlecash asmanagedpolicy.",
+  "matrix": {
+    "new_train1": 120,
+    "new_train2": 120,
+    "new_fixed_evaluation": 720,
+    "conditional_new_WFA_folds_max": 72,
+    "conditional_managed_cash_max": 3,
+    "maximum_new_historical_executions": 1035,
+    "new_asset_candidate_pairs": 60,
+    "all_compatible_asset_candidate_pairs": 78,
+    "reused_old_training_results": 72,
+    "reused_old_evaluation_scenarios": 216,
+    "reused_benchmarks": 15,
+    "WFA_reuse": "Reuse oldfullfold onlyif chosencandidate,cost,lag,funding,dates andexactopeningcashmatch;verifycontainer+decodedhash/independentwealth. Otherwisecomputechangedpath. No oldstrategyfixedreruns."
+  },
+  "multiplicity": "All26perasset andjoint78matching731dailyreturns vsidlecash andmatchedcosthold50, actualopex included;30daycircularblocks,2000resamples,seed20261017. Keepold ETH10/spot40diagnosticsseparate because incompatibleassets/contracts. Prior50variants/25families/7909knownexecutions and familychoice notfullycorrected. Correlatedhistories/sizings are notindependent discoveries.",
+  "positive_discovery": "Retain everyvariant andfailedgate. Pareto minimumall12net/maxall12DD,shortlist max3distinctfamilies perasset (preferhigherminnet thenID). Showstrongestposthoc separatelyfromtrainselected/WFA. Noautomaticpaperpromotion.",
+  "preserve": "All659priortrackedfiles exceptmutable registry;013/014/023freezes andbothprospectivepins unchanged;noPHOENIXaccess,main/upstream/PRs.",
+  "future_gate": "180calendar days AND20completed exits,positivenetliquidation bothcosts afteropex,DD<=35%,>=95%coverage,nopending/integrityfailures;monitoringmilestoneonly. None reached.",
+  "publication": "Exactsource/test/inputhashfreeze remote before anynewrealPnL;selectionstagehashes remote beforeevaluation;alloutcomes/failures durable, expectedHEADforcefalse."
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T16:13:39.374795+00:00",
+  "updated_utc": "2026-10-17T16:34:28.915277+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -508,13 +508,26 @@
       "next": "Preserve initial023; resume only with a distinct permitted input acquisition and exact missing source hashes, no access bypass or shortened dates. Completeinputfreeze and selection checkpoint required.013prioritized if unifiedBybitpacket arrives."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "024",
+    "attempt": "024-initial",
+    "status": "PREREGISTERED_AWAITING_REMOTE_CHECKPOINT",
+    "new_families": 10,
+    "new_variants": 20,
+    "planned_total_variants": 70,
+    "protocol": "docs/MULTIFAMILY_FUTURES_024.json",
+    "freeze_sha256": "ff166e2a69fdb339319ed9a6ee7f09d0e1f977c48a7527e50216e45552dae812",
+    "maximum_new_executions": 1035,
+    "new_historical_simulations": 0,
+    "software_tests": 88,
+    "latest_user_scope_override": "2026-10-17user explicitlyasks10to30strategies;onebatch20variants/10families."
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "7902 design scenario executions +7 prior integrity replays=7909 known executions;50 uniquevariants/25families.023 adds0 historicalexecutions,0variants;179 synthetic software executions do not count as research evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Prioritize audit of unifiedBybitpacket for013.023 is data-blocked and cannot yieldPnL. While awaiting inputs, a future bounded distinct causal futures family may use unchanged fullyvalidated2022–2025 BTC/SOL/XRP histories under a separatelypublished024 freeze; no automatic rerun of023 or oldvariants.",
+  "next_action": "Publish024freeze then train1, publishselection1,train2,publishselection2,evaluateall20newvariants/all3assets withall12cases. Reuseallcompatibleoldoutcomes. No retuning;keep allfailures.013priorityifBybitpacketarrives;023 remainsdata-blocked.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
