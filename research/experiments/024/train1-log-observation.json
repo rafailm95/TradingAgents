@@ -1,0 +1,11 @@
+{
+  "stage": "train1",
+  "expected_candidate_progress_lines": 60,
+  "observed_progress_lines": 38,
+  "original_log_sha256": "61ca8ef8c86b158db09a970b7412e6f18d7f0011c454fb3ed65f9c2bcf88dce9",
+  "original_log_bytes": 1516,
+  "cause": "Unknown; redirected progress log is shorter than the frozen loop would print. No accepted result missing.",
+  "complete_new_results_independently_read_and_audited": 120,
+  "selection_sha256": "354db42cacfa74c2a9d349b4f7717265e5565703ea05d0735b75ee92b377834b",
+  "action": "Preserve original log and observation; no output reconstruction, no strategy replay, no rulechange."
+}
