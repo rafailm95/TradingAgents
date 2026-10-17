@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-17T18:35:41.350122+00:00",
+  "reason": "Presentation adds strongestNEWcandidate perasset with allfailuregates, alongside all46candidate Pareto/selection tables. No strategy/metric/gate change and no evaluationPnL inspected when adding this presentation.",
+  "sources": {
+    "scripts/package_multifamily_futures_025.py": "336480659d6f04bd2230e5a873dba5bfc1a9f998eeed37dab802dca11db6a6e1",
+    "scripts/archive_multifamily_futures_025.py": "730e4b230140dbd037eeb2982ec445d780119835535ec92b4f36d9e76fa51670",
+    "scripts/complete_multifamily_futures_025.py": "dfdc0f136045f2cb55008a151c1880690e14dc3b066cfad46fde7cefee3aaab1",
+    "scripts/restore_futures_references_025.py": "fd7353828198d6223e9c2e245f1e50571383036783b385bd1e8e3ba0d882f6b5"
+  }
+}

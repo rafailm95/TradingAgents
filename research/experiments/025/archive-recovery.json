@@ -1,0 +1,25 @@
+{
+  "status": "ALL_PARTS_VERIFIED",
+  "cause": "Archive process unavailable after runtime/tool-context refresh; no financial execution affected.",
+  "parts": 44,
+  "reused_complete_parts": 29,
+  "interrupted": [
+    {
+      "original": "Futures_025_Results_Part5.zip",
+      "retained_path": "/workspace/scratch/2884d1c5ce65/Futures_025_Archive_Interrupted_Part5.zip.partial",
+      "sha256": "d90a0e596017ef6f106eacc7b9d66aef7ebed6ea145bdd69a8ce6481817f1a46",
+      "bytes": 33436057,
+      "error": "File is not a zip file"
+    },
+    {
+      "original": "Futures_025_Results_Part18.zip",
+      "retained_path": "/workspace/scratch/2884d1c5ce65/Futures_025_Archive_Interrupted_Part18.zip.partial",
+      "sha256": "e5f4be6270811bc25286385218d2572063fb0c4dad2dfd76da9b3e7af681fcbf",
+      "bytes": 35505991,
+      "error": "File is not a zip file"
+    }
+  ],
+  "financial_replays": 0,
+  "original_member_hashes_preserved": 1020,
+  "cause_limit": "The two previously logged archive parts were not valid ZIP containers when rechecked. Their corruption cause is unknown. Both original byte streams are preserved. Every original source/result member matched the pre-interruption inventory; no financial replay occurred."
+}

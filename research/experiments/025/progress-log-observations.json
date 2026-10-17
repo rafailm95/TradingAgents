@@ -1,0 +1,26 @@
+[
+  {
+    "stage": "train1",
+    "expected_progress_lines": 60,
+    "observed_progress_lines": 60,
+    "sha256": "2af529584cf4ab6697afff440b47f873a4ac47b1be950f9c704cf6a7fa6f577c",
+    "bytes": 2586,
+    "status": "COMPLETE_PROGRESS_LOG"
+  },
+  {
+    "stage": "train2",
+    "expected_progress_lines": 60,
+    "observed_progress_lines": 60,
+    "sha256": "418a58d91e5286dd80b30577281dff130ffe18251ebfa9065a2c860ab011fc27",
+    "bytes": 2586,
+    "status": "COMPLETE_PROGRESS_LOG"
+  },
+  {
+    "stage": "evaluation",
+    "expected_progress_lines": 96,
+    "observed_progress_lines": 96,
+    "sha256": "564e84620bb43426f8d6dfa500e9bfe2d9ac5061ef0ea25beb9c66c82c26ee10",
+    "bytes": 4392,
+    "status": "COMPLETE_PROGRESS_LOG"
+  }
+]

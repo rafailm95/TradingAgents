@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T18:31:57.934751+00:00",
+  "updated_utc": "2026-10-17T18:50:00.346925+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
-  "unique_signal_families": 35,
-  "unique_sizing_variants": 70,
+  "unique_signal_families": 45,
+  "unique_sizing_variants": 90,
   "historical_scope": "Reused overlapping history; cross-asset tests are correlated. Never count simulations as independent evidence.",
   "completed": [
     {
@@ -533,6 +533,70 @@
         "vwma20_reclaim__vol15_cap50"
       ],
       "reused_WFA_folds": 0
+    },
+    {
+      "id": "025",
+      "status": "COMPLETED",
+      "completed_utc": "2026-10-17T18:50:00.346925+00:00",
+      "type": "USER_AUTHORIZED_TEN_DISTINCT_FAMILIES_TWENTY_VARIANTS",
+      "assets": [
+        "BTCUSDT",
+        "SOLUSDT",
+        "XRPUSDT"
+      ],
+      "new_variants": 20,
+      "new_signal_families": 10,
+      "new_historical_simulations": 960,
+      "new_integrity_replays": 0,
+      "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
+      "results": "research/experiments/025",
+      "report": "docs/MULTIFAMILY_FUTURES_025_RESULTS.md",
+      "reproduce": "docs/MULTIFAMILY_FUTURES_025_REPRODUCE.md",
+      "artifact_receipts": "research/experiments/025/artifact_receipts.json",
+      "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
+      "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+      "selection1_commit": "51490697a8a345ad98bf109f9043f0b758cbd8d5",
+      "selection1_sha256": "ae8ae366ae8c57cb966de631d3f684219a5f8c7bbfcc060d9071ca32fc54be00",
+      "selection2_commit": "7c8d6050dd3f029061b5b224e9c5cfa04af6826b",
+      "selection2_sha256": "0ec0e8c34538821688f6055a44d44ba46a0d28e14b3530098391d3447c2eec7e",
+      "software_tests_passed": 117,
+      "new_tests": 117,
+      "new_wealth_audit_events": 83581464,
+      "max_wealth_error_usdt": "0",
+      "preserved_source_files": 692,
+      "attempts": [
+        {
+          "id": "025-initial",
+          "status": "RUNTIME_INTERRUPTION_PROCESS_ACK_UNKNOWN",
+          "record": "research/experiments/025/runtime-interruption.json",
+          "confirmed_financial_results": 0
+        },
+        {
+          "id": "025-recovery-1",
+          "status": "COMPLETED_ALL_RESULTS_VERIFIED",
+          "new_simulations": 960,
+          "integrity_replays": 0,
+          "progress_log_observations": "research/experiments/025/progress-log-observations.json"
+        }
+      ],
+      "runtime_recovery": "research/experiments/025/runtime-recovery-success.json",
+      "conclusion": "All20newvariants/all3assets/all12scenarios retained. Exact strengths, failures, selections and WFA in summary/report. No retuning or newforwardevidence; historical success is not confirmed futureprofit. Source013/014/023 andprospectivecohorts unchanged.",
+      "new_full_pass_fail": [
+        0,
+        60
+      ],
+      "new_scenario_pass_fail": [
+        86,
+        634
+      ],
+      "new_positive_all12": 13,
+      "WFA_scenario_pass_fail": [
+        6,
+        30
+      ],
+      "cross_asset_new_full_passes": [],
+      "cross_asset_new_positive_all12": [],
+      "reused_WFA_folds": 72
     }
   ],
   "prospective_cohorts": [
@@ -568,53 +632,13 @@
       "next": "Preserve initial023; resume only with a distinct permitted input acquisition and exact missing source hashes, no access bypass or shortened dates. Completeinputfreeze and selection checkpoint required.013prioritized if unifiedBybitpacket arrives."
     }
   ],
-  "active_experiment": {
-    "id": "025",
-    "attempt": "025-recovery-1",
-    "status": "TRAIN2_COMPLETED_AWAITING_REMOTE_SELECTION",
-    "new_families": 10,
-    "new_variants": 20,
-    "planned_total_variants": 90,
-    "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
-    "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
-    "maximum_new_executions": 1035,
-    "new_historical_simulations": 240,
-    "software_tests": 117,
-    "latest_user_scope_override": "Latest2026-10-17request10to30morestrategies;onebatch20variants/10families.",
-    "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
-    "remote_preregistration_verified": true,
-    "verified_new_historical_simulations": 240,
-    "training_launch_state": "No process/session identifier returned; local state must be inspected before any retry.",
-    "runtime_interruption_record": "research/experiments/025/runtime-interruption.json",
-    "recovery_record": "research/experiments/025/runtime-recovery-success.json",
-    "prior_interruption_preserved": true,
-    "selection1_sha256": "ae8ae366ae8c57cb966de631d3f684219a5f8c7bbfcc060d9071ca32fc54be00",
-    "selection1": {
-      "path": "research/experiments/025/selection-train1.json",
-      "chosen": {
-        "BTCUSDT": "fisher10_turn__fixed50",
-        "XRPUSDT": "vortex14_cross__fixed50",
-        "SOLUSDT": "heikin2_trend__fixed50"
-      }
-    },
-    "evaluation_computed": false,
-    "selection1_commit": "51490697a8a345ad98bf109f9043f0b758cbd8d5",
-    "selection2_sha256": "0ec0e8c34538821688f6055a44d44ba46a0d28e14b3530098391d3447c2eec7e",
-    "selection2": {
-      "path": "research/experiments/025/selection-train2.json",
-      "chosen": {
-        "BTCUSDT": "heikin2_trend__vol15_cap50",
-        "XRPUSDT": "obv_breakout__fixed50",
-        "SOLUSDT": "ao_saucer__fixed50"
-      }
-    }
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "8934 design executions +7 prior integrity replays=8941 known executions;70variants/35families.024adds20variants/10families,1032newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
+  "count_note": "9894 design executions +7 prior integrity replays=9901 known executions;90variants/45families.025adds20variants/10families,960newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Complete frozen025train1 then publish selection1;train2 then publish selection2;evaluate all20newvariants on3assets andall12cases. Source/data/rules unchanged. Prior runtime interruption retained, no earlier025financial result identified.013priority ifsingleBybitpacketarrives.",
+  "next_action": "Prioritize single Bybitpacket audit/frozen013 if available.023 remains data-blocked without automatic retries.Otherwise one bounded preregistered futures evidence-gap/distinct-family batch;025parameters/gates never retuned and no automatic paper/live promotion.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
@@ -708,5 +732,8 @@
   "cumulative_known_executions_through_023": 7909,
   "cumulative_known_design_runs_through_024": 8934,
   "additional_integrity_replays_024": 0,
-  "cumulative_known_executions_through_024": 8941
+  "cumulative_known_executions_through_024": 8941,
+  "cumulative_known_design_runs_through_025": 9894,
+  "additional_integrity_replays_025": 0,
+  "cumulative_known_executions_through_025": 9901
 }

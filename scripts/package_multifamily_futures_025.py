@@ -42,7 +42,7 @@ def main():
             if source.read_bytes()!=target.read_bytes():raise ValueError('Previously published selection changed')
         else:shutil.copyfile(source,target)
     e=json.loads((o/'evaluation.json').read_bytes());assets={};metricrows=[];wfarows=[];dailychecks=[];gatecounts=Counter();newpass=newscen=newpositive=wfapass=0;reused_wfa=0
-    alltable=[];wfatable=[];selectiontable=[];shorttable=[];benchrows=[]
+    alltable=[];wfatable=[];selectiontable=[];shorttable=[];benchrows=[];best_new_table=[]
     for symbol,data in sorted(e['assets'].items()):
         cs={c:candidate_summary(rows,data['gates'][c]) for c,rows in data['comparisons'].items()}
         pareto(cs);front=sorted((c for c,v in cs.items() if v['pareto_frontier']),key=lambda c:(-D(cs[c]['worst12']['metrics']['net_return_pct']),c))
@@ -53,6 +53,7 @@ def main():
         new={c:cs[c] for c in NEW_CANDIDATES};np=sum(v['full_pass'] for v in new.values());ns=sum(v['scenario_passes'] for v in new.values());positive=sum(v['positive_all12'] for v in new.values())
         newpass+=np;newscen+=ns;newpositive+=positive;wfapass+=sum(v['passed'] for v in data['walk_forward'].values());reused_wfa+=len(data['reused_wfa_folds'])
         best_new=max(NEW_CANDIDATES,key=lambda c:D(cs[c]['worst12']['metrics']['net_return_pct']))
+        bx=cs[best_new];best_new_table.append([symbol,best_new,perf(bx['base']),perf(bx['stress']),perf(bx['worst12']['metrics']),dd(bx['max_drawdown_scenario']['metrics']),bx['base']['signal_exits'],bx['full_pass'],json.dumps(bx['failed_gate_scenario_counts'])])
         assets[symbol]={'candidates':cs,'new_full_passes':np,'new_scenario_passes':ns,'new_positive_all12':positive,'best_new_worst12':best_new,'main_selection':data['main_selection'],'main_selected_fixed':data['main_selected_fixed'],'second_selection':data['second_selection'],'walk_forward':data['walk_forward'],'WFA_passes':sum(v['passed'] for v in data['walk_forward'].values()),'posthoc_shortlist_distinct_families':shortlist,'benchmarks':data['benchmarks'],'reused_WFA_folds':len(data['reused_wfa_folds'])}
         for c,rows in data['comparisons'].items():
             for row in rows:metricrows.append({'symbol':symbol,'candidate':c,'new025':c in NEW_CANDIDATES,'cost':row['cost'],'lag_days':row['lag_days'],'adverse_funding_5bps':row['adverse_funding_5bps'],**row['metrics']})
@@ -111,6 +112,8 @@ def main():
     ptext.append('Τα παραπάνω όρια είναι ιστορικά φίλτρα. Η υπεραπόδοση έναντι 50% διακράτησης και η στατιστική σημαντικότητα αναφέρονται χωριστά· δεν αποτελούν κρυφά πρόσθετα ή χαλαρωμένα κριτήρια. Ο έλεγχος πολλαπλών συγκρίσεων εξετάζει την αριθμητική μέση ημερήσια υπεραπόδοση, η οποία μπορεί να κατατάσσει διαφορετικά από το τελικό κεφάλαιο λόγω μεταβλητότητας.')
     headers=['Νόμισμα','Στρατηγική','Προέλευση','Βάση','Stress','Χειρότερο 12','Πτώση % / πραγματικό ποσό','Έξοδοι βάσης','Πλήρης επιτυχία','Αποτυχημένα κριτήρια']
     md=['# '+ptext[0],'']+[t+'\n' for t in ptext[1:]]
+    best_headers=['Νόμισμα','Ισχυρότερη νέα εκδοχή στο χειρότερο σενάριο','Βάση','Stress','Χειρότερο12','Πτώση % / πραγματικό ποσό','Έξοδοι βάσης','Πλήρης επιτυχία','Αποτυχημένα κριτήρια']
+    md+=['## Ισχυρότερες νέες ενδείξεις','', '|'+ '|'.join(best_headers)+'|','|'+'|'.join(['---']*len(best_headers))+'|']+['|'+'|'.join(str(x).replace('|','/') for x in row)+'|' for row in best_new_table]+['','## Όλες οι εκδοχές','']
     md+=['|'+ '|'.join(headers)+'|','|'+'|'.join(['---']*len(headers))+'|']+['|'+'|'.join(str(x).replace('|','/') for x in row)+'|' for row in alltable]
     md+=['','## Προεπιλογή και ετήσια διαδρομή','', '|Νόμισμα|Επιλογή2023|Σταθερόbase|Σταθερόstress|Επιλογή2023–2024|WFAbase|WFAstress|','|---|---|---|---|---|---|---|']+['|'+'|'.join(str(x) for x in row)+'|' for row in selectiontable]
     md+=['','## Διαγνωστικοί έλεγχοι πολλαπλών συγκρίσεων','', '```json',json.dumps(e['multiplicity'],indent=2),'```']
@@ -118,6 +121,7 @@ def main():
     (ROOT/'docs/MULTIFAMILY_FUTURES_025_RESULTS.md').write_text('\n'.join(md)+'\n')
     protocol=json.loads((ROOT/'docs/MULTIFAMILY_FUTURES_025.json').read_bytes());familyrows=[[v['id'],v['entry_after_closed_day'],v['exit_after_closed_day'],v['max_actual_holding_days']] for v in protocol['families']]
     body='<h1>'+html.escape(ptext[0])+'</h1>'+''.join('<p>'+html.escape(x)+'</p>' for x in ptext[1:5])
+    body+='<h2>Ισχυρότερες νέες ενδείξεις</h2><p>Περιγραφική επιλογή βάσει της μεγαλύτερης χειρότερης απόδοσης μεταξύ12σεναρίων. Παραμένουν ορατά όλα τα αποτυχημένα κριτήρια.</p>'+table(best_headers,best_new_table)
     body+='<h2>Προεπιλογή και ετήσια διαδρομή</h2>'+table(['Νόμισμα','Επιλογή2023','Base2024–2025','Stress2024–2025','Επιλογή2023–2024','WFAbase','WFAstress'],selectiontable)
     body+='<h2>Ισχυρότερες διερευνητικές ενδείξεις</h2>'+table(['Νόμισμα','Στρατηγική','Χειρότερο12','Πτώση / πραγματικό ποσό','Πλήρης επιτυχία'],shorttable)
     body+='<h2>Όλες οι νέες και παλιές εκδοχές</h2>'+table(headers,alltable)

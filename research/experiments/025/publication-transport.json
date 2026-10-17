@@ -1,0 +1,16 @@
+{
+  "status": "RECOVERED_BY_SMALLER_TREE_REQUESTS",
+  "failed_request": {
+    "operation": "github.create_tree",
+    "error": "HTTP400 MCP request body invalid or exceeds16MiB",
+    "branch_changed": false
+  },
+  "successful_unreferenced_tree_objects": [
+    "af5e84861bac9ed066d9c21e37092c6332385ee5",
+    "b809d89c1318a988a0cf9d3be3d95849e653fe7b"
+  ],
+  "local_staged_tree_matches": "b809d89c1318a988a0cf9d3be3d95849e653fe7b",
+  "financial_calculations_affected": false,
+  "expected_parent": "7c8d6050dd3f029061b5b224e9c5cfa04af6826b",
+  "force": false
+}

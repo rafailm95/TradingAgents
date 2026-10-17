@@ -1,0 +1,30 @@
+{
+  "status": "PROPOSED_NOT_EXECUTED",
+  "priority": "Audit the single consolidated Bybit packet and run unchanged frozen013 if available; no serial collector request.",
+  "fallback": "One bounded preregistered evidence-gap analysis of completed025 cash flows, not parameter tuning or unchanged financial replay.",
+  "scope": {
+    "families": [
+      "ulcer14_recovery",
+      "nvi255_confirm",
+      "klinger3455_cross"
+    ],
+    "variants_per_family": [
+      "fixed50",
+      "vol15_cap50"
+    ],
+    "assets": [
+      "BTCUSDT",
+      "SOLUSDT",
+      "XRPUSDT"
+    ],
+    "maximum_pairs": 18
+  },
+  "question": "How concentrated are returns in individual trades and years, and which exact held intervals explain the frozen lag sensitivity?",
+  "method_to_freeze_before_calculation": [
+    "Use all18 pairs and all12 existing scenarios, including losses.",
+    "Attribute original price/funding/fee/operating cash flows; no hypothetical removal of trades and no new simulated equity.",
+    "Report largest-trade and largest-year contribution, number of independent completed signal exits, and actual changes in entry/exit/funding timestamps across lags.",
+    "Keep all025 gates and selections unchanged; no automatic promotion."
+  ],
+  "new_hypotheses_or_results": 0
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Postprocessing/reporting only. The financial source freeze and all outcome bytes remain unchanged.",
+  "hashes": {
+    "scripts/resume_archive_025.py": "21ecfd8208875b41bfc00e3112f72ebd2f2b0af4ec0e0b144c22b99f0e14364b",
+    "scripts/package_multifamily_futures_025.py": "336480659d6f04bd2230e5a873dba5bfc1a9f998eeed37dab802dca11db6a6e1",
+    "scripts/complete_multifamily_futures_025.py": "dfdc0f136045f2cb55008a151c1880690e14dc3b066cfad46fde7cefee3aaab1",
+    "docs/MULTIFAMILY_FUTURES_025_RESULTS.md": "24f52eee57001e34affbcf4e2bcca245f6c452bdaf014b70af5770fd476baa1d",
+    "docs/MULTIFAMILY_FUTURES_025_STATUS.md": "ec28fbd21d0db3f73bc3735187470bc265cfc7114489d738a16328fb8e7505b6"
+  },
+  "html_sha256": "7131daed2177d28c9e5543280e1f484e5fd86a198a4ab7ddf3e467f179d5ab76"
+}

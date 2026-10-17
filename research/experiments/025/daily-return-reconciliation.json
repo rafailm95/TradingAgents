@@ -1,0 +1,1697 @@
+{
+  "curves": [
+    {
+      "symbol": "BTCUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.547473508864641e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.09405867382884e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.3096723705530167e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.127773430198431e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.7280399333685637e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.000444171950221e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0186340659856796e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.382431946694851e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vortex14_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.2369127944111824e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vortex14_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vortex14_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.291482476517558e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vortex14_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4370016288012266e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "tsi25_13_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.509761204943061e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "tsi25_13_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.2005330063402653e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0550138540565968e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ao_saucer__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.184563972055912e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ao_saucer__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ao_saucer__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.730260793119669e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ao_saucer__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 8.185452315956354e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "fisher10_turn__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "fisher10_turn__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "fisher10_turn__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "fisher10_turn__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.3646862246096134e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "heikin2_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4006218407303095e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "heikin2_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.3096723705530167e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "heikin2_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "heikin2_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.546140993013978e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vwma20_reclaim__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.3642420526593924e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vwma20_reclaim__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6916601452976465e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6189005691558123e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ultimate_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ultimate_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "chop14_release__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "chop14_release__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "chop14_release__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "chop14_release__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "force2_pullback__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 9.822542779147625e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "force2_pullback__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "force2_pullback__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.185452315956354e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "force2_pullback__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "eom14_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "eom14_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.275069270282984e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "eom14_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "eom14_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "rvi10_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "rvi10_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "rvi10_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "rvi10_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "demarker14_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "demarker14_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.9112713895738125e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.184563972055912e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mass925_reversal__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.3646862246096134e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mass925_reversal__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mass925_reversal__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mass925_reversal__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 0.0
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ulcer14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.731149137020111e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ulcer14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.458744898438454e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "trix18_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.800799509510398e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "trix18_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.509761204943061e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "trix18_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.3096723705530167e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "trix18_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.3460521586239338e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "klinger3455_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.549250196665525e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "klinger3455_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 8.913048077374697e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 8.36735125631094e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "nvi255_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6552803572267294e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "nvi255_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.9463186617940664e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6916601452976465e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.964508555829525e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "utc_weekend_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.2369127944111824e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "utc_weekend_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.127773430198431e-10
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mark_discount60__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.003553375601768e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mark_discount60__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.730260793119669e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mark_discount60__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.093170329928398e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "mark_discount60__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.18367562815547e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "semivariance14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.093170329928398e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "semivariance14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.092281986027956e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.820766091346741e-11
+    },
+    {
+      "symbol": "BTCUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.366462912410498e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.185452315956354e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0186340659856796e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0732037480920553e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.3278622645884752e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0550138540565968e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.000888343900442e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vortex14_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.18367562815547e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vortex14_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 8.731149137020111e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vortex14_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.1641532182693481e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vortex14_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0186340659856796e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "tsi25_13_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.1459633242338896e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "tsi25_13_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.546140993013978e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.709850039333105e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.709850039333105e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ao_saucer__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.457856554538012e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ao_saucer__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.5643308870494366e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ao_saucer__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4915713109076023e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ao_saucer__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.509761204943061e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "fisher10_turn__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "fisher10_turn__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "fisher10_turn__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.546585164964199e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "fisher10_turn__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 0.0
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "heikin2_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "heikin2_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "heikin2_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "heikin2_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vwma20_reclaim__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4915713109076023e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vwma20_reclaim__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.730260793119669e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.509761204943061e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6007106751203537e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ultimate_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ultimate_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "chop14_release__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.638867150992155e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "chop14_release__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "chop14_release__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "chop14_release__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 8.731149137020111e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "force2_pullback__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.1827872842550278e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "force2_pullback__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "force2_pullback__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.092281986027956e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "force2_pullback__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.092281986027956e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "eom14_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0368239600211382e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "eom14_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.458744898438454e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "eom14_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "eom14_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.9099388737231493e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "rvi10_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "rvi10_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "rvi10_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.3646862246096134e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "rvi10_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.3646862246096134e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "demarker14_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "demarker14_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mass925_reversal__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.0913936421275139e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mass925_reversal__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mass925_reversal__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mass925_reversal__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.000888343900442e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ulcer14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4006218407303095e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ulcer14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.821654435247183e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.418811734765768e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.3460521586239338e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "trix18_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.8917489796876907e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "trix18_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.5825207810848951e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "trix18_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.7462298274040222e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "trix18_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4370016288012266e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "klinger3455_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.820766091346741e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "klinger3455_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.093614501878619e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.2741809263825417e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "nvi255_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "nvi255_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "utc_weekend_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.1459633242338896e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "utc_weekend_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.546140993013978e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6007106751203537e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mark_discount60__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6189005691558123e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mark_discount60__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.458744898438454e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mark_discount60__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.291482476517558e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "mark_discount60__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.000444171950221e-10
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "semivariance14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.000444171950221e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "semivariance14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.3642420526593924e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "SOLUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "sma200_band__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "sma200_band__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "regression_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "regression_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.7284841053187847e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "keltner_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.4374458007514477e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "keltner_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.255546860396862e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "obv_breakout__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "obv_breakout__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.9281287677586079e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "aroon_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "aroon_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.2741809263825417e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "cci_reversion__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 8.731149137020111e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "cci_reversion__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 6.548361852765083e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "buy_hold50|venue_assumption",
+      "days": 731,
+      "error_usdt": 4.3655745685100555e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "buy_hold50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vortex14_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.9103830456733704e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vortex14_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vortex14_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.2741809263825417e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vortex14_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.09405867382884e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "tsi25_13_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "tsi25_13_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "tsi25_13_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ao_saucer__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.3460521586239338e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ao_saucer__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.546140993013978e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ao_saucer__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.2187229003757238e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ao_saucer__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.5279510989785194e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "fisher10_turn__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "fisher10_turn__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "fisher10_turn__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "fisher10_turn__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "heikin2_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "heikin2_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "heikin2_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "heikin2_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vwma20_reclaim__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.1827872842550278e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vwma20_reclaim__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.001776687800884e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "vwma20_reclaim__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.001776687800884e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ultimate_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ultimate_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ultimate_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "chop14_release__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "chop14_release__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "chop14_release__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "chop14_release__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "force2_pullback__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.1095835361629725e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "force2_pullback__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "force2_pullback__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "force2_pullback__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.638867150992155e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "eom14_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "eom14_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "eom14_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.002665031701326e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "eom14_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.729372449219227e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "rvi10_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.4556356947869062e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "rvi10_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.4565240386873484e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "rvi10_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "rvi10_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.2732925824820995e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "demarker14_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.9103830456733704e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "demarker14_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "demarker14_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mass925_reversal__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.2732925824820995e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mass925_reversal__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mass925_reversal__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mass925_reversal__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ulcer14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ulcer14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.3655745685100555e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.1827872842550278e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "ulcer14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.456079866737127e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "trix18_rebound__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "trix18_rebound__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 2.546585164964199e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "trix18_rebound__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.7284841053187847e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "trix18_rebound__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.638867150992155e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "klinger3455_cross__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.457856554538012e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "klinger3455_cross__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.3655745685100555e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 3.637978807091713e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "klinger3455_cross__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "nvi255_confirm__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "nvi255_confirm__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.8189894035458565e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 7.275957614183426e-12
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "nvi255_confirm__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.6370904631912708e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "utc_weekend_trend__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 6.002665031701326e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "utc_weekend_trend__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 3.456079866737127e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "utc_weekend_trend__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.1095835361629725e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mark_discount60__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 1.1641532182693481e-10
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mark_discount60__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.276845958083868e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mark_discount60__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 2.000888343900442e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "mark_discount60__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 1.4551915228366852e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "semivariance14_recovery__fixed50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.638867150992155e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "semivariance14_recovery__fixed50|stress_assumption",
+      "days": 731,
+      "error_usdt": 9.094947017729282e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|venue_assumption",
+      "days": 731,
+      "error_usdt": 5.4569682106375694e-11
+    },
+    {
+      "symbol": "XRPUSDT",
+      "curve": "semivariance14_recovery__vol15_cap50|stress_assumption",
+      "days": 731,
+      "error_usdt": 4.729372449219227e-11
+    }
+  ],
+  "maximum_error_usdt": 2.4374458007514477e-10
+}

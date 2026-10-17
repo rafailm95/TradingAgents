@@ -1,0 +1,17 @@
+{
+  "preregistration_commit": "7908c83fa681132d376556eb3ebfcbc9777f02f9",
+  "preregistration_tree": "0ebc08397623bd592d4181111b963983d1dd9595",
+  "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+  "runtime_interruption_commits": [
+    "9ff14581655a55ec45513a212962516cca90cd96",
+    "90c6b467e2e75dc03eb24998b18bf1e0fb437f03"
+  ],
+  "recovery_checkpoint_commit": "5c971c26a1d3fd81f7c0385be9ee59a2131f5637",
+  "selection1_commit": "51490697a8a345ad98bf109f9043f0b758cbd8d5",
+  "selection1_sha256": "ae8ae366ae8c57cb966de631d3f684219a5f8c7bbfcc060d9071ca32fc54be00",
+  "selection2_commit": "7c8d6050dd3f029061b5b224e9c5cfa04af6826b",
+  "selection2_sha256": "0ec0e8c34538821688f6055a44d44ba46a0d28e14b3530098391d3447c2eec7e",
+  "verified_remote_before_evaluation": true,
+  "parent_before_results": "7c8d6050dd3f029061b5b224e9c5cfa04af6826b",
+  "all_ref_updates_force": false
+}

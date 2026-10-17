@@ -1,0 +1,19 @@
+{
+  "source_freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+  "full_result_files_verified": 960,
+  "unique_paths": 960,
+  "statuses": {
+    "COMPLETE": 960
+  },
+  "wealth_events": 83581464,
+  "maximum_error_usdt": "0",
+  "integrity_failures": [],
+  "replays": 0,
+  "source_files_verified": 10,
+  "old_files_preserved": 692,
+  "daily_curves_reconciled": 282,
+  "max_daily_terminal_error": 2.4374458007514477e-10,
+  "software_tests": 117,
+  "progress_log_anomalies": [],
+  "financial_result_integrity_unresolved": false
+}
