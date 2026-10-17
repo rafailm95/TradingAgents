@@ -299,7 +299,7 @@
   ],
   "active_experiment": {
     "id": "021",
-    "status": "COLLECTION_PREREGISTERED_NO_PNL",
+    "status": "COLLECTING_REAL_DATA_ENGINE_SOURCE_TESTED",
     "protocol": "docs/FUTURES_ASSETS_021.json",
     "symbols": [
       "BTCUSDT",
@@ -317,7 +317,11 @@
         "new_simulations": 0
       }
     ],
-    "user_asset_extension": "BTC,SOL,XRPexplicit2026-10-17; allpriorfreezesremainunchanged"
+    "user_asset_extension": "BTC,SOL,XRPexplicit2026-10-17; allpriorfreezesremainunchanged",
+    "collection_commit": "76b8a6a825f5da784f3631b455db1b2ee76252fd",
+    "engine_source_freeze_sha256": "0a9cb6f8da44bb5f31a680a26ce4c891ac169fa4a5b96fda0110798b7f4a8824",
+    "engine_tests_passed": 128,
+    "synthetic_full_matrix_executions": 125
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,

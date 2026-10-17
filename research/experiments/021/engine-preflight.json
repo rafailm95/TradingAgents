@@ -1,0 +1,10 @@
+{
+  "tests_passed": 128,
+  "new_tests_since019": 17,
+  "new_tests_this_stage": 4,
+  "synthetic_scenarios_in_new_full_matrix_test": 125,
+  "synthetic_scenarios_are_not_historical_runs": true,
+  "command": "python -m pytest --noconftest -q tests/test_bybit_cashflow.py tests/test_bybit_replay.py tests/test_binance_archive.py tests/test_funding_futures_019.py tests/test_futures_assets_021.py tests/test_futures_assets_replay_021.py",
+  "stdout": "........................................................................ [ 56%]\n........................................................                 [100%]\n128 passed in 20.03s\n",
+  "preflight_failures": []
+}

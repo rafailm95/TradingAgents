@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_BEFORE_REAL_STRATEGY_OUTCOMES",
+  "report_all": "Every tested asset/candidate and every cost/lag/funding scenario, all train selections, cash/hold benchmarks, exact annual capital carry, all failures and all source/data hashes.",
+  "positive_discovery": "Per asset compute each candidate's minimum net return across all12 scenarios and maximum sampled percentage drawdown across all12. Pareto domination means another candidate has at least as high minimum return and at most as high maximum drawdown with one strict improvement. Report all frontier flags; shortlist at most3frontier families per asset sorted by minimum return descending then ID. Descriptive posthoc only, never replaces train selection or acceptance gates.",
+  "drawdown": "Report both percentage and actual equity peak minus trough at the maximum percentage drawdown. Retain independent maximum cash drawdown as a separate exact metric. Never substitute percentage times starting10000.",
+  "cross_asset_gate": "A variant passes across assets only if BTCUSDT,SOLUSDT,XRPUSDT all have complete eligible data and pass all12 evaluation scenarios. Missing/incomplete assets block a cross-asset claim.",
+  "family_scope_limitation": "The six frozen017variants are the complete preregistered transfer set, including both historical strengths and failures. Four other nativeETHvariants (019/020) and fortyspot-only variants are not replayed in this bounded asset-extension batch; alltheir prior results remain. Bootstrap covers the tested6perasset and joint18maximum, not prior50variant/design/search decisions.",
+  "old_ETH_reference": "Reuse already published020all10 summaries for context only. No unchanged ETH simulation; samecalendar dates across assets and oldETH are correlated, not forward or independent evidence.",
+  "next": "Prioritize singleBybitpacket audit; otherwise a separately frozen later-date native futures extension for unchanged rules. No retuning on021results."
+}
