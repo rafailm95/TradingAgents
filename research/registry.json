@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T17:11:45.618397+00:00",
+  "updated_utc": "2026-10-17T18:09:38.617405+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 35,
@@ -568,13 +568,26 @@
       "next": "Preserve initial023; resume only with a distinct permitted input acquisition and exact missing source hashes, no access bypass or shortened dates. Completeinputfreeze and selection checkpoint required.013prioritized if unifiedBybitpacket arrives."
     }
   ],
-  "active_experiment": null,
+  "active_experiment": {
+    "id": "025",
+    "attempt": "025-initial",
+    "status": "PREREGISTERED_AWAITING_REMOTE_CHECKPOINT",
+    "new_families": 10,
+    "new_variants": 20,
+    "planned_total_variants": 90,
+    "protocol": "docs/MULTIFAMILY_FUTURES_025.json",
+    "freeze_sha256": "d1004b32dce61b57dce36eae32901e843146e632813bd90db4ff7b199173eae9",
+    "maximum_new_executions": 1035,
+    "new_historical_simulations": 0,
+    "software_tests": 117,
+    "latest_user_scope_override": "Latest2026-10-17request10to30morestrategies;onebatch20variants/10families."
+  },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "8934 design executions +7 prior integrity replays=8941 known executions;70variants/35families.024adds20variants/10families,1032newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Prioritize single Bybitpacket audit/frozen013 if available.023 remains data-blocked without automatic retries.Otherwise one bounded preregistered futures evidence-gap/distinct-family batch;024parameters/gates never retuned and no automatic paper/live promotion.",
+  "next_action": "Publish025freeze beforePnL;train1,publishselection1;train2,publishselection2;evaluateall20newvariants/all3assets/all12cases. Reuse26compatibleoldresults unchanged.013priorityifpacketarrives;023remainsblocked.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {

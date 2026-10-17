@@ -1,0 +1,13 @@
+{
+  "stage": "SYNTHETIC_PREFLIGHT_BEFORE_FREEZE_OR_REAL_PNL",
+  "initial_failed_tests": 2,
+  "initial_passed_tests": 1,
+  "defects": [
+    "Batch-ID text substitution accidentally changed first WFA year2024 to2025; caused missing-reference/duplicate-filename failures. Restored2024, added explicit distinct-year assertion.",
+    "Nested old WFA reuse needed original source_batch resolution; now respects original source, synthetic reference fixture exposes both cache generations."
+  ],
+  "real_strategy_pnl_before_correction": false,
+  "initial_source": "run_multifamily_futures_025_attempt1.py",
+  "initial_log": "runner-attempt1.log",
+  "no_parameter_or_gate_changes": true
+}

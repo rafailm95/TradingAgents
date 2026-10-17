@@ -1,0 +1,28 @@
+{
+  "new_tests": 117,
+  "passed": 117,
+  "initial_failures": [
+    {
+      "tests_failed": 2,
+      "correction": "research/corrections/025-preflight/correction.json",
+      "phase": "Synthetic only; before real PnL and freeze"
+    }
+  ],
+  "logs": [
+    {
+      "path": "research/experiments/025/signals-preflight-attempt1.log",
+      "sha256": "fca764d6e9053d6ce2c7a044925eb6647ce549121c94e1de96c7b46fd601a7bb",
+      "passed": 114
+    },
+    {
+      "path": "research/experiments/025/runner-preflight-attempt2.log",
+      "sha256": "babfe11a53de1c3a4a2ac3da3c9198979e81095f990d6cab135edd3646863109",
+      "passed": 3
+    }
+  ],
+  "commands": [
+    "python -m pytest --noconftest -q tests/test_multifamily_futures_025.py",
+    "python -m pytest --noconftest -q tests/test_multifamily_runner_025.py"
+  ],
+  "fixtures": "Synthetic only.10familyprefix/futurehourmutation,independentmath/UTCcalendar,20new*3lagaccounting,all26old dispatchidentity,46candidate selection,138pairbootstrap,fullrunneroldreuse/changedWFAcapital. No realstrategyPnL."
+}

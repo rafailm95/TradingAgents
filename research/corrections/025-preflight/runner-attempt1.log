@@ -1,0 +1,358 @@
+FF.                                                                      [100%]
+=================================== FAILURES ===================================
+________ test_full20variant_matrix_reuses_old312_paths_and24_wfa_folds _________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-9/test_full20variant_matrix_reus0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f97b4951970>
+
+    def test_full20variant_matrix_reuses_old312_paths_and24_wfa_folds(tmp_path,monkeypatch):
+        m,prior=prior_fixture(tmp_path,monkeypatch)
+        folders={s:tmp_path/('new-'+s) for s in ('train1','train2','evaluation')}
+        for p in folders.values():p.mkdir()
+        a=new.train_asset((str(tmp_path),str(folders['train1']),'BTCUSDT',{},'train1'))
+        b=new.train_asset((str(tmp_path),str(folders['train2']),'BTCUSDT',{},'train2'))
+        assert a['new_simulations']==b['new_simulations']==40 and len(a['training'])==46
+>       e=new.evaluate_asset((str(tmp_path),str(tmp_path),str(folders['evaluation']),'BTCUSDT',{},a,b))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_multifamily_runner_025.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/run_multifamily_futures_025.py:123: in evaluate_asset
+    r=read_result(path,previous['sha256'],previous['container_sha256'])
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+scripts/run_nr7_futures_020.py:60: in read_result
+    if container_sha and file_sha(path) != container_sha: raise ValueError('Container hash mismatch')
+                         ^^^^^^^^^^^^^^
+scripts/run_binance_replay_017.py:27: in file_sha
+    with Path(path).open('rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/tmp/pytest-of-root/pytest-9/test_full20variant_matrix_reus0/futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/tmp/pytest-of-root/pytest-9/test_full20variant_matrix_reus0/futures-024-evaluation/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json'
+
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py:1013: FileNotFoundError
+----------------------------- Captured stdout call -----------------------------
+train1 BTCUSDT sma200_band__vol15_cap50
+train1 BTCUSDT regression_trend__fixed50
+train1 BTCUSDT keltner_breakout__fixed50
+train1 BTCUSDT obv_breakout__fixed50
+train1 BTCUSDT aroon_trend__fixed50
+train1 BTCUSDT cci_reversion__fixed50
+train2 BTCUSDT sma200_band__vol15_cap50
+train2 BTCUSDT regression_trend__fixed50
+train2 BTCUSDT keltner_breakout__fixed50
+train2 BTCUSDT obv_breakout__fixed50
+train2 BTCUSDT aroon_trend__fixed50
+train2 BTCUSDT cci_reversion__fixed50
+evaluation BTCUSDT sma200_band__vol15_cap50
+evaluation BTCUSDT regression_trend__fixed50
+evaluation BTCUSDT keltner_breakout__fixed50
+evaluation BTCUSDT obv_breakout__fixed50
+evaluation BTCUSDT aroon_trend__fixed50
+evaluation BTCUSDT cci_reversion__fixed50
+WFA BTCUSDT venue_assumption_lag0_adverse0
+WFA BTCUSDT venue_assumption_lag0_adverse1
+WFA BTCUSDT venue_assumption_lag1_adverse0
+WFA BTCUSDT venue_assumption_lag1_adverse1
+WFA BTCUSDT venue_assumption_lag2_adverse0
+WFA BTCUSDT venue_assumption_lag2_adverse1
+WFA BTCUSDT stress_assumption_lag0_adverse0
+WFA BTCUSDT stress_assumption_lag0_adverse1
+WFA BTCUSDT stress_assumption_lag1_adverse0
+WFA BTCUSDT stress_assumption_lag1_adverse1
+WFA BTCUSDT stress_assumption_lag2_adverse0
+WFA BTCUSDT stress_assumption_lag2_adverse1
+train1 BTCUSDT vortex14_cross__fixed50
+train1 BTCUSDT vortex14_cross__vol15_cap50
+train1 BTCUSDT tsi25_13_cross__fixed50
+train1 BTCUSDT tsi25_13_cross__vol15_cap50
+train1 BTCUSDT ao_saucer__fixed50
+train1 BTCUSDT ao_saucer__vol15_cap50
+train1 BTCUSDT fisher10_turn__fixed50
+train1 BTCUSDT fisher10_turn__vol15_cap50
+train1 BTCUSDT heikin2_trend__fixed50
+train1 BTCUSDT heikin2_trend__vol15_cap50
+train1 BTCUSDT vwma20_reclaim__fixed50
+train1 BTCUSDT vwma20_reclaim__vol15_cap50
+train1 BTCUSDT ultimate_rebound__fixed50
+train1 BTCUSDT ultimate_rebound__vol15_cap50
+train1 BTCUSDT chop14_release__fixed50
+train1 BTCUSDT chop14_release__vol15_cap50
+train1 BTCUSDT force2_pullback__fixed50
+train1 BTCUSDT force2_pullback__vol15_cap50
+train1 BTCUSDT eom14_confirm__fixed50
+train1 BTCUSDT eom14_confirm__vol15_cap50
+train2 BTCUSDT vortex14_cross__fixed50
+train2 BTCUSDT vortex14_cross__vol15_cap50
+train2 BTCUSDT tsi25_13_cross__fixed50
+train2 BTCUSDT tsi25_13_cross__vol15_cap50
+train2 BTCUSDT ao_saucer__fixed50
+train2 BTCUSDT ao_saucer__vol15_cap50
+train2 BTCUSDT fisher10_turn__fixed50
+train2 BTCUSDT fisher10_turn__vol15_cap50
+train2 BTCUSDT heikin2_trend__fixed50
+train2 BTCUSDT heikin2_trend__vol15_cap50
+train2 BTCUSDT vwma20_reclaim__fixed50
+train2 BTCUSDT vwma20_reclaim__vol15_cap50
+train2 BTCUSDT ultimate_rebound__fixed50
+train2 BTCUSDT ultimate_rebound__vol15_cap50
+train2 BTCUSDT chop14_release__fixed50
+train2 BTCUSDT chop14_release__vol15_cap50
+train2 BTCUSDT force2_pullback__fixed50
+train2 BTCUSDT force2_pullback__vol15_cap50
+train2 BTCUSDT eom14_confirm__fixed50
+train2 BTCUSDT eom14_confirm__vol15_cap50
+evaluation BTCUSDT vortex14_cross__fixed50
+evaluation BTCUSDT vortex14_cross__vol15_cap50
+evaluation BTCUSDT tsi25_13_cross__fixed50
+evaluation BTCUSDT tsi25_13_cross__vol15_cap50
+evaluation BTCUSDT ao_saucer__fixed50
+evaluation BTCUSDT ao_saucer__vol15_cap50
+evaluation BTCUSDT fisher10_turn__fixed50
+evaluation BTCUSDT fisher10_turn__vol15_cap50
+evaluation BTCUSDT heikin2_trend__fixed50
+evaluation BTCUSDT heikin2_trend__vol15_cap50
+evaluation BTCUSDT vwma20_reclaim__fixed50
+evaluation BTCUSDT vwma20_reclaim__vol15_cap50
+evaluation BTCUSDT ultimate_rebound__fixed50
+evaluation BTCUSDT ultimate_rebound__vol15_cap50
+evaluation BTCUSDT chop14_release__fixed50
+evaluation BTCUSDT chop14_release__vol15_cap50
+evaluation BTCUSDT force2_pullback__fixed50
+evaluation BTCUSDT force2_pullback__vol15_cap50
+evaluation BTCUSDT eom14_confirm__fixed50
+evaluation BTCUSDT eom14_confirm__vol15_cap50
+WFA BTCUSDT venue_assumption_lag0_adverse0
+WFA BTCUSDT venue_assumption_lag0_adverse1
+WFA BTCUSDT venue_assumption_lag1_adverse0
+WFA BTCUSDT venue_assumption_lag1_adverse1
+WFA BTCUSDT venue_assumption_lag2_adverse0
+WFA BTCUSDT venue_assumption_lag2_adverse1
+WFA BTCUSDT stress_assumption_lag0_adverse0
+WFA BTCUSDT stress_assumption_lag0_adverse1
+WFA BTCUSDT stress_assumption_lag1_adverse0
+WFA BTCUSDT stress_assumption_lag1_adverse1
+WFA BTCUSDT stress_assumption_lag2_adverse0
+WFA BTCUSDT stress_assumption_lag2_adverse1
+train1 BTCUSDT rvi10_cross__fixed50
+train1 BTCUSDT rvi10_cross__vol15_cap50
+train1 BTCUSDT demarker14_rebound__fixed50
+train1 BTCUSDT demarker14_rebound__vol15_cap50
+train1 BTCUSDT mass925_reversal__fixed50
+train1 BTCUSDT mass925_reversal__vol15_cap50
+train1 BTCUSDT ulcer14_recovery__fixed50
+train1 BTCUSDT ulcer14_recovery__vol15_cap50
+train1 BTCUSDT trix18_rebound__fixed50
+train1 BTCUSDT trix18_rebound__vol15_cap50
+train1 BTCUSDT klinger3455_cross__fixed50
+train1 BTCUSDT klinger3455_cross__vol15_cap50
+train1 BTCUSDT nvi255_confirm__fixed50
+train1 BTCUSDT nvi255_confirm__vol15_cap50
+train1 BTCUSDT utc_weekend_trend__fixed50
+train1 BTCUSDT utc_weekend_trend__vol15_cap50
+train1 BTCUSDT mark_discount60__fixed50
+train1 BTCUSDT mark_discount60__vol15_cap50
+train1 BTCUSDT semivariance14_recovery__fixed50
+train1 BTCUSDT semivariance14_recovery__vol15_cap50
+train2 BTCUSDT rvi10_cross__fixed50
+train2 BTCUSDT rvi10_cross__vol15_cap50
+train2 BTCUSDT demarker14_rebound__fixed50
+train2 BTCUSDT demarker14_rebound__vol15_cap50
+train2 BTCUSDT mass925_reversal__fixed50
+train2 BTCUSDT mass925_reversal__vol15_cap50
+train2 BTCUSDT ulcer14_recovery__fixed50
+train2 BTCUSDT ulcer14_recovery__vol15_cap50
+train2 BTCUSDT trix18_rebound__fixed50
+train2 BTCUSDT trix18_rebound__vol15_cap50
+train2 BTCUSDT klinger3455_cross__fixed50
+train2 BTCUSDT klinger3455_cross__vol15_cap50
+train2 BTCUSDT nvi255_confirm__fixed50
+train2 BTCUSDT nvi255_confirm__vol15_cap50
+train2 BTCUSDT utc_weekend_trend__fixed50
+train2 BTCUSDT utc_weekend_trend__vol15_cap50
+train2 BTCUSDT mark_discount60__fixed50
+train2 BTCUSDT mark_discount60__vol15_cap50
+train2 BTCUSDT semivariance14_recovery__fixed50
+train2 BTCUSDT semivariance14_recovery__vol15_cap50
+evaluation BTCUSDT rvi10_cross__fixed50
+evaluation BTCUSDT rvi10_cross__vol15_cap50
+evaluation BTCUSDT demarker14_rebound__fixed50
+evaluation BTCUSDT demarker14_rebound__vol15_cap50
+evaluation BTCUSDT mass925_reversal__fixed50
+evaluation BTCUSDT mass925_reversal__vol15_cap50
+evaluation BTCUSDT ulcer14_recovery__fixed50
+evaluation BTCUSDT ulcer14_recovery__vol15_cap50
+evaluation BTCUSDT trix18_rebound__fixed50
+evaluation BTCUSDT trix18_rebound__vol15_cap50
+evaluation BTCUSDT klinger3455_cross__fixed50
+evaluation BTCUSDT klinger3455_cross__vol15_cap50
+evaluation BTCUSDT nvi255_confirm__fixed50
+evaluation BTCUSDT nvi255_confirm__vol15_cap50
+evaluation BTCUSDT utc_weekend_trend__fixed50
+evaluation BTCUSDT utc_weekend_trend__vol15_cap50
+evaluation BTCUSDT mark_discount60__fixed50
+evaluation BTCUSDT mark_discount60__vol15_cap50
+evaluation BTCUSDT semivariance14_recovery__fixed50
+evaluation BTCUSDT semivariance14_recovery__vol15_cap50
+______ test_changed_choice_reuses_identical_prefix_and_carries_exact_cash ______
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-9/test_changed_choice_reuses_ide0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f97cdf052b0>
+
+    def test_changed_choice_reuses_identical_prefix_and_carries_exact_cash(tmp_path,monkeypatch):
+        m,prior=prior_fixture(tmp_path,monkeypatch);folder=tmp_path/'changed';folder.mkdir()
+        c=new.NEW_CANDIDATES[0];monkeypatch.setattr(new,'NEW_CANDIDATES',(c,))
+        a=prior['train1'];b=copy.deepcopy(prior['train2']);b['selection']['selected']=c
+>       e=new.evaluate_asset((str(tmp_path),str(tmp_path),str(folder),'BTCUSDT',{},a,b))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_multifamily_runner_025.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/run_multifamily_futures_025.py:128: in evaluate_asset
+    rec=save(f'wfa_{year}_{key}',r)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+scripts/run_multifamily_futures_025.py:91: in save
+    rec=save_result(folder,name,result);rec['file']=symbol+'/'+rec['file'];records[rec['file']]=rec
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+scripts/run_nr7_futures_020.py:51: in save_result
+    with path.open('xb') as f:
+         ^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/tmp/pytest-of-root/pytest-9/test_changed_choice_reuses_ide0/changed/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json')
+mode = 'xb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileExistsError: [Errno 17] File exists: '/tmp/pytest-of-root/pytest-9/test_changed_choice_reuses_ide0/changed/BTCUSDT/wfa_2025_venue_assumption_lag0_adverse0.envelope.json'
+
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py:1013: FileExistsError
+----------------------------- Captured stdout call -----------------------------
+train1 BTCUSDT sma200_band__vol15_cap50
+train1 BTCUSDT regression_trend__fixed50
+train1 BTCUSDT keltner_breakout__fixed50
+train1 BTCUSDT obv_breakout__fixed50
+train1 BTCUSDT aroon_trend__fixed50
+train1 BTCUSDT cci_reversion__fixed50
+train2 BTCUSDT sma200_band__vol15_cap50
+train2 BTCUSDT regression_trend__fixed50
+train2 BTCUSDT keltner_breakout__fixed50
+train2 BTCUSDT obv_breakout__fixed50
+train2 BTCUSDT aroon_trend__fixed50
+train2 BTCUSDT cci_reversion__fixed50
+evaluation BTCUSDT sma200_band__vol15_cap50
+evaluation BTCUSDT regression_trend__fixed50
+evaluation BTCUSDT keltner_breakout__fixed50
+evaluation BTCUSDT obv_breakout__fixed50
+evaluation BTCUSDT aroon_trend__fixed50
+evaluation BTCUSDT cci_reversion__fixed50
+WFA BTCUSDT venue_assumption_lag0_adverse0
+WFA BTCUSDT venue_assumption_lag0_adverse1
+WFA BTCUSDT venue_assumption_lag1_adverse0
+WFA BTCUSDT venue_assumption_lag1_adverse1
+WFA BTCUSDT venue_assumption_lag2_adverse0
+WFA BTCUSDT venue_assumption_lag2_adverse1
+WFA BTCUSDT stress_assumption_lag0_adverse0
+WFA BTCUSDT stress_assumption_lag0_adverse1
+WFA BTCUSDT stress_assumption_lag1_adverse0
+WFA BTCUSDT stress_assumption_lag1_adverse1
+WFA BTCUSDT stress_assumption_lag2_adverse0
+WFA BTCUSDT stress_assumption_lag2_adverse1
+train1 BTCUSDT vortex14_cross__fixed50
+train1 BTCUSDT vortex14_cross__vol15_cap50
+train1 BTCUSDT tsi25_13_cross__fixed50
+train1 BTCUSDT tsi25_13_cross__vol15_cap50
+train1 BTCUSDT ao_saucer__fixed50
+train1 BTCUSDT ao_saucer__vol15_cap50
+train1 BTCUSDT fisher10_turn__fixed50
+train1 BTCUSDT fisher10_turn__vol15_cap50
+train1 BTCUSDT heikin2_trend__fixed50
+train1 BTCUSDT heikin2_trend__vol15_cap50
+train1 BTCUSDT vwma20_reclaim__fixed50
+train1 BTCUSDT vwma20_reclaim__vol15_cap50
+train1 BTCUSDT ultimate_rebound__fixed50
+train1 BTCUSDT ultimate_rebound__vol15_cap50
+train1 BTCUSDT chop14_release__fixed50
+train1 BTCUSDT chop14_release__vol15_cap50
+train1 BTCUSDT force2_pullback__fixed50
+train1 BTCUSDT force2_pullback__vol15_cap50
+train1 BTCUSDT eom14_confirm__fixed50
+train1 BTCUSDT eom14_confirm__vol15_cap50
+train2 BTCUSDT vortex14_cross__fixed50
+train2 BTCUSDT vortex14_cross__vol15_cap50
+train2 BTCUSDT tsi25_13_cross__fixed50
+train2 BTCUSDT tsi25_13_cross__vol15_cap50
+train2 BTCUSDT ao_saucer__fixed50
+train2 BTCUSDT ao_saucer__vol15_cap50
+train2 BTCUSDT fisher10_turn__fixed50
+train2 BTCUSDT fisher10_turn__vol15_cap50
+train2 BTCUSDT heikin2_trend__fixed50
+train2 BTCUSDT heikin2_trend__vol15_cap50
+train2 BTCUSDT vwma20_reclaim__fixed50
+train2 BTCUSDT vwma20_reclaim__vol15_cap50
+train2 BTCUSDT ultimate_rebound__fixed50
+train2 BTCUSDT ultimate_rebound__vol15_cap50
+train2 BTCUSDT chop14_release__fixed50
+train2 BTCUSDT chop14_release__vol15_cap50
+train2 BTCUSDT force2_pullback__fixed50
+train2 BTCUSDT force2_pullback__vol15_cap50
+train2 BTCUSDT eom14_confirm__fixed50
+train2 BTCUSDT eom14_confirm__vol15_cap50
+evaluation BTCUSDT vortex14_cross__fixed50
+evaluation BTCUSDT vortex14_cross__vol15_cap50
+evaluation BTCUSDT tsi25_13_cross__fixed50
+evaluation BTCUSDT tsi25_13_cross__vol15_cap50
+evaluation BTCUSDT ao_saucer__fixed50
+evaluation BTCUSDT ao_saucer__vol15_cap50
+evaluation BTCUSDT fisher10_turn__fixed50
+evaluation BTCUSDT fisher10_turn__vol15_cap50
+evaluation BTCUSDT heikin2_trend__fixed50
+evaluation BTCUSDT heikin2_trend__vol15_cap50
+evaluation BTCUSDT vwma20_reclaim__fixed50
+evaluation BTCUSDT vwma20_reclaim__vol15_cap50
+evaluation BTCUSDT ultimate_rebound__fixed50
+evaluation BTCUSDT ultimate_rebound__vol15_cap50
+evaluation BTCUSDT chop14_release__fixed50
+evaluation BTCUSDT chop14_release__vol15_cap50
+evaluation BTCUSDT force2_pullback__fixed50
+evaluation BTCUSDT force2_pullback__vol15_cap50
+evaluation BTCUSDT eom14_confirm__fixed50
+evaluation BTCUSDT eom14_confirm__vol15_cap50
+WFA BTCUSDT venue_assumption_lag0_adverse0
+WFA BTCUSDT venue_assumption_lag0_adverse1
+WFA BTCUSDT venue_assumption_lag1_adverse0
+WFA BTCUSDT venue_assumption_lag1_adverse1
+WFA BTCUSDT venue_assumption_lag2_adverse0
+WFA BTCUSDT venue_assumption_lag2_adverse1
+WFA BTCUSDT stress_assumption_lag0_adverse0
+WFA BTCUSDT stress_assumption_lag0_adverse1
+WFA BTCUSDT stress_assumption_lag1_adverse0
+WFA BTCUSDT stress_assumption_lag1_adverse1
+WFA BTCUSDT stress_assumption_lag2_adverse0
+WFA BTCUSDT stress_assumption_lag2_adverse1
+evaluation BTCUSDT rvi10_cross__fixed50
+=========================== short test summary info ============================
+FAILED tests/test_multifamily_runner_025.py::test_full20variant_matrix_reuses_old312_paths_and24_wfa_folds
+FAILED tests/test_multifamily_runner_025.py::test_changed_choice_reuses_identical_prefix_and_carries_exact_cash
+2 failed, 1 passed in 21.22s
