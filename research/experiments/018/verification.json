@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "input_sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+  "result_hashes_verified": 77,
+  "independent_wealth_events": 7149777,
+  "maximum_wealth_error_usdt": "0",
+  "reconstructed_trade_records": 664,
+  "sources_unchanged": true,
+  "output_hashes": {
+    "Futures_018_Concentration_EL.html": "2502960de8c233de6389d7d9913b9d5155d6b31ec192b5471c0c887e0b330517",
+    "RESULTS.md": "f0edb1a6dabaf3f97d0c224d2eae72b08e3390871c139718b23de490ac0d7890",
+    "cases.json": "f83e73c3173c37a504633884ec6d618bbbfb8a92b2e3ac4b2b6aecd5e44478bc",
+    "intent.json": "c06a7f1da8d14ac9d7fe412a900919d1b3c3c1cefd2106ed8a7c9fcf952731ce",
+    "summary.json": "061723273526acac76086eb0f93565c47f968a8f95583d2c08581c3ed560805f"
+  }
+}

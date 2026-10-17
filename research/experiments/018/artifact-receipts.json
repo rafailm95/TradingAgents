@@ -1,0 +1,27 @@
+{
+  "experiment": "018",
+  "files": [
+    {
+      "local_path": "/workspace/scratch/0ebe3a70170f/concentration018/Futures_018_Concentration_EL.html",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000066e481f58f5fe72fb61d801a",
+      "library_file_id": "libfile_385c46a168148191953ea107c4fb5522",
+      "file_name": "Futures_018_Concentration_EL.html",
+      "local_metadata_applied": true,
+      "path": "/Futures_018_Concentration_EL.html",
+      "current_version_number": 0
+    },
+    {
+      "local_path": "/workspace/scratch/0ebe3a70170f/Futures_018_Concentration_Evidence.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000099d081f58e3f47ea7e104da8",
+      "library_file_id": "libfile_8b518834903881918a7954e6e6112d10",
+      "file_name": "Futures_018_Concentration_Evidence.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_018_Concentration_Evidence.zip",
+      "current_version_number": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "archive": "Futures_018_Concentration_Evidence.zip",
+  "sha256": "4dbb6b53155d6bfcf95b2792863f1e808562eb7653c0987108af9facd4c624af",
+  "bytes": 475074,
+  "crc": "PASS",
+  "html_structure": {
+    "tables": 2,
+    "rows": 20
+  },
+  "original_output_hashes_verified": true,
+  "frozen_sources_unchanged": true,
+  "input_dependency": "research/experiments/018/input-reference.json"
+}

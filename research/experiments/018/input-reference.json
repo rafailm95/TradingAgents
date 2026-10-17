@@ -1,0 +1,12 @@
+{
+  "source_experiment": "017",
+  "library_file_id": "libfile_4a34e6a7d2dc8191bca89e277b1fbd97",
+  "file_name": "Futures_Binance_017_Evidence.zip",
+  "sha256": "676079438cd5b4b1d3bb768368bf9ba02518687461fa98f2c85f4bb671f53236",
+  "bytes": 197998387,
+  "restored_and_verified_utc_date": "2026-10-17",
+  "source_commit": "a60537ad04a51b8f05e4afbef9524cc1c8c946be",
+  "input_was_redownloaded_from_exchange": false,
+  "bybit_packet_search": "Exact BYBIT_SEND_THIS.zip and broader BYBIT title searches found only the prior short capture and reports; no unified history packet was found.",
+  "evidence_dependency": "The 018 archive preserves every new diagnostic and its sources. To reproduce from full fills/curves, restore this separately persisted 017 input archive and verify its SHA256. No dependency on prior scratch directories."
+}
