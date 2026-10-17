@@ -1,0 +1,886 @@
+[
+  {
+    "path": "funding019-train1/train1_funding_carry7_momentum28__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train1/train1_funding_carry7_momentum28__fixed50_venue_assumption.json.gz",
+    "sha256": "f26b596494d30f01273ed5c3cdad0c1a0d1d9a79997d52f87d3af744fba3fdf3",
+    "bytes": 1194751,
+    "container_sha256": "f26b596494d30f01273ed5c3cdad0c1a0d1d9a79997d52f87d3af744fba3fdf3",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46409,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train1/train1_funding_carry7_momentum28__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train1/train1_funding_carry7_momentum28__fixed50_stress_assumption.json.gz",
+    "sha256": "f5e213b20e2f62a9bad6863791403300973ece454631e43ff0b5be3046263c70",
+    "bytes": 1180441,
+    "container_sha256": "f5e213b20e2f62a9bad6863791403300973ece454631e43ff0b5be3046263c70",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46409,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train1/train1_funding_carry7_momentum28__vol15_cap50_venue_assumption.json.gz",
+    "original_path": "funding019-train1/train1_funding_carry7_momentum28__vol15_cap50_venue_assumption.json.gz",
+    "sha256": "7aa6830d76b5a09fd93b0ccfc2f4f84c557d26ce834b0c4af7b19c7a65a134e7",
+    "bytes": 1187611,
+    "container_sha256": "7aa6830d76b5a09fd93b0ccfc2f4f84c557d26ce834b0c4af7b19c7a65a134e7",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46409,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train1/train1_funding_carry7_momentum28__vol15_cap50_stress_assumption.json.gz",
+    "original_path": "funding019-train1/train1_funding_carry7_momentum28__vol15_cap50_stress_assumption.json.gz",
+    "sha256": "9e3c2cec936bcb52fd8a60bd1653d8aa33ce058a582fbd2772a3906f33e249f4",
+    "bytes": 1177780,
+    "container_sha256": "9e3c2cec936bcb52fd8a60bd1653d8aa33ce058a582fbd2772a3906f33e249f4",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46409,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_sma200_band__vol15_cap50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_sma200_band__vol15_cap50_venue_assumption.json.gz",
+    "sha256": "75cb20be98bb3fcc3f16a7355c1567d5da8931ebf7c5c678351af46c02f1a2da",
+    "bytes": 2766946,
+    "container_sha256": "75cb20be98bb3fcc3f16a7355c1567d5da8931ebf7c5c678351af46c02f1a2da",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92845,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_sma200_band__vol15_cap50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_sma200_band__vol15_cap50_stress_assumption.json.gz",
+    "sha256": "7faa37c57cbda708b32795fe21dcf2eb705d0b2571c16da7c0c84fa5626d51c2",
+    "bytes": 2712934,
+    "container_sha256": "7faa37c57cbda708b32795fe21dcf2eb705d0b2571c16da7c0c84fa5626d51c2",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92845,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_regression_trend__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_regression_trend__fixed50_venue_assumption.json.gz",
+    "sha256": "2593bd392561ec2e1cd34e192d3bf0d7ea2ee079c01b5062ae6d57dd2de63ced",
+    "bytes": 2398242,
+    "container_sha256": "2593bd392561ec2e1cd34e192d3bf0d7ea2ee079c01b5062ae6d57dd2de63ced",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92851,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_regression_trend__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_regression_trend__fixed50_stress_assumption.json.gz",
+    "sha256": "b7aa1d9261a4f1fafabcd5ac1b417b3eaa269265c010f023a4aa042ba744f562",
+    "bytes": 2370163,
+    "container_sha256": "b7aa1d9261a4f1fafabcd5ac1b417b3eaa269265c010f023a4aa042ba744f562",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92851,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_keltner_breakout__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_keltner_breakout__fixed50_venue_assumption.json.gz",
+    "sha256": "a047cb4a24a9153c1221cb1c348765834868785b959df6296949a87c390eeb06",
+    "bytes": 2193300,
+    "container_sha256": "a047cb4a24a9153c1221cb1c348765834868785b959df6296949a87c390eeb06",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92855,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_keltner_breakout__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_keltner_breakout__fixed50_stress_assumption.json.gz",
+    "sha256": "d3b4b9529c8b05c5b884c3200eeab677481ebb5f51486009ced22f1ee1b829ad",
+    "bytes": 2180923,
+    "container_sha256": "d3b4b9529c8b05c5b884c3200eeab677481ebb5f51486009ced22f1ee1b829ad",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92855,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_obv_breakout__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_obv_breakout__fixed50_venue_assumption.json.gz",
+    "sha256": "07dab5f4a73438fdd7bfe35d1b4f4f5a69b5393865b2fb31e22591b0dccc48bb",
+    "bytes": 2217555,
+    "container_sha256": "07dab5f4a73438fdd7bfe35d1b4f4f5a69b5393865b2fb31e22591b0dccc48bb",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92863,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_obv_breakout__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_obv_breakout__fixed50_stress_assumption.json.gz",
+    "sha256": "0525f5108660f3550d411c05a83ae3489d9e054b0d18814c7a1390ba4cb2df79",
+    "bytes": 2196638,
+    "container_sha256": "0525f5108660f3550d411c05a83ae3489d9e054b0d18814c7a1390ba4cb2df79",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92863,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_aroon_trend__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_aroon_trend__fixed50_venue_assumption.json.gz",
+    "sha256": "b0edcde453de4bca6cf455d9a96c04dd6add45137e91669a8082243fb015770f",
+    "bytes": 2294693,
+    "container_sha256": "b0edcde453de4bca6cf455d9a96c04dd6add45137e91669a8082243fb015770f",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92859,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_aroon_trend__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_aroon_trend__fixed50_stress_assumption.json.gz",
+    "sha256": "26a6fe1d9f1b4150a6887169d17ee04f9988c213b915e0b0f72fd7aa1a2a9f28",
+    "bytes": 2280385,
+    "container_sha256": "26a6fe1d9f1b4150a6887169d17ee04f9988c213b915e0b0f72fd7aa1a2a9f28",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92859,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_cci_reversion__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_cci_reversion__fixed50_venue_assumption.json.gz",
+    "sha256": "28f62e92d4e061187514f12741c0a7ab599ba4131de67d8a109830cb20461a4f",
+    "bytes": 2090127,
+    "container_sha256": "28f62e92d4e061187514f12741c0a7ab599ba4131de67d8a109830cb20461a4f",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92867,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_cci_reversion__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_cci_reversion__fixed50_stress_assumption.json.gz",
+    "sha256": "7f76fda57620fbf2ab26ebd681cf9d5b7fedcabbbeb0f8f2692456ea85b087db",
+    "bytes": 2079390,
+    "container_sha256": "7f76fda57620fbf2ab26ebd681cf9d5b7fedcabbbeb0f8f2692456ea85b087db",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92867,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_funding_carry7_momentum28__fixed50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_funding_carry7_momentum28__fixed50_venue_assumption.json.gz",
+    "sha256": "5d2e658f0eada5b00d8ff9509971b51221885d63dcdc0588a713b699544e0494",
+    "bytes": 2277058,
+    "container_sha256": "5d2e658f0eada5b00d8ff9509971b51221885d63dcdc0588a713b699544e0494",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92927,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_funding_carry7_momentum28__fixed50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_funding_carry7_momentum28__fixed50_stress_assumption.json.gz",
+    "sha256": "19c414b9c875ae6cac430025090fb0e28c15346f280619d9bdffda16cbf0fc93",
+    "bytes": 2257400,
+    "container_sha256": "19c414b9c875ae6cac430025090fb0e28c15346f280619d9bdffda16cbf0fc93",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92927,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_funding_carry7_momentum28__vol15_cap50_venue_assumption.json.gz",
+    "original_path": "funding019-train2/train2_funding_carry7_momentum28__vol15_cap50_venue_assumption.json.gz",
+    "sha256": "8b140aa5194d8cde4404a561cd72a3521de65bdd10125ef4cd757b012ffc61eb",
+    "bytes": 2267410,
+    "container_sha256": "8b140aa5194d8cde4404a561cd72a3521de65bdd10125ef4cd757b012ffc61eb",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92927,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-train2/train2_funding_carry7_momentum28__vol15_cap50_stress_assumption.json.gz",
+    "original_path": "funding019-train2/train2_funding_carry7_momentum28__vol15_cap50_stress_assumption.json.gz",
+    "sha256": "7c0ec057b294a341715977dadde20ee5ee73fab303c844a7e712499ee622ba06",
+    "bytes": 2250404,
+    "container_sha256": "7c0ec057b294a341715977dadde20ee5ee73fab303c844a7e712499ee622ba06",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92927,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag0_adverse0.json.gz",
+    "sha256": "929f210a7f6d272d91f4a71673e6c80f4bc263a52d232472d052ef8938d32def",
+    "bytes": 2243317,
+    "container_sha256": "929f210a7f6d272d91f4a71673e6c80f4bc263a52d232472d052ef8938d32def",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag0_adverse1.json.gz",
+    "sha256": "2b43a5862c271091d7a74f4248c6037f280cd28e84aee0e897386e9af3dbfbbd",
+    "bytes": 2267656,
+    "container_sha256": "2b43a5862c271091d7a74f4248c6037f280cd28e84aee0e897386e9af3dbfbbd",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag1_adverse0.json.gz",
+    "sha256": "4dab2d5b1cdb59a84a0700c6c6770c8757e4da675d1189a9de758aceeac60834",
+    "bytes": 2242013,
+    "container_sha256": "4dab2d5b1cdb59a84a0700c6c6770c8757e4da675d1189a9de758aceeac60834",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag1_adverse1.json.gz",
+    "sha256": "85d0d5b674facdc1c0a5064b4ce6c439ef19d9f619c1bb61f42d141819def8a1",
+    "bytes": 2267348,
+    "container_sha256": "85d0d5b674facdc1c0a5064b4ce6c439ef19d9f619c1bb61f42d141819def8a1",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag2_adverse0.json.gz",
+    "sha256": "109a706c461db0b75aeca78e1a0261d78896b2c8480339450008003f4455406d",
+    "bytes": 2247234,
+    "container_sha256": "109a706c461db0b75aeca78e1a0261d78896b2c8480339450008003f4455406d",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_venue_assumption_lag2_adverse1.json.gz",
+    "sha256": "def9b35c2eebacdb9626533c1d4b9ea5fb5c76d1de1009113d8d934c07e60d66",
+    "bytes": 2266010,
+    "container_sha256": "def9b35c2eebacdb9626533c1d4b9ea5fb5c76d1de1009113d8d934c07e60d66",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag0_adverse0.json.gz",
+    "sha256": "f5bb649eb49415651b4655d064b06874dc9d9202ec7bd25312c36859337e3d63",
+    "bytes": 2222632,
+    "container_sha256": "f5bb649eb49415651b4655d064b06874dc9d9202ec7bd25312c36859337e3d63",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag0_adverse1.json.gz",
+    "sha256": "476405e12d8fb75c5dec115de937b76fbfbb68d7d88ddc0a18ca057c95870eb9",
+    "bytes": 2248999,
+    "container_sha256": "476405e12d8fb75c5dec115de937b76fbfbb68d7d88ddc0a18ca057c95870eb9",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag1_adverse0.json.gz",
+    "sha256": "162e50879bb3b1540901366c5cc271542f4f433828e6c8aa094e10ccd55b3577",
+    "bytes": 2226614,
+    "container_sha256": "162e50879bb3b1540901366c5cc271542f4f433828e6c8aa094e10ccd55b3577",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag1_adverse1.json.gz",
+    "sha256": "70b491d3f65f7a77a80667f9e3b59837fbe3d7762f45187af0dd54bf7a196aa5",
+    "bytes": 2248315,
+    "container_sha256": "70b491d3f65f7a77a80667f9e3b59837fbe3d7762f45187af0dd54bf7a196aa5",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag2_adverse0.json.gz",
+    "sha256": "826baef158bb051558508aaa69a90f2d2130ed34ab49cf44163fd740fcf4fe98",
+    "bytes": 2227667,
+    "container_sha256": "826baef158bb051558508aaa69a90f2d2130ed34ab49cf44163fd740fcf4fe98",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__fixed50_stress_assumption_lag2_adverse1.json.gz",
+    "sha256": "738602418efef92247e750461df4102a08bf7073a91512e708ab386f6ffe8b4c",
+    "bytes": 2249264,
+    "container_sha256": "738602418efef92247e750461df4102a08bf7073a91512e708ab386f6ffe8b4c",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag0_adverse0.json.gz",
+    "sha256": "4f502b04222ca78d118f8ab9cd1f1cc1e3564c52463bc362b72e704ea1339460",
+    "bytes": 2240541,
+    "container_sha256": "4f502b04222ca78d118f8ab9cd1f1cc1e3564c52463bc362b72e704ea1339460",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag0_adverse1.json.gz",
+    "sha256": "d81c419aff24259c8ecb9a8591354be306ff8905148b74371b1a2ea3a8e1d6d6",
+    "bytes": 2262645,
+    "container_sha256": "d81c419aff24259c8ecb9a8591354be306ff8905148b74371b1a2ea3a8e1d6d6",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag1_adverse0.json.gz",
+    "sha256": "8b50bf5988083ec4c40882cd46c01fe24d96b7373a42ba075215dfa7a480e0ef",
+    "bytes": 2235087,
+    "container_sha256": "8b50bf5988083ec4c40882cd46c01fe24d96b7373a42ba075215dfa7a480e0ef",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag1_adverse1.json.gz",
+    "sha256": "205a3923926eaf597d7fc653dfd32cb91e8ca82847c6172e432c83643f35f6ba",
+    "bytes": 2258895,
+    "container_sha256": "205a3923926eaf597d7fc653dfd32cb91e8ca82847c6172e432c83643f35f6ba",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag2_adverse0.json.gz",
+    "sha256": "fb0432401017b30b36355e737d253b5552e54fe3216d95fc1120dba2a50a5c90",
+    "bytes": 2234567,
+    "container_sha256": "fb0432401017b30b36355e737d253b5552e54fe3216d95fc1120dba2a50a5c90",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_venue_assumption_lag2_adverse1.json.gz",
+    "sha256": "f6e1de52957fd8009dd5f5c2db81719f309b29b0e5672b508e2e03e0ceb70b09",
+    "bytes": 2255579,
+    "container_sha256": "f6e1de52957fd8009dd5f5c2db81719f309b29b0e5672b508e2e03e0ceb70b09",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag0_adverse0.json.gz",
+    "sha256": "e131e6a95a4633e9f9733e93a1fbc4ec0098855411ce8a726220b56b1066edd5",
+    "bytes": 2216037,
+    "container_sha256": "e131e6a95a4633e9f9733e93a1fbc4ec0098855411ce8a726220b56b1066edd5",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag0_adverse1.json.gz",
+    "sha256": "d8e47c1b2cdea2e717ab1914c8957f2de9af3c5d41f240f87e70dc56bf1b5473",
+    "bytes": 2241817,
+    "container_sha256": "d8e47c1b2cdea2e717ab1914c8957f2de9af3c5d41f240f87e70dc56bf1b5473",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag1_adverse0.json.gz",
+    "sha256": "a4b494740d17cd71197f5a53926d14c906319574e92e68ddd17bbe4282b9e6b0",
+    "bytes": 2215340,
+    "container_sha256": "a4b494740d17cd71197f5a53926d14c906319574e92e68ddd17bbe4282b9e6b0",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag1_adverse1.json.gz",
+    "sha256": "51b94f00d58d8ac81773bb5281ea91cd9746779be57a23fbf67e0df0475eec50",
+    "bytes": 2241784,
+    "container_sha256": "51b94f00d58d8ac81773bb5281ea91cd9746779be57a23fbf67e0df0475eec50",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92905,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag2_adverse0.json.gz",
+    "sha256": "04d653eb597688f0592afe4842c9fb83e45faa4d19ef0411187a2c21b53ed3ed",
+    "bytes": 2216076,
+    "container_sha256": "04d653eb597688f0592afe4842c9fb83e45faa4d19ef0411187a2c21b53ed3ed",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/eval_funding_carry7_momentum28__vol15_cap50_stress_assumption_lag2_adverse1.json.gz",
+    "sha256": "a408f3ff2696d595ef7adb8f18cec38d8037a7906abd303cae0c49eeefe52f8b",
+    "bytes": 2237108,
+    "container_sha256": "a408f3ff2696d595ef7adb8f18cec38d8037a7906abd303cae0c49eeefe52f8b",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 92903,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_venue_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag0_adverse0.json.gz",
+    "sha256": "1ba6e25dcd54d1bbe0dba6a71992ca58b237557694605cbaa19f12e59ee4a346",
+    "bytes": 1083929,
+    "container_sha256": "1ba6e25dcd54d1bbe0dba6a71992ca58b237557694605cbaa19f12e59ee4a346",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_venue_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag0_adverse0.json.gz",
+    "sha256": "becc4180cb87c620a05546c4d7e583cb74e72fa7a56de6f81b699947e3322173",
+    "bytes": 971477,
+    "container_sha256": "becc4180cb87c620a05546c4d7e583cb74e72fa7a56de6f81b699947e3322173",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-result-recovery-v2/recovered-result-envelope.json",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag0_adverse1.json.gz",
+    "sha256": "19ef0f55be943728ce1c3944e734d406fbc58e0598fffd6114541e4b8f0350e8",
+    "bytes": 1459102,
+    "container_sha256": "d44244b48933b8831ad72a2b3411aa8178ca5515ee746b73873644f8d0bd6a71",
+    "encoding": "base64+gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_venue_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag0_adverse1.json.gz",
+    "sha256": "6295d7e761a57f5bdc34a3979a1a43eb3d591ef3e3b59bb4200d9c53a9b1ddc1",
+    "bytes": 979219,
+    "container_sha256": "6295d7e761a57f5bdc34a3979a1a43eb3d591ef3e3b59bb4200d9c53a9b1ddc1",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_venue_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag1_adverse0.json.gz",
+    "sha256": "84a66db263346d25f4292e81eda21d13ed9cbb8bf8d5419b621d75e98befab94",
+    "bytes": 1083010,
+    "container_sha256": "84a66db263346d25f4292e81eda21d13ed9cbb8bf8d5419b621d75e98befab94",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-result-recovery/wfa_2025_venue_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag1_adverse0.json.gz",
+    "sha256": "91c4540f8a86083060c95d1404f91f04440cf2c5fbae4742ef5d72ff7f98fe1c",
+    "bytes": 973630,
+    "container_sha256": "91c4540f8a86083060c95d1404f91f04440cf2c5fbae4742ef5d72ff7f98fe1c",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_venue_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag1_adverse1.json.gz",
+    "sha256": "d8c9f702feb07b44150f60028227c7ba2b8eb342caca1f15d83307e759ca5f5b",
+    "bytes": 1095156,
+    "container_sha256": "d8c9f702feb07b44150f60028227c7ba2b8eb342caca1f15d83307e759ca5f5b",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_venue_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag1_adverse1.json.gz",
+    "sha256": "84e58ba942dbd561b69ce9797e6bfaccab187800037eab093fdc97cac27d2751",
+    "bytes": 980571,
+    "container_sha256": "84e58ba942dbd561b69ce9797e6bfaccab187800037eab093fdc97cac27d2751",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-result-recovery/wfa_2024_venue_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag2_adverse0.json.gz",
+    "sha256": "8fc9620ba5c7f2f75b4fef82e75788814809841cbc0da28a5c08f6e90c744b43",
+    "bytes": 1083946,
+    "container_sha256": "8fc9620ba5c7f2f75b4fef82e75788814809841cbc0da28a5c08f6e90c744b43",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_venue_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag2_adverse0.json.gz",
+    "sha256": "80cc8917e8886a1e9a98fa119d562d4d9914468ee9577951b0b8491b3a20806b",
+    "bytes": 974600,
+    "container_sha256": "80cc8917e8886a1e9a98fa119d562d4d9914468ee9577951b0b8491b3a20806b",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_venue_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_venue_assumption_lag2_adverse1.json.gz",
+    "sha256": "a14a4e9a268342a72ae4df1774d65a3ad890732b4d26aea3fabe217f7d65521a",
+    "bytes": 1092449,
+    "container_sha256": "a14a4e9a268342a72ae4df1774d65a3ad890732b4d26aea3fabe217f7d65521a",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_venue_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_venue_assumption_lag2_adverse1.json.gz",
+    "sha256": "7fd354feef4fa37d649586247b5dd0ee756736081536861f6a04a918e8d2999e",
+    "bytes": 982428,
+    "container_sha256": "7fd354feef4fa37d649586247b5dd0ee756736081536861f6a04a918e8d2999e",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag0_adverse0.json.gz",
+    "sha256": "47f6ac226c528190c57454bf064bdbdfaa1b070d088f144ae4b45a9379ff95f1",
+    "bytes": 1074665,
+    "container_sha256": "47f6ac226c528190c57454bf064bdbdfaa1b070d088f144ae4b45a9379ff95f1",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-result-recovery/wfa_2025_stress_assumption_lag0_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag0_adverse0.json.gz",
+    "sha256": "dce3ef5dc06a6a8798e070e379479dabcfb952367e4dadabb9cc79b803e211f6",
+    "bytes": 972050,
+    "container_sha256": "dce3ef5dc06a6a8798e070e379479dabcfb952367e4dadabb9cc79b803e211f6",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag0_adverse1.json.gz",
+    "sha256": "85fd9177b90d07e259ac5c4fa405c54096dd373b40c5663e33da75aa1437290c",
+    "bytes": 1086892,
+    "container_sha256": "85fd9177b90d07e259ac5c4fa405c54096dd373b40c5663e33da75aa1437290c",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_stress_assumption_lag0_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag0_adverse1.json.gz",
+    "sha256": "f00ea1db0426ed9a20421ff3cd570d586356f5e0e8ec21ac92ff1a28adeafe1a",
+    "bytes": 978753,
+    "container_sha256": "f00ea1db0426ed9a20421ff3cd570d586356f5e0e8ec21ac92ff1a28adeafe1a",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag1_adverse0.json.gz",
+    "sha256": "a481e5a527a52b8560ce55d6cbceb3c9fa6f29bfa2063555b05513620ed8c626",
+    "bytes": 1076124,
+    "container_sha256": "a481e5a527a52b8560ce55d6cbceb3c9fa6f29bfa2063555b05513620ed8c626",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_stress_assumption_lag1_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag1_adverse0.json.gz",
+    "sha256": "0a3243045348c7e951772603846e22930c354e3f4378bfa95a80b55400477495",
+    "bytes": 969717,
+    "container_sha256": "0a3243045348c7e951772603846e22930c354e3f4378bfa95a80b55400477495",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag1_adverse1.json.gz",
+    "sha256": "4eefe45284737e9157d6b93bcd70f602afdae21331507511c8aaacddbbded2d9",
+    "bytes": 1087639,
+    "container_sha256": "4eefe45284737e9157d6b93bcd70f602afdae21331507511c8aaacddbbded2d9",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_stress_assumption_lag1_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag1_adverse1.json.gz",
+    "sha256": "3b74cb51ceb9ea94d0a16db1846dfced97a91618de839c1bea25ca66a4de4ca0",
+    "bytes": 977069,
+    "container_sha256": "3b74cb51ceb9ea94d0a16db1846dfced97a91618de839c1bea25ca66a4de4ca0",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag2_adverse0.json.gz",
+    "sha256": "c0fb99a35f58d98472cb493ab8c9f8fb20ed170650aa56d4a0bd335060330f35",
+    "bytes": 1075187,
+    "container_sha256": "c0fb99a35f58d98472cb493ab8c9f8fb20ed170650aa56d4a0bd335060330f35",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_stress_assumption_lag2_adverse0.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag2_adverse0.json.gz",
+    "sha256": "ba4e79b29bbbb76f0dcb82ba9e6b2cbc29fd137935b6dd72658202483b92f8f9",
+    "bytes": 972344,
+    "container_sha256": "ba4e79b29bbbb76f0dcb82ba9e6b2cbc29fd137935b6dd72658202483b92f8f9",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2024_stress_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2024_stress_assumption_lag2_adverse1.json.gz",
+    "sha256": "cf9b1fc9281ea277f83ce01fffdeeee6685c4a286816200bad8dce822c6e9e5b",
+    "bytes": 1086548,
+    "container_sha256": "cf9b1fc9281ea277f83ce01fffdeeee6685c4a286816200bad8dce822c6e9e5b",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46518,
+      "max_error_usdt": "0"
+    }
+  },
+  {
+    "path": "funding019-evaluation/wfa_2025_stress_assumption_lag2_adverse1.json.gz",
+    "original_path": "funding019-evaluation/wfa_2025_stress_assumption_lag2_adverse1.json.gz",
+    "sha256": "a6e5195d838d38d531844e89f4e668ddb3e6d5e15b1a6516ccc6c1eb2b3ef46b",
+    "bytes": 978701,
+    "container_sha256": "a6e5195d838d38d531844e89f4e668ddb3e6d5e15b1a6516ccc6c1eb2b3ef46b",
+    "encoding": "gzip",
+    "audit": {
+      "status": "PASS",
+      "events_checked": 46361,
+      "max_error_usdt": "0"
+    }
+  }
+]

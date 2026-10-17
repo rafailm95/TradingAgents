@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T10:19:16.809204+00:00",
+  "updated_utc": "2026-10-17T10:31:29.086734+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 24,
@@ -196,6 +196,32 @@
       "reconstructed_trade_records": 664,
       "new_walk_forward_runs": 0,
       "conclusion": "OBV baseline profit depends on its largest trade: static remainder -98.73 USDT; worst12 -203.44. Keltner and CCI retain positive baseline/stress-lag0 remainders but fail delayed scenarios. All six fail the all12 descriptive filter. Preserve strengths, original gates and cash selection; no retuning or promotion."
+    },
+    {
+      "id": "019",
+      "status": "COMPLETED_WITH_PRESERVED_INTEGRITY_RECOVERIES",
+      "completed_utc": "2026-10-17T10:31:29.086719+00:00",
+      "protocol": "docs/FUNDING_FUTURES_019.json",
+      "report": "docs/FUNDING_FUTURES_019_RESULTS.md",
+      "results": "research/experiments/019",
+      "freeze_sha256": "04c9fb5a8ea26ee1ed3640ec75f2ef524dd50ffce1f9603bbb261ce941ad541d",
+      "remote_freeze_commit": "4119be986ec89e9ab5288aaa3e3121a8a99d7ce3",
+      "remote_selection1_commit": "ba36d9cd4621d3bb81807a3127e3ee85b78c97d0",
+      "remote_selection2_commit": "83a0b9f8f1d7ffb44c0342a601178b957078cdd5",
+      "new_families": 1,
+      "new_variants": 2,
+      "all_variants": 48,
+      "new_scenario_runs": 68,
+      "integrity_replays": 5,
+      "new_gate_passes": 0,
+      "new_gate_failures": 2,
+      "new_scenario_passes": 8,
+      "new_scenario_failures": 16,
+      "all8_full_passes": 0,
+      "wfa_scenario_passes": 4,
+      "wfa_scenario_failures": 8,
+      "wealth_events": 5015876,
+      "conclusion": "New funding+momentum family has34signal exits but negative lag0/lag1 and positive lag2;bothvariantsfailrobustness. Maintrain selects fixed50, evaluation-2.7158%base/-6.8173%stress. Expandingselectionchanges toOBV2025;WFA-22.9064%base/-24.9305%stress;lag2positivebutnotposthocpromotion. Preserve4initialzero-bytefailuresandone repeatedtruncation;5integrityreplays matchoriginalhashes,onefsyncedbase64envelope. No rulechangesornewforwardevidence."
     }
   ],
   "prospective_cohorts": [
@@ -226,31 +252,13 @@
       "next": "Audit BYBIT_SEND_THIS.zip; externally pin archive and engine hashes; train all6variants on3assets, freeze selection, then evaluate all12scenarios plus benchmarks. Preserve all failures."
     }
   ],
-  "active_experiment": {
-    "id": "019",
-    "status": "SECOND_INTEGRITY_RECOVERY_PENDING",
-    "protocol": "docs/FUNDING_FUTURES_019.json",
-    "freeze_sha256": "04c9fb5a8ea26ee1ed3640ec75f2ef524dd50ffce1f9603bbb261ce941ad541d",
-    "new_families": 1,
-    "new_variants": 2,
-    "planned_simulations": 68,
-    "preserved_unfinished": "013awaitssingleBybitpacket",
-    "remote_freeze_commit": "4119be986ec89e9ab5288aaa3e3121a8a99d7ce3",
-    "selection1_sha256": "569510dbbe40d2a121d55cfe5ba2fd553719a31e2c80cb8e1bbcd04e3cd975bc",
-    "completed_new_simulations": 68,
-    "remote_selection1_commit": "ba36d9cd4621d3bb81807a3127e3ee85b78c97d0",
-    "selection2_sha256": "841a467ecff8f93cfe276b366ba6a01eb8d37abdf4f928d722230179353b8f9f",
-    "planned_integrity_replays": 4,
-    "remote_selection2_commit": "83a0b9f8f1d7ffb44c0342a601178b957078cdd5",
-    "completed_integrity_replays": 4,
-    "planned_additional_integrity_replays": 1
-  },
+  "active_experiment": null,
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
-  "count_note": "570 + 1226 + 2020 + 3174 + 174 + 174 + 89 = 7427 research scenario executions on overlapping histories, plus two byte-identical evidence-recovery replays = 7429 total known executions. Still 46 unique sizing variants in 23 families; repeated scenarios are not independent evidence. Synthetic software runs are excluded. Earlier 001/002/006 remain separately documented.",
+  "count_note": "7495researchdesignscenarioexecutions+2old017and5new019integrityrecoveries=7502knownexecutions;48uniquevariants/24families.01877diagnosticpathsarenotstrategyreplays. Reused/correlatedhistories andscenariosarenotindependentsamples.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Publish019freeze; train1andpin; expandingtrain2andpin; evaluateallnewscenarios andcapital-continuousWFA. No parameterchanges.",
+  "next_action": "PrioritizefrozenBybit013onsinglepacketarrival. Otherwiseoneboundedpreregisteredaudit/extensionofnativefutures2026closedprice,mark,fundingdataforunchangedrules. No019retuningorautomaticpromotion.",
   "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
@@ -326,5 +334,8 @@
       "new_variants": 0,
       "new_strategy_simulations": 0
     }
-  ]
+  ],
+  "cumulative_known_design_runs_through_019": 7495,
+  "additional_integrity_replays_019": 5,
+  "cumulative_known_executions_through_019": 7502
 }

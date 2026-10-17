@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "additional_integrity_replays": 1,
+  "envelope_sha256": "d44244b48933b8831ad72a2b3411aa8178ca5515ee746b73873644f8d0bd6a71",
+  "decoded_sha256": "19ef0f55be943728ce1c3944e734d406fbc58e0598fffd6114541e4b8f0350e8",
+  "independent_wealth_audit": {
+    "status": "PASS",
+    "events_checked": 46518,
+    "max_error_usdt": "0"
+  },
+  "original_and_first_recovery_empty_files_retained": true,
+  "cause": "Unknown; second attempt changes persistence only, using in-memory deterministic serialization and fsync of a base64 envelope. No rules/inputs/outcomes change."
+}

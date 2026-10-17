@@ -1,0 +1,65 @@
+{
+  "report": {
+    "local_path": "/workspace/scratch/2884d1c5ce65/Futures_019_Funding_EL.html",
+    "purpose": "create_library_file",
+    "status": "succeeded",
+    "file_id": "file_000000004d1081f6accd01b2303e086f",
+    "library_file_id": "libfile_19554a27616881918c655cefcd405c42",
+    "file_name": "Futures_019_Funding_EL.html",
+    "local_metadata_applied": true,
+    "path": "/Futures_019_Funding_EL.html",
+    "current_version_number": 0,
+    "sha256": "b3d434519323de570e7240153bb52c20b989436b6f87f6a11f53042b58493670"
+  },
+  "evidence_parts": [
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_019_Evidence_Part1.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_000000001e9481f59d2892e0cd2df4a1",
+      "library_file_id": "libfile_53a065ef7eb081919cb6bc5a264ede52",
+      "file_name": "Futures_019_Evidence_Part1.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_019_Evidence_Part1.zip",
+      "current_version_number": 0,
+      "sha256": "71443bab8d0159f4cae8c887e7c027c8b32d920d0ac2f99f3e2216fe978515d7",
+      "bytes": 35519221
+    },
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_019_Evidence_Part2.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000e93081f5bdcf51bc185443a8",
+      "library_file_id": "libfile_3c1190bf37048191a53c4eb14321ab34",
+      "file_name": "Futures_019_Evidence_Part2.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_019_Evidence_Part2.zip",
+      "current_version_number": 0,
+      "sha256": "5f586b73e1fe4b9b599d1ba12ce0fc407695b2836d26896056900df828119986",
+      "bytes": 34877529
+    },
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_019_Evidence_Part3.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_00000000dd0081f5a966ca7c4edb9cc4",
+      "library_file_id": "libfile_a1f39814a200819186b78e329f3efe61",
+      "file_name": "Futures_019_Evidence_Part3.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_019_Evidence_Part3.zip",
+      "current_version_number": 0,
+      "sha256": "00bd8a95856112b16814a22e65ddef2b855770ce2172aa35703a17fac98ae8ca",
+      "bytes": 35185789
+    }
+  ],
+  "evidence_complete": true,
+  "all123_original_members_preserved": true,
+  "extract_all3_into_same_directory": true,
+  "whole_archive_not_persisted": {
+    "file": "Futures_019_Funding_Evidence.zip",
+    "sha256": "633bd89dad2175d17a288d8dc68a33cd332b8d5b1c1a8af11b94eb6dc8d9cd75",
+    "attempts": 2,
+    "error": "transfer_failed",
+    "resolution": "Allmemberspersistedin3independentlyverifiedsmallerZIPs; whole localZIP is optional only."
+  }
+}

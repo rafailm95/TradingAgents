@@ -1,0 +1,10 @@
+{
+  "archive": "Futures_019_Funding_Evidence.zip",
+  "sha256": "633bd89dad2175d17a288d8dc68a33cd332b8d5b1c1a8af11b94eb6dc8d9cd75",
+  "bytes": 105581604,
+  "entries": 123,
+  "accepted_results_verified": 68,
+  "zero_byte_originals_preserved": 4,
+  "zero_byte_first_recovery_preserved": 1,
+  "status": "PASS"
+}

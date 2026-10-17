@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "new_files_verified": 68,
+  "new_wealth_events": 5015876,
+  "maximum_decimal_discrepancy_usdt": "0",
+  "preserved_old_files": 487,
+  "software_tests": 111,
+  "new_tests": 33,
+  "preflight_failure": "One test import-path failure corrected before freeze; retained in preflight.json.",
+  "new_strategy_replays_for_verification": 0,
+  "input_sha256": "cccf3ff868465439ede973dd505c95d906c9e6eb9a9c31263c040fd053ccd00e",
+  "additional_integrity_replays": 5,
+  "recovery": "Four original zero-byte files retained; one first-recovery file became zero-byte again. One bounded second recovery uses an fsynced base64 envelope. All68resolved outputs match original manifestSHA exactly. Both failures preserved, cause unknown; no rule/input/metric changes."
+}

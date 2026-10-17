@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "reason": "Whole105.6MBarchive transfer_failed twice; use3smallerstandaloneZIPs, no further whole-file retries.",
+  "source_archive_sha256": "633bd89dad2175d17a288d8dc68a33cd332b8d5b1c1a8af11b94eb6dc8d9cd75",
+  "all123originalmembers_preserved": true,
+  "parts": [
+    {
+      "file": "Futures_019_Evidence_Part1.zip",
+      "bytes": 35519221,
+      "sha256": "71443bab8d0159f4cae8c887e7c027c8b32d920d0ac2f99f3e2216fe978515d7",
+      "original_members": 42
+    },
+    {
+      "file": "Futures_019_Evidence_Part2.zip",
+      "bytes": 34877529,
+      "sha256": "5f586b73e1fe4b9b599d1ba12ce0fc407695b2836d26896056900df828119986",
+      "original_members": 43
+    },
+    {
+      "file": "Futures_019_Evidence_Part3.zip",
+      "bytes": 35185789,
+      "sha256": "00bd8a95856112b16814a22e65ddef2b855770ce2172aa35703a17fac98ae8ca",
+      "original_members": 38
+    }
+  ],
+  "extract_all_three_into_same_directory": true
+}
