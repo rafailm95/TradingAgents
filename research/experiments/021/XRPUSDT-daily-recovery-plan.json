@@ -1,0 +1,46 @@
+{
+  "missing_kind_days": 7,
+  "daily_kind_days": [
+    [
+      "klines",
+      1645747200000
+    ],
+    [
+      "klines",
+      1645833600000
+    ],
+    [
+      "klines",
+      1645920000000
+    ],
+    [
+      "klines",
+      1646006400000
+    ],
+    [
+      "klines",
+      1648771200000
+    ],
+    [
+      "klines",
+      1648857600000
+    ],
+    [
+      "markPriceKlines",
+      1664582400000
+    ],
+    [
+      "markPriceKlines",
+      1664668800000
+    ],
+    [
+      "markPriceKlines",
+      1677110400000
+    ],
+    [
+      "markPriceKlines",
+      1677196800000
+    ]
+  ],
+  "rule": "Missing UTCdays plus previousday inside month, otherwise nextday. Exact overlap required; never replace conflicting observations."
+}

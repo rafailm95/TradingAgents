@@ -1,0 +1,30 @@
+{
+  "symbol": "BTCUSDT",
+  "status": "COMPLETE",
+  "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+  "normalized_sha256": "7c9124b3259aa45445a1dd4e924a8749fad4b21a60965c03e0094ecc2c0d7b50",
+  "normalized_bytes": 2004849,
+  "audit": {
+    "status": "COMPLETE",
+    "venue": "Binance USD-M perpetual",
+    "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+    "archives": 144,
+    "daily_recovery_archives": 6,
+    "recovered_real_hours": 72,
+    "matched_overlap_hours": 72,
+    "start_ms": 1640995200000,
+    "end_exclusive_ms": 1767225600000,
+    "max_funding_clock_offset_ms": 31,
+    "per_symbol": {
+      "BTCUSDT": {
+        "trade_hours": 35064,
+        "mark_hours": 35064,
+        "funding_events": 4383
+      }
+    },
+    "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+    "no_price_imputation": true,
+    "strategy_pnl_computed": false
+  },
+  "new_strategy_simulations": 0
+}

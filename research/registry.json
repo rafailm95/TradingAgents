@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T12:42:03.439209+00:00",
+  "updated_utc": "2026-10-17T13:53:27.698420+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 25,
@@ -299,7 +299,7 @@
   ],
   "active_experiment": {
     "id": "021",
-    "status": "COLLECTING_REAL_DATA_ENGINE_SOURCE_TESTED",
+    "status": "INPUTS_AND_ENGINE_FROZEN_BEFORE_TRAINING",
     "protocol": "docs/FUTURES_ASSETS_021.json",
     "symbols": [
       "BTCUSDT",
@@ -313,7 +313,7 @@
     "attempts": [
       {
         "id": "021-initial",
-        "status": "COLLECTION_READY",
+        "status": "DATA_COMPLETE_BTC_XRP_SOL_FUNDING_CADENCE_REJECTED",
         "new_simulations": 0
       }
     ],
@@ -321,15 +321,24 @@
     "collection_commit": "76b8a6a825f5da784f3631b455db1b2ee76252fd",
     "engine_source_freeze_sha256": "0a9cb6f8da44bb5f31a680a26ce4c891ac169fa4a5b96fda0110798b7f4a8824",
     "engine_tests_passed": 128,
-    "synthetic_full_matrix_executions": 125
+    "synthetic_full_matrix_executions": 125,
+    "engine_freeze_sha256": "84a327534067a10aca16eb0cb8e162914b84ce78d2a149098595600484ad5f34",
+    "eligible_assets": [
+      "BTCUSDT",
+      "XRPUSDT"
+    ],
+    "excluded_before_pnl": [
+      "SOLUSDT"
+    ],
+    "actual_maximum_new_runs": 250
   },
   "real_orders_authorized": false,
   "paid_model_calls_authorized": false,
   "cumulative_known_simulations_003_007_009": 3816,
   "count_note": "7527 design scenario executions +7 prior integrity replays=7534 known executions;50 unique variants/25families.020adds32 executions and reuses24WFAfolds,32training,96fixed paths and5benchmarks. Reused/correlated histories are not independent evidence.",
   "cumulative_known_simulations_003_007_009_011": 6990,
-  "next_action": "Prioritize frozen013 after singleBybitpacket audit. Otherwise preregister one bounded2026nativefutures price/mark/funding extension for unchanged rules before any PnL. No020retuning, unchanged reruns for profit or automatic promotion.",
-  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
+  "next_action": "021: publish final exact input/engine freeze beforetrain1, pin eachchronologicalselection beforeevaluation. SOL strictcadencefailure remains. No strategy results computed yet.",
+  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022\u20132025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",

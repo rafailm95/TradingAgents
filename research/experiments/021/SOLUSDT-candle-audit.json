@@ -1,0 +1,15 @@
+{
+  "status": "CANDLES_COMPLETE_FUNDING_SCHEDULE_UNVALIDATED",
+  "symbol": "SOLUSDT",
+  "counts": {
+    "klines": 35064,
+    "markPriceKlines": 35064
+  },
+  "recovered_real_hours": 168,
+  "matched_overlap_hours": 72,
+  "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+  "raw_funding_events_captured": 4458,
+  "strict_funding_auditor_still_failed": true,
+  "strategy_pnl_computed": false,
+  "note": "Additionalread-only candleaudit,not correctionoforiginalfundingcontract. No funding rates fabricated/aggregated. NoSOLsimulationauthorizedbythisdiagnostic."
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "XRPUSDT",
+  "status": "COMPLETE",
+  "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+  "normalized_sha256": "367f1d7bef2bafd09da18e8514c4a3b5b7319085f8aa2cb7c33c3f58b0b6e7d6",
+  "normalized_bytes": 1652135,
+  "audit": {
+    "status": "COMPLETE",
+    "venue": "Binance USD-M perpetual",
+    "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+    "archives": 144,
+    "daily_recovery_archives": 10,
+    "recovered_real_hours": 168,
+    "matched_overlap_hours": 72,
+    "start_ms": 1640995200000,
+    "end_exclusive_ms": 1767225600000,
+    "max_funding_clock_offset_ms": 31,
+    "per_symbol": {
+      "XRPUSDT": {
+        "trade_hours": 35064,
+        "mark_hours": 35064,
+        "funding_events": 4383
+      }
+    },
+    "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+    "no_price_imputation": true,
+    "strategy_pnl_computed": false
+  },
+  "new_strategy_simulations": 0
+}

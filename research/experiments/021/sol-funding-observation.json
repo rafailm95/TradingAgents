@@ -1,0 +1,20 @@
+{
+  "observed_utc": "2026-10-17T13:37:00Z",
+  "observation_before_any_strategy_PnL": true,
+  "source_archive": "SOLUSDT-fundingRate-2022-11.zip",
+  "source_event_counts": {
+    "8h": 64,
+    "4h": 2,
+    "2h": 99
+  },
+  "source_total_events": 165,
+  "strict_expected_events_in_November": 90,
+  "initial_contract_outcome": "BLOCKED: strict8hourfundingauditor rejects changedcadence. Preserve original protocol/source; no aggregation, invented missing rates or shortenedwindow.",
+  "independent_primary_source": {
+    "url": "https://www.binance.com/en/support/announcement/detail/e8be17e1e544418490e86723d84759f0",
+    "published": "2022-11-09 17:05",
+    "retrieved": "2026-10-17",
+    "summary": "Binance announced SOLperpetual fundingfrequency increase starting2022-11-09T20UTC and noted furtherintervalchanges mayoccur withoutnewannouncement."
+  },
+  "next_bounded_gap": "Validate actual cadence transitions, coverage and eventtiming under a separately preregistered additivecontract; preserve strict021failure. No013/014oroldstrategychanges."
+}

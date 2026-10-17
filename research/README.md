@@ -32,3 +32,5 @@ One NR7 daily-close family, two unchanged sizings, ETHUSDT native Binance future
 ## Batch021 user-directed futures asset extension
 
 BTCUSDT,SOLUSDT,XRPUSDT, native Binance2022–2025. Six existing017variants unchanged; maximum375scenarioexecutions ifallthreeassetscomplete. Collection/access/coverage first, then separate exact engine/inputfreeze before any PnL.124synthetictests13new. No newvariant or prospectivecohort. SingleBybitpacket and013design unchanged.
+
+021 input checkpoint: all432monthly+26officialdaily archives preserved. BTC/XRP each35064tradehours,35064markhours,4383actualfundingevents; complete strictaudit. SOL each35064trade/markhours audited but4458fundingevents include2h/4hcadence inNovember2022; excludedbeforePnL underoriginalstrict8hcontract. No strategy rules/costs/gates changed. Final250scenario plan onBTC/XRP; exactfreeze in research/experiments/021/engine-freeze.json.

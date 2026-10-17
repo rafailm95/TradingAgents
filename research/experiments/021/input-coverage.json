@@ -1,0 +1,246 @@
+{
+  "BTCUSDT": {
+    "status": "COMPLETE",
+    "monthly_archives_verified": 144,
+    "monthly_row_counts": {
+      "fundingRate": 4383,
+      "klines": 35064,
+      "markPriceKlines": 34992
+    },
+    "raw_funding_interval_hours_counts": {
+      "8": 4383
+    },
+    "interval_changes": [
+      {
+        "actual_utc": "2022-01-01T00:00:00.006000+00:00",
+        "interval_hours_column": 8,
+        "gap_from_prior_event_hours": null
+      }
+    ],
+    "monthly_candle_gaps": [
+      {
+        "kind": "markPriceKlines",
+        "period": "2022-07",
+        "missing_hours": 24,
+        "utc_days": [
+          "2022-07-31"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2022-10",
+        "missing_hours": 24,
+        "utc_days": [
+          "2022-10-02"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2023-02",
+        "missing_hours": 24,
+        "utc_days": [
+          "2023-02-24"
+        ]
+      }
+    ],
+    "strict_funding_failures": [],
+    "completed_audit": {
+      "status": "COMPLETE",
+      "venue": "Binance USD-M perpetual",
+      "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+      "archives": 144,
+      "daily_recovery_archives": 6,
+      "recovered_real_hours": 72,
+      "matched_overlap_hours": 72,
+      "start_ms": 1640995200000,
+      "end_exclusive_ms": 1767225600000,
+      "max_funding_clock_offset_ms": 31,
+      "per_symbol": {
+        "BTCUSDT": {
+          "trade_hours": 35064,
+          "mark_hours": 35064,
+          "funding_events": 4383
+        }
+      },
+      "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+      "no_price_imputation": true,
+      "strategy_pnl_computed": false
+    },
+    "stop": null,
+    "manifest_sha256": "a31a076a26d96fd63f785e63013012c4ba7b9a2458a3961495df22861fdeaed7",
+    "strategy_pnl_computed": false
+  },
+  "SOLUSDT": {
+    "status": "EXCLUDED_BEFORE_PNL",
+    "monthly_archives_verified": 144,
+    "monthly_row_counts": {
+      "fundingRate": 4458,
+      "klines": 34944,
+      "markPriceKlines": 35016
+    },
+    "raw_funding_interval_hours_counts": {
+      "8": 4357,
+      "4": 2,
+      "2": 99
+    },
+    "interval_changes": [
+      {
+        "actual_utc": "2022-01-01T00:00:00.006000+00:00",
+        "interval_hours_column": 8,
+        "gap_from_prior_event_hours": null
+      },
+      {
+        "actual_utc": "2022-11-09T20:00:00.018000+00:00",
+        "interval_hours_column": 4,
+        "gap_from_prior_event_hours": 4.0
+      },
+      {
+        "actual_utc": "2022-11-10T04:00:00.011000+00:00",
+        "interval_hours_column": 2,
+        "gap_from_prior_event_hours": 4.0
+      },
+      {
+        "actual_utc": "2022-11-18T16:00:00+00:00",
+        "interval_hours_column": 8,
+        "gap_from_prior_event_hours": 8.0
+      }
+    ],
+    "monthly_candle_gaps": [
+      {
+        "kind": "klines",
+        "period": "2022-02",
+        "missing_hours": 72,
+        "utc_days": [
+          "2022-02-26",
+          "2022-02-27",
+          "2022-02-28"
+        ]
+      },
+      {
+        "kind": "klines",
+        "period": "2022-04",
+        "missing_hours": 48,
+        "utc_days": [
+          "2022-04-01",
+          "2022-04-02"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2022-10",
+        "missing_hours": 24,
+        "utc_days": [
+          "2022-10-02"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2023-02",
+        "missing_hours": 24,
+        "utc_days": [
+          "2023-02-24"
+        ]
+      }
+    ],
+    "strict_funding_failures": [
+      {
+        "period": "2022-11",
+        "kind": "fundingRate",
+        "strict_auditor_failure": "Changed funding cadence or malformed row"
+      }
+    ],
+    "completed_audit": null,
+    "stop": {
+      "symbol": "SOLUSDT",
+      "status": "BLOCKED_OR_INCOMPLETE",
+      "error": "ValueError: Changed funding cadence or malformed row",
+      "verified_monthly_archives": 144,
+      "verified_daily_archives": 10,
+      "new_strategy_simulations": 0
+    },
+    "manifest_sha256": "90d11e87d2ffbaf2ffd280351e27d0e8a2347c3a8e238e0640a59b9df8587b81",
+    "strategy_pnl_computed": false
+  },
+  "XRPUSDT": {
+    "status": "COMPLETE",
+    "monthly_archives_verified": 144,
+    "monthly_row_counts": {
+      "fundingRate": 4383,
+      "klines": 34944,
+      "markPriceKlines": 35016
+    },
+    "raw_funding_interval_hours_counts": {
+      "8": 4383
+    },
+    "interval_changes": [
+      {
+        "actual_utc": "2022-01-01T00:00:00.006000+00:00",
+        "interval_hours_column": 8,
+        "gap_from_prior_event_hours": null
+      }
+    ],
+    "monthly_candle_gaps": [
+      {
+        "kind": "klines",
+        "period": "2022-02",
+        "missing_hours": 72,
+        "utc_days": [
+          "2022-02-26",
+          "2022-02-27",
+          "2022-02-28"
+        ]
+      },
+      {
+        "kind": "klines",
+        "period": "2022-04",
+        "missing_hours": 48,
+        "utc_days": [
+          "2022-04-01",
+          "2022-04-02"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2022-10",
+        "missing_hours": 24,
+        "utc_days": [
+          "2022-10-02"
+        ]
+      },
+      {
+        "kind": "markPriceKlines",
+        "period": "2023-02",
+        "missing_hours": 24,
+        "utc_days": [
+          "2023-02-24"
+        ]
+      }
+    ],
+    "strict_funding_failures": [],
+    "completed_audit": {
+      "status": "COMPLETE",
+      "venue": "Binance USD-M perpetual",
+      "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+      "archives": 144,
+      "daily_recovery_archives": 10,
+      "recovered_real_hours": 168,
+      "matched_overlap_hours": 72,
+      "start_ms": 1640995200000,
+      "end_exclusive_ms": 1767225600000,
+      "max_funding_clock_offset_ms": 31,
+      "per_symbol": {
+        "XRPUSDT": {
+          "trade_hours": 35064,
+          "mark_hours": 35064,
+          "funding_events": 4383
+        }
+      },
+      "execution_rules": "Hypothetical fine-lot execution assumptions, NOT current or historical Binance order filters. Public exchangeInfo returned451; no bypass or inferred filters.",
+      "no_price_imputation": true,
+      "strategy_pnl_computed": false
+    },
+    "stop": null,
+    "manifest_sha256": "cbcd757fe196184fbcaa1ef85fc6a55de3cd43894aa509d30566da1af13dd068",
+    "strategy_pnl_computed": false
+  }
+}

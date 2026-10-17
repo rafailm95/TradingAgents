@@ -1,0 +1,8 @@
+{
+  "symbol": "SOLUSDT",
+  "status": "BLOCKED_OR_INCOMPLETE",
+  "error": "ValueError: Changed funding cadence or malformed row",
+  "verified_monthly_archives": 144,
+  "verified_daily_archives": 10,
+  "new_strategy_simulations": 0
+}

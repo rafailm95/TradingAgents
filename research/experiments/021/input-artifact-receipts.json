@@ -1,0 +1,17 @@
+{
+  "input_parts": [
+    {
+      "local_path": "/workspace/scratch/2884d1c5ce65/Futures_021_Inputs_Part1.zip",
+      "purpose": "create_library_file",
+      "status": "succeeded",
+      "file_id": "file_0000000084e881f6b939aa3aa2119ce1",
+      "library_file_id": "libfile_6cc1ae1b5ca88191bfac77daa3674334",
+      "file_name": "Futures_021_Inputs_Part1.zip",
+      "local_metadata_applied": true,
+      "path": "/Futures_021_Inputs_Part1.zip",
+      "current_version_number": 0,
+      "sha256": "5b83978eb5b4afc30d8a686c9a794c9681eb4230908f87f363ed0229bbc60da4",
+      "bytes": 12471707
+    }
+  ]
+}
