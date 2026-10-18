@@ -1,0 +1,11 @@
+{
+  "repository": "rafailm95/TradingAgents",
+  "branch": "codex/research-continuation-20261016",
+  "source_commit": "9f824bb65116ce00fab411abbbaa4b3d6872aaa9",
+  "freeze_sha256": "c5aabfd7d164fea1ab48ea94e52b2863d531431e4cb7f1510bc2262c685d846b",
+  "purpose": "Public collection code, no credentials/orders. Optional settings are the only user-editable file.",
+  "filename": "Bybit_Complete_Packet_20261018.zip",
+  "bytes": 71415,
+  "sha256": "a741d8c87462efa806d8f8ad778b3cabe35447d535864e99ad6f20fc60685ea5",
+  "members": 15
+}
