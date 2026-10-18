@@ -1,0 +1,7 @@
+{
+  "attempt1": "Generic application conftest imported missingyfinance before tests; no network call. Subsequent tests use --noconftest and isolated research dependencies.",
+  "attempt2": "24 adapted collector tests passed.",
+  "attempt3": "New extension test module used a top-level import although tests are a package; corrected test import.",
+  "attempt4": "37passed,1failed: synthetic4hour funding fixture inherited last16UTC from8hour fixture, omitting20UTC. Corrected fixture timestamp; observed-event collector was unchanged.",
+  "final": "146passed, including38 new026 tests and108 existing accounting/collector tests. Synthetic only,0actualAPIrequests,0strategyexecutions."
+}

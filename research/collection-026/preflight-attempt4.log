@@ -1,0 +1,24 @@
+.........................F............                                   [100%]
+=================================== FAILURES ===================================
+____________ test_funding_variable_cadence_preserved_not_certified _____________
+
+tmp_path = PosixPath('/tmp/pytest-of-root/pytest-1/test_funding_variable_cadence_0')
+
+    def test_funding_variable_cadence_preserved_not_certified(tmp_path):
+        j, server, _=setup(tmp_path)
+        def mutate(p,k,s):
+            if k=='funding' and s=='SOLUSDT':
+                t=int(p['result']['list'][0]['fundingRateTimestamp'])
+                for i,row in enumerate(p['result']['list']): row['fundingRateTimestamp']=str(t-i*4*b.HOUR)
+        server.mutate=mutate
+        end=b.utc_ms(j.core['end_exclusive_utc'])
+        result=b.observed_funding(j,'SOLUSDT',end-b.DAY,end)
+>       assert result['events']==6 and result['cadence_ms']=={str(4*b.HOUR):6}
+E       assert (5 == 6)
+
+tests/test_bybit_packet_026_extensions.py:39: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Public request 1: funding SOLUSDT; saved 0.0 MB
+=========================== short test summary info ============================
+FAILED tests/test_bybit_packet_026_extensions.py::test_funding_variable_cadence_preserved_not_certified
+1 failed, 37 passed in 3.27s

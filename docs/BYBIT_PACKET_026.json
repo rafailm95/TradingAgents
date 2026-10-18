@@ -1,0 +1,83 @@
+{
+  "schema": "bybit_packet_026_v1",
+  "host": "https://api.bybit.com",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "LTCUSDT",
+    "SOLUSDT",
+    "XRPUSDT"
+  ],
+  "category": "linear",
+  "core_history_protocol": "docs/BYBIT_HISTORY_013.json",
+  "hourly_supplements": [
+    "index",
+    "premium"
+  ],
+  "fine_history_days": 365,
+  "fine_interval_minutes": 5,
+  "fine_series": [
+    "trade",
+    "mark"
+  ],
+  "open_interest_days": 365,
+  "open_interest_interval": "1h",
+  "account_ratio_period": "1d",
+  "live_rounds": 865,
+  "live_interval_seconds": 300,
+  "paired_book_delay_seconds": 2,
+  "orderbook_levels": 1000,
+  "recent_trades_limit": 100,
+  "live_goal_note": "865rounds spaced at least5minutes cover approximately72hours without interruptions. Each round records current instrument,ticker,two orderbooks and a100trade tail for each symbol. Reconnection never invents past samples; downtime is recorded and extends the finish time. This is sampled depth, not continuous level2 or a full trade tape.",
+  "timeout_seconds": 20,
+  "request_spacing_seconds": 0.3,
+  "transient_attempts": 3,
+  "retry_delays_seconds": [
+    5,
+    15
+  ],
+  "transient_rule": "Only connection/timeouts,HTTP429/5xx andAPI10006get at most3attempts per logical request. Stop onHTTP401/403,redirect,HTML/non-JSON or clock/integrity failure. No proxies, alternate hosts or authenticated APIs. This new014transport supersedes013no-retry behavior without modifying013sources.",
+  "max_requests": 40000,
+  "max_response_bytes": 15000000,
+  "max_evidence_bytes": 350000000,
+  "max_wall_days": 7,
+  "minimum_free_bytes": 3000000000,
+  "history_coverage": "Frozen013 originalBTC/ETH/LTC core unchanged. Additional five-symbol history starts2021-01-01 through the last fully closedUTCday pinned at first launch. Missing/prelaunch rows remain explicit gaps; no fabricated candles. Trade/mark5min365days,1min30days, index/premium1h, OI1h365days and account-ratio1d. Allactual funding timestamps retained; variable cadence needs review.",
+  "finish_extension": "Extend all five symbols: hourlytrade/mark/index/premium,5min/1mintrade/mark,OI,account-ratio and actualfunding from first-launch cutoff to lastclosedUTCday atfinish. Separatefromfrozen013.",
+  "resume": "One START_ALL.cmd resumes the same folder. Only hash-verified successful immutable historical requests are reused; live requests have unique round IDs and are never reused as later observations. Old013pages are imported only from matching verified sibling folders if available.",
+  "packaging": "One BYBIT_SEND_THIS.zip. Exact response bytes compressed losslessly as .bin.gz. 350MBcompressed evidence cap plus bounded journal;480MBfinal archive bound. Stop with partial evidence on resource limits.",
+  "unknowns": [
+    "account-specific maker/taker fees",
+    "actual user leverage and margin mode",
+    "historical instrument/risk-rule versions",
+    "tick-level historical book and actual fills",
+    "unobserved future market regimes",
+    "future strategy profitability"
+  ],
+  "research_assumptions": {
+    "initial_usdt": 10000,
+    "leverage": 1,
+    "entry_notional_cap_pct": 50,
+    "fee_bps_each_side": [
+      5.5,
+      10
+    ]
+  },
+  "orders": 0,
+  "private_api_calls": 0,
+  "source_documents": [
+    "https://bybit-exchange.github.io/docs/v5/market/kline",
+    "https://bybit-exchange.github.io/docs/v5/market/mark-kline",
+    "https://bybit-exchange.github.io/docs/v5/market/index-kline",
+    "https://bybit-exchange.github.io/docs/v5/market/premium-index-kline",
+    "https://bybit-exchange.github.io/docs/v5/market/history-fund-rate",
+    "https://bybit-exchange.github.io/docs/v5/market/open-interest",
+    "https://bybit-exchange.github.io/docs/v5/market/long-short-ratio",
+    "https://bybit-exchange.github.io/docs/v5/market/risk-limit",
+    "https://bybit-exchange.github.io/docs/v5/market/recent-trade",
+    "https://bybit-exchange.github.io/docs/v5/market/orderbook",
+    "https://bybit-exchange.github.io/docs/v5/market/instrument"
+  ],
+  "minute_history_days": 30,
+  "max_observed_funding_pages": 400
+}

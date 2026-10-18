@@ -1,0 +1,31 @@
+{
+  "standalone_checks": [
+    {
+      "command": [
+        "scripts/verify_bybit_packet_026.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PACKAGE VERIFIED. Public GET only; no account login or orders.\n"
+    },
+    {
+      "command": [
+        "scripts/collect_bybit_packet_026.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: collect_bybit_packet_026.py [-h] [--output OUTPUT]\n\nOne public, five-symbol research packet. No credentials or order capability.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n"
+    },
+    {
+      "command": [
+        "scripts/audit_bybit_packet_026.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: audit_bybit_packet_026.py [-h] --input INPUT --sha256 SHA256 --output\n                                 OUTPUT\n\nOffline integrity and semantic audit of a returned unified Bybit evidence ZIP.\n\noptions:\n  -h, --help       show this help message and exit\n  --input INPUT\n  --sha256 SHA256\n  --output OUTPUT\n"
+    }
+  ],
+  "optional_settings_edit_allowed": true,
+  "source_tamper_refused_before_collection": true,
+  "real_network_requests": 0,
+  "preflight_archive_not_for_distribution": true
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-17T18:50:00.346925+00:00",
+  "updated_utc": "2026-10-18T00:52:17.871447+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 45,
@@ -699,9 +699,28 @@
       "real_strategy_simulations": 0,
       "new_variants": 0,
       "planned_historical_runs": 267
+    },
+    {
+      "id": "collection_026",
+      "status": "IMPLEMENTED_TESTED_FROZEN_PENDING_USER_CAPTURE",
+      "report": "docs/BYBIT_PACKET_026_STATUS.md",
+      "protocol": "docs/BYBIT_PACKET_026.json",
+      "freeze_sha256": "c5aabfd7d164fea1ab48ea94e52b2863d531431e4cb7f1510bc2262c685d846b",
+      "tests_passed": 146,
+      "new_tests": 38,
+      "actual_api_requests": 0,
+      "strategy_simulations": 0,
+      "symbols": [
+        "BTCUSDT",
+        "ETHUSDT",
+        "LTCUSDT",
+        "SOLUSDT",
+        "XRPUSDT"
+      ],
+      "preserves": "All previoussourcefiles/freezes/cohorts; onlymutable registry pointer updated."
     }
   ],
-  "collection_current": "docs/BYBIT_COMPLETE_014.json supersedes separate collection instructions;013research design and all prior results remain frozen.",
+  "collection_current": "docs/BYBIT_PACKET_026.json: user-requested five-symbol packet, START_ALL.cmd and oneBYBIT_SEND_THIS.zip. Preserve014/013sources; audit026container and pinadditive013inputbridge beforePnL.",
   "cumulative_known_simulations_003_007_009_011_015": 7164,
   "cumulative_known_simulations_003_007_009_011_015_016": 7338,
   "cumulative_known_design_runs_through_017": 7427,
