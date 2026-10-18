@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-18T01:05:40.447826+00:00",
+  "updated_utc": "2026-10-18T01:26:50.191452+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 45,
@@ -731,6 +731,21 @@
       "accepted_new_market_observations": 0,
       "strategy_simulations": 0,
       "scope": "Optional history-only; no live72hourrounds or closingextension. All prior sources/freezes unchanged. ActualColabnetworkaccess untested."
+    },
+    {
+      "id": "collection_026_browser_depth_history_profile",
+      "status": "IMPLEMENTED_TESTED_PENDING_USER_COLAB_ACCESS",
+      "report": "docs/BYBIT_BROWSER_DEPTH_20261018.md",
+      "notebook": "notebooks/Bybit_Depth_and_History_One_Click.ipynb",
+      "tests_passed": 57,
+      "new_tests": 11,
+      "live_rounds_default": 25,
+      "new_live_books_maximum": 250,
+      "actual_api_requests_this_iteration": 0,
+      "actual_colab_execution": false,
+      "new_market_observations": 0,
+      "strategy_simulations": 0,
+      "scope": "Depth first(~2hours),then unchanged026history;oneZIP, optional auditedpreviousZIPimport. Original72hourgoal remainsPARTIAL. No source/freezes/cohorts modified."
     }
   ],
   "collection_current": "docs/BYBIT_PACKET_026.json: user-requested five-symbol packet, START_ALL.cmd and oneBYBIT_SEND_THIS.zip. Preserve014/013sources; audit026container and pinadditive013inputbridge beforePnL.",
