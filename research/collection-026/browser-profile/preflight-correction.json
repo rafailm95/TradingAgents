@@ -1,0 +1,10 @@
+{
+  "initial_test_result": {"passed":44,"failed":1},
+  "failed_test":"test_interrupt_keeps_response_journal_and_partial_zip",
+  "observed_error":"ValueError: Historical summary mismatch",
+  "cause":"The inherited synthetic Server raises Exception instances but KeyboardInterrupt derives directly from BaseException. The fixture returned the exception as a fake HTTP response instead of raising it, allowing unrelated synthetic collection to proceed.",
+  "correction":"Use a dedicated transport that actually raises KeyboardInterrupt. No production collector, auditor, history rules or source pins changed for this correction.",
+  "initial_test_source":"research/collection-026/browser-profile/preflight-test-initial.py",
+  "real_api_calls_for_tests":0,
+  "strategy_simulations":0
+}

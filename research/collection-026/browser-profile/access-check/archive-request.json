@@ -1,0 +1,10 @@
+{
+  "url": "https://public.bybit.com/trading/SOLUSDT/SOLUSDT2021-07-01.csv.gz",
+  "utc": "2026-10-18T01:00:00.182514+00:00",
+  "attempts": 1,
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 195,
+  "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7",
+  "gzip_magic": false
+}

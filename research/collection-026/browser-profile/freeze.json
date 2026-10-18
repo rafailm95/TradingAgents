@@ -1,0 +1,20 @@
+{
+  "schema": "bybit_browser_history_profile_v1",
+  "parent_commit": "979001bdce0c7f16d3c5213c610b4e6027019893",
+  "packet026_sha256": "a741d8c87462efa806d8f8ad778b3cabe35447d535864e99ad6f20fc60685ea5",
+  "sources": {
+    "scripts/collect_bybit_history_browser.py": "c7eb664775f531ff935c0735d6c96abd65d56470059d0b5051724fc023cecaac",
+    "scripts/build_bybit_history_notebook.py": "0d80afaae1088ffeb244962e2ecdae3d74febade49a251b2baf7d698f189a5e9",
+    "tests/test_bybit_history_browser.py": "1310bbc0fb592ff49a6aa496df002f5e3a9a3fe2d274dfe23cb0304962d52e17",
+    "notebooks/Bybit_History_One_Click.ipynb": "1163c80229bdd0710bb405ec90147fe1e203750f43a3757748ea6af3b8b4216d",
+    "docs/BYBIT_BROWSER_COLLECTION_20261018.md": "c128f5d352cce15b63b21f3199ab055f194a71583f9c8ed5bd02fadcb00cce5a"
+  },
+  "prior_tracked_files_verified_unchanged_excluding_mutable_registry": 758,
+  "registry_unchanged_fields_verified": true,
+  "tests_passed": 46,
+  "new_tests": 8,
+  "actual_colab_run": false,
+  "actual_mainnet_api_probes": 1,
+  "accepted_new_observations": 0,
+  "strategy_simulations": 0
+}

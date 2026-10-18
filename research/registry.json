@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_utc": "2026-10-18T00:52:17.871447+00:00",
+  "updated_utc": "2026-10-18T01:05:40.447826+00:00",
   "policy": "docs/RESEARCH_CONTINUATION_POLICY.json",
   "research_branch": "codex/research-continuation-20261016",
   "unique_signal_families": 45,
@@ -319,7 +319,7 @@
       "preserved_source_files": 554,
       "excluded_asset_details": {
         "SOLUSDT": {
-          "reason": "Πραγματική αλλαγή funding σε 4 και 2 ώρες τον Νοέμβριο 2022· ο παγωμένος έλεγχος απαιτεί 8 ώρες. Διατηρούνται 4.458 πραγματικά γεγονότα, χωρίς προσομοίωση SOL.",
+          "reason": "\u03a0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03bb\u03bb\u03b1\u03b3\u03ae funding \u03c3\u03b5 4 \u03ba\u03b1\u03b9 2 \u03ce\u03c1\u03b5\u03c2 \u03c4\u03bf\u03bd \u039d\u03bf\u03ad\u03bc\u03b2\u03c1\u03b9\u03bf 2022\u00b7 \u03bf \u03c0\u03b1\u03b3\u03c9\u03bc\u03ad\u03bd\u03bf\u03c2 \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03c2 \u03b1\u03c0\u03b1\u03b9\u03c4\u03b5\u03af 8 \u03ce\u03c1\u03b5\u03c2. \u0394\u03b9\u03b1\u03c4\u03b7\u03c1\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 4.458 \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac \u03b3\u03b5\u03b3\u03bf\u03bd\u03cc\u03c4\u03b1, \u03c7\u03c9\u03c1\u03af\u03c2 \u03c0\u03c1\u03bf\u03c3\u03bf\u03bc\u03bf\u03af\u03c9\u03c3\u03b7 SOL.",
           "raw_error": "ValueError: Changed funding cadence or malformed row",
           "status": "EXCLUDED_BEFORE_PNL",
           "verified_monthly_archives": 144,
@@ -639,7 +639,7 @@
   "count_note": "9894 design executions +7 prior integrity replays=9901 known executions;90variants/45families.025adds20variants/10families,960newexecutions. Sharedhistory andsizingvariants are notindependent discoveries.",
   "cumulative_known_simulations_003_007_009_011": 6990,
   "next_action": "Prioritize single Bybitpacket audit/frozen013 if available.023 remains data-blocked without automatic retries.Otherwise one bounded preregistered futures evidence-gap/distinct-family batch;025parameters/gates never retuned and no automatic paper/live promotion.",
-  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022–2025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
+  "execution_realism": "017 uses native Binance hourly perpetual trades, mark prices and actual funding rates for 2022\u20132025. Execution fees, slippage, fine-lot filters and funding settlement valuation are explicit assumptions; historical books/fills and personal fees remain unavailable. The earlier 36 real Bybit books and 600 funding events remain diagnostics, not Bybit strategy PnL. Frozen Bybit 013 awaits its single historical packet.",
   "measurement_runs": [
     {
       "id": "bybit-20261016",
@@ -718,6 +718,19 @@
         "XRPUSDT"
       ],
       "preserves": "All previoussourcefiles/freezes/cohorts; onlymutable registry pointer updated."
+    },
+    {
+      "id": "collection_026_browser_history_profile",
+      "status": "IMPLEMENTED_TESTED_PENDING_USER_COLAB_ACCESS",
+      "report": "docs/BYBIT_BROWSER_COLLECTION_20261018.md",
+      "notebook": "notebooks/Bybit_History_One_Click.ipynb",
+      "tests_passed": 46,
+      "new_tests": 8,
+      "fresh_api_probes": 1,
+      "official_download_probes": 2,
+      "accepted_new_market_observations": 0,
+      "strategy_simulations": 0,
+      "scope": "Optional history-only; no live72hourrounds or closingextension. All prior sources/freezes unchanged. ActualColabnetworkaccess untested."
     }
   ],
   "collection_current": "docs/BYBIT_PACKET_026.json: user-requested five-symbol packet, START_ALL.cmd and oneBYBIT_SEND_THIS.zip. Preserve014/013sources; audit026container and pinadditive013inputbridge beforePnL.",
